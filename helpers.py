@@ -265,3 +265,16 @@ class Utils(object):
             cur_dict[word] += 1
         else:
             cur_dict[word] = 1
+    
+    # Define label/target tensor
+    def tensor_from_weight(self, tensor_size, facts, label):
+        weight_tensor = torch.zeros(tensor_size)
+        for label_word in label:
+            order = -1
+            for _, pred, obj in facts:
+                order += 1
+                data_word = "{}++$++{}".format(pred, obj)
+                if label_word == data_word:
+                    weight_tensor[order] += label[label_word]
+                    break
+        return weight_tensor / torch.sum(weight_tensor)
