@@ -259,3 +259,9 @@ class Utils(object):
                 tokens_a.pop()
             else:
                 tokens_b.pop()
+                
+    def counter(self, cur_dict, word):
+        if word in cur_dict:
+            cur_dict[word] += 1
+        else:
+            cur_dict[word] = 1

@@ -11,6 +11,8 @@ from stop_words import get_stop_words
 from nltk.corpus import stopwords
 from rdflib.plugins.parsers.ntriples import NTriplesParser, Sink
 
+utils = Utils()
+
 class ESBenchmark(object):
     def __init__(self, file_n = 6, topk=5, weighted_adjacency_matrix=False):
         #define dataset url
@@ -153,6 +155,38 @@ class ESBenchmark(object):
                 test_data_perfold.append(edesc)
             test_data.append(test_data_perfold)
         return test_data
+    
+    def prepare_labels(self, ds_name, num, top_n, file_n):
+        if ds_name == "dbpedia":
+            db_path = os.path.join(self.IN_ESBM_DIR, "dbpedia_data")
+        elif ds_name == "lmdb":
+            db_path = os.path.join(self.IN_ESBM_DIR, "lmdb_data")
+        elif ds_name == "faces":
+            db_path = os.path.join(self.IN_ESBM_DIR, "faces_data")
+        else:
+            raise ValueError(self.value_error)
+        per_entity_label_dict = {}
+        class IndexSink(Sink):
+            i = 0
+            j = 0
+            def triple(self,s,p,o):
+                #parse s,p,o to dictionaries/databases
+                s = s.toPython()
+                p = p.toPython()
+                o = o.toPython()
+                triple_tuple = (s, p, o)
+                triples.append(triple_tuple)
+        IndexSink = IndexSink()        
+        for i in range(file_n):
+            triples = []    
+            parser = NTriplesParser(IndexSink)
+            with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, top_n, i)), 'rb') as reader:
+                parser.parse(reader)
+            for s, p, o in triples:
+                utils.counter(per_entity_label_dict, "{}++$++{}".format(p, o))
+            
+        return per_entity_label_dict
+            
     
     def get_predicates_corpus(self, ds_name):
         train_data, _ = self.get_training_dataset(ds_name)
