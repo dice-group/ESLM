@@ -18,7 +18,18 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from gensim.models.keyedvectors import KeyedVectors
 
 nltk.download('punkt')
+class InputFeatures(object):
+    """A single set of features of data."""
 
+    def __init__(self, input_ids, input_mask, segment_ids, label_id, ori_tokens, ori_labels):
+
+        self.input_ids = input_ids
+        self.input_mask = input_mask
+        self.segment_ids = segment_ids
+        self.label_id = label_id
+        self.ori_tokens = ori_tokens
+        self.ori_labels = ori_labels
+        
 class Utils(object):
     def __init__(self):
         self.root_dir = os.getcwd()
@@ -195,3 +206,56 @@ class Utils(object):
         obj_tensor = torch.tensor(arrays_obj_literal_list).unsqueeze(1)
       
         return pred_tensor, obj_tensor
+    
+    def convert_to_features(self, t_literals, tokenizer, max_sequence_length):
+        features = []
+        for sl, pl, ol in t_literals:
+            tokens_a = tokenizer.tokenize(pl)
+            tokens_b = tokenizer.tokenize(ol)
+            self.truncate_seq_pair(tokens_a, tokens_b, max_sequence_length - 3)
+            
+            tokens = ["[CLS]"] + tokens_a + ["[SEP]"]
+            segment_ids = [0] * len(tokens)
+    
+            if tokens_b:
+                tokens += tokens_b + ["[SEP]"]
+                segment_ids += [1] * (len(tokens_b) + 1)
+            input_ids = tokenizer.convert_tokens_to_ids(tokens)
+            input_mask = [1] * len(input_ids)
+    
+            # Zero-pad up to the sequence length.
+            padding = [0] * (max_sequence_length - len(input_ids))
+            input_ids += padding
+            input_mask += padding
+            segment_ids += padding
+            
+            assert len(input_ids) == max_sequence_length
+            assert len(input_mask) == max_sequence_length
+            assert len(segment_ids) == max_sequence_length
+            
+            features.append(InputFeatures(
+                              input_ids=input_ids,
+                              input_mask=input_mask,
+                              segment_ids=segment_ids,
+                              label_id=None,
+                              ori_tokens=tokens,
+                              ori_labels=None 
+                            ))
+        
+        return features
+        
+    def truncate_seq_pair(self, tokens_a, tokens_b, max_length):
+        """Truncates a sequence pair in place to the maximum length."""
+    
+        # This is a simple heuristic which will always truncate the longer sequence
+        # one token at a time. This makes more sense than truncating an equal percent
+        # of tokens from each, since if one sequence is very short then each token
+        # that's truncated likely contains more information than a longer sequence.
+        while True:
+            total_length = len(tokens_a) + len(tokens_b)
+            if total_length <= max_length:
+                break
+            if len(tokens_a) > len(tokens_b):
+                tokens_a.pop()
+            else:
+                tokens_b.pop()
