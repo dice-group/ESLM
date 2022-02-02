@@ -1,0 +1,23 @@
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/order http://dbpedia.org/resource/Lepidoptera 	0.052723074737141225
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/family http://dbpedia.org/resource/Gelechiidae 	0.052723074737141225
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/phylum http://dbpedia.org/resource/Arthropod 	0.052723074737141225
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/class http://dbpedia.org/resource/Insect 	0.052723074737141225
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/kingdom http://dbpedia.org/resource/Animal 	0.052723074737141225
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/genus http://dbpedia.org/resource/Bryotropha 	0.052723074737141225
+http://dbpedia.org/resource/Bryotropha_plantariella http://xmlns.com/foaf/0.1/name Bryotropha plantariella 	0.04454497016197782
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/2000/01/rdf-schema#label Bryotropha plantariella 	0.04454497016197782
+http://dbpedia.org/resource/Bryotropha_plantariella http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Moths_described_in_1848 	0.04181893530359002
+http://dbpedia.org/resource/Bryotropha_plantariella http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Insects_of_Europe 	0.04181893530359002
+http://dbpedia.org/resource/Bryotropha_plantariella http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Bryotropha 	0.04181893530359002
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/synonym *Gelechia cinerosella (Tengström, 1848) 	0.040455917874396126
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/synonym *Gelechia serrulatella (Tengström, 1848) 	0.040455917874396126
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/synonym *Bryotropha brevipalpella (Rebel, 1893) 	0.040455917874396126
+http://dbpedia.org/resource/Bryotropha_plantariella http://dbpedia.org/ontology/synonym *Gelechia plantariella (Tengström, 1848) 	0.040455917874396126
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Animal 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q19088 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Eukaryote 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Species 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q729 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Insect 	0.03841139173060527
+http://dbpedia.org/resource/Bryotropha_plantariella http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q1390 	0.03841139173060527

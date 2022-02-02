@@ -1,0 +1,220 @@
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Trachelipodidae')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Malacostraca')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/2000/01/rdf-schema#label', 'Trachelipus dimorphus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Trachelipus')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Isopoda')	0.024753997379647147
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Crustacean')	0.02251789003285724
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Trachelipodidae')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Animals_described_in_1941')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Woodlice_of_Europe')	0.021772520917260604
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Trachelipus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus waechtleri')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Porcellio dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://dbpedia.org/ontology/synonym', '*Tracheoniscus dimorphus')	0.02139983635946229
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Crustacean')	0.020920670499435877
+('http://dbpedia.org/resource/Trachelipus_dimorphus', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020920670499435877

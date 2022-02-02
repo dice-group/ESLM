@@ -1,0 +1,31 @@
+Wide_Awake_Drunk	subject	2009 Albums
+Wide_Awake_Drunk	Genre	Indie Folk
+Wide_Awake_Drunk	Performer	Greg_Connors
+Wide_Awake_Drunk	Producer	Stan_Satin
+Wide_Awake_Drunk	label	Wide Awake Drunk
+Wide_Awake_Drunk	Record Label	Scared Records
+Invisible_Tape	Previous Work	Wide_Awake_Drunk
+Wide_Awake_Drunk	name	Wide Awake Drunk
+Wide_Awake_Drunk	type	CreativeWork
+Wide_Awake_Drunk	type	Q2188189
+Wide_Awake_Drunk	type	Q386724
+Wide_Awake_Drunk	type	Q482994
+Wide_Awake_Drunk	type	Whole100003553
+Wide_Awake_Drunk	type	Album106591815
+Wide_Awake_Drunk	type	Musical Work
+Wide_Awake_Drunk	type	PhysicalEntity100001930
+Wide_Awake_Drunk	type	2009Albums
+Wide_Awake_Drunk	type	Album
+Wide_Awake_Drunk	type	Instrumentality103575240
+Wide_Awake_Drunk	type	Thing
+Wide_Awake_Drunk	type	Work
+Wide_Awake_Drunk	type	Medium106254669
+Wide_Awake_Drunk	type	Artifact100021939
+Wide_Awake_Drunk	type	Object100002684
+Wide_Awake_Drunk	type	MusicAlbum
+Wide_Awake_Drunk	Runtime (S)	3259.0
+Wide_Awake_Drunk	Type	Album
+Wide_Awake_Drunk	Previous Work	Fluke_EP
+Wide_Awake_Drunk	Subsequent Work	Invisible_Tape
+Wide_Awake_Drunk	Recorded In	Atlanta
+Wide_Awake_Drunk	Recorded In	New York

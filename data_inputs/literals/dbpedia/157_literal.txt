@@ -1,0 +1,31 @@
+Gonyosoma Hodgsoni	Kingdom	Animal
+Gonyosoma Hodgsoni	Genus	Gonyosoma
+Gonyosoma Hodgsoni	type	Q729
+Gonyosoma Hodgsoni	type	Snake101726692
+Gonyosoma Hodgsoni	type	Chordate101466257
+Gonyosoma Hodgsoni	type	Diapsid101661818
+Gonyosoma Hodgsoni	type	LivingThing100004258
+Gonyosoma Hodgsoni	type	Reptile101661091
+Gonyosoma Hodgsoni	type	Q19088
+Gonyosoma Hodgsoni	type	ColubridSnake101727646
+Gonyosoma Hodgsoni	type	Thing
+Gonyosoma Hodgsoni	type	Colubrids
+Gonyosoma Hodgsoni	type	Eukaryote
+Gonyosoma Hodgsoni	type	PhysicalEntity100001930
+Gonyosoma Hodgsoni	type	Whole100003553
+Gonyosoma Hodgsoni	type	Animal
+Gonyosoma Hodgsoni	type	Object100002684
+Gonyosoma Hodgsoni	type	Animal100015388
+Gonyosoma Hodgsoni	type	Vertebrate101471682
+Gonyosoma Hodgsoni	type	Reptile
+Gonyosoma Hodgsoni	type	Species
+Gonyosoma Hodgsoni	type	Organism100004475
+Gonyosoma Hodgsoni	Order (Taxonomy)	Squamata
+Gonyosoma Hodgsoni	Order (Taxonomy)	Snake
+Gonyosoma Hodgsoni	Family	Colubridae
+Gonyosoma Hodgsoni	Phylum	Chordate
+Gonyosoma Hodgsoni	subject	Colubrids
+Gonyosoma Hodgsoni	Class	Reptile
+Gonyosoma Hodgsoni	label	Gonyosoma hodgsoni
+Gonyosoma Hodgsoni	name	Gonyosoma hodgsoni
+Gonyosoma Hodgsoni	Synonym	Elaphe hodgsoni

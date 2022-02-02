@@ -1,0 +1,35 @@
+Sauxillanges	long	3.372
+Sauxillanges	Maximum Elevation (Μ)	667.0
+Sauxillanges	name	Sauxillanges
+Sauxillanges	Department	Puy-De-Dôme
+Sauxillanges	label	Sauxillanges
+Sauxillanges	Minimum Elevation (Μ)	418.0
+Sauxillanges	Insee Code	63415
+Sauxillanges	Country	France
+Sauxillanges	Region	Auvergne (Region)
+Sauxillanges	point	45.551 3.372
+Sauxillanges	Area (M2)	24900000.0
+Sauxillanges	Elevation (Μ)	449.0
+Sauxillanges	Postal Code	63490
+Sauxillanges	type	Populated Place
+Sauxillanges	type	Commune108541609
+Sauxillanges	type	Place
+Sauxillanges	type	Place
+Sauxillanges	type	Location
+Sauxillanges	type	CommunesOfPuy-de-D%C3%B4me
+Sauxillanges	type	PhysicalEntity100001930
+Sauxillanges	type	SpatialThing
+Sauxillanges	type	Settlement
+Sauxillanges	type	Q486972
+Sauxillanges	type	YagoPermanentlyLocatedEntity
+Sauxillanges	type	Thing
+Sauxillanges	type	YagoGeoEntity
+Sauxillanges	type	AdministrativeDistrict108491826
+Sauxillanges	type	District108552138
+Sauxillanges	type	Location100027167
+Sauxillanges	type	Object100002684
+Sauxillanges	type	YagoLegalActorGeo
+Sauxillanges	type	Region108630985
+Sauxillanges	Population Total	1151
+Sauxillanges	lat	45.551
+Sauxillanges	subject	Communes Of Puy-De-Dôme

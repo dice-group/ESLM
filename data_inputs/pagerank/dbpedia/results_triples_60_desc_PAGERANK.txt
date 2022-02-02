@@ -1,0 +1,550 @@
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathYear', datetime.date(2013, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathPlace', 'http://dbpedia.org/resource/Fort_Thomas,_Kentucky')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/surname', 'Hughes')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/givenName', 'William Anthony')	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthDate', datetime.date(1921, 9, 23))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthYear', datetime.date(1921, 1, 1))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/deathDate', datetime.date(2013, 2, 7))	0.010558410126591564
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Youngstown,_Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/resource/Ohio')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelate of the Roman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/elements/1.1/description', 'Prelateof theRoman Catholic Church')	0.009558644480150258
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/2000/01/rdf-schema#label', 'William Anthony Hughes')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'Hughes, William Anthony')	0.00942180525061848
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://xmlns.com/foaf/0.1/name', 'William Anthony Hughes')	0.008832557292772516
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_Roman_Catholic_bishops')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Saint_Mary_Seminary_and_Graduate_School_of_Theology_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Covington,_Kentucky')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:2013_deaths')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Roman_Catholic_Diocese_of_Covington')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:University_of_Notre_Dame_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1921_births')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:American_people_of_Irish_descent')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:St._Charles_College_alumni')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:People_from_Youngstown,_Ohio')	0.008758831962997218
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Scholar110557854')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://xmlns.com/foaf/0.1/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Alumnus109786338')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Clergyman109927451')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Priest110470779')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Person100007846')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Intellectual109621545')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Bishop109857200')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/St.CharlesCollegeAlumni')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/SpiritualLeader109505153')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PhysicalEntity100001930')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q215627')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActor')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingPeople')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Whole100003553')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Object100002684')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoLegalActorGeo')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PeopleFromYoungstown,Ohio')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/AmericanRomanCatholicBishops')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', "http://dbpedia.org/class/yago/St.Mary'sSeminary(Ohio)Alumni")	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Person')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Organism100004475')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Leader109623038')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/LivingThing100004258')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q5')	0.008623379843156781
+('http://dbpedia.org/resource/William_Anthony_Hughes', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/CausalAgent100007347')	0.008623379843156781

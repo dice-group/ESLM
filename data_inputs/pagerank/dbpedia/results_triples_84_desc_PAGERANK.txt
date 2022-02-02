@@ -1,0 +1,220 @@
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/genus', 'http://dbpedia.org/resource/Hilarographa')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/class', 'http://dbpedia.org/resource/Insect')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/order', 'http://dbpedia.org/resource/Lepidoptera')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/kingdom', 'http://dbpedia.org/resource/Animal')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/03-Thaumatographa_excellens_Pagenstecher,_1900.JPG')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/phylum', 'http://dbpedia.org/resource/Arthropod')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/family', 'http://dbpedia.org/resource/Tortricidae')	0.024311499303692908
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://xmlns.com/foaf/0.1/name', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/2000/01/rdf-schema#label', 'Hilarographa excellens')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Hilarographa pyranthis (Meyrick, 1907)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://dbpedia.org/ontology/synonym', '*Thaumatographa excellens (Pagenstecher, 1900)')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Hilarographini')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Moths_described_in_1900')	0.02215358211075554
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Animal')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Eukaryote')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q19088')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Species')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Insect')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1390')	0.020535144216052518
+('http://dbpedia.org/resource/Hilarographa_excellens', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q729')	0.020535144216052518

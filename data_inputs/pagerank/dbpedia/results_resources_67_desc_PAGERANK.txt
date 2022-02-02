@@ -1,0 +1,430 @@
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228
+http://dbpedia.org/resource/Battle_of_Calicut_(1502)	0.14114649031617407
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.033580983997574594
+http://dbpedia.org/ontology/strength	0.024858200073306993
+http://purl.org/dc/terms/subject	0.020496808111173194
+http://dbpedia.org/ontology/combatant	0.01613541614903939
+http://dbpedia.org/ontology/place	0.011774024186905593
+http://dbpedia.org/ontology/commander	0.00741263222477179
+http://dbpedia.org/resource/Vasco_da_Gama	0.00741263222477179
+http://dbpedia.org/ontology/causalties	0.00741263222477179
+Low	0.00741263222477179
+http://dbpedia.org/ontology/date	0.00741263222477179
+1502-01-06	0.00741263222477179
+http://xmlns.com/foaf/0.1/depiction	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg	0.00741263222477179
+http://xmlns.com/foaf/0.1/name	0.00741263222477179
+Battle of Calicut	0.00741263222477179
+http://dbpedia.org/ontology/result	0.00741263222477179
+Portuguesevictory	0.00741263222477179
+http://dbpedia.org/ontology/thumbnail	0.00741263222477179
+http://commons.wikimedia.org/wiki/Special:FilePath/Flag_Portugal_(1495).svg?width=300	0.00741263222477179
+http://www.w3.org/2000/01/rdf-schema#label	0.00741263222477179
+Battle of Calicut (1502)	0.00741263222477179
+http://dbpedia.org/resource/India	0.006928678760119464
+http://dbpedia.org/resource/Kozhikode	0.006928678760119464
+Arab privateers	0.006767360938568686
+Calicut	0.006767360938568686
+Portuguese Empire	0.006767360938568686
+http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal	0.006686702027793299
+http://dbpedia.org/resource/Category:1503_in_India	0.006686702027793299
+http://dbpedia.org/resource/Category:Conflicts_in_1503	0.006686702027793299
+http://dbpedia.org/resource/Category:History_of_Kozhikode	0.006686702027793299
+Hundreds of smaller ships	0.006638306681328066
+20 large ships	0.006638306681328066
+10 carracks	0.006638306681328066
+40 gun-mountedsambuks	0.006638306681328066
+6 caravels	0.006638306681328066
+http://www.w3.org/2002/07/owl#Thing	0.006582997713939228
+http://www.wikidata.org/entity/Q1656682	0.006582997713939228
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.006582997713939228
+http://dbpedia.org/ontology/Event	0.006582997713939228
+http://dbpedia.org/ontology/MilitaryConflict	0.006582997713939228
+http://schema.org/Event	0.006582997713939228
+http://dbpedia.org/ontology/SocietalEvent	0.006582997713939228

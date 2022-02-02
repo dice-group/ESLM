@@ -1,0 +1,23 @@
+Schistura Jarutanini	Phylum	Chordate
+Schistura Jarutanini	Family	Nemacheilidae
+Schistura Jarutanini	Order (Taxonomy)	Cypriniformes
+Schistura Jarutanini	type	Eukaryote
+Schistura Jarutanini	type	Thing
+Schistura Jarutanini	type	Species
+Schistura Jarutanini	type	Fish
+Schistura Jarutanini	type	Q729
+Schistura Jarutanini	type	Q152
+Schistura Jarutanini	type	Animal
+Schistura Jarutanini	type	Q19088
+Schistura Jarutanini	Class	Actinopterygii
+Schistura Jarutanini	Genus	Schistura
+Schistura Jarutanini	Kingdom	Animal
+Schistura Jarutanini	name	Schistura jarutanini
+Schistura Jarutanini	Conservation Status	VU
+Schistura Jarutanini	label	Schistura jarutanini
+Schistura Jarutanini	Conservation Status System	IUCN2.3
+Schistura Jarutanini	Binomial Authority	Maurice Kottelat
+Schistura Jarutanini	subject	Cave Fish
+Schistura Jarutanini	subject	Schistura
+Schistura Jarutanini	subject	Fish Of Southeast Asia
+Schistura Jarutanini	subject	Fish Of Thailand

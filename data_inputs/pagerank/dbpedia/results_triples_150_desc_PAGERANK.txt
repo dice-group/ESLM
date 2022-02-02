@@ -1,0 +1,250 @@
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/causalties', 'None')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/result', 'British victory')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/commander', 'http://dbpedia.org/resource/Edward_Pellew,_1st_Viscount_Exmouth')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/date', datetime.date(1807, 12, 11))	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/isPartOfMilitaryConflict', 'http://dbpedia.org/resource/Napoleonic_Wars')	0.011455498032069465
+('http://dbpedia.org/resource/Archibald_Cochrane_(Royal_Navy_officer)', 'http://dbpedia.org/ontology/battle', 'http://dbpedia.org/resource/Raid_on_Griessie')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg?width=300')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', 'United Kingdom')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', '22px|link=Kingdom of Holland')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/name', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/2000/01/rdf-schema#label', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Twoships of the line, twofrigates and four smaller ships')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Two out of commissionships of the lineand shore defences')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Dutch_East_Indies')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Gresik_Regency')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Java')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Military_raids')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_Netherlands')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_of_the_Napoleonic_Wars')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1807_in_Asia')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_United_Kingdom')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Conflicts_in_1807')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/SocietalEvent')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Activity100407535')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Abstraction100002137')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/MilitaryConflict')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattle100958477')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Attack100972621')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Event100029378')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1656682')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Penetration100975452')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Operation100955060')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheUnitedKingdom')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesOfTheNapoleonicWars')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryRaids')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryAction100952963')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Foray100976953')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/GroupAction101080366')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheNetherlands')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Conflict100958896')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Act100030358')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/ConflictsIn1807')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Battle100953559')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PsychologicalFeature100023100')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/causalties', 'None')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/result', 'British victory')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/commander', 'http://dbpedia.org/resource/Edward_Pellew,_1st_Viscount_Exmouth')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/date', datetime.date(1807, 12, 11))	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/isPartOfMilitaryConflict', 'http://dbpedia.org/resource/Napoleonic_Wars')	0.011455498032069465
+('http://dbpedia.org/resource/Archibald_Cochrane_(Royal_Navy_officer)', 'http://dbpedia.org/ontology/battle', 'http://dbpedia.org/resource/Raid_on_Griessie')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg?width=300')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', 'United Kingdom')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', '22px|link=Kingdom of Holland')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/name', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/2000/01/rdf-schema#label', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Twoships of the line, twofrigates and four smaller ships')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Two out of commissionships of the lineand shore defences')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Dutch_East_Indies')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Gresik_Regency')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Java')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Military_raids')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_Netherlands')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_of_the_Napoleonic_Wars')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1807_in_Asia')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_United_Kingdom')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Conflicts_in_1807')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/SocietalEvent')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Activity100407535')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Abstraction100002137')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/MilitaryConflict')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattle100958477')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Attack100972621')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Event100029378')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1656682')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Penetration100975452')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Operation100955060')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheUnitedKingdom')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesOfTheNapoleonicWars')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryRaids')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryAction100952963')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Foray100976953')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/GroupAction101080366')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheNetherlands')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Conflict100958896')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Act100030358')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/ConflictsIn1807')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Battle100953559')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PsychologicalFeature100023100')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/causalties', 'None')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/result', 'British victory')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/commander', 'http://dbpedia.org/resource/Edward_Pellew,_1st_Viscount_Exmouth')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/date', datetime.date(1807, 12, 11))	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/isPartOfMilitaryConflict', 'http://dbpedia.org/resource/Napoleonic_Wars')	0.011455498032069465
+('http://dbpedia.org/resource/Archibald_Cochrane_(Royal_Navy_officer)', 'http://dbpedia.org/ontology/battle', 'http://dbpedia.org/resource/Raid_on_Griessie')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg?width=300')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', 'United Kingdom')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', '22px|link=Kingdom of Holland')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/name', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/2000/01/rdf-schema#label', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Twoships of the line, twofrigates and four smaller ships')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Two out of commissionships of the lineand shore defences')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Dutch_East_Indies')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Gresik_Regency')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Java')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Military_raids')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_Netherlands')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_of_the_Napoleonic_Wars')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1807_in_Asia')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_United_Kingdom')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Conflicts_in_1807')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/SocietalEvent')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Activity100407535')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Abstraction100002137')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/MilitaryConflict')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattle100958477')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Attack100972621')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Event100029378')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1656682')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Penetration100975452')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Operation100955060')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheUnitedKingdom')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesOfTheNapoleonicWars')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryRaids')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryAction100952963')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Foray100976953')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/GroupAction101080366')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheNetherlands')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Conflict100958896')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Act100030358')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/ConflictsIn1807')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Battle100953559')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PsychologicalFeature100023100')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/causalties', 'None')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/result', 'British victory')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/commander', 'http://dbpedia.org/resource/Edward_Pellew,_1st_Viscount_Exmouth')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/date', datetime.date(1807, 12, 11))	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/isPartOfMilitaryConflict', 'http://dbpedia.org/resource/Napoleonic_Wars')	0.011455498032069465
+('http://dbpedia.org/resource/Archibald_Cochrane_(Royal_Navy_officer)', 'http://dbpedia.org/ontology/battle', 'http://dbpedia.org/resource/Raid_on_Griessie')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg?width=300')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', 'United Kingdom')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', '22px|link=Kingdom of Holland')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/name', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/2000/01/rdf-schema#label', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Twoships of the line, twofrigates and four smaller ships')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Two out of commissionships of the lineand shore defences')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Dutch_East_Indies')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Gresik_Regency')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Java')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Military_raids')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_Netherlands')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_of_the_Napoleonic_Wars')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1807_in_Asia')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_United_Kingdom')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Conflicts_in_1807')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/SocietalEvent')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Activity100407535')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Abstraction100002137')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/MilitaryConflict')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattle100958477')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Attack100972621')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Event100029378')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1656682')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Penetration100975452')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Operation100955060')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheUnitedKingdom')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesOfTheNapoleonicWars')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryRaids')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryAction100952963')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Foray100976953')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/GroupAction101080366')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheNetherlands')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Conflict100958896')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Act100030358')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/ConflictsIn1807')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Battle100953559')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PsychologicalFeature100023100')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/causalties', 'None')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/result', 'British victory')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/commander', 'http://dbpedia.org/resource/Edward_Pellew,_1st_Viscount_Exmouth')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/depiction', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/date', datetime.date(1807, 12, 11))	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/isPartOfMilitaryConflict', 'http://dbpedia.org/resource/Napoleonic_Wars')	0.011455498032069465
+('http://dbpedia.org/resource/Archibald_Cochrane_(Royal_Navy_officer)', 'http://dbpedia.org/ontology/battle', 'http://dbpedia.org/resource/Raid_on_Griessie')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/thumbnail', 'http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg?width=300')	0.011455498032069465
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', 'United Kingdom')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/combatant', '22px|link=Kingdom of Holland')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://xmlns.com/foaf/0.1/name', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/2000/01/rdf-schema#label', 'Raid on Griessie')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Twoships of the line, twofrigates and four smaller ships')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/strength', 'Two out of commissionships of the lineand shore defences')	0.010385607168998352
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Dutch_East_Indies')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Gresik_Regency')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://dbpedia.org/ontology/place', 'http://dbpedia.org/resource/Java')	0.010028976881307982
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Military_raids')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_Netherlands')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_of_the_Napoleonic_Wars')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:1807_in_Asia')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Naval_battles_involving_the_United_Kingdom')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://purl.org/dc/terms/subject', 'http://dbpedia.org/resource/Category:Conflicts_in_1807')	0.009672346593617608
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/SocietalEvent')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Activity100407535')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Abstraction100002137')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/MilitaryConflict')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattle100958477')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Attack100972621')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Event100029378')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.wikidata.org/entity/Q1656682')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Penetration100975452')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Operation100955060')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheUnitedKingdom')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesOfTheNapoleonicWars')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryRaids')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://schema.org/Event')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/MilitaryAction100952963')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Foray100976953')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/GroupAction101080366')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/NavalBattlesInvolvingTheNetherlands')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://www.w3.org/2002/07/owl#Thing')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Conflict100958896')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Act100030358')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/ConflictsIn1807')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/Battle100953559')	0.009394967480969546
+('http://dbpedia.org/resource/Raid_on_Griessie', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/class/yago/PsychologicalFeature100023100')	0.009394967480969546

@@ -1,0 +1,23 @@
+2012 League Of Ireland Cup Final	Previous Event	2011 League Of Ireland Cup Final
+2011 League Of Ireland Cup Final	label	2011 League of Ireland Cup Final
+2011 League Of Ireland Cup Final	Location	Turners Cross (Stadium)
+2011 League Of Ireland Cup Final	City	Cork (City)
+2011 League Of Ireland Cup Final	type	Event
+2011 League Of Ireland Cup Final	type	Football Match
+2011 League Of Ireland Cup Final	type	Event
+2011 League Of Ireland Cup Final	type	Thing
+2011 League Of Ireland Cup Final	type	Societal Event
+2011 League Of Ireland Cup Final	type	Sports Event
+2011 League Of Ireland Cup Final	type	SportsEvent
+2011 League Of Ireland Cup Final	type	Q1656682
+2011 League Of Ireland Cup Final	type	Event
+2011 League Of Ireland Cup Final	Date	2011-09-24
+2011 League Of Ireland Cup Final	Time	18:00IST
+2011 League Of Ireland Cup Final	Team	Derry City F.C.
+2011 League Of Ireland Cup Final	Team	Cork City F.C.
+2011 League Of Ireland Cup Final	subject	Cork City F.C. Matches
+2011 League Of Ireland Cup Final	subject	Derry City F.C. Matches
+2011 League Of Ireland Cup Final	subject	2011 In Republic Of Ireland Football Cups
+2011 League Of Ireland Cup Final	subject	League Of Ireland Cup Finals
+2011 League Of Ireland Cup Final	subject	2011 League Of Ireland
+2011 League Of Ireland Cup Final	name	2011 League of Ireland Cup Final

@@ -1,0 +1,23 @@
+Bryotropha Plantariella	Synonym	*Gelechia cinerosella (Tengström, 1848)
+Bryotropha Plantariella	Synonym	*Gelechia serrulatella (Tengström, 1848)
+Bryotropha Plantariella	Synonym	*Bryotropha brevipalpella (Rebel, 1893)
+Bryotropha Plantariella	Synonym	*Gelechia plantariella (Tengström, 1848)
+Bryotropha Plantariella	name	Bryotropha plantariella
+Bryotropha Plantariella	type	Animal
+Bryotropha Plantariella	type	Q19088
+Bryotropha Plantariella	type	Thing
+Bryotropha Plantariella	type	Eukaryote
+Bryotropha Plantariella	type	Species
+Bryotropha Plantariella	type	Q729
+Bryotropha Plantariella	type	Insect
+Bryotropha Plantariella	type	Q1390
+Bryotropha Plantariella	Order (Taxonomy)	Lepidoptera
+Bryotropha Plantariella	Family	Gelechiidae
+Bryotropha Plantariella	Phylum	Arthropod
+Bryotropha Plantariella	subject	Moths Described In 1848
+Bryotropha Plantariella	subject	Insects Of Europe
+Bryotropha Plantariella	subject	Bryotropha
+Bryotropha Plantariella	Class	Insect
+Bryotropha Plantariella	Kingdom	Animal
+Bryotropha Plantariella	label	Bryotropha plantariella
+Bryotropha Plantariella	Genus	Bryotropha

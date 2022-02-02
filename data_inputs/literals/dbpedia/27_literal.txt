@@ -1,0 +1,40 @@
+Uelsby	subject	Schleswig-Flensburg
+Uelsby	subject	Municipalities In Schleswig-Holstein
+Uelsby	Thumbnail	Uelsby_Wappen.png?width=300
+Uelsby	District	Schleswig-Flensburg
+Uelsby	label	Uelsby
+Uelsby	point	54.6 9.566666666666666
+Uelsby	Area Total (M2)	10600000.0
+Uelsby	lat	54.6
+Uelsby	homepage	www.amt-suedangeln.de
+Uelsby	Elevation (Μ)	34.0
+Uelsby	Area Code	SL
+Uelsby	Area Code	04623
+Uelsby	Country	Germany
+Uelsby	Population As Of	2006-12-31
+Uelsby	Population Total	461
+Uelsby	Postal Code	24860
+Uelsby	long	9.566667
+Uelsby	Federal State	Schleswig-Holstein
+Uelsby	type	Region108630985
+Uelsby	type	Populated Place
+Uelsby	type	Municipality108626283
+Uelsby	type	GeographicalArea108574314
+Uelsby	type	Settlement
+Uelsby	type	Location
+Uelsby	type	Location100027167
+Uelsby	type	Place
+Uelsby	type	AdministrativeDistrict108491826
+Uelsby	type	YagoPermanentlyLocatedEntity
+Uelsby	type	Object100002684
+Uelsby	type	Place
+Uelsby	type	YagoLegalActorGeo
+Uelsby	type	YagoGeoEntity
+Uelsby	type	District108552138
+Uelsby	type	SpatialThing
+Uelsby	type	PhysicalEntity100001930
+Uelsby	type	UrbanArea108675967
+Uelsby	type	MunicipalitiesInSchleswig-Holstein
+Uelsby	type	Q486972
+Uelsby	type	Thing
+Uelsby	depiction	Uelsby_Wappen.png

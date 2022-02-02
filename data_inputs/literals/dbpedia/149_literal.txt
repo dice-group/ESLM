@@ -1,0 +1,20 @@
+Convoy Hx 156	Is Part Of Military Conflict	World War Ii
+Convoy Hx 156	Date	1941-10-22
+Convoy Hx 156	Commander	Admiral
+Convoy Hx 156	label	Convoy HX 156
+Convoy Hx 156	depiction	War_Ensign_of_Germany_1938-1945.svg
+Convoy Hx 156	Combatant	25pxGermany
+Convoy Hx 156	Combatant	25pxUnited Kingdom
+Convoy Hx 156	Relates An Entity To The Populated Place In Which It Is Located.	Atlantic Ocean
+Convoy Hx 156	name	Convoy HX.156
+Convoy Hx 156	Strength	16 escorts
+Convoy Hx 156	Strength	52 merchant ships
+Convoy Hx 156	type	Military Conflict
+Convoy Hx 156	type	Event
+Convoy Hx 156	type	Thing
+Convoy Hx 156	type	Event
+Convoy Hx 156	type	Q1656682
+Convoy Hx 156	type	Event
+Convoy Hx 156	type	Societal Event
+Convoy Hx 156	subject	North Atlantic Convoys Of World War Ii
+Convoy Hx 156	Thumbnail	War_Ensign_of_Germany_1938-1945.svg?width=300

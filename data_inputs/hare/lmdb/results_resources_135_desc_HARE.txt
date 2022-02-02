@@ -1,0 +1,36 @@
+http://data.linkedmdb.org/resource/director/416	0.2874999999999998
+http://data.linkedmdb.org/resource/movie/director	0.12224711142766698
+http://xmlns.com/foaf/0.1/made	0.1163944904439696
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.017818641101482534
+http://data.linkedmdb.org/resource/movie/director_name	0.015423062084520416
+Fred C. Newmeyer	0.015423062084520416
+http://data.linkedmdb.org/resource/movie/director_directorid	0.015423062084520416
+416	0.015423062084520416
+http://www.w3.org/2000/01/rdf-schema#label	0.015423062084520416
+Fred C. Newmeyer (Director)	0.015423062084520416
+http://xmlns.com/foaf/0.1/page	0.015423062084520416
+http://www.freebase.com/view/guid/9202a8c04000641f8000000000b97495	0.015423062084520416
+http://data.linkedmdb.org/resource/film/66506	0.013934309154801552
+http://data.linkedmdb.org/resource/film/44849	0.013934309154801552
+http://data.linkedmdb.org/resource/film/25006	0.013934309154801552
+http://data.linkedmdb.org/resource/film/66469	0.013934309154801552
+http://data.linkedmdb.org/resource/film/16516	0.013934309154801552
+http://data.linkedmdb.org/resource/film/55669	0.013934309154801552
+http://data.linkedmdb.org/resource/film/24605	0.013934309154801552
+http://data.linkedmdb.org/resource/film/45424	0.013934309154801552
+http://data.linkedmdb.org/resource/film/209	0.013934309154801552
+http://data.linkedmdb.org/resource/film/8672	0.013934309154801552
+http://data.linkedmdb.org/resource/film/5711	0.013934309154801552
+http://data.linkedmdb.org/resource/film/48957	0.013934309154801552
+http://data.linkedmdb.org/resource/film/93242	0.013934309154801552
+http://data.linkedmdb.org/resource/film/57112	0.013934309154801552
+http://data.linkedmdb.org/resource/film/40871	0.013934309154801552
+http://data.linkedmdb.org/resource/film/52376	0.013934309154801552
+http://data.linkedmdb.org/resource/film/66749	0.013934309154801552
+http://data.linkedmdb.org/resource/film/21577	0.013934309154801552
+http://data.linkedmdb.org/resource/film/21167	0.013934309154801552
+http://data.linkedmdb.org/resource/film/57862	0.013934309154801552
+http://data.linkedmdb.org/resource/film/57373	0.013934309154801552
+http://data.linkedmdb.org/resource/film/94441	0.013934309154801552
+http://data.linkedmdb.org/resource/film/7007	0.013934309154801552
+http://xmlns.com/foaf/0.1/Person	0.012166149790281734

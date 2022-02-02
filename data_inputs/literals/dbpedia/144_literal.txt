@@ -1,0 +1,64 @@
+Pe Maung Tin	Birth Place	British Rule In Burma
+Pe Maung Tin	Birth Place	Yangon Region
+Pe Maung Tin	Birth Place	Insein Township
+Pe Maung Tin	Birth Date	1888-04-24
+Pe Maung Tin	Nationality	Bamar People
+Pe Maung Tin	Thumbnail	Pe_Maung_Tin.jpg?width=300
+Glass Palace Chronicle	Translator	Pe Maung Tin
+Pe Maung Tin	label	Pe Maung Tin
+Pe Maung Tin	Ethnicity	Mon People
+Pe Maung Tin	Birth Name	Ba Tin
+Pe Maung Tin	Birth Year	1888-01-01
+Pe Maung Tin	State Of Origin	Bamar People
+Pe Maung Tin	Religion	Anglicanism
+Pe Maung Tin	Alma Mater	Bachelor Of Arts
+Pe Maung Tin	Alma Mater	Master Of Arts
+Pe Maung Tin	Alma Mater	University Of Calcutta
+Pe Maung Tin	Alma Mater	University Of Yangon
+Pe Maung Tin	depiction	Pe_Maung_Tin.jpg
+Pe Maung Tin	subject	University Of Calcutta Alumni
+Pe Maung Tin	subject	Linguists From Myanmar
+Pe Maung Tin	subject	People From Yangon Region
+Pe Maung Tin	subject	1973 Deaths
+Pe Maung Tin	subject	Burmese Studies Scholars
+Pe Maung Tin	subject	Presidents_of_Burma_Research_Society
+Pe Maung Tin	subject	Burmese Anglicans
+Pe Maung Tin	subject	1888 Births
+Pe Maung Tin	subject	Burmese People Of Mon Descent
+Pe Maung Tin	subject	Burmese Writers
+Pe Maung Tin	subject	University Of Yangon Alumni
+Pe Maung Tin	subject	Burmese Educators
+Pe Maung Tin	description	Burma scholar
+Pe Maung Tin	description	Burma scholar
+Pe Maung Tin	Relative	Tee Tee Luce
+Pe Maung Tin	Occupation	Teacher
+Pe Maung Tin	Occupation	Pe_Maung_Tin__1
+Pe Maung Tin	Occupation	Pali
+Pe Maung Tin	type	Person
+Pe Maung Tin	type	BurmeseStudiesScholars
+Pe Maung Tin	type	LivingThing100004258
+Pe Maung Tin	type	Whole100003553
+Pe Maung Tin	type	Organism100004475
+Pe Maung Tin	type	YagoLegalActor
+Pe Maung Tin	type	Intellectual109621545
+Pe Maung Tin	type	Agent
+Pe Maung Tin	type	Q5
+Pe Maung Tin	type	Person
+Pe Maung Tin	type	Person
+Pe Maung Tin	type	YagoLegalActorGeo
+Pe Maung Tin	type	Thing
+Pe Maung Tin	type	CausalAgent100007347
+Pe Maung Tin	type	Person100007846
+Pe Maung Tin	type	Agent
+Pe Maung Tin	type	Scholar110557854
+Pe Maung Tin	type	NaturalPerson
+Pe Maung Tin	type	BurmeseWriters
+Pe Maung Tin	type	PhysicalEntity100001930
+Pe Maung Tin	type	Communicator109610660
+Pe Maung Tin	type	Object100002684
+Pe Maung Tin	type	Writer110794014
+Pe Maung Tin	type	Q215627
+Tee Tee Luce	Relative	Pe Maung Tin
+Pe Maung Tin	name	Pe Maung Tin
+Pe Maung Tin	Death Year	1973-01-01
+Pe Maung Tin	Death Date	1973-03-22

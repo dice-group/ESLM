@@ -1,0 +1,36 @@
+Sting Me	Producer	The Black Crowes
+Sting Me	Producer	George Drakoulias
+Sting Me	Runtime (S)	279.0
+Sting Me	Musical Artist	The Black Crowes
+Sting Me	Genre	Blues Rock
+Sting Me	Genre	Southern Rock
+Sting Me	type	Work
+Sting Me	type	Musical Work
+Sting Me	type	Thing
+Sting Me	type	Q134556
+Sting Me	type	CreativeWork
+Sting Me	type	PhysicalEntity100001930
+Sting Me	type	Q2188189
+Sting Me	type	Object100002684
+Sting Me	type	Whole100003553
+Sting Me	type	Single
+Sting Me	type	Q386724
+Sting Me	type	BillboardHotMainstreamRockTracksNumber-oneSingles
+Sting Me	type	Instrumentality103575240
+Sting Me	type	1992Singles
+Sting Me	type	Artifact100021939
+Sting Me	type	Medium106254669
+Sting Me	subject	Blues Rock Songs
+Sting Me	subject	Southern Rock Songs
+Sting Me	subject	Songs Written By Chris Robinson (Singer)
+Sting Me	subject	The Black Crowes Songs
+Sting Me	subject	American Recordings (Record Label) Singles
+Sting Me	subject	Billboard_Mainstream_Rock_number-one_singles
+Sting Me	subject	Songs Written By Rich Robinson
+Sting Me	subject	1992 Songs
+Sting Me	subject	1992 Singles
+Sting Me	Musical Band	The Black Crowes
+Sting Me	name	Sting Me
+Sting Me	Album	The Southern Harmony And Musical Companion
+Sting Me	Record Label	American Recordings (Record Label)
+Sting Me	label	Sting Me

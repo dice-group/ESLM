@@ -1,0 +1,33 @@
+http://data.linkedmdb.org/resource/director/10100	0.28787878787878757
+http://data.linkedmdb.org/resource/movie/director	0.12026654833357728
+http://xmlns.com/foaf/0.1/made	0.11376705634676645
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.019686190028883267
+http://data.linkedmdb.org/resource/movie/director_directorid	0.0169327331283853
+10100	0.0169327331283853
+http://xmlns.com/foaf/0.1/page	0.0169327331283853
+http://www.freebase.com/view/guid/9202a8c04000641f8000000000535fbd	0.0169327331283853
+http://www.w3.org/2000/01/rdf-schema#label	0.0169327331283853
+Abel Ferrara (Director)	0.0169327331283853
+http://data.linkedmdb.org/resource/movie/director_name	0.0169327331283853
+Abel Ferrara	0.0169327331283853
+http://data.linkedmdb.org/resource/film/40914	0.015477628721363625
+http://data.linkedmdb.org/resource/film/40146	0.015477628721363625
+http://data.linkedmdb.org/resource/film/90531	0.015477628721363625
+http://data.linkedmdb.org/resource/film/96870	0.015477628721363625
+http://data.linkedmdb.org/resource/film/1159	0.015477628721363625
+http://data.linkedmdb.org/resource/film/11719	0.015477628721363625
+http://data.linkedmdb.org/resource/film/88229	0.015477628721363625
+http://data.linkedmdb.org/resource/film/63031	0.015477628721363625
+http://data.linkedmdb.org/resource/film/3535	0.015477628721363625
+http://data.linkedmdb.org/resource/film/12281	0.015477628721363625
+http://data.linkedmdb.org/resource/film/70633	0.015477628721363625
+http://data.linkedmdb.org/resource/film/42868	0.015477628721363625
+http://data.linkedmdb.org/resource/film/1160	0.015477628721363625
+http://data.linkedmdb.org/resource/film/23866	0.015477628721363625
+http://data.linkedmdb.org/resource/film/66097	0.015477628721363625
+http://data.linkedmdb.org/resource/film/48179	0.015477628721363625
+http://data.linkedmdb.org/resource/film/13196	0.015477628721363625
+http://data.linkedmdb.org/resource/film/44846	0.015477628721363625
+http://data.linkedmdb.org/resource/film/63785	0.015477628721363625
+http://data.linkedmdb.org/resource/film/96598	0.015477628721363625
+http://xmlns.com/foaf/0.1/Person	0.013386977957630133

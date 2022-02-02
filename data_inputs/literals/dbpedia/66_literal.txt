@@ -1,0 +1,24 @@
+2013 Slovak Cup Final	name	2013 Slovnaft Cup Final
+2013 Slovak Cup Final	Team	Mšk Žilina
+2013 Slovak Cup Final	Team	Šk Slovan Bratislava
+2013 Slovak Cup Final	Previous Event	2012 Slovak Cup Final
+2013 Slovak Cup Final	Location	Štadión Pod Čebraťom
+2013 Slovak Cup Final	Date	2013-05-01
+2013 Slovak Cup Final	City	Ružomberok
+2014 Slovak Cup Final	Previous Event	2013 Slovak Cup Final
+2013 Slovak Cup Final	subject	Slovak Cup Finals
+2013 Slovak Cup Final	subject	Mšk Žilina Matches
+2013 Slovak Cup Final	subject	Šk Slovan Bratislava Matches
+2013 Slovak Cup Final	type	SportsEvent
+2013 Slovak Cup Final	type	Thing
+2013 Slovak Cup Final	type	Event
+2013 Slovak Cup Final	type	Sports Event
+2013 Slovak Cup Final	type	Societal Event
+2013 Slovak Cup Final	type	Q1656682
+2013 Slovak Cup Final	type	Event
+2013 Slovak Cup Final	type	Football Match
+2013 Slovak Cup Final	type	Event
+2012 Slovak Cup Final	Following Event	2013 Slovak Cup Final
+2013 Slovak Cup Final	label	2013 Slovak Cup Final
+2013 Slovak Cup Final	Time	16:00CEST
+2013 Slovak Cup Final	Following Event	2014 Slovak Cup Final

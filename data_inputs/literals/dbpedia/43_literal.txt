@@ -1,0 +1,44 @@
+King Of The Mountain (Film)	label	King of the Mountain (film)
+King Of The Mountain (Film)	Writer	Leigh Chapman
+King Of The Mountain (Film)	Writer	H.R._Christian
+King Of The Mountain (Film)	name	King of the Mountain
+King Of The Mountain (Film)	Gross ($)	2100000.0
+King Of The Mountain (Film)	Editing	William Steinkamp
+King Of The Mountain (Film)	Runtime (S)	5400.0
+King Of The Mountain (Film)	type	PsychologicalFeature100023100
+King Of The Mountain (Film)	type	Movie
+King Of The Mountain (Film)	type	Movie106613686
+King Of The Mountain (Film)	type	YagoPermanentlyLocatedEntity
+King Of The Mountain (Film)	type	SocialEvent107288639
+King Of The Mountain (Film)	type	Work
+King Of The Mountain (Film)	type	Q11424
+King Of The Mountain (Film)	type	Thing
+King Of The Mountain (Film)	type	Movie
+King Of The Mountain (Film)	type	1981Films
+King Of The Mountain (Film)	type	Q386724
+King Of The Mountain (Film)	type	Object100002684
+King Of The Mountain (Film)	type	Show106619065
+King Of The Mountain (Film)	type	PhysicalEntity100001930
+King Of The Mountain (Film)	type	Product104007894
+King Of The Mountain (Film)	type	Whole100003553
+King Of The Mountain (Film)	type	Artifact100021939
+King Of The Mountain (Film)	type	Creation103129123
+King Of The Mountain (Film)	type	Event100029378
+King Of The Mountain (Film)	type	Abstraction100002137
+King Of The Mountain (Film)	type	CreativeWork
+King Of The Mountain (Film)	type	AmericanFilms
+King Of The Mountain (Film)	subject	Auto Racing Films
+King Of The Mountain (Film)	subject	American Films
+King Of The Mountain (Film)	subject	1981 Films
+King Of The Mountain (Film)	subject	Universal Pictures Films
+King Of The Mountain (Film)	subject	Polygram Filmed Entertainment Films
+King Of The Mountain (Film)	Release Date	1981-05-01
+King Of The Mountain (Film)	Starring	Deborah Van Valkenburgh
+King Of The Mountain (Film)	Starring	Richard Cox (Actor)
+King Of The Mountain (Film)	Starring	Dennis Hopper
+King Of The Mountain (Film)	Starring	Seymour Cassel
+King Of The Mountain (Film)	Starring	Joseph Bottoms
+King Of The Mountain (Film)	Starring	Harry Hamlin
+King Of The Mountain (Film)	Producer	Jack_Frost_Sanders
+King Of The Mountain (Film)	Distributor	Universal Studios
+King Of The Mountain (Film)	Film Director	Noel_Nosseck

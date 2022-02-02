@@ -1,0 +1,28 @@
+Reamer Barn	Architectural Style	Art Nouveau
+Reamer Barn	depiction	Reamer_Barn.jpg
+Reamer Barn	name	Reamer Barn
+Reamer Barn	lat	41.293888
+Reamer Barn	Location	Ohio
+Reamer Barn	Location	Ohio State Route 511
+Reamer Barn	Location	Oberlin, Ohio
+Reamer Barn	subject	National Register Of Historic Places In Lorain County, Ohio
+Reamer Barn	subject	Buildings And Structures Completed In 1897
+Reamer Barn	subject	Art Nouveau Commercial Buildings
+Reamer Barn	subject	Barns On The National Register Of Historic Places In Ohio
+Reamer Barn	subject	Buildings And Structures In Lorain County, Ohio
+Reamer Barn	subject	Art Nouveau Architecture In The United States
+Reamer Barn	long	-82.245
+Reamer Barn	Area (M2)	4046.8564224
+Reamer Barn	Year Of Construction	1897-01-01
+Reamer Barn	Nrhp Reference Number	79001889
+Reamer Barn	Thumbnail	Reamer_Barn.jpg?width=300
+Reamer Barn	point	41.29388888888889 -82.245
+Reamer Barn	added	1979-03-21
+Reamer Barn	type	Historic Place
+Reamer Barn	type	SpatialThing
+Reamer Barn	type	Location
+Reamer Barn	type	Place
+Reamer Barn	type	Thing
+Reamer Barn	type	Place
+Reamer Barn	type	LandmarksOrHistoricalBuildings
+Reamer Barn	label	Reamer Barn

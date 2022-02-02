@@ -1,0 +1,29 @@
+Edmund Smith Conklin	type	Person
+Edmund Smith Conklin	type	Q215627
+Edmund Smith Conklin	type	Agent
+Edmund Smith Conklin	type	Thing
+Edmund Smith Conklin	type	Person
+Edmund Smith Conklin	type	Person
+Edmund Smith Conklin	type	Q5
+Edmund Smith Conklin	type	NaturalPerson
+Edmund Smith Conklin	type	Agent
+Edmund Smith Conklin	subject	Anomalistic Psychology
+Edmund Smith Conklin	subject	Clark University Alumni
+Edmund Smith Conklin	subject	People From New Britain, Connecticut
+Edmund Smith Conklin	subject	American Psychologists
+Edmund Smith Conklin	subject	Indiana University Faculty
+Edmund Smith Conklin	subject	Syracuse University Faculty
+Edmund Smith Conklin	subject	University Of Chicago Alumni
+Edmund Smith Conklin	subject	1942 Deaths
+Edmund Smith Conklin	subject	1884 Births
+Edmund Smith Conklin	name	Conklin, Edmund Smith
+Edmund Smith Conklin	name	Edmund Smith Conklin
+Edmund Smith Conklin	Death Date	1942-10-06
+Edmund Smith Conklin	Birth Year	1884-01-01
+Edmund Smith Conklin	givenName	Edmund Smith
+Edmund Smith Conklin	Birth Date	1884-04-19
+Edmund Smith Conklin	surname	Conklin
+Edmund Smith Conklin	Death Year	1942-01-01
+Edmund Smith Conklin	description	American psychologist
+Edmund Smith Conklin	description	American psychologist
+Edmund Smith Conklin	label	Edmund Smith Conklin

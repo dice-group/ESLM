@@ -1,0 +1,25 @@
+If (Glasvegas Song)	name	If
+If (Glasvegas Song)	label	If (Glasvegas song)
+If (Glasvegas Song)	Release Date	2013-07-08
+If (Glasvegas Song)	Writer	James Allan (Musician)
+If (Glasvegas Song)	Genre	Indie Rock
+If (Glasvegas Song)	Producer	James Allan (Musician)
+If (Glasvegas Song)	Musical Band	Glasvegas
+If (Glasvegas Song)	Previous Work	I'D Rather Be Dead (Than Be With You)
+If (Glasvegas Song)	type	Work
+If (Glasvegas Song)	type	Single
+If (Glasvegas Song)	type	Musical Work
+If (Glasvegas Song)	type	Thing
+If (Glasvegas Song)	type	Q386724
+If (Glasvegas Song)	type	Q134556
+If (Glasvegas Song)	type	Q2188189
+If (Glasvegas Song)	type	CreativeWork
+I'D Rather Be Dead (Than Be With You)	Subsequent Work	If (Glasvegas Song)
+If (Glasvegas Song)	Album	Later...When The Tv Turns To Static
+If (Glasvegas Song)	Musical Artist	Glasvegas
+If (Glasvegas Song)	Format (Object)	Digital Distribution
+If (Glasvegas Song)	subject	2013 Songs
+If (Glasvegas Song)	subject	Glasvegas Songs
+If (Glasvegas Song)	subject	2013 Singles
+If (Glasvegas Song)	subject	Songs Written By James Allan (Musician)
+If (Glasvegas Song)	Runtime (S)	269.0

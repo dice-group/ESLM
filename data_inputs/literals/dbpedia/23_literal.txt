@@ -1,0 +1,26 @@
+Kuleh Bayan	long	47.22167
+Kuleh Bayan	point	35.42472222222222 47.221666666666664
+Kuleh Bayan	Utc Offset	+3:30
+Kuleh Bayan	Utc Offset	+4:30
+Kuleh Bayan	lat	35.42472
+Kuleh Bayan	Is Part Of	Kurdestan Province
+Kuleh Bayan	Is Part Of	Dehgolan County
+Kuleh Bayan	Is Part Of	Central District (Dehgolan County)
+Kuleh Bayan	Is Part Of	Quri Chay Rural District
+Kuleh Bayan	type	Location
+Kuleh Bayan	type	Q486972
+Kuleh Bayan	type	Populated Place
+Kuleh Bayan	type	Q532
+Kuleh Bayan	type	Village
+Kuleh Bayan	type	Place
+Kuleh Bayan	type	SpatialThing
+Kuleh Bayan	type	Settlement
+Kuleh Bayan	type	Thing
+Kuleh Bayan	type	Place
+Kuleh Bayan	Population Total	36
+Kuleh Bayan	Time Zone	Iran Standard Time
+Kuleh Bayan	label	Kuleh Bayan
+Kuleh Bayan	Country	Iran
+Kuleh Bayan	name	كوله بيان
+Kuleh Bayan	name	Kuleh Bayan
+Kuleh Bayan	subject	Populated Places In Dehgolan County

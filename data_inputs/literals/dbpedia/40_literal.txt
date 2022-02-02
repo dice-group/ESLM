@@ -1,0 +1,22 @@
+Trachelipus Dimorphus	Family	Trachelipodidae
+Trachelipus Dimorphus	Class	Malacostraca
+Trachelipus Dimorphus	Synonym	*Trachelipus waechtleri
+Trachelipus Dimorphus	Synonym	*Tracheoniscus waechtleri
+Trachelipus Dimorphus	Synonym	*Porcellio dimorphus
+Trachelipus Dimorphus	Synonym	*Tracheoniscus dimorphus
+Trachelipus Dimorphus	label	Trachelipus dimorphus
+Trachelipus Dimorphus	Genus	Trachelipus
+Trachelipus Dimorphus	type	Thing
+Trachelipus Dimorphus	type	Q19088
+Trachelipus Dimorphus	type	Q729
+Trachelipus Dimorphus	type	Eukaryote
+Trachelipus Dimorphus	type	Species
+Trachelipus Dimorphus	type	Crustacean
+Trachelipus Dimorphus	type	Animal
+Trachelipus Dimorphus	subject	Trachelipodidae
+Trachelipus Dimorphus	subject	Animals Described In 1941
+Trachelipus Dimorphus	subject	Woodlice Of Europe
+Trachelipus Dimorphus	Kingdom	Animal
+Trachelipus Dimorphus	Order (Taxonomy)	Isopoda
+Trachelipus Dimorphus	Phylum	Arthropod
+Trachelipus Dimorphus	Phylum	Crustacean

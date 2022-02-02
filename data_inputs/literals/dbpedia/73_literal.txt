@@ -1,0 +1,37 @@
+Kings Ripton	lat	52.37
+Kings Ripton	Grid Reference	TL260765
+Kings Ripton	Country	United Kingdom
+Kings Ripton	Country	England
+Kings Ripton	Country	Cambridgeshire
+Kings Ripton	Thumbnail	St_Peter's,_Kings_Ripton_-_geograph.org.uk_-_839692.jpg?width=300
+Kings Ripton	long	-0.15
+Kings Ripton	depiction	St_Peter's,_Kings_Ripton_-_geograph.org.uk_-_839692.jpg
+Kings Ripton	type	GeographicalArea108574314
+Kings Ripton	type	YagoPermanentlyLocatedEntity
+Kings Ripton	type	Location100027167
+Kings Ripton	type	Place
+Kings Ripton	type	Object100002684
+Kings Ripton	type	Village108672738
+Kings Ripton	type	SpatialThing
+Kings Ripton	type	Settlement
+Kings Ripton	type	Populated Place
+Kings Ripton	type	Place
+Kings Ripton	type	VillagesInCambridgeshire
+Kings Ripton	type	YagoLegalActorGeo
+Kings Ripton	type	PhysicalEntity100001930
+Kings Ripton	type	Region108630985
+Kings Ripton	type	Q486972
+Kings Ripton	type	YagoGeoEntity
+Kings Ripton	type	Settlement108672562
+Kings Ripton	type	Thing
+Kings Ripton	type	Location
+Kings Ripton	Postal Code	PE28 2
+Kings Ripton	District	Huntingdonshire
+Kings Ripton	Population Total	168
+Kings Ripton	subject	Villages In Cambridgeshire
+Kings Ripton	subject	Huntingdonshire
+Kings Ripton	subject	Civil Parishes In Cambridgeshire
+Kings Ripton	label	Kings Ripton
+Kings Ripton	point	52.37 -0.15
+Kings Ripton	name	Kings Ripton
+Kings Ripton	Area Code	01487

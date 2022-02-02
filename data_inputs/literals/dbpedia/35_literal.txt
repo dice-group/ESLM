@@ -1,0 +1,28 @@
+Lepiota Helveola	Division	Basidiomycota
+Lepiota Helveola	Order (Taxonomy)	Agaricales
+Lepiota Helveola	Family	Agaricaceae
+Lepiota Helveola	Binomial Authority	Giacomo Bresadola
+Lepiota Helveola	Kingdom	Fungus
+Lepiota Helveola	Genus	Lepiota
+Lepiota Helveola	Class	Agaricomycetes
+Lepiota Helveola	subject	Fungi Of Europe
+Lepiota Helveola	subject	Deadly Fungi
+Lepiota Helveola	subject	Poisonous Fungi
+Lepiota Helveola	subject	Agaricaceae
+Lepiota Helveola	subject	Fungi Described In 1882
+Lepiota Helveola	type	FungiOfEurope
+Lepiota Helveola	type	Whole100003553
+Lepiota Helveola	type	PhysicalEntity100001930
+Lepiota Helveola	type	FungiDescribedIn1882
+Lepiota Helveola	type	Fungus112992868
+Lepiota Helveola	type	Thing
+Lepiota Helveola	type	Object100002684
+Lepiota Helveola	type	PoisonousFungi
+Lepiota Helveola	type	LivingThing100004258
+Lepiota Helveola	type	Eukaryote
+Lepiota Helveola	type	Species
+Lepiota Helveola	type	Organism100004475
+Lepiota Helveola	type	پھُپھُوندی
+Lepiota Helveola	type	Q19088
+Lepiota Helveola	type	DeadlyFungi
+Lepiota Helveola	label	Lepiota helveola

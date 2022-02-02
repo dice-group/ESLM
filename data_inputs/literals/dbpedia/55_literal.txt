@@ -1,0 +1,57 @@
+Hiroshi Mori (Writer)	Birth Place	Japan
+Hiroshi Mori (Writer)	Birth Place	Aichi Prefecture
+Hiroshi Mori (Writer)	Genre	Mystery Fiction
+Hiroshi Mori (Writer)	Genre	Science Fiction
+Hiroshi Mori (Writer)	Active Years Start Year	1996-01-01
+Hiroshi Mori (Writer)	Influenced By	Ellery Queen
+Hiroshi Mori (Writer)	Award	Mephisto Prize
+Subete Ga F Ni Naru	Author	Hiroshi Mori (Writer)
+The Sky Crawlers	Author	Hiroshi Mori (Writer)
+Hiroshi Mori (Writer)	givenName	Hiroshi
+Hiroshi Mori (Writer)	type	Object100002684
+Hiroshi Mori (Writer)	type	Organism100004475
+Hiroshi Mori (Writer)	type	Q36180
+Hiroshi Mori (Writer)	type	Q5
+Hiroshi Mori (Writer)	type	PhysicalEntity100001930
+Hiroshi Mori (Writer)	type	Agent
+Hiroshi Mori (Writer)	type	Person
+Hiroshi Mori (Writer)	type	PeopleFromAichiPrefecture
+Hiroshi Mori (Writer)	type	CausalAgent100007347
+Hiroshi Mori (Writer)	type	Writer
+Hiroshi Mori (Writer)	type	Q215627
+Hiroshi Mori (Writer)	type	JapaneseNovelists
+Hiroshi Mori (Writer)	type	Writer110794014
+Hiroshi Mori (Writer)	type	Person
+Hiroshi Mori (Writer)	type	Novelist110363573
+Hiroshi Mori (Writer)	type	JapaneseMysteryWriters
+Hiroshi Mori (Writer)	type	LivingPeople
+Hiroshi Mori (Writer)	type	Person100007846
+Hiroshi Mori (Writer)	type	Agent
+Hiroshi Mori (Writer)	type	Whole100003553
+Hiroshi Mori (Writer)	type	LivingThing100004258
+Hiroshi Mori (Writer)	type	YagoLegalActorGeo
+Hiroshi Mori (Writer)	type	Person
+Hiroshi Mori (Writer)	type	Communicator109610660
+Hiroshi Mori (Writer)	type	NaturalPerson
+Hiroshi Mori (Writer)	type	YagoLegalActor
+Hiroshi Mori (Writer)	type	Thing
+Hiroshi Mori (Writer)	Birth Year	1957-01-01
+Hiroshi Mori (Writer)	label	Hiroshi Mori (writer)
+Hiroshi Mori (Writer)	description	Japanese writer
+Hiroshi Mori (Writer)	description	Japanese writer
+Hiroshi Mori (Writer)	Nationality	Japanese People
+Hiroshi Mori (Writer)	name	Hiroshi Mori
+Hiroshi Mori (Writer)	name	Mori, Hiroshi
+Hiroshi Mori (Writer)	Birth Date	1957-12-07
+Hiroshi Mori (Writer)	Notable Work	Subete Ga F Ni Naru
+Hiroshi Mori (Writer)	Notable Work	The Sky Crawlers
+Hiroshi Mori (Writer)	surname	Mori
+Hiroshi Mori (Writer)	Language	Japanese People
+Hiroshi Mori (Writer)	homepage	index.html
+Hiroshi Mori (Writer)	subject	Nagoya University Faculty
+Hiroshi Mori (Writer)	subject	1957 Births
+Hiroshi Mori (Writer)	subject	Nagoya University Alumni
+Hiroshi Mori (Writer)	subject	People From Aichi Prefecture
+Hiroshi Mori (Writer)	subject	Living People
+Hiroshi Mori (Writer)	subject	Japanese Mystery Writers
+Hiroshi Mori (Writer)	subject	Japanese Novelists

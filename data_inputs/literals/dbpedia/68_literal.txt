@@ -1,0 +1,25 @@
+Battle Of Cepeda (1820)	Commander	Estanislao López
+Battle Of Cepeda (1820)	Commander	José Rondeau
+Battle Of Cepeda (1820)	Commander	Francisco Ramírez (Governor)
+Battle Of Cepeda (1820)	Relates An Entity To The Populated Place In Which It Is Located.	Santa Fe Province
+Battle Of Cepeda (1820)	differentFrom	Battle Of Cepeda (1859)
+Battle Of Cepeda (1820)	name	Battle of Cepeda
+Battle Of Cepeda (1820)	Date	1820-02-01
+Battle Of Cepeda (1859)	differentFrom	Battle Of Cepeda (1820)
+Battle Of Cepeda (1820)	subject	Battles Of The Argentine Civil War
+Battle Of Cepeda (1820)	subject	1820 In Argentina
+Battle Of Cepeda (1820)	subject	Conflicts In 1820
+Battle Of Cepeda (1820)	Is Part Of Military Conflict	Argentine Civil Wars
+Battle Of Cepeda (1820)	Result	Federalistvictory
+Battle Of Cepeda (1820)	type	Event
+Battle Of Cepeda (1820)	type	Event
+Battle Of Cepeda (1820)	type	Event
+Battle Of Cepeda (1820)	type	Q1656682
+Battle Of Cepeda (1820)	type	Military Conflict
+Battle Of Cepeda (1820)	type	Thing
+Battle Of Cepeda (1820)	type	Societal Event
+Battle Of Cepeda (1820)	label	Battle of Cepeda (1820)
+Battle Of Cepeda (1820)	depiction	Flag_of_Artigas.svg
+Battle Of Cepeda (1820)	Combatant	24pxUnitarians
+Battle Of Cepeda (1820)	Combatant	24pxFederals
+Battle Of Cepeda (1820)	Thumbnail	Flag_of_Artigas.svg?width=300

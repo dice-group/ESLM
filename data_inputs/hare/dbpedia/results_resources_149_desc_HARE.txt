@@ -1,0 +1,33 @@
+http://dbpedia.org/resource/Convoy_HX_156	0.28787878787878796
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.08402188552188547
+http://dbpedia.org/ontology/combatant	0.03164814814814815
+http://dbpedia.org/ontology/strength	0.03164814814814815
+http://dbpedia.org/ontology/isPartOfMilitaryConflict	0.021173400673400677
+http://dbpedia.org/resource/World_War_II	0.021173400673400677
+http://dbpedia.org/ontology/date	0.021173400673400677
+1941-10-22	0.021173400673400677
+http://dbpedia.org/ontology/commander	0.021173400673400677
+http://dbpedia.org/resource/Admiral	0.021173400673400677
+http://www.w3.org/2000/01/rdf-schema#label	0.021173400673400677
+Convoy HX 156	0.021173400673400677
+http://xmlns.com/foaf/0.1/depiction	0.021173400673400677
+http://commons.wikimedia.org/wiki/Special:FilePath/War_Ensign_of_Germany_1938-1945.svg	0.021173400673400677
+http://dbpedia.org/ontology/place	0.021173400673400677
+http://dbpedia.org/resource/Atlantic_Ocean	0.021173400673400677
+http://xmlns.com/foaf/0.1/name	0.021173400673400677
+Convoy HX.156	0.021173400673400677
+http://purl.org/dc/terms/subject	0.021173400673400677
+http://dbpedia.org/resource/Category:North_Atlantic_convoys_of_World_War_II	0.021173400673400677
+http://dbpedia.org/ontology/thumbnail	0.021173400673400677
+http://commons.wikimedia.org/wiki/Special:FilePath/War_Ensign_of_Germany_1938-1945.svg?width=300	0.021173400673400677
+25pxGermany	0.018096801346801347
+25pxUnited Kingdom	0.018096801346801347
+16 escorts	0.018096801346801347
+52 merchant ships	0.018096801346801347
+http://dbpedia.org/ontology/MilitaryConflict	0.0158992303992304
+http://schema.org/Event	0.0158992303992304
+http://www.w3.org/2002/07/owl#Thing	0.0158992303992304
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.0158992303992304
+http://www.wikidata.org/entity/Q1656682	0.0158992303992304
+http://dbpedia.org/ontology/Event	0.0158992303992304
+http://dbpedia.org/ontology/SocietalEvent	0.0158992303992304

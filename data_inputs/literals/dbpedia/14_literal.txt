@@ -1,0 +1,24 @@
+2011 Sparta Prague Open	Budget ($)	100000.0
+2011 Sparta Prague Open	Champion In Double Male	Michaëlla Krajicek
+2011 Sparta Prague Open	Champion In Double Male	Petra Cetkovská
+2011 Sparta Prague Open	Champion In Single Male	Magdaléna Rybáriková
+2011 Sparta Prague Open	homepage	en
+2011 Sparta Prague Open	Location	Prague
+2011 Sparta Prague Open	Type Of Tennis Surface	Clay
+2011 Sparta Prague Open	type	Q500834
+2011 Sparta Prague Open	type	Event
+2011 Sparta Prague Open	type	Event
+2011 Sparta Prague Open	type	Event
+2011 Sparta Prague Open	type	Q1656682
+2011 Sparta Prague Open	type	SportsEvent
+2011 Sparta Prague Open	type	Societal Event
+2011 Sparta Prague Open	type	Tournament
+2011 Sparta Prague Open	type	Tennis Tournament
+2011 Sparta Prague Open	type	Thing
+2011 Sparta Prague Open	type	Q13219666
+2011 Sparta Prague Open	type	Sports Event
+2011 Sparta Prague Open	label	2011 Sparta Prague Open
+2011 Sparta Prague Open	Category	Itf Women'S Circuit
+2011 Sparta Prague Open	subject	Sparta Prague Open
+2011 Sparta Prague Open	subject	2011 In Czech Sport
+2011 Sparta Prague Open	subject	2011 Itf Women'S Circuit

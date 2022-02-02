@@ -1,0 +1,31 @@
+1960 Glover Trophy	Pole Driver Team	Cooper Car Company
+1960 Glover Trophy	name	VIIIGlover Trophy
+1960 Glover Trophy	Pole Driver	Chris Bristow
+1960 Glover Trophy	subject	1960 Formula One Races
+1960 Glover Trophy	subject	20Th Century In West Sussex
+1960 Glover Trophy	subject	Glover Trophy
+1960 Glover Trophy	type	Grand Prix
+1960 Glover Trophy	type	Event
+1960 Glover Trophy	type	Event
+1960 Glover Trophy	type	SportsEvent
+1960 Glover Trophy	type	Q1656682
+1960 Glover Trophy	type	Event
+1960 Glover Trophy	type	Societal Event
+1960 Glover Trophy	type	Thing
+1960 Glover Trophy	type	Sports Event
+1960 Glover Trophy	Course (Μ)	3862.4256
+1960 Glover Trophy	Course (Μ)	3862.0
+1960 Glover Trophy	Third Driver	Chris Bristow
+1960 Glover Trophy	Distance (Μ)	162200.0
+1960 Glover Trophy	Distance (Μ)	162221.8752
+1960 Glover Trophy	label	1960 Glover Trophy
+1960 Glover Trophy	Location	West Sussex
+1960 Glover Trophy	Location	Goodwood Circuit
+1960 Glover Trophy	Fastest Driver Team	Cooper Car Company
+1960 Glover Trophy	Second Driver	Stirling Moss
+1960 Glover Trophy	First Driver	Innes Ireland
+1960 Glover Trophy	Winning Team	Team Lotus
+1960 Glover Trophy	Fastest Driver	Stirling Moss
+1960 Glover Trophy	Second Team	Cooper Car Company
+1960 Glover Trophy	Distance Laps	42
+1960 Glover Trophy	Third Team	Cooper Car Company

@@ -1,0 +1,72 @@
+http://dbpedia.org/resource/Lygodium_microphyllum	0.2854166666666671
+http://purl.org/dc/terms/subject	0.10757736354775818
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.06479660764565734
+http://dbpedia.org/ontology/synonym	0.030572002923976604
+Lygodium microphyllum	0.013459700563136234
+http://dbpedia.org/resource/Lygodium	0.013459700563136234
+http://dbpedia.org/ontology/order	0.009181624972926145
+http://dbpedia.org/resource/Schizaeales	0.009181624972926145
+http://dbpedia.org/ontology/binomialAuthority	0.009181624972926145
+http://dbpedia.org/resource/Antonio_José_Cavanilles	0.009181624972926145
+http://dbpedia.org/ontology/thumbnail	0.009181624972926145
+http://commons.wikimedia.org/wiki/Special:FilePath/ARS_Lygodium_microphyllum_foliage.jpg?width=300	0.009181624972926145
+http://dbpedia.org/ontology/class	0.009181624972926145
+http://dbpedia.org/resource/Leptosporangiate_fern	0.009181624972926145
+http://xmlns.com/foaf/0.1/depiction	0.009181624972926145
+http://commons.wikimedia.org/wiki/Special:FilePath/ARS_Lygodium_microphyllum_foliage.jpg	0.009181624972926145
+http://dbpedia.org/ontology/conservationStatusSystem	0.009181624972926145
+TNC	0.009181624972926145
+http://dbpedia.org/ontology/kingdom	0.009181624972926145
+http://dbpedia.org/resource/Plant	0.009181624972926145
+http://dbpedia.org/ontology/conservationStatus	0.009181624972926145
+G5	0.009181624972926145
+http://dbpedia.org/ontology/division	0.009181624972926145
+http://dbpedia.org/resource/Pteridophyte	0.009181624972926145
+http://www.w3.org/2000/01/rdf-schema#label	0.007771516948234784
+http://dbpedia.org/ontology/family	0.007771516948234784
+http://dbpedia.org/ontology/genus	0.007771516948234784
+http://xmlns.com/foaf/0.1/name	0.007771516948234784
+*Lygodium scandens (auct.)	0.006831444931773879
+*L. scandens (L.)Sw.)	0.006831444931773879
+*Ophioglossum filiforme (Roxb.)	0.006831444931773879
+*L. scandens var. microphyllum (Cav.)Luerss.)	0.006831444931773879
+*Ugena microphylla (Cav.) (basionym)	0.006831444931773879
+*L. scandens var. intermedium (Ces.)	0.006831444931773879
+http://www.wikidata.org/entity/Q19088	0.006562852927070764
+http://www.wikidata.org/entity/Q756	0.006562852927070764
+http://dbpedia.org/ontology/Species	0.006562852927070764
+http://dbpedia.org/class/yago/PhysicalEntity100001930	0.006562852927070764
+http://dbpedia.org/class/yago/Object100002684	0.006562852927070764
+http://dbpedia.org/ontology/Plant	0.006562852927070764
+http://dbpedia.org/class/yago/Plant100017222	0.006562852927070764
+http://dbpedia.org/ontology/Fern	0.006562852927070764
+http://www.w3.org/2002/07/owl#Thing	0.006562852927070764
+http://dbpedia.org/class/yago/PlantsDescribedIn1801	0.006562852927070764
+http://dbpedia.org/class/yago/Whole100003553	0.006562852927070764
+http://dbpedia.org/ontology/Eukaryote	0.006562852927070764
+http://dbpedia.org/class/yago/LivingThing100004258	0.006562852927070764
+http://dbpedia.org/class/yago/Organism100004475	0.006562852927070764
+http://dbpedia.org/resource/Category:Flora_of_the_Ryukyu_Islands	0.006478917925601039
+http://dbpedia.org/resource/Category:Invasive_plant_species	0.006478917925601039
+http://dbpedia.org/resource/Category:Pteridophyta_of_Africa	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_China	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Fiji	0.006478917925601039
+http://dbpedia.org/resource/Category:Pteridophyta_of_Australasia	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Thailand	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Africa	0.006478917925601039
+http://dbpedia.org/resource/Category:Plants_described_in_1801	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_New_Guinea	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Western_Australia	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Brunei	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_India	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Queensland	0.006478917925601039
+http://dbpedia.org/resource/Category:Fern_species	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Malesia	0.006478917925601039
+http://dbpedia.org/resource/Category:Pteridophyta_of_Asia	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_the_Northern_Territory	0.006478917925601039
+http://dbpedia.org/resource/Category:Lygodium	0.006478917925601039
+http://dbpedia.org/resource/Category:Pteridophyta_of_Australia	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_the_Northwestern_Pacific	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_New_South_Wales	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Japan	0.006478917925601039
+http://dbpedia.org/resource/Category:Flora_of_Taiwan	0.006478917925601039

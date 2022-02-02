@@ -1,0 +1,22 @@
+http://dbpedia.org/resource/The_Crowd_Snores http://dbpedia.org/ontology/director http://dbpedia.org/resource/Walter_Lantz 	0.06080176767676768
+http://dbpedia.org/resource/The_Crowd_Snores http://dbpedia.org/ontology/series http://dbpedia.org/resource/Pooch_the_Pup 	0.06080176767676768
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/2000/01/rdf-schema#label The Crowd Snores 	0.05087121212121212
+http://dbpedia.org/resource/The_Crowd_Snores http://xmlns.com/foaf/0.1/name The Crowd Snores 	0.05087121212121212
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Work 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://schema.org/CreativeWork 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q386724 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Cartoon 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q627603 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/HollywoodCartoon 	0.04377795815295816
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:1930s_comedy_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:English-language_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Universal_Pictures_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Films_directed_by_Walter_Lantz 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:American_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:1932_animated_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Auto_racing_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Films_about_dogs 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Black-and-white_films 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Walter_Lantz_Productions_shorts 	0.042746212121212115
+http://dbpedia.org/resource/The_Crowd_Snores http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:1930s_American_animated_films 	0.042746212121212115

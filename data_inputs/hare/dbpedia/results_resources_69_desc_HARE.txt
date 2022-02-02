@@ -1,0 +1,47 @@
+http://dbpedia.org/resource/Battle_on_the_Elster	0.2865248226950356
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.134247110585763
+http://purl.org/dc/terms/subject	0.04753349093774627
+Battle on the Elster	0.020852377199894936
+http://dbpedia.org/ontology/place	0.020852377199894936
+http://dbpedia.org/ontology/combatant	0.020852377199894936
+http://dbpedia.org/ontology/result	0.0141820987654321
+Military victory for Rudolf, political victory for Henry	0.0141820987654321
+http://dbpedia.org/ontology/thumbnail	0.0141820987654321
+http://commons.wikimedia.org/wiki/Special:FilePath/Rudolf_von_Schwaben.jpg?width=300	0.0141820987654321
+http://dbpedia.org/ontology/isPartOfMilitaryConflict	0.0141820987654321
+http://dbpedia.org/resource/Great_Saxon_Revolt	0.0141820987654321
+http://xmlns.com/foaf/0.1/depiction	0.0141820987654321
+http://commons.wikimedia.org/wiki/Special:FilePath/Rudolf_von_Schwaben.jpg	0.0141820987654321
+http://dbpedia.org/ontology/date	0.0141820987654321
+1080-10-14	0.0141820987654321
+http://xmlns.com/foaf/0.1/name	0.012021933280798532
+http://dbpedia.org/resource/Zeitz	0.012021933280798532
+http://dbpedia.org/resource/Hohenmölsen	0.012021933280798532
+Rudolf of Swabia	0.012021933280798532
+Holy Roman Emperor, Henry IV	0.012021933280798532
+http://www.w3.org/2000/01/rdf-schema#label	0.012021933280798532
+http://dbpedia.org/resource/Category:1080_in_Europe	0.010581822957709482
+http://dbpedia.org/resource/Category:Conflicts_in_1080	0.010581822957709482
+http://dbpedia.org/resource/Category:Battles_involving_the_Holy_Roman_Empire	0.010581822957709482
+http://dbpedia.org/resource/Category:Battles_involving_Saxony	0.010581822957709482
+http://dbpedia.org/resource/Category:Battles_of_the_Middle_Ages	0.010581822957709482
+http://dbpedia.org/resource/Category:Battles_involving_Bohemia	0.010581822957709482
+http://dbpedia.org/class/yago/Battle100953559	0.010089153636652703
+http://dbpedia.org/ontology/SocietalEvent	0.010089153636652703
+http://dbpedia.org/class/yago/BattlesInvolvingBohemia	0.010089153636652703
+http://dbpedia.org/ontology/Event	0.010089153636652703
+http://dbpedia.org/class/yago/Act100030358	0.010089153636652703
+http://dbpedia.org/class/yago/Event100029378	0.010089153636652703
+http://dbpedia.org/class/yago/PsychologicalFeature100023100	0.010089153636652703
+http://dbpedia.org/class/yago/MilitaryAction100952963	0.010089153636652703
+http://dbpedia.org/class/yago/GroupAction101080366	0.010089153636652703
+http://schema.org/Event	0.010089153636652703
+http://dbpedia.org/class/yago/BattlesOfTheMiddleAges	0.010089153636652703
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event	0.010089153636652703
+http://www.w3.org/2002/07/owl#Thing	0.010089153636652703
+http://dbpedia.org/class/yago/Abstraction100002137	0.010089153636652703
+http://dbpedia.org/ontology/MilitaryConflict	0.010089153636652703
+http://www.wikidata.org/entity/Q1656682	0.010089153636652703
+http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity	0.010089153636652703
+http://dbpedia.org/class/yago/BattlesInvolvingTheHolyRomanEmpire	0.010089153636652703
+http://dbpedia.org/class/yago/BattlesInvolvingSaxony	0.010089153636652703

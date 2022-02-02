@@ -1,0 +1,47 @@
+Finn Schiander	description	Sailor
+Finn Schiander	description	Sailor
+Finn Schiander	surname	Schiander
+Finn Schiander	Birth Year	1898-01-01
+Finn Schiander	type	OlympicMedalistsInSailing
+Finn Schiander	type	SailorsAtThe1920SummerOlympics
+Finn Schiander	type	Agent
+Finn Schiander	type	Winner110782940
+Finn Schiander	type	Organism100004475
+Finn Schiander	type	Whole100003553
+Finn Schiander	type	Agent
+Finn Schiander	type	NaturalPerson
+Finn Schiander	type	LivingThing100004258
+Finn Schiander	type	Object100002684
+Finn Schiander	type	Sailor110546633
+Finn Schiander	type	Q215627
+Finn Schiander	type	OlympicSilverMedalistsForNorway
+Finn Schiander	type	Worker109632518
+Finn Schiander	type	Contestant109613191
+Finn Schiander	type	Medalist110305062
+Finn Schiander	type	YagoLegalActor
+Finn Schiander	type	PhysicalEntity100001930
+Finn Schiander	type	SkilledWorker110605985
+Finn Schiander	type	Person
+Finn Schiander	type	OlympicSailorsOfNorway
+Finn Schiander	type	Athlete
+Finn Schiander	type	Person
+Finn Schiander	type	Thing
+Finn Schiander	type	Person100007846
+Finn Schiander	type	CausalAgent100007347
+Finn Schiander	type	Q5
+Finn Schiander	type	Person
+Finn Schiander	type	YagoLegalActorGeo
+Finn Schiander	label	Finn Schiander
+Finn Schiander	Death Year	1967-01-01
+Finn Schiander	subject	Norwegian Sailors (Sport)
+Finn Schiander	subject	Olympic Silver Medalists For Norway
+Finn Schiander	subject	Sailors At The 1920 Summer Olympics – 8 Metre
+Finn Schiander	subject	Olympic Sailors Of Norway
+Finn Schiander	subject	1967 Deaths
+Finn Schiander	subject	Olympic Medalists In Sailing
+Finn Schiander	subject	1898 Births
+Finn Schiander	givenName	Finn
+Finn Schiander	Death Date	1967-01-01
+Finn Schiander	name	Schiander, Finn
+Finn Schiander	name	Finn Schiander
+Finn Schiander	Birth Date	1898-05-07

@@ -1,0 +1,61 @@
+You Better Run	Musical Band	Pat Benatar
+You Better Run	Musical Band	The Rascals
+Hit Me With Your Best Shot	Previous Work	You Better Run
+You Better Run	label	You Better Run
+You Better Run	subject	Song Recordings Produced By Keith Olsen
+You Better Run	subject	1966 Singles
+You Better Run	subject	Atlantic Records Singles
+You Better Run	subject	The Rascals Songs
+You Better Run	subject	Song Recordings Produced By Tom Dowd
+You Better Run	subject	Songs Written By Eddie Brigati
+You Better Run	subject	Song Recordings Produced By Arif Mardin
+You Better Run	subject	Songs Written By Felix Cavaliere
+You Better Run	subject	Chrysalis Records Singles
+You Better Run	subject	1966 Songs
+You Better Run	subject	Pat Benatar Songs
+You Better Run	subject	1980 Singles
+You Better Run	Album	Crimes Of Passion (Pat Benatar Album)
+You Better Run	Album	Groovin' (The Young Rascals Album)
+You Better Run	Previous Work	Good Lovin'
+You Better Run	Runtime (S)	145.0
+You Better Run	Runtime (S)	184.0
+You Better Run	Record Label	Atlantic Records
+You Better Run	Record Label	Chrysalis Records
+You Better Run	name	You Better Run
+You Better Run	Writer	Felix Cavaliere
+You Better Run	Writer	Eddie Brigati
+You Better Run	Producer	The Rascals
+You Better Run	Producer	Keith Olsen
+You Better Run	Producer	Tom Dowd
+You Better Run	type	SongsProducedByKeithOlsen
+You Better Run	type	Thing
+You Better Run	type	SongsProducedByTomDowd
+You Better Run	type	MusicalComposition107037465
+You Better Run	type	Q386724
+You Better Run	type	AuditoryCommunication107109019
+You Better Run	type	Single
+You Better Run	type	Song107048000
+You Better Run	type	TheRascalsSongs
+You Better Run	type	Music107020895
+You Better Run	type	CreativeWork
+You Better Run	type	Abstraction100002137
+You Better Run	type	PatBenatarSongs
+You Better Run	type	Musical Work
+You Better Run	type	SongsProducedByArifMardin
+You Better Run	type	Q2188189
+You Better Run	type	Work
+You Better Run	type	Q134556
+You Better Run	type	Communication100033020
+You Better Run	Genre	Rhythm And Blues
+You Better Run	Genre	Rock Music
+You Better Run	Genre	Heartland Rock
+You Better Run	Genre	Blue-Eyed Soul
+You Better Run	Genre	Hard Rock
+You Better Run	Musical Artist	The Rascals
+You Better Run	Musical Artist	Pat Benatar
+You Better Run	Release Date	1966-05-30
+You Better Run	Release Date	1980-07-08
+You Better Run	B Side	"Out-A-Touch"
+You Better Run	B Side	"Love Is a Beautiful Thing"
+You Better Run	Format (Object)	Gramophone Record
+You Better Run	Subsequent Work	Hit Me With Your Best Shot

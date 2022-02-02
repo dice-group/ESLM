@@ -1,0 +1,33 @@
+Jalalia, Khyber Pakhtunkhwa	name	Jalalia
+Jalalia, Khyber Pakhtunkhwa	point	34.08 73.06
+Jalalia, Khyber Pakhtunkhwa	type	SpatialThing
+Jalalia, Khyber Pakhtunkhwa	type	Place
+Jalalia, Khyber Pakhtunkhwa	type	PopulatedPlacesInAbbottabadDistrict
+Jalalia, Khyber Pakhtunkhwa	type	Region108630985
+Jalalia, Khyber Pakhtunkhwa	type	YagoGeoEntity
+Jalalia, Khyber Pakhtunkhwa	type	GeographicalArea108574314
+Jalalia, Khyber Pakhtunkhwa	type	PopulatedPlacesInKhyberPakhtunkhwa
+Jalalia, Khyber Pakhtunkhwa	type	Thing
+Jalalia, Khyber Pakhtunkhwa	type	YagoLegalActorGeo
+Jalalia, Khyber Pakhtunkhwa	type	District108552138
+Jalalia, Khyber Pakhtunkhwa	type	Place
+Jalalia, Khyber Pakhtunkhwa	type	Location
+Jalalia, Khyber Pakhtunkhwa	type	Q486972
+Jalalia, Khyber Pakhtunkhwa	type	AdministrativeDistrict108491826
+Jalalia, Khyber Pakhtunkhwa	type	Populated Place
+Jalalia, Khyber Pakhtunkhwa	type	Object100002684
+Jalalia, Khyber Pakhtunkhwa	type	Site108651247
+Jalalia, Khyber Pakhtunkhwa	type	PhysicalEntity100001930
+Jalalia, Khyber Pakhtunkhwa	type	Location100027167
+Jalalia, Khyber Pakhtunkhwa	type	Settlement
+Jalalia, Khyber Pakhtunkhwa	type	YagoPermanentlyLocatedEntity
+Jalalia, Khyber Pakhtunkhwa	type	Tract108673395
+Jalalia, Khyber Pakhtunkhwa	Is Part Of	Khyber Pakhtunkhwa
+Jalalia, Khyber Pakhtunkhwa	Country	Pakistan
+Jalalia, Khyber Pakhtunkhwa	subject	Populated Places In Abbottabad District
+Jalalia, Khyber Pakhtunkhwa	label	Jalalia, Khyber Pakhtunkhwa
+Jalalia, Khyber Pakhtunkhwa	long	73.06
+Jalalia, Khyber Pakhtunkhwa	lat	34.08
+Jalalia, Khyber Pakhtunkhwa	Utc Offset	+5
+Jalalia, Khyber Pakhtunkhwa	Elevation (Μ)	919.0
+Jalalia, Khyber Pakhtunkhwa	Time Zone	Pakistan Standard Time

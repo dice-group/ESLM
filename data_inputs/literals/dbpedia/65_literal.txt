@@ -1,0 +1,25 @@
+2010 Belgian Super Cup	subject	K.A.A. Gent Matches
+2010 Belgian Super Cup	subject	R.S.C. Anderlecht Matches
+2010 Belgian Super Cup	subject	2009–10 In Belgian Football
+2010 Belgian Super Cup	subject	Belgian Supercup
+2010 Belgian Super Cup	label	2010 Belgian Super Cup
+2010 Belgian Super Cup	City	Anderlecht
+2010 Belgian Super Cup	Date	2010-07-23
+2010 Belgian Super Cup	Previous Event	2009 Belgian Super Cup
+2011 Belgian Super Cup	Previous Event	2010 Belgian Super Cup
+2010 Belgian Super Cup	type	Event
+2010 Belgian Super Cup	type	SportsEvent
+2010 Belgian Super Cup	type	Event
+2010 Belgian Super Cup	type	Thing
+2010 Belgian Super Cup	type	Societal Event
+2010 Belgian Super Cup	type	Q1656682
+2010 Belgian Super Cup	type	Event
+2010 Belgian Super Cup	type	Football Match
+2010 Belgian Super Cup	type	Sports Event
+2010 Belgian Super Cup	Following Event	2011 Belgian Super Cup
+2010 Belgian Super Cup	Team	R.S.C. Anderlecht
+2010 Belgian Super Cup	Team	K.A.A. Gent
+2010 Belgian Super Cup	Time	20:45CET
+2010 Belgian Super Cup	name	2010 Belgian Super Cup
+2009 Belgian Super Cup	Following Event	2010 Belgian Super Cup
+2010 Belgian Super Cup	Location	Constant Vanden Stock Stadium

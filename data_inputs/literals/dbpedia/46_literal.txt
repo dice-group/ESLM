@@ -1,0 +1,21 @@
+Sketchy Ep 2	Previous Work	Sketchy Ep 1
+Sketchy Ep 1	Performer	Jonah Matranga
+Sketchy Ep 1	name	Sketchy EP #1
+Sketchy Ep 1	Subsequent Work	Sketchy Ep 2
+Jonah'S One-Line Drawing	Subsequent Work	Sketchy Ep 1
+Sketchy Ep 1	Type	Ep
+Sketchy Ep 1	Release Date	1999-10-19
+Sketchy Ep 1	Producer	Jonah Matranga
+Sketchy Ep 1	Previous Work	Jonah'S One-Line Drawing
+Sketchy Ep 1	label	Sketchy EP 1
+Sketchy Ep 1	Genre	Acoustic Music
+Sketchy Ep 1	subject	Jonah Matranga Albums
+Sketchy Ep 1	type	MusicAlbum
+Sketchy Ep 1	type	Work
+Sketchy Ep 1	type	Q482994
+Sketchy Ep 1	type	Thing
+Sketchy Ep 1	type	Q2188189
+Sketchy Ep 1	type	CreativeWork
+Sketchy Ep 1	type	Album
+Sketchy Ep 1	type	Musical Work
+Sketchy Ep 1	type	Q386724

@@ -1,0 +1,31 @@
+Drama City	Completion Date	2008-03-29
+Drama City	Genre	Drama
+Drama City	type	Thing
+Drama City	type	Whole100003553
+Drama City	type	PhysicalEntity100001930
+Drama City	type	Television Show
+Drama City	type	CreativeWork
+Drama City	type	Work
+Drama City	type	Medium106254669
+Drama City	type	Q15416
+Drama City	type	Telecommunication106271778
+Drama City	type	Broadcasting106276697
+Drama City	type	Q386724
+Drama City	type	Object100002684
+Drama City	type	Instrumentality103575240
+Drama City	type	Artifact100021939
+Drama City	type	Television106277280
+Drama City	name	Drama City
+Drama City	homepage	dramacity
+Drama City	Location	South Korea
+Drama City	Country	South Korea
+Drama City	subject	Korean Broadcasting System Television Dramas
+Drama City	label	Drama City
+Drama City	Language	Korean Language
+Drama City	Release Date	1984-11-30
+Drama City	Network	Korean Broadcasting System
+Drama City	Starring	Ku Hye-Sun
+Drama City	Starring	Lee Pil-Mo
+Drama City	Starring	Lee Min-Ki
+Drama City	Starring	Kim Ji-Woo
+Drama City	Starring	Kim Jeong-Hoon

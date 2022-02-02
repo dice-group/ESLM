@@ -1,0 +1,39 @@
+Fleckistock	Located In Area	Switzerland
+Fleckistock	Located In Area	Canton Of Uri
+Fleckistock	Other Name	Rot Stock
+Fleckistock	Thumbnail	Sustenhorn.b.Oct.2010.JPG?width=300
+Fleckistock	Prominence (Μ)	761.0
+Fleckistock	label	Fleckistock
+Fleckistock	point	46.70736111111111 8.497666666666667
+Fleckistock	Mountain Range	Uri Alps
+Fleckistock	depiction	Sustenhorn.b.Oct.2010.JPG
+Fleckistock	lat	46.70736
+Fleckistock	Elevation (Μ)	3417.0
+Fleckistock	type	Place
+Fleckistock	type	Location
+Fleckistock	type	MountainsOfTheAlps
+Fleckistock	type	SpatialThing
+Fleckistock	type	NaturalElevation109366317
+Fleckistock	type	Natural Place
+Fleckistock	type	GeologicalFormation109287968
+Fleckistock	type	Mountain
+Fleckistock	type	Object100002684
+Fleckistock	type	Thing
+Fleckistock	type	Q8502
+Fleckistock	type	YagoGeoEntity
+Fleckistock	type	MountainsOfSwitzerland
+Fleckistock	type	YagoPermanentlyLocatedEntity
+Fleckistock	type	Place
+Fleckistock	type	PhysicalEntity100001930
+Fleckistock	type	Mountain
+Fleckistock	type	Mountain109359803
+Fleckistock	long	8.497666
+Rorspitzli	Parent Mountain Peak	Fleckistock
+Salbitschijen	Parent Mountain Peak	Fleckistock
+Stucklistock	Parent Mountain Peak	Fleckistock
+Fleckistock	Parent Mountain Peak	Dammastock
+Fleckistock	name	Fleckistock
+Fleckistock	subject	Mountains Of The Canton Of Uri
+Fleckistock	subject	Mountains Of Switzerland
+Fleckistock	subject	Mountains Of The Alps
+Fleckistock	subject	Alpine Three-Thousanders

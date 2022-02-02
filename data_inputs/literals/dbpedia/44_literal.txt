@@ -1,0 +1,26 @@
+Our Leading Citizen (1939 Film)	name	Our Leading Citizen
+Our Leading Citizen (1939 Film)	label	Our Leading Citizen (1939 film)
+Our Leading Citizen (1939 Film)	Starring	Charles Bickford
+Our Leading Citizen (1939 Film)	Starring	Bob Burns (Comedian)
+Our Leading Citizen (1939 Film)	Starring	Gene Lockhart
+Our Leading Citizen (1939 Film)	Starring	Susan Hayward
+Our Leading Citizen (1939 Film)	Starring	Elizabeth Patterson (Actress)
+Our Leading Citizen (1939 Film)	Runtime (S)	5340.0
+Our Leading Citizen (1939 Film)	type	Thing
+Our Leading Citizen (1939 Film)	type	Movie
+Our Leading Citizen (1939 Film)	type	CreativeWork
+Our Leading Citizen (1939 Film)	type	Work
+Our Leading Citizen (1939 Film)	type	Q11424
+Our Leading Citizen (1939 Film)	type	Movie
+Our Leading Citizen (1939 Film)	type	Q386724
+Our Leading Citizen (1939 Film)	Film Director	Alfred Santell
+Our Leading Citizen (1939 Film)	Cinematography	Victor Milner
+Our Leading Citizen (1939 Film)	subject	Paramount Pictures Films
+Our Leading Citizen (1939 Film)	subject	1930S Comedy Films
+Our Leading Citizen (1939 Film)	subject	American Comedy Films
+Our Leading Citizen (1939 Film)	subject	1939 Films
+Our Leading Citizen (1939 Film)	subject	American Films
+Our Leading Citizen (1939 Film)	subject	English-Language Films
+Our Leading Citizen (1939 Film)	subject	Films Directed By Alfred Santell
+Our Leading Citizen (1939 Film)	Distributor	Paramount Pictures
+Our Leading Citizen (1939 Film)	Music Composer	Gerard Carbonara

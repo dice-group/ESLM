@@ -1,0 +1,27 @@
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/conservationStatus EN 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/family http://dbpedia.org/resource/Lungless_salamander 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/conservationStatusSystem IUCN3.1 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/phylum http://dbpedia.org/resource/Chordate 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/genus http://dbpedia.org/resource/Lineatriton 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/order http://dbpedia.org/resource/Caudata 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/kingdom http://dbpedia.org/resource/Animal 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://dbpedia.org/ontology/class http://dbpedia.org/resource/Amphibian 	0.04410453378354613
+http://dbpedia.org/resource/Lineatriton_orchimelas http://xmlns.com/foaf/0.1/name Lineatriton orchimelas 	0.038141333403679076
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/2000/01/rdf-schema#label Lineatriton orchimelas 	0.038141333403679076
+http://dbpedia.org/resource/Lineatriton_orchimelas http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Fauna_of_Mexico 	0.03615359994372339
+http://dbpedia.org/resource/Lineatriton_orchimelas http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Animals_described_in_2002 	0.03615359994372339
+http://dbpedia.org/resource/Lineatriton_orchimelas http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Lineatriton 	0.03615359994372339
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/Animal100015388 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/Organism100004475 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/AnimalsDescribedIn2002 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/PhysicalEntity100001930 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/Whole100003553 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Species 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q19088 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/Object100002684 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Animal 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q729 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Eukaryote 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Amphibian 	0.03303001879236447
+http://dbpedia.org/resource/Lineatriton_orchimelas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/class/yago/LivingThing100004258 	0.03303001879236447

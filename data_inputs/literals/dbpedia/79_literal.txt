@@ -1,0 +1,36 @@
+Stara Bučka	Elevation (Μ)	262.2
+Stara Bučka	Area Total (M2)	2950000.0
+Stara Bučka	Is Part Of	Lower Carniola
+Stara Bučka	Is Part Of	Municipality Of Škocjan
+Stara Bučka	Is Part Of	Southeast Slovenia Statistical Region
+Stara Bučka	label	Stara Bučka
+Stara Bučka	lat	45.9213
+Stara Bučka	depiction	Flag_of_Slovenia.svg
+Stara Bučka	point	45.9213 15.306447222222221
+Stara Bučka	Population Total	101
+Stara Bučka	name	Stara Bučka
+Stara Bučka	subject	Populated Places In The Municipality Of Škocjan
+Stara Bučka	long	15.306447
+Stara Bučka	Country	Slovenia
+Stara Bučka	Thumbnail	Flag_of_Slovenia.svg?width=300
+Stara Bučka	type	Site108651247
+Stara Bučka	type	YagoLegalActorGeo
+Stara Bučka	type	Thing
+Stara Bučka	type	Location
+Stara Bučka	type	SpatialThing
+Stara Bučka	type	Object100002684
+Stara Bučka	type	PhysicalEntity100001930
+Stara Bučka	type	Place
+Stara Bučka	type	Location100027167
+Stara Bučka	type	Q486972
+Stara Bučka	type	YagoPermanentlyLocatedEntity
+Stara Bučka	type	Region108630985
+Stara Bučka	type	YagoGeoEntity
+Stara Bučka	type	AdministrativeDistrict108491826
+Stara Bučka	type	PopulatedPlacesInTheMunicipalityOf%C5%A0kocjan
+Stara Bučka	type	GeographicalArea108574314
+Stara Bučka	type	Tract108673395
+Stara Bučka	type	Populated Place
+Stara Bučka	type	Place
+Stara Bučka	type	District108552138
+Stara Bučka	type	Settlement

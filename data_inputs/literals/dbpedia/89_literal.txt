@@ -1,0 +1,21 @@
+Thaia Saprophytica	subject	Myco-Heterotrophic Orchids
+Thaia Saprophytica	subject	Neottieae
+Thaia Saprophytica	subject	Orchids Of Laos
+Thaia Saprophytica	subject	Plants Described In 1975
+Thaia Saprophytica	subject	Orchids Of Thailand
+Thaia Saprophytica	type	Eukaryote
+Thaia Saprophytica	type	Thing
+Thaia Saprophytica	type	Plant
+Thaia Saprophytica	type	Q19088
+Thaia Saprophytica	type	Q756
+Thaia Saprophytica	type	Species
+Thaia Saprophytica	Order (Taxonomy)	Asparagales
+Thaia Saprophytica	name	Thaia
+Thaia Saprophytica	label	Thaia saprophytica
+Thaia Saprophytica	Binomial Authority	Gunnar Seidenfaden
+Thaia Saprophytica	Family	Epidendroideae
+Thaia Saprophytica	Family	Orchidaceae
+Thaia Saprophytica	Family	Neottieae
+Thaia Saprophytica	Class	Monocotyledon
+Thaia Saprophytica	Division	Flowering Plant
+Thaia Saprophytica	Kingdom	Plant

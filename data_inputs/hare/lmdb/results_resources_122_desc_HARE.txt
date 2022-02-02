@@ -1,0 +1,34 @@
+http://data.linkedmdb.org/resource/director/10846	0.2877450980392158
+http://data.linkedmdb.org/resource/movie/director	0.12097137118736392
+http://xmlns.com/foaf/0.1/made	0.11470329984898006
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	0.0190202979550406
+http://data.linkedmdb.org/resource/movie/director_directorid	0.016397007761437907
+10846	0.016397007761437907
+http://www.w3.org/2000/01/rdf-schema#label	0.016397007761437907
+Paul Morris (Director)	0.016397007761437907
+http://data.linkedmdb.org/resource/movie/director_name	0.016397007761437907
+Paul Morris	0.016397007761437907
+http://xmlns.com/foaf/0.1/page	0.016397007761437907
+http://www.freebase.com/view/guid/9202a8c04000641f800000000073a82c	0.016397007761437907
+http://data.linkedmdb.org/resource/film/95114	0.014925280318356299
+http://data.linkedmdb.org/resource/film/84413	0.014925280318356299
+http://data.linkedmdb.org/resource/film/91121	0.014925280318356299
+http://data.linkedmdb.org/resource/film/91749	0.014925280318356299
+http://data.linkedmdb.org/resource/film/93001	0.014925280318356299
+http://data.linkedmdb.org/resource/film/83511	0.014925280318356299
+http://data.linkedmdb.org/resource/film/74508	0.014925280318356299
+http://data.linkedmdb.org/resource/film/84412	0.014925280318356299
+http://data.linkedmdb.org/resource/film/83482	0.014925280318356299
+http://data.linkedmdb.org/resource/film/93002	0.014925280318356299
+http://data.linkedmdb.org/resource/film/84415	0.014925280318356299
+http://data.linkedmdb.org/resource/film/92998	0.014925280318356299
+http://data.linkedmdb.org/resource/film/96162	0.014925280318356299
+http://data.linkedmdb.org/resource/film/92999	0.014925280318356299
+http://data.linkedmdb.org/resource/film/84414	0.014925280318356299
+http://data.linkedmdb.org/resource/film/85570	0.014925280318356299
+http://data.linkedmdb.org/resource/film/84411	0.014925280318356299
+http://data.linkedmdb.org/resource/film/84416	0.014925280318356299
+http://data.linkedmdb.org/resource/film/95113	0.014925280318356299
+http://data.linkedmdb.org/resource/film/93000	0.014925280318356299
+http://data.linkedmdb.org/resource/film/92047	0.014925280318356299
+http://xmlns.com/foaf/0.1/Person	0.012952984192414339

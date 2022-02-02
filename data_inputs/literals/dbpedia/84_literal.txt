@@ -1,0 +1,22 @@
+Hilarographa Excellens	Thumbnail	03-Thaumatographa_excellens_Pagenstecher,_1900.JPG?width=300
+Hilarographa Excellens	Genus	Hilarographa
+Hilarographa Excellens	name	Hilarographa excellens
+Hilarographa Excellens	Class	Insect
+Hilarographa Excellens	Order (Taxonomy)	Lepidoptera
+Hilarographa Excellens	Kingdom	Animal
+Hilarographa Excellens	depiction	03-Thaumatographa_excellens_Pagenstecher,_1900.JPG
+Hilarographa Excellens	Phylum	Arthropod
+Hilarographa Excellens	label	Hilarographa excellens
+Hilarographa Excellens	Synonym	*Hilarographa pyranthis (Meyrick, 1907)
+Hilarographa Excellens	Synonym	*Thaumatographa excellens (Pagenstecher, 1900)
+Hilarographa Excellens	type	Thing
+Hilarographa Excellens	type	Animal
+Hilarographa Excellens	type	Eukaryote
+Hilarographa Excellens	type	Q19088
+Hilarographa Excellens	type	Species
+Hilarographa Excellens	type	Insect
+Hilarographa Excellens	type	Q1390
+Hilarographa Excellens	type	Q729
+Hilarographa Excellens	subject	Hilarographini
+Hilarographa Excellens	subject	Moths Described In 1900
+Hilarographa Excellens	Family	Tortricidae

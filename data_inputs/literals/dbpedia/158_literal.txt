@@ -1,0 +1,27 @@
+Lineatriton Orchimelas	Conservation Status	EN
+Lineatriton Orchimelas	name	Lineatriton orchimelas
+Lineatriton Orchimelas	Family	Lungless Salamander
+Lineatriton Orchimelas	subject	Fauna Of Mexico
+Lineatriton Orchimelas	subject	Animals Described In 2002
+Lineatriton Orchimelas	subject	Lineatriton
+Lineatriton Orchimelas	Conservation Status System	IUCN3.1
+Lineatriton Orchimelas	Phylum	Chordate
+Lineatriton Orchimelas	label	Lineatriton orchimelas
+Lineatriton Orchimelas	Genus	Lineatriton
+Lineatriton Orchimelas	type	Animal100015388
+Lineatriton Orchimelas	type	Organism100004475
+Lineatriton Orchimelas	type	AnimalsDescribedIn2002
+Lineatriton Orchimelas	type	PhysicalEntity100001930
+Lineatriton Orchimelas	type	Thing
+Lineatriton Orchimelas	type	Whole100003553
+Lineatriton Orchimelas	type	Species
+Lineatriton Orchimelas	type	Q19088
+Lineatriton Orchimelas	type	Object100002684
+Lineatriton Orchimelas	type	Animal
+Lineatriton Orchimelas	type	Q729
+Lineatriton Orchimelas	type	Eukaryote
+Lineatriton Orchimelas	type	Amphibian
+Lineatriton Orchimelas	type	LivingThing100004258
+Lineatriton Orchimelas	Order (Taxonomy)	Caudata
+Lineatriton Orchimelas	Kingdom	Animal
+Lineatriton Orchimelas	Class	Amphibian

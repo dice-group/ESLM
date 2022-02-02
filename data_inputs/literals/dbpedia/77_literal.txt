@@ -1,0 +1,67 @@
+Saint-Raphaël, Var	subject	Communes Of Var (Department)
+Saint-Raphaël, Var	name	Saint-Raphaël
+Saint-Raphaël, Var	Area (M2)	89590000.0
+Henry Bérenger	Death Place	Saint-Raphaël, Var
+Sim (Actor)	Death Place	Saint-Raphaël, Var
+Louis Hon	Death Place	Saint-Raphaël, Var
+François Simiand	Death Place	Saint-Raphaël, Var
+Basil Spalding De Garmendia	Death Place	Saint-Raphaël, Var
+Arthur Coadou	Death Place	Saint-Raphaël, Var
+Josep Irla I Bosch	Death Place	Saint-Raphaël, Var
+Henri Guisol	Death Place	Saint-Raphaël, Var
+Melchior Treub	Death Place	Saint-Raphaël, Var
+Adrien Douady	Death Place	Saint-Raphaël, Var
+Ralph Paget	Death Place	Saint-Raphaël, Var
+Germaine Sablon	Death Place	Saint-Raphaël, Var
+Shahan Shahnour	Death Place	Saint-Raphaël, Var
+Saint-Raphaël, Var	Elevation (Μ)	10.0
+Saint-Raphaël, Var	type	District108552138
+Saint-Raphaël, Var	type	Object100002684
+Saint-Raphaël, Var	type	AdministrativeDistrict108491826
+Saint-Raphaël, Var	type	SpatialThing
+Saint-Raphaël, Var	type	Region108630985
+Saint-Raphaël, Var	type	Place
+Saint-Raphaël, Var	type	Location
+Saint-Raphaël, Var	type	Settlement
+Saint-Raphaël, Var	type	Thing
+Saint-Raphaël, Var	type	YagoPermanentlyLocatedEntity
+Saint-Raphaël, Var	type	YagoLegalActorGeo
+Saint-Raphaël, Var	type	Location100027167
+Saint-Raphaël, Var	type	Place
+Saint-Raphaël, Var	type	Populated Place
+Saint-Raphaël, Var	type	PhysicalEntity100001930
+Saint-Raphaël, Var	type	YagoGeoEntity
+Saint-Raphaël, Var	type	Q486972
+Saint-Raphaël, Var	type	CommunesOfVar(department)
+Saint-Raphaël, Var	type	Commune108541609
+Saint-Raphaël, Var	lat	43.4252
+Saint-Raphaël, Var	Thumbnail	MairieStRaphaël.JPG?width=300
+Saint-Raphaël, Var	long	6.7684
+Saint-Raphaël, Var	Country	France
+Saint-Raphaël, Var	Department	Var (Department)
+Saint-Raphaël, Var	seeAlso	Lists Of Twin Towns And Sister Cities
+Saint-Raphaël, Var	seeAlso	Twin Towns And Sister Cities
+Saint-Raphaël, Var	seeAlso	France
+Saint-Raphaël, Var	point	43.4252 6.7684
+Saint-Raphaël, Var	Postal Code	83700 and 83530
+Saint-Raphaël, Var	label	Saint-Raphaël, Var
+Saint-Raphaël, Var	Maximum Elevation (Μ)	560.0
+Saint-Raphaël, Var	depiction	MairieStRaphaël.JPG
+Stade Louis Hon	Location	Saint-Raphaël, Var
+Saint-Raphaël, Var	Minimum Elevation (Μ)	0.0
+Saint-Raphaël, Var	Population Total	34425
+Capucine	Birth Place	Saint-Raphaël, Var
+Eyemen Henaini	Birth Place	Saint-Raphaël, Var
+Fabien Dao Castellana	Birth Place	Saint-Raphaël, Var
+Jean-Christophe, Prince Napoléon	Birth Place	Saint-Raphaël, Var
+Valérie Allain	Birth Place	Saint-Raphaël, Var
+David Michie	Birth Place	Saint-Raphaël, Var
+Grégory Tony	Birth Place	Saint-Raphaël, Var
+Edgar Givry	Birth Place	Saint-Raphaël, Var
+Princess Béatrice Of Bourbon-Two Sicilies	Birth Place	Saint-Raphaël, Var
+Anthony Braizat	Birth Place	Saint-Raphaël, Var
+Earvin N'Gapeth	Birth Place	Saint-Raphaël, Var
+Abdellah Ezbiri	Birth Place	Saint-Raphaël, Var
+Prince Carlo, Duke Of Castro	Birth Place	Saint-Raphaël, Var
+Saint-Raphaël, Var	Region	Provence-Alpes-Côte D'Azur
+Saint-Raphaël, Var	Insee Code	83118

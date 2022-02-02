@@ -1,0 +1,22 @@
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://xmlns.com/foaf/0.1/name Battle of Zacatecas 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/2000/01/rdf-schema#label Battle of Zacatecas (1914) 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/result Decisive rebel victory 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/causalties 1,000 (estimate) 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/date 1914-06-23 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/isPartOfMilitaryConflict http://dbpedia.org/resource/Mexican_Revolution 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/combatant Villistas (followers ofPancho Villa) 	0.05267676767676766
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Battles_of_the_Mexican_Revolution 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:1914_in_Mexico 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/place http://dbpedia.org/resource/Zacatecas 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/place http://dbpedia.org/resource/Zacatecas,_Zacatecas 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/commander http://dbpedia.org/resource/Pancho_Villa 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/commander http://dbpedia.org/resource/Luís_Medina_Barrón 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/strength 7,000-15,000 (most likely 12,000) 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://dbpedia.org/ontology/strength over 20,000 (estimate) 	0.04473232323232322
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Event 	0.03905772005772004
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing 	0.03905772005772004
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event 	0.03905772005772004
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SocietalEvent 	0.03905772005772004
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q1656682 	0.03905772005772004
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/MilitaryConflict 	0.03905772005772004
+http://dbpedia.org/resource/Battle_of_Zacatecas_(1914) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://schema.org/Event 	0.03905772005772004

@@ -1,0 +1,24 @@
+Yayoidai Station	Opening Year	1976-01-01
+Yayoidai Station	Serving Railway Line	Sagami Railway Izumino Line
+Yayoidai Station	label	Yayoidai Station
+Yayoidai Station	Country	Japan
+Yayoidai Station	Thumbnail	Sagami-railway-izumino-line-Yayoidai-station-south-entrance.jpg?width=300
+Yayoidai Station	Address	5-2 Yayoidai
+Yayoidai Station	Address	神奈川県 横浜市泉区弥生台５－２
+Yayoidai Station	type	Station
+Yayoidai Station	type	Place
+Yayoidai Station	type	Location
+Yayoidai Station	type	Q719456
+Yayoidai Station	type	Place
+Yayoidai Station	type	Q55488
+Yayoidai Station	type	Architectural Structure
+Yayoidai Station	type	Thing
+Yayoidai Station	type	Train Station
+Yayoidai Station	type	Infrastructure
+Yayoidai Station	subject	Railway Stations In Yokohama
+Yayoidai Station	operatedBy	Sagami Railway
+Yayoidai Station	Passengers Per Day	16032
+Yayoidai Station	name	弥生台
+Yayoidai Station	name	Yayoidai
+Yayoidai Station	depiction	Sagami-railway-izumino-line-Yayoidai-station-south-entrance.jpg
+Yayoidai Station	Postal Code	245-0008

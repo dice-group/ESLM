@@ -1,0 +1,31 @@
+Ludwigsburg University	homepage	www.ph-ludwigsburg.de
+Rainer Arnold	Alma Mater	Ludwigsburg University
+Ludwigsburg University	type	Q43229
+Ludwigsburg University	type	Organization
+Ludwigsburg University	type	CollegeOrUniversity
+Ludwigsburg University	type	Agent
+Ludwigsburg University	type	YagoLegalActor
+Ludwigsburg University	type	Agent
+Ludwigsburg University	type	EducationalOrganization
+Ludwigsburg University	type	Thing
+Ludwigsburg University	type	UniversitiesAndCollegesInBaden-W%C3%BCrttemberg
+Ludwigsburg University	type	YagoLegalActorGeo
+Ludwigsburg University	type	Organization108008335
+Ludwigsburg University	type	Q3918
+Ludwigsburg University	type	Institution108053576
+Ludwigsburg University	type	YagoPermanentlyLocatedEntity
+Ludwigsburg University	type	SocialPerson
+Ludwigsburg University	type	University
+Ludwigsburg University	type	EducationalInstitution108276342
+Ludwigsburg University	type	Educational Institution
+Ludwigsburg University	type	Group100031264
+Ludwigsburg University	type	University108286569
+Ludwigsburg University	type	Abstraction100002137
+Ludwigsburg University	type	Organisation
+Ludwigsburg University	type	SocialGroup107950920
+Ludwigsburg University	label	Ludwigsburg University
+Ludwigsburg University	subject	Ludwigsburg
+Ludwigsburg University	subject	Universities And Colleges In Baden-Württemberg
+Ludwigsburg University	name	Pädagogische Hochschule Ludwigsburg (Ludwigsburg University of Education)
+Ludwigsburg University	City	Ludwigsburg
+Ludwigsburg University	Country	Germany

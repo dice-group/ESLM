@@ -1,0 +1,43 @@
+Politiken	Thumbnail	Politiken_newspaper_logo.svg?width=300
+Politiken	homepage	politiken.dk
+Politiken	Sister Newspaper	Jyllands-Posten
+Politiken	Circulation	88597
+Politiken	depiction	Politiken_newspaper_logo.svg
+Politiken	Format (Object)	Broadsheet
+Politiken	Publisher	Jp/Politikens Hus
+Politiken	label	Politiken
+Politiken	Editor	Bo Lidegaard
+Politiken	Language	Danish Language
+Politiken	type	Publication106589574
+Politiken	type	Whole100003553
+Politiken	type	PublicationsEstablishedIn1884
+Politiken	type	Press106263369
+Politiken	type	PhysicalEntity100001930
+Politiken	type	Q386724
+Politiken	type	Medium106254669
+Politiken	type	Newspaper106267145
+Politiken	type	Object100002684
+Politiken	type	Danish-languageNewspapers
+Politiken	type	Artifact100021939
+Politiken	type	Written Work
+Politiken	type	Product104007894
+Politiken	type	NewspapersPublishedInDenmark
+Politiken	type	Work104599396
+Politiken	type	Creation103129123
+Politiken	type	Newspaper
+Politiken	type	Work
+Politiken	type	Thing
+Politiken	type	Instrumentality103575240
+Politiken	type	Periodical Literature
+Politiken	type	PrintMedia106263609
+Politiken	type	Q1092563
+Politiken	type	Q11032
+Politiken	type	CreativeWork
+Politiken	name	Politiken
+Politiken	subject	Publications Established In 1884
+Politiken	subject	Newspapers Published In Denmark
+Politiken	subject	Danish-Language Newspapers
+Politiken	subject	Media_in_Copenhagen
+Politiken	subject	1884 Establishments In Denmark
+Politiken	Headquarter	Copenhagen
+Politiken	Headquarter	Denmark

@@ -1,0 +1,23 @@
+392 (Album)	name	392
+392 (Album)	Runtime (S)	2594.0
+392 (Album)	Language	Japanese Language
+392 (Album)	Performer	Cnblue
+392 (Album)	Previous Work	First Step (Cnblue Album)
+392 (Album)	subject	2011 Albums
+392 (Album)	subject	Cnblue Albums
+Ear Fun	Previous Work	392 (Album)
+392 (Album)	label	392 (album)
+392 (Album)	type	Thing
+392 (Album)	type	CreativeWork
+392 (Album)	type	Musical Work
+392 (Album)	type	Album
+392 (Album)	type	MusicAlbum
+392 (Album)	type	Q386724
+392 (Album)	type	Q482994
+392 (Album)	type	Work
+392 (Album)	type	Q2188189
+392 (Album)	Record Label	Ai Entertainment
+392 (Album)	Subsequent Work	Ear Fun
+392 (Album)	Release Date	2011-09-01
+First Step (Cnblue Album)	Subsequent Work	392 (Album)
+392 (Album)	Genre	Rock Music

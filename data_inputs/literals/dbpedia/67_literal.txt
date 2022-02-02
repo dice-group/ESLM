@@ -1,0 +1,29 @@
+Battle Of Calicut (1502)	Commander	Vasco Da Gama
+Battle Of Calicut (1502)	type	Thing
+Battle Of Calicut (1502)	type	Q1656682
+Battle Of Calicut (1502)	type	Event
+Battle Of Calicut (1502)	type	Event
+Battle Of Calicut (1502)	type	Military Conflict
+Battle Of Calicut (1502)	type	Event
+Battle Of Calicut (1502)	type	Societal Event
+Battle Of Calicut (1502)	subject	Naval Battles Involving Portugal
+Battle Of Calicut (1502)	subject	1503 In India
+Battle Of Calicut (1502)	subject	Conflicts In 1503
+Battle Of Calicut (1502)	subject	History Of Kozhikode
+Battle Of Calicut (1502)	Causalties	Low
+Battle Of Calicut (1502)	Date	1502-01-06
+Battle Of Calicut (1502)	depiction	Flag_Portugal_(1495).svg
+Battle Of Calicut (1502)	Relates An Entity To The Populated Place In Which It Is Located.	India
+Battle Of Calicut (1502)	Relates An Entity To The Populated Place In Which It Is Located.	Kozhikode
+Battle Of Calicut (1502)	name	Battle of Calicut
+Battle Of Calicut (1502)	Result	Portuguesevictory
+Battle Of Calicut (1502)	Combatant	Arab privateers
+Battle Of Calicut (1502)	Combatant	Calicut
+Battle Of Calicut (1502)	Combatant	Portuguese Empire
+Battle Of Calicut (1502)	Thumbnail	Flag_Portugal_(1495).svg?width=300
+Battle Of Calicut (1502)	Strength	Hundreds of smaller ships
+Battle Of Calicut (1502)	Strength	20 large ships
+Battle Of Calicut (1502)	Strength	10 carracks
+Battle Of Calicut (1502)	Strength	40 gun-mountedsambuks
+Battle Of Calicut (1502)	Strength	6 caravels
+Battle Of Calicut (1502)	label	Battle of Calicut (1502)

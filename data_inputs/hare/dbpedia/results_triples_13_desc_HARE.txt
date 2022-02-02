@@ -1,0 +1,23 @@
+http://dbpedia.org/resource/2012_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/previousEvent http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final 	0.05373590982286635
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/location http://dbpedia.org/resource/Turners_Cross_(stadium) 	0.05373590982286635
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/city http://dbpedia.org/resource/Cork_(city) 	0.05373590982286635
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/date 2011-09-24 	0.05373590982286635
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/time 18:00IST 	0.05373590982286635
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/team http://dbpedia.org/resource/Derry_City_F.C. 	0.04530998389694042
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://dbpedia.org/ontology/team http://dbpedia.org/resource/Cork_City_F.C. 	0.04530998389694042
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/2000/01/rdf-schema#label 2011 League of Ireland Cup Final 	0.045309983896940416
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://xmlns.com/foaf/0.1/name 2011 League of Ireland Cup Final 	0.045309983896940416
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Cork_City_F.C._matches 	0.04025442834138487
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:Derry_City_F.C._matches 	0.04025442834138487
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:2011_in_Republic_of_Ireland_football_cups 	0.04025442834138487
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:League_of_Ireland_Cup_finals 	0.04025442834138487
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://purl.org/dc/terms/subject http://dbpedia.org/resource/Category:2011_League_of_Ireland 	0.04025442834138487
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Event 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/FootballMatch 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SocietalEvent 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SportsEvent 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://schema.org/SportsEvent 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.wikidata.org/entity/Q1656682 	0.03875648595455358
+http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://schema.org/Event 	0.03875648595455358

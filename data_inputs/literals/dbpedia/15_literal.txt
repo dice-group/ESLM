@@ -1,0 +1,20 @@
+2012–13 Uefa Champions League	Time	19:45BST
+2012–13 Uefa Champions League	name	UEFA Champions League
+2012–13 Uefa Champions League	type	Q1656682
+2012–13 Uefa Champions League	type	Q500834
+2012–13 Uefa Champions League	type	SportsEvent
+2012–13 Uefa Champions League	type	Soccer Tournoment
+2012–13 Uefa Champions League	type	Sports Event
+2012–13 Uefa Champions League	type	Event
+2012–13 Uefa Champions League	type	Tournament
+2012–13 Uefa Champions League	type	Societal Event
+2012–13 Uefa Champions League	type	Event
+2012–13 Uefa Champions League	type	Event
+2012–13 Uefa Champions League	type	Thing
+2012–13 Uefa Champions League	Thumbnail	Wembley_Stadium,_illuminated.jpg?width=300
+2012–13 Debreceni Vsc Season	seeAlso	2012–13 Uefa Champions League
+2012–13 Uefa Champions League	label	2012–13 UEFA Champions League
+2012–13 Uefa Champions League	depiction	Wembley_Stadium,_illuminated.jpg
+2012–13 Uefa Champions League	subject	2012–13 Uefa Champions League
+2012–13 Uefa Champions League	subject	2012–13 In European Football
+2012–13 Uefa Champions League	subject	Uefa Champions League Seasons

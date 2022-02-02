@@ -1,0 +1,34 @@
+Zarudcze	lat	50.566666
+Zarudcze	Type	Village
+Zarudcze	Is Part Of	Świętokrzyskie Voivodeship
+Zarudcze	Is Part Of	Gmina Koprzywnica
+Zarudcze	Is Part Of	Sandomierz County
+Zarudcze	point	50.56666666666667 21.616666666666667
+Zarudcze	Country	Poland
+Zarudcze	label	Zarudcze
+Zarudcze	name	Zarudcze
+Zarudcze	long	21.616667
+Zarudcze	subject	Villages In Sandomierz County
+Zarudcze	type	SpatialThing
+Zarudcze	type	Place
+Zarudcze	type	Region108630985
+Zarudcze	type	Populated Place
+Zarudcze	type	Place
+Zarudcze	type	AdministrativeDistrict108491826
+Zarudcze	type	PhysicalEntity100001930
+Zarudcze	type	Location
+Zarudcze	type	GeographicalArea108574314
+Zarudcze	type	Q486972
+Zarudcze	type	Settlement
+Zarudcze	type	Q532
+Zarudcze	type	Village
+Zarudcze	type	Object100002684
+Zarudcze	type	Thing
+Zarudcze	type	Location100027167
+Zarudcze	type	YagoLegalActorGeo
+Zarudcze	type	Settlement108672562
+Zarudcze	type	Village108672738
+Zarudcze	type	YagoPermanentlyLocatedEntity
+Zarudcze	type	VillagesInSandomierzCounty
+Zarudcze	type	District108552138
+Zarudcze	type	YagoGeoEntity

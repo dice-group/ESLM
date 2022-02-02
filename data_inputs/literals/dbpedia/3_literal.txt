@@ -1,0 +1,57 @@
+Andrew Kippis	description	British minister
+Andrew Kippis	description	British minister
+Andrew Kippis	givenName	Andrew
+Andrew Kippis	subject	English Christian Religious Leaders
+Andrew Kippis	subject	1795 Deaths
+Andrew Kippis	subject	Dissenting Academy Tutors
+Andrew Kippis	subject	People From Nottingham
+Andrew Kippis	subject	1725 Births
+Andrew Kippis	subject	People Educated At Carre'S Grammar School
+Andrew Kippis	subject	18Th-Century Presbyterian Ministers
+Andrew Kippis	subject	Burials At Bunhill Fields
+Andrew Kippis	subject	Fellows Of The Royal Society
+Andrew Kippis	Death Year	1795-01-01
+Andrew Kippis	Birth Year	1725-01-01
+Andrew Kippis	name	Andrew Kippis
+Andrew Kippis	name	Kippis, Andrew
+Andrew Kippis	label	Andrew Kippis
+Andrew Kippis	Thumbnail	Andrew_Kippis.jpg?width=300
+Andrew Kippis	surname	Kippis
+Andrew Kippis	depiction	Andrew_Kippis.jpg
+Andrew Kippis	Birth Date	1725-03-28
+Andrew Kippis	type	Professional110480253
+Andrew Kippis	type	Q215627
+Andrew Kippis	type	YagoLegalActorGeo
+Andrew Kippis	type	LivingThing100004258
+Andrew Kippis	type	CausalAgent100007347
+Andrew Kippis	type	Colleague109935990
+Andrew Kippis	type	Head110162991
+Andrew Kippis	type	Executive110069645
+Andrew Kippis	type	Organism100004475
+Andrew Kippis	type	Person
+Andrew Kippis	type	Object100002684
+Andrew Kippis	type	Whole100003553
+Andrew Kippis	type	YagoLegalActor
+Andrew Kippis	type	Administrator109770949
+Andrew Kippis	type	EnglishChristianMinisters
+Andrew Kippis	type	Agent
+Andrew Kippis	type	Person100007846
+Andrew Kippis	type	Educator110045713
+Andrew Kippis	type	Thing
+Andrew Kippis	type	Associate109816771
+Andrew Kippis	type	FellowsOfTheRoyalSociety
+Andrew Kippis	type	PhysicalEntity100001930
+Andrew Kippis	type	DissentingAcademyTutors
+Andrew Kippis	type	Coach109931418
+Andrew Kippis	type	Peer109626238
+Andrew Kippis	type	NaturalPerson
+Andrew Kippis	type	Teacher110694258
+Andrew Kippis	type	PeopleFromNottingham
+Andrew Kippis	type	Adult109605289
+Andrew Kippis	type	Leader109623038
+Andrew Kippis	type	Person
+Andrew Kippis	type	Q5
+Andrew Kippis	type	Minister110320863
+Andrew Kippis	type	Person
+Andrew Kippis	type	Agent
+Andrew Kippis	Death Date	1795-10-08

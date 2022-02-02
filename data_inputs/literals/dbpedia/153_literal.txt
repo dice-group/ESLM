@@ -1,0 +1,36 @@
+Henlow Camp Railway Station	Location	Henlow
+Henlow	point	52.03245 -0.28714
+Henlow	Postal Code	SG16
+Henlow	subject	Civil Parishes In Bedfordshire
+Henlow	subject	Villages In Bedfordshire
+Henlow	Grid Reference	TL176385
+Peter Watts (Cricketer, Born 1938)	Birth Place	Henlow
+Jim Watts	Birth Place	Henlow
+Henlow	type	Settlement
+Henlow	type	Thing
+Henlow	type	Populated Place
+Henlow	type	Location
+Henlow	type	PhysicalEntity100001930
+Henlow	type	YagoPermanentlyLocatedEntity
+Henlow	type	GeographicalArea108574314
+Henlow	type	Location100027167
+Henlow	type	Q486972
+Henlow	type	Region108630985
+Henlow	type	YagoGeoEntity
+Henlow	type	Village108672738
+Henlow	type	SpatialThing
+Henlow	type	Object100002684
+Henlow	type	YagoLegalActorGeo
+Henlow	type	VillagesInBedfordshire
+Henlow	type	Settlement108672562
+Henlow	type	Place
+Henlow	type	Place
+Henlow	Area Code	01462
+Henlow	long	-0.28714
+Henlow	lat	52.03245
+Henlow	label	Henlow
+Henlow	Ceremonial County	Bedfordshire
+Henlow	Country	England
+Henlow	Country	United Kingdom
+Henlow	name	Henlow
+Henlow	Population Total	3084

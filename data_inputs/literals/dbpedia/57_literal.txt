@@ -1,0 +1,48 @@
+Najmadin Shukr Rauf	givenName	Najmadin Shukr
+Iraqi–Kurdish Conflict	Commander	Najmadin Shukr Rauf
+Najmadin Shukr Rauf	Death Place	Ba'Athist Iraq
+Najmadin Shukr Rauf	Death Place	Kirkuk Governorate
+Najmadin Shukr Rauf	Death Date	1985-01-24
+Najmadin Shukr Rauf	name	Rauf, Najmadin Shukr
+Najmadin Shukr Rauf	name	Najmadin Shukr Rauf
+Najmadin Shukr Rauf	Birth Date	1957-01-01
+Najmadin Shukr Rauf	subject	Kurdish Nationalists
+Najmadin Shukr Rauf	subject	Iraqi Kurdish People
+Najmadin Shukr Rauf	subject	1985 Deaths
+Najmadin Shukr Rauf	subject	People From Kirkuk Province
+Najmadin Shukr Rauf	subject	Kurdish Guerrillas
+Najmadin Shukr Rauf	subject	1957 Births
+Najmadin Shukr Rauf	subject	Kurdish Military Personnel Killed In Action
+Najmadin Shukr Rauf	type	Q5
+Najmadin Shukr Rauf	type	CausalAgent100007347
+Najmadin Shukr Rauf	type	Q215627
+Najmadin Shukr Rauf	type	NaturalPerson
+Najmadin Shukr Rauf	type	Person
+Najmadin Shukr Rauf	type	Thing
+Najmadin Shukr Rauf	type	YagoLegalActorGeo
+Najmadin Shukr Rauf	type	Organism100004475
+Najmadin Shukr Rauf	type	Person
+Najmadin Shukr Rauf	type	KurdishGuerrillas
+Najmadin Shukr Rauf	type	Object100002684
+Najmadin Shukr Rauf	type	PhysicalEntity100001930
+Najmadin Shukr Rauf	type	YagoLegalActor
+Najmadin Shukr Rauf	type	Person100007846
+Najmadin Shukr Rauf	type	PeopleFromKirkukProvince
+Najmadin Shukr Rauf	type	Agent
+Najmadin Shukr Rauf	type	Guerrilla110150556
+Najmadin Shukr Rauf	type	IraqiKurdishPeople
+Najmadin Shukr Rauf	type	Person
+Najmadin Shukr Rauf	type	Whole100003553
+Najmadin Shukr Rauf	type	Warrior110768585
+Najmadin Shukr Rauf	type	LivingThing100004258
+Najmadin Shukr Rauf	type	Agent
+Najmadin Shukr Rauf	description	Kurdish guerilla
+Najmadin Shukr Rauf	description	Kurdish guerilla
+Peshmerga	Notable Commander	Najmadin Shukr Rauf
+Najmadin Shukr Rauf	Death Year	1985-01-01
+Najmadin Shukr Rauf	label	Najmadin Shukr Rauf
+Najmadin Shukr Rauf	surname	Rauf
+Najmadin Shukr Rauf	Birth Place	Talaban_village
+Najmadin Shukr Rauf	Birth Place	Kingdom Of Iraq
+Najmadin Shukr Rauf	Birth Place	Kirkuk Governorate
+Najmadin Shukr Rauf	Birth Year	1957-01-01

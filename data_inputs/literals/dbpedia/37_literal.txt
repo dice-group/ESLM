@@ -1,0 +1,23 @@
+Ovophis	type	Species
+Ovophis	type	Reptile
+Ovophis	type	Thing
+Ovophis	type	Q729
+Ovophis	type	Eukaryote
+Ovophis	type	Q19088
+Ovophis	type	Animal
+Ovophis	Kingdom	Animal
+Ovophis	subject	Crotalinae
+Ovophis	name	Ovophis
+Ovophis	Family	Viperidae
+Ovophis	Family	Pit Viper
+Ovophis	label	Ovophis
+Ovophis	Phylum	Vertebrate
+Ovophis	Phylum	Chordate
+Ovophis	Order (Taxonomy)	Squamata
+Ovophis	Order (Taxonomy)	Snake
+Ovophis Chaseni	Genus	Ovophis
+Ovophis Monticola	Genus	Ovophis
+Ovophis Okinavensis	Genus	Ovophis
+Ovophis	Class	Reptile
+Ovophis	Synonym	In Romano-Hoge, 1981
+Ovophis	Synonym	* Ovophis Burger

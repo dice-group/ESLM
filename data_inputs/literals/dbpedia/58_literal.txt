@@ -1,0 +1,38 @@
+Storme Warren	Birth Date	1970-03-03
+Storme Warren	surname	Warren
+Storme Warren	description	Television personality
+Storme Warren	description	Television personality
+Storme Warren	subject	1970 Births
+Storme Warren	subject	Living People
+Storme Warren	subject	American Television Personalities
+Storme Warren	Birth Year	1970-01-01
+Storme Warren	name	Warren, Storme
+Storme Warren	name	Storme Warren
+Storme Warren	Birth Name	Storme Warren
+Storme Warren	Imdb Id	2153141
+Storme Warren	type	Q215627
+Storme Warren	type	CausalAgent100007347
+Storme Warren	type	Object100002684
+Storme Warren	type	Thing
+Storme Warren	type	LivingPeople
+Storme Warren	type	Agent
+Storme Warren	type	Organism100004475
+Storme Warren	type	LivingThing100004258
+Storme Warren	type	Person100007846
+Storme Warren	type	NaturalPerson
+Storme Warren	type	Person
+Storme Warren	type	Q5
+Storme Warren	type	YagoLegalActor
+Storme Warren	type	YagoLegalActorGeo
+Storme Warren	type	Agent
+Storme Warren	type	Person
+Storme Warren	type	Person
+Storme Warren	type	Whole100003553
+Storme Warren	type	PhysicalEntity100001930
+Storme Warren	label	Storme Warren
+Storme Warren	givenName	Storme
+Storme Warren	Occupation	Host
+Storme Warren	Occupation	Storme_Warren__1
+Storme Warren	Birth Place	Ohio
+Storme Warren	Birth Place	United States
+Storme Warren	Birth Place	Cincinnati

@@ -1,0 +1,26 @@
+2008 Copa Del Rey Final	Team	Valencia Cf
+2008 Copa Del Rey Final	Team	Getafe Cf
+2008 Copa Del Rey Final	subject	Getafe Cf Matches
+2008 Copa Del Rey Final	subject	2007–08 In Spanish Football Cups
+2008 Copa Del Rey Final	subject	Copa Del Rey Finals
+2008 Copa Del Rey Final	subject	Valencia Cf Matches
+2008 Copa Del Rey Final	name	2008 Copa del Rey Final
+2008 Copa Del Rey Final	City	Madrid
+2007 Copa Del Rey Final	Following Event	2008 Copa Del Rey Final
+2008 Copa Del Rey Final	seeAlso	2007–08 Copa Del Rey
+2008 Copa Del Rey Final	label	2008 Copa del Rey Final
+2008 Copa Del Rey Final	Following Event	2009 Copa Del Rey Final
+2008 Copa Del Rey Final	type	Event
+2008 Copa Del Rey Final	type	Event
+2008 Copa Del Rey Final	type	Societal Event
+2008 Copa Del Rey Final	type	Thing
+2008 Copa Del Rey Final	type	Football Match
+2008 Copa Del Rey Final	type	SportsEvent
+2008 Copa Del Rey Final	type	Event
+2008 Copa Del Rey Final	type	Q1656682
+2008 Copa Del Rey Final	type	Sports Event
+2008 Copa Del Rey Final	Location	Vicente Calderón Stadium
+2008 Copa Del Rey Final	Date	2008-04-16
+2008 Copa Del Rey Final	Previous Event	2007 Copa Del Rey Final
+2009 Copa Del Rey Final	Previous Event	2008 Copa Del Rey Final
+2008 Copa Del Rey Final	Time	22:00CEST

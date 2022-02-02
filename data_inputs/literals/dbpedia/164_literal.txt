@@ -1,0 +1,43 @@
+The Honolulu Advertiser	Headquarter	Honolulu
+The Honolulu Advertiser	Headquarter	United States
+The Honolulu Advertiser	Headquarter	Hawaii
+The Honolulu Advertiser	homepage	www.honoluluadvertiser.com
+The Honolulu Advertiser	Format (Object)	Broadsheet
+The Honolulu Advertiser	Circulation	141934
+The Honolulu Advertiser	Circulation	155932
+The Honolulu Advertiser	type	Q386724
+The Honolulu Advertiser	type	Thing
+The Honolulu Advertiser	type	Instrumentality103575240
+The Honolulu Advertiser	type	NewspapersPublishedInHawaii
+The Honolulu Advertiser	type	PhysicalEntity100001930
+The Honolulu Advertiser	type	Product104007894
+The Honolulu Advertiser	type	Publication106589574
+The Honolulu Advertiser	type	Written Work
+The Honolulu Advertiser	type	Work104599396
+The Honolulu Advertiser	type	Work
+The Honolulu Advertiser	type	Object100002684
+The Honolulu Advertiser	type	Press106263369
+The Honolulu Advertiser	type	Newspaper106267145
+The Honolulu Advertiser	type	Whole100003553
+The Honolulu Advertiser	type	Q11032
+The Honolulu Advertiser	type	PublicationsEstablishedIn1856
+The Honolulu Advertiser	type	Periodical Literature
+The Honolulu Advertiser	type	PrintMedia106263609
+The Honolulu Advertiser	type	Q1092563
+The Honolulu Advertiser	type	Medium106254669
+The Honolulu Advertiser	type	PublicationsDisestablishedIn2010
+The Honolulu Advertiser	type	CreativeWork
+The Honolulu Advertiser	type	Creation103129123
+The Honolulu Advertiser	type	Artifact100021939
+The Honolulu Advertiser	type	Newspaper
+The Honolulu Advertiser	name	The Honolulu Advertiser
+The Honolulu Advertiser	label	The Honolulu Advertiser
+The Honolulu Advertiser	subject	Media_in_Honolulu,_Hawaii
+The Honolulu Advertiser	subject	2010 Disestablishments In Hawaii
+The Honolulu Advertiser	subject	Defunct_newspapers_of_Hawaii
+The Honolulu Advertiser	subject	Publications Disestablished In 2010
+The Honolulu Advertiser	subject	Black Press
+The Honolulu Advertiser	subject	1856 Establishments In Hawaii
+The Honolulu Advertiser	subject	Publications Established In 1856
+The Honolulu Advertiser	Type	Newspaper
+The Honolulu Advertiser	Owner	Black Press

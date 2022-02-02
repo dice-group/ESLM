@@ -1,0 +1,39 @@
+Darreh Dang	type	GeographicalArea108574314
+Darreh Dang	type	Location100027167
+Darreh Dang	type	Thing
+Darreh Dang	type	PopulatedPlacesInAligudarzCounty
+Darreh Dang	type	Populated Place
+Darreh Dang	type	AdministrativeDistrict108491826
+Darreh Dang	type	Place
+Darreh Dang	type	Object100002684
+Darreh Dang	type	Region108630985
+Darreh Dang	type	Q486972
+Darreh Dang	type	Place
+Darreh Dang	type	YagoLegalActorGeo
+Darreh Dang	type	Site108651247
+Darreh Dang	type	Tract108673395
+Darreh Dang	type	Village
+Darreh Dang	type	YagoPermanentlyLocatedEntity
+Darreh Dang	type	District108552138
+Darreh Dang	type	SpatialThing
+Darreh Dang	type	YagoGeoEntity
+Darreh Dang	type	PhysicalEntity100001930
+Darreh Dang	type	Location
+Darreh Dang	type	Settlement
+Darreh Dang	type	Q532
+Darreh Dang	Utc Offset	+3:30
+Darreh Dang	Utc Offset	+4:30
+Darreh Dang	subject	Populated Places In Aligudarz County
+Darreh Dang	name	Darreh Dang
+Darreh Dang	name	دره دنگ
+Darreh Dang	Population Total	451
+Darreh Dang	Time Zone	Iran Standard Time
+Darreh Dang	Country	Iran
+Darreh Dang	long	49.00111
+Darreh Dang	lat	33.269444
+Darreh Dang	Is Part Of	Lorestan Province
+Darreh Dang	Is Part Of	Zaz Va Mahru District
+Darreh Dang	Is Part Of	Zaz-E Gharbi Rural District
+Darreh Dang	Is Part Of	Aligudarz County
+Darreh Dang	point	33.269444444444446 49.00111111111111
+Darreh Dang	label	Darreh Dang

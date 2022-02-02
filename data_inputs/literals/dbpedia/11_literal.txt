@@ -1,0 +1,23 @@
+2009–10 Swiss Cup	label	2009–10 Swiss Cup
+2009–10 Swiss Cup	homepage	start.aspx
+2009–10 Swiss Cup	name	Swiss Cup
+2009–10 Swiss Cup	Time	19:00 CET
+2009–10 Swiss Cup	Time	17:45 CET
+2009–10 Swiss Cup	Time	14:30 CET
+2009–10 Swiss Cup	Time	14:00 CET
+2009–10 Swiss Cup	Time	16:30 CEST
+2009–10 Swiss Cup	Time	14:00 CEST
+2009–10 Swiss Cup	subject	2009–10 In Swiss Football
+2009–10 Swiss Cup	subject	Swiss Cup
+2009–10 Swiss Cup	subject	2009–10 Domestic Association Football Cups
+2009–10 Swiss Cup	type	Event
+2009–10 Swiss Cup	type	Thing
+2009–10 Swiss Cup	type	Sports Event
+2009–10 Swiss Cup	type	SportsEvent
+2009–10 Swiss Cup	type	Q1656682
+2009–10 Swiss Cup	type	Event
+2009–10 Swiss Cup	type	Soccer Tournoment
+2009–10 Swiss Cup	type	Societal Event
+2009–10 Swiss Cup	type	Event
+2009–10 Swiss Cup	type	Tournament
+2009–10 Swiss Cup	type	Q500834

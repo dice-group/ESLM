@@ -1,0 +1,37 @@
+1967 Italian Grand Prix	Fastest Driver Team	Team Lotus
+1967 Italian Grand Prix	Thumbnail	Monza_1957.jpg?width=300
+Giancarlo Baghetti	Last Race	1967 Italian Grand Prix
+1967 Italian Grand Prix	First Driver	John Surtees
+1967 Italian Grand Prix	Location	Monza
+1967 Italian Grand Prix	Location	Autodromo Nazionale Monza
+1967 Italian Grand Prix	Location	Italy
+1967 Italian Grand Prix	Pole Driver	Jim Clark
+1967 Italian Grand Prix	Third Driver	Jim Clark
+1967 Italian Grand Prix	Third Team	Team Lotus
+1967 Italian Grand Prix	Distance (Μ)	391006.21824
+1967 Italian Grand Prix	Distance (Μ)	391006.0
+1967 Italian Grand Prix	Second Driver	Jack Brabham
+1967 Italian Grand Prix	type	Q1656682
+1967 Italian Grand Prix	type	SportsEvent
+1967 Italian Grand Prix	type	Event
+1967 Italian Grand Prix	type	Societal Event
+1967 Italian Grand Prix	type	Sports Event
+1967 Italian Grand Prix	type	Grand Prix
+1967 Italian Grand Prix	type	Thing
+1967 Italian Grand Prix	type	Event
+1967 Italian Grand Prix	type	Event
+1967 Italian Grand Prix	depiction	Monza_1957.jpg
+1967 Italian Grand Prix	Country	Italy
+1967 Italian Grand Prix	Distance Laps	68
+1967 Italian Grand Prix	label	1967 Italian Grand Prix
+1967 Italian Grand Prix	subject	1967 In Italian Motorsport
+1967 Italian Grand Prix	subject	Italian Grand Prix
+1967 Italian Grand Prix	subject	European Grand Prix
+1967 Italian Grand Prix	subject	1967 Formula One Races
+1967 Italian Grand Prix	Fastest Driver	Jim Clark
+1967 Italian Grand Prix	Second Team	Brabham
+1967 Italian Grand Prix	Course (Μ)	5750.186112
+1967 Italian Grand Prix	Course (Μ)	5750.0
+1967 Italian Grand Prix	Pole Driver Team	Team Lotus
+1967 Italian Grand Prix	Winning Team	Honda In Formula One
+1967 Italian Grand Prix	name	XXXII Gran Premio d'Italia

@@ -1,0 +1,40 @@
+Dallas Keuchel	Position	Starting Pitcher
+Dallas Keuchel	label	Dallas Keuchel
+Dallas Keuchel	type	NaturalPerson
+Dallas Keuchel	type	Q10871364
+Dallas Keuchel	type	Q215627
+Dallas Keuchel	type	Baseball Player
+Dallas Keuchel	type	Person
+Dallas Keuchel	type	Agent
+Dallas Keuchel	type	Q5
+Dallas Keuchel	type	Athlete
+Dallas Keuchel	type	Thing
+Dallas Keuchel	type	Person
+Dallas Keuchel	type	Person
+Dallas Keuchel	type	Agent
+Dallas Keuchel	name	Keuchel, Dallas
+Dallas Keuchel	name	Dallas Keuchel
+Dallas Keuchel	Thumbnail	Dallas_Keuchel_signing_autographs_in_Jan_2015.jpg?width=300
+Dallas Keuchel	description	American baseball player
+Dallas Keuchel	description	American baseball player
+Dallas Keuchel	givenName	Dallas
+Dallas Keuchel	Birth Year	1988-01-01
+Dallas Keuchel	Debut Team	Houston Astros
+Dallas Keuchel	surname	Keuchel
+Dallas Keuchel	subject	Living People
+Dallas Keuchel	subject	Oklahoma City Redhawks Players
+Dallas Keuchel	subject	Corpus Christi Hooks Players
+Dallas Keuchel	subject	Houston Astros Players
+Dallas Keuchel	subject	Gold Glove Award Winners
+Dallas Keuchel	subject	Sportspeople From Tulsa, Oklahoma
+Dallas Keuchel	subject	Major League Baseball Pitchers
+Dallas Keuchel	subject	Arkansas Razorbacks Baseball Players
+Dallas Keuchel	subject	Salt River Rafters Players
+Dallas Keuchel	subject	Lancaster Jethawks Players
+Dallas Keuchel	subject	American League All-Stars
+Dallas Keuchel	subject	Tri-City Valleycats Players
+Dallas Keuchel	subject	1988 Births
+Dallas Keuchel	Birth Date	1988-01-01
+Dallas Keuchel	Birth Place	Tulsa, Oklahoma
+Dallas Keuchel	Team	Houston Astros
+Dallas Keuchel	depiction	Dallas_Keuchel_signing_autographs_in_Jan_2015.jpg

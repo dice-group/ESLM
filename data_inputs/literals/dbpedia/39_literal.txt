@@ -1,0 +1,27 @@
+Siamese Mud Carp	Class	Actinopterygii
+Siamese Mud Carp	name	Siamese mud carp
+Siamese Mud Carp	Conservation Status System	iucn3.1
+Siamese Mud Carp	subject	Carp
+Siamese Mud Carp	subject	Fish Of Thailand
+Siamese Mud Carp	subject	Fish Of Cambodia
+Siamese Mud Carp	subject	Fish Of Laos
+Siamese Mud Carp	subject	Fish Of Vietnam
+Siamese Mud Carp	subject	Fish Of The Mekong Basin
+Siamese Mud Carp	type	Q19088
+Siamese Mud Carp	type	Q729
+Siamese Mud Carp	type	Thing
+Siamese Mud Carp	type	Fish
+Siamese Mud Carp	type	Eukaryote
+Siamese Mud Carp	type	Animal
+Siamese Mud Carp	type	Species
+Siamese Mud Carp	type	Q152
+Siamese Mud Carp	depiction	Mekong_river_location.jpg
+Siamese Mud Carp	Order (Taxonomy)	Cypriniformes
+Siamese Mud Carp	Conservation Status	LC
+Siamese Mud Carp	Thumbnail	Mekong_river_location.jpg?width=300
+Siamese Mud Carp	Genus	Henicorhynchus
+Siamese Mud Carp	Kingdom	Animal
+Siamese Mud Carp	Phylum	Chordate
+Siamese Mud Carp	Family	Cyprinidae
+Siamese Mud Carp	Binomial Authority	Henri Émile Sauvage
+Siamese Mud Carp	label	Siamese mud carp

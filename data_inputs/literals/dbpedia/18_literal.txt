@@ -1,0 +1,28 @@
+Burgery Ambush	Is Part Of Military Conflict	Irish War Of Independence
+Burgery Ambush	type	Event
+Burgery Ambush	type	Military Conflict
+Burgery Ambush	type	Q1656682
+Burgery Ambush	type	Thing
+Burgery Ambush	type	Event
+Burgery Ambush	type	Societal Event
+Burgery Ambush	type	Event
+Burgery Ambush	depiction	Flag_of_Ireland.svg
+Burgery Ambush	Strength	~20
+Burgery Ambush	Strength	14 (initially)
+Burgery Ambush	Strength	50 (subsequently)
+Burgery Ambush	name	Burgery Ambush
+Burgery Ambush	Commander	George Oliver Plunkett
+Burgery Ambush	Thumbnail	Flag_of_Ireland.svg?width=300
+Burgery Ambush	label	Burgery ambush
+Burgery Ambush	Causalties	2 dead
+Burgery Ambush	Date	1921-03-18
+Burgery Ambush	subject	History Of County Waterford
+Burgery Ambush	subject	Military Actions And Engagements During The Irish War Of Independence
+Burgery Ambush	subject	1921 In Ireland
+Burgery Ambush	subject	Dungarvan
+Burgery Ambush	Relates An Entity To The Populated Place In Which It Is Located.	Dungarvan
+Burgery Ambush	Relates An Entity To The Populated Place In Which It Is Located.	County Waterford
+Burgery Ambush	Combatant	(Déise Brigade)
+Burgery Ambush	Combatant	Royal Irish Constabulary
+Burgery Ambush	Combatant	border|22pxIrish Republican Army
+Burgery Ambush	Combatant	(Reserve Force)

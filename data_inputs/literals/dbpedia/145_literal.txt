@@ -1,0 +1,29 @@
+Roque Ceruti	subject	Musicians From Milan
+Roque Ceruti	subject	Italian Classical Composers
+Roque Ceruti	subject	1760 Deaths
+Roque Ceruti	subject	Italian Male Classical Composers
+Roque Ceruti	subject	18Th-Century Classical Composers
+Roque Ceruti	subject	Italian Male Composers
+Roque Ceruti	subject	1680S Births
+Roque Ceruti	subject	Peruvian Composers
+Roque Ceruti	subject	Baroque Composers
+Roque Ceruti	label	Roque Ceruti
+Roque Ceruti	givenName	Roque
+Roque Ceruti	surname	Ceruti
+Roque Ceruti	type	Q215627
+Roque Ceruti	type	Person
+Roque Ceruti	type	Agent
+Roque Ceruti	type	Q5
+Roque Ceruti	type	Person
+Roque Ceruti	type	Agent
+Roque Ceruti	type	Person
+Roque Ceruti	type	Thing
+Roque Ceruti	type	NaturalPerson
+Roque Ceruti	Birth Date	1683-01-01
+Roque Ceruti	Death Year	1760-01-01
+Roque Ceruti	description	Italian composer
+Roque Ceruti	description	Italian composer
+Roque Ceruti	name	Ceruti, Roque
+Roque Ceruti	name	Roque Ceruti
+Roque Ceruti	Death Date	1760-01-01
+Roque Ceruti	Birth Year	1683-01-01
