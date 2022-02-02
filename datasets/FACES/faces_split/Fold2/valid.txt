@@ -1,0 +1,10 @@
+4	person	http://dbpedia.org/resource/Bill_Gates
+10	film	http://dbpedia.org/resource/Total_Recall_(1990_film)
+11	university, organization	http://dbpedia.org/resource/Rice_University
+14	person	http://dbpedia.org/resource/Henry_IV_of_France
+24	company	http://dbpedia.org/resource/Ferrari
+33	person	http://dbpedia.org/resource/Walt_Disney
+35	person, politician	http://dbpedia.org/resource/Vladimir_Putin
+44	song	http://dbpedia.org/resource/Never_Let_You_Go_(Justin_Bieber_song)
+47	person, politician	http://dbpedia.org/resource/Benjamin_Franklin
+49	person, athlete	http://dbpedia.org/resource/Usain_Bolt
