@@ -18,6 +18,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from gensim.models.keyedvectors import KeyedVectors
 
 nltk.download('punkt')
+
 class InputFeatures(object):
     """A single set of features of data."""
 
@@ -207,9 +208,10 @@ class Utils(object):
       
         return pred_tensor, obj_tensor
     
-    def convert_to_features(self, t_literals, tokenizer, max_sequence_length):
+    def convert_to_features(self, t_literals, tokenizer, max_sequence_length, facts, labels):
         features = []
-        for sl, pl, ol in t_literals:
+        label_ids = self.tensor_from_weight(len(facts), facts, labels)
+        for i, (sl, pl, ol) in enumerate(t_literals):
             tokens_a = tokenizer.tokenize(pl)
             tokens_b = tokenizer.tokenize(ol)
             self.truncate_seq_pair(tokens_a, tokens_b, max_sequence_length - 3)
@@ -228,6 +230,7 @@ class Utils(object):
             input_ids += padding
             input_mask += padding
             segment_ids += padding
+            label_id = label_ids[i]
             
             assert len(input_ids) == max_sequence_length
             assert len(input_mask) == max_sequence_length
@@ -237,9 +240,9 @@ class Utils(object):
                               input_ids=input_ids,
                               input_mask=input_mask,
                               segment_ids=segment_ids,
-                              label_id=None,
+                              label_id=label_id,
                               ori_tokens=tokens,
-                              ori_labels=None 
+                              ori_labels=labels 
                             ))
         
         return features
