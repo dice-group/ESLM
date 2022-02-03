@@ -17,8 +17,6 @@ import nltk
 from SPARQLWrapper import SPARQLWrapper, JSON
 from gensim.models.keyedvectors import KeyedVectors
 
-nltk.download('punkt')
-
 class InputFeatures(object):
     """A single set of features of data."""
 

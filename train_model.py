@@ -39,6 +39,12 @@ def train_iter(ds_name, entity_dict, pred_dict, entity2ix_size, pred2ix_size, te
     if not os.path.exists("models"):
         os.makedirs("models")
     
+    
+    bert_config = BertConfig.from_pretrained("bert-base-cased", num_labels=1)
+    model = BERT_GATES(bert_config, config)
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    
     # implements k-fold cross validation
     for i in range(5):
         k_fold.append(i)

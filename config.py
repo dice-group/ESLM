@@ -18,7 +18,7 @@ config = {
         "dropout": 0.0,
         "regularization": False,
         "nheads": 2, 
-        "hidden_layer": 1,
+        "hidden_layer": 2,
         "entity_embedding_dim": 300,
         "predicate_embedding_dim": 300,
         "n_epochs": 50,
