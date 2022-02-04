@@ -9,7 +9,7 @@ import torch
 
 config = {
         "file_n": 6,
-        "top_k": [5, 10],
+        "topk": [5, 10],
         "ds_name" : ['dbpedia'],
         "weighted_score"  : "pagerank",
         "loss_function" : torch.nn.BCELoss(),
@@ -21,7 +21,7 @@ config = {
         "hidden_layer": 2,
         "entity_embedding_dim": 300,
         "predicate_embedding_dim": 300,
-        "n_epochs": 50,
+        "n_epochs": 5,
         "weighted_adjacency_matrix": True,
         "device": torch.device("cpu"),
         "text_embed_calc_method": "AVG"

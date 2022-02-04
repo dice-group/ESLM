@@ -12,9 +12,10 @@ import scipy.sparse as sp
 import torch.nn.functional as F
 
 from config import config
-from utils import normalize_adj, normalize_features
+from helpers import Utils
 from transformers import BertTokenizer, BertModel, BertConfig, BertPreTrainedModel
 
+utils = Utils()
 class GraphAttentionLayer(nn.Module):
     """
     Simple GAT layer, similar to https://arxiv.org/abs/1710.10903
@@ -156,20 +157,20 @@ class BERT_GATES(BertPreTrainedModel):
         
     def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
         facts_encode = self.bert(input_ids, segment_ids, input_mask)
-        print(facts_encode[0].shape)
+        #print(facts_encode[0].shape)
         facts_encode = facts_encode[0]#torch.transpose(facts_encode[0], 0, 1)
-        print(facts_encode.shape)
+        #print(facts_encode.shape)
         feats = torch.flatten(facts_encode, start_dim=1)
     
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
-        adj = normalize_adj(adj + sp.eye(adj.shape[0]))
+        adj = utils.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
         features = feats
-        print(features.shape)
-        features = normalize_features(features.detach().numpy())
+        #print(features.shape)
+        features = utils.normalize_features(features.detach().numpy())
         features = torch.FloatTensor(np.array(features))
-        print(features.shape)
+        #print(features.shape)
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
         return logits

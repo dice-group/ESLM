@@ -13,9 +13,12 @@ import sys
 import psutil
 import torch
 import nltk
+import scipy.sparse as sp
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 from gensim.models.keyedvectors import KeyedVectors
+
+nltk.download('punkt')
 
 class InputFeatures(object):
     """A single set of features of data."""
@@ -279,3 +282,22 @@ class Utils(object):
                     weight_tensor[order] += label[label_word]
                     break
         return weight_tensor / torch.sum(weight_tensor)
+    
+    # adapted from pygat
+    def normalize_adj(self, mx):
+        """Row-normalize sparse matrix"""
+        rowsum = np.array(mx.sum(1))
+        r_inv_sqrt = np.power(rowsum, -0.5).flatten()
+        r_inv_sqrt[np.isinf(r_inv_sqrt)] = 0.
+        r_mat_inv_sqrt = sp.diags(r_inv_sqrt)
+        return mx.dot(r_mat_inv_sqrt).transpose().dot(r_mat_inv_sqrt)
+    
+    # adapted from pygat
+    def normalize_features(self, mx):
+        """Row-normalize sparse matrix"""
+        rowsum = np.array(mx.sum(1))
+        r_inv = np.power(rowsum, -1).flatten()
+        r_inv[np.isinf(r_inv)] = 0.
+        r_mat_inv = sp.diags(r_inv)
+        mx = r_mat_inv.dot(mx)
+        return mx
