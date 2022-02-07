@@ -14,7 +14,7 @@ from config import config
 
 utils = Utils()
 
-class ESBenchmark(object):
+class ESBenchmark:
     """This class contains modules pertaining to dataset processes"""
     def __init__(self, file_n = 6, topk=5, weighted_adjacency_matrix=False):
         self.file_n = file_n
@@ -72,8 +72,8 @@ class ESBenchmark(object):
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
         triples = []
-        IndexSink = IndexSink()
-        parser = NTriplesParser(IndexSink)
+        index_sink = IndexSink()
+        parser = NTriplesParser(index_sink)
         with open(os.path.join(db_path,"{}".format(num),"{}_desc.nt".format(num)),'rb') as reader:
             parser.parse(reader)
         return triples
@@ -94,7 +94,7 @@ class ESBenchmark(object):
         return triples_tuple
     def get_literals(self, ds_name, num):
         triples_literal=[]
-        with open(os.path.join(os.getcwd(), "data_inputs/literals/{}".format(ds_name), "{}_literal.txt".format(num))) as reader:
+        with open(os.path.join(os.getcwd(), "data_inputs/literals/{}".format(ds_name), "{}_literal.txt".format(num)), encoding="utf-8") as reader:
             for literal in reader:
                 values = literal.split("\t")
                 sub_literal = values[0]
@@ -156,7 +156,7 @@ class ESBenchmark(object):
                 obj = obj.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
-        IndexSink = IndexSink()      
+        IndexSink = IndexSink()   
         for i in range(file_n):
             triples = []
             parser = NTriplesParser(IndexSink)
@@ -165,46 +165,6 @@ class ESBenchmark(object):
             for _, pred, obj in triples:
                 utils.counter(per_entity_label_dict, "{}++$++{}".format(pred, obj))
         return per_entity_label_dict
-    def get_predicates_corpus(self, ds_name):
-        train_data, _ = self.get_training_dataset(ds_name)
-        utils = Utils()
-        pred_dict_all = {}
-        for fold, data in enumerate(train_data):
-            pred_dict = {}
-            for t_fold in data:
-                for eid in t_fold.keys():
-                    for triple in t_fold[eid]:
-                        _, pred, _ = triple
-                        pred = utils.extract_triple_to_word(pred.lower())
-                        if pred not in pred_dict:
-                            pred_dict[pred]=len(pred_dict)        
-            pred_dict_all[fold] = pred_dict                
-        return pred_dict_all
-    def get_sub_obj_corpus(self, ds_name):
-        train_data, _ = self.get_training_dataset(ds_name)
-        utils = Utils()
-        d_sub = {}
-        d_obj = {}
-        for fold, data in enumerate(train_data):
-            d_sub_fold = []
-            d_obj_fold = []
-            for t_fold in data:
-                for eid in t_fold.keys():
-                    d_sub_eid = []
-                    d_obj_eid = []
-                    for t in t_fold[eid]:
-                        sub, _, obj = t
-                        sub = utils.extract_triple_to_word(sub.lower())
-                        obj = utils.extract_triple_to_word(obj.lower())
-                        d_sub_eid.append(sub)
-                        d_obj_eid.append(obj)
-                    sub_words = [w for w in d_sub_eid if not w in self.get_stop_words()]
-                    obj_words = [w for w in d_obj_eid if not w in self.get_stop_words()]
-                    d_sub_fold.append(sub_words)
-                    d_obj_fold.append(obj_words)
-            d_sub[fold] = d_sub_fold
-            d_obj[fold] = d_obj_fold
-        return d_sub, d_obj
     def get_stop_words(self):
         stop_words = list(get_stop_words('en'))         #About 900 stopwords
         nltk_words = list(stopwords.words('english')) #About 150 stopwords
@@ -226,17 +186,19 @@ class ESBenchmark(object):
                 triples_dict[triple] = len(triples_dict)
         triples_summary = []
         class IndexSink(Sink):
+            """indexing triples"""
             i = 0
             j = 0
             def triple(self,sub,pred,obj):
+                """Get triples"""
                 sub = sub.toPython()
                 pred = pred.toPython()
                 obj = obj.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples_summary.append(triple_tuple)
         gold_summary_list = []
-        IndexSink = IndexSink()
-        parser = NTriplesParser(IndexSink)
+        index_sink = IndexSink()
+        parser = NTriplesParser(index_sink)
         for i in range(config["file_n"]):
             with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, topk, i)), 'rb') as reader:
                 parser.parse(reader)
