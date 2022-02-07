@@ -61,6 +61,9 @@ def main(mode):
                             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                             all_label_ids = torch.tensor([f.label_id for f in features], dtype=torch.float)
                             logits = model(adj, all_input_ids, all_segment_ids, all_input_mask)
+                            
+                            gold_summaries = dataset.get_gold_summaries(ds_name, eid, topk)
+                            
                             loss = loss_function(logits.view(-1), all_label_ids.view(-1)).to(device)
                             loss.backward()
                             #torch.nn.utils.clip_grad_norm_(gates.parameters(), 5)

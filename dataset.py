@@ -6,10 +6,13 @@ Created on Wed Oct 27 15:58:42 2021
 @author: asep
 """
 import os
-from helpers import Utils
-from stop_words import get_stop_words
 from nltk.corpus import stopwords
 from rdflib.plugins.parsers.ntriples import NTriplesParser, Sink
+
+from helpers import Utils
+from config import config
+from stop_words import get_stop_words
+
 
 utils = Utils()
 
@@ -240,32 +243,47 @@ class ESBenchmark(object):
         nltk_words = list(stopwords.words('english')) #About 150 stopwords
         stop_words.extend(nltk_words)
         return stop_words
-
-# for evaluation purpose
-##IN_ESBM_DIR = os.path.join('./data', 'ESBM_benchmark_v1.2')
-##IN_DBPEDIA_DIR = os.path.join('./data/ESBM_benchmark_v1.2', 'dbpedia_data')
-##IN_LMDB_DIR = os.path.join('./data/ESBM_benchmark_v1.2', 'lmdb_data')
-##IN_FACES_DIR = os.path.join('./data/FACES', 'faces_data')
-
-#dataset = ESBenchmarks()
-#train_data, valid_data = dataset.get_training_dataset("dbpedia")
-#print("Training data")
-#for fold, data in enumerate(train_data):
-#    print("fold", fold)
-#    for t_fold in data:
-#        for t in t_fold:
-#            print(t)
-
-#print("Validation data")
-#for fold, data in enumerate(valid_data):
-#    print("fold", fold)
-#    for t_fold in data:
-#        print(len(t_fold))
-#triples = dataset._get_triples("dbpedia", 1)
-#for triple in triples:
-#    print(triple)
-##train, valid, test = dataset.get_5fold_train_valid_test_elist("dbpedia", IN_ESBM_DIR)
-##print(len(train))
+    
+    def get_gold_summaries(self, ds_name, num, topk):
+        if ds_name == "dbpedia":
+            db_path = os.path.join(self.IN_ESBM_DIR, "dbpedia_data")
+        elif ds_name == "lmdb":
+            db_path = os.path.join(self.IN_ESBM_DIR, "lmdb_data")
+        elif ds_name == "faces":
+            db_path = os.path.join(self.IN_ESBM_DIR, "faces_data")
+        else:
+            raise ValueError(self.value_error)
+        triples_dict = {}
+        triples = self.get_triples(ds_name, num)
+        for triple in triples:
+            if triple not in triples_dict:
+                triples_dict[triple] = len(triples_dict)
+        
+        triples_summary = []
+        class IndexSink(Sink):
+            i = 0
+            j = 0
+            def triple(self,s,p,o):
+                #parse s,p,o to dictionaries/databases
+                s = s.toPython()
+                p = p.toPython()
+                o = o.toPython()
+                triple_tuple = (s, p, o)
+                triples_summary.append(triple_tuple)
+        #print(triples_dict)        
+        gold_summary_list = []
+        IndexSink = IndexSink()
+        parser = NTriplesParser(IndexSink)
+        for i in range(config["file_n"]): 
+            with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, topk, i)), 'rb') as reader:
+                parser.parse(reader)
+            n_list = []
+            for triple in triples_summary:
+                gold_id = triples_dict[triple]
+                n_list.append(gold_id)
+            gold_summary_list.append(n_list)
+        return gold_summary_list
+    
 
     
     

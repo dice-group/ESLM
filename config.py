@@ -25,5 +25,4 @@ config = {
         "weighted_adjacency_matrix": True,
         "device": torch.device("cpu"),
         "text_embed_calc_method": "AVG"
-        
 }
