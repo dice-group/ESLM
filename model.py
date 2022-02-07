@@ -29,22 +29,16 @@ class GraphAttentionLayer(nn.Module):
         self.concat = concat
         self.in_edge_features = in_edge_features
         self.weighted_adjacency_matrix = weighted_adjacency_matrix
-
         self.W = nn.Parameter(torch.empty(size=(in_features, out_features)))
-        nn.init.xavier_uniform_(self.W.data, gain=1.414)
-        
+        nn.init.xavier_uniform_(self.W.data, gain=1.414)        
         if weighted_adjacency_matrix==False:
             self.a = nn.Parameter(torch.empty(size=(2*out_features, 1)))
         else:
-            self.a = nn.Parameter(torch.empty(size=(3*out_features, 1)))
-        
-        nn.init.xavier_uniform_(self.a.data, gain=1.414)
-        
+            self.a = nn.Parameter(torch.empty(size=(3*out_features, 1)))        
+        nn.init.xavier_uniform_(self.a.data, gain=1.414)        
         self.We = nn.Parameter(torch.empty(size=(in_edge_features, out_features)))
-        nn.init.xavier_uniform_(self.We.data, gain=1.414)
-        
+        nn.init.xavier_uniform_(self.We.data, gain=1.414)        
         self.leakyrelu = nn.LeakyReLU(self.alpha)
-
     def forward(self, h, edge, adj):
         Wh = torch.mm(h, self.W) # h.shape: (N, in_features), Wh.shape: (N, out_features)
         if self.weighted_adjacency_matrix==True:
@@ -52,89 +46,43 @@ class GraphAttentionLayer(nn.Module):
             a_input = self._prepare_attentional_mechanism_input_with_edge_features(Wh, WeE)
         else:
             a_input = self._prepare_attentional_mechanism_input(Wh)
-            
         e = self.leakyrelu(torch.matmul(a_input, self.a).squeeze(2))
-        
         zero_vec = -9e15*torch.ones_like(e)
         attention = torch.where(adj > 0, e, zero_vec)
         attention = F.softmax(attention, dim=1)
         attention = F.dropout(attention, self.dropout, training=self.training)
         h_prime = torch.matmul(attention, Wh)
-
         if self.concat:
             return F.elu(h_prime)
         else:
             return h_prime
-    #def _prepare_edge_attention(self, Eh):   
     def _prepare_attentional_mechanism_input(self, Wh):
-        N = Wh.size()[0] # number of nodes
-        
-        # Below, two matrices are created that contain embeddings in their rows in different orders.
-        # (e stands for embedding)
-        # These are the rows of the first matrix (Wh_repeated_in_chunks): 
-        # e1, e1, ..., e1,            e2, e2, ..., e2,            ..., eN, eN, ..., eN
-        # '-------------' -> N times  '-------------' -> N times       '-------------' -> N times
-        # 
-        # These are the rows of the second matrix (Wh_repeated_alternating): 
-        # e1, e2, ..., eN, e1, e2, ..., eN, ..., e1, e2, ..., eN 
-        # '----------------------------------------------------' -> N times
-        # 
-        
+        N = Wh.size()[0] # number of nodes    
         Wh_repeated_in_chunks = Wh.repeat_interleave(N, dim=0)
         Wh_repeated_alternating = Wh.repeat(N, 1)
-        # Wh_repeated_in_chunks.shape == Wh_repeated_alternating.shape == (N * N, out_features)
-
-        # The all_combination_matrix, created below, will look like this (|| denotes concatenation):
-        # e1 || e1in_edge_features, 
-        # e1 || e2
-        # e1 || e3
-        # ...
-        # e1 || eN
-        # e2 || e1
-        # e2 || e2
-        # e2 || e3
-        # ...
-        # e2 || eN
-        # ...
-        # eN || e1
-        # eN || e2
-        # eN || e3
-        # ...
-        # eN || eNin_edge_features, 
-
         all_combinations_matrix = torch.cat([Wh_repeated_in_chunks, Wh_repeated_alternating], dim=1)
-        # all_combinations_matrix.shape == (N * N, 2 * out_features)
-
         return all_combinations_matrix.view(N, N, 2 * self.out_features)
     
     def _prepare_attentional_mechanism_input_with_edge_features(self, Wh, WeE):
         N = Wh.size()[0] # number of nodes
-        
         Wh_repeated_in_chunks = Wh.repeat_interleave(N, dim=0)
         Wh_repeated_alternating = Wh.repeat(N, 1)
         WeE_repeated_in_chunks = WeE.repeat_interleave(N, dim=0)
-        
         all_combinations_matrix = torch.cat([Wh_repeated_in_chunks, Wh_repeated_alternating, WeE_repeated_in_chunks], dim=1)
-        
         return all_combinations_matrix.view(N, N, 3 * self.out_features)
-
     def __repr__(self):
         return self.__class__.__name__ + ' (' + str(self.in_features) + ' -> ' + str(self.out_features) + ')'
-
 
 class GAT(nn.Module):
     def __init__(self, nfeat, nhid, nclass, dropout, alpha, nheads, weighted_adjacency_matrix):
         """Dense version of GAT."""
         super(GAT, self).__init__()
         self.dropout = dropout
-
         self.attentions = [GraphAttentionLayer(nfeat, nhid, dropout, weighted_adjacency_matrix, alpha=alpha, concat=True) for _ in range(nheads)]
         for i, attention in enumerate(self.attentions):
             self.add_module('attention_{}'.format(i), attention)
-
         self.out_att = GraphAttentionLayer(nhid * nheads, nclass, dropout, weighted_adjacency_matrix, alpha=alpha, concat=True)
         self.softmax = nn.Softmax(dim=0)
-
     def forward(self, x, edge, adj):
         x = F.dropout(x, self.dropout, training=self.training)
         x = torch.cat([att(x, edge, adj) for att in self.attentions], dim=1)
@@ -146,31 +94,25 @@ class GAT(nn.Module):
 class BERT_GATES(BertPreTrainedModel):
     def __init__(self, bert_config, config):
         super(BERT_GATES, self).__init__(bert_config, config)
-        self.bert = BertModel(bert_config)
-    
+        self.bert = BertModel(bert_config) 
         self.input_size = 12288
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-        self.gat = GAT(nfeat=self.input_size, nhid=self.hidden_layer, nclass=1, dropout=self.dropout, alpha=0.2, nheads=self.nheads, weighted_adjacency_matrix=self.weighted_adjacency_matrix)
-        
+        self.gat = GAT(nfeat=self.input_size, nhid=self.hidden_layer, nclass=1, dropout=self.dropout, alpha=0.2, nheads=self.nheads, weighted_adjacency_matrix=self.weighted_adjacency_matrix)     
     def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
         facts_encode = self.bert(input_ids, segment_ids, input_mask)
-        #print(facts_encode[0].shape)
         facts_encode = facts_encode[0]#torch.transpose(facts_encode[0], 0, 1)
-        #print(facts_encode.shape)
         feats = torch.flatten(facts_encode, start_dim=1)
-    
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = utils.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
         features = feats
-        #print(features.shape)
         features = utils.normalize_features(features.detach().numpy())
         features = torch.FloatTensor(np.array(features))
-        #print(features.shape)
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
         return logits
+    

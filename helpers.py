@@ -69,9 +69,9 @@ class Utils:
         """Get label from URI resource"""
         word = str(ent)
         if '#' in ent:
-            word = word.rsplit('#')[-1]
+            word = word.rsplit('#', maxsplit=1)[-1]
         else:
-            last = word.rsplit('/')[-1]
+            last = word.rsplit('/', maxsplit=1)[-1]
             if last == '':
                 num = len(word.split('/')) - 2
                 last = word.split('/')[num]
@@ -102,8 +102,8 @@ class Utils:
             word_emb = KeyedVectors.load_word2vec_format(os.path.join(self.root_dir, "data_inputs/kge/wiki-news-300d-1M.vec"))
         elif word_emb_model=="Glove":
             word_emb = {}
-            with open("data_inputs/text_embed/glove.6B/glove.6B.300d.txt", 'r') as f:
-                for line in f:
+            with open("data_inputs/text_embed/glove.6B/glove.6B.300d.txt", 'r') as reader:
+                for line in reader:
                     values = line.split()
                     word = values[0]
                     vector = np.asarray(values[1:], "float32")
@@ -119,12 +119,12 @@ class Utils:
     def build_dict(self, f_path):
         """Build the vocabulary"""
         word2ix = {}
-        with open(f_path, "r", encoding="utf-8") as f:
-            for _, pair in enumerate(f):
+        with open(f_path, "r", encoding="utf-8") as reader:
+            for _, pair in enumerate(reader):
                 try:
                     temp = pair.strip().split("\t")
                     word2ix[temp[1]] = int(temp[0])
-                except:
+                except Exception:
                     print(temp)
         return word2ix
     def build_vec(self, word2ix, word_embedding):
@@ -166,7 +166,7 @@ class Utils:
             for token in tokens:
                 try:
                     vec = text_embed[token]
-                except:
+                except Exception:
                     vec = np.zeros([300,])
                 arrays.append(vec)
             if len(tokens)>1:
