@@ -83,7 +83,7 @@ class GAT(nn.Module):
         self.dropout = DROPOUT
         self.atts = [GraphAttentionLayer(nfeat, nhid, alpha, True) for _ in range(config["nheads"])]
         for i, attention in enumerate(self.attentions):
-            self.add_module('attention_{}'.format(i), attention)
+            self.add_module(f'attention_{i}', attention)
         self.out_att = GraphAttentionLayer(nhid * config["nheads"], nclass, alpha, concat=True)
         self.softmax = nn.Softmax(dim=0)
     def forward(self, feats, edge, adj):

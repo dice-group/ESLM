@@ -5,8 +5,8 @@ Created on Mon Jan 24 14:56:30 2022
 
 @author: asep
 """
-import numpy as np
 import os
+import numpy as np
 
 class PredicateScore:
     """To calculate predicate value"""
@@ -35,10 +35,10 @@ class PredicateScore:
                 po_freq[(subject, predicate)] = 1
             else:
                 n_po = po_freq[(subject, predicate)]
-                po_freq[(subject, predicate)] = n_po+1    
+                po_freq[(subject, predicate)] = n_po+1
             nqu=0
-            for (sub, pred) in po_freq.keys():
-                nqu += po_freq[(sub, pred)]
+            for key in po_freq.keys():
+                nqu += po_freq[key]
             term_freq = po_freq[(subject, predicate)]/nqu
             freq_pred = 0
             for sub, pred, obj in self.triples:

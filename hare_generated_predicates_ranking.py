@@ -40,13 +40,13 @@ elif DSNAME == "lmdb":
 elif DSNAME == "faces":
     db_start, db_end = [1, 26], [26, 51]
 else:
-    raise ValueError("The database's name must be dbpedia or lmdb or faces")   
-for i in tqdm(range(db_start[0], db_end[0])):
-    idx = i
+    raise ValueError("The database's name must be dbpedia or lmdb or faces")
+for eid in tqdm(range(db_start[0], db_end[0])):
+    idx = eid
     triples = f"{idx}_desc.nt"
     run_hare(triples, DSNAME, idx)
 for i in tqdm(range(db_start[1], db_end[1])):
-    idx = i
+    idx = eid
     triples = f"{idx}_desc.nt"
     run_hare(triples, DSNAME, idx)
     

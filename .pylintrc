@@ -2,9 +2,9 @@
 extension-pkg-whitelist=numpy,torch,transformers,scipy,HARE
 
 [TYPECHECK]
+generated-members=numpy.*,torch.*
 ignored-modules=numpy,torch,transformers,scipy,HARE
 ignored-classes=numpy,torch,transformers,scipy,HARE
-generated-members=numpy.*,torch.*
 
 [DESIGN]
 max-attributes=15
