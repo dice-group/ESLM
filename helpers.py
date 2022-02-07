@@ -29,7 +29,6 @@ class InputFeatures(object):
         self.label_id = label_id
         self.ori_tokens = ori_tokens
         self.ori_labels = ori_labels
-        
 class Utils(object):
     def __init__(self):
         self.root_dir = os.getcwd()    
@@ -44,8 +43,8 @@ class Utils(object):
             result = []
         found = False
         if len(result) > 0:
-          found = True        
-        return found    
+          found = True
+        return found
     def get_label_of_entity(self, uri, endpoint):
         sparql = SPARQLWrapper(endpoint)
         sparql.setQuery("""
@@ -54,7 +53,7 @@ class Utils(object):
             WHERE { <%s> rdfs:label ?label }
         """ % (uri))
         sparql.setReturnFormat(JSON)
-        results = sparql.query().convert()        
+        results = sparql.query().convert() 
         for result in results["results"]["bindings"]:
             try:
                 if result["label"]["xml:lang"] == "en":
@@ -62,9 +61,9 @@ class Utils(object):
                     return words.title()
             except:
                 words = result["label"]["value"]
-                return words        
-        word = self.get_uri_label(uri)        
-        return word    
+                return words
+        word = self.get_uri_label(uri)
+        return word
     def get_uri_label(self, ent):
         word = str(ent)
         if '#' in ent:
@@ -77,16 +76,15 @@ class Utils(object):
             word = last
             if ':' in word:
                 word = word.split(':')[-1]
-        return word.title()    
+        return word.title()
     def asHours(self, s):
     	m = math.floor(s / 60)
     	h = math.floor(m / 60)
     	s -= m * 60
     	m -= h * 60
-    	return '%dh %dm %ds' % (h, m, s)    
+    	return '%dh %dm %ds' % (h, m, s)
     def read_epochs_from_log(self, ds_name, topk):
         log_file_path = os.path.join(self.root_dir, 'GATES_log.txt')
-        
         key = '{}-top{}'.format(ds_name, topk)
         epoch_list = None
         with open(log_file_path, 'r', encoding='utf-8') as f:
@@ -165,7 +163,7 @@ class Utils(object):
                 except:
                     vec = np.zeros([300,])
                 arrays.append(vec)
-            if len(tokens)>1:    
+            if len(tokens)>1:
                 obj_vector = np.average(arrays, axis=0)
             else:
                 obj_vector = arrays[0]
@@ -216,13 +214,12 @@ class Utils(object):
             if len(tokens_a) > len(tokens_b):
                 tokens_a.pop()
             else:
-                tokens_b.pop()        
+                tokens_b.pop()
     def counter(self, cur_dict, word):
         if word in cur_dict:
             cur_dict[word] += 1
         else:
             cur_dict[word] = 1
-    # Define label/target tensor
     def tensor_from_weight(self, tensor_size, facts, label):
         weight_tensor = torch.zeros(tensor_size)
         for label_word in label:
@@ -234,7 +231,6 @@ class Utils(object):
                     weight_tensor[order] += label[label_word]
                     break
         return weight_tensor / torch.sum(weight_tensor)
-    # adapted from pygat
     def normalize_adj(self, mx):
         """Row-normalize sparse matrix"""
         rowsum = np.array(mx.sum(1))
@@ -242,7 +238,6 @@ class Utils(object):
         r_inv_sqrt[np.isinf(r_inv_sqrt)] = 0.
         r_mat_inv_sqrt = sp.diags(r_inv_sqrt)
         return mx.dot(r_mat_inv_sqrt).transpose().dot(r_mat_inv_sqrt)
-    # adapted from pygat
     def normalize_features(self, mx):
         """Row-normalize sparse matrix"""
         rowsum = np.array(mx.sum(1))

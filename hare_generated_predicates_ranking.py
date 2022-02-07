@@ -14,7 +14,7 @@ import numpy as np
 from tqdm import tqdm
 
 repetitions = 5
-ds_name="lmdb"
+dsname="lmdb"
 
 def run_hare(data, ds_name, index):
     print("WITH: ", data)
@@ -23,29 +23,30 @@ def run_hare(data, ds_name, index):
     print(".....HARE.....")
     runtimes_hare = np.array(repetitions*[.0])
     for i in range(repetitions-1):
-    	runtime = hare(data, ds_name, epsilon=10**(-2), damping = .85, saveresults=True, printerror=False, printruntimes=True)
-    	runtimes_hare[i] = runtime
+        runtime = hare(data, ds_name, epsilon=10**(-2), damping = .85, saveresults=True, printerror=False, printruntimes=True)
+        runtimes_hare[i] = runtime
     print("Average Runtime HARE: ", np.mean(runtimes_hare))
-    
     print(".....PAGERANK.....")
     runtimes_pagerank = np.array(repetitions*[.0])
     for i in range(repetitions):
         runtime = pagerank(data, ds_name, epsilon=10**(-3), damping = .85, saveresults=True, printerror=False, printruntimes=True)
         runtimes_pagerank[i] = runtime
     print("Average Runtime PAGERANK: ", np.mean(runtimes_pagerank))
-if ds_name == "dbpedia":
-   db_start, db_end = [1, 141], [101, 166]
-elif ds_name == "lmdb":
-   db_start, db_end = [101, 166], [141, 176]
-elif ds_name == "faces":
-   db_start, db_end = [1, 26], [26, 51]
+    
+if dsname == "dbpedia":
+    db_start, db_end = [1, 141], [101, 166]
+elif dsname == "lmdb":
+    db_start, db_end = [101, 166], [141, 176]
+elif dsname == "faces":
+    db_start, db_end = [1, 26], [26, 51]
 else:
-   raise ValueError("The database's name must be dbpedia or lmdb or faces")    
+    raise ValueError("The database's name must be dbpedia or lmdb or faces")    
 for i in tqdm(range(db_start[0], db_end[0])):
-    data = "{}_desc.nt".format(i)
+    triples = f"{i}_desc.nt"
     index = i
-    run_hare(data, ds_name, index)
+    run_hare(triples, dsname, index)
 for i in tqdm(range(db_start[1], db_end[1])):
-    data = "{}_desc.nt".format(i)
+    triples = f"{}_desc.nt"
     index = i
-    run_hare(data, ds_name, index)
+    run_hare(triples, dsname, index)
+    
