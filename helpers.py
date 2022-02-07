@@ -20,7 +20,7 @@ from gensim.models.keyedvectors import KeyedVectors
 
 nltk.download('punkt')
 
-class InputFeatures(object):
+class InputFeatures:
     """A single set of features of data."""
     def __init__(self, input_ids, input_mask, segment_ids, label_id, ori_tokens, ori_labels):
         self.input_ids = input_ids
@@ -29,17 +29,17 @@ class InputFeatures(object):
         self.label_id = label_id
         self.ori_tokens = ori_tokens
         self.ori_labels = ori_labels
-class Utils(object):
+class Utils:
     """As helpers"""
     def __init__(self):
-        self.root_dir = os.getcwd()    
-    def is_URI(self, string):
+        self.root_dir = os.getcwd()
+    def is_uri(self, string):
         """To check, is the string URI?"""
         regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
         try:
-            url = re.findall(regex,string)      
+            url = re.findall(regex,string)
             result = [x[0] for x in url]
-        except:
+        except Exception:
             result = []
         found = False
         if len(result) > 0:
@@ -54,7 +54,7 @@ class Utils(object):
             WHERE { <%s> rdfs:label ?label }
         """ % (uri))
         sparql.setReturnFormat(JSON)
-        results = sparql.query().convert() 
+        results = sparql.query().convert()
         for result in results["results"]["bindings"]:
             try:
                 if result["label"]["xml:lang"] == "en":
@@ -69,9 +69,9 @@ class Utils(object):
         """Get label from URI resource"""
         word = str(ent)
         if '#' in ent:
-            word = word.split('#')[-1]
+            word = word.rsplit('#')[-1]
         else:
-            last = word.split('/')[-1]
+            last = word.rsplit('/')[-1]
             if last == '':
                 num = len(word.split('/')) - 2
                 last = word.split('/')[num]
@@ -79,17 +79,17 @@ class Utils(object):
             if ':' in word:
                 word = word.split(':')[-1]
         return word.title()
-    def asHours(self, s):
-        """Convert second to hour, minute, second"""
-        m = math.floor(s / 60)
-        h = math.floor(m / 60)
-        s -= m * 60
-        m -= h * 60
-        return '%dh %dm %ds' % (h, m, s)
+    def as_hours(self, seconds):
+        """Convert second to hours, minutes, seconds"""
+        minutes = math.floor(seconds / 60)
+        hours = math.floor(minutes / 60)
+        seconds -= minutes * 60
+        minutes -= hours * 60
+        return '%dh %dm %ds' % (hours, minutes, seconds)
     def read_epochs_from_log(self, ds_name, topk):
         """Read best epochs of the model"""
         log_file_path = os.path.join(self.root_dir, 'GATES_log.txt')
-        key = '{}-top{}'.format(ds_name, topk)
+        key = f'{ds_name}-top{topk}'
         epoch_list = None
         with open(log_file_path, 'r', encoding='utf-8') as f:
             for line in f:
@@ -151,7 +151,7 @@ class Utils(object):
         entity2vec = self.build_vec(entity2ix, entity_embedding)
         pred2vec = self.build_vec(pred2ix, pred_embedding)
         return entity2vec, pred2vec, entity2ix, pred2ix
-    def tensor_from_data(self, entity_dict, pred_dict, facts, literals, text_embed):
+    def tensor_from_data(self, pred_dict, facts, text_embed):
         """Get triple encoding"""
         pred_list, obj_list, obj_literal_list = [], [], []
         for _, _, pred, obj, obj_literal in facts:
@@ -205,7 +205,7 @@ class Utils(object):
                               segment_ids=segment_ids,
                               label_id=label_id,
                               ori_tokens=tokens,
-                              ori_labels=labels 
+                              ori_labels=labels
                             ))
         return features
     def truncate_seq_pair(self, tokens_a, tokens_b, max_length):
@@ -231,24 +231,24 @@ class Utils(object):
             order = -1
             for _, pred, obj in facts:
                 order += 1
-                data_word = "{}++$++{}".format(pred, obj)
+                data_word = f"{pred}++$++{obj}"
                 if label_word == data_word:
                     weight_tensor[order] += label[label_word]
                     break
         return weight_tensor / torch.sum(weight_tensor)
-    def normalize_adj(self, mx):
+    def normalize_adj(self, matrix):
         """Row-normalize sparse matrix"""
-        rowsum = np.array(mx.sum(1))
+        rowsum = np.array(matrix.sum(1))
         r_inv_sqrt = np.power(rowsum, -0.5).flatten()
         r_inv_sqrt[np.isinf(r_inv_sqrt)] = 0.
         r_mat_inv_sqrt = sp.diags(r_inv_sqrt)
-        return mx.dot(r_mat_inv_sqrt).transpose().dot(r_mat_inv_sqrt)
-    def normalize_features(self, mx):
+        return matrix.dot(r_mat_inv_sqrt).transpose().dot(r_mat_inv_sqrt)
+    def normalize_features(self, matrix):
         """Row-normalize sparse matrix"""
-        rowsum = np.array(mx.sum(1))
+        rowsum = np.array(matrix.sum(1))
         r_inv = np.power(rowsum, -1).flatten()
         r_inv[np.isinf(r_inv)] = 0.
         r_mat_inv = sp.diags(r_inv)
-        mx = r_mat_inv.dot(mx)
-        return mx
+        matrix = r_mat_inv.dot(matrix)
+        return matrix
     
