@@ -19,7 +19,8 @@ from dataset import ESBenchmark
 from graphs_representation import GraphRepresentation
 
 def main(mode):
-    if config["regularization"]==True:
+    """Main module"""
+    if config["regularization"] is True:
         weight_decay=config["weight_decay"]
     else:
         weight_decay=0
@@ -33,15 +34,15 @@ def main(mode):
     for ds_name in config["ds_name"]:
         dataset = ESBenchmark()
         if mode =="train":
-            train_data, valid_data = dataset.get_training_dataset(ds_name)
+            train_data, _ = dataset.get_training_dataset(ds_name)
             for topk in config["topk"]:
                 for fold in range(5):
                     print(fold, f"total entities: {train_data[fold][0]}", f"topk: top{topk}")
                     model = BERT_GATES(bert_config, config)
                     model.to(device)
-                    if config["regularization"]:
+                    if config["regularization"] is True:
                         optimizer = optim.Adam(model.parameters(), lr=config["learning_rate"], weight_decay=weight_decay)
-                    else:    
+                    else:
                         optimizer = optim.Adam(model.parameters(), lr=config["learning_rate"])
                     for epoch in range(config["n_epochs"]):
                         model.train()
@@ -63,7 +64,7 @@ def main(mode):
                             optimizer.step()
                             train_loss += loss.item()
                         train_loss = train_loss/len(train_data[fold][0])
-                        print("epoch: {}, loss:{}".format(epoch, train_loss))
+                        print(f"epoch: {epoch}, loss:{train_loss}")
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='GATES: Graph Attention Networks for Entity Summarization')
     parser.add_argument("--mode", type=str, default="test", help="use which mode type: train/test/all")
