@@ -66,9 +66,11 @@ class ESBenchmark:
             raise ValueError(self.value_error)
         triples = []
         class IndexSink(Sink):
+            """Triple Indexing"""
             i = 0
             j = 0
             def triple(self,sub,pred,obj):
+                """Get triples"""
                 sub = sub.toPython()
                 pred = pred.toPython()
                 obj = obj.toPython()
@@ -165,10 +167,10 @@ class ESBenchmark:
                 obj = obj.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
-        IndexSink = IndexSink()
+        index_sink = IndexSink()
         for i in range(file_n):
             triples = []
-            parser = NTriplesParser(IndexSink)
+            parser = NTriplesParser(index_sink)
             with open(os.path.join(db_path, f"{num}", f"{num}_gold_top{top_n}_{i}.nt"), 'rb') as reader:
                 parser.parse(reader)
             for _, pred, obj in triples:

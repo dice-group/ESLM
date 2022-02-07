@@ -5,40 +5,37 @@ Created on Mon Nov 16 09:15:08 2020
 
 @author: Asep Fajar Firmansyah
 """
+import os
 import argparse
 from tqdm import tqdm
-import os
-
-from dataset import ESBENCHMARK
-
+from dataset import ESBenchmark
 
 root_dir = os.getcwd()
 
 def main(ds_name):
     if ds_name == "dbpedia":
-       db_start, db_end = [1, 141], [101, 166]
+        db_start, db_end = [1, 141], [101, 166]
     elif ds_name == "lmdb":
-       db_start, db_end = [101, 166], [141, 176]
+        db_start, db_end = [101, 166], [141, 176]
     elif ds_name == "faces":
-       db_start, db_end = [1, 26], [26, 51]
+        db_start, db_end = [1, 26], [26, 51]
     else:
-       raise ValueError("The database's name must be dbpedia or lmdb or faces")
-    dataset = ESBENCHMARK()  
+        raise ValueError("The database's name must be dbpedia or lmdb or faces")
+    dataset = ESBenchmark
     for i in tqdm(range(db_start[0], db_end[0])):
-        with open(os.path.join(root_dir, "data_inputs/literals/{}/".format(ds_name), "{}_literal.txt".format(i)), "w", encoding="utf-8") as f:
-            f.write("")
+        with open(os.path.join(root_dir, f"data_inputs/literals/{ds_name}/", f"{i}_literal.txt"), "w", encoding="utf-8") as reader:
+            reader.write("")
         triples_tuple = dataset.get_labels(ds_name, i)
-        for sl, pl, ol in triples_tuple:
-            with open(os.path.join(root_dir, "data_inputs/literals/{}/".format(ds_name), "{}_literal.txt".format(i)), "a", encoding="utf-8") as f:
-                f.write("{}\t{}\t{}\n".format(sl, pl, ol))
-    
+        for sub_literal, pred_literal, obj_literal in triples_tuple:
+            with open(os.path.join(root_dir, f"data_inputs/literals/{ds_name}/", f"{i}_literal.txt"), "a", encoding="utf-8") as reader:
+                reader.write(f"{sub_literal}\t{pred_literal}\t{obj_literal}\n")
     for i in tqdm(range(db_start[1], db_end[1])):
-        with open(os.path.join(root_dir, "data_inputs/literals/{}/".format(ds_name), "{}_literal.txt".format(i)), "w", encoding="utf-8") as f:
-            f.write("")
+        with open(os.path.join(root_dir, f"data_inputs/literals/{ds_name}/", f"{i}_literal.txt"), "w", encoding="utf-8") as reader:
+            reader.write("")
         triples_tuple = dataset.get_labels(ds_name, i)
-        for sl, pl, ol in triples_tuple:
-            with open(os.path.join(root_dir, "data_inputs/literals/{}/".format(ds_name), "{}_literal.txt".format(i)), "a", encoding="utf-8") as f:
-                f.write("{}\t{}\t{}\n".format(sl, pl, ol))
+        for sub_literal, pred_literal, obj_literal in triples_tuple:
+            with open(os.path.join(root_dir, f"data_inputs/literals/{ds_name}/", f"{i}_literal.txt"), "a", encoding="utf-8") as reader:
+                reader.write(f"{sub_literal}\t{pred_literal}\t{obj_literal}\n")
     
 
 if __name__ == "__main__":
