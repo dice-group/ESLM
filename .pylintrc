@@ -1,0 +1,9 @@
+[MASTER]
+extension-pkg-whitelist=numpy,torch,transformers,scipy
+
+[TYPECHECK]
+ignored-modules=numpy,torch,transformers,scipy
+ignored-classes=numpy,torch,transformers,scipy
+
+[DESIGN]
+max-attributes=15
