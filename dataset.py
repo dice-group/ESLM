@@ -68,11 +68,10 @@ class ESBenchmark(object):
             i = 0
             j = 0
             def triple(self,s,p,o):
-                #parse s,p,o to dictionaries/databases
-                s = s.toPython()
-                p = p.toPython()
-                o = o.toPython()
-                triple_tuple = (s, p, o)
+                sub = s.toPython()
+                pred = p.toPython()
+                obj = o.toPython()
+                triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
         triples = []
         IndexSink = IndexSink()
@@ -85,15 +84,14 @@ class ESBenchmark(object):
         utils = Utils()
         endpoint = "http://dbpedia.org/sparql"
         triples_tuple = []
-        for s, p, o in triples:
-            if utils.is_URI(o):
-                ol = utils.get_label_of_entity(o, endpoint)
+        for sub, pred, obj in triples:
+            if utils.is_URI(obj):
+                obj_literal = utils.get_label_of_entity(obj, endpoint)
             else:
-                ol = o
-            pl = utils.get_label_of_entity(p, endpoint)
-            sl = utils.get_label_of_entity(s, endpoint)
-                
-            triple = (sl, pl, ol)
+                obj_literal = obj
+            pred_literal = utils.get_label_of_entity(pred, endpoint)
+            sub_literal = utils.get_label_of_entity(sub, endpoint)
+            triple = (sub_literal, pred_literal, obj_literal)
             triples_tuple.append(triple)
         return triples_tuple
     def get_literals(self, ds_name, num):
@@ -101,16 +99,16 @@ class ESBenchmark(object):
         with open(os.path.join(os.getcwd(), "data_inputs/literals/{}".format(ds_name), "{}_literal.txt".format(num))) as reader:
             for literal in reader:
                 values = literal.split("\t")
-                sl = values[0]
-                pl = values[1]
-                ol = values[2].replace("\n", "")
-                triple_literal_tuple = (sl, pl, ol)
+                sub_literal = values[0]
+                pred_literal = values[1]
+                obj_literal = values[2].replace("\n", "")
+                triple_literal_tuple = (sub_literal, pred_literal, obj_literal)
                 triples_literal.append(triple_literal_tuple)
         return triples_literal
     def get_training_dataset(self, ds_name):
-        train_eids, valid_eids, _ = self.get_5fold_train_valid_test_elist(ds_name) 
+        train_eids, valid_eids, _ = self.get_5fold_train_valid_test_elist(ds_name)
         train_data = []
-        valid_data = []   
+        valid_data = []
         for fold, eids_per_fold in enumerate(train_eids):
             train_data_perfold = []
             edesc = {}
@@ -129,7 +127,7 @@ class ESBenchmark(object):
             valid_data.append(valid_data_per_fold)
         return train_data, valid_data
     def get_testing_dataset(self, ds_name):
-        _, _, test_eids = self.get_5fold_train_valid_test_elist(ds_name) 
+        _, _, test_eids = self.get_5fold_train_valid_test_elist(ds_name)
         test_data = list()
         for fold, eids_per_fold in enumerate(test_eids):
             test_data_perfold = list()
@@ -153,16 +151,16 @@ class ESBenchmark(object):
         class IndexSink(Sink):
             i = 0
             j = 0
-            def triple(self,s,p,o):
+            def triple(self,sub,pred,obj):
                 #parse s,p,o to dictionaries/databases
-                s = s.toPython()
-                p = p.toPython()
-                o = o.toPython()
-                triple_tuple = (s, p, o)
+                sub = sub.toPython()
+                pred = pred.toPython()
+                obj = obj.toPython()
+                triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
-        IndexSink = IndexSink()        
+        IndexSink = IndexSink()      
         for i in range(file_n):
-            triples = []    
+            triples = []
             parser = NTriplesParser(IndexSink)
             with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, top_n, i)), 'rb') as reader:
                 parser.parse(reader)
@@ -177,18 +175,18 @@ class ESBenchmark(object):
             pred_dict = {}
             for t_fold in data:
                 for eid in t_fold.keys():
-                    for t in t_fold[eid]:
-                        _, p, _ = t    
-                        p = utils.extract_triple_to_word(p.lower())    
-                        if p not in pred_dict:
-                            pred_dict[p]=len(pred_dict)        
+                    for triple in t_fold[eid]:
+                        _, pred, _ = triple
+                        pred = utils.extract_triple_to_word(pred.lower())
+                        if pred not in pred_dict:
+                            pred_dict[pred]=len(pred_dict)        
             pred_dict_all[fold] = pred_dict                
         return pred_dict_all
     def get_sub_obj_corpus(self, ds_name):
         train_data, _ = self.get_training_dataset(ds_name)
         utils = Utils()
-        D_sub = {}
-        D_obj = {}
+        d_sub = {}
+        d_obj = {}
         for fold, data in enumerate(train_data):
             d_sub_fold = []
             d_obj_fold = []
@@ -197,7 +195,7 @@ class ESBenchmark(object):
                     d_sub_eid = []
                     d_obj_eid = []
                     for t in t_fold[eid]:
-                        s, _, o = t   
+                        s, _, o = t
                         s = utils.extract_triple_to_word(s.lower())
                         o = utils.extract_triple_to_word(o.lower())
                         d_sub_eid.append(s)
@@ -206,9 +204,9 @@ class ESBenchmark(object):
                     obj_words = [w for w in d_obj_eid if not w in self.get_stop_words()]
                     d_sub_fold.append(sub_words)
                     d_obj_fold.append(obj_words)
-            D_sub[fold] = d_sub_fold
-            D_obj[fold] = d_obj_fold
-        return D_sub, D_obj
+            d_sub[fold] = d_sub_fold
+            d_obj[fold] = d_obj_fold
+        return d_sub, d_obj
     def get_stop_words(self):
         stop_words = list(get_stop_words('en'))         #About 900 stopwords
         nltk_words = list(stopwords.words('english')) #About 150 stopwords
@@ -232,16 +230,16 @@ class ESBenchmark(object):
         class IndexSink(Sink):
             i = 0
             j = 0
-            def triple(self,s,p,o):
-                s = s.toPython()
-                p = p.toPython()
-                o = o.toPython()
-                triple_tuple = (s, p, o)
+            def triple(self,sub,pred,obj):
+                sub = sub.toPython()
+                pred = pred.toPython()
+                obj = obj.toPython()
+                triple_tuple = (sub, pred, obj)
                 triples_summary.append(triple_tuple)
         gold_summary_list = []
         IndexSink = IndexSink()
         parser = NTriplesParser(IndexSink)
-        for i in range(config["file_n"]): 
+        for i in range(config["file_n"]):
             with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, topk, i)), 'rb') as reader:
                 parser.parse(reader)
             n_list = []
@@ -250,3 +248,4 @@ class ESBenchmark(object):
                 n_list.append(gold_id)
             gold_summary_list.append(n_list)
         return gold_summary_list
+    
