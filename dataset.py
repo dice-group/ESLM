@@ -24,6 +24,7 @@ class ESBenchmark:
         self.in_esbm_dir = os.path.join(os.getcwd(), "datasets/ESBM_benchmark_v1.2")
         self.in_faces_dir = os.path.join(os.getcwd(), 'datasets/FACES/faces_data')
     def get_5fold_train_valid_test_elist(self, ds_name_str):
+        """Get splitted data including train, valid, and test data"""
         if ds_name_str == "dbpedia":
             split_path = os.path.join(self.in_esbm_dir, "dbpedia_split")
         elif ds_name_str == "lmdb":
@@ -44,6 +45,7 @@ class ESBenchmark:
             test_data.append(test_eids)
         return train_data, valid_data, test_data
     def read_split(self, fold_path, split_name):
+        """Read data from splitted txt"""
         split_eids = []
         with open(os.path.join(fold_path, "{}.txt".format(split_name)),encoding='utf-8') as reader:
             for line in reader:
@@ -53,6 +55,7 @@ class ESBenchmark:
                 split_eids.append(eid)
         return split_eids
     def get_triples(self, ds_name, num):
+        """Get triples"""
         if ds_name == "dbpedia":
             db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
@@ -78,6 +81,7 @@ class ESBenchmark:
             parser.parse(reader)
         return triples
     def get_labels(self, ds_name, num):
+        """Get entity label from knowledge base"""
         triples = self.get_triples(ds_name, num)
         utils = Utils()
         endpoint = "http://dbpedia.org/sparql"
@@ -93,6 +97,7 @@ class ESBenchmark:
             triples_tuple.append(triple)
         return triples_tuple
     def get_literals(self, ds_name, num):
+        """Get literal value from literal txt"""
         triples_literal=[]
         with open(os.path.join(os.getcwd(), "data_inputs/literals/{}".format(ds_name), "{}_literal.txt".format(num)), encoding="utf-8") as reader:
             for literal in reader:
@@ -104,6 +109,7 @@ class ESBenchmark:
                 triples_literal.append(triple_literal_tuple)
         return triples_literal
     def get_training_dataset(self, ds_name):
+        """Get all training dan validation data"""
         train_eids, valid_eids, _ = self.get_5fold_train_valid_test_elist(ds_name)
         train_data = []
         valid_data = []
@@ -125,6 +131,7 @@ class ESBenchmark:
             valid_data.append(valid_data_per_fold)
         return train_data, valid_data
     def get_testing_dataset(self, ds_name):
+        """Get all testing data"""
         _, _, test_eids = self.get_5fold_train_valid_test_elist(ds_name)
         test_data = []
         for eids_per_fold in test_eids:
@@ -137,6 +144,7 @@ class ESBenchmark:
             test_data.append(test_data_perfold)
         return test_data
     def prepare_labels(self, ds_name, num, top_n, file_n):
+        """Create gold label dictionary from gold summary triples"""
         if ds_name == "dbpedia":
             db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
@@ -156,7 +164,7 @@ class ESBenchmark:
                 obj = obj.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
-        IndexSink = IndexSink()   
+        IndexSink = IndexSink()
         for i in range(file_n):
             triples = []
             parser = NTriplesParser(IndexSink)
@@ -166,11 +174,13 @@ class ESBenchmark:
                 utils.counter(per_entity_label_dict, "{}++$++{}".format(pred, obj))
         return per_entity_label_dict
     def get_stop_words(self):
+        """Get stop words based on NLTK library"""
         stop_words = list(get_stop_words('en'))         #About 900 stopwords
         nltk_words = list(stopwords.words('english')) #About 150 stopwords
         stop_words.extend(nltk_words)
         return stop_words
     def get_gold_summaries(self, ds_name, num, topk):
+        """Get all triples from gold summary"""
         if ds_name == "dbpedia":
             db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
