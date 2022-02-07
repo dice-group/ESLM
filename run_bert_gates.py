@@ -14,7 +14,7 @@ from transformers import BertTokenizer, BertConfig
 
 from config import config
 from helpers import Utils
-from model import BERT_GATES
+from model import BERTGATES
 from dataset import ESBenchmark
 from graphs_representation import GraphRepresentation
 
@@ -41,7 +41,7 @@ def main(mode):
                 train_data, _ = dataset.get_training_dataset()
                 for fold in range(5):
                     print(fold, f"total entities: {train_data[fold][0]}", f"topk: top{topk}")
-                    model = BERT_GATES(bert_config, config)
+                    model = BERTGATES(bert_config, config)
                     model.to(DEVICE)
                     if config["regularization"] is True:
                         optimizer = optim.Adam(model.parameters(), lr=lrate, weight_decay=w_decay)
