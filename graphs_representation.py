@@ -30,8 +30,8 @@ class GraphRepresentation:
         relations_dict = {}
         for relation in relations:
             if relation not in relations_dict:
-                relations_dict[relation] = len(relations_dict)    
-        nodes_dict = {}
+                relations_dict[relation] = len(relations_dict)
+                nodes_dict = {}
         for node in nodes:
             if node not in nodes_dict :
                 nodes_dict[node] = len(nodes_dict)

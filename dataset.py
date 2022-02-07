@@ -8,7 +8,6 @@ Created on Wed Oct 27 15:58:42 2021
 import os
 from nltk.corpus import stopwords
 from rdflib.plugins.parsers.ntriples import NTriplesParser, Sink
-from stop_words import get_stop_words
 from helpers import Utils
 from config import config
 
@@ -89,7 +88,7 @@ class ESBenchmark:
         endpoint = "http://dbpedia.org/sparql"
         triples_tuple = []
         for sub, pred, obj in triples:
-            if utils.is_URI(obj):
+            if utils.is_uri(obj):
                 obj_literal = helpers.get_label_of_entity(obj, endpoint)
             else:
                 obj_literal = obj
@@ -176,12 +175,6 @@ class ESBenchmark:
             for _, pred, obj in triples:
                 utils.counter(per_entity_label_dict, "{}++$++{}".format(pred, obj))
         return per_entity_label_dict
-    def get_stop_words(self):
-        """Get stop words based on NLTK library"""
-        stop_words = list(get_stop_words('en'))         #About 900 stopwords
-        nltk_words = list(stopwords.words('english')) #About 150 stopwords
-        stop_words.extend(nltk_words)
-        return stop_words
     def get_gold_summaries(self, ds_name, num, topk):
         """Get all triples from gold summary"""
         if ds_name == "dbpedia":

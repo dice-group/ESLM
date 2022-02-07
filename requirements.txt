@@ -6,3 +6,5 @@ torch==1.7.1
 psutil==5.8.0
 SPARQLWrapper==1.8.5
 matplotlib==3.3.4
+rdflib==4.2.1
+transformer
