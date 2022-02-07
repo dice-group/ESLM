@@ -46,7 +46,7 @@ for i in tqdm(range(db_start[0], db_end[0])):
     index = i
     run_hare(triples, dsname, index)
 for i in tqdm(range(db_start[1], db_end[1])):
-    triples = f"{}_desc.nt"
     index = i
+    triples = f"{index}_desc.nt"
     run_hare(triples, dsname, index)
     

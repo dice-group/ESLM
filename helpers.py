@@ -122,7 +122,7 @@ class Utils:
             word_emb = KeyedVectors.load_word2vec_format(os.path.join(self.root_dir, "data_inputs/kge/wiki-news-300d-1M.vec"))
         elif word_emb_model == "Glove":
             word_emb = {}
-            with open("data_inputs/text_embed/glove.6B/glove.6B.300d.txt", 'r') as reader:
+            with open("data_inputs/text_embed/glove.6B/glove.6B.300d.txt", 'r', encoding="utf-8") as reader:
                 for line in reader:
                     values = line.split()
                     word = values[0]
@@ -158,7 +158,7 @@ class Utils:
         return word2vec
     def load_kg_embed(self, ds_name, emb_model):
         """Load pre-trained graph embeddings"""
-        directory = os.path.join(self.root_dir, "data_inputs/kg_embed/{}/".format(ds_name))
+        directory = os.path.join(self.root_dir, f"data_inputs/kg_embed/{ds_name}/")
         entity2ix = self.build_dict(os.path.join(directory, "entities.dict"))
         pred2ix = self.build_dict(os.path.join(directory, "relations.dict"))
         if emb_model == "DistMult":
