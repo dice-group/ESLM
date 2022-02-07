@@ -36,7 +36,7 @@ def main(mode):
             train_data, valid_data = dataset.get_training_dataset(ds_name)
             for topk in config["topk"]:
                 for fold in range(5):
-                    print(fold, f"total entities: {train_data[fold][0]}"), f"topk: top{topk}")
+                    print(fold, f"total entities: {train_data[fold][0]}", f"topk: top{topk}")
                     model = BERT_GATES(bert_config, config)
                     model.to(device)
                     if config["regularization"]:
