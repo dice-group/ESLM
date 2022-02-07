@@ -63,6 +63,7 @@ def main(mode):
                             logits = model(adj, all_input_ids, all_segment_ids, all_input_mask)
                             
                             gold_summaries = dataset.get_gold_summaries(ds_name, eid, topk)
+                            acc = accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
                             
                             loss = loss_function(logits.view(-1), all_label_ids.view(-1)).to(device)
                             loss.backward()

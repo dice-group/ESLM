@@ -37,8 +37,8 @@ class GraphRepresentation:
                 nodes_dict[node] = len(nodes_dict)
         triples_list=[]
         for i, triple in enumerate(triples):
-            sub, pred, obj = triple
-            sub_literal, pred_literal, obj_literal = literals[i]
+            _, pred, obj = triple
+            sub_literal, _, obj_literal = literals[i]
             triples = (sub_literal, pred, obj)
             triple_tuple_idx = (nodes_dict[sub_literal], relations_dict[pred], nodes_dict[obj_literal])
             triples_idx.append(triple_tuple_idx)

@@ -30,11 +30,11 @@ class InputFeatures(object):
         self.ori_tokens = ori_tokens
         self.ori_labels = ori_labels
 class Utils(object):
+    """As helpers"""
     def __init__(self):
         self.root_dir = os.getcwd()    
     def is_URI(self, string):
-        # findall() has been used 
-        # with valid conditions for urls in string
+        """To check, is the string URI?"""
         regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
         try:
             url = re.findall(regex,string)      
@@ -43,9 +43,10 @@ class Utils(object):
             result = []
         found = False
         if len(result) > 0:
-          found = True
+            found = True
         return found
     def get_label_of_entity(self, uri, endpoint):
+        """Get entity label from knowledge base"""
         sparql = SPARQLWrapper(endpoint)
         sparql.setQuery("""
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -65,25 +66,28 @@ class Utils(object):
         word = self.get_uri_label(uri)
         return word
     def get_uri_label(self, ent):
+        """Get label from URI resource"""
         word = str(ent)
         if '#' in ent:
             word = word.split('#')[-1]
         else:
             last = word.split('/')[-1]
             if last == '':
-               num = len(word.split('/')) - 2
-               last = word.split('/')[num]
+                num = len(word.split('/')) - 2
+                last = word.split('/')[num]
             word = last
             if ':' in word:
                 word = word.split(':')[-1]
         return word.title()
     def asHours(self, s):
-    	m = math.floor(s / 60)
-    	h = math.floor(m / 60)
-    	s -= m * 60
-    	m -= h * 60
-    	return '%dh %dm %ds' % (h, m, s)
+        """Convert second to hour, minute, second"""
+        m = math.floor(s / 60)
+        h = math.floor(m / 60)
+        s -= m * 60
+        m -= h * 60
+        return '%dh %dm %ds' % (h, m, s)
     def read_epochs_from_log(self, ds_name, topk):
+        """Read best epochs of the model"""
         log_file_path = os.path.join(self.root_dir, 'GATES_log.txt')
         key = '{}-top{}'.format(ds_name, topk)
         epoch_list = None
@@ -93,6 +97,7 @@ class Utils(object):
                     epoch_list = list(eval(line.split('\t')[1]))
         return epoch_list
     def get_embeddings(self, word_emb_model):
+        """Get embedding vectors"""
         if word_emb_model == "fasttext":
             word_emb = KeyedVectors.load_word2vec_format(os.path.join(self.root_dir, "data_inputs/kge/wiki-news-300d-1M.vec"))
         elif word_emb_model=="Glove":
@@ -108,9 +113,11 @@ class Utils(object):
             sys.exit()
         return word_emb
     def mem(self):
-    	memory = psutil.cpu_percent()
-    	return memory
+        """Get current memory usage"""
+        memory = psutil.cpu_percent()
+        return memory
     def build_dict(self, f_path):
+        """Build the vocabulary"""
         word2ix = {}
         with open(f_path, "r", encoding="utf-8") as f:
             for _, pair in enumerate(f):
@@ -121,32 +128,31 @@ class Utils(object):
                     print(temp)
         return word2ix
     def build_vec(self, word2ix, word_embedding):
+        """Build vector representation"""
         word2vec = {}
         for word in word2ix:
             word2vec[word] = word_embedding[int(word2ix[word])]
         return word2vec
     def load_kg_embed(self, ds_name, emb_model):
+        """Load pre-trained graph embeddings"""
         directory = os.path.join(self.root_dir, "data_inputs/kg_embed/{}/".format(ds_name))
         entity2ix = self.build_dict(os.path.join(directory, "entities.dict"))
         pred2ix = self.build_dict(os.path.join(directory, "relations.dict"))
         if emb_model =="DistMult":
-           embedding = np.load(os.path.join(directory, "DistMult_vec.npz"))
+            embedding = np.load(os.path.join(directory, "DistMult_vec.npz"))
         elif emb_model == "ComplEx":
-           embedding = np.load(os.path.join(directory, "ComplEx_vec.npz"))
+            embedding = np.load(os.path.join(directory, "ComplEx_vec.npz"))
         elif emb_model == "ConEx":
-           embedding = np.load(os.path.join(directory, "ConEx_vec.npz"))   
+            embedding = np.load(os.path.join(directory, "ConEx_vec.npz"))
         else:
-           raise ValueError("Please choose KGE DistMult or ComplEx")
+            raise ValueError("Please choose KGE DistMult or ComplEx")
         entity_embedding = embedding["ent_embedding"]
         pred_embedding = embedding["rel_embedding"]
         entity2vec = self.build_vec(entity2ix, entity_embedding)
         pred2vec = self.build_vec(pred2ix, pred_embedding)
         return entity2vec, pred2vec, entity2ix, pred2ix
     def tensor_from_data(self, entity_dict, pred_dict, facts, literals, text_embed):
-        '''
-        Tensor concatenation model 1 is obtained by the concatenation of KGE (DistMult/ComplEx) as predicate embeddings and
-        word embeddings as object embeddings 
-        '''
+        """Get triple encoding"""
         pred_list, obj_list, obj_literal_list = [], [], []
         for _, _, pred, obj, obj_literal in facts:
             pred_list.append(pred_dict[pred])
@@ -171,11 +177,12 @@ class Utils(object):
         obj_tensor = torch.tensor(arrays_obj_literal_list).unsqueeze(1)
         return pred_tensor, obj_tensor
     def convert_to_features(self, t_literals, tokenizer, max_sequence_length, facts, labels):
+        """Convert inputs to the features for BERT inputs"""
         features = []
         label_ids = self.tensor_from_weight(len(facts), facts, labels)
-        for i, (sl, pl, ol) in enumerate(t_literals):
-            tokens_a = tokenizer.tokenize(pl)
-            tokens_b = tokenizer.tokenize(ol)
+        for i, (_, pred_literal, obj_literal) in enumerate(t_literals):
+            tokens_a = tokenizer.tokenize(pred_literal)
+            tokens_b = tokenizer.tokenize(obj_literal)
             self.truncate_seq_pair(tokens_a, tokens_b, max_sequence_length - 3)
             tokens = ["[CLS]"] + tokens_a + ["[SEP]"]
             segment_ids = [0] * len(tokens)
@@ -203,10 +210,6 @@ class Utils(object):
         return features
     def truncate_seq_pair(self, tokens_a, tokens_b, max_length):
         """Truncates a sequence pair in place to the maximum length."""
-        # This is a simple heuristic which will always truncate the longer sequence
-        # one token at a time. This makes more sense than truncating an equal percent
-        # of tokens from each, since if one sequence is very short then each token
-        # that's truncated likely contains more information than a longer sequence.
         while True:
             total_length = len(tokens_a) + len(tokens_b)
             if total_length <= max_length:
@@ -216,11 +219,13 @@ class Utils(object):
             else:
                 tokens_b.pop()
     def counter(self, cur_dict, word):
+        """Counter words"""
         if word in cur_dict:
             cur_dict[word] += 1
         else:
             cur_dict[word] = 1
     def tensor_from_weight(self, tensor_size, facts, label):
+        """Convert label to weight tensor"""
         weight_tensor = torch.zeros(tensor_size)
         for label_word in label:
             order = -1
