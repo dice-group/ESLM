@@ -121,7 +121,7 @@ class ESBenchmark:
                 edesc[eid] = triples
             train_data_perfold.append(edesc)
             train_data.append(train_data_perfold)
-        for fold, eids_per_fold in enumerate(valid_eids):
+        for eids_per_fold in valid_eids:
             valid_data_per_fold = []
             edesc = {}
             for eid in eids_per_fold:
@@ -155,10 +155,11 @@ class ESBenchmark:
             raise ValueError(self.value_error)
         per_entity_label_dict = {}
         class IndexSink(Sink):
+            """Indexing triples"""
             i = 0
             j = 0
             def triple(self,sub,pred,obj):
-                #parse s,p,o to dictionaries/databases
+                """Get triples"""
                 sub = sub.toPython()
                 pred = pred.toPython()
                 obj = obj.toPython()
@@ -210,7 +211,7 @@ class ESBenchmark:
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
         for i in range(config["file_n"]):
-            with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, topk, i)), 'rb') as reader:
+            with open(os.path.join(db_path, f"{num}", f"{num}_gold_top{topk}_{i}.nt"), 'rb') as reader:
                 parser.parse(reader)
             n_list = []
             for triple in triples_summary:
