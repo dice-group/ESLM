@@ -47,7 +47,7 @@ class ESBenchmark:
     def read_split(self, fold_path, split_name):
         """Read data from splitted txt"""
         split_eids = []
-        with open(os.path.join(fold_path, "{}.txt".format(split_name)),encoding='utf-8') as reader:
+        with open(os.path.join(fold_path, f"{split_name}.txt"),encoding='utf-8') as reader:
             for line in reader:
                 if len(line.strip())==0:
                     continue
@@ -77,29 +77,29 @@ class ESBenchmark:
         triples = []
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
-        with open(os.path.join(db_path,"{}".format(num),"{}_desc.nt".format(num)),'rb') as reader:
+        with open(os.path.join(db_path,f"{num}",f"{num}_desc.nt"),'rb') as reader:
             parser.parse(reader)
         return triples
     def get_labels(self, ds_name, num):
         """Get entity label from knowledge base"""
         triples = self.get_triples(ds_name, num)
-        utils = Utils()
+        helpers = Utils()
         endpoint = "http://dbpedia.org/sparql"
         triples_tuple = []
         for sub, pred, obj in triples:
             if utils.is_URI(obj):
-                obj_literal = utils.get_label_of_entity(obj, endpoint)
+                obj_literal = helpers.get_label_of_entity(obj, endpoint)
             else:
                 obj_literal = obj
-            pred_literal = utils.get_label_of_entity(pred, endpoint)
-            sub_literal = utils.get_label_of_entity(sub, endpoint)
+            pred_literal = helpers.get_label_of_entity(pred, endpoint)
+            sub_literal = helpers.get_label_of_entity(sub, endpoint)
             triple = (sub_literal, pred_literal, obj_literal)
             triples_tuple.append(triple)
         return triples_tuple
     def get_literals(self, ds_name, num):
         """Get literal value from literal txt"""
         triples_literal=[]
-        with open(os.path.join(os.getcwd(), "data_inputs/literals/{}".format(ds_name), "{}_literal.txt".format(num)), encoding="utf-8") as reader:
+        with open(os.path.join(os.getcwd(), f"data_inputs/literals/{ds_name}", f"{num}_literal.txt"), encoding="utf-8") as reader:
             for literal in reader:
                 values = literal.split("\t")
                 sub_literal = values[0]
@@ -169,7 +169,7 @@ class ESBenchmark:
         for i in range(file_n):
             triples = []
             parser = NTriplesParser(IndexSink)
-            with open(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, top_n, i)), 'rb') as reader:
+            with open(os.path.join(db_path, f"{num}", f"{num}_gold_top{top_n}_{i}.nt"), 'rb') as reader:
                 parser.parse(reader)
             for _, pred, obj in triples:
                 utils.counter(per_entity_label_dict, "{}++$++{}".format(pred, obj))
