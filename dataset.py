@@ -17,6 +17,7 @@ from stop_words import get_stop_words
 utils = Utils()
 
 class ESBenchmark(object):
+    """This class contains modules pertaining to dataset processes"""
     def __init__(self, file_n = 6, topk=5, weighted_adjacency_matrix=False):
         self.file_n = file_n
         self.topk = topk
@@ -33,21 +34,21 @@ class ESBenchmark(object):
             split_path = os.path.join(self.in_esbm_dir, "faces_split")
         else:
             raise ValueError(self.value_error)
-        trainList, validList, testList = [],[],[]
+        train_data, valid_data, test_data = [],[],[]
         for i in range(5): # 5-folds
             # read split eid files
             fold_path = os.path.join(split_path, 'Fold'+str(i))
             train_eids = self.read_split(fold_path,'train')
             valid_eids = self.read_split(fold_path,'valid')
             test_eids = self.read_split(fold_path,'test')
-            trainList.append(train_eids)
-            validList.append(valid_eids)
-            testList.append(test_eids)
-        return trainList, validList, testList
+            train_data.append(train_eids)
+            valid_data.append(valid_eids)
+            test_data.append(test_eids)
+        return train_data, valid_data, test_data
     def read_split(self, fold_path, split_name):
         split_eids = []
-        with open(os.path.join(fold_path, "{}.txt".format(split_name)),encoding='utf-8') as f:
-            for line in f:
+        with open(os.path.join(fold_path, "{}.txt".format(split_name)),encoding='utf-8') as reader:
+            for line in reader:
                 if len(line.strip())==0:
                     continue
                 eid = int(line.split('\t')[0])
@@ -73,7 +74,6 @@ class ESBenchmark(object):
                 o = o.toPython()
                 triple_tuple = (s, p, o)
                 triples.append(triple_tuple)
-                
         triples = []
         IndexSink = IndexSink()
         parser = NTriplesParser(IndexSink)
@@ -88,9 +88,8 @@ class ESBenchmark(object):
         for s, p, o in triples:
             if utils.is_URI(o):
                 ol = utils.get_label_of_entity(o, endpoint)
-            else: 
+            else:
                 ol = o
-            
             pl = utils.get_label_of_entity(p, endpoint)
             sl = utils.get_label_of_entity(s, endpoint)
                 
@@ -111,7 +110,7 @@ class ESBenchmark(object):
     def get_training_dataset(self, ds_name):
         train_eids, valid_eids, _ = self.get_5fold_train_valid_test_elist(ds_name) 
         train_data = []
-        valid_data = []    
+        valid_data = []   
         for fold, eids_per_fold in enumerate(train_eids):
             train_data_perfold = []
             edesc = {}
@@ -234,13 +233,11 @@ class ESBenchmark(object):
             i = 0
             j = 0
             def triple(self,s,p,o):
-                #parse s,p,o to dictionaries/databases
                 s = s.toPython()
                 p = p.toPython()
                 o = o.toPython()
                 triple_tuple = (s, p, o)
                 triples_summary.append(triple_tuple)
-        #print(triples_dict)        
         gold_summary_list = []
         IndexSink = IndexSink()
         parser = NTriplesParser(IndexSink)
