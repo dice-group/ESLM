@@ -17,7 +17,7 @@ config = {
         "learning_rate":0.01,
         "dropout": 0.0,
         "regularization": False,
-        "nheads": 2, 
+        "nheads": 2,
         "hidden_layer": 2,
         "entity_embedding_dim": 300,
         "predicate_embedding_dim": 300,

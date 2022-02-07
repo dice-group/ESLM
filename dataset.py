@@ -18,23 +18,19 @@ utils = Utils()
 
 class ESBenchmark(object):
     def __init__(self, file_n = 6, topk=5, weighted_adjacency_matrix=False):
-        #define dataset url
         self.file_n = file_n
         self.topk = topk
         self.weighted_adjacency_matrix = weighted_adjacency_matrix
         self.value_error = "The database's name must be dbpedia, lmdb. or faces"
-        self.IN_ESBM_DIR = os.path.join(os.getcwd(), "datasets/ESBM_benchmark_v1.2")
-        self.IN_DBPEDIA_DIR = os.path.join(os.getcwd(), 'datataset/ESBM_benchmark_v1.2/dbpedia_data')
-        self.IN_LMDB_DIR = os.path.join(os.getcwd(), 'datasets/ESBM_benchmark_v1.2/lmdb_data')
-        self.IN_FACES_DIR = os.path.join(os.getcwd(), 'datasets/FACES/faces_data')
-        
+        self.in_esbm_dir = os.path.join(os.getcwd(), "datasets/ESBM_benchmark_v1.2")
+        self.in_faces_dir = os.path.join(os.getcwd(), 'datasets/FACES/faces_data')
     def get_5fold_train_valid_test_elist(self, ds_name_str):
         if ds_name_str == "dbpedia":
-            split_path = os.path.join(self.IN_ESBM_DIR, "dbpedia_split")
+            split_path = os.path.join(self.in_esbm_dir, "dbpedia_split")
         elif ds_name_str == "lmdb":
-            split_path = os.path.join(self.IN_ESBM_DIR, "lmdb_split")
+            split_path = os.path.join(self.in_esbm_dir, "lmdb_split")
         elif ds_name_str == "faces":
-            split_path = os.path.join(self.IN_ESBM_DIR, "faces_split")
+            split_path = os.path.join(self.in_esbm_dir, "faces_split")
         else:
             raise ValueError(self.value_error)
         trainList, validList, testList = [],[],[]
@@ -48,7 +44,6 @@ class ESBenchmark(object):
             validList.append(valid_eids)
             testList.append(test_eids)
         return trainList, validList, testList
-    
     def read_split(self, fold_path, split_name):
         split_eids = []
         with open(os.path.join(fold_path, "{}.txt".format(split_name)),encoding='utf-8') as f:
@@ -58,14 +53,13 @@ class ESBenchmark(object):
                 eid = int(line.split('\t')[0])
                 split_eids.append(eid)
         return split_eids
-    
     def get_triples(self, ds_name, num):
         if ds_name == "dbpedia":
-            db_path = os.path.join(self.IN_ESBM_DIR, "dbpedia_data")
+            db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
-            db_path = os.path.join(self.IN_ESBM_DIR, "lmdb_data")
+            db_path = os.path.join(self.in_esbm_dir, "lmdb_data")
         elif ds_name == "faces":
-            db_path = os.path.join(self.IN_ESBM_DIR, "faces_data")
+            db_path = os.path.join(self.in_esbm_dir, "faces_data")
         else:
             raise ValueError(self.value_error)
         triples = []
@@ -86,7 +80,6 @@ class ESBenchmark(object):
         with open(os.path.join(db_path, "{}".format(num), "{}_desc.nt".format(num)), 'rb') as reader:
             parser.parse(reader)
         return triples
-    
     def get_labels(self, ds_name, num):
         triples = self._get_triples(ds_name, num)
         utils = Utils()
@@ -104,7 +97,6 @@ class ESBenchmark(object):
             triple = (sl, pl, ol)
             triples_tuple.append(triple)
         return triples_tuple
-    
     def get_literals(self, ds_name, num):
         triples_literal=[]
         with open(os.path.join(os.getcwd(), "data_inputs/literals/{}".format(ds_name), "{}_literal.txt".format(num))) as reader:
@@ -116,13 +108,10 @@ class ESBenchmark(object):
                 triple_literal_tuple = (sl, pl, ol)
                 triples_literal.append(triple_literal_tuple)
         return triples_literal
-    
     def get_training_dataset(self, ds_name):
         train_eids, valid_eids, _ = self.get_5fold_train_valid_test_elist(ds_name) 
         train_data = []
-        valid_data = []
-        
-        # collect training data
+        valid_data = []    
         for fold, eids_per_fold in enumerate(train_eids):
             train_data_perfold = []
             edesc = {}
@@ -131,8 +120,6 @@ class ESBenchmark(object):
                 edesc[eid] = triples
             train_data_perfold.append(edesc)
             train_data.append(train_data_perfold)
-        
-        # collect training data
         for fold, eids_per_fold in enumerate(valid_eids):
             valid_data_per_fold = []
             edesc = {}
@@ -142,13 +129,9 @@ class ESBenchmark(object):
             valid_data_per_fold.append(edesc)
             valid_data.append(valid_data_per_fold)
         return train_data, valid_data
-    
-    
     def get_testing_dataset(self, ds_name):
         _, _, test_eids = self.get_5fold_train_valid_test_elist(ds_name) 
         test_data = list()
-        
-        # collect training data
         for fold, eids_per_fold in enumerate(test_eids):
             test_data_perfold = list()
             for eid in eids_per_fold:
@@ -158,14 +141,13 @@ class ESBenchmark(object):
                 test_data_perfold.append(edesc)
             test_data.append(test_data_perfold)
         return test_data
-    
     def prepare_labels(self, ds_name, num, top_n, file_n):
         if ds_name == "dbpedia":
-            db_path = os.path.join(self.IN_ESBM_DIR, "dbpedia_data")
+            db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
-            db_path = os.path.join(self.IN_ESBM_DIR, "lmdb_data")
+            db_path = os.path.join(self.in_esbm_dir, "lmdb_data")
         elif ds_name == "faces":
-            db_path = os.path.join(self.IN_ESBM_DIR, "faces_data")
+            db_path = os.path.join(self.in_esbm_dir, "faces_data")
         else:
             raise ValueError(self.value_error)
         per_entity_label_dict = {}
@@ -187,10 +169,7 @@ class ESBenchmark(object):
                 parser.parse(reader)
             for s, p, o in triples:
                 utils.counter(per_entity_label_dict, "{}++$++{}".format(p, o))
-            
         return per_entity_label_dict
-            
-    
     def get_predicates_corpus(self, ds_name):
         train_data, _ = self.get_training_dataset(ds_name)
         utils = Utils()
@@ -200,17 +179,12 @@ class ESBenchmark(object):
             for t_fold in data:
                 for eid in t_fold.keys():
                     for t in t_fold[eid]:
-                        _, p, _ = t
-                        
-                        p = utils.extract_triple_to_word(p.lower())
-                        
+                        _, p, _ = t    
+                        p = utils.extract_triple_to_word(p.lower())    
                         if p not in pred_dict:
-                            pred_dict[p]=len(pred_dict)
-                            
+                            pred_dict[p]=len(pred_dict)        
             pred_dict_all[fold] = pred_dict                
-                        
         return pred_dict_all
-    
     def get_sub_obj_corpus(self, ds_name):
         train_data, _ = self.get_training_dataset(ds_name)
         utils = Utils()
@@ -235,22 +209,19 @@ class ESBenchmark(object):
                     d_obj_fold.append(obj_words)
             D_sub[fold] = d_sub_fold
             D_obj[fold] = d_obj_fold
-                        
         return D_sub, D_obj
-    
     def get_stop_words(self):
         stop_words = list(get_stop_words('en'))         #About 900 stopwords
         nltk_words = list(stopwords.words('english')) #About 150 stopwords
         stop_words.extend(nltk_words)
         return stop_words
-    
     def get_gold_summaries(self, ds_name, num, topk):
         if ds_name == "dbpedia":
-            db_path = os.path.join(self.IN_ESBM_DIR, "dbpedia_data")
+            db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
-            db_path = os.path.join(self.IN_ESBM_DIR, "lmdb_data")
+            db_path = os.path.join(self.in_esbm_dir, "lmdb_data")
         elif ds_name == "faces":
-            db_path = os.path.join(self.IN_ESBM_DIR, "faces_data")
+            db_path = os.path.join(self.in_esbm_dir, "faces_data")
         else:
             raise ValueError(self.value_error)
         triples_dict = {}
@@ -258,7 +229,6 @@ class ESBenchmark(object):
         for triple in triples:
             if triple not in triples_dict:
                 triples_dict[triple] = len(triples_dict)
-        
         triples_summary = []
         class IndexSink(Sink):
             i = 0
@@ -283,7 +253,3 @@ class ESBenchmark(object):
                 n_list.append(gold_id)
             gold_summary_list.append(n_list)
         return gold_summary_list
-    
-
-    
-    
