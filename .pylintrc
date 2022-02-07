@@ -7,3 +7,6 @@ ignored-classes=numpy,torch,transformers,scipy
 
 [DESIGN]
 max-attributes=15
+max-args = 10
+# Maximum number of locals for function / method body
+max-locals=25

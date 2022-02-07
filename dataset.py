@@ -171,7 +171,7 @@ class ESBenchmark:
             with open(os.path.join(path, f"{num}_gold_top{self.topk}_{i}.nt"), 'rb') as reader:
                 parser.parse(reader)
             for _, pred, obj in triples:
-                UTILS.counter(per_entity_label_dict, "{}++$++{}".format(pred, obj))
+                UTILS.counter(per_entity_label_dict, f"{pred}++$++{obj}")
         return per_entity_label_dict
     def get_gold_summaries(self, num, triples_dict):
         """Get all triples from gold summary"""
