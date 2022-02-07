@@ -6,11 +6,14 @@ Created on Wed Dec  9 18:04:58 2020
 
 # Define model
 import numpy as np
+
 import torch
 import torch.nn as nn
-import scipy.sparse as sp
 import torch.nn.functional as F
+
+import scipy.sparse as sp
 from transformers import BertModel, BertPreTrainedModel
+
 from config import config
 from helpers import Utils
 
@@ -54,8 +57,7 @@ class GraphAttentionLayer(nn.Module):
         h_nodes_prime = torch.matmul(attention, w_h_nodes)
         if self.concat:
             return F.elu(h_nodes_prime)
-        else:
-            return h_nodes_prime
+        return h_nodes_prime
     def _prepare_att_mechanism_input(self, w_h_nodes):
         """prepare attentional mechanism input"""
         nodes = w_h_nodes.size()[0]
