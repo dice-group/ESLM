@@ -68,11 +68,11 @@ class ESBenchmark:
             """Triple Indexing"""
             i = 0
             j = 0
-            def triple(self,sub,pred,obj):
+            def triple(self,s,p,o):
                 """Get triples"""
-                sub = sub.toPython()
-                pred = pred.toPython()
-                obj = obj.toPython()
+                sub = s.toPython()
+                pred = p.toPython()
+                obj = o.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
         triples = []
@@ -195,11 +195,11 @@ class ESBenchmark:
             """indexing triples"""
             i = 0
             j = 0
-            def triple(self,sub,pred,obj):
+            def triple(self,s,p,o):
                 """Get triples"""
-                sub = sub.toPython()
-                pred = pred.toPython()
-                obj = obj.toPython()
+                sub = s.toPython()
+                pred = p.toPython()
+                obj = o.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples_summary.append(triple_tuple)
         gold_summary_list = []

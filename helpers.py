@@ -60,7 +60,7 @@ class Utils:
                 if result["label"]["xml:lang"] == "en":
                     words = result["label"]["value"]
                     return words.title()
-            except:
+            except Exception:
                 words = result["label"]["value"]
                 return words
         word = self.get_uri_label(uri)
