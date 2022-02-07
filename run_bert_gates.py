@@ -19,9 +19,6 @@ from dataset import ESBenchmark
 from graphs_representation import GraphRepresentation
 
 def main(mode):
-    print(config)
-    #word_emb = utils.get_embeddings(text_embed)
-        
     if config["regularization"]==True:
         weight_decay=config["weight_decay"]
     else:
@@ -39,7 +36,7 @@ def main(mode):
             train_data, valid_data = dataset.get_training_dataset(ds_name)
             for topk in config["topk"]:
                 for fold in range(5):
-                    print(fold, "total entities: {}".format(len(train_data[fold][0])), "topk: top{}".format(topk))
+                    print(fold, f"total entities: {train_data[fold][0]}"), f"topk: top{topk}")
                     model = BERT_GATES(bert_config, config)
                     model.to(device)
                     if config["regularization"]:
@@ -61,25 +58,15 @@ def main(mode):
                             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                             all_label_ids = torch.tensor([f.label_id for f in features], dtype=torch.float)
                             logits = model(adj, all_input_ids, all_segment_ids, all_input_mask)
-                            
-                            gold_summaries = dataset.get_gold_summaries(ds_name, eid, topk)
-                            acc = accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
-                            
                             loss = loss_function(logits.view(-1), all_label_ids.view(-1)).to(device)
                             loss.backward()
-                            #torch.nn.utils.clip_grad_norm_(gates.parameters(), 5)
                             optimizer.step()
                             train_loss += loss.item()
                         train_loss = train_loss/len(train_data[fold][0])
                         print("epoch: {}, loss:{}".format(epoch, train_loss))
-
-                    
-        
-            
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='GATES: Graph Attention Networks for Entity Summarization')
     parser.add_argument("--mode", type=str, default="test", help="use which mode type: train/test/all")
     args = parser.parse_args()
     main(args.mode)
-
+    

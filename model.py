@@ -10,10 +10,9 @@ import numpy as np
 import torch.nn as nn
 import scipy.sparse as sp
 import torch.nn.functional as F
-
+from transformers import BertTokenizer, BertModel, BertConfig, BertPreTrainedModel
 from config import config
 from helpers import Utils
-from transformers import BertTokenizer, BertModel, BertConfig, BertPreTrainedModel
 
 utils = Utils()
 class GraphAttentionLayer(nn.Module):
@@ -31,7 +30,7 @@ class GraphAttentionLayer(nn.Module):
         self.weighted_adjacency_matrix = weighted_adjacency_matrix
         self.weight = nn.Parameter(torch.empty(size=(in_features, out_features)))
         nn.init.xavier_uniform_(self.weight.data, gain=1.414)
-        if weighted_adjacency_matrix==False:
+        if weighted_adjacency_matrix is False:
             self.att = nn.Parameter(torch.empty(size=(2*out_features, 1)))
         else:
             self.att = nn.Parameter(torch.empty(size=(3*out_features, 1)))
@@ -41,7 +40,7 @@ class GraphAttentionLayer(nn.Module):
         self.leakyrelu = nn.LeakyReLU(self.alpha)
     def forward(self, h_nodes, edge, adj):
         w_h_nodes = torch.mm(h_nodes, self.weight) # h.shape: (N, in_features), Wh.shape: (N, out_features)
-        if self.weighted_adjacency_matrix==True:
+        if self.weighted_adjacency_matrix is True:
             weight_edges = torch.mm(edge, self.w_edge)
             a_input = self._prepare_attentional_mechanism_input_with_edge_features(w_h_nodes, weight_edges)
         else:
@@ -84,13 +83,12 @@ class GAT(nn.Module):
             self.add_module('attention_{}'.format(i), attention)
         self.out_att = GraphAttentionLayer(nhid * nheads, nclass, dropout, weighted_adjacency_matrix, alpha=alpha, concat=True)
         self.softmax = nn.Softmax(dim=0)
-    def forward(self, x, edge, adj):
-        x = F.dropout(x, self.dropout, training=self.training)
-        x = torch.cat([att(x, edge, adj) for att in self.attentions], dim=1)
-        x = F.dropout(x, self.dropout, training=self.training)
-        x = F.elu(self.out_att(x, edge, adj))
-        #return F.log_softmax(x, dim=1)
-        return self.softmax(x)
+    def forward(self, feats, edge, adj):
+        feats = F.dropout(feats, self.dropout, training=self.training)
+        feats = torch.cat([att(feats, edge, adj) for att in self.attentions], dim=1)
+        feats = F.dropout(feats, self.dropout, training=self.training)
+        feats = F.elu(self.out_att(feats, edge, adj))
+        return self.softmax(feats)
 
 class BERT_GATES(BertPreTrainedModel):
     """BERT-GATES model"""
