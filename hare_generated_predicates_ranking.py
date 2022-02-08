@@ -45,7 +45,7 @@ for eid in tqdm(range(db_start[0], db_end[0])):
     idx = eid
     triples = f"{idx}_desc.nt"
     run_hare(triples, DSNAME, idx)
-for i in tqdm(range(db_start[1], db_end[1])):
+for eid in tqdm(range(db_start[1], db_end[1])):
     idx = eid
     triples = f"{idx}_desc.nt"
     run_hare(triples, DSNAME, idx)

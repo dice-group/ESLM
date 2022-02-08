@@ -26,7 +26,7 @@ class GraphAttentionLayer(nn.Module):
     Simple GAT layer, similar to https://arxiv.org/abs/1710.10903
     """
     def __init__(self, in_feats, out_feats, alpha, concat=True):
-        super(GraphAttentionLayer, self).__init__()
+        super().__init__()
         self.in_feats = in_feats
         self.out_feats = out_feats
         self.alpha = alpha
@@ -79,7 +79,7 @@ class GAT(nn.Module):
     """GAT model"""
     def __init__(self, nfeat, nhid, nclass, alpha):
         """Dense version of GAT."""
-        super(GAT, self).__init__()
+        super().__init__()
         self.dropout = DROPOUT
         self.atts = [GraphAttentionLayer(nfeat, nhid, alpha, True) for _ in range(config["nheads"])]
         for i, attention in enumerate(self.attentions):
@@ -99,7 +99,7 @@ class GAT(nn.Module):
 class BERTGATES(BertPreTrainedModel):
     """BERT-GATES model"""
     def __init__(self, bert_config):
-        super(BERTGATES, self).__init__(bert_config, config)
+        super().__init__(bert_config, config)
         self.bert = BertModel(bert_config)
         self.input_size = 12288
         self.hidden_layer = config["hidden_layer"]

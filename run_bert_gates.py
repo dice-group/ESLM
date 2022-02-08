@@ -8,7 +8,6 @@ Created on Thu Jan 27 09:30:53 2022
 
 import argparse
 import torch
-from tqdm import tqdm
 from torch import optim
 from transformers import BertTokenizer, BertConfig
 
@@ -20,7 +19,7 @@ from graphs_representation import GraphRepresentation
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
-DEVICE = config["device"]
+DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-cased")
 MAX_LENGTH = 16
 def main(mode):
@@ -35,13 +34,13 @@ def main(mode):
     lrate = config["learning_rate"]
     for ds_name in config["ds_name"]:
         graph_r = GraphRepresentation(ds_name)
-        if mode =="train":
+        if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, _ = dataset.get_training_dataset()
                 for fold in range(5):
                     print(fold, f"total entities: {train_data[fold][0]}", f"topk: top{topk}")
-                    model = BERTGATES(bert_config, config)
+                    model = BERTGATES(bert_config)
                     model.to(DEVICE)
                     if config["regularization"] is True:
                         optimizer = optim.Adam(model.parameters(), lr=lrate, weight_decay=w_decay)
