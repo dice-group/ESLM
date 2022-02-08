@@ -37,7 +37,7 @@ class PredicateScore:
                 n_po = po_freq[(subject, predicate)]
                 po_freq[(subject, predicate)] = n_po+1
             nqu=0
-            for key in po_freq.keys():
+            for key in po_freq:
                 nqu += po_freq[key]
             term_freq = po_freq[(subject, predicate)]/nqu
             freq_pred = 0

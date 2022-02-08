@@ -105,7 +105,7 @@ class Utils:
         hours = math.floor(minutes / 60)
         seconds -= minutes * 60
         minutes -= hours * 60
-        return '%dh %dm %ds' % (hours, minutes, seconds)
+        return f'{hours}h {minutes}m {seconds}s'
     def read_epochs_from_log(self, ds_name, topk):
         """Read best epochs of the model"""
         log_file_path = os.path.join(self.root_dir, 'GATES_log.txt')
