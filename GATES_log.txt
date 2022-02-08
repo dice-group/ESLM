@@ -1,2 +1,0 @@
-dbpedia-top5 epoch:	[4, 0, 1, 0, 2]
-dbpedia-top10 epoch:	[1, 4, 0, 3, 0]

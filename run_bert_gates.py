@@ -136,7 +136,7 @@ def train(model, optimizer, train_data, valid_data, dataset, graph, topk, fold, 
                     'acc': best_acc
                     }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
             if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
-                os.remove(os.path.join(models_dir, "checkpoint_epoch_{stop_valid_epoch}.pt"))
+                os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
 if __name__ == "__main__":
