@@ -1,6 +1,2 @@
-dbpedia-top5 epoch:	[3, 0, 31, 21, 28]
-dbpedia-top10 epoch:	[6, 37, 0, 12, 29]
-lmdb-top5 epoch:	[46, 33, 28, 24, 45]
-lmdb-top10 epoch:	[24, 5, 11, 1, 9]
-faces-top5 epoch:	[4, 29, 0, 10, 7]
-faces-top10 epoch:	[48, 31, 13, 1, 48]
+dbpedia-top5 epoch:	[4, 0, 1, 0, 2]
+dbpedia-top10 epoch:	[1, 4, 0, 3, 0]

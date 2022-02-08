@@ -22,29 +22,19 @@ nltk.download('punkt')
 
 class InputFeatures:
     """A single set of features of data."""
-    def __init__(self, inputs, input_mask, segment_ids, labels):
-        self.inputs = inputs
+    def __init__(self, input_ids, input_mask, segment_ids, label_id, ori_tokens, ori_labels):
+        self.input_ids = input_ids
         self.input_mask = input_mask
         self.segment_ids = segment_ids
-        self.labels = labels
+        self.label_id = label_id
+        self.ori_tokens = ori_tokens
+        self.ori_labels = ori_labels
     def __str__(self):
         return self.__class__.__name__
     @property
     def get_input_ids(self):
-        """Get input features"""
-        return self.inputs[0]
-    @property
-    def get_token_ori(self):
-        """Get original token of input features"""
-        return self.inputs[1]
-    @property
-    def get_label_id(self):
-        """Get label id"""
-        return self.labels[0]
-    @property
-    def get_label_ori(self):
-        """Get original text label"""
-        return self.labels[1]
+        """Get input ids"""
+        return self.input_ids
 class Utils:
     """As helpers"""
     def __init__(self):
@@ -174,9 +164,10 @@ class Utils:
         entity2vec = self.build_vec(entity2ix, entity_embedding)
         pred2vec = self.build_vec(pred2ix, pred_embedding)
         return entity2vec, pred2vec, entity2ix, pred2ix
-    def convert_to_features(self, t_literals, tokenizer, max_sequence_length, features_label):
+    def convert_to_features(self, t_literals, tokenizer, max_sequence_length, facts, labels):
         """Convert inputs to the features for BERT inputs"""
         features = []
+        label_ids = self.tensor_from_weight(len(facts), facts, labels)
         for i, (_, pred_literal, obj_literal) in enumerate(t_literals):
             tokens_a = tokenizer.tokenize(pred_literal)
             tokens_b = tokenizer.tokenize(obj_literal)
@@ -195,12 +186,13 @@ class Utils:
             assert len(input_ids) == max_sequence_length
             assert len(input_mask) == max_sequence_length
             assert len(segment_ids) == max_sequence_length
-            inputs = [input_ids, tokens]
-            labels = [features_label[i][0], features_label[i][1]]
-            features.append(InputFeatures(inputs=inputs,
+            label_id = label_ids[i]
+            features.append(InputFeatures(input_ids=input_ids,
                                           input_mask=input_mask,
                                           segment_ids=segment_ids,
-                                          labels=labels))
+                                          label_id=label_id,
+                                          ori_tokens=tokens,
+                                          ori_labels=labels))
         return features
     @staticmethod
     def truncate_seq_pair(tokens_a, tokens_b, max_length):
@@ -233,7 +225,7 @@ class Utils:
                     weight_tensor[order] += label[label_word]
                     break
         result = weight_tensor / torch.sum(weight_tensor)
-        return [result, label]
+        return result
     @staticmethod
     def normalize_adj(matrix):
         """Row-normalize sparse matrix"""
@@ -251,4 +243,16 @@ class Utils:
         r_mat_inv = sp.diags(r_inv)
         matrix = r_mat_inv.dot(matrix)
         return matrix
-    
+    @staticmethod
+    def accuracy(summ_tids, gold_list):
+        """To measure model accuracy"""
+        k_triples = len(summ_tids)
+        acc_list = []
+        for gold in gold_list:
+            if len(gold) != k_triples:
+                print('gold-k:',len(gold), k_triples)
+            assert len(gold)==k_triples
+            corr = len([triple for triple in summ_tids if triple in gold])
+            acc = corr/k_triples
+            acc_list.append(acc)
+        return np.mean(acc_list)

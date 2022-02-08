@@ -8,7 +8,6 @@ Created on Wed Oct 27 15:58:42 2021
 import os
 from rdflib.plugins.parsers.ntriples import NTriplesParser, Sink
 from helpers import Utils
-from config import config
 
 UTILS = Utils()
 
@@ -66,7 +65,6 @@ class ESBenchmark:
                 obj = o.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
-        triples = []
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
         with open(os.path.join(self.db_path, f"{num}", f"{num}_desc.nt"), 'rb') as reader:
@@ -175,29 +173,29 @@ class ESBenchmark:
         return per_entity_label_dict
     def get_gold_summaries(self, num, triples_dict):
         """Get all triples from gold summary"""
-        triples_summary = []
-        class IndexSink(Sink):
-            """indexing triples"""
-            i = 0
-            j = 0
-            def __str__(self):
-                return self.__class__.__name__
-            def triple(self, s, p, o):
-                """Get triples"""
-                triple_tuple = (s.toPython(), p.toPython(), o.toPython())
-                triples_summary.append(triple_tuple)
         gold_summary_list = []
-        index_sink = IndexSink()
-        parser = NTriplesParser(index_sink)
-        for i in range(config["file_n"]):
+        for i in range(self.file_n):
+            triples_summary = []
+            class IndexSink(Sink):
+                """indexing triples"""
+                i = 0
+                j = 0
+                def __str__(self):
+                    return self.__class__.__name__
+                def triple(self, s, p, o):
+                    """Get triples"""
+                    triple_tuple = (s.toPython(), p.toPython(), o.toPython())
+                    triples_summary.append(triple_tuple)
             path = os.path.join(self.db_path, f"{num}")
+            index_sink = IndexSink()
+            parser = NTriplesParser(index_sink)
             with open(os.path.join(path, f"{num}_gold_top{self.topk}_{i}.nt"), 'rb') as reader:
                 parser.parse(reader)
             n_list = []
             for triple in triples_summary:
                 gold_id = triples_dict[triple]
                 n_list.append(gold_id)
-            gold_summary_list.append(n_list)
+        gold_summary_list.append(n_list)
         return gold_summary_list
     def triples_dictionary(self, num):
         """Build triple dictionary"""

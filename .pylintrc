@@ -10,5 +10,6 @@ ignored-classes=numpy,torch,transformers,scipy,HARE
 max-attributes=15
 max-args = 10
 # Maximum number of locals for function / method body
-max-locals=25
+max-locals=50
 max-line-length=210
+max-statements=100

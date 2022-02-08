@@ -65,7 +65,7 @@ class GraphAttentionLayer(nn.Module):
         wh_repeated_alt = w_h_nodes.repeat(nodes, 1)
         all_combinations_matrix = torch.cat([wh_repeated_in_chunks, wh_repeated_alt], dim=1)
         return all_combinations_matrix.view(nodes, nodes, 2 * self.out_feats)
-    def _prepare_attentional_mechanism_input_with_edge_features(self, w_h_nodes, weight_edges):
+    def _prepare_att_mechanism_input_with_edge_features(self, w_h_nodes, weight_edges):
         nodes = w_h_nodes.size()[0] # number of nodes
         wh_repeated = w_h_nodes.repeat_interleave(nodes, dim=0)
         wh_repeated_alt = w_h_nodes.repeat(nodes, 1)
@@ -82,7 +82,7 @@ class GAT(nn.Module):
         super().__init__()
         self.dropout = DROPOUT
         self.atts = [GraphAttentionLayer(nfeat, nhid, alpha, True) for _ in range(config["nheads"])]
-        for i, attention in enumerate(self.attentions):
+        for i, attention in enumerate(self.atts):
             self.add_module(f'attention_{i}', attention)
         self.out_att = GraphAttentionLayer(nhid * config["nheads"], nclass, alpha, concat=True)
         self.softmax = nn.Softmax(dim=0)
