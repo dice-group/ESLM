@@ -8,6 +8,7 @@ Created on Thu Jan 27 09:30:53 2022
 
 import argparse
 import torch
+import torch.tensor
 from torch import optim
 from transformers import BertTokenizer, BertConfig
 
