@@ -27,6 +27,7 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-cased")
 MAX_LENGTH = 16
+
 def main(mode):
     """Main module"""
     if config["regularization"] is True:
