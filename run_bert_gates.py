@@ -13,14 +13,14 @@ import torch
 from torch import optim
 from transformers import BertTokenizer, BertConfig
 
+from evaluator.map import MAP
+from evaluator.fmeasure import FMeasure
+from evaluator.ndcg import NDCG
 from config import config
 from helpers import Utils
 from model import BERTGATES
 from dataset import ESBenchmark
 from graphs_representation import GraphRepresentation
-from evaluator.map import MAP
-from evaluator.fmeasure import FMeasure
-from evaluator.ndcg import NDCG
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
