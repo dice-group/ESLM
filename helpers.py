@@ -256,3 +256,13 @@ class Utils:
             acc = corr/k_triples
             acc_list.append(acc)
         return np.mean(acc_list)
+    @staticmethod
+    def _read_epochs_from_log(ds_name, topk):
+        log_file_path = os.path.join(os.getcwd(), 'GATES_log.txt')
+        key = f'{ds_name}-top{topk}'
+        epoch_list = []
+        with open(log_file_path, 'r', encoding='utf-8') as reader:
+            for line in reader:
+                if line.startswith(key):
+                    epoch_list = list(literal_eval(line.split('\t')[1]))
+        return epoch_list

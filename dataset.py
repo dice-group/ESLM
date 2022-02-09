@@ -138,11 +138,11 @@ class ESBenchmark:
         test_data = []
         for eids_per_fold in test_eids:
             test_data_perfold = []
+            edesc = {}
             for eid in eids_per_fold:
                 triples = self.get_triples(eid)
-                edesc = {}
                 edesc[eid] = triples
-                test_data_perfold.append(edesc)
+            test_data_perfold.append(edesc)
             test_data.append(test_data_perfold)
         return test_data
     def prepare_labels(self, num):
@@ -205,4 +205,8 @@ class ESBenchmark:
             if triple not in triples_dict:
                 triples_dict[triple] = len(triples_dict)
         return triples_dict
+    @property
+    def get_ds_name(self):
+        """Get property of dataset name"""
+        return self.ds_name
     

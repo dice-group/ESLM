@@ -8,6 +8,7 @@ Created on Thu Jan 27 09:30:53 2022
 
 import os
 import argparse
+import numpy as np
 import torch
 from torch import optim
 from transformers import BertTokenizer, BertConfig
@@ -17,6 +18,9 @@ from helpers import Utils
 from model import BERTGATES
 from dataset import ESBenchmark
 from graphs_representation import GraphRepresentation
+from evaluator.map import MAP
+from evaluator.fmeasure import FMeasure
+from evaluator.ndcg import NDCG
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
@@ -59,7 +63,27 @@ def main(mode):
                 with open(log_file_path, 'a', encoding="utf-8") as log_file:
                     line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
                     log_file.write(line)
-def train(model, optimizer, train_data, valid_data, dataset, graph, topk, fold, models_dir):
+        elif mode == "test":
+            for topk in config["topk"]:
+                use_epoch = UTILS.read_epochs_from_log(ds_name, topk)
+                dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
+                test_data = dataset.get_testing_dataset()
+                fmeasure_scores = []
+                ndcg_scores = []
+                map_scores = []
+                for fold in range(5):
+                    print(fold, f"total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
+                    models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
+                    model = BERTGATES(bert_config)
+                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    model.load_state_dict(checkpoint["model_state_dict"])
+                    model.to(DEVICE)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, graph_r, topk)
+                    fmeasure_scores.append(fmeasure_score)
+                    ndcg_scores.append(ndcg_score)
+                    map_scores.append(map_score)
+                print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
+def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold, models_dir):
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -73,7 +97,7 @@ def train(model, optimizer, train_data, valid_data, dataset, graph, topk, fold, 
             optimizer.zero_grad()
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
-            adj = graph.build_graph(triples, literal, eid)
+            adj = graph_r.build_graph(triples, literal, eid)
             labels = dataset.prepare_labels(eid)
             features = UTILS.convert_to_features(literal, TOKENIZER, MAX_LENGTH, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
@@ -100,7 +124,7 @@ def train(model, optimizer, train_data, valid_data, dataset, graph, topk, fold, 
             for eid in valid_data:
                 triples = dataset.get_triples(eid)
                 literal = dataset.get_literals(eid)
-                adj = graph.build_graph(triples, literal, eid)
+                adj = graph_r.build_graph(triples, literal, eid)
                 labels = dataset.prepare_labels(eid)
                 features = UTILS.convert_to_features(literal, TOKENIZER, MAX_LENGTH, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
@@ -139,6 +163,43 @@ def train(model, optimizer, train_data, valid_data, dataset, graph, topk, fold, 
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
+def generated_entity_summaries(model, test_data, dataset, graph_r, topk):
+    """"Generated entity summaries"""
+    model.eval()
+    ndcg_eval = NDCG()
+    fmeasure_eval = FMeasure()
+    map_eval = MAP()
+    ndcg_scores = []
+    fmeasure_scores = []
+    map_scores = []
+    with torch.no_grad():
+        for eid in test_data:
+            triples = dataset.get_triples(eid)
+            literal = dataset.get_literals(eid)
+            adj = graph_r.build_graph(triples, literal, eid)
+            labels = dataset.prepare_labels(eid)
+            features = UTILS.convert_to_features(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
+            all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
+            all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+            target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
+            output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask)
+            output_tensor = output_tensor.view(1, -1).cpu()
+            target_tensor = target_tensor.view(1, -1).cpu()
+            #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
+            _, output_top = torch.topk(output_tensor, topk)
+            _, output_rank = torch.topk(output_tensor, len(test_data[eid]))
+            triples_dict = dataset.triples_dictionary(eid)
+            gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
+            top_list_output_top = output_top.squeeze(0).numpy().tolist()
+            all_list_output_top = output_rank.squeeze(0).numpy().tolist()
+            ndcg_score = ndcg_eval.get_score(gold_list_top, all_list_output_top)
+            f_score = fmeasure_eval.get_score(top_list_output_top, gold_list_top)
+            map_score = map_eval.get_map(all_list_output_top, gold_list_top)
+            ndcg_scores.append(ndcg_score)
+            fmeasure_scores.append(f_score)
+            map_scores.append(map_score)
+    return np.average(fmeasure_scores), np.average(ndcg_scores), np.average(map_scores)
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
