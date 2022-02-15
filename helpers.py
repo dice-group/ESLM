@@ -238,6 +238,7 @@ class Utils:
     def normalize_features(matrix):
         """Row-normalize sparse matrix"""
         rowsum = np.array(matrix.sum(1))
+        #print("rowsum", rowsum)
         r_inv = np.power(rowsum, -1).flatten()
         r_inv[np.isinf(r_inv)] = 0.
         r_mat_inv = sp.diags(r_inv)
@@ -255,7 +256,8 @@ class Utils:
             corr = len([triple for triple in summ_tids if triple in gold])
             acc = corr/k_triples
             acc_list.append(acc)
-        return np.mean(acc_list)
+        score = np.mean(acc_list)
+        return score
     @staticmethod
     def _read_epochs_from_log(ds_name, topk):
         log_file_path = os.path.join(os.getcwd(), 'GATES_log.txt')

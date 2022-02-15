@@ -96,12 +96,12 @@ class GAT(nn.Module):
     def __str__(self):
         return self.__class__.__name__
 
-class BERTGATES(BertPreTrainedModel):
+class BertGATES(BertPreTrainedModel):
     """BERT-GATES model"""
-    def __init__(self, bert_config):
+    def __init__(self, bert_config, max_seq_length, dim=768):
         super().__init__(bert_config, config)
         self.bert = BertModel(bert_config)
-        self.input_size = 12288
+        self.input_size = max_seq_length * dim
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
@@ -111,7 +111,9 @@ class BERTGATES(BertPreTrainedModel):
         """forward"""
         facts_encode = self.bert(input_ids, segment_ids, input_mask)
         facts_encode = facts_encode[0]#torch.transpose(facts_encode[0], 0, 1)
+        #print(facts_encode.shape)
         feats = torch.flatten(facts_encode, start_dim=1)
+        #print(feats.shape)
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))

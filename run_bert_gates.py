@@ -11,14 +11,14 @@ import argparse
 import numpy as np
 import torch
 from torch import optim
-from transformers import BertTokenizer, BertConfig
+from transformers import BertTokenizer, BertConfig, AdamW, get_linear_schedule_with_warmup
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
 from evaluator.ndcg import NDCG
 from config import config
 from helpers import Utils
-from model import BERTGATES
+from model import BertGATES
 from dataset import ESBenchmark
 from graphs_representation import GraphRepresentation
 
@@ -27,6 +27,7 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-cased")
 MAX_LENGTH = 16
+num_train_optimization_steps = 0
 
 def main(mode):
     """Main module"""
@@ -51,12 +52,23 @@ def main(mode):
                 best_epochs = []
                 for fold in range(5):
                     print(fold, f"total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    model = BERTGATES(bert_config)
+                    model = BertGATES(bert_config, MAX_LENGTH)
                     model.to(DEVICE)
-                    if config["regularization"] is True:
-                        optimizer = optim.Adam(model.parameters(), lr=lrate, weight_decay=w_decay)
-                    else:
-                        optimizer = optim.Adam(model.parameters(), lr=lrate)
+                    #if config["regularization"] is True:
+                    #    optimizer = optim.Adam(model.parameters(), lr=lrate, weight_decay=w_decay)
+                    #else:
+                    #    optimizer = optim.Adam(model.parameters(), lr=lrate)
+                    param_optimizer = list(model.named_parameters())
+                    no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+                    optimizer_grouped_parameters = [
+                        {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
+                        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+                        ]
+                    #optimizer = BertAdam(optimizer_grouped_parameters,
+                    #         lr=5e-5,
+                    #         warmup=0.1,
+                    #         t_total=num_train_optimization_steps)
+                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path=os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, graph_r, topk, fold, models_dir)
@@ -75,7 +87,7 @@ def main(mode):
                 for fold in range(5):
                     print(fold, f"total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
-                    model = BERTGATES(bert_config)
+                    model = BertGATES(bert_config, MAX_LENGTH)
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
                     model.load_state_dict(checkpoint["model_state_dict"])
                     model.to(DEVICE)
@@ -90,12 +102,12 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
         os.makedirs(models_dir)
     best_acc=0
     stop_valid_epoch = None
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps = -1)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
         train_acc = 0
         for eid in train_data:
-            optimizer.zero_grad()
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             adj = graph_r.build_graph(triples, literal, eid)
@@ -116,9 +128,10 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
             acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
             loss.backward()
             optimizer.step()
+            scheduler.step()
+            optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
-        model.eval()
         valid_acc = 0
         valid_loss = 0
         with torch.no_grad():

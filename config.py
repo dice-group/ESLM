@@ -12,7 +12,7 @@ config = {
         "topk": [5, 10],
         "ds_name" : ['dbpedia'],
         "weighted_score"  : "hare",
-        "loss_function" : torch.nn.BCELoss(),
+        "loss_function" : torch.nn.MSELoss(),
         "weight_decay": 1e-5,
         "learning_rate":0.01,
         "dropout": 0.0,
