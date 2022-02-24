@@ -1,28 +1,28 @@
 Chitita	Is Part Of	Arica Y Parinacota Region
 Chitita	Type	Village
-Chitita	type	Location100027167
-Chitita	type	District108552138
-Chitita	type	Site108651247
-Chitita	type	GeographicalArea108574314
-Chitita	type	Region108630985
-Chitita	type	YagoLegalActorGeo
-Chitita	type	Place
-Chitita	type	Object100002684
-Chitita	type	AdministrativeDistrict108491826
-Chitita	type	Q532
-Chitita	type	Settlement
-Chitita	type	Tract108673395
-Chitita	type	Location
-Chitita	type	Populated Place
-Chitita	type	Thing
-Chitita	type	Place
-Chitita	type	YagoGeoEntity
-Chitita	type	PhysicalEntity100001930
-Chitita	type	PopulatedPlacesInAricaProvince
-Chitita	type	Village
-Chitita	type	Q486972
-Chitita	type	YagoPermanentlyLocatedEntity
-Chitita	subject	Populated Places In Arica Province
+Chitita	Type	Location100027167
+Chitita	Type	District108552138
+Chitita	Type	Site108651247
+Chitita	Type	Geographicalarea108574314
+Chitita	Type	Region108630985
+Chitita	Type	Yagolegalactorgeo
+Chitita	Type	Place
+Chitita	Type	Object100002684
+Chitita	Type	Administrativedistrict108491826
+Chitita	Type	Q532
+Chitita	Type	Settlement
+Chitita	Type	Tract108673395
+Chitita	Type	Location
+Chitita	Type	Populated Place
+Chitita	Type	Thing
+Chitita	Type	Place
+Chitita	Type	Yagogeoentity
+Chitita	Type	Physicalentity100001930
+Chitita	Type	Populatedplacesinaricaprovince
+Chitita	Type	Village
+Chitita	Type	Q486972
+Chitita	Type	Yagopermanentlylocatedentity
+Chitita	Subject	Populated Places In Arica Province
 Chitita	Country	Chile
-Chitita	label	Chitita
-Chitita	name	Chitita
+Chitita	Label	Chitita
+Chitita	Name	Chitita

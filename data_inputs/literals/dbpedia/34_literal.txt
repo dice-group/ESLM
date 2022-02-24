@@ -1,21 +1,21 @@
 Enallagma Truncatum	Genus	Enallagma
-Enallagma Truncatum	name	Enallagma truncatum
+Enallagma Truncatum	Name	Enallagma Truncatum
 Enallagma Truncatum	Family	Coenagrionidae
-Enallagma Truncatum	type	Animal
-Enallagma Truncatum	type	Eukaryote
-Enallagma Truncatum	type	Insect
-Enallagma Truncatum	type	Q729
-Enallagma Truncatum	type	Q19088
-Enallagma Truncatum	type	Q1390
-Enallagma Truncatum	type	Species
-Enallagma Truncatum	type	Thing
+Enallagma Truncatum	Type	Animal
+Enallagma Truncatum	Type	Eukaryote
+Enallagma Truncatum	Type	Insect
+Enallagma Truncatum	Type	Q729
+Enallagma Truncatum	Type	Q19088
+Enallagma Truncatum	Type	Q1390
+Enallagma Truncatum	Type	Species
+Enallagma Truncatum	Type	Thing
 Enallagma Truncatum	Kingdom	Animal
 Enallagma Truncatum	Conservation Status System	IUCN3.1
-Enallagma Truncatum	subject	Insects Described In 1888
-Enallagma Truncatum	subject	Insects Of Cuba
-Enallagma Truncatum	subject	Endemic Fauna Of Cuba
-Enallagma Truncatum	subject	Coenagrionidae
-Enallagma Truncatum	label	Enallagma truncatum
+Enallagma Truncatum	Subject	Insects Described In 1888
+Enallagma Truncatum	Subject	Insects Of Cuba
+Enallagma Truncatum	Subject	Endemic Fauna Of Cuba
+Enallagma Truncatum	Subject	Coenagrionidae
+Enallagma Truncatum	Label	Enallagma Truncatum
 Enallagma Truncatum	Conservation Status	VU
 Enallagma Truncatum	Phylum	Arthropod
 Enallagma Truncatum	Class	Insect

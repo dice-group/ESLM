@@ -1,23 +1,23 @@
 Inverted Repeat-Lacking Clade	Kingdom	Plant
 Inverted Repeat-Lacking Clade	Synonym	*IRLC
-Inverted Repeat-Lacking Clade	Synonym	*IR-lacking clade
-Inverted Repeat-Lacking Clade	Synonym	*Galegeae sensu lato (sensu Polhill, 1981)
-Inverted Repeat-Lacking Clade	Synonym	*Temperate herbaceous clade
+Inverted Repeat-Lacking Clade	Synonym	*Ir-Lacking Clade
+Inverted Repeat-Lacking Clade	Synonym	*Galegeae Sensu Lato (Sensu Polhill, 1981)
+Inverted Repeat-Lacking Clade	Synonym	*Temperate Herbaceous Clade
 Inverted Repeat-Lacking Clade	Synonym	*THC
-Inverted Repeat-Lacking Clade	name	Inverted repeat-lacking clade
+Inverted Repeat-Lacking Clade	Name	Inverted Repeat-Lacking Clade
 Inverted Repeat-Lacking Clade	Class	Eudicots
 Inverted Repeat-Lacking Clade	Family	Faboideae
 Inverted Repeat-Lacking Clade	Family	Fabaceae
 Inverted Repeat-Lacking Clade	Order (Taxonomy)	Rosids
 Inverted Repeat-Lacking Clade	Order (Taxonomy)	Fabales
-Inverted Repeat-Lacking Clade	Thumbnail	Galega_officinalis2UME.jpg?width=300
-Inverted Repeat-Lacking Clade	depiction	Galega_officinalis2UME.jpg
+Inverted Repeat-Lacking Clade	Thumbnail	Galega Officinalis2Ume.Jpg?Width=300
+Inverted Repeat-Lacking Clade	Depiction	Galega Officinalis2Ume.Jpg
 Inverted Repeat-Lacking Clade	Division	Flowering Plant
-Inverted Repeat-Lacking Clade	label	Inverted repeat-lacking clade
-Inverted Repeat-Lacking Clade	type	Plant
-Inverted Repeat-Lacking Clade	type	Species
-Inverted Repeat-Lacking Clade	type	Thing
-Inverted Repeat-Lacking Clade	type	Q19088
-Inverted Repeat-Lacking Clade	type	Q756
-Inverted Repeat-Lacking Clade	type	Eukaryote
-Inverted Repeat-Lacking Clade	subject	Faboideae
+Inverted Repeat-Lacking Clade	Label	Inverted Repeat-Lacking Clade
+Inverted Repeat-Lacking Clade	Type	Plant
+Inverted Repeat-Lacking Clade	Type	Species
+Inverted Repeat-Lacking Clade	Type	Thing
+Inverted Repeat-Lacking Clade	Type	Q19088
+Inverted Repeat-Lacking Clade	Type	Q756
+Inverted Repeat-Lacking Clade	Type	Eukaryote
+Inverted Repeat-Lacking Clade	Subject	Faboideae

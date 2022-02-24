@@ -1,32 +1,32 @@
 E. K. Mawlong	Birth Place	Mawmih
 E. K. Mawlong	Birth Place	East Khasi Hills District
-E. K. Mawlong	label	E. K. Mawlong
+E. K. Mawlong	Label	E. K. Mawlong
 E. K. Mawlong	Death Place	Meghalaya
 E. K. Mawlong	Death Place	India
 E. K. Mawlong	Death Place	Shillong
 E. K. Mawlong	Birth Year	1946-01-01
-E. K. Mawlong	surname	Mawlong
-E. K. Mawlong	type	Person
-E. K. Mawlong	type	Person
-E. K. Mawlong	type	Person
-E. K. Mawlong	type	Thing
-E. K. Mawlong	type	Agent
-E. K. Mawlong	type	Q5
-E. K. Mawlong	type	NaturalPerson
-E. K. Mawlong	type	Q215627
-E. K. Mawlong	type	Agent
-E. K. Mawlong	givenName	E.K.
+E. K. Mawlong	Surname	Mawlong
+E. K. Mawlong	Type	Person
+E. K. Mawlong	Type	Person
+E. K. Mawlong	Type	Person
+E. K. Mawlong	Type	Thing
+E. K. Mawlong	Type	Agent
+E. K. Mawlong	Type	Q5
+E. K. Mawlong	Type	Naturalperson
+E. K. Mawlong	Type	Q215627
+E. K. Mawlong	Type	Agent
+E. K. Mawlong	Givenname	E.K.
 E. K. Mawlong	Death Year	2008-01-01
 E. K. Mawlong	Birth Date	1946-02-01
 E. K. Mawlong	Death Date	2008-10-18
-E. K. Mawlong	description	Indian politician
-E. K. Mawlong	description	Indian politician
-E. K. Mawlong	subject	People From East Khasi Hills District
-E. K. Mawlong	subject	Speakers Of The Meghalaya Legislative Assembly
-E. K. Mawlong	subject	Chief Ministers Of Meghalaya
-E. K. Mawlong	subject	2008 Deaths
-E. K. Mawlong	subject	Members Of The Meghalaya Legislative Assembly
-E. K. Mawlong	subject	1946 Births
-E. K. Mawlong	subject	People From Shillong
-E. K. Mawlong	name	E.K. Mawlong
-E. K. Mawlong	name	Mawlong, E.K.
+E. K. Mawlong	Description	Indian Politician
+E. K. Mawlong	Description	Indian Politician
+E. K. Mawlong	Subject	People From East Khasi Hills District
+E. K. Mawlong	Subject	Speakers Of The Meghalaya Legislative Assembly
+E. K. Mawlong	Subject	Chief Ministers Of Meghalaya
+E. K. Mawlong	Subject	2008 Deaths
+E. K. Mawlong	Subject	Members Of The Meghalaya Legislative Assembly
+E. K. Mawlong	Subject	1946 Births
+E. K. Mawlong	Subject	People From Shillong
+E. K. Mawlong	Name	E.K. Mawlong
+E. K. Mawlong	Name	Mawlong, E.K.

@@ -1,7 +1,7 @@
 Hey Boy (Teddybears Song)	Release Date	2006-01-16
 Hey Boy (Teddybears Song)	Release Date	2006-04-21
 Wid Out Ya	Previous Work	Hey Boy (Teddybears Song)
-Hey Boy (Teddybears Song)	Record Label	Kontor_Rec
+Hey Boy (Teddybears Song)	Record Label	Kontor Rec
 Hey Boy (Teddybears Song)	Record Label	Epic Records
 Hey Boy (Teddybears Song)	Genre	Pop Music
 Hey Boy (Teddybears Song)	Genre	Hip Hop Music
@@ -12,35 +12,35 @@ Hey Boy (Teddybears Song)	Musical Artist	Blog 27
 Hey Boy (Teddybears Song)	Musical Artist	Teddybears
 Hey Boy (Teddybears Song)	Subsequent Work	Wid Out Ya
 Hey Boy (Teddybears Song)	Runtime (S)	221.0
-Hey Boy (Teddybears Song)	label	Hey Boy (Teddybears song)
+Hey Boy (Teddybears Song)	Label	Hey Boy (Teddybears Song)
 Hey Boy (Teddybears Song)	Previous Work	Cobrastyle
 Hey Boy (Teddybears Song)	Previous Work	Uh La La La
-Hey Boy (Teddybears Song)	subject	Teddybears_songs
-Hey Boy (Teddybears Song)	subject	Songs Written By Klas Åhlund
-Hey Boy (Teddybears Song)	subject	2004 Singles
-Hey Boy (Teddybears Song)	subject	2006 Singles
-Hey Boy (Teddybears Song)	subject	Blog 27 Songs
-Hey Boy (Teddybears Song)	subject	Epic Records Singles
-Hey Boy (Teddybears Song)	subject	2004 Songs
-Hey Boy (Teddybears Song)	type	Artifact100021939
-Hey Boy (Teddybears Song)	type	Work
-Hey Boy (Teddybears Song)	type	Q134556
-Hey Boy (Teddybears Song)	type	2004Singles
-Hey Boy (Teddybears Song)	type	Q2188189
-Hey Boy (Teddybears Song)	type	Thing
-Hey Boy (Teddybears Song)	type	Instrumentality103575240
-Hey Boy (Teddybears Song)	type	Medium106254669
-Hey Boy (Teddybears Song)	type	Q386724
-Hey Boy (Teddybears Song)	type	CreativeWork
-Hey Boy (Teddybears Song)	type	Object100002684
-Hey Boy (Teddybears Song)	type	Musical Work
-Hey Boy (Teddybears Song)	type	PhysicalEntity100001930
-Hey Boy (Teddybears Song)	type	Whole100003553
-Hey Boy (Teddybears Song)	type	Single
-Hey Boy (Teddybears Song)	name	Hey Boy (Get Your Ass Up)
-Hey Boy (Teddybears Song)	name	Hey Boy
+Hey Boy (Teddybears Song)	Subject	Teddybears Songs
+Hey Boy (Teddybears Song)	Subject	Songs Written By Klas Åhlund
+Hey Boy (Teddybears Song)	Subject	2004 Singles
+Hey Boy (Teddybears Song)	Subject	2006 Singles
+Hey Boy (Teddybears Song)	Subject	Blog 27 Songs
+Hey Boy (Teddybears Song)	Subject	Epic Records Singles
+Hey Boy (Teddybears Song)	Subject	2004 Songs
+Hey Boy (Teddybears Song)	Type	Artifact100021939
+Hey Boy (Teddybears Song)	Type	Work
+Hey Boy (Teddybears Song)	Type	Q134556
+Hey Boy (Teddybears Song)	Type	2004Singles
+Hey Boy (Teddybears Song)	Type	Q2188189
+Hey Boy (Teddybears Song)	Type	Thing
+Hey Boy (Teddybears Song)	Type	Instrumentality103575240
+Hey Boy (Teddybears Song)	Type	Medium106254669
+Hey Boy (Teddybears Song)	Type	Q386724
+Hey Boy (Teddybears Song)	Type	Creativework
+Hey Boy (Teddybears Song)	Type	Object100002684
+Hey Boy (Teddybears Song)	Type	Musical Work
+Hey Boy (Teddybears Song)	Type	Physicalentity100001930
+Hey Boy (Teddybears Song)	Type	Whole100003553
+Hey Boy (Teddybears Song)	Type	Single
+Hey Boy (Teddybears Song)	Name	Hey Boy (Get Your Ass Up)
+Hey Boy (Teddybears Song)	Name	Hey Boy
 Hey Boy (Teddybears Song)	Musical Band	Blog 27
 Hey Boy (Teddybears Song)	Musical Band	Teddybears
-Hey Boy (Teddybears Song)	B Side	"Turn You On to Music"
+Hey Boy (Teddybears Song)	B Side	"Turn You On To Music"
 Hey Boy (Teddybears Song)	Album	Lol (Blog 27 Album)
 Hey Boy (Teddybears Song)	Album	Fresh (Teddybears Album)

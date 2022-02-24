@@ -1,20 +1,20 @@
 2012–13 Uefa Champions League	Time	19:45BST
-2012–13 Uefa Champions League	name	UEFA Champions League
-2012–13 Uefa Champions League	type	Q1656682
-2012–13 Uefa Champions League	type	Q500834
-2012–13 Uefa Champions League	type	SportsEvent
-2012–13 Uefa Champions League	type	Soccer Tournoment
-2012–13 Uefa Champions League	type	Sports Event
-2012–13 Uefa Champions League	type	Event
-2012–13 Uefa Champions League	type	Tournament
-2012–13 Uefa Champions League	type	Societal Event
-2012–13 Uefa Champions League	type	Event
-2012–13 Uefa Champions League	type	Event
-2012–13 Uefa Champions League	type	Thing
-2012–13 Uefa Champions League	Thumbnail	Wembley_Stadium,_illuminated.jpg?width=300
-2012–13 Debreceni Vsc Season	seeAlso	2012–13 Uefa Champions League
-2012–13 Uefa Champions League	label	2012–13 UEFA Champions League
-2012–13 Uefa Champions League	depiction	Wembley_Stadium,_illuminated.jpg
-2012–13 Uefa Champions League	subject	2012–13 Uefa Champions League
-2012–13 Uefa Champions League	subject	2012–13 In European Football
-2012–13 Uefa Champions League	subject	Uefa Champions League Seasons
+2012–13 Uefa Champions League	Name	Uefa Champions League
+2012–13 Uefa Champions League	Type	Q1656682
+2012–13 Uefa Champions League	Type	Q500834
+2012–13 Uefa Champions League	Type	Sportsevent
+2012–13 Uefa Champions League	Type	Soccer Tournoment
+2012–13 Uefa Champions League	Type	Sports Event
+2012–13 Uefa Champions League	Type	Event
+2012–13 Uefa Champions League	Type	Tournament
+2012–13 Uefa Champions League	Type	Societal Event
+2012–13 Uefa Champions League	Type	Event
+2012–13 Uefa Champions League	Type	Event
+2012–13 Uefa Champions League	Type	Thing
+2012–13 Uefa Champions League	Thumbnail	Wembley Stadium, Illuminated.Jpg?Width=300
+2012–13 Debreceni Vsc Season	Seealso	2012–13 Uefa Champions League
+2012–13 Uefa Champions League	Label	2012–13 Uefa Champions League
+2012–13 Uefa Champions League	Depiction	Wembley Stadium, Illuminated.Jpg
+2012–13 Uefa Champions League	Subject	2012–13 Uefa Champions League
+2012–13 Uefa Champions League	Subject	2012–13 In European Football
+2012–13 Uefa Champions League	Subject	Uefa Champions League Seasons

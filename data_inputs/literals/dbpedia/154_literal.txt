@@ -1,63 +1,63 @@
 Mike Fratello	Birth Place	North Haledon, New Jersey
 Angela Atwood	Birth Place	North Haledon, New Jersey
-North Haledon, New Jersey	name	Borough of North Haledon
-North Haledon, New Jersey	name	North Haledon, New Jersey
+North Haledon, New Jersey	Name	Borough Of North Haledon
+North Haledon, New Jersey	Name	North Haledon, New Jersey
 North Haledon, New Jersey	Type	Borough (New Jersey)
 North Haledon, New Jersey	Leader Title	Mayor
 North Haledon, New Jersey	Leader Title	Clerk
-North Haledon, New Jersey	depiction	North_haledon_nj.png
+North Haledon, New Jersey	Depiction	North Haledon Nj.Png
 North Haledon, New Jersey	Population Density (/Sqkm)	940.8537399362322
 North Haledon, New Jersey	Population Density (/Sqkm)	940.9
 North Haledon, New Jersey	Area Total (M2)	9059778.409955328
 North Haledon, New Jersey	Area Total (M2)	9061000.0
-North Haledon, New Jersey	long	-74.18528
-North Haledon, New Jersey	lat	40.96362
-North Haledon, New Jersey	label	North Haledon, New Jersey
+North Haledon, New Jersey	Long	-74.18528
+North Haledon, New Jersey	Lat	40.96362
+North Haledon, New Jersey	Label	North Haledon, New Jersey
 North Haledon, New Jersey	Area Land (M2)	8945818.933100544
 North Haledon, New Jersey	Area Land (M2)	8946000.0
 North Haledon, New Jersey	Country	United States
 Gérard Debaets	Death Place	North Haledon, New Jersey
 North Haledon, New Jersey	Time Zone	Eastern Time Zone
-North Haledon, New Jersey	type	YagoGeoEntity
-North Haledon, New Jersey	type	Borough108540532
-North Haledon, New Jersey	type	Thing
-North Haledon, New Jersey	type	GeographicalArea108574314
-North Haledon, New Jersey	type	PopulatedPlacesEstablishedIn1901
-North Haledon, New Jersey	type	Populated Place
-North Haledon, New Jersey	type	Location
-North Haledon, New Jersey	type	Location100027167
-North Haledon, New Jersey	type	Place
-North Haledon, New Jersey	type	Place
-North Haledon, New Jersey	type	Region108630985
-North Haledon, New Jersey	type	YagoLegalActorGeo
-North Haledon, New Jersey	type	Site108651247
-North Haledon, New Jersey	type	Tract108673395
-North Haledon, New Jersey	type	SpatialThing
-North Haledon, New Jersey	type	Q486972
-North Haledon, New Jersey	type	PhysicalEntity100001930
-North Haledon, New Jersey	type	District108552138
-North Haledon, New Jersey	type	YagoPermanentlyLocatedEntity
-North Haledon, New Jersey	type	AdministrativeDistrict108491826
-North Haledon, New Jersey	type	Object100002684
-North Haledon, New Jersey	type	Settlement
-North Haledon, New Jersey	type	BoroughsInPassaicCounty,NewJersey
+North Haledon, New Jersey	Type	Yagogeoentity
+North Haledon, New Jersey	Type	Borough108540532
+North Haledon, New Jersey	Type	Thing
+North Haledon, New Jersey	Type	Geographicalarea108574314
+North Haledon, New Jersey	Type	Populatedplacesestablishedin1901
+North Haledon, New Jersey	Type	Populated Place
+North Haledon, New Jersey	Type	Location
+North Haledon, New Jersey	Type	Location100027167
+North Haledon, New Jersey	Type	Place
+North Haledon, New Jersey	Type	Place
+North Haledon, New Jersey	Type	Region108630985
+North Haledon, New Jersey	Type	Yagolegalactorgeo
+North Haledon, New Jersey	Type	Site108651247
+North Haledon, New Jersey	Type	Tract108673395
+North Haledon, New Jersey	Type	Spatialthing
+North Haledon, New Jersey	Type	Q486972
+North Haledon, New Jersey	Type	Physicalentity100001930
+North Haledon, New Jersey	Type	District108552138
+North Haledon, New Jersey	Type	Yagopermanentlylocatedentity
+North Haledon, New Jersey	Type	Administrativedistrict108491826
+North Haledon, New Jersey	Type	Object100002684
+North Haledon, New Jersey	Type	Settlement
+North Haledon, New Jersey	Type	Boroughsinpassaiccounty,Newjersey
 North Haledon, New Jersey	Utc Offset	-5
 North Haledon, New Jersey	Utc Offset	-4
 North Haledon, New Jersey	Population Total	8417
-North Haledon, New Jersey	subject	Populated Places Established In 1901
-North Haledon, New Jersey	subject	Boroughs In Passaic County, New Jersey
-North Haledon, New Jersey	subject	North Haledon, New Jersey
-North Haledon, New Jersey	subject	Borough Form Of New Jersey Government
-North Haledon, New Jersey	subject	1901 Establishments In New Jersey
+North Haledon, New Jersey	Subject	Populated Places Established In 1901
+North Haledon, New Jersey	Subject	Boroughs In Passaic County, New Jersey
+North Haledon, New Jersey	Subject	North Haledon, New Jersey
+North Haledon, New Jersey	Subject	Borough Form Of New Jersey Government
+North Haledon, New Jersey	Subject	1901 Establishments In New Jersey
 North Haledon, New Jersey	Elevation (Μ)	92.0496
 Nellie Pou	Residence	North Haledon, New Jersey
 North Haledon, New Jersey	Postal Code	07508, 07538
-North Haledon, New Jersey	Thumbnail	North_haledon_nj.png?width=300
+North Haledon, New Jersey	Thumbnail	North Haledon Nj.Png?Width=300
 Mary Help Of Christians Academy (New Jersey)	City	North Haledon, New Jersey
 North Haledon, New Jersey	Founding Date	1901-03-20
 Franklin Lakes Nature Preserve	Location	North Haledon, New Jersey
 Eastern Christian High School	Location	North Haledon, New Jersey
-North Haledon, New Jersey	point	40.963618 -74.185281
+North Haledon, New Jersey	Point	40.963618 -74.185281
 North Haledon, New Jersey	Government Type	Borough (New Jersey)
 North Haledon, New Jersey	Percentage Of Area Water	1.27
 North Haledon, New Jersey	Area Water (M2)	113959.476854784
@@ -65,6 +65,6 @@ North Haledon, New Jersey	Area Water (M2)	115000.0
 North Haledon, New Jersey	Is Part Of	New Jersey
 North Haledon, New Jersey	Is Part Of	Passaic County, New Jersey
 North Haledon, New Jersey	Area Code	973
-North Haledon, New Jersey	homepage	www.northhaledon.com
+North Haledon, New Jersey	Homepage	Www.Northhaledon.Com
 North Haledon, New Jersey	Total Population Ranking	13
 North Haledon, New Jersey	Total Population Ranking	271

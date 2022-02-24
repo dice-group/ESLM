@@ -22,19 +22,19 @@ def main(ds_name):
         db_start, db_end = [1, 26], [26, 51]
     else:
         raise ValueError("The database's name must be dbpedia or lmdb or faces")
-    dataset = ESBenchmark
+    dataset = ESBenchmark(ds_name, 6, 5, False)
     path = os.path.join(ROOT_DIR, f"data_inputs/literals/{ds_name}/")
     for i in tqdm(range(db_start[0], db_end[0])):
         with open(os.path.join(path, f"{i}_literal.txt"), "w", encoding="utf-8") as reader:
             reader.write("")
-        triples_tuple = dataset.get_labels(ds_name, i)
+        triples_tuple = dataset.get_labels(i)
         for sub_literal, pred_literal, obj_literal in triples_tuple:
             with open(os.path.join(path, f"{i}_literal.txt"), "a", encoding="utf-8") as reader:
                 reader.write(f"{sub_literal}\t{pred_literal}\t{obj_literal}\n")
     for i in tqdm(range(db_start[1], db_end[1])):
         with open(os.path.join(path, f"{i}_literal.txt"), "w", encoding="utf-8") as reader:
             reader.write("")
-        triples_tuple = dataset.get_labels(ds_name, i)
+        triples_tuple = dataset.get_labels(i)
         for sub_literal, pred_literal, obj_literal in triples_tuple:
             with open(os.path.join(path, f"{i}_literal.txt"), "a", encoding="utf-8") as reader:
                 reader.write(f"{sub_literal}\t{pred_literal}\t{obj_literal}\n")

@@ -1,27 +1,27 @@
-2013 Gulf Cup Of Nations	type	Sports Event
-2013 Gulf Cup Of Nations	type	Q500834
-2013 Gulf Cup Of Nations	type	Soccer Tournoment
-2013 Gulf Cup Of Nations	type	Event
-2013 Gulf Cup Of Nations	type	Event
-2013 Gulf Cup Of Nations	type	Tournament
-2013 Gulf Cup Of Nations	type	Societal Event
-2013 Gulf Cup Of Nations	type	SportsEvent
-2013 Gulf Cup Of Nations	type	Thing
-2013 Gulf Cup Of Nations	type	Q1656682
-2013 Gulf Cup Of Nations	type	Event
-2013 Gulf Cup Of Nations	subject	2013 Gulf Cup Of Nations
-2013 Gulf Cup Of Nations	subject	International Association Football Competitions Hosted By Bahrain
-2013 Gulf Cup Of Nations	subject	2012–13 In Omani Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Yemeni Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Bahraini Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Emirati Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Qatari Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Kuwaiti Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Saudi Arabian Football
-2013 Gulf Cup Of Nations	subject	2013 In Asian Football
-2013 Gulf Cup Of Nations	subject	2012–13 In Iraqi Football
-2013 Gulf Cup Of Nations	label	2013 Gulf Cup of Nations
-2013 Gulf Cup Of Nations	name	Gulf Cup of Nations
+2013 Gulf Cup Of Nations	Type	Sports Event
+2013 Gulf Cup Of Nations	Type	Q500834
+2013 Gulf Cup Of Nations	Type	Soccer Tournoment
+2013 Gulf Cup Of Nations	Type	Event
+2013 Gulf Cup Of Nations	Type	Event
+2013 Gulf Cup Of Nations	Type	Tournament
+2013 Gulf Cup Of Nations	Type	Societal Event
+2013 Gulf Cup Of Nations	Type	Sportsevent
+2013 Gulf Cup Of Nations	Type	Thing
+2013 Gulf Cup Of Nations	Type	Q1656682
+2013 Gulf Cup Of Nations	Type	Event
+2013 Gulf Cup Of Nations	Subject	2013 Gulf Cup Of Nations
+2013 Gulf Cup Of Nations	Subject	International Association Football Competitions Hosted By Bahrain
+2013 Gulf Cup Of Nations	Subject	2012–13 In Omani Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Yemeni Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Bahraini Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Emirati Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Qatari Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Kuwaiti Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Saudi Arabian Football
+2013 Gulf Cup Of Nations	Subject	2013 In Asian Football
+2013 Gulf Cup Of Nations	Subject	2012–13 In Iraqi Football
+2013 Gulf Cup Of Nations	Label	2013 Gulf Cup Of Nations
+2013 Gulf Cup Of Nations	Name	Gulf Cup Of Nations
 2013 Gulf Cup Of Nations	Time	17:45
 2013 Gulf Cup Of Nations	Time	15:30
 2013 Gulf Cup Of Nations	Time	16:15
@@ -29,4 +29,4 @@
 2013 Gulf Cup Of Nations	Time	19:00
 2013 Gulf Cup Of Nations	Time	18:45
 2013 Gulf Cup Of Nations	Time	19:15
-2013 Gulf Cup Of Nations	homepage	en
+2013 Gulf Cup Of Nations	Homepage	En

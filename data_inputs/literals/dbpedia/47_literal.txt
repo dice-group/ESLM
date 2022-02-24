@@ -1,23 +1,23 @@
-Sky (Faye Wong Album)	type	CreativeWork
-Sky (Faye Wong Album)	type	MusicAlbum
-Sky (Faye Wong Album)	type	Thing
-Sky (Faye Wong Album)	type	Q482994
-Sky (Faye Wong Album)	type	Q2188189
-Sky (Faye Wong Album)	type	Musical Work
-Sky (Faye Wong Album)	type	Artifact100021939
-Sky (Faye Wong Album)	type	CinepolyRecordsAlbums
-Sky (Faye Wong Album)	type	Work
-Sky (Faye Wong Album)	type	Medium106254669
-Sky (Faye Wong Album)	type	Album106591815
-Sky (Faye Wong Album)	type	MandopopAlbums
-Sky (Faye Wong Album)	type	Q386724
-Sky (Faye Wong Album)	type	FayeWongAlbums
-Sky (Faye Wong Album)	type	Instrumentality103575240
-Sky (Faye Wong Album)	type	Object100002684
-Sky (Faye Wong Album)	type	1994Albums
-Sky (Faye Wong Album)	type	Whole100003553
-Sky (Faye Wong Album)	type	Album
-Sky (Faye Wong Album)	type	PhysicalEntity100001930
+Sky (Faye Wong Album)	Type	Creativework
+Sky (Faye Wong Album)	Type	Musicalbum
+Sky (Faye Wong Album)	Type	Thing
+Sky (Faye Wong Album)	Type	Q482994
+Sky (Faye Wong Album)	Type	Q2188189
+Sky (Faye Wong Album)	Type	Musical Work
+Sky (Faye Wong Album)	Type	Artifact100021939
+Sky (Faye Wong Album)	Type	Cinepolyrecordsalbums
+Sky (Faye Wong Album)	Type	Work
+Sky (Faye Wong Album)	Type	Medium106254669
+Sky (Faye Wong Album)	Type	Album106591815
+Sky (Faye Wong Album)	Type	Mandopopalbums
+Sky (Faye Wong Album)	Type	Q386724
+Sky (Faye Wong Album)	Type	Fayewongalbums
+Sky (Faye Wong Album)	Type	Instrumentality103575240
+Sky (Faye Wong Album)	Type	Object100002684
+Sky (Faye Wong Album)	Type	1994Albums
+Sky (Faye Wong Album)	Type	Whole100003553
+Sky (Faye Wong Album)	Type	Album
+Sky (Faye Wong Album)	Type	Physicalentity100001930
 Random Thoughts (Faye Wong Album)	Subsequent Work	Sky (Faye Wong Album)
 Sky (Faye Wong Album)	Subsequent Work	Please Myself
 Sky (Faye Wong Album)	Runtime (S)	2819.0
@@ -25,14 +25,14 @@ Sky (Faye Wong Album)	Previous Work	Random Thoughts (Faye Wong Album)
 Please Myself	Previous Work	Sky (Faye Wong Album)
 Sky (Faye Wong Album)	Release Date	1994-11-10
 Sky (Faye Wong Album)	Performer	Faye Wong
-Sky (Faye Wong Album)	name	Tian Kong (Sky)
+Sky (Faye Wong Album)	Name	Tian Kong (Sky)
 Sky (Faye Wong Album)	Record Label	Sony Music Entertainment
 Sky (Faye Wong Album)	Record Label	Cinepoly Records
-Sky (Faye Wong Album)	label	Sky (Faye Wong album)
-Sky (Faye Wong Album)	subject	Mandopop Albums
-Sky (Faye Wong Album)	subject	Faye Wong Albums
-Sky (Faye Wong Album)	subject	Sony Music Entertainment Albums
-Sky (Faye Wong Album)	subject	Albums By Singaporean Artists
-Sky (Faye Wong Album)	subject	Cinepoly Records Albums
-Sky (Faye Wong Album)	subject	1994 Albums
+Sky (Faye Wong Album)	Label	Sky (Faye Wong Album)
+Sky (Faye Wong Album)	Subject	Mandopop Albums
+Sky (Faye Wong Album)	Subject	Faye Wong Albums
+Sky (Faye Wong Album)	Subject	Sony Music Entertainment Albums
+Sky (Faye Wong Album)	Subject	Albums By Singaporean Artists
+Sky (Faye Wong Album)	Subject	Cinepoly Records Albums
+Sky (Faye Wong Album)	Subject	1994 Albums
 Sky (Faye Wong Album)	Genre	Mandopop

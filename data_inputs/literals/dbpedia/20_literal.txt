@@ -1,22 +1,22 @@
-Triathlon At The 2000 Summer Olympics – Men'S	depiction	Triathlon_pictogram.svg
+Triathlon At The 2000 Summer Olympics – Men'S	Depiction	Triathlon Pictogram.Svg
 Triathlon At The 2000 Summer Olympics – Men'S	Gold Medalist	Simon Whitfield
 Triathlon At The 2000 Summer Olympics – Men'S	Next Event	Triathlon At The 2004 Summer Olympics – Men'S
 Triathlon At The 2000 Summer Olympics – Men'S	Bronze Medalist	Jan Řehula
 Triathlon At The 2004 Summer Olympics – Men'S	Previous Event	Triathlon At The 2000 Summer Olympics – Men'S
-Triathlon At The 2000 Summer Olympics – Men'S	homepage	reports_frmst.htm
+Triathlon At The 2000 Summer Olympics – Men'S	Homepage	Reports Frmst.Htm
 Triathlon At The 2000 Summer Olympics – Men'S	Siler Medalist	Stephan Vuckovic
-Triathlon At The 2000 Summer Olympics – Men'S	subject	2000 In Triathlon
-Triathlon At The 2000 Summer Olympics – Men'S	subject	Triathlon At The 2000 Summer Olympics
+Triathlon At The 2000 Summer Olympics – Men'S	Subject	2000 In Triathlon
+Triathlon At The 2000 Summer Olympics – Men'S	Subject	Triathlon At The 2000 Summer Olympics
 Triathlon At The 2000 Summer Olympics – Men'S	Games	2000 Summer
-Triathlon At The 2000 Summer Olympics – Men'S	type	Event
-Triathlon At The 2000 Summer Olympics – Men'S	type	Olympics
-Triathlon At The 2000 Summer Olympics – Men'S	type	Sports Event
-Triathlon At The 2000 Summer Olympics – Men'S	type	SportsEvent
-Triathlon At The 2000 Summer Olympics – Men'S	type	Q1656682
-Triathlon At The 2000 Summer Olympics – Men'S	type	Thing
-Triathlon At The 2000 Summer Olympics – Men'S	type	Societal Event
-Triathlon At The 2000 Summer Olympics – Men'S	type	Event
-Triathlon At The 2000 Summer Olympics – Men'S	type	Event
-Triathlon At The 2000 Summer Olympics – Men'S	type	Olympic Event
-Triathlon At The 2000 Summer Olympics – Men'S	Thumbnail	Triathlon_pictogram.svg?width=300
-Triathlon At The 2000 Summer Olympics – Men'S	label	Triathlon at the 2000 Summer Olympics – Men's
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Event
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Olympics
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Sports Event
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Sportsevent
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Q1656682
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Thing
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Societal Event
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Event
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Event
+Triathlon At The 2000 Summer Olympics – Men'S	Type	Olympic Event
+Triathlon At The 2000 Summer Olympics – Men'S	Thumbnail	Triathlon Pictogram.Svg?Width=300
+Triathlon At The 2000 Summer Olympics – Men'S	Label	Triathlon At The 2000 Summer Olympics – Men'S

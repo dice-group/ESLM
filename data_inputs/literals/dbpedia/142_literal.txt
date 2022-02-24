@@ -1,38 +1,38 @@
-Juhan Muks	label	Juhan Muks
-Juhan Muks	surname	Muks
-Juhan Muks	description	Estonian artist
-Juhan Muks	description	Estonian artist
+Juhan Muks	Label	Juhan Muks
+Juhan Muks	Surname	Muks
+Juhan Muks	Description	Estonian Artist
+Juhan Muks	Description	Estonian Artist
 Juhan Muks	Birth Year	1899-01-01
-Juhan Muks	givenName	Juhan
+Juhan Muks	Givenname	Juhan
 Juhan Muks	Death Date	1983-11-23
 Juhan Muks	Death Year	1983-01-01
-Juhan Muks	type	Q215627
-Juhan Muks	type	Object100002684
-Juhan Muks	type	NaturalPerson
-Juhan Muks	type	LivingThing100004258
-Juhan Muks	type	PhysicalEntity100001930
-Juhan Muks	type	Q5
-Juhan Muks	type	EstonianPainters
-Juhan Muks	type	Agent
-Juhan Muks	type	Organism100004475
-Juhan Muks	type	Person
-Juhan Muks	type	Person100007846
-Juhan Muks	type	Painter110391653
-Juhan Muks	type	YagoLegalActorGeo
-Juhan Muks	type	Agent
-Juhan Muks	type	CausalAgent100007347
-Juhan Muks	type	Person
-Juhan Muks	type	Creator109614315
-Juhan Muks	type	Thing
-Juhan Muks	type	Artist109812338
-Juhan Muks	type	Whole100003553
-Juhan Muks	type	Person
-Juhan Muks	type	YagoLegalActor
+Juhan Muks	Type	Q215627
+Juhan Muks	Type	Object100002684
+Juhan Muks	Type	Naturalperson
+Juhan Muks	Type	Livingthing100004258
+Juhan Muks	Type	Physicalentity100001930
+Juhan Muks	Type	Q5
+Juhan Muks	Type	Estonianpainters
+Juhan Muks	Type	Agent
+Juhan Muks	Type	Organism100004475
+Juhan Muks	Type	Person
+Juhan Muks	Type	Person100007846
+Juhan Muks	Type	Painter110391653
+Juhan Muks	Type	Yagolegalactorgeo
+Juhan Muks	Type	Agent
+Juhan Muks	Type	Causalagent100007347
+Juhan Muks	Type	Person
+Juhan Muks	Type	Creator109614315
+Juhan Muks	Type	Thing
+Juhan Muks	Type	Artist109812338
+Juhan Muks	Type	Whole100003553
+Juhan Muks	Type	Person
+Juhan Muks	Type	Yagolegalactor
 Juhan Muks	Birth Date	1899-01-01
-Juhan Muks	name	Juhan Muks
-Juhan Muks	name	Muks, Juhan
-Juhan Muks	subject	1899 Births
-Juhan Muks	subject	20Th-Century Estonian Painters
-Juhan Muks	subject	People From Viljandi County
-Juhan Muks	subject	1983 Deaths
-Juhan Muks	subject	Estonian Painters
+Juhan Muks	Name	Juhan Muks
+Juhan Muks	Name	Muks, Juhan
+Juhan Muks	Subject	1899 Births
+Juhan Muks	Subject	20Th-Century Estonian Painters
+Juhan Muks	Subject	People From Viljandi County
+Juhan Muks	Subject	1983 Deaths
+Juhan Muks	Subject	Estonian Painters

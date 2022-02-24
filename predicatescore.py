@@ -17,7 +17,7 @@ class PredicateScore:
         self.in_pagerank = "data_inputs/pagerank"
     @staticmethod
     def build_resources_dict(db_path, ds_name, num, method):
-        """Build dictionary"""
+        """Build resources dictionary"""
         resources_dict = {}
         with open(os.path.join(db_path, f"{ds_name}", f"results_resources_{num}_desc_{method}.txt"), encoding="utf8") as reader:
             for line in reader:
@@ -62,4 +62,3 @@ class PredicateScore:
         for _, pred, _ in self.triples:
             scores.append(resources_dict[pred])
         return scores
-    

@@ -1,50 +1,50 @@
-Cindy Mackey	type	Whole100003553
-Cindy Mackey	type	Q5
-Cindy Mackey	type	PhysicalEntity100001930
-Cindy Mackey	type	Player110439851
-Cindy Mackey	type	GolfersFromGeorgia(U.S.State)
-Cindy Mackey	type	GeorgiaBulldogsWomen'sGolfers
-Cindy Mackey	type	YagoLegalActor
-Cindy Mackey	type	Thing
-Cindy Mackey	type	Object100002684
-Cindy Mackey	type	CausalAgent100007347
-Cindy Mackey	type	LivingThing100004258
-Cindy Mackey	type	Agent
-Cindy Mackey	type	YagoLegalActorGeo
-Cindy Mackey	type	Q13156709
-Cindy Mackey	type	Golfer110136959
-Cindy Mackey	type	Person
-Cindy Mackey	type	Person
-Cindy Mackey	type	Golf Player
-Cindy Mackey	type	Athlete
-Cindy Mackey	type	Contestant109613191
-Cindy Mackey	type	LPGATourGolfers
-Cindy Mackey	type	Person100007846
-Cindy Mackey	type	AmericanFemaleGolfers
-Cindy Mackey	type	PeopleFromAthens,Georgia
-Cindy Mackey	type	Q215627
-Cindy Mackey	type	LivingPeople
-Cindy Mackey	type	Person
-Cindy Mackey	type	NaturalPerson
-Cindy Mackey	type	Organism100004475
-Cindy Mackey	type	Agent
-Cindy Mackey	description	Professional golfer
-Cindy Mackey	description	Professional golfer
+Cindy Mackey	Type	Whole100003553
+Cindy Mackey	Type	Q5
+Cindy Mackey	Type	Physicalentity100001930
+Cindy Mackey	Type	Player110439851
+Cindy Mackey	Type	Golfersfromgeorgia(U.S.State)
+Cindy Mackey	Type	Georgiabulldogswomen'Sgolfers
+Cindy Mackey	Type	Yagolegalactor
+Cindy Mackey	Type	Thing
+Cindy Mackey	Type	Object100002684
+Cindy Mackey	Type	Causalagent100007347
+Cindy Mackey	Type	Livingthing100004258
+Cindy Mackey	Type	Agent
+Cindy Mackey	Type	Yagolegalactorgeo
+Cindy Mackey	Type	Q13156709
+Cindy Mackey	Type	Golfer110136959
+Cindy Mackey	Type	Person
+Cindy Mackey	Type	Person
+Cindy Mackey	Type	Golf Player
+Cindy Mackey	Type	Athlete
+Cindy Mackey	Type	Contestant109613191
+Cindy Mackey	Type	Lpgatourgolfers
+Cindy Mackey	Type	Person100007846
+Cindy Mackey	Type	Americanfemalegolfers
+Cindy Mackey	Type	Peoplefromathens,Georgia
+Cindy Mackey	Type	Q215627
+Cindy Mackey	Type	Livingpeople
+Cindy Mackey	Type	Person
+Cindy Mackey	Type	Naturalperson
+Cindy Mackey	Type	Organism100004475
+Cindy Mackey	Type	Agent
+Cindy Mackey	Description	Professional Golfer
+Cindy Mackey	Description	Professional Golfer
 Cindy Mackey	College	University Of Georgia
-Cindy Mackey	name	Cindy Mackey
-Cindy Mackey	name	Mackey, Cindy
-Cindy Mackey	name	Cindy Pleger Mackey
-Cindy Mackey	subject	1961 Births
-Cindy Mackey	subject	Golfers From Georgia (U.S. State)
-Cindy Mackey	subject	Georgia Bulldogs Women'S Golfers
-Cindy Mackey	subject	Sportspeople From Athens, Georgia
-Cindy Mackey	subject	Living People
-Cindy Mackey	subject	Lpga Tour Golfers
-Cindy Mackey	subject	American Female Golfers
+Cindy Mackey	Name	Cindy Mackey
+Cindy Mackey	Name	Mackey, Cindy
+Cindy Mackey	Name	Cindy Pleger Mackey
+Cindy Mackey	Subject	1961 Births
+Cindy Mackey	Subject	Golfers From Georgia (U.S. State)
+Cindy Mackey	Subject	Georgia Bulldogs Women'S Golfers
+Cindy Mackey	Subject	Sportspeople From Athens, Georgia
+Cindy Mackey	Subject	Living People
+Cindy Mackey	Subject	Lpga Tour Golfers
+Cindy Mackey	Subject	American Female Golfers
 Cindy Mackey	Birth Date	1961-04-02
-Cindy Mackey	surname	Mackey
+Cindy Mackey	Surname	Mackey
 Cindy Mackey	Birth Year	1961-01-01
-Cindy Mackey	givenName	Cindy
+Cindy Mackey	Givenname	Cindy
 Cindy Mackey	Height (Μ)	1.7526
 Cindy Mackey	Alias	Pleger, Cindy
-Cindy Mackey	label	Cindy Mackey
+Cindy Mackey	Label	Cindy Mackey

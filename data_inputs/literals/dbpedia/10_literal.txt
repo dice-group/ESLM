@@ -1,55 +1,55 @@
 Roderick Carr	Occupation	Secretary Of State For Transport
 Roderick Carr	Service End Year	1947-01-01
-Roderick Carr	Military Command	Commander in Chief, Air Headquarters India
-Roderick Carr	Military Command	RAF Brize Norton
+Roderick Carr	Military Command	Commander In Chief, Air Headquarters India
+Roderick Carr	Military Command	Raf Brize Norton
 Roderick Carr	Service Start Year	1914-01-01
-Roderick Carr	type	Marshal110295951
-Roderick Carr	type	RoyalAirForceAirMarshals
-Roderick Carr	type	Agent
-Roderick Carr	type	MilitaryOfficer110317007
-Roderick Carr	type	Aviator109826204
-Roderick Carr	type	Q5
-Roderick Carr	type	Preserver110466918
-Roderick Carr	type	Defender109614684
-Roderick Carr	type	Friend110112591
-Roderick Carr	type	Person
-Roderick Carr	type	Organism100004475
-Roderick Carr	type	Military Person
-Roderick Carr	type	Thing
-Roderick Carr	type	Person
-Roderick Carr	type	Q215627
-Roderick Carr	type	YagoLegalActorGeo
-Roderick Carr	type	Agent
-Roderick Carr	type	ExplorersOfAntarctica
-Roderick Carr	type	Object100002684
-Roderick Carr	type	LivingThing100004258
-Roderick Carr	type	Companion109945905
-Roderick Carr	type	Whole100003553
-Roderick Carr	type	CausalAgent100007347
-Roderick Carr	type	AirMarshal109781171
-Roderick Carr	type	Person100007846
-Roderick Carr	type	RoyalNavalAirServiceAviators
-Roderick Carr	type	SkilledWorker110605985
-Roderick Carr	type	CompanionsOfTheOrderOfTheBath
-Roderick Carr	type	NewZealandAirMarshals
-Roderick Carr	type	PhysicalEntity100001930
-Roderick Carr	type	Serviceman110582746
-Roderick Carr	type	Explorer110072708
-Roderick Carr	type	RoyalNavyOfficersOfWorldWarI
-Roderick Carr	type	PeopleFromTheManawatu-WanganuiRegion
-Roderick Carr	type	Lawman110249459
-Roderick Carr	type	Person
-Roderick Carr	type	YagoLegalActor
-Roderick Carr	type	NaturalPerson
-Roderick Carr	type	Worker109632518
+Roderick Carr	Type	Marshal110295951
+Roderick Carr	Type	Royalairforceairmarshals
+Roderick Carr	Type	Agent
+Roderick Carr	Type	Militaryofficer110317007
+Roderick Carr	Type	Aviator109826204
+Roderick Carr	Type	Q5
+Roderick Carr	Type	Preserver110466918
+Roderick Carr	Type	Defender109614684
+Roderick Carr	Type	Friend110112591
+Roderick Carr	Type	Person
+Roderick Carr	Type	Organism100004475
+Roderick Carr	Type	Military Person
+Roderick Carr	Type	Thing
+Roderick Carr	Type	Person
+Roderick Carr	Type	Q215627
+Roderick Carr	Type	Yagolegalactorgeo
+Roderick Carr	Type	Agent
+Roderick Carr	Type	Explorersofantarctica
+Roderick Carr	Type	Object100002684
+Roderick Carr	Type	Livingthing100004258
+Roderick Carr	Type	Companion109945905
+Roderick Carr	Type	Whole100003553
+Roderick Carr	Type	Causalagent100007347
+Roderick Carr	Type	Airmarshal109781171
+Roderick Carr	Type	Person100007846
+Roderick Carr	Type	Royalnavalairserviceaviators
+Roderick Carr	Type	Skilledworker110605985
+Roderick Carr	Type	Companionsoftheorderofthebath
+Roderick Carr	Type	Newzealandairmarshals
+Roderick Carr	Type	Physicalentity100001930
+Roderick Carr	Type	Serviceman110582746
+Roderick Carr	Type	Explorer110072708
+Roderick Carr	Type	Royalnavyofficersofworldwari
+Roderick Carr	Type	Peoplefromthemanawatu-Wanganuiregion
+Roderick Carr	Type	Lawman110249459
+Roderick Carr	Type	Person
+Roderick Carr	Type	Yagolegalactor
+Roderick Carr	Type	Naturalperson
+Roderick Carr	Type	Worker109632518
 Roderick Carr	Birth Year	1891-01-01
-Roderick Carr	givenName	Roderick
-Roderick Carr	depiction	Air_Mshl_Sir_Roderick_Carr.jpg
+Roderick Carr	Givenname	Roderick
+Roderick Carr	Depiction	Air Mshl Sir Roderick Carr.Jpg
 Roderick Carr	Birth Place	Feilding
 Roderick Carr	Death Place	Bampton, Oxfordshire
-Roderick Carr	name	Roderick Carr
-Roderick Carr	name	Sir Charles Roderick Carr
-Roderick Carr	name	Carr, Roderick
+Roderick Carr	Name	Roderick Carr
+Roderick Carr	Name	Sir Charles Roderick Carr
+Roderick Carr	Name	Carr, Roderick
 Roderick Carr	Death Year	1971-01-01
 Roderick Carr	Award	Air Force Cross (United Kingdom)
 Roderick Carr	Award	Order Of The Bath
@@ -59,32 +59,32 @@ Roderick Carr	Award	Mentioned In Dispatches
 Roderick Carr	Battle	World War I
 Roderick Carr	Battle	World War Ii
 Roderick Carr	Death Date	1971-12-15
-Roderick Carr	Thumbnail	Air_Mshl_Sir_Roderick_Carr.jpg?width=300
+Roderick Carr	Thumbnail	Air Mshl Sir Roderick Carr.Jpg?Width=300
 Battle Of Berlin (Raf Campaign)	Commander	Roderick Carr
-Roderick Carr	surname	Carr
+Roderick Carr	Surname	Carr
 Roderick Carr	Allegiance	British Empire
-Roderick Carr	description	Royal Air Force air marshals
-Roderick Carr	description	Royal Air Force air marshals
-Roderick Carr	subject	1891 Births
-Roderick Carr	subject	Royal Air Force Air Marshals
-Roderick Carr	subject	New Zealand Military Personnel
-Roderick Carr	subject	Companions Of The Order Of The Bath
-Roderick Carr	subject	Royal Air Force Personnel Of World War I
-Roderick Carr	subject	People From Feilding
-Roderick Carr	subject	Recipients Of The Distinguished Flying Cross (United Kingdom)
-Roderick Carr	subject	People From Manawatu-Wanganui
-Roderick Carr	subject	New_Zealand_air_marshals
-Roderick Carr	subject	1971 Deaths
-Roderick Carr	subject	New Zealand Knights
-Roderick Carr	subject	Commandeurs Of The Légion D'Honneur
-Roderick Carr	subject	Knights Commander Of The Order Of The British Empire
-Roderick Carr	subject	Royal Naval Air Service Aviators
-Roderick Carr	subject	Recipients Of The Air Force Cross (United Kingdom)
-Roderick Carr	subject	New Zealand Recipients Of The Légion D'Honneur
-Roderick Carr	subject	Explorers Of Antarctica
-Roderick Carr	subject	Royal Navy Officers Of World War I
-Roderick Carr	subject	Royal Air Force Personnel Of World War Ii
-Roderick Carr	subject	Royal Air Force Personnel Of The Russian Civil War
-Roderick Carr	subject	Royal Flying Corps Officers
-Roderick Carr	label	Roderick Carr
+Roderick Carr	Description	Royal Air Force Air Marshals
+Roderick Carr	Description	Royal Air Force Air Marshals
+Roderick Carr	Subject	1891 Births
+Roderick Carr	Subject	Royal Air Force Air Marshals
+Roderick Carr	Subject	New Zealand Military Personnel
+Roderick Carr	Subject	Companions Of The Order Of The Bath
+Roderick Carr	Subject	Royal Air Force Personnel Of World War I
+Roderick Carr	Subject	People From Feilding
+Roderick Carr	Subject	Recipients Of The Distinguished Flying Cross (United Kingdom)
+Roderick Carr	Subject	People From Manawatu-Wanganui
+Roderick Carr	Subject	New Zealand Air Marshals
+Roderick Carr	Subject	1971 Deaths
+Roderick Carr	Subject	New Zealand Knights
+Roderick Carr	Subject	Commandeurs Of The Légion D'Honneur
+Roderick Carr	Subject	Knights Commander Of The Order Of The British Empire
+Roderick Carr	Subject	Royal Naval Air Service Aviators
+Roderick Carr	Subject	Recipients Of The Air Force Cross (United Kingdom)
+Roderick Carr	Subject	New Zealand Recipients Of The Légion D'Honneur
+Roderick Carr	Subject	Explorers Of Antarctica
+Roderick Carr	Subject	Royal Navy Officers Of World War I
+Roderick Carr	Subject	Royal Air Force Personnel Of World War Ii
+Roderick Carr	Subject	Royal Air Force Personnel Of The Russian Civil War
+Roderick Carr	Subject	Royal Flying Corps Officers
+Roderick Carr	Label	Roderick Carr
 Roderick Carr	Birth Date	1891-08-31

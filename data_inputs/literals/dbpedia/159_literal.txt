@@ -1,21 +1,21 @@
 Nemapogon Nigralbella	Genus	Nemapogon
 Nemapogon Nigralbella	Phylum	Arthropod
-Nemapogon Nigralbella	subject	Nemapogoninae
-Nemapogon Nigralbella	subject	Moths Described In 1859
-Nemapogon Nigralbella	Thumbnail	Nemapogon_nigralbella.jpg?width=300
-Nemapogon Nigralbella	label	Nemapogon nigralbella
-Nemapogon Nigralbella	type	Q19088
-Nemapogon Nigralbella	type	Animal
-Nemapogon Nigralbella	type	Q729
-Nemapogon Nigralbella	type	Thing
-Nemapogon Nigralbella	type	Eukaryote
-Nemapogon Nigralbella	type	Insect
-Nemapogon Nigralbella	type	Q1390
-Nemapogon Nigralbella	type	Species
-Nemapogon Nigralbella	Synonym	*Tinea nigralbella (Zeller, 1839)
-Nemapogon Nigralbella	Synonym	*Nemapogon nigralbellus
+Nemapogon Nigralbella	Subject	Nemapogoninae
+Nemapogon Nigralbella	Subject	Moths Described In 1859
+Nemapogon Nigralbella	Thumbnail	Nemapogon Nigralbella.Jpg?Width=300
+Nemapogon Nigralbella	Label	Nemapogon Nigralbella
+Nemapogon Nigralbella	Type	Q19088
+Nemapogon Nigralbella	Type	Animal
+Nemapogon Nigralbella	Type	Q729
+Nemapogon Nigralbella	Type	Thing
+Nemapogon Nigralbella	Type	Eukaryote
+Nemapogon Nigralbella	Type	Insect
+Nemapogon Nigralbella	Type	Q1390
+Nemapogon Nigralbella	Type	Species
+Nemapogon Nigralbella	Synonym	*Tinea Nigralbella (Zeller, 1839)
+Nemapogon Nigralbella	Synonym	*Nemapogon Nigralbellus
 Nemapogon Nigralbella	Order (Taxonomy)	Lepidoptera
 Nemapogon Nigralbella	Family	Tineidae
 Nemapogon Nigralbella	Kingdom	Animal
 Nemapogon Nigralbella	Class	Insect
-Nemapogon Nigralbella	depiction	Nemapogon_nigralbella.jpg
+Nemapogon Nigralbella	Depiction	Nemapogon Nigralbella.Jpg

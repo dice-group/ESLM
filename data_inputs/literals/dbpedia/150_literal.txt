@@ -1,50 +1,50 @@
 Raid On Griessie	Combatant	United Kingdom
-Raid On Griessie	Combatant	22px|link=Kingdom of Holland
-Raid On Griessie	type	Societal Event
-Raid On Griessie	type	Activity100407535
-Raid On Griessie	type	Abstraction100002137
-Raid On Griessie	type	Military Conflict
-Raid On Griessie	type	NavalBattle100958477
-Raid On Griessie	type	Attack100972621
-Raid On Griessie	type	Event100029378
-Raid On Griessie	type	Q1656682
-Raid On Griessie	type	Penetration100975452
-Raid On Griessie	type	Event
-Raid On Griessie	type	Operation100955060
-Raid On Griessie	type	NavalBattlesInvolvingTheUnitedKingdom
-Raid On Griessie	type	YagoPermanentlyLocatedEntity
-Raid On Griessie	type	NavalBattlesOfTheNapoleonicWars
-Raid On Griessie	type	Event
-Raid On Griessie	type	MilitaryRaids
-Raid On Griessie	type	Event
-Raid On Griessie	type	MilitaryAction100952963
-Raid On Griessie	type	Foray100976953
-Raid On Griessie	type	GroupAction101080366
-Raid On Griessie	type	NavalBattlesInvolvingTheNetherlands
-Raid On Griessie	type	Thing
-Raid On Griessie	type	Conflict100958896
-Raid On Griessie	type	Act100030358
-Raid On Griessie	type	ConflictsIn1807
-Raid On Griessie	type	Battle100953559
-Raid On Griessie	type	PsychologicalFeature100023100
+Raid On Griessie	Combatant	22Px|Link=Kingdom Of Holland
+Raid On Griessie	Type	Societal Event
+Raid On Griessie	Type	Activity100407535
+Raid On Griessie	Type	Abstraction100002137
+Raid On Griessie	Type	Military Conflict
+Raid On Griessie	Type	Navalbattle100958477
+Raid On Griessie	Type	Attack100972621
+Raid On Griessie	Type	Event100029378
+Raid On Griessie	Type	Q1656682
+Raid On Griessie	Type	Penetration100975452
+Raid On Griessie	Type	Event
+Raid On Griessie	Type	Operation100955060
+Raid On Griessie	Type	Navalbattlesinvolvingtheunitedkingdom
+Raid On Griessie	Type	Yagopermanentlylocatedentity
+Raid On Griessie	Type	Navalbattlesofthenapoleonicwars
+Raid On Griessie	Type	Event
+Raid On Griessie	Type	Militaryraids
+Raid On Griessie	Type	Event
+Raid On Griessie	Type	Militaryaction100952963
+Raid On Griessie	Type	Foray100976953
+Raid On Griessie	Type	Groupaction101080366
+Raid On Griessie	Type	Navalbattlesinvolvingthenetherlands
+Raid On Griessie	Type	Thing
+Raid On Griessie	Type	Conflict100958896
+Raid On Griessie	Type	Act100030358
+Raid On Griessie	Type	Conflictsin1807
+Raid On Griessie	Type	Battle100953559
+Raid On Griessie	Type	Psychologicalfeature100023100
 Raid On Griessie	Causalties	None
-Raid On Griessie	Result	British victory
+Raid On Griessie	Result	British Victory
 Raid On Griessie	Relates An Entity To The Populated Place In Which It Is Located.	Dutch East Indies
 Raid On Griessie	Relates An Entity To The Populated Place In Which It Is Located.	Gresik Regency
 Raid On Griessie	Relates An Entity To The Populated Place In Which It Is Located.	Java
-Raid On Griessie	name	Raid on Griessie
+Raid On Griessie	Name	Raid On Griessie
 Raid On Griessie	Commander	Edward Pellew, 1St Viscount Exmouth
-Raid On Griessie	label	Raid on Griessie
-Raid On Griessie	depiction	Java_blank_map.svg
+Raid On Griessie	Label	Raid On Griessie
+Raid On Griessie	Depiction	Java Blank Map.Svg
 Raid On Griessie	Date	1807-12-11
 Raid On Griessie	Is Part Of Military Conflict	Napoleonic Wars
 Archibald Cochrane (Royal Navy Officer)	Battle	Raid On Griessie
-Raid On Griessie	subject	Military Raids
-Raid On Griessie	subject	Naval Battles Involving The Netherlands
-Raid On Griessie	subject	Naval Battles Of The Napoleonic Wars
-Raid On Griessie	subject	1807 In Asia
-Raid On Griessie	subject	Naval Battles Involving The United Kingdom
-Raid On Griessie	subject	Conflicts In 1807
-Raid On Griessie	Strength	Twoships of the line, twofrigates and four smaller ships
-Raid On Griessie	Strength	Two out of commissionships of the lineand shore defences
-Raid On Griessie	Thumbnail	Java_blank_map.svg?width=300
+Raid On Griessie	Subject	Military Raids
+Raid On Griessie	Subject	Naval Battles Involving The Netherlands
+Raid On Griessie	Subject	Naval Battles Of The Napoleonic Wars
+Raid On Griessie	Subject	1807 In Asia
+Raid On Griessie	Subject	Naval Battles Involving The United Kingdom
+Raid On Griessie	Subject	Conflicts In 1807
+Raid On Griessie	Strength	Twoships Of The Line, Twofrigates And Four Smaller Ships
+Raid On Griessie	Strength	Two Out Of Commissionships Of The Lineand Shore Defences
+Raid On Griessie	Thumbnail	Java Blank Map.Svg?Width=300

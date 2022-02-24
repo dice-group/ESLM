@@ -1,43 +1,43 @@
-Kaalpurush	name	Kaalpurush
-Kaalpurush	type	Movie
-Kaalpurush	type	Movie106613686
-Kaalpurush	type	PsychologicalFeature100023100
-Kaalpurush	type	Movie
-Kaalpurush	type	Bengali-languageFilms
-Kaalpurush	type	CreativeWork
-Kaalpurush	type	IndianFilms
-Kaalpurush	type	YagoPermanentlyLocatedEntity
-Kaalpurush	type	2008Films
-Kaalpurush	type	Event100029378
-Kaalpurush	type	Show106619065
-Kaalpurush	type	Q11424
-Kaalpurush	type	2005Films
-Kaalpurush	type	Creation103129123
-Kaalpurush	type	SocialEvent107288639
-Kaalpurush	type	Whole100003553
-Kaalpurush	type	Work
-Kaalpurush	type	Abstraction100002137
-Kaalpurush	type	Product104007894
-Kaalpurush	type	Artifact100021939
-Kaalpurush	type	PhysicalEntity100001930
-Kaalpurush	type	Thing
-Kaalpurush	type	Q386724
-Kaalpurush	type	Object100002684
-Kaalpurush	type	FilmsDirectedByBuddhadevDasgupta
+Kaalpurush	Name	Kaalpurush
+Kaalpurush	Type	Movie
+Kaalpurush	Type	Movie106613686
+Kaalpurush	Type	Psychologicalfeature100023100
+Kaalpurush	Type	Movie
+Kaalpurush	Type	Bengali-Languagefilms
+Kaalpurush	Type	Creativework
+Kaalpurush	Type	Indianfilms
+Kaalpurush	Type	Yagopermanentlylocatedentity
+Kaalpurush	Type	2008Films
+Kaalpurush	Type	Event100029378
+Kaalpurush	Type	Show106619065
+Kaalpurush	Type	Q11424
+Kaalpurush	Type	2005Films
+Kaalpurush	Type	Creation103129123
+Kaalpurush	Type	Socialevent107288639
+Kaalpurush	Type	Whole100003553
+Kaalpurush	Type	Work
+Kaalpurush	Type	Abstraction100002137
+Kaalpurush	Type	Product104007894
+Kaalpurush	Type	Artifact100021939
+Kaalpurush	Type	Physicalentity100001930
+Kaalpurush	Type	Thing
+Kaalpurush	Type	Q386724
+Kaalpurush	Type	Object100002684
+Kaalpurush	Type	Filmsdirectedbybuddhadevdasgupta
 Kaalpurush	Country	India
 Kaalpurush	Cinematography	Sudeep Chatterjee
-Kaalpurush	Music Composer	Biswadep_Dasgupta
+Kaalpurush	Music Composer	Biswadep Dasgupta
 Kaalpurush	Starring	Mithun Chakraborty
 Kaalpurush	Starring	Rahul Bose
 Kaalpurush	Starring	Sameera Reddy
 Kaalpurush	Writer	Buddhadeb Dasgupta
 Kaalpurush	Film Director	Buddhadeb Dasgupta
-Kaalpurush	homepage	www.kaalpurushmovie.com
-Kaalpurush	subject	Films Set In Kolkata
-Kaalpurush	subject	2005 Films
-Kaalpurush	subject	Best Feature Film National Film Award Winners
-Kaalpurush	subject	Indian Films
-Kaalpurush	subject	Bengali-Language Films
-Kaalpurush	subject	Films Directed By Buddhadev Dasgupta
+Kaalpurush	Homepage	Www.Kaalpurushmovie.Com
+Kaalpurush	Subject	Films Set In Kolkata
+Kaalpurush	Subject	2005 Films
+Kaalpurush	Subject	Best Feature Film National Film Award Winners
+Kaalpurush	Subject	Indian Films
+Kaalpurush	Subject	Bengali-Language Films
+Kaalpurush	Subject	Films Directed By Buddhadev Dasgupta
 Kaalpurush	Language	Bengali Language
-Kaalpurush	label	Kaalpurush
+Kaalpurush	Label	Kaalpurush

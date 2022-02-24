@@ -1,68 +1,68 @@
-Ashot I Of Iberia	subject	Christian Saints Killed By Muslims
-Ashot I Of Iberia	subject	830 Deaths
-Ashot I Of Iberia	subject	Monarchs Of Georgia (Country)
-Ashot I Of Iberia	subject	9Th-Century Monarchs In Asia
-Ashot I Of Iberia	subject	8Th-Century Births
-Ashot I Of Iberia	subject	Vassal Rulers Of The Abbasid Caliphate
-Ashot I Of Iberia	subject	Bagrationi Dynasty Of Tao-Klarjeti
-Ashot I Of Iberia	subject	9Th-Century Christian Saints
-Ashot I Of Iberia	subject	9Th-Century Christian Martyrs
-Ashot I Of Iberia	subject	Saints Of Georgia (Country)
+Ashot I Of Iberia	Subject	Christian Saints Killed By Muslims
+Ashot I Of Iberia	Subject	830 Deaths
+Ashot I Of Iberia	Subject	Monarchs Of Georgia (Country)
+Ashot I Of Iberia	Subject	9Th-Century Monarchs In Asia
+Ashot I Of Iberia	Subject	8Th-Century Births
+Ashot I Of Iberia	Subject	Vassal Rulers Of The Abbasid Caliphate
+Ashot I Of Iberia	Subject	Bagrationi Dynasty Of Tao-Klarjeti
+Ashot I Of Iberia	Subject	9Th-Century Christian Saints
+Ashot I Of Iberia	Subject	9Th-Century Christian Martyrs
+Ashot I Of Iberia	Subject	Saints Of Georgia (Country)
 Bagrat I Of Iberia	Predecessor	Ashot I Of Iberia
 Ashot I Of Iberia	Successor	Guaram Mampali
 Ashot I Of Iberia	Successor	Bagrat I Of Iberia
 Ashot I Of Iberia	Successor	Adarnase Ii Of Tao-Klarjeti
 Ashot I Of Iberia	Active Years End Year	0830-01-01
-Ashot I Of Iberia	name	აშოტ I
-Ashot I Of Iberia	name	Ashot I
-Ashot I Of Iberia	name	Ashot 01 Of Iberia
+Ashot I Of Iberia	Name	აშოტ I
+Ashot I Of Iberia	Name	Ashot I
+Ashot I Of Iberia	Name	Ashot 01 Of Iberia
 Bagrat I Of Iberia	Parent	Ashot I Of Iberia
-Ashot I Of Iberia	description	Prince of Iberia
-Ashot I Of Iberia	description	Prince of Iberia
+Ashot I Of Iberia	Description	Prince Of Iberia
+Ashot I Of Iberia	Description	Prince Of Iberia
 Ashot I Of Iberia	Death Year	0830-01-01
-Ashot I Of Iberia	label	Ashot I of Iberia
-Ashot I Of Iberia	type	Q215627
-Ashot I Of Iberia	type	Saint110546850
-Ashot I Of Iberia	type	Representative110522035
-Ashot I Of Iberia	type	Agent
-Ashot I Of Iberia	type	Person
-Ashot I Of Iberia	type	HeadOfState110164747
-Ashot I Of Iberia	type	YagoLegalActorGeo
-Ashot I Of Iberia	type	Communicator109610660
-Ashot I Of Iberia	type	NaturalPerson
-Ashot I Of Iberia	type	Agent
-Ashot I Of Iberia	type	SaintsOfGeorgia(country)
-Ashot I Of Iberia	type	Victim110752093
-Ashot I Of Iberia	type	LivingThing100004258
-Ashot I Of Iberia	type	Ruler110541229
-Ashot I Of Iberia	type	Person
-Ashot I Of Iberia	type	Q5
-Ashot I Of Iberia	type	GoodPerson110138767
-Ashot I Of Iberia	type	Whole100003553
-Ashot I Of Iberia	type	Martyr110296618
-Ashot I Of Iberia	type	9th-centuryChristianMartyrs
-Ashot I Of Iberia	type	Royalty
-Ashot I Of Iberia	type	Person
-Ashot I Of Iberia	type	9th-centuryMonarchsInAsia
-Ashot I Of Iberia	type	Thing
-Ashot I Of Iberia	type	Person100007846
-Ashot I Of Iberia	type	YagoLegalActor
-Ashot I Of Iberia	type	Sovereign110628644
-Ashot I Of Iberia	type	Negotiator110351874
-Ashot I Of Iberia	type	Organism100004475
-Ashot I Of Iberia	type	PhysicalEntity100001930
-Ashot I Of Iberia	type	Object100002684
-Ashot I Of Iberia	type	MonarchsOfGeorgia(country)
-Ashot I Of Iberia	type	ChristianSaintsKilledByMuslims
-Ashot I Of Iberia	type	9th-centuryChristianSaints
-Ashot I Of Iberia	type	CausalAgent100007347
-Ashot I Of Iberia	type	Unfortunate109630641
+Ashot I Of Iberia	Label	Ashot I Of Iberia
+Ashot I Of Iberia	Type	Q215627
+Ashot I Of Iberia	Type	Saint110546850
+Ashot I Of Iberia	Type	Representative110522035
+Ashot I Of Iberia	Type	Agent
+Ashot I Of Iberia	Type	Person
+Ashot I Of Iberia	Type	Headofstate110164747
+Ashot I Of Iberia	Type	Yagolegalactorgeo
+Ashot I Of Iberia	Type	Communicator109610660
+Ashot I Of Iberia	Type	Naturalperson
+Ashot I Of Iberia	Type	Agent
+Ashot I Of Iberia	Type	Saintsofgeorgia(Country)
+Ashot I Of Iberia	Type	Victim110752093
+Ashot I Of Iberia	Type	Livingthing100004258
+Ashot I Of Iberia	Type	Ruler110541229
+Ashot I Of Iberia	Type	Person
+Ashot I Of Iberia	Type	Q5
+Ashot I Of Iberia	Type	Goodperson110138767
+Ashot I Of Iberia	Type	Whole100003553
+Ashot I Of Iberia	Type	Martyr110296618
+Ashot I Of Iberia	Type	9Th-Centurychristianmartyrs
+Ashot I Of Iberia	Type	Royalty
+Ashot I Of Iberia	Type	Person
+Ashot I Of Iberia	Type	9Th-Centurymonarchsinasia
+Ashot I Of Iberia	Type	Thing
+Ashot I Of Iberia	Type	Person100007846
+Ashot I Of Iberia	Type	Yagolegalactor
+Ashot I Of Iberia	Type	Sovereign110628644
+Ashot I Of Iberia	Type	Negotiator110351874
+Ashot I Of Iberia	Type	Organism100004475
+Ashot I Of Iberia	Type	Physicalentity100001930
+Ashot I Of Iberia	Type	Object100002684
+Ashot I Of Iberia	Type	Monarchsofgeorgia(Country)
+Ashot I Of Iberia	Type	Christiansaintskilledbymuslims
+Ashot I Of Iberia	Type	9Th-Centurychristiansaints
+Ashot I Of Iberia	Type	Causalagent100007347
+Ashot I Of Iberia	Type	Unfortunate109630641
 Ashot I Of Iberia	Parent	Adarnase I Of Tao-Klarjeti
 Ashot I Of Iberia	Active Years Start Year	0813-01-01
 Ashot I Of Iberia	Death Date	0830-01-01
-Ashot I Of Iberia	depiction	Ashotkurapalatgeorgia.jpg
+Ashot I Of Iberia	Depiction	Ashotkurapalatgeorgia.Jpg
 Ashot I Of Iberia	Death Place	Nigali Valley
-Ashot I Of Iberia	Thumbnail	Ashotkurapalatgeorgia.jpg?width=300
+Ashot I Of Iberia	Thumbnail	Ashotkurapalatgeorgia.Jpg?Width=300
 Ashot I Of Iberia	Title	Kouropalatēs
-Ashot I Of Iberia	Title	Prince of Iberia
+Ashot I Of Iberia	Title	Prince Of Iberia
 Ashot I Of Iberia	Predecessor	Stephen Iii Of Iberia

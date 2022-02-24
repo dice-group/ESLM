@@ -1,31 +1,31 @@
 Time (Dave Clark Album)	Runtime (S)	6129.0
 Time (Dave Clark Album)	Genre	Pop Rock
 Time (Dave Clark Album)	Genre	Rock Music
-Time (Dave Clark Album)	name	Dave Clark's "Time": The Album
-Time (Dave Clark Album)	label	Time (Dave Clark Album)
-Time (Dave Clark Album)	subject	1986 Albums
-Time (Dave Clark Album)	subject	Concept Albums
+Time (Dave Clark Album)	Name	Dave Clark'S "Time": The Album
+Time (Dave Clark Album)	Label	Time (Dave Clark Album)
+Time (Dave Clark Album)	Subject	1986 Albums
+Time (Dave Clark Album)	Subject	Concept Albums
 Time (Dave Clark Album)	Record Label	Capitol Records
-Time (Dave Clark Album)	Record Label	Emi
-Time (Dave Clark Album)	Thumbnail	-_The_Album_1986.jpg?width=300
-Time (Dave Clark Album)	homepage	www.time-themusical.com
-Time (Dave Clark Album)	depiction	-_The_Album_1986.jpg
-Time (Dave Clark Album)	type	PhysicalEntity100001930
-Time (Dave Clark Album)	type	Q386724
-Time (Dave Clark Album)	type	Medium106254669
-Time (Dave Clark Album)	type	ConceptAlbums
-Time (Dave Clark Album)	type	Object100002684
-Time (Dave Clark Album)	type	Thing
-Time (Dave Clark Album)	type	Artifact100021939
-Time (Dave Clark Album)	type	MusicAlbum
-Time (Dave Clark Album)	type	ConceptAlbum106592078
-Time (Dave Clark Album)	type	CreativeWork
-Time (Dave Clark Album)	type	Work
-Time (Dave Clark Album)	type	1986Albums
-Time (Dave Clark Album)	type	Musical Work
-Time (Dave Clark Album)	type	Q482994
-Time (Dave Clark Album)	type	Album106591815
-Time (Dave Clark Album)	type	Album
-Time (Dave Clark Album)	type	Instrumentality103575240
-Time (Dave Clark Album)	type	Whole100003553
-Time (Dave Clark Album)	type	Q2188189
+Time (Dave Clark Album)	Record Label	EMI
+Time (Dave Clark Album)	Thumbnail	- The Album 1986.Jpg?Width=300
+Time (Dave Clark Album)	Homepage	Www.Time-Themusical.Com
+Time (Dave Clark Album)	Depiction	- The Album 1986.Jpg
+Time (Dave Clark Album)	Type	Physicalentity100001930
+Time (Dave Clark Album)	Type	Q386724
+Time (Dave Clark Album)	Type	Medium106254669
+Time (Dave Clark Album)	Type	Conceptalbums
+Time (Dave Clark Album)	Type	Object100002684
+Time (Dave Clark Album)	Type	Thing
+Time (Dave Clark Album)	Type	Artifact100021939
+Time (Dave Clark Album)	Type	Musicalbum
+Time (Dave Clark Album)	Type	Conceptalbum106592078
+Time (Dave Clark Album)	Type	Creativework
+Time (Dave Clark Album)	Type	Work
+Time (Dave Clark Album)	Type	1986Albums
+Time (Dave Clark Album)	Type	Musical Work
+Time (Dave Clark Album)	Type	Q482994
+Time (Dave Clark Album)	Type	Album106591815
+Time (Dave Clark Album)	Type	Album
+Time (Dave Clark Album)	Type	Instrumentality103575240
+Time (Dave Clark Album)	Type	Whole100003553
+Time (Dave Clark Album)	Type	Q2188189

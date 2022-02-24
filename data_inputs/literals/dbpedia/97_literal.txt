@@ -1,32 +1,32 @@
-Rebel Love Song	name	Rebel Love Song
+Rebel Love Song	Name	Rebel Love Song
 Rebel Love Song	Runtime (S)	237.0
 In The End (Black Veil Brides Song)	Previous Work	Rebel Love Song
 Unholy (Song)	Previous Work	Rebel Love Song
-Rebel Love Song	subject	Black Veil Brides Songs
-Rebel Love Song	subject	Glam Metal Songs
-Rebel Love Song	subject	2011 Singles
-Rebel Love Song	subject	Hard Rock Songs
-Rebel Love Song	subject	Songs Written By Andy Biersack
+Rebel Love Song	Subject	Black Veil Brides Songs
+Rebel Love Song	Subject	Glam Metal Songs
+Rebel Love Song	Subject	2011 Singles
+Rebel Love Song	Subject	Hard Rock Songs
+Rebel Love Song	Subject	Songs Written By Andy Biersack
 Rebel Love Song	Genre	Glam Metal
 Rebel Love Song	Genre	Hard Rock
-Rebel Love Song	depiction	Andy_Biersack_from_BVB.jpg
-Rebel Love Song	label	Rebel Love Song
+Rebel Love Song	Depiction	Andy Biersack From Bvb.Jpg
+Rebel Love Song	Label	Rebel Love Song
 Rebel Love Song	Musical Artist	Black Veil Brides
 Rebel Love Song	Previous Work	The Legacy (Song)
-Rebel Love Song	type	Q386724
-Rebel Love Song	type	Work
-Rebel Love Song	type	CreativeWork
-Rebel Love Song	type	Musical Work
-Rebel Love Song	type	Thing
-Rebel Love Song	type	Q134556
-Rebel Love Song	type	Single
-Rebel Love Song	type	Q2188189
+Rebel Love Song	Type	Q386724
+Rebel Love Song	Type	Work
+Rebel Love Song	Type	Creativework
+Rebel Love Song	Type	Musical Work
+Rebel Love Song	Type	Thing
+Rebel Love Song	Type	Q134556
+Rebel Love Song	Type	Single
+Rebel Love Song	Type	Q2188189
 Rebel Love Song	Record Label	Universal Republic Records
 Rebel Love Song	Record Label	Lava Records
 Rebel Love Song	Subsequent Work	In The End (Black Veil Brides Song)
 Rebel Love Song	Writer	Black Veil Brides
 Rebel Love Song	Record Date	2011-08-22
-Rebel Love Song	Thumbnail	Andy_Biersack_from_BVB.jpg?width=300
+Rebel Love Song	Thumbnail	Andy Biersack From Bvb.Jpg?Width=300
 Rebel Love Song	Format (Object)	Music Download
 Rebel Love Song	Musical Band	Black Veil Brides
 The Legacy (Song)	Subsequent Work	Rebel Love Song

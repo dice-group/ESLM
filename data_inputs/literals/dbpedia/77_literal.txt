@@ -1,5 +1,5 @@
-Saint-Raphaël, Var	subject	Communes Of Var (Department)
-Saint-Raphaël, Var	name	Saint-Raphaël
+Saint-Raphaël, Var	Subject	Communes Of Var (Department)
+Saint-Raphaël, Var	Name	Saint-Raphaël
 Saint-Raphaël, Var	Area (M2)	89590000.0
 Henry Bérenger	Death Place	Saint-Raphaël, Var
 Sim (Actor)	Death Place	Saint-Raphaël, Var
@@ -15,38 +15,38 @@ Ralph Paget	Death Place	Saint-Raphaël, Var
 Germaine Sablon	Death Place	Saint-Raphaël, Var
 Shahan Shahnour	Death Place	Saint-Raphaël, Var
 Saint-Raphaël, Var	Elevation (Μ)	10.0
-Saint-Raphaël, Var	type	District108552138
-Saint-Raphaël, Var	type	Object100002684
-Saint-Raphaël, Var	type	AdministrativeDistrict108491826
-Saint-Raphaël, Var	type	SpatialThing
-Saint-Raphaël, Var	type	Region108630985
-Saint-Raphaël, Var	type	Place
-Saint-Raphaël, Var	type	Location
-Saint-Raphaël, Var	type	Settlement
-Saint-Raphaël, Var	type	Thing
-Saint-Raphaël, Var	type	YagoPermanentlyLocatedEntity
-Saint-Raphaël, Var	type	YagoLegalActorGeo
-Saint-Raphaël, Var	type	Location100027167
-Saint-Raphaël, Var	type	Place
-Saint-Raphaël, Var	type	Populated Place
-Saint-Raphaël, Var	type	PhysicalEntity100001930
-Saint-Raphaël, Var	type	YagoGeoEntity
-Saint-Raphaël, Var	type	Q486972
-Saint-Raphaël, Var	type	CommunesOfVar(department)
-Saint-Raphaël, Var	type	Commune108541609
-Saint-Raphaël, Var	lat	43.4252
-Saint-Raphaël, Var	Thumbnail	MairieStRaphaël.JPG?width=300
-Saint-Raphaël, Var	long	6.7684
+Saint-Raphaël, Var	Type	District108552138
+Saint-Raphaël, Var	Type	Object100002684
+Saint-Raphaël, Var	Type	Administrativedistrict108491826
+Saint-Raphaël, Var	Type	Spatialthing
+Saint-Raphaël, Var	Type	Region108630985
+Saint-Raphaël, Var	Type	Place
+Saint-Raphaël, Var	Type	Location
+Saint-Raphaël, Var	Type	Settlement
+Saint-Raphaël, Var	Type	Thing
+Saint-Raphaël, Var	Type	Yagopermanentlylocatedentity
+Saint-Raphaël, Var	Type	Yagolegalactorgeo
+Saint-Raphaël, Var	Type	Location100027167
+Saint-Raphaël, Var	Type	Place
+Saint-Raphaël, Var	Type	Populated Place
+Saint-Raphaël, Var	Type	Physicalentity100001930
+Saint-Raphaël, Var	Type	Yagogeoentity
+Saint-Raphaël, Var	Type	Q486972
+Saint-Raphaël, Var	Type	Communesofvar(Department)
+Saint-Raphaël, Var	Type	Commune108541609
+Saint-Raphaël, Var	Lat	43.4252
+Saint-Raphaël, Var	Thumbnail	Mairiestraphaël.Jpg?Width=300
+Saint-Raphaël, Var	Long	6.7684
 Saint-Raphaël, Var	Country	France
 Saint-Raphaël, Var	Department	Var (Department)
-Saint-Raphaël, Var	seeAlso	Lists Of Twin Towns And Sister Cities
-Saint-Raphaël, Var	seeAlso	Twin Towns And Sister Cities
-Saint-Raphaël, Var	seeAlso	France
-Saint-Raphaël, Var	point	43.4252 6.7684
-Saint-Raphaël, Var	Postal Code	83700 and 83530
-Saint-Raphaël, Var	label	Saint-Raphaël, Var
+Saint-Raphaël, Var	Seealso	Lists Of Twin Towns And Sister Cities
+Saint-Raphaël, Var	Seealso	Twin Towns And Sister Cities
+Saint-Raphaël, Var	Seealso	France
+Saint-Raphaël, Var	Point	43.4252 6.7684
+Saint-Raphaël, Var	Postal Code	83700 And 83530
+Saint-Raphaël, Var	Label	Saint-Raphaël, Var
 Saint-Raphaël, Var	Maximum Elevation (Μ)	560.0
-Saint-Raphaël, Var	depiction	MairieStRaphaël.JPG
+Saint-Raphaël, Var	Depiction	Mairiestraphaël.Jpg
 Stade Louis Hon	Location	Saint-Raphaël, Var
 Saint-Raphaël, Var	Minimum Elevation (Μ)	0.0
 Saint-Raphaël, Var	Population Total	34425

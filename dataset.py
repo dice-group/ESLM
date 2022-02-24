@@ -70,30 +70,33 @@ class ESBenchmark:
         with open(os.path.join(self.db_path, f"{num}", f"{num}_desc.nt"), 'rb') as reader:
             parser.parse(reader)
         return triples
-    @staticmethod
-    def read_split(fold_path, split_name):
-        """Read data from splitted txt"""
-        split_eids = []
-        with open(os.path.join(fold_path, f"{split_name}.txt"), encoding='utf-8') as reader:
-            for line in reader:
-                len_line = len(line.strip())
-                if  len_line == 0:
-                    continue
-                eid = int(line.split('\t')[0])
-                split_eids.append(eid)
-        return split_eids
     def get_labels(self, num):
         """Get entity label from knowledge base"""
         triples = self.get_triples(num)
-        endpoint = "http://dbpedia.org/sparql"
+        if self.ds_name=="dbpedia":
+            endpoint = "http://dbpedia.org/sparql"
+        elif self.ds_name=="lmdb":
+            endpoint = "https://api.triplydb.com/datasets/Triply/linkedmdb/services/linkedmdb/sparql"
         triples_tuple = []
         for sub, pred, obj in triples:
-            if UTILS.is_uri(obj):
+            if UTILS.is_uri(obj) and self.ds_name=="dbpedia":
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
+            elif UTILS.is_uri(obj) and self.ds_name=="lmdb":
+                obj_literal = UTILS.get_label_of_entity_lmdb(obj, endpoint)
             else:
-                obj_literal = obj
-            pred_literal = UTILS.get_label_of_entity(pred, endpoint)
-            sub_literal = UTILS.get_label_of_entity(sub, endpoint)
+                if type(obj) == str:
+                    if obj.isupper():
+                        obj_literal = obj
+                    else:
+                        obj_literal = obj.title()
+                else:
+                    obj_literal = obj
+            if self.ds_name=="dbpedia":
+                pred_literal = UTILS.get_label_of_entity(pred, endpoint)
+                sub_literal = UTILS.get_label_of_entity(sub, endpoint)
+            elif self.ds_name == "lmdb":
+                pred_literal = UTILS.get_label_of_entity_lmdb(pred, endpoint)
+                sub_literal = UTILS.get_label_of_entity_lmdb(sub, endpoint)
             triple = (sub_literal, pred_literal, obj_literal)
             triples_tuple.append(triple)
         return triples_tuple
@@ -205,8 +208,24 @@ class ESBenchmark:
             if triple not in triples_dict:
                 triples_dict[triple] = len(triples_dict)
         return triples_dict
+    @staticmethod
+    def read_split(fold_path, split_name):
+        """Read data from splitted txt"""
+        split_eids = []
+        with open(os.path.join(fold_path, f"{split_name}.txt"), encoding='utf-8') as reader:
+            for line in reader:
+                len_line = len(line.strip())
+                if  len_line == 0:
+                    continue
+                eid = int(line.split('\t')[0])
+                split_eids.append(eid)
+        return split_eids
     @property
     def get_ds_name(self):
         """Get property of dataset name"""
         return self.ds_name
+    @property
+    def get_db_path(self):
+        """Get property of database path"""
+        return self.db_path
     

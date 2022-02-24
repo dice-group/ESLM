@@ -1,72 +1,72 @@
-A. Scott Sloan	name	Andrew Scott Sloan
-A. Scott Sloan	name	Sloan, Andrew Scott
-A. Scott Sloan	depiction	Andrew_Scott_Sloan_(Wisconsin_Congressman).jpg
+A. Scott Sloan	Name	Andrew Scott Sloan
+A. Scott Sloan	Name	Sloan, Andrew Scott
+A. Scott Sloan	Depiction	Andrew Scott Sloan (Wisconsin Congressman).Jpg
 A. Scott Sloan	Party	Republican Party (United States)
 A. Scott Sloan	Birth Date	1820-06-12
-A. Scott Sloan	surname	Sloan
+A. Scott Sloan	Surname	Sloan
 A. Scott Sloan	Death Year	1895-01-01
 A. Scott Sloan	Successor	Amasa Cobb
 A. Scott Sloan	Active Years Start Date	1861-03-04
 A. Scott Sloan	Active Years End Date	1863-03-03
-A. Scott Sloan	subject	People From Dodge County, Wisconsin
-A. Scott Sloan	subject	Wisconsin Republicans
-A. Scott Sloan	subject	Wisconsin Attorneys General
-A. Scott Sloan	subject	New_York_lawyers
-A. Scott Sloan	subject	People From Morrisville, New York
-A. Scott Sloan	subject	People From Beaver Dam, Wisconsin
-A. Scott Sloan	subject	Republican Party Members Of The United States House Of Representatives
-A. Scott Sloan	subject	1895 Deaths
-A. Scott Sloan	subject	New_York_Republicans
-A. Scott Sloan	subject	Wisconsin State Court Judges
-A. Scott Sloan	subject	Members Of The Wisconsin State Assembly
-A. Scott Sloan	subject	Members Of The United States House Of Representatives From Wisconsin
-A. Scott Sloan	subject	Wisconsin Lawyers
-A. Scott Sloan	subject	Mayors Of Places In Wisconsin
-A. Scott Sloan	subject	1820 Births
+A. Scott Sloan	Subject	People From Dodge County, Wisconsin
+A. Scott Sloan	Subject	Wisconsin Republicans
+A. Scott Sloan	Subject	Wisconsin Attorneys General
+A. Scott Sloan	Subject	New York Lawyers
+A. Scott Sloan	Subject	People From Morrisville, New York
+A. Scott Sloan	Subject	People From Beaver Dam, Wisconsin
+A. Scott Sloan	Subject	Republican Party Members Of The United States House Of Representatives
+A. Scott Sloan	Subject	1895 Deaths
+A. Scott Sloan	Subject	New York Republicans
+A. Scott Sloan	Subject	Wisconsin State Court Judges
+A. Scott Sloan	Subject	Members Of The Wisconsin State Assembly
+A. Scott Sloan	Subject	Members Of The United States House Of Representatives From Wisconsin
+A. Scott Sloan	Subject	Wisconsin Lawyers
+A. Scott Sloan	Subject	Mayors Of Places In Wisconsin
+A. Scott Sloan	Subject	1820 Births
 A. Scott Sloan	Birth Year	1820-01-01
 A. Scott Sloan	Death Date	1895-04-08
 A. Scott Sloan	Death Place	Beaver Dam, Wisconsin
 A. Scott Sloan	Death Place	Wisconsin
 Charles H. Larrabee	Successor	A. Scott Sloan
-A. Scott Sloan	givenName	Andrew Scott
-A. Scott Sloan	description	American politician
-A. Scott Sloan	description	American politician
-A. Scott Sloan	Thumbnail	Andrew_Scott_Sloan_(Wisconsin_Congressman).jpg?width=300
-A. Scott Sloan	type	PhysicalEntity100001930
-A. Scott Sloan	type	Authority109824609
-A. Scott Sloan	type	Official110372373
-A. Scott Sloan	type	Object100002684
-A. Scott Sloan	type	Thing
-A. Scott Sloan	type	WisconsinStateCourtJudges
-A. Scott Sloan	type	CausalAgent100007347
-A. Scott Sloan	type	Person100007846
-A. Scott Sloan	type	Leader109623038
-A. Scott Sloan	type	Agent
-A. Scott Sloan	type	Mayor110303814
-A. Scott Sloan	type	Judge110225219
-A. Scott Sloan	type	LivingThing100004258
-A. Scott Sloan	type	YagoLegalActor
-A. Scott Sloan	type	Person
-A. Scott Sloan	type	MayorsOfPlacesInWisconsin
-A. Scott Sloan	type	YagoLegalActorGeo
-A. Scott Sloan	type	Politician
-A. Scott Sloan	type	Whole100003553
-A. Scott Sloan	type	Politician110451263
-A. Scott Sloan	type	Congressman
-A. Scott Sloan	type	Worker109632518
-A. Scott Sloan	type	Q215627
-A. Scott Sloan	type	NaturalPerson
-A. Scott Sloan	type	Q82955
-A. Scott Sloan	type	Person
-A. Scott Sloan	type	PeopleFromBeaverDam,Wisconsin
-A. Scott Sloan	type	PeopleFromDodgeCounty,Wisconsin
-A. Scott Sloan	type	Adjudicator109769636
-A. Scott Sloan	type	Q5
-A. Scott Sloan	type	SkilledWorker110605985
-A. Scott Sloan	type	Agent
-A. Scott Sloan	type	CivilAuthority110541833
-A. Scott Sloan	type	Person
-A. Scott Sloan	type	Organism100004475
-A. Scott Sloan	label	A. Scott Sloan
+A. Scott Sloan	Givenname	Andrew Scott
+A. Scott Sloan	Description	American Politician
+A. Scott Sloan	Description	American Politician
+A. Scott Sloan	Thumbnail	Andrew Scott Sloan (Wisconsin Congressman).Jpg?Width=300
+A. Scott Sloan	Type	Physicalentity100001930
+A. Scott Sloan	Type	Authority109824609
+A. Scott Sloan	Type	Official110372373
+A. Scott Sloan	Type	Object100002684
+A. Scott Sloan	Type	Thing
+A. Scott Sloan	Type	Wisconsinstatecourtjudges
+A. Scott Sloan	Type	Causalagent100007347
+A. Scott Sloan	Type	Person100007846
+A. Scott Sloan	Type	Leader109623038
+A. Scott Sloan	Type	Agent
+A. Scott Sloan	Type	Mayor110303814
+A. Scott Sloan	Type	Judge110225219
+A. Scott Sloan	Type	Livingthing100004258
+A. Scott Sloan	Type	Yagolegalactor
+A. Scott Sloan	Type	Person
+A. Scott Sloan	Type	Mayorsofplacesinwisconsin
+A. Scott Sloan	Type	Yagolegalactorgeo
+A. Scott Sloan	Type	Politician
+A. Scott Sloan	Type	Whole100003553
+A. Scott Sloan	Type	Politician110451263
+A. Scott Sloan	Type	Congressman
+A. Scott Sloan	Type	Worker109632518
+A. Scott Sloan	Type	Q215627
+A. Scott Sloan	Type	Naturalperson
+A. Scott Sloan	Type	Q82955
+A. Scott Sloan	Type	Person
+A. Scott Sloan	Type	Peoplefrombeaverdam,Wisconsin
+A. Scott Sloan	Type	Peoplefromdodgecounty,Wisconsin
+A. Scott Sloan	Type	Adjudicator109769636
+A. Scott Sloan	Type	Q5
+A. Scott Sloan	Type	Skilledworker110605985
+A. Scott Sloan	Type	Agent
+A. Scott Sloan	Type	Civilauthority110541833
+A. Scott Sloan	Type	Person
+A. Scott Sloan	Type	Organism100004475
+A. Scott Sloan	Label	A. Scott Sloan
 A. Scott Sloan	Birth Place	Morrisville, New York
 A. Scott Sloan	Birth Place	New York

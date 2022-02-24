@@ -1,33 +1,33 @@
 Amphisbaena Ridleyi	Binomial Authority	George Albert Boulenger
-Amphisbaena Ridleyi	type	Organism100004475
-Amphisbaena Ridleyi	type	Animal
-Amphisbaena Ridleyi	type	ReptilesOfBrazil
-Amphisbaena Ridleyi	type	Q729
-Amphisbaena Ridleyi	type	Vertebrate101471682
-Amphisbaena Ridleyi	type	Chordate101466257
-Amphisbaena Ridleyi	type	Q19088
-Amphisbaena Ridleyi	type	Object100002684
-Amphisbaena Ridleyi	type	Reptile101661091
-Amphisbaena Ridleyi	type	Animal100015388
-Amphisbaena Ridleyi	type	Reptile
-Amphisbaena Ridleyi	type	Species
-Amphisbaena Ridleyi	type	Thing
-Amphisbaena Ridleyi	type	Eukaryote
-Amphisbaena Ridleyi	type	PhysicalEntity100001930
-Amphisbaena Ridleyi	type	Whole100003553
-Amphisbaena Ridleyi	type	LivingThing100004258
-Amphisbaena Ridleyi	subject	Endemic Fauna Of Brazil
-Amphisbaena Ridleyi	subject	Amphisbaena
-Amphisbaena Ridleyi	subject	Fernando De Noronha
-Amphisbaena Ridleyi	subject	Reptiles Of Brazil
-Amphisbaena Ridleyi	Thumbnail	Amphisbaena_ridleyi_distribution.png?width=300
+Amphisbaena Ridleyi	Type	Organism100004475
+Amphisbaena Ridleyi	Type	Animal
+Amphisbaena Ridleyi	Type	Reptilesofbrazil
+Amphisbaena Ridleyi	Type	Q729
+Amphisbaena Ridleyi	Type	Vertebrate101471682
+Amphisbaena Ridleyi	Type	Chordate101466257
+Amphisbaena Ridleyi	Type	Q19088
+Amphisbaena Ridleyi	Type	Object100002684
+Amphisbaena Ridleyi	Type	Reptile101661091
+Amphisbaena Ridleyi	Type	Animal100015388
+Amphisbaena Ridleyi	Type	Reptile
+Amphisbaena Ridleyi	Type	Species
+Amphisbaena Ridleyi	Type	Thing
+Amphisbaena Ridleyi	Type	Eukaryote
+Amphisbaena Ridleyi	Type	Physicalentity100001930
+Amphisbaena Ridleyi	Type	Whole100003553
+Amphisbaena Ridleyi	Type	Livingthing100004258
+Amphisbaena Ridleyi	Subject	Endemic Fauna Of Brazil
+Amphisbaena Ridleyi	Subject	Amphisbaena
+Amphisbaena Ridleyi	Subject	Fernando De Noronha
+Amphisbaena Ridleyi	Subject	Reptiles Of Brazil
+Amphisbaena Ridleyi	Thumbnail	Amphisbaena Ridleyi Distribution.Png?Width=300
 Amphisbaena Ridleyi	Conservation Status	LC
 Amphisbaena Ridleyi	Family	Amphisbaenidae
 Amphisbaena Ridleyi	Class	Reptile
 Amphisbaena Ridleyi	Phylum	Chordate
 Amphisbaena Ridleyi	Phylum	Vertebrate
-Amphisbaena Ridleyi	label	Amphisbaena ridleyi
-Amphisbaena Ridleyi	depiction	Amphisbaena_ridleyi_distribution.png
+Amphisbaena Ridleyi	Label	Amphisbaena Ridleyi
+Amphisbaena Ridleyi	Depiction	Amphisbaena Ridleyi Distribution.Png
 Amphisbaena Ridleyi	Conservation Status System	IUCN3.1
 Amphisbaena Ridleyi	Genus	Amphisbaena (Genus)
 Amphisbaena Ridleyi	Kingdom	Animal

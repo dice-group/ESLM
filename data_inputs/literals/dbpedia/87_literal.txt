@@ -1,23 +1,23 @@
 Pseudanos Trimaculatus	Family	Anostomidae
 Pseudanos Trimaculatus	Genus	Pseudanos
-Pseudanos Trimaculatus	label	Pseudanos trimaculatus
-Pseudanos Trimaculatus	name	Pseudanos trimaculatus
-Pseudanos Trimaculatus	subject	Fish Of Argentina
-Pseudanos Trimaculatus	subject	Fish Of Peru
-Pseudanos Trimaculatus	subject	Fish Of Brazil
-Pseudanos Trimaculatus	subject	Fish Of South America
-Pseudanos Trimaculatus	subject	Anostomidae
-Pseudanos Trimaculatus	type	Q729
-Pseudanos Trimaculatus	type	Q19088
-Pseudanos Trimaculatus	type	Q152
-Pseudanos Trimaculatus	type	Animal
-Pseudanos Trimaculatus	type	Thing
-Pseudanos Trimaculatus	type	Fish
-Pseudanos Trimaculatus	type	Species
-Pseudanos Trimaculatus	type	Eukaryote
+Pseudanos Trimaculatus	Label	Pseudanos Trimaculatus
+Pseudanos Trimaculatus	Name	Pseudanos Trimaculatus
+Pseudanos Trimaculatus	Subject	Fish Of Argentina
+Pseudanos Trimaculatus	Subject	Fish Of Peru
+Pseudanos Trimaculatus	Subject	Fish Of Brazil
+Pseudanos Trimaculatus	Subject	Fish Of South America
+Pseudanos Trimaculatus	Subject	Anostomidae
+Pseudanos Trimaculatus	Type	Q729
+Pseudanos Trimaculatus	Type	Q19088
+Pseudanos Trimaculatus	Type	Q152
+Pseudanos Trimaculatus	Type	Animal
+Pseudanos Trimaculatus	Type	Thing
+Pseudanos Trimaculatus	Type	Fish
+Pseudanos Trimaculatus	Type	Species
+Pseudanos Trimaculatus	Type	Eukaryote
 Pseudanos Trimaculatus	Class	Actinopterygii
 Pseudanos Trimaculatus	Order (Taxonomy)	Characiformes
-Pseudanos Trimaculatus	Conservation Status System	iucn3.1
+Pseudanos Trimaculatus	Conservation Status System	Iucn3.1
 Pseudanos Trimaculatus	Phylum	Chordate
 Pseudanos Trimaculatus	Binomial Authority	Rudolf Kner
 Pseudanos Trimaculatus	Kingdom	Animal

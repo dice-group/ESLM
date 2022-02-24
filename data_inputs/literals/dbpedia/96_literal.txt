@@ -1,43 +1,43 @@
-Politiken	Thumbnail	Politiken_newspaper_logo.svg?width=300
-Politiken	homepage	politiken.dk
+Politiken	Thumbnail	Politiken Newspaper Logo.Svg?Width=300
+Politiken	Homepage	Politiken.Dk
 Politiken	Sister Newspaper	Jyllands-Posten
 Politiken	Circulation	88597
-Politiken	depiction	Politiken_newspaper_logo.svg
+Politiken	Depiction	Politiken Newspaper Logo.Svg
 Politiken	Format (Object)	Broadsheet
 Politiken	Publisher	Jp/Politikens Hus
-Politiken	label	Politiken
+Politiken	Label	Politiken
 Politiken	Editor	Bo Lidegaard
 Politiken	Language	Danish Language
-Politiken	type	Publication106589574
-Politiken	type	Whole100003553
-Politiken	type	PublicationsEstablishedIn1884
-Politiken	type	Press106263369
-Politiken	type	PhysicalEntity100001930
-Politiken	type	Q386724
-Politiken	type	Medium106254669
-Politiken	type	Newspaper106267145
-Politiken	type	Object100002684
-Politiken	type	Danish-languageNewspapers
-Politiken	type	Artifact100021939
-Politiken	type	Written Work
-Politiken	type	Product104007894
-Politiken	type	NewspapersPublishedInDenmark
-Politiken	type	Work104599396
-Politiken	type	Creation103129123
-Politiken	type	Newspaper
-Politiken	type	Work
-Politiken	type	Thing
-Politiken	type	Instrumentality103575240
-Politiken	type	Periodical Literature
-Politiken	type	PrintMedia106263609
-Politiken	type	Q1092563
-Politiken	type	Q11032
-Politiken	type	CreativeWork
-Politiken	name	Politiken
-Politiken	subject	Publications Established In 1884
-Politiken	subject	Newspapers Published In Denmark
-Politiken	subject	Danish-Language Newspapers
-Politiken	subject	Media_in_Copenhagen
-Politiken	subject	1884 Establishments In Denmark
+Politiken	Type	Publication106589574
+Politiken	Type	Whole100003553
+Politiken	Type	Publicationsestablishedin1884
+Politiken	Type	Press106263369
+Politiken	Type	Physicalentity100001930
+Politiken	Type	Q386724
+Politiken	Type	Medium106254669
+Politiken	Type	Newspaper106267145
+Politiken	Type	Object100002684
+Politiken	Type	Danish-Languagenewspapers
+Politiken	Type	Artifact100021939
+Politiken	Type	Written Work
+Politiken	Type	Product104007894
+Politiken	Type	Newspaperspublishedindenmark
+Politiken	Type	Work104599396
+Politiken	Type	Creation103129123
+Politiken	Type	Newspaper
+Politiken	Type	Work
+Politiken	Type	Thing
+Politiken	Type	Instrumentality103575240
+Politiken	Type	Periodical Literature
+Politiken	Type	Printmedia106263609
+Politiken	Type	Q1092563
+Politiken	Type	Q11032
+Politiken	Type	Creativework
+Politiken	Name	Politiken
+Politiken	Subject	Publications Established In 1884
+Politiken	Subject	Newspapers Published In Denmark
+Politiken	Subject	Danish-Language Newspapers
+Politiken	Subject	Media In Copenhagen
+Politiken	Subject	1884 Establishments In Denmark
 Politiken	Headquarter	Copenhagen
 Politiken	Headquarter	Denmark

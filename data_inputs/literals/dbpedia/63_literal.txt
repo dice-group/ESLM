@@ -1,18 +1,18 @@
-2008 Copa América – Fifa Futsal	type	SportsEvent
-2008 Copa América – Fifa Futsal	type	Event
-2008 Copa América – Fifa Futsal	type	Event
-2008 Copa América – Fifa Futsal	type	Soccer Tournoment
-2008 Copa América – Fifa Futsal	type	Tournament
-2008 Copa América – Fifa Futsal	type	Societal Event
-2008 Copa América – Fifa Futsal	type	Q500834
-2008 Copa América – Fifa Futsal	type	Sports Event
-2008 Copa América – Fifa Futsal	type	Event
-2008 Copa América – Fifa Futsal	type	Thing
-2008 Copa América – Fifa Futsal	type	Q1656682
-2008 Copa América – Fifa Futsal	subject	2008 In Futsal
-2008 Copa América – Fifa Futsal	subject	Copa América De Futsal
-2008 Copa América – Fifa Futsal	subject	International Association Football Competitions Hosted By Uruguay
-2008 Copa América – Fifa Futsal	subject	2007–08 In Uruguayan Football
+2008 Copa América – Fifa Futsal	Type	Sportsevent
+2008 Copa América – Fifa Futsal	Type	Event
+2008 Copa América – Fifa Futsal	Type	Event
+2008 Copa América – Fifa Futsal	Type	Soccer Tournoment
+2008 Copa América – Fifa Futsal	Type	Tournament
+2008 Copa América – Fifa Futsal	Type	Societal Event
+2008 Copa América – Fifa Futsal	Type	Q500834
+2008 Copa América – Fifa Futsal	Type	Sports Event
+2008 Copa América – Fifa Futsal	Type	Event
+2008 Copa América – Fifa Futsal	Type	Thing
+2008 Copa América – Fifa Futsal	Type	Q1656682
+2008 Copa América – Fifa Futsal	Subject	2008 In Futsal
+2008 Copa América – Fifa Futsal	Subject	Copa América De Futsal
+2008 Copa América – Fifa Futsal	Subject	International Association Football Competitions Hosted By Uruguay
+2008 Copa América – Fifa Futsal	Subject	2007–08 In Uruguayan Football
 2008 Copa América – Fifa Futsal	Time	17:00
 2008 Copa América – Fifa Futsal	Time	18:35
 2008 Copa América – Fifa Futsal	Time	20:30
@@ -24,4 +24,4 @@
 2008 Copa América – Fifa Futsal	Time	18:00
 2008 Copa América – Fifa Futsal	Time	21:50
 2008 Copa América – Fifa Futsal	Time	18:30
-2008 Copa América – Fifa Futsal	label	2008 Copa América – FIFA Futsal
+2008 Copa América – Fifa Futsal	Label	2008 Copa América – Fifa Futsal

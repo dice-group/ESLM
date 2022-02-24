@@ -101,24 +101,22 @@ class BertGATES(BertPreTrainedModel):
     def __init__(self, bert_config, max_seq_length, dim=768):
         super().__init__(bert_config, config)
         self.bert = BertModel(bert_config)
-        self.input_size = max_seq_length * dim
+        self.input_size = dim
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
+        self.bert_drop = nn.Dropout(0.4)
         self.gat = GAT(nfeat=self.input_size, nhid=self.hidden_layer, nclass=1, alpha=0.2)
     def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
         """forward"""
-        facts_encode = self.bert(input_ids, segment_ids, input_mask)
-        facts_encode = facts_encode[0]#torch.transpose(facts_encode[0], 0, 1)
-        #print(facts_encode.shape)
-        feats = torch.flatten(facts_encode, start_dim=1)
-        #print(feats.shape)
+        outputs= self.bert(input_ids, segment_ids, input_mask)
+        bert_out = self.bert_drop(outputs.pooler_output)
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
-        features = feats
+        features = bert_out
         features = UTILS.normalize_features(features.detach().numpy())
         features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)

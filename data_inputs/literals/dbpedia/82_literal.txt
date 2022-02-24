@@ -1,5 +1,5 @@
 Balanites	Division	Flowering Plant
-Balanites	label	Balanites
+Balanites	Label	Balanites
 Balanites	Class	Eudicots
 Balanites	Family	Tribuloideae
 Balanites	Family	Zygophyllaceae
@@ -9,13 +9,13 @@ Balanites Aegyptiaca	Genus	Balanites
 Balanites Roxburghii	Genus	Balanites
 Balanites Maughamii	Genus	Balanites
 Balanites	Kingdom	Plant
-Balanites	Thumbnail	Zarga_mountains_(11).jpg?width=300
-Balanites	subject	Balanites
-Balanites	name	Balanites
-Balanites	depiction	Zarga_mountains_(11).jpg
-Balanites	type	Species
-Balanites	type	Thing
-Balanites	type	Eukaryote
-Balanites	type	Plant
-Balanites	type	Q19088
-Balanites	type	Q756
+Balanites	Thumbnail	Zarga Mountains (11).Jpg?Width=300
+Balanites	Subject	Balanites
+Balanites	Name	Balanites
+Balanites	Depiction	Zarga Mountains (11).Jpg
+Balanites	Type	Species
+Balanites	Type	Thing
+Balanites	Type	Eukaryote
+Balanites	Type	Plant
+Balanites	Type	Q19088
+Balanites	Type	Q756

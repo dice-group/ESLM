@@ -1,9 +1,9 @@
 It'S Still Rock And Roll To Me	Subsequent Work	Don'T Ask Me Why (Billy Joel Song)
 It'S Still Rock And Roll To Me	Previous Work	You May Be Right (Song)
 It'S Still Rock And Roll To Me	Runtime (S)	177.0
-It'S Still Rock And Roll To Me	label	It's Still Rock and Roll to Me
-It'S Still Rock And Roll To Me	name	It's Still Rock and Roll to Me
-It'S Still Rock And Roll To Me	Certification	Platinum (RIAA)
+It'S Still Rock And Roll To Me	Label	It'S Still Rock And Roll To Me
+It'S Still Rock And Roll To Me	Name	It'S Still Rock And Roll To Me
+It'S Still Rock And Roll To Me	Certification	Platinum (Riaa)
 You May Be Right (Song)	Subsequent Work	It'S Still Rock And Roll To Me
 It'S Still Rock And Roll To Me	Genre	Rock Music
 It'S Still Rock And Roll To Me	Genre	New Wave Music
@@ -12,23 +12,23 @@ It'S Still Rock And Roll To Me	Release Date	1980-05-12
 It'S Still Rock And Roll To Me	Producer	Phil Ramone
 Don'T Ask Me Why (Billy Joel Song)	Previous Work	It'S Still Rock And Roll To Me
 It'S Still Rock And Roll To Me	Musical Band	Billy Joel
-It'S Still Rock And Roll To Me	type	Thing
-It'S Still Rock And Roll To Me	type	Q386724
-It'S Still Rock And Roll To Me	type	Work
-It'S Still Rock And Roll To Me	type	CreativeWork
-It'S Still Rock And Roll To Me	type	Musical Work
-It'S Still Rock And Roll To Me	type	Q2188189
-It'S Still Rock And Roll To Me	type	Single
-It'S Still Rock And Roll To Me	type	Q134556
+It'S Still Rock And Roll To Me	Type	Thing
+It'S Still Rock And Roll To Me	Type	Q386724
+It'S Still Rock And Roll To Me	Type	Work
+It'S Still Rock And Roll To Me	Type	Creativework
+It'S Still Rock And Roll To Me	Type	Musical Work
+It'S Still Rock And Roll To Me	Type	Q2188189
+It'S Still Rock And Roll To Me	Type	Single
+It'S Still Rock And Roll To Me	Type	Q134556
 It'S Still Rock And Roll To Me	Record Label	Columbia Records
 It'S Still Rock And Roll To Me	Musical Artist	Billy Joel
-It'S Still Rock And Roll To Me	subject	Billboard Hot 100 Number-One Singles
-It'S Still Rock And Roll To Me	subject	Singles_certified_platinum_by_the_Recording_Industry_Association_of_America
-It'S Still Rock And Roll To Me	subject	Songs Written By Billy Joel
-It'S Still Rock And Roll To Me	subject	Columbia Records Singles
-It'S Still Rock And Roll To Me	subject	Songs About Music
-It'S Still Rock And Roll To Me	subject	Song Recordings Produced By Phil Ramone
-It'S Still Rock And Roll To Me	subject	Billy Joel Songs
-It'S Still Rock And Roll To Me	subject	1980 Singles
-It'S Still Rock And Roll To Me	subject	1980 Songs
+It'S Still Rock And Roll To Me	Subject	Billboard Hot 100 Number-One Singles
+It'S Still Rock And Roll To Me	Subject	Singles Certified Platinum By The Recording Industry Association Of America
+It'S Still Rock And Roll To Me	Subject	Songs Written By Billy Joel
+It'S Still Rock And Roll To Me	Subject	Columbia Records Singles
+It'S Still Rock And Roll To Me	Subject	Songs About Music
+It'S Still Rock And Roll To Me	Subject	Song Recordings Produced By Phil Ramone
+It'S Still Rock And Roll To Me	Subject	Billy Joel Songs
+It'S Still Rock And Roll To Me	Subject	1980 Singles
+It'S Still Rock And Roll To Me	Subject	1980 Songs
 It'S Still Rock And Roll To Me	Album	Glass Houses

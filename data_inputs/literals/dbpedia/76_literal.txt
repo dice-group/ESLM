@@ -1,36 +1,36 @@
-Pinnacle Mountain (South Carolina)	type	Place
-Pinnacle Mountain (South Carolina)	type	YagoPermanentlyLocatedEntity
-Pinnacle Mountain (South Carolina)	type	Region108630985
-Pinnacle Mountain (South Carolina)	type	YagoGeoEntity
-Pinnacle Mountain (South Carolina)	type	Mountain109359803
-Pinnacle Mountain (South Carolina)	type	Location
-Pinnacle Mountain (South Carolina)	type	NaturalElevation109366317
-Pinnacle Mountain (South Carolina)	type	Place
-Pinnacle Mountain (South Carolina)	type	Object100002684
-Pinnacle Mountain (South Carolina)	type	Thing
-Pinnacle Mountain (South Carolina)	type	Natural Place
-Pinnacle Mountain (South Carolina)	type	Mountain
-Pinnacle Mountain (South Carolina)	type	Area108497294
-Pinnacle Mountain (South Carolina)	type	Location100027167
-Pinnacle Mountain (South Carolina)	type	Mountain
-Pinnacle Mountain (South Carolina)	type	PhysicalEntity100001930
-Pinnacle Mountain (South Carolina)	type	ProtectedAreasOfPickensCounty,SouthCarolina
-Pinnacle Mountain (South Carolina)	type	MountainsOfSouthCarolina
-Pinnacle Mountain (South Carolina)	type	GeologicalFormation109287968
-Pinnacle Mountain (South Carolina)	type	SpatialThing
-Pinnacle Mountain (South Carolina)	type	YagoLegalActorGeo
-Pinnacle Mountain (South Carolina)	type	Q8502
-Pinnacle Mountain (South Carolina)	National Topographic System Map Number	USGSTable Rock
+Pinnacle Mountain (South Carolina)	Type	Place
+Pinnacle Mountain (South Carolina)	Type	Yagopermanentlylocatedentity
+Pinnacle Mountain (South Carolina)	Type	Region108630985
+Pinnacle Mountain (South Carolina)	Type	Yagogeoentity
+Pinnacle Mountain (South Carolina)	Type	Mountain109359803
+Pinnacle Mountain (South Carolina)	Type	Location
+Pinnacle Mountain (South Carolina)	Type	Naturalelevation109366317
+Pinnacle Mountain (South Carolina)	Type	Place
+Pinnacle Mountain (South Carolina)	Type	Object100002684
+Pinnacle Mountain (South Carolina)	Type	Thing
+Pinnacle Mountain (South Carolina)	Type	Natural Place
+Pinnacle Mountain (South Carolina)	Type	Mountain
+Pinnacle Mountain (South Carolina)	Type	Area108497294
+Pinnacle Mountain (South Carolina)	Type	Location100027167
+Pinnacle Mountain (South Carolina)	Type	Mountain
+Pinnacle Mountain (South Carolina)	Type	Physicalentity100001930
+Pinnacle Mountain (South Carolina)	Type	Protectedareasofpickenscounty,Southcarolina
+Pinnacle Mountain (South Carolina)	Type	Mountainsofsouthcarolina
+Pinnacle Mountain (South Carolina)	Type	Geologicalformation109287968
+Pinnacle Mountain (South Carolina)	Type	Spatialthing
+Pinnacle Mountain (South Carolina)	Type	Yagolegalactorgeo
+Pinnacle Mountain (South Carolina)	Type	Q8502
+Pinnacle Mountain (South Carolina)	National Topographic System Map Number	Usgstable Rock
 Pinnacle Mountain (South Carolina)	Elevation (Μ)	1040.892
 Pinnacle Mountain (South Carolina)	Located In Area	South Carolina
 Pinnacle Mountain (South Carolina)	Located In Area	Pickens County, South Carolina
 Pinnacle Mountain (South Carolina)	Mountain Range	Blue Ridge Mountains
-Pinnacle Mountain (South Carolina)	point	35.033611111111114 -82.74138888888889
-Pinnacle Mountain (South Carolina)	long	-82.74139
-Pinnacle Mountain (South Carolina)	subject	Landforms Of Pickens County, South Carolina
-Pinnacle Mountain (South Carolina)	subject	Protected Areas Of Pickens County, South Carolina
-Pinnacle Mountain (South Carolina)	subject	Mountains Of South Carolina
-Pinnacle Mountain (South Carolina)	name	Pinnacle Mountain
+Pinnacle Mountain (South Carolina)	Point	35.033611111111114 -82.74138888888889
+Pinnacle Mountain (South Carolina)	Long	-82.74139
+Pinnacle Mountain (South Carolina)	Subject	Landforms Of Pickens County, South Carolina
+Pinnacle Mountain (South Carolina)	Subject	Protected Areas Of Pickens County, South Carolina
+Pinnacle Mountain (South Carolina)	Subject	Mountains Of South Carolina
+Pinnacle Mountain (South Carolina)	Name	Pinnacle Mountain
 Pinnacle Mountain (South Carolina)	Prominence (Μ)	214.884
-Pinnacle Mountain (South Carolina)	lat	35.03361
-Pinnacle Mountain (South Carolina)	label	Pinnacle Mountain (South Carolina)
+Pinnacle Mountain (South Carolina)	Lat	35.03361
+Pinnacle Mountain (South Carolina)	Label	Pinnacle Mountain (South Carolina)

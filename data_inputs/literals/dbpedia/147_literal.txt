@@ -1,33 +1,33 @@
 Battle Of Sampur	Is Part Of Military Conflict	Sri Lankan Civil War
-Battle Of Sampur	type	YagoPermanentlyLocatedEntity
-Battle Of Sampur	type	PsychologicalFeature100023100
-Battle Of Sampur	type	Event
-Battle Of Sampur	type	Thing
-Battle Of Sampur	type	GroupAction101080366
-Battle Of Sampur	type	Battle100953559
-Battle Of Sampur	type	BattlesOfTheSriLankanCivilWar
-Battle Of Sampur	type	Act100030358
-Battle Of Sampur	type	Q1656682
-Battle Of Sampur	type	Conflict100958896
-Battle Of Sampur	type	Abstraction100002137
-Battle Of Sampur	type	Event100029378
-Battle Of Sampur	type	Societal Event
-Battle Of Sampur	type	MilitaryAction100952963
-Battle Of Sampur	type	Event
-Battle Of Sampur	type	Military Conflict
-Battle Of Sampur	type	Event
-Battle Of Sampur	type	ConflictsIn2006
-Battle Of Sampur	Result	Sri Lankan Army victory
-Battle Of Sampur	label	Battle of Sampur
-Battle Of Sampur	Causalties	33 killed (SLA claim)
-Battle Of Sampur	depiction	Coat_of_arms_of_Sri_Lanka.svg
+Battle Of Sampur	Type	Yagopermanentlylocatedentity
+Battle Of Sampur	Type	Psychologicalfeature100023100
+Battle Of Sampur	Type	Event
+Battle Of Sampur	Type	Thing
+Battle Of Sampur	Type	Groupaction101080366
+Battle Of Sampur	Type	Battle100953559
+Battle Of Sampur	Type	Battlesofthesrilankancivilwar
+Battle Of Sampur	Type	Act100030358
+Battle Of Sampur	Type	Q1656682
+Battle Of Sampur	Type	Conflict100958896
+Battle Of Sampur	Type	Abstraction100002137
+Battle Of Sampur	Type	Event100029378
+Battle Of Sampur	Type	Societal Event
+Battle Of Sampur	Type	Militaryaction100952963
+Battle Of Sampur	Type	Event
+Battle Of Sampur	Type	Military Conflict
+Battle Of Sampur	Type	Event
+Battle Of Sampur	Type	Conflictsin2006
+Battle Of Sampur	Result	Sri Lankan Army Victory
+Battle Of Sampur	Label	Battle Of Sampur
+Battle Of Sampur	Causalties	33 Killed (Sla Claim)
+Battle Of Sampur	Depiction	Coat Of Arms Of Sri Lanka.Svg
 Battle Of Sampur	Date	2006-08-28
 Battle Of Sampur	Relates An Entity To The Populated Place In Which It Is Located.	Sri Lanka
 Battle Of Sampur	Relates An Entity To The Populated Place In Which It Is Located.	Sampur, Trincomalee
-Battle Of Sampur	Thumbnail	Coat_of_arms_of_Sri_Lanka.svg?width=300
-Battle Of Sampur	Combatant	18pxMilitary of Sri Lanka
-Battle Of Sampur	Combatant	Liberation Tigers of Tamil Eelam
-Battle Of Sampur	subject	Conflicts In 2006
-Battle Of Sampur	subject	2006 In Sri Lanka
-Battle Of Sampur	subject	Battles Of The Eastern Theater Of Eelam War Iv
-Battle Of Sampur	name	Battle of Sampur
+Battle Of Sampur	Thumbnail	Coat Of Arms Of Sri Lanka.Svg?Width=300
+Battle Of Sampur	Combatant	18Pxmilitary Of Sri Lanka
+Battle Of Sampur	Combatant	Liberation Tigers Of Tamil Eelam
+Battle Of Sampur	Subject	Conflicts In 2006
+Battle Of Sampur	Subject	2006 In Sri Lanka
+Battle Of Sampur	Subject	Battles Of The Eastern Theater Of Eelam War Iv
+Battle Of Sampur	Name	Battle Of Sampur

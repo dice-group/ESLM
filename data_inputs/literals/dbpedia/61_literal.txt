@@ -1,24 +1,24 @@
 1960 Glover Trophy	Pole Driver Team	Cooper Car Company
-1960 Glover Trophy	name	VIIIGlover Trophy
+1960 Glover Trophy	Name	Viiiglover Trophy
 1960 Glover Trophy	Pole Driver	Chris Bristow
-1960 Glover Trophy	subject	1960 Formula One Races
-1960 Glover Trophy	subject	20Th Century In West Sussex
-1960 Glover Trophy	subject	Glover Trophy
-1960 Glover Trophy	type	Grand Prix
-1960 Glover Trophy	type	Event
-1960 Glover Trophy	type	Event
-1960 Glover Trophy	type	SportsEvent
-1960 Glover Trophy	type	Q1656682
-1960 Glover Trophy	type	Event
-1960 Glover Trophy	type	Societal Event
-1960 Glover Trophy	type	Thing
-1960 Glover Trophy	type	Sports Event
+1960 Glover Trophy	Subject	1960 Formula One Races
+1960 Glover Trophy	Subject	20Th Century In West Sussex
+1960 Glover Trophy	Subject	Glover Trophy
+1960 Glover Trophy	Type	Grand Prix
+1960 Glover Trophy	Type	Event
+1960 Glover Trophy	Type	Event
+1960 Glover Trophy	Type	Sportsevent
+1960 Glover Trophy	Type	Q1656682
+1960 Glover Trophy	Type	Event
+1960 Glover Trophy	Type	Societal Event
+1960 Glover Trophy	Type	Thing
+1960 Glover Trophy	Type	Sports Event
 1960 Glover Trophy	Course (Μ)	3862.4256
 1960 Glover Trophy	Course (Μ)	3862.0
 1960 Glover Trophy	Third Driver	Chris Bristow
 1960 Glover Trophy	Distance (Μ)	162200.0
 1960 Glover Trophy	Distance (Μ)	162221.8752
-1960 Glover Trophy	label	1960 Glover Trophy
+1960 Glover Trophy	Label	1960 Glover Trophy
 1960 Glover Trophy	Location	West Sussex
 1960 Glover Trophy	Location	Goodwood Circuit
 1960 Glover Trophy	Fastest Driver Team	Cooper Car Company

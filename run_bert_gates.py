@@ -10,8 +10,10 @@ import os
 import argparse
 import numpy as np
 import torch
-from torch import optim
+from tqdm import tqdm
 from transformers import BertTokenizer, BertConfig, AdamW, get_linear_schedule_with_warmup
+import time
+import datetime
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -28,17 +30,20 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-cased")
 MAX_LENGTH = 16
 num_train_optimization_steps = 0
-
+def format_time(elapsed):
+    '''
+    Takes a time in seconds and returns a string hh:mm:ss
+    '''
+    # Round to the nearest second.
+    elapsed_rounded = int(round((elapsed)))
+    
+    # Format as hh:mm:ss
+    return str(datetime.timedelta(seconds=elapsed_rounded))
 def main(mode):
     """Main module"""
-    if config["regularization"] is True:
-        w_decay = config["weight_decay"]
-    else:
-        w_decay = 0
     bert_config = BertConfig.from_pretrained("bert-base-cased", num_labels=1)
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    lrate = config["learning_rate"]
     if mode == "train":
         log_file_path = os.path.join(os.getcwd(), 'GATES_log.txt')
         with open(log_file_path, 'w', encoding="utf-8") as log_file:
@@ -51,23 +56,16 @@ def main(mode):
                 train_data, valid_data = dataset.get_training_dataset()
                 best_epochs = []
                 for fold in range(5):
-                    print(fold, f"total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
+                    print("")
+                    print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
                     model = BertGATES(bert_config, MAX_LENGTH)
                     model.to(DEVICE)
-                    #if config["regularization"] is True:
-                    #    optimizer = optim.Adam(model.parameters(), lr=lrate, weight_decay=w_decay)
-                    #else:
-                    #    optimizer = optim.Adam(model.parameters(), lr=lrate)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
                     optimizer_grouped_parameters = [
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    #optimizer = BertAdam(optimizer_grouped_parameters,
-                    #         lr=5e-5,
-                    #         warmup=0.1,
-                    #         t_total=num_train_optimization_steps)
                     optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path=os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
@@ -85,7 +83,8 @@ def main(mode):
                 ndcg_scores = []
                 map_scores = []
                 for fold in range(5):
-                    print(fold, f"total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
+                    print("")
+                    print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES(bert_config, MAX_LENGTH)
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
@@ -107,7 +106,11 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
         model.train()
         train_loss = 0
         train_acc = 0
-        for eid in train_data:
+        print("")
+        print(f'======== Epoch {epoch+1} / {config["n_epochs"]} ========')
+        print('Training...')
+        t0 = time.time()
+        for eid in tqdm(train_data):
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             adj = graph_r.build_graph(triples, literal, eid)
@@ -132,8 +135,14 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
             optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
+        training_time = format_time(time.time() - t0)
+        print("  Training epcoh took: {:}".format(training_time))
         valid_acc = 0
         valid_loss = 0
+        print("")
+        print("Running Validation...")
+        t0 = time.time()
+        model.eval()
         with torch.no_grad():
             for eid in valid_data:
                 triples = dataset.get_triples(eid)
@@ -156,11 +165,14 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
                 acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
                 valid_loss += loss.item()
                 valid_acc += acc
+        validation_time = format_time(time.time() - t0)
+        print("  Validation took: {:}".format(validation_time))
         train_loss = train_loss/len(train_data)
         train_acc = train_acc/len(train_data)
         valid_loss = valid_loss/len(valid_data)
-        valid_acc = train_acc/len(valid_data)
-        print(f"epoch: {epoch}, train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
+        valid_acc = valid_acc/len(valid_data)
+        print("")
+        print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
         if valid_acc > best_acc:
             print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
             best_acc = valid_acc
@@ -171,7 +183,9 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
                     "train_loss": train_loss,
                     'valid_loss': valid_loss,
                     'fold': fold,
-                    'acc': best_acc
+                    'acc': best_acc,
+                    'training_time': training_time,
+                    'validation_time': validation_time
                     }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
             if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
@@ -213,7 +227,26 @@ def generated_entity_summaries(model, test_data, dataset, graph_r, topk):
             ndcg_scores.append(ndcg_score)
             fmeasure_scores.append(f_score)
             map_scores.append(map_score)
+            directory = f"outputs/{dataset.get_ds_name}"
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            directory = f"outputs/{dataset.get_ds_name}/{eid}"
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            top_or_rank = "top"
+            rank_list = output_top.squeeze(0).numpy().tolist()
+            writer(dataset.get_db_path, directory, eid, top_or_rank, topk, rank_list)
+            top_or_rank = "rank_top"
+            rank_list = output_rank.squeeze(0).numpy().tolist()
+            writer(dataset.get_db_path, directory, eid, top_or_rank, topk, rank_list)
     return np.average(fmeasure_scores), np.average(ndcg_scores), np.average(map_scores)
+def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
+    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
+        with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
+            triples = [triple for _, triple in enumerate(fin)]
+            for rank in rank_list:
+                fout.write(triples[rank])
+                
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")

@@ -5,24 +5,24 @@ Lepiota Helveola	Binomial Authority	Giacomo Bresadola
 Lepiota Helveola	Kingdom	Fungus
 Lepiota Helveola	Genus	Lepiota
 Lepiota Helveola	Class	Agaricomycetes
-Lepiota Helveola	subject	Fungi Of Europe
-Lepiota Helveola	subject	Deadly Fungi
-Lepiota Helveola	subject	Poisonous Fungi
-Lepiota Helveola	subject	Agaricaceae
-Lepiota Helveola	subject	Fungi Described In 1882
-Lepiota Helveola	type	FungiOfEurope
-Lepiota Helveola	type	Whole100003553
-Lepiota Helveola	type	PhysicalEntity100001930
-Lepiota Helveola	type	FungiDescribedIn1882
-Lepiota Helveola	type	Fungus112992868
-Lepiota Helveola	type	Thing
-Lepiota Helveola	type	Object100002684
-Lepiota Helveola	type	PoisonousFungi
-Lepiota Helveola	type	LivingThing100004258
-Lepiota Helveola	type	Eukaryote
-Lepiota Helveola	type	Species
-Lepiota Helveola	type	Organism100004475
-Lepiota Helveola	type	پھُپھُوندی
-Lepiota Helveola	type	Q19088
-Lepiota Helveola	type	DeadlyFungi
-Lepiota Helveola	label	Lepiota helveola
+Lepiota Helveola	Subject	Fungi Of Europe
+Lepiota Helveola	Subject	Deadly Fungi
+Lepiota Helveola	Subject	Poisonous Fungi
+Lepiota Helveola	Subject	Agaricaceae
+Lepiota Helveola	Subject	Fungi Described In 1882
+Lepiota Helveola	Type	Fungiofeurope
+Lepiota Helveola	Type	Whole100003553
+Lepiota Helveola	Type	Physicalentity100001930
+Lepiota Helveola	Type	Fungidescribedin1882
+Lepiota Helveola	Type	Fungus112992868
+Lepiota Helveola	Type	Thing
+Lepiota Helveola	Type	Object100002684
+Lepiota Helveola	Type	Poisonousfungi
+Lepiota Helveola	Type	Livingthing100004258
+Lepiota Helveola	Type	Eukaryote
+Lepiota Helveola	Type	Species
+Lepiota Helveola	Type	Organism100004475
+Lepiota Helveola	Type	پھُپھُوندی
+Lepiota Helveola	Type	Q19088
+Lepiota Helveola	Type	Deadlyfungi
+Lepiota Helveola	Label	Lepiota Helveola

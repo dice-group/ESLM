@@ -1,20 +1,20 @@
-Rubus Arizonensis	type	Thing
-Rubus Arizonensis	type	Q19088
-Rubus Arizonensis	type	Species
-Rubus Arizonensis	type	Q756
-Rubus Arizonensis	type	Plant
-Rubus Arizonensis	type	Eukaryote
-Rubus Arizonensis	subject	Rubus
-Rubus Arizonensis	subject	Flora Of Sonora
-Rubus Arizonensis	subject	Plants Described In 1914
-Rubus Arizonensis	subject	Flora Of The Southwestern United States
+Rubus Arizonensis	Type	Thing
+Rubus Arizonensis	Type	Q19088
+Rubus Arizonensis	Type	Species
+Rubus Arizonensis	Type	Q756
+Rubus Arizonensis	Type	Plant
+Rubus Arizonensis	Type	Eukaryote
+Rubus Arizonensis	Subject	Rubus
+Rubus Arizonensis	Subject	Flora Of Sonora
+Rubus Arizonensis	Subject	Plants Described In 1914
+Rubus Arizonensis	Subject	Flora Of The Southwestern United States
 Rubus Arizonensis	Family	Rosaceae
 Rubus Arizonensis	Division	Flowering Plant
 Rubus Arizonensis	Kingdom	Plant
 Rubus Arizonensis	Order (Taxonomy)	Rosales
 Rubus Arizonensis	Order (Taxonomy)	Rosids
-Rubus Arizonensis	Synonym	*Rubus scolocaulon (Brandegee)
+Rubus Arizonensis	Synonym	*Rubus Scolocaulon (Brandegee)
 Rubus Arizonensis	Genus	Rubus
 Rubus Arizonensis	Binomial Authority	Wilhelm Olbers Focke
-Rubus Arizonensis	label	Rubus arizonensis
+Rubus Arizonensis	Label	Rubus Arizonensis
 Rubus Arizonensis	Class	Eudicots

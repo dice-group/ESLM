@@ -1,73 +1,73 @@
-Lucy Ward (Musician)	depiction	LucyWard.jpg
-Lucy Ward (Musician)	Background	solo_singer
-Lucy Ward (Musician)	Thumbnail	LucyWard.jpg?width=300
-Lucy Ward (Musician)	label	Lucy Ward (musician)
+Lucy Ward (Musician)	Depiction	Lucyward.Jpg
+Lucy Ward (Musician)	Background	Solo_Singer
+Lucy Ward (Musician)	Thumbnail	Lucyward.Jpg?Width=300
+Lucy Ward (Musician)	Label	Lucy Ward (Musician)
 Lucy Ward (Musician)	Birth Place	Derbyshire
 Lucy Ward (Musician)	Birth Place	Derby
-Lucy Ward (Musician)	surname	Ward
-Lucy Ward (Musician)	subject	Music In Derby
-Lucy Ward (Musician)	subject	English Singer-Songwriters
-Lucy Ward (Musician)	subject	Concertina Players
-Lucy Ward (Musician)	subject	1989 Births
-Lucy Ward (Musician)	subject	English Folk Singers
-Lucy Ward (Musician)	subject	Living People
-Lucy Ward (Musician)	subject	People From Derby
-Lucy Ward (Musician)	subject	English Folk Guitarists
-Lucy Ward (Musician)	subject	English Female Singers
+Lucy Ward (Musician)	Surname	Ward
+Lucy Ward (Musician)	Subject	Music In Derby
+Lucy Ward (Musician)	Subject	English Singer-Songwriters
+Lucy Ward (Musician)	Subject	Concertina Players
+Lucy Ward (Musician)	Subject	1989 Births
+Lucy Ward (Musician)	Subject	English Folk Singers
+Lucy Ward (Musician)	Subject	Living People
+Lucy Ward (Musician)	Subject	People From Derby
+Lucy Ward (Musician)	Subject	English Folk Guitarists
+Lucy Ward (Musician)	Subject	English Female Singers
 Lucy Ward (Musician)	Genre	Singer-Songwriter
 Lucy Ward (Musician)	Genre	Folk Music
-Lucy Ward (Musician)	givenName	Lucy
+Lucy Ward (Musician)	Givenname	Lucy
 Lucy Ward (Musician)	Birth Date	1989-12-12
 Lucy Ward (Musician)	Instrument	Concertina
 Lucy Ward (Musician)	Record Label	Navigator Records
-Lucy Ward (Musician)	name	Ward, Lucy
-Lucy Ward (Musician)	name	Lucy Ward
+Lucy Ward (Musician)	Name	Ward, Lucy
+Lucy Ward (Musician)	Name	Lucy Ward
 O'Hooley & Tidow	Associated Band	Lucy Ward (Musician)
 Belinda O'Hooley	Associated Band	Lucy Ward (Musician)
 Single Flame	Performer	Lucy Ward (Musician)
 Adelphi Has To Fly	Performer	Lucy Ward (Musician)
-Lucy Ward (Musician)	description	British musician
-Lucy Ward (Musician)	description	British musician
-Lucy Ward (Musician)	homepage	www.lucywardsings.com
-Lucy Ward (Musician)	type	Artist109812338
-Lucy Ward (Musician)	type	Creator109614315
-Lucy Ward (Musician)	type	Thing
-Lucy Ward (Musician)	type	NaturalPerson
-Lucy Ward (Musician)	type	LivingThing100004258
-Lucy Ward (Musician)	type	Person100007846
-Lucy Ward (Musician)	type	Player110439851
-Lucy Ward (Musician)	type	Entertainer109616922
-Lucy Ward (Musician)	type	Whole100003553
-Lucy Ward (Musician)	type	Organism100004475
-Lucy Ward (Musician)	type	Musician110339966
-Lucy Ward (Musician)	type	YagoLegalActor
-Lucy Ward (Musician)	type	Musician110340312
-Lucy Ward (Musician)	type	Object100002684
-Lucy Ward (Musician)	type	ConcertinaPlayers
-Lucy Ward (Musician)	type	Performer110415638
-Lucy Ward (Musician)	type	EnglishFolkSingers
-Lucy Ward (Musician)	type	PhysicalEntity100001930
-Lucy Ward (Musician)	type	CausalAgent100007347
-Lucy Ward (Musician)	type	Agent
-Lucy Ward (Musician)	type	MusicGroup
-Lucy Ward (Musician)	type	Agent
-Lucy Ward (Musician)	type	Contestant109613191
-Lucy Ward (Musician)	type	Person
-Lucy Ward (Musician)	type	Person
-Lucy Ward (Musician)	type	Singer110599806
-Lucy Ward (Musician)	type	FolkSinger110099093
-Lucy Ward (Musician)	type	YagoLegalActorGeo
-Lucy Ward (Musician)	type	PeopleFromDerby
-Lucy Ward (Musician)	type	Musical Artist
-Lucy Ward (Musician)	type	LivingPeople
-Lucy Ward (Musician)	type	Artist
-Lucy Ward (Musician)	type	Q5
-Lucy Ward (Musician)	type	EnglishFemaleSingers
-Lucy Ward (Musician)	type	Guitarist110151760
-Lucy Ward (Musician)	type	Person
-Lucy Ward (Musician)	type	Q483501
-Lucy Ward (Musician)	type	EnglishFolkGuitarists
-Lucy Ward (Musician)	type	Q215627
+Lucy Ward (Musician)	Description	British Musician
+Lucy Ward (Musician)	Description	British Musician
+Lucy Ward (Musician)	Homepage	Www.Lucywardsings.Com
+Lucy Ward (Musician)	Type	Artist109812338
+Lucy Ward (Musician)	Type	Creator109614315
+Lucy Ward (Musician)	Type	Thing
+Lucy Ward (Musician)	Type	Naturalperson
+Lucy Ward (Musician)	Type	Livingthing100004258
+Lucy Ward (Musician)	Type	Person100007846
+Lucy Ward (Musician)	Type	Player110439851
+Lucy Ward (Musician)	Type	Entertainer109616922
+Lucy Ward (Musician)	Type	Whole100003553
+Lucy Ward (Musician)	Type	Organism100004475
+Lucy Ward (Musician)	Type	Musician110339966
+Lucy Ward (Musician)	Type	Yagolegalactor
+Lucy Ward (Musician)	Type	Musician110340312
+Lucy Ward (Musician)	Type	Object100002684
+Lucy Ward (Musician)	Type	Concertinaplayers
+Lucy Ward (Musician)	Type	Performer110415638
+Lucy Ward (Musician)	Type	Englishfolksingers
+Lucy Ward (Musician)	Type	Physicalentity100001930
+Lucy Ward (Musician)	Type	Causalagent100007347
+Lucy Ward (Musician)	Type	Agent
+Lucy Ward (Musician)	Type	Musicgroup
+Lucy Ward (Musician)	Type	Agent
+Lucy Ward (Musician)	Type	Contestant109613191
+Lucy Ward (Musician)	Type	Person
+Lucy Ward (Musician)	Type	Person
+Lucy Ward (Musician)	Type	Singer110599806
+Lucy Ward (Musician)	Type	Folksinger110099093
+Lucy Ward (Musician)	Type	Yagolegalactorgeo
+Lucy Ward (Musician)	Type	Peoplefromderby
+Lucy Ward (Musician)	Type	Musical Artist
+Lucy Ward (Musician)	Type	Livingpeople
+Lucy Ward (Musician)	Type	Artist
+Lucy Ward (Musician)	Type	Q5
+Lucy Ward (Musician)	Type	Englishfemalesingers
+Lucy Ward (Musician)	Type	Guitarist110151760
+Lucy Ward (Musician)	Type	Person
+Lucy Ward (Musician)	Type	Q483501
+Lucy Ward (Musician)	Type	Englishfolkguitarists
+Lucy Ward (Musician)	Type	Q215627
 Lucy Ward (Musician)	Birth Year	1989-01-01
 O'Hooley & Tidow	Associated Musical Artist	Lucy Ward (Musician)
 Belinda O'Hooley	Associated Musical Artist	Lucy Ward (Musician)

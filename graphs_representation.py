@@ -48,6 +48,7 @@ class GraphRepresentation:
         return rel_dict
     def build_graph(self, triples, literal, num):
         """Build graph"""
+        #print(num)
         nodes_dict = self.set_nodes_dict(literal)
         rel_dict = self.set_rel_dict(triples)
         triples_idx = []

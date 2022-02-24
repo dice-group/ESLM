@@ -1,17 +1,17 @@
 Melaleuca Sheathiana	Binomial Authority	William Vincent Fitzgerald
-Melaleuca Sheathiana	name	Silver Cajuput
-Melaleuca Sheathiana	label	Melaleuca sheathiana
-Melaleuca Sheathiana	subject	Melaleuca
-Melaleuca Sheathiana	subject	Myrtales Of Australia
-Melaleuca Sheathiana	subject	Flora Of Western Australia
-Melaleuca Sheathiana	subject	Plants Described In 1902
+Melaleuca Sheathiana	Name	Silver Cajuput
+Melaleuca Sheathiana	Label	Melaleuca Sheathiana
+Melaleuca Sheathiana	Subject	Melaleuca
+Melaleuca Sheathiana	Subject	Myrtales Of Australia
+Melaleuca Sheathiana	Subject	Flora Of Western Australia
+Melaleuca Sheathiana	Subject	Plants Described In 1902
 Melaleuca Sheathiana	Genus	Melaleuca
-Melaleuca Sheathiana	type	Q756
-Melaleuca Sheathiana	type	Species
-Melaleuca Sheathiana	type	Plant
-Melaleuca Sheathiana	type	Thing
-Melaleuca Sheathiana	type	Q19088
-Melaleuca Sheathiana	type	Eukaryote
+Melaleuca Sheathiana	Type	Q756
+Melaleuca Sheathiana	Type	Species
+Melaleuca Sheathiana	Type	Plant
+Melaleuca Sheathiana	Type	Thing
+Melaleuca Sheathiana	Type	Q19088
+Melaleuca Sheathiana	Type	Eukaryote
 Melaleuca Sheathiana	Family	Myrtaceae
 Melaleuca Sheathiana	Class	Eudicots
 Melaleuca Sheathiana	Class	Rosids

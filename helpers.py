@@ -53,6 +53,13 @@ class Utils:
         if n_result > 0:
             found = True
         return found
+    @staticmethod
+    def normalize_string(string):
+        if string.isupper():
+            string = string
+        else:
+            string = string.title()
+        return string
     def get_label_of_entity(self, uri, endpoint):
         """Get entity label from knowledge base"""
         sparql = SPARQLWrapper(endpoint)
@@ -67,14 +74,54 @@ class Utils:
             try:
                 if result["label"]["xml:lang"] == "en":
                     words = result["label"]["value"]
+                    return self.normalize_string(words)
+            except Exception:
+                words = result["label"]["value"]
+                return self.normalize_string(words)
+        word = self.get_uri_label(uri)
+        return word
+    def get_label_of_entity_lmdb(self, uri, endpoint):
+        """Get entity label from knowledge base"""
+        sparql = SPARQLWrapper(endpoint)
+        sparql.setQuery("""
+            PREFIX film_set_designer: <https://triplydb.com/Triply/linkedmdb/id/film_set_designer/>
+            PREFIX film_format: <https://triplydb.com/Triply/linkedmdb/id/film_format/>
+            PREFIX country: <https://triplydb.com/Triply/linkedmdb/id/country/>
+            PREFIX film_subject: <https://triplydb.com/Triply/linkedmdb/id/film_subject/>
+            PREFIX cinematographer: <https://triplydb.com/Triply/linkedmdb/id/cinematographer/>
+            PREFIX production_company: <https://triplydb.com/Triply/linkedmdb/id/production_company/>
+            PREFIX music_contributor: <https://triplydb.com/Triply/linkedmdb/id/music_contributor/>
+            PREFIX editor: <https://triplydb.com/Triply/linkedmdb/id/editor/>
+            PREFIX film_cut: <https://triplydb.com/Triply/linkedmdb/id/film_cut/>
+            PREFIX director: <https://triplydb.com/Triply/linkedmdb/id/director/>
+            PREFIX producer: <https://triplydb.com/Triply/linkedmdb/id/producer/>
+            PREFIX writer: <https://triplydb.com/Triply/linkedmdb/id/writer/>
+            PREFIX film_story_contributor: <https://triplydb.com/Triply/linkedmdb/id/film_story_contributor/> 
+            PREFIX film_genre: <https://triplydb.com/Triply/linkedmdb/id/film_genre/>
+            PREFIX performance: <https://triplydb.com/Triply/linkedmdb/id/performance/>
+            PREFIX actor: <https://triplydb.com/Triply/linkedmdb/id/actor/>
+            PREFIX film_art_director: <https://triplydb.com/Triply/linkedmdb/id/film_art_director/>
+            PREFIX film: <https://triplydb.com/Triply/linkedmdb/id/film/>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            SELECT ?label
+            WHERE { <%s> rdfs:label ?label }
+        """ % (uri))
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+        for result in results["results"]["bindings"]:
+            try:
+                if result["label"]["xml:lang"] == "en":
+                    words = result["label"]["value"]
                     return words.title()
             except Exception:
                 words = result["label"]["value"]
+                words = words.replace("_", " ")
                 return words
         word = self.get_uri_label(uri)
         return word
-    @staticmethod
-    def get_uri_label(ent):
+    def get_uri_label(self, ent):
         """Get label from URI resource"""
         word = str(ent)
         if '#' in ent:
@@ -87,7 +134,8 @@ class Utils:
             word = last
             if ':' in word:
                 word = word.split(':')[-1]
-        return word.title()
+        word = word.replace("_", " ")
+        return self.normalize_string(word)
     @staticmethod
     def as_hours(seconds):
         """Convert second to hours, minutes, seconds"""
@@ -96,9 +144,9 @@ class Utils:
         seconds -= minutes * 60
         minutes -= hours * 60
         return f'{hours}h {minutes}m {seconds}s'
-    def read_epochs_from_log(self, ds_name, topk):
+    def read_epochs_from_log(self, ds_name, topk, filename):
         """Read best epochs of the model"""
-        log_file_path = os.path.join(self.root_dir, 'GATES_log.txt')
+        log_file_path = os.path.join(self.root_dir, filename)
         key = f'{ds_name}-top{topk}'
         epoch_list = None
         with open(log_file_path, 'r', encoding='utf-8') as reader:
