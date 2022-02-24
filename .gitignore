@@ -143,3 +143,4 @@ utils.py
 main.py
 train.py
 HARE/
+outputs/
