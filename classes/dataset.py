@@ -7,7 +7,7 @@ Created on Wed Oct 27 15:58:42 2021
 """
 import os
 from rdflib.plugins.parsers.ntriples import NTriplesParser, Sink
-from helpers import Utils
+from classes.helpers import Utils
 
 UTILS = Utils()
 class ESBenchmark:
@@ -57,11 +57,12 @@ class ESBenchmark:
             j = 0
             def __str__(self):
                 return self.__class__.__name__
-            def triple(self, s, p, o):
+            @staticmethod
+            def triple(sub, pred, obj):
                 """Get triples"""
-                sub = s.toPython()
-                pred = p.toPython()
-                obj = o.toPython()
+                sub = sub.toPython()
+                pred = pred.toPython()
+                obj = obj.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
         index_sink = IndexSink()
@@ -72,15 +73,15 @@ class ESBenchmark:
     def get_labels(self, num):
         """Get entity label from knowledge base"""
         triples = self.get_triples(num)
-        if self.ds_name=="dbpedia":
+        if self.ds_name == "dbpedia":
             endpoint = "http://dbpedia.org/sparql"
-        elif self.ds_name=="lmdb":
+        elif self.ds_name == "lmdb":
             endpoint = "https://api.triplydb.com/datasets/Triply/linkedmdb/services/linkedmdb/sparql"
         triples_tuple = []
         for sub, pred, obj in triples:
-            if UTILS.is_uri(obj) and self.ds_name=="dbpedia":
+            if UTILS.is_uri(obj) and self.ds_name == "dbpedia":
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
-            elif UTILS.is_uri(obj) and self.ds_name=="lmdb":
+            elif UTILS.is_uri(obj) and self.ds_name == "lmdb":
                 obj_literal = UTILS.get_label_of_entity_lmdb(obj, endpoint)
             else:
                 if type(obj) == str:
@@ -90,7 +91,7 @@ class ESBenchmark:
                         obj_literal = obj.title()
                 else:
                     obj_literal = obj
-            if self.ds_name=="dbpedia":
+            if self.ds_name == "dbpedia":
                 pred_literal = UTILS.get_label_of_entity(pred, endpoint)
                 sub_literal = UTILS.get_label_of_entity(sub, endpoint)
             elif self.ds_name == "lmdb":
@@ -156,11 +157,12 @@ class ESBenchmark:
             j = 0
             def __str__(self):
                 return self.__class__.__name__
-            def triple(self, s, p, o):
+            @staticmethod
+            def triple(sub, pred, obj):
                 """Get triple"""
-                sub = s.toPython()
-                pred = p.toPython()
-                obj = o.toPython()
+                sub = sub.toPython()
+                pred = pred.toPython()
+                obj = obj.toPython()
                 triple_tuple = (sub, pred, obj)
                 triples.append(triple_tuple)
         index_sink = IndexSink()
@@ -184,9 +186,10 @@ class ESBenchmark:
                 j = 0
                 def __str__(self):
                     return self.__class__.__name__
-                def triple(self, s, p, o):
+                @staticmethod
+                def triple(sub, pred, obj):
                     """Get triples"""
-                    triple_tuple = (s.toPython(), p.toPython(), o.toPython())
+                    triple_tuple = (sub.toPython(), pred.toPython(), obj.toPython())
                     triples_summary.append(triple_tuple)
             path = os.path.join(self.db_path, f"{num}")
             index_sink = IndexSink()
