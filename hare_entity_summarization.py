@@ -17,7 +17,6 @@ def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
                 fout.write(triples[rank])
-        
 triple_scores = TripleScoring()
 for ds_name in config["ds_name"]:
     print(ds_name)
