@@ -8,35 +8,33 @@ Created on Thu Jan 27 09:30:53 2022
 
 import os
 import argparse
+import time
+import datetime
 import numpy as np
 import torch
 from tqdm import tqdm
 from transformers import BertTokenizer, BertConfig, AdamW, get_linear_schedule_with_warmup
-import time
-import datetime
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
 from evaluator.ndcg import NDCG
 from config import config
-from helpers import Utils
-from model import BertGATES
-from dataset import ESBenchmark
-from graphs_representation import GraphRepresentation
+from classes.helpers import Utils
+from classes.model import BertGATES
+from classes.dataset import ESBenchmark
+from classes.graphs_representation import GraphRepresentation
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-cased")
 MAX_LENGTH = 16
-num_train_optimization_steps = 0
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
     '''
     # Round to the nearest second.
     elapsed_rounded = int(round((elapsed)))
-    
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
 def main(mode):
@@ -45,7 +43,7 @@ def main(mode):
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     if mode == "train":
-        log_file_path = os.path.join(os.getcwd(), 'GATES_log.txt')
+        log_file_path = os.path.join(os.getcwd(), 'logs/Bert_GATES_log.txt')
         with open(log_file_path, 'w', encoding="utf-8") as log_file:
             pass
     for ds_name in config["ds_name"]:
@@ -67,7 +65,7 @@ def main(mode):
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
                     optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    models_path=os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
+                    models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, graph_r, topk, fold, models_dir)
                     best_epochs.append(best_epoch)
@@ -76,7 +74,8 @@ def main(mode):
                     log_file.write(line)
         elif mode == "test":
             for topk in config["topk"]:
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk)
+                filename = 'logs/Bert_GATES_log.txt'
+                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
                 fmeasure_scores = []
@@ -99,9 +98,9 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
-    best_acc=0
+    best_acc = 0
     stop_valid_epoch = None
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps = -1)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=-1)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
@@ -109,7 +108,7 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
         print("")
         print(f'======== Epoch {epoch+1} / {config["n_epochs"]} ========')
         print('Training...')
-        t0 = time.time()
+        t_start = time.time()
         for eid in tqdm(train_data):
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
@@ -135,13 +134,13 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
             optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
-        training_time = format_time(time.time() - t0)
+        training_time = format_time(time.time() - t_start)
         print("  Training epcoh took: {:}".format(training_time))
         valid_acc = 0
         valid_loss = 0
         print("")
         print("Running Validation...")
-        t0 = time.time()
+        t_start = time.time()
         model.eval()
         with torch.no_grad():
             for eid in valid_data:
@@ -165,7 +164,7 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
                 acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
                 valid_loss += loss.item()
                 valid_acc += acc
-        validation_time = format_time(time.time() - t0)
+        validation_time = format_time(time.time() - t_start)
         print("  Validation took: {:}".format(validation_time))
         train_loss = train_loss/len(train_data)
         train_acc = train_acc/len(train_data)
@@ -177,16 +176,16 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
             print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
             best_acc = valid_acc
             torch.save({
-                    "epoch": epoch,
-                    "model_state_dict": model.state_dict(),
-                    "optimizer_state_dict": optimizer.state_dict(),
-                    "train_loss": train_loss,
-                    'valid_loss': valid_loss,
-                    'fold': fold,
-                    'acc': best_acc,
-                    'training_time': training_time,
-                    'validation_time': validation_time
-                    }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
+                "epoch": epoch,
+                "model_state_dict": model.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "train_loss": train_loss,
+                'valid_loss': valid_loss,
+                'fold': fold,
+                'acc': best_acc,
+                'training_time': training_time,
+                'validation_time': validation_time
+                }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
             if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
@@ -241,12 +240,12 @@ def generated_entity_summaries(model, test_data, dataset, graph_r, topk):
             writer(dataset.get_db_path, directory, eid, top_or_rank, topk, rank_list)
     return np.average(fmeasure_scores), np.average(ndcg_scores), np.average(map_scores)
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
+    """Write triples into file"""
     with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
         with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
                 fout.write(triples[rank])
-                
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")

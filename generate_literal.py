@@ -38,7 +38,6 @@ def main(ds_name):
         for sub_literal, pred_literal, obj_literal in triples_tuple:
             with open(os.path.join(path, f"{i}_literal.txt"), "a", encoding="utf-8") as reader:
                 reader.write(f"{sub_literal}\t{pred_literal}\t{obj_literal}\n")
-
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='GATES: Converting dataset to formatted data')
     PARSER.add_argument("--ds_name", type=str, default="dbpedia", help="use dbpedia or lmdb")
