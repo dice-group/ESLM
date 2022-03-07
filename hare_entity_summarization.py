@@ -5,19 +5,19 @@ Created on Mon Feb 21 14:21:06 2022
 
 @author: asep
 """
-
-from dataset import ESBenchmark
-from config import config
-from triplescoring import TripleScoring
 import os
+from classes.dataset import ESBenchmark
+from classes.triplescoring import TripleScoring
+from config import config
 
-def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
-    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
-        with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
-            triples = [triple for _, triple in enumerate(fin)]
-            for rank in rank_list:
-                fout.write(triples[rank])
-triple_scores = TripleScoring()
+def writer(db_dir, dir_path, e_id, top_rank, top_k, triple_rank_list):
+    '''Write triple into file'''
+    with open(os.path.join(db_dir, f"{e_id}", f"{e_id}_desc.nt"), encoding="utf8") as fin:
+        with open(os.path.join(dir_path, f"{e_id}_{top_rank}{top_k}.nt"), "w", encoding="utf8") as fout:
+            triples_edesc = [triple for _, triple in enumerate(fin)]
+            for rank in triple_rank_list:
+                fout.write(triples_edesc[rank])
+TRIPLE_SCORES = TripleScoring()
 for ds_name in config["ds_name"]:
     print(ds_name)
     triples_dict = {}
@@ -27,7 +27,7 @@ for ds_name in config["ds_name"]:
         for fold in range(5):
             for eid in test_data[fold][0]:
                 print(f"####################{eid}")
-                triples  = dataset.get_triples(eid)
+                triples = dataset.get_triples(eid)
                 triples_dict = {}
                 for triple in triples:
                     sub, pred, obj = triple
@@ -40,7 +40,7 @@ for ds_name in config["ds_name"]:
                 directory = f"outputs/{ds_name}/{eid}"
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                outputs = triple_scores.get_hare_triple_scores(ds_name, eid)
+                outputs = TRIPLE_SCORES.get_hare_triple_scores(ds_name, eid)
                 rank_list = []
                 print(triples_dict)
                 for output in list(outputs)[:topk]:
