@@ -54,11 +54,12 @@ class Utils:
             found = True
         return found
     @staticmethod
-    def normalize_string(string):
-        if string.isupper():
-            string = string
+    def normalize_string(word):
+        '''Normalize string into title style or upper style '''
+        if word.isupper():
+            string = word
         else:
-            string = string.title()
+            string = word.title()
         return string
     def get_label_of_entity(self, uri, endpoint):
         """Get entity label from knowledge base"""
@@ -332,8 +333,8 @@ class Utils:
         acc_list = []
         for gold in gold_list:
             if len(gold) != k_triples:
-                print('gold-k:',len(gold), k_triples)
-            assert len(gold)==k_triples
+                print('gold-k:', len(gold), k_triples)
+            assert len(gold) == k_triples
             corr = len([triple for triple in summ_tids if triple in gold])
             acc = corr/k_triples
             acc_list.append(acc)
