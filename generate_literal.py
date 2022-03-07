@@ -8,7 +8,7 @@ Created on Mon Nov 16 09:15:08 2020
 import os
 import argparse
 from tqdm import tqdm
-from dataset import ESBenchmark
+from classes.dataset import ESBenchmark
 
 ROOT_DIR = os.getcwd()
 

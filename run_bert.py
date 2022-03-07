@@ -37,7 +37,7 @@ UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
-MAX_LENGTH = 16
+MAX_LENGTH = 25
 num_train_optimization_steps = 0
 
 class BERT(nn.Module):
@@ -146,8 +146,6 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
             output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
-            #train_target_tensor = target_tensor.view(1, -1).cpu()
-            #(label_top_scores, label_top) = torch.topk(train_target_tensor, topk)
             (_, output_top) = torch.topk(train_output_tensor, topk)
             triples_dict = dataset.triples_dictionary(eid)
             gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
@@ -179,8 +177,6 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
                 output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
-                #train_target_tensor = target_tensor.view(1, -1).cpu()
-                #(label_top_scores, label_top) = torch.topk(train_target_tensor, topk)
                 (_, output_top) = torch.topk(valid_output_tensor, topk)
                 triples_dict = dataset.triples_dictionary(eid)
                 gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
