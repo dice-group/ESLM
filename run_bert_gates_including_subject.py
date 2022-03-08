@@ -133,7 +133,7 @@ class BertGATES(nn.Module):
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
         features = bert_out
-        print(features.shape)
+        #print(features.shape)
         features = UTILS.normalize_features(features.detach().numpy())
         features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
