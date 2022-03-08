@@ -125,7 +125,7 @@ class BertGATES(nn.Module):
         """forward"""
         outputs = self.bert(input_ids, segment_ids, input_mask)
         bert_out = self.bert_drop(outputs.last_hidden_state)
-        bert_out = self.out(bert_out)
+        #bert_out = self.out(bert_out)
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
