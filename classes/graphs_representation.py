@@ -8,7 +8,7 @@ Created on Thu Jan 27 09:34:40 2022
 import numpy as np
 import scipy.sparse as sp
 from config import config
-from predicatescore import PredicateScore
+from classes.predicatescore import PredicateScore
 
 class GraphRepresentation:
     """To produce graph representation"""
