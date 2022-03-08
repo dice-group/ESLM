@@ -313,7 +313,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk):
+def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
     """"Generated entity summaries"""
     model.eval()
     ndcg_eval = NDCG()
