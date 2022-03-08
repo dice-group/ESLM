@@ -1,0 +1,97 @@
+http://data.linkedmdb.org/resource/film/5089 0.1410764830478544
+http://data.linkedmdb.org/resource/oddlinker/link_source 0.018733108032503696
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/runtime', '91') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/language', 'http://www.lingvoj.org/lingvo/en') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/filmid', 5089) 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/country', 'http://data.linkedmdb.org/resource/country/AU') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/10678') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film_film_distributor_relationship/2117', 'http://data.linkedmdb.org/resource/movie/film_of_distributor', 'http://data.linkedmdb.org/resource/film/5089') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://xmlns.com/foaf/0.1/based_near', 'http://sws.geonames.org/2077456/') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/music_contributor', 'http://data.linkedmdb.org/resource/music_contributor/4984') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/editor', 'http://data.linkedmdb.org/resource/editor/1456') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://data.linkedmdb.org/resource/movie/film') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://dbpedia.org/property/hasPhotoCollection', 'http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/The_Overlanders_(film)') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/film_cut', 'http://data.linkedmdb.org/resource/film_cut/7327') 0.01410044383606032
+('http://data.linkedmdb.org/resource/film/5089', 'http://purl.org/dc/terms/date', '1946') 0.012832547917777385
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/film_subject', 'http://data.linkedmdb.org/resource/film_subject/465') 0.012832547917777385
+('http://data.linkedmdb.org/resource/film/5089', 'http://purl.org/dc/terms/title', 'The Overlanders') 0.012832547917777385
+('http://data.linkedmdb.org/resource/film/5089', 'http://www.w3.org/2000/01/rdf-schema#label', 'The Overlanders') 0.012832547917777385
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/initial_release_date', '1946') 0.012832547917777385
+('http://data.linkedmdb.org/resource/film/5089', 'http://www.w3.org/2004/02/skos/core#subject', 'http://data.linkedmdb.org/resource/film_subject/465') 0.012832547917777385
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/17201') 0.012832547917777383
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/5356') 0.012832547917777383
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/33879') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/33877') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/33878') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/7704') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/7703') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/40417') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://xmlns.com/foaf/0.1/page', 'http://www.rottentomatoes.com/alias?type=imdbid&s=0038821') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://xmlns.com/foaf/0.1/page', 'http://www.freebase.com/view/guid/9202a8c04000641f8000000000942ce9') 0.012409915945016404
+('http://data.linkedmdb.org/resource/film/5089', 'http://xmlns.com/foaf/0.1/page', 'http://www.imdb.com/title/tt0038821') 0.012409915945016404
+http://data.linkedmdb.org/resource/movie/performance 0.012145874667882712
+http://data.linkedmdb.org/resource/movie/actor 0.012145874667882712
+http://xmlns.com/foaf/0.1/page 0.012145874667882712
+('http://data.linkedmdb.org/resource/interlink/2426', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/5089') 0.012071810366807623
+('http://data.linkedmdb.org/resource/interlink/20959', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/5089') 0.012071810366807623
+('http://data.linkedmdb.org/resource/interlink/39492', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/5089') 0.012071810366807623
+('http://data.linkedmdb.org/resource/interlink/62028', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/5089') 0.012071810366807623
+('http://data.linkedmdb.org/resource/interlink/138363', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/5089') 0.012071810366807623
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/director', 'http://data.linkedmdb.org/resource/director/2486') 0.011564651999494446
+('http://data.linkedmdb.org/resource/film/5089', 'http://data.linkedmdb.org/resource/movie/director', 'http://data.linkedmdb.org/resource/director/13995') 0.011564651999494446
+('http://data.linkedmdb.org/resource/director/2486', 'http://xmlns.com/foaf/0.1/made', 'http://data.linkedmdb.org/resource/film/5089') 0.011564651999494446
+('http://data.linkedmdb.org/resource/director/13995', 'http://xmlns.com/foaf/0.1/made', 'http://data.linkedmdb.org/resource/film/5089') 0.011564651999494446
+http://data.linkedmdb.org/resource/movie/writer 0.008852257985572222
+1946 0.008852257985572222
+http://data.linkedmdb.org/resource/film_subject/465 0.008852257985572222
+The Overlanders 0.008852257985572222
+http://data.linkedmdb.org/resource/movie/director 0.008133625117198302
+http://data.linkedmdb.org/resource/director/2486 0.008133625117198302
+http://data.linkedmdb.org/resource/director/13995 0.008133625117198302
+http://xmlns.com/foaf/0.1/made 0.008133625117198302
+http://data.linkedmdb.org/resource/movie/runtime 0.005558641303261731
+91 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/language 0.005558641303261731
+http://www.lingvoj.org/lingvo/en 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/filmid 0.005558641303261731
+5089 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/country 0.005558641303261731
+http://data.linkedmdb.org/resource/country/AU 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/producer 0.005558641303261731
+http://data.linkedmdb.org/resource/producer/10678 0.005558641303261731
+http://data.linkedmdb.org/resource/film_film_distributor_relationship/2117 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/film_of_distributor 0.005558641303261731
+http://xmlns.com/foaf/0.1/based_near 0.005558641303261731
+http://sws.geonames.org/2077456/ 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/music_contributor 0.005558641303261731
+http://data.linkedmdb.org/resource/music_contributor/4984 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/editor 0.005558641303261731
+http://data.linkedmdb.org/resource/editor/1456 0.005558641303261731
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/film 0.005558641303261731
+http://dbpedia.org/property/hasPhotoCollection 0.005558641303261731
+http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/The_Overlanders_(film) 0.005558641303261731
+http://data.linkedmdb.org/resource/movie/film_cut 0.005558641303261731
+http://data.linkedmdb.org/resource/film_cut/7327 0.005558641303261731
+http://data.linkedmdb.org/resource/writer/17201 0.0051993248690747704
+http://data.linkedmdb.org/resource/writer/5356 0.0051993248690747704
+http://purl.org/dc/terms/date 0.0051993248690747704
+http://data.linkedmdb.org/resource/movie/film_subject 0.0051993248690747704
+http://purl.org/dc/terms/title 0.0051993248690747704
+http://www.w3.org/2000/01/rdf-schema#label 0.0051993248690747704
+http://data.linkedmdb.org/resource/movie/initial_release_date 0.0051993248690747704
+http://www.w3.org/2004/02/skos/core#subject 0.0051993248690747704
+http://data.linkedmdb.org/resource/performance/33879 0.005079552724345784
+http://data.linkedmdb.org/resource/performance/33877 0.005079552724345784
+http://data.linkedmdb.org/resource/performance/33878 0.005079552724345784
+http://data.linkedmdb.org/resource/actor/7704 0.005079552724345784
+http://data.linkedmdb.org/resource/actor/7703 0.005079552724345784
+http://data.linkedmdb.org/resource/actor/40417 0.005079552724345784
+http://www.rottentomatoes.com/alias?type=imdbid&s=0038821 0.005079552724345784
+http://www.freebase.com/view/guid/9202a8c04000641f8000000000942ce9 0.005079552724345784
+http://www.imdb.com/title/tt0038821 0.005079552724345784
+http://data.linkedmdb.org/resource/interlink/2426 0.004983735008562595
+http://data.linkedmdb.org/resource/interlink/20959 0.004983735008562595
+http://data.linkedmdb.org/resource/interlink/39492 0.004983735008562595
+http://data.linkedmdb.org/resource/interlink/62028 0.004983735008562595
+http://data.linkedmdb.org/resource/interlink/138363 0.004983735008562595

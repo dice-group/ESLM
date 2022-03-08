@@ -1,0 +1,25 @@
+70866	Performance	144085
+70866	Performance	144088
+70866	Performance	144091
+70866	Performance	144086
+70866	Performance	144089
+70866	Performance	144090
+70866	Performance	144087
+70866	Type	Film
+70866	Director	812
+70866	Label	Routine Check Ups 4
+70866	Actor	59936
+70866	Actor	60321
+70866	Actor	59932
+70866	Actor	60309
+70866	Actor	60310
+70866	Actor	60322
+70866	Actor	59938
+70866	Production Company	368
+70866	Production Company	197
+70866	Title	Routine Check Ups 4
+70866	Date	2006
+812	Made	70866
+70866	Initial Release Date	2006
+70866	Filmid	70866
+70866	Page	9202A8C04000641F8000000009F30A4B

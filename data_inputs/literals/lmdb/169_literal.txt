@@ -1,0 +1,25 @@
+49	Genre	23
+49	Editor	30
+49	Filmid	49
+270	Made	49
+43	Made	49
+49	Title	Chang
+49	Page	Alias?Type=Imdbid&S=0017743
+49	Page	9202A8C04000641F80000000000560B5
+49	Page	Tt0017743
+49	Initial Release Date	1927,1927-04-29
+70238	Link Source	49
+133988	Link Source	49
+49	Date	1927,1927-04-29
+49	Writer	18034
+49	Cinematographer	40
+49	Runtime	64
+49	Director	43
+49	Director	270
+49	Type	Film
+49	Language	En
+49	Film Cut	14503
+4642	Film Of Distributor	49
+49	Producer	37
+49	Producer	198
+49	Label	Chang

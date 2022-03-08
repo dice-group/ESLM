@@ -1,0 +1,35 @@
+8446	Actor	31581
+8446	Actor	32793
+8446	Actor	29405
+11436	Made	8446
+8446	Language	En
+73136	Link Source	8446
+141053	Link Source	8446
+8446	Runtime	114
+8446	Editor	36
+8446	Producer	3604
+8446	Producer	5959
+8446	Producer	1174
+8446	Director	11436
+8446	Genre	15
+8446	Writer	3287
+8446	Writer	2112
+8446	Writer	2113
+8446	Writer	110
+8446	Page	Alias?Type=Imdbid&S=0120751
+8446	Page	9202A8C04000641F8000000000Db9872
+8446	Page	Tt0120751
+8446	Filmid	8446
+8446	Music Contributor	5196
+8446	Music Contributor	4592
+8446	Title	Mighty Joe Young
+8446	Cinematographer	157
+8446	Initial Release Date	1998-12-25
+8446	Type	Film
+8446	Film Cut	4184
+8446	Date	1998-12-25
+8446	Performance	19600
+8446	Performance	19601
+8446	Performance	173853
+8446	Label	Mighty Joe Young
+5652	Film Of Distributor	8446

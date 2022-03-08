@@ -1,0 +1,35 @@
+2572	Director	9690
+10936	Film Of Distributor	2572
+2572	Performance	4347
+2572	Performance	4346
+2572	Performance	4344
+2572	Performance	4343
+2572	Performance	118676
+2572	Performance	4345
+2572	Date	2002-01-11
+2572	Actor	47098
+2572	Actor	34874
+2572	Actor	39434
+2572	Actor	44171
+2572	Actor	44189
+2572	Actor	29669
+2572	Music Contributor	371
+2572	Producer	10869
+2572	Producer	1181
+2572	Editor	318
+2572	Editor	2398
+2572	Language	En
+2572	Production Company	86
+2572	Film Cut	867
+2572	Page	Alias?Type=Imdbid&S=0303356
+2572	Page	Tt0303356
+2572	Page	9202A8C04000641F80000000005646E7
+2572	Label	Biggie & Tupac
+136276	Link Source	2572
+2572	Initial Release Date	2002-01-11
+2572	Filmid	2572
+2572	Type	Film
+9690	Made	2572
+2572	Runtime	108
+2572	Cinematographer	183
+2572	Title	Biggie & Tupac

@@ -1,0 +1,96 @@
+http://data.linkedmdb.org/resource/film/2108 0.14168788791646306
+http://data.linkedmdb.org/resource/movie/producer 0.021673479785861798
+http://data.linkedmdb.org/resource/movie/writer 0.018442693608432523
+http://data.linkedmdb.org/resource/movie/actor 0.01521190743100324
+http://data.linkedmdb.org/resource/movie/performance 0.01521190743100324
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/filmid', 2108) 0.013904412517247233
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/language', 'http://www.lingvoj.org/lingvo/en') 0.013904412517247233
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/film_cut', 'http://data.linkedmdb.org/resource/film_cut/2019') 0.013904412517247233
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/runtime', '85') 0.013904412517247233
+('http://data.linkedmdb.org/resource/film_film_distributor_relationship/7368', 'http://data.linkedmdb.org/resource/movie/film_of_distributor', 'http://data.linkedmdb.org/resource/film/2108') 0.013904412517247233
+('http://data.linkedmdb.org/resource/film/2108', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://data.linkedmdb.org/resource/movie/film') 0.013904412517247233
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/prequel', 'http://data.linkedmdb.org/resource/film/1351') 0.012623359228461662
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/initial_release_date', '2003-06-13') 0.012623359228461662
+('http://data.linkedmdb.org/resource/film/2108', 'http://purl.org/dc/terms/title', 'Dumb & Dumberer') 0.012623359228461662
+('http://data.linkedmdb.org/resource/film/1351', 'http://data.linkedmdb.org/resource/movie/sequel', 'http://data.linkedmdb.org/resource/film/2108') 0.012623359228461662
+('http://data.linkedmdb.org/resource/film/2108', 'http://www.w3.org/2000/01/rdf-schema#label', 'Dumb & Dumberer') 0.012623359228461662
+('http://data.linkedmdb.org/resource/film/2108', 'http://purl.org/dc/terms/date', '2003-06-13') 0.012623359228461662
+('http://data.linkedmdb.org/resource/interlink/135864', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/2108') 0.01262335922846166
+('http://data.linkedmdb.org/resource/interlink/71114', 'http://data.linkedmdb.org/resource/oddlinker/link_source', 'http://data.linkedmdb.org/resource/film/2108') 0.01262335922846166
+('http://data.linkedmdb.org/resource/film/2108', 'http://xmlns.com/foaf/0.1/page', 'http://www.rottentomatoes.com/alias?type=imdbid&s=0329028') 0.012196341465533134
+('http://data.linkedmdb.org/resource/film/2108', 'http://xmlns.com/foaf/0.1/page', 'http://www.freebase.com/view/guid/9202a8c04000641f800000000048fea0') 0.012196341465533134
+('http://data.linkedmdb.org/resource/film/2108', 'http://xmlns.com/foaf/0.1/page', 'http://www.imdb.com/title/tt0329028') 0.012196341465533134
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/9452') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/42558') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/32287') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/actor', 'http://data.linkedmdb.org/resource/actor/3355') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/9657') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/70982') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/9656') 0.011982832584068874
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/performance', 'http://data.linkedmdb.org/resource/performance/9658') 0.011982832584068874
+http://xmlns.com/foaf/0.1/page 0.01198112125357396
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/6220') 0.011854727255190316
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/2276') 0.011854727255190316
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/15305') 0.011854727255190316
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/15304') 0.011854727255190316
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/writer', 'http://data.linkedmdb.org/resource/writer/2275') 0.011854727255190316
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/14177') 0.011769323702604612
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/698') 0.011769323702604612
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/2158') 0.011769323702604612
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/16678') 0.011769323702604612
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/5946') 0.011769323702604612
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/producer', 'http://data.linkedmdb.org/resource/producer/13754') 0.011769323702604612
+('http://data.linkedmdb.org/resource/director/2917', 'http://xmlns.com/foaf/0.1/made', 'http://data.linkedmdb.org/resource/film/2108') 0.011342305939676087
+('http://data.linkedmdb.org/resource/director/1193', 'http://xmlns.com/foaf/0.1/made', 'http://data.linkedmdb.org/resource/film/2108') 0.011342305939676087
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/director', 'http://data.linkedmdb.org/resource/director/1193') 0.011342305939676086
+('http://data.linkedmdb.org/resource/film/2108', 'http://data.linkedmdb.org/resource/movie/director', 'http://data.linkedmdb.org/resource/director/2917') 0.011342305939676086
+http://data.linkedmdb.org/resource/oddlinker/link_source 0.00875033507614468
+http://data.linkedmdb.org/resource/film/1351 0.00875033507614468
+2003-06-13 0.00875033507614468
+Dumb & Dumberer 0.00875033507614468
+http://data.linkedmdb.org/resource/director/1193 0.008024072354858561
+http://data.linkedmdb.org/resource/director/2917 0.008024072354858561
+http://xmlns.com/foaf/0.1/made 0.008024072354858561
+http://data.linkedmdb.org/resource/movie/director 0.00802407235485856
+http://data.linkedmdb.org/resource/movie/filmid 0.0055195488987154
+2108 0.0055195488987154
+http://data.linkedmdb.org/resource/movie/language 0.0055195488987154
+http://www.lingvoj.org/lingvo/en 0.0055195488987154
+http://data.linkedmdb.org/resource/movie/film_cut 0.0055195488987154
+http://data.linkedmdb.org/resource/film_cut/2019 0.0055195488987154
+http://data.linkedmdb.org/resource/movie/runtime 0.0055195488987154
+85 0.0055195488987154
+http://data.linkedmdb.org/resource/film_film_distributor_relationship/7368 0.0055195488987154
+http://data.linkedmdb.org/resource/movie/film_of_distributor 0.0055195488987154
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type 0.0055195488987154
+http://data.linkedmdb.org/resource/movie/film 0.0055195488987154
+http://data.linkedmdb.org/resource/interlink/135864 0.00515641753807234
+http://data.linkedmdb.org/resource/interlink/71114 0.00515641753807234
+http://data.linkedmdb.org/resource/movie/prequel 0.00515641753807234
+http://data.linkedmdb.org/resource/movie/initial_release_date 0.00515641753807234
+http://purl.org/dc/terms/title 0.00515641753807234
+http://data.linkedmdb.org/resource/movie/sequel 0.00515641753807234
+http://www.w3.org/2000/01/rdf-schema#label 0.00515641753807234
+http://purl.org/dc/terms/date 0.00515641753807234
+http://www.rottentomatoes.com/alias?type=imdbid&s=0329028 0.00503537375119132
+http://www.freebase.com/view/guid/9202a8c04000641f800000000048fea0 0.00503537375119132
+http://www.imdb.com/title/tt0329028 0.00503537375119132
+http://data.linkedmdb.org/resource/actor/9452 0.00497485185775081
+http://data.linkedmdb.org/resource/actor/42558 0.00497485185775081
+http://data.linkedmdb.org/resource/actor/32287 0.00497485185775081
+http://data.linkedmdb.org/resource/actor/3355 0.00497485185775081
+http://data.linkedmdb.org/resource/performance/9657 0.00497485185775081
+http://data.linkedmdb.org/resource/performance/70982 0.00497485185775081
+http://data.linkedmdb.org/resource/performance/9656 0.00497485185775081
+http://data.linkedmdb.org/resource/performance/9658 0.00497485185775081
+http://data.linkedmdb.org/resource/writer/6220 0.004938538721686505
+http://data.linkedmdb.org/resource/writer/2276 0.004938538721686505
+http://data.linkedmdb.org/resource/writer/15305 0.004938538721686505
+http://data.linkedmdb.org/resource/writer/15304 0.004938538721686505
+http://data.linkedmdb.org/resource/writer/2275 0.004938538721686505
+http://data.linkedmdb.org/resource/producer/14177 0.0049143299643103
+http://data.linkedmdb.org/resource/producer/698 0.0049143299643103
+http://data.linkedmdb.org/resource/producer/2158 0.0049143299643103
+http://data.linkedmdb.org/resource/producer/16678 0.0049143299643103
+http://data.linkedmdb.org/resource/producer/5946 0.0049143299643103
+http://data.linkedmdb.org/resource/producer/13754 0.0049143299643103

@@ -1,0 +1,27 @@
+41573	Film Format	56
+41573	Writer	15593
+41573	Writer	16556
+9077	Made	41573
+41573	Film Art Director	2
+41573	Title	Broken Lance
+41573	Initial Release Date	1954
+41573	Performance	5456
+41573	Performance	5458
+41573	Performance	5454
+41573	Performance	5457
+41573	Performance	5455
+41573	Type	Film
+41573	Editor	1708
+41573	Director	9077
+41573	Page	9202A8C04000641F8000000000567F08
+1166	Film Of Distributor	41573
+41573	Actor	33143
+41573	Actor	32491
+41573	Actor	35936
+41573	Actor	30035
+41573	Actor	29794
+41573	Date	1954
+41573	Filmid	41573
+41573	Music Contributor	5454
+41573	Label	Broken Lance
+41573	Film Set Designer	2

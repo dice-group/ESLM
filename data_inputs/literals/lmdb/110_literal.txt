@@ -1,0 +1,24 @@
+41408	Filmid	41408
+8475	Made	41408
+41408	Performance	35123
+41408	Performance	35120
+41408	Performance	35119
+41408	Performance	35122
+41408	Performance	35121
+41408	Music Contributor	5266
+41408	Editor	29
+41408	Producer	10319
+41408	Label	The Spiral Staircase
+41408	Date	1946-02-06
+41408	Type	Film
+41408	Title	The Spiral Staircase
+41408	Writer	1354
+41408	Writer	16174
+41408	Director	8475
+41408	Initial Release Date	1946-02-06
+41408	Actor	33562
+41408	Actor	30867
+41408	Actor	36329
+41408	Actor	32009
+41408	Actor	36306
+41408	Page	9202A8C04000641F8000000000527D33
