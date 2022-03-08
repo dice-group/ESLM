@@ -13,8 +13,8 @@ import datetime
 import numpy as np
 import torch
 from tqdm import tqdm
-from transformers import BertTokenizer, BertConfig, AdamW, get_linear_schedule_with_warmup
-
+from transformers import BertTokenizer, AdamW, get_linear_schedule_with_warmup
+from transformers import BertModel
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
 from evaluator.ndcg import NDCG
@@ -62,7 +62,7 @@ def main(mode):
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
                     optimizer_grouped_parameters = [
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
-                        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+                        {'params': [p for n, p in param_oimport scipy.sparse as spptimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
                     optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
@@ -100,7 +100,8 @@ def train(model, optimizer, train_data, valid_data, dataset, graph_r, topk, fold
         os.makedirs(models_dir)
     best_acc = 0
     stop_valid_epoch = None
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=-1)
+    total_steps = len(train_data) * config["n_epochs"]
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
