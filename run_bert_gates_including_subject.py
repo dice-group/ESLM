@@ -115,7 +115,7 @@ class BertGATES(nn.Module):
         self.bert = BertModel.from_pretrained('bert-base-uncased')
         self.bert_drop = nn.Dropout(0.4)
         self.out = nn.Linear(768, 1)
-        self.input_size = 29952
+        self.input_size = 768
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
