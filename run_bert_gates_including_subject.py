@@ -124,7 +124,7 @@ class BertGATES(nn.Module):
     def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
         """forward"""
         outputs = self.bert(input_ids, segment_ids, input_mask)
-        bert_out = self.bert_drop(outputs.pooler_output)
+        bert_out = self.bert_drop(outputs.last_hidden_state)
         #bert_out = self.out(bert_out)
         #bert_out = torch.transpose(bert_out, 0, 1)
         bert_out = torch.flatten(bert_out, start_dim=1)
