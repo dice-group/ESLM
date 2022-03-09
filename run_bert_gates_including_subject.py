@@ -115,7 +115,7 @@ class BertGATES(nn.Module):
         self.bert = BertModel.from_pretrained('bert-base-uncased')
         self.bert_drop = nn.Dropout(0.4)
         self.out = nn.Linear(768, 1)
-        self.input_size = 768
+        self.input_size = MAX_LENGTH * 768
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
@@ -125,7 +125,7 @@ class BertGATES(nn.Module):
         """forward"""
         outputs = self.bert(input_ids, segment_ids, input_mask)
         bert_out = self.bert_drop(outputs.pooler_output)
-        #bert_out = self.out(bert_out)
+        bert_out = self.out(bert_out)
         #bert_out = torch.transpose(bert_out, 0, 1)
         bert_out = torch.flatten(bert_out, start_dim=1)
         #bert_out = self.out(bert_out)
