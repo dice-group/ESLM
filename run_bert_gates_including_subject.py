@@ -112,10 +112,10 @@ class BertGATES(nn.Module):
     """BERT-GATES model"""
     def __init__(self):
         super(BertGATES, self).__init__()
-        self.bert = BertModel.from_pretrained('bert-base-uncased')
+        self.bert = BertModel.from_pretrained('bert-base-uncased', from_tf=False)
         self.bert_drop = nn.Dropout(0.4)
-        self.out = nn.Linear(768, 1)
-        self.input_size = MAX_LENGTH * 768
+        self.input_size = 768
+        self.bert_out = nn.Linear(768, 1)
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
@@ -124,38 +124,20 @@ class BertGATES(nn.Module):
     def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
         """forward"""
         outputs = self.bert(input_ids, segment_ids, input_mask)
-        bert_out = self.bert_drop(outputs.last_hidden_state)
-        #bert_out = self.out(bert_out)
-        #bert_out = torch.transpose(bert_out, 0, 1)
-        bert_out = torch.flatten(bert_out, start_dim=1)
-        #bert_out = self.out(bert_out)
+        feature_out = outputs[0]
+        pool_out = outputs[1]
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
-        features = bert_out
-        #print(features.shape)
-        features = UTILS.normalize_features(features.detach().numpy())
-        features = torch.FloatTensor(np.array(features))
+        features = self.bert_drop(pool_out)
+        #features = UTILS.normalize_features(features.detach().numpy())
+        #features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
         return logits
     def __str__(self):
         return self.__class__.__name__
-class BERT(nn.Module):
-    "Pure Bert model"
-    def __init__(self):
-        super(BERT, self).__init__()
-        self.bert = BertModel.from_pretrained('bert-base-uncased')
-        self.bert_drop = nn.Dropout(0.4)
-        self.out = nn.Linear(768, 1)
-        self.softmax = nn.Softmax(dim=0)
-    def forward(self, ids, mask, token_type_ids):
-        "forward module"
-        outputs = self.bert(ids, attention_mask=mask, token_type_ids=token_type_ids)
-        bertout = self.bert_drop(outputs.pooler_output) #last_hidden_state #pooler_output
-        output = self.out(bertout)
-        return self.softmax(output)
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
