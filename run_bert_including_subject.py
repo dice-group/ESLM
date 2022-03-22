@@ -14,7 +14,9 @@ import torch
 from torch import nn
 from transformers import BertTokenizer, AdamW, get_linear_schedule_with_warmup
 from transformers import BertModel
+from transformers import AutoModel, AutoTokenizer
 from tqdm import tqdm
+from rich.console import Console
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -28,6 +30,8 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
 MAX_LENGTH = 39
+# define a rich console logger
+console=Console(record=True)
 
 class BERT(nn.Module):
     "Pure Bert model"
@@ -36,13 +40,29 @@ class BERT(nn.Module):
         self.bert = BertModel.from_pretrained('bert-base-uncased')
         self.bert_drop = nn.Dropout(0.4)
         self.out = nn.Linear(768, 1)
-        self.softmax = nn.Softmax(dim=0)
+        #self.softmax = nn.Sigmoid()
     def forward(self, ids, mask, token_type_ids):
         "forward module"
         outputs = self.bert(ids, attention_mask=mask, token_type_ids=token_type_ids)
         bertout = self.bert_drop(outputs.pooler_output) #last_hidden_state #pooler_output
         output = self.out(bertout)
-        return self.softmax(output)
+        return output#self.softmax(output)
+    
+class BertClassifier(nn.Module):
+    def __init__(self, pretrained_model='bert-base-uncased', nb_class=1):
+        super(BertClassifier, self).__init__()
+        self.nb_class = nb_class
+        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = AutoModel.from_pretrained(pretrained_model)
+        self.feat_dim = list(self.bert_model.modules())[-2].out_features
+        self.classifier = nn.Linear(self.feat_dim, nb_class)
+
+    def forward(self, input_ids, attention_mask):
+        cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(cls_feats)
+        cls_logit = nn.Softmax(dim=0)(cls_logit)
+        return cls_logit
+    
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
@@ -56,7 +76,12 @@ def main(mode):
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     if mode == "train":
+        # logging
+        console.log(f"""Checking logging directory ...""")
         log_file_path = os.path.join(os.getcwd(), 'logs/Bert_log.txt')
+        if os.path.exists(os.path.join(os.getcwd(), "logs")) is not True:
+            console.log(f"""Creating logging directory ...""")
+            os.mkdir(os.path.join(os.getcwd(), "logs"))
         with open(log_file_path, 'w', encoding="utf-8") as log_file:
             pass
     for ds_name in config["ds_name"]:
@@ -69,7 +94,7 @@ def main(mode):
                     fold = fold
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    model = BERT()
+                    model = BertClassifier()
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
@@ -132,7 +157,9 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
+            output_tensor = model(all_input_ids, all_input_mask)
+            #print(output_tensor)
+            #print(output_tensor.shape)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
             (_, output_top) = torch.topk(train_output_tensor, topk)
@@ -163,7 +190,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-                output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
+                #output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
+                output_tensor = model(all_input_ids, all_input_mask)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
                 (_, output_top) = torch.topk(valid_output_tensor, topk)
