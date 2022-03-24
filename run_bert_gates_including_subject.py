@@ -195,7 +195,7 @@ def main(mode):
                     optimizer = torch.optim.Adam([
                             {'params': model.bert_model.parameters()},
                             {'params': model.classifier.parameters()},
-                            {'params': model.gcn.parameters()},
+                            {'params': model.gat.parameters()},
                         ], lr=1e-3
                     )
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
