@@ -71,33 +71,7 @@ def main(mode):
         with open(log_file_path, 'w', encoding="utf-8") as log_file:
             pass
     for ds_name in config["ds_name"]:
-        if mode == "train":
-            for topk in config["topk"]:
-                dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
-                train_data, valid_data = dataset.get_training_dataset()
-                best_epochs = []
-                for fold in range(5):
-                    fold = fold
-                    print("")
-                    print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    model = BertClassifier()
-                    model.to(DEVICE)
-                    print(model)
-                    param_optimizer = list(model.named_parameters())
-                    no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
-                    optimizer_grouped_parameters = [
-                        {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
-                        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
-                        ]
-                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
-                    models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir)
-                    best_epochs.append(best_epoch)
-                with open(log_file_path, 'a', encoding="utf-8") as log_file:
-                    line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
-                    log_file.write(line)
-        elif mode == "test":
+        if mode == "test":
             for topk in config["topk"]:
                 filename = 'logs/Bert_log.txt'
                 use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
@@ -124,100 +98,7 @@ def main(mode):
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
                 print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
-def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir):
-    """Training module"""
-    if not os.path.exists(models_dir):
-        os.makedirs(models_dir)
-    best_acc = 0
-    stop_valid_epoch = None
-    total_steps = len(train_data) * config["n_epochs"]
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-    for epoch in range(config["n_epochs"]):
-        model.train()
-        train_loss = 0
-        train_acc = 0
-        print("")
-        print(f'======== Epoch {epoch+1} / {config["n_epochs"]} ========')
-        print('Training...')
-        t_start = time.time()
-        for eid in tqdm(train_data):
-            triples = dataset.get_triples(eid)
-            literal = dataset.get_literals(eid)
-            labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
-            all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
-            all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-            all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
-            target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(all_input_ids, all_input_mask)
-            #print(output_tensor)
-            #print(output_tensor.shape)
-            loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
-            train_output_tensor = output_tensor.view(1, -1).cpu()
-            (_, output_top) = torch.topk(train_output_tensor, topk)
-            triples_dict = dataset.triples_dictionary(eid)
-            gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
-            acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
-            loss.backward()
-            optimizer.step()
-            scheduler.step()
-            optimizer.zero_grad()
-            train_loss += loss.item()
-            train_acc += acc
-        training_time = format_time(time.time() - t_start)
-        print("  Training epcoh took: {:}".format(training_time))
-        valid_acc = 0
-        valid_loss = 0
-        print("")
-        print("Running Validation...")
-        t_start = time.time()
-        model.eval()
-        with torch.no_grad():
-            for eid in tqdm(valid_data):
-                triples = dataset.get_triples(eid)
-                literal = dataset.get_literals(eid)
-                labels = dataset.prepare_labels(eid)
-                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
-                all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
-                all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-                #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
-                target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-                #output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
-                output_tensor = model(all_input_ids, all_input_mask)
-                loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
-                valid_output_tensor = output_tensor.view(1, -1).cpu()
-                (_, output_top) = torch.topk(valid_output_tensor, topk)
-                triples_dict = dataset.triples_dictionary(eid)
-                gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
-                acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
-                valid_loss += loss.item()
-                valid_acc += acc
-        validation_time = format_time(time.time() - t_start)
-        print("  Validation took: {:}".format(validation_time))
-        train_loss = train_loss/len(train_data)
-        train_acc = train_acc/len(train_data)
-        valid_loss = valid_loss/len(valid_data)
-        valid_acc = valid_acc/len(valid_data)
-        print("")
-        print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
-        if valid_acc > best_acc:
-            print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
-            best_acc = valid_acc
-            torch.save({
-                "epoch": epoch,
-                "model_state_dict": model.state_dict(),
-                "optimizer_state_dict": optimizer.state_dict(),
-                "train_loss": train_loss,
-                'valid_loss': valid_loss,
-                'fold': fold,
-                'acc': best_acc,
-                'training_time': training_time,
-                'validation_time': validation_time
-                }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
-            if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
-                os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
-            stop_valid_epoch = epoch
-    return stop_valid_epoch
+
 def generated_entity_summaries(test_data, dataset, topk, fold, models):
     """"Generated entity summaries"""
     ndcg_eval = NDCG()
