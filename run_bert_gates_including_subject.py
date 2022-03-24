@@ -138,14 +138,9 @@ class BertGATES(nn.Module):
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
         self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
-    def forward(self, adj, input_ids, input_mask=None, model=None):
+    def forward(self, adj, input_ids, input_mask=None):
         """forward"""
-        if self.training:
-            cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
-        else:
-            with torch.no_grad():
-                model.eval()
-                cls_feats = model.bert_model(input_ids, input_mask)[0][:, 0]
+        cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
         features = cls_feats
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
@@ -192,16 +187,20 @@ def main(mode):
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
                     bert_models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
-                    bertmodel = BertClassifier()
-                    bertmodel.bert_model.load_state_dict(checkpoint['bert_model'])
-                    bertmodel.classifier.load_state_dict(checkpoint['classifier'])
                     model = BertGATES()
+                    model.bert_model.load_state_dict(checkpoint['bert_model'])
+                    model.classifier.load_state_dict(checkpoint['classifier']) 
                     model.to(DEVICE)
                     #optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+                    optimizer = torch.optim.Adam([
+                            {'params': model.bert_model.parameters()},
+                            {'params': model.classifier.parameters()},
+                            {'params': model.gcn.parameters()},
+                        ], lr=1e-3
+                    )
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, bertmodel)
+                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r)
                     best_epochs.append(best_epoch)
                 with open(log_file_path, 'a', encoding="utf-8") as log_file:
                     line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
@@ -218,24 +217,19 @@ def main(mode):
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
-                    bertmodels_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
-                    bertmodel = BertClassifier()
-                    bert_checkpoint = torch.load(os.path.join(bertmodels_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
-                    bertmodel.bert_model.load_state_dict(bert_checkpoint['bert_model'])
-                    bertmodel.classifier.load_state_dict(bert_checkpoint['classifier'])
-                    models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES()
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
                     model.load_state_dict(checkpoint["model_state_dict"])
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier'])
+                    model.gat.load_state_dict(checkpoint['model_state_dict'])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r, bertmodel)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
                 print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
-def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, graph_r, bertmodel):
+def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, graph_r):
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -261,7 +255,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(adj, all_input_ids, all_input_mask, bertmodel)
+            output_tensor = model(adj, all_input_ids, all_input_mask)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
             (_, output_top) = torch.topk(train_output_tensor, topk)
@@ -293,7 +287,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-                output_tensor = model(adj, all_input_ids, all_input_mask, bertmodel)
+                output_tensor = model(adj, all_input_ids, all_input_mask)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
                 (_, output_top) = torch.topk(valid_output_tensor, topk)
@@ -316,6 +310,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             torch.save({
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
+                "bert_model": model.bert_model.state_dict(),
+                "classifier": model.classifier.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
                 "train_loss": train_loss,
                 'valid_loss': valid_loss,
@@ -328,7 +324,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk, graph_r, bertmodel):
+def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
     """"Generated entity summaries"""
     model.eval()
     ndcg_eval = NDCG()
@@ -348,7 +344,7 @@ def generated_entity_summaries(model, test_data, dataset, topk, graph_r, bertmod
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(adj, all_input_ids, all_input_mask, bertmodel)
+            output_tensor = model(adj, all_input_ids, all_input_mask)
             output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
