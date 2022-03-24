@@ -132,27 +132,31 @@ class BertGATES(nn.Module):
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
         self.bert_model = AutoModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
-        self.classifier = th.nn.Linear(self.feat_dim, nb_class)
+        self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
         self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
-    def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
+    def forward(self, adj, input_ids, input_mask=None, model=None):
         """forward"""
         if self.training:
-            outputs = self.bert(input_ids, segment_ids, input_mask)
-        feature_out = outputs[0]
-        pool_out = outputs[1]
+            cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
+        else:
+            with torch.no_grad():
+                model.eval()
+                cls_feats = model.bert_model(input_ids, input_mask)[0][:, 0]
+        features = self.classifier(cls_feats)
+        #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
-        features = self.bert_drop(pool_out)
         #features = UTILS.normalize_features(features.detach().numpy())
         #features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
+        #pred = 
         return logits
     def __str__(self):
         return self.__class__.__name__
@@ -169,7 +173,7 @@ def main(mode):
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     if mode == "train":
-        log_file_path = os.path.join(os.getcwd(), 'logs/Bert_log.txt')
+        log_file_path = os.path.join(os.getcwd(), 'logs/BertGATES_log.txt')
         with open(log_file_path, 'w', encoding="utf-8") as log_file:
             pass
     for ds_name in config["ds_name"]:
@@ -179,29 +183,31 @@ def main(mode):
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
                 best_epochs = []
+                filename = 'logs/Bert_log.txt'
+                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 for fold in range(5):
                     fold = fold
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
+                    bert_models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
+                    checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    bertmodel = BertClassifier()
+                    bertmodel.bert_model.load_state_dict(checkpoint['bert_model'])
+                    bertmodel.classifier.load_state_dict(checkpoint['classifier'])
                     model = BertGATES()
                     model.to(DEVICE)
-                    param_optimizer = list(model.named_parameters())
-                    no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
-                    optimizer_grouped_parameters = [
-                        {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
-                        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
-                        ]
-                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
+                    #optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
+                    optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+                    models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r)
+                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, bertmodel)
                     best_epochs.append(best_epoch)
                 with open(log_file_path, 'a', encoding="utf-8") as log_file:
                     line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
                     log_file.write(line)
         elif mode == "test":
             for topk in config["topk"]:
-                filename = 'logs/Bert_log.txt'
+                filename = 'logs/BertGATES_log.txt'
                 use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
@@ -211,17 +217,19 @@ def main(mode):
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
-                    models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
+                    models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES()
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
                     model.load_state_dict(checkpoint["model_state_dict"])
+                    model.bert_model.load_state_dict(checkpoint['bert_model'])
+                    model.classifier.load_state_dict(checkpoint['classifier'])
                     model.to(DEVICE)
                     fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
                 print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
-def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, graph_r):
+def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, graph_r, bertmodel):
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -247,7 +255,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask)
+            
+            output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask, bertmodel)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
             (_, output_top) = torch.topk(train_output_tensor, topk)
@@ -303,6 +312,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
+                "bert_model": model.bert_model.state_dict(),
+                "classifier": model.classifier.state_dict(),
                 "train_loss": train_loss,
                 'valid_loss': valid_loss,
                 'fold': fold,
