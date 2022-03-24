@@ -28,7 +28,8 @@ from classes.dataset import ESBenchmark
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
+pretrained_model='bert-base-uncased'
+TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
 MAX_LENGTH = 39
 # define a rich console logger
 console=Console(record=True)
@@ -41,11 +42,11 @@ class BertClassifier(nn.Module):
         self.bert_model = AutoModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
-
+        self.softmax = nn.Softmax(dim=0)
     def forward(self, input_ids, attention_mask):
         cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
         cls_logit = self.classifier(cls_feats)
-        cls_logit = nn.Softmax(dim=0)(cls_logit)
+        cls_logit = self.softmax(cls_logit)
         return cls_logit
     
 def format_time(elapsed):
@@ -81,6 +82,7 @@ def main(mode):
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
                     model = BertClassifier()
                     model.to(DEVICE)
+                    print(model)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
                     optimizer_grouped_parameters = [

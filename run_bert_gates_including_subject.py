@@ -25,6 +25,7 @@ from config import config
 from classes.helpers import Utils
 from classes.dataset import ESBenchmark
 from classes.graphs_representation import GraphRepresentation
+from transformers import AutoModel, AutoTokenizer
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
@@ -108,22 +109,39 @@ class GAT(nn.Module):
         return self.softmax(feats)
     def __str__(self):
         return self.__class__.__name__
+
+class BertClassifier(nn.Module):
+    def __init__(self, pretrained_model='bert-base-uncased', nb_class=1):
+        super(BertClassifier, self).__init__()
+        self.nb_class = nb_class
+        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = AutoModel.from_pretrained(pretrained_model)
+        self.feat_dim = list(self.bert_model.modules())[-2].out_features
+        self.classifier = nn.Linear(self.feat_dim, nb_class)
+        self.softmax = nn.Softmax(dim=0)
+    def forward(self, input_ids, attention_mask):
+        cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(cls_feats)
+        cls_logit = self.softmax(cls_logit)
+        return cls_logit
+
 class BertGATES(nn.Module):
     """BERT-GATES model"""
-    def __init__(self):
+    def __init__(self, pretrained_model='bert-base-uncased', nb_class=1):
         super(BertGATES, self).__init__()
-        self.bert = BertModel.from_pretrained('bert-base-uncased', from_tf=False)
-        self.bert_drop = nn.Dropout(0.4)
-        self.input_size = 768
-        self.bert_out = nn.Linear(768, 1)
+        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = AutoModel.from_pretrained(pretrained_model)
+        self.feat_dim = list(self.bert_model.modules())[-2].out_features
+        self.classifier = th.nn.Linear(self.feat_dim, nb_class)
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-        self.gat = GAT(nfeat=self.input_size, nhid=self.hidden_layer, nclass=1, alpha=0.2)
+        self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
     def forward(self, adj, input_ids, segment_ids=None, input_mask=None):
         """forward"""
-        outputs = self.bert(input_ids, segment_ids, input_mask)
+        if self.training:
+            outputs = self.bert(input_ids, segment_ids, input_mask)
         feature_out = outputs[0]
         pool_out = outputs[1]
         edge = adj.data

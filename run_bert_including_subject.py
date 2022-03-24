@@ -28,7 +28,8 @@ from classes.dataset import ESBenchmark
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
+pretrained_model='bert-base-uncased'
+TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
 MAX_LENGTH = 39
 # define a rich console logger
 console=Console(record=True)
@@ -41,11 +42,12 @@ class BertClassifier(nn.Module):
         self.bert_model = AutoModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
+        self.softmax = nn.Softmax(dim=0)
 
     def forward(self, input_ids, attention_mask):
         cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
         cls_logit = self.classifier(cls_feats)
-        cls_logit = nn.Softmax(dim=0)(cls_logit)
+        cls_logit = self.softmax(cls_logit)
         return cls_logit
     
 def format_time(elapsed):
@@ -198,7 +200,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
-                "model_state_dict": model.state_dict(),
+                "bert_model": model.bert_model.state_dict(),
+                "classifier": model.classifier.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
                 "train_loss": train_loss,
                 'valid_loss': valid_loss,
