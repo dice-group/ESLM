@@ -217,6 +217,11 @@ def main(mode):
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
+                    bertmodels_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
+                    bertmodel = BertClassifier()
+                    bert_checkpoint = torch.load(os.path.join(bertmodels_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    bertmodel.bert_model.load_state_dict(bert_checkpoint['bert_model'])
+                    bertmodel.classifier.load_state_dict(bert_checkpoint['classifier'])
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES()
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
@@ -224,7 +229,7 @@ def main(mode):
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier'])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r, bertmodel)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
@@ -255,7 +260,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            
             output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask, bertmodel)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
@@ -288,7 +292,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-                output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask)
+                output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask, bertmodel)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
                 (_, output_top) = torch.topk(valid_output_tensor, topk)
@@ -312,8 +316,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
-                "bert_model": model.bert_model.state_dict(),
-                "classifier": model.classifier.state_dict(),
                 "train_loss": train_loss,
                 'valid_loss': valid_loss,
                 'fold': fold,
