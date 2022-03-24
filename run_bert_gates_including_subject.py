@@ -146,6 +146,7 @@ class BertGATES(nn.Module):
             with torch.no_grad():
                 model.eval()
                 cls_feats = model.bert_model(input_ids, input_mask)[0][:, 0]
+        features = cls_feats
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
