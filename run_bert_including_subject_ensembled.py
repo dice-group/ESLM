@@ -116,7 +116,7 @@ def main(mode):
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, fold, models)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(test_data[fold][0], dataset, topk, fold, models)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)

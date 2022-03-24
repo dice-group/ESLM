@@ -30,24 +30,8 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
 MAX_LENGTH = 39
-IS_ENSEMBLED = True 
 # define a rich console logger
 console=Console(record=True)
-
-class BERT(nn.Module):
-    "Pure Bert model"
-    def __init__(self):
-        super(BERT, self).__init__()
-        self.bert = BertModel.from_pretrained('bert-base-uncased')
-        self.bert_drop = nn.Dropout(0.4)
-        self.out = nn.Linear(768, 1)
-        #self.softmax = nn.Sigmoid()
-    def forward(self, ids, mask, token_type_ids):
-        "forward module"
-        outputs = self.bert(ids, attention_mask=mask, token_type_ids=token_type_ids)
-        bertout = self.bert_drop(outputs.pooler_output) #last_hidden_state #pooler_output
-        output = self.out(bertout)
-        return output#self.softmax(output)
     
 class BertClassifier(nn.Module):
     def __init__(self, pretrained_model='bert-base-uncased', nb_class=1):
@@ -128,7 +112,7 @@ def main(mode):
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
                     model.load_state_dict(checkpoint["model_state_dict"])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, fold)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
@@ -189,7 +173,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-                all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+                #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
                 #output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
                 output_tensor = model(all_input_ids, all_input_mask)
@@ -227,7 +211,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk, fold):
+def generated_entity_summaries(model, test_data, dataset, topk):
     """"Generated entity summaries"""
     model.eval()
     ndcg_eval = NDCG()
@@ -246,10 +230,7 @@ def generated_entity_summaries(model, test_data, dataset, topk, fold):
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            if IS_ENSEMBLED==True:
-                output_tensor = evaluate_n_members(models, fold, all_input_ids, all_input_mask)
-            else:
-                output_tensor = model(all_input_ids, all_input_mask)
+            output_tensor = model(all_input_ids, all_input_mask)
             output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
@@ -279,22 +260,12 @@ def generated_entity_summaries(model, test_data, dataset, topk, fold):
             writer(dataset.get_db_path, directory, eid, top_or_rank, topk, rank_list)
     return np.average(fmeasure_scores), np.average(ndcg_scores), np.average(map_scores)
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
-    "Write triples to file"# evaluate a specific number of members in an ensemble
-def evaluate_n_members(members, fold, all_input_ids, all_input_mask):
-    if fold==4:
-        subset = [members[0],  members[4]]
-    else:
-        subset = [members[fold],  members[fold+1]]
-    yhat = ensemble_predictions(subset, all_input_ids, all_input_mask)
-    return yhat
-
-# make an ensemble prediction for multi-class classification
-def ensemble_predictions(members, all_input_ids, all_input_mask):
-	# make predictions
-    yhats = torch.stack([model(all_input_ids, all_input_mask) for model in members])
-    result = torch.sum(yhats, axis=0)
-    return result
-    
+    "Write triples to file"
+    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
+        with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
+            triples = [triple for _, triple in enumerate(fin)]
+            for rank in rank_list:
+                fout.write(triples[rank])
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
