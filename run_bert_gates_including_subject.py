@@ -223,7 +223,6 @@ def main(mode):
                     model.load_state_dict(checkpoint["model_state_dict"])
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier'])
-                    model.gat.load_state_dict(checkpoint['model_state_dict'])
                     model.to(DEVICE)
                     fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r)
                     fmeasure_scores.append(fmeasure_score)
