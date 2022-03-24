@@ -191,13 +191,13 @@ def main(mode):
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier']) 
                     model.to(DEVICE)
-                    #optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    optimizer = torch.optim.Adam([
-                            {'params': model.bert_model.parameters()},
-                            {'params': model.classifier.parameters()},
-                            {'params': model.gat.parameters()},
-                        ], lr=1e-3
-                    )
+                    param_optimizer = list(model.named_parameters())
+                    no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+                    optimizer_grouped_parameters = [
+                        {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
+                        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+                        ]
+                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r)
