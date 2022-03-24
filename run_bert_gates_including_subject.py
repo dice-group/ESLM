@@ -260,7 +260,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask, bertmodel)
+            output_tensor = model(adj, all_input_ids, all_input_mask, bertmodel)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
             (_, output_top) = torch.topk(train_output_tensor, topk)
@@ -292,7 +292,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-                output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask, bertmodel)
+                output_tensor = model(adj, all_input_ids, all_input_mask, bertmodel)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
                 (_, output_top) = torch.topk(valid_output_tensor, topk)
@@ -327,7 +327,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
+def generated_entity_summaries(model, test_data, dataset, topk, graph_r, bertmodel):
     """"Generated entity summaries"""
     model.eval()
     ndcg_eval = NDCG()
@@ -347,7 +347,7 @@ def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(adj, all_input_ids, all_segment_ids, all_input_mask)
+            output_tensor = model(adj, all_input_ids, all_input_mask, bertmodel)
             output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
