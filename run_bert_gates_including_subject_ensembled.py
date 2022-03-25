@@ -188,6 +188,7 @@ def main(mode):
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES()
                     checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    model.load_state_dict(checkpoint["model_state_dict"])
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
