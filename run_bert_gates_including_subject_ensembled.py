@@ -204,7 +204,6 @@ def main(mode):
 
 def generated_entity_summaries(models, test_data, dataset, topk, graph_r, fold):
     """"Generated entity summaries"""
-    model.eval()
     ndcg_eval = NDCG()
     fmeasure_eval = FMeasure()
     map_eval = MAP()
@@ -270,7 +269,7 @@ def evaluate_n_members(members, fold, all_input_ids, all_input_mask):
 # make an ensemble prediction for multi-class classification
 def ensemble_predictions(members, all_input_ids, all_input_mask):
 	# make predictions
-    yhats = torch.stack([model(all_input_ids, all_input_mask) for model in members])
+    yhats = torch.stack([model(all_input_ids, all_input_mask) for model.eval() in members])
     result = torch.sum(yhats, axis=0)
     return result
 if __name__ == "__main__":
