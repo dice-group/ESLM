@@ -235,9 +235,9 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model.bert_model(all_input_ids, all_input_mask)
             console.log(f"""Calculting the similarity between triples ...""")
-            cls_distance = mean_cosine_distance(output_tensor[0])
-            console.log(cls_distance)
-            output_tensor = output_tensor[0]
+            cls_distance = max_cosine_distance(output_tensor[0])
+            #console.log(cls_distance)
+            output_tensor = cls_distance[0]
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
             _, output_top = torch.topk(output_tensor, topk)
@@ -289,6 +289,14 @@ def mean_cosine_distance(embeds):
     mean_dist = normalized.matmul(normalized.T)
     mean_dist = mean_dist.new_ones(mean_dist.shape) - mean_dist
     return mean_dist
+def max_cosine_distance(embeds):
+    MAXS, _ = embeds.max(dim=1)
+    # normalize the MEANS token embeddings
+    normalized = f.normalize(MAXS, p=2, dim=1)
+    # calculate the cosine similarity
+    max_dist = normalized.matmul(normalized.T)
+    max_dist = max_dist.new_ones(max_dist.shape) - max_dist
+    return max_dist
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
