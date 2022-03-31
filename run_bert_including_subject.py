@@ -111,7 +111,7 @@ def main(mode):
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
-                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_{fold}.pt"))
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
@@ -210,9 +210,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'acc': best_acc,
                 'training_time': training_time,
                 'validation_time': validation_time
-                }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
-            if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
-                os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
+                }, os.path.join(models_dir, f"checkpoint_{fold}.pt"))
             stop_valid_epoch = epoch
     return stop_valid_epoch
 def generated_entity_summaries(model, test_data, dataset, topk):
@@ -235,6 +233,9 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model(all_input_ids, all_input_mask)
+            console.log(f"""Calculting the similarity between triples ...""")
+            cls_distance = cls_cosine_distance(output_tensor)
+            console.log(cls_distance)
             output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
@@ -270,6 +271,15 @@ def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
                 fout.write(triples[rank])
+def cls_cosine_distance(embeds):
+    CLSs = embeds[:, 0, :]
+    # normalize the CLS token embeddings
+    normalized = f.normalize(CLSs, p=2, dim=1)
+    # calculate the cosine similarity
+    cls_dist = normalized.matmul(normalized.T)
+    cls_dist = cls_dist.new_ones(cls_dist.shape) - cls_dist
+    cls_dist = cls_dist.numpy()
+    return cls_dist
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")

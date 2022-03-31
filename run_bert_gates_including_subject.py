@@ -156,6 +156,17 @@ class BertGATES(nn.Module):
         return logits
     def __str__(self):
         return self.__class__.__name__
+class BertEnsembleModel(nn.Module):
+    def __init__(self, modelA, modelB):
+        super(BertEnsembleModel, self).__init__()
+        self.modelA = modelA
+        self.modelB = modelB
+        
+    def forward(self, x1, x2):
+        x1 = self.modelA(x1)
+        x2 = self.modelB(x2)
+        x = torch.cat((x1, x2), dim=1)
+        return x
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
@@ -346,6 +357,7 @@ def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model(adj, all_input_ids, all_input_mask)
             output_tensor = output_tensor.view(1, -1).cpu()
+            
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
             _, output_top = torch.topk(output_tensor, topk)
