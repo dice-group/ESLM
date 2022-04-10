@@ -232,6 +232,7 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             #cls_distance = max_cosine_distance(output_tensor[0])
             #console.log(cls_distance)
             #output_tensor = cls_distance[0]
+            output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
             _, output_top = torch.topk(output_tensor, topk)
