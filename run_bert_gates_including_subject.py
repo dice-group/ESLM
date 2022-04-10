@@ -298,6 +298,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
+                optimizer.zero_grad()
                 output_tensor = model(adj, all_input_ids, all_input_mask)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
