@@ -110,7 +110,7 @@ def main(mode, best_epoch):
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
-                    if best_epoch:
+                    if best_epoch == True:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
                     else:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
@@ -214,6 +214,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'validation_time': validation_time
                 }, os.path.join(models_dir, f"checkpoint_best_{fold}.pt"))
             stop_valid_epoch = epoch
+            
         torch.save({
                 "epoch": epoch,
                 "bert_model": model.bert_model.state_dict(),
