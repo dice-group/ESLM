@@ -57,7 +57,7 @@ def format_time(elapsed):
     elapsed_rounded = int(round((elapsed)))
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
-def main(mode):
+def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
@@ -110,7 +110,10 @@ def main(mode):
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
-                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    if best_epoch:
+                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
+                    else:
+                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
@@ -142,7 +145,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-            all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+            #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model(all_input_ids, all_input_mask)
             #print(output_tensor)
@@ -209,8 +212,20 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'acc': best_acc,
                 'training_time': training_time,
                 'validation_time': validation_time
-                }, os.path.join(models_dir, f"checkpoint_{fold}.pt"))
+                }, os.path.join(models_dir, f"checkpoint_best_{fold}.pt"))
             stop_valid_epoch = epoch
+        torch.save({
+                "epoch": epoch,
+                "bert_model": model.bert_model.state_dict(),
+                "classifier": model.classifier.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "train_loss": train_loss,
+                'valid_loss': valid_loss,
+                'fold': fold,
+                'acc': best_acc,
+                'training_time': training_time,
+                'validation_time': validation_time
+                }, os.path.join(models_dir, f"checkpoint_latest_{fold}.pt"))
     return stop_valid_epoch
 def generated_entity_summaries(model, test_data, dataset, topk):
     """"Generated entity summaries"""
@@ -302,6 +317,7 @@ def max_cosine_distance(embeds):
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
+    PARSER.add_argument("--best_epoch", type=bool, default=True, help="")
     ARGS = PARSER.parse_args()
-    main(ARGS.mode)
+    main(ARGS.mode, ARGS.best_epoch)
     
