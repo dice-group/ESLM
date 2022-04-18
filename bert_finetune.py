@@ -16,6 +16,7 @@ import torch.nn.functional as f
 from transformers import AutoModel, AutoTokenizer, AdamW, get_linear_schedule_with_warmup
 from tqdm import tqdm
 from rich.console import Console
+from distutils.util import strtobool
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -111,7 +112,7 @@ def main(mode, best_epoch):
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
                     print(best_epoch)
-                    if best_epoch == True:
+                    if bool(strtobool(best_epoch)) is True:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
                     else:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
@@ -320,7 +321,7 @@ def max_cosine_distance(embeds):
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
-    PARSER.add_argument("--best_epoch", type=bool, default=True, help="")
+    PARSER.add_argument("--best_epoch", type=str, default="True", help="")
     ARGS = PARSER.parse_args()
     main(ARGS.mode, ARGS.best_epoch)
     
