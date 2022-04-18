@@ -114,6 +114,7 @@ def main(mode, best_epoch):
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
                     else:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
+                        print(checkpoint)
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
