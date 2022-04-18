@@ -1,0 +1,10 @@
+7	person	http://dbpedia.org/resource/John_Napier
+16	film	http://dbpedia.org/resource/Argo_(2012_film)
+17	organization, sports	http://dbpedia.org/resource/Manchester_City_F.C.
+18	tv show	http://dbpedia.org/resource/The_Cosby_Show
+20	river	http://dbpedia.org/resource/Yukon_River
+23	film	http://dbpedia.org/resource/Original_Sin_(2001_film)
+28	country	http://dbpedia.org/resource/Seychelles
+40	country	http://dbpedia.org/resource/Norway
+42	person, scientist	http://dbpedia.org/resource/Charles_Darwin
+46	company	http://dbpedia.org/resource/J._C._Penney

@@ -1,0 +1,10 @@
+5	person, politician	http://dbpedia.org/resource/Richard_Mentor_Johnson
+6	tv show	http://dbpedia.org/resource/Family_Feud
+9	person	http://dbpedia.org/resource/Edward_Teller
+12	country, place	http://dbpedia.org/resource/Czech_Republic
+21	country	http://dbpedia.org/resource/England
+26	film	http://dbpedia.org/resource/Reign_of_Fire_(film)
+29	tv show	http://dbpedia.org/resource/Friends
+30	place, state	http://dbpedia.org/resource/Texas
+34	person, scientist	http://dbpedia.org/resource/Albert_Einstein
+38	tv show	http://dbpedia.org/resource/Knight_Rider_(1982_TV_series)
