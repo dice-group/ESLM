@@ -110,6 +110,7 @@ def main(mode, best_epoch):
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
+                    print(best_epoch)
                     if best_epoch == True:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
                     else:
