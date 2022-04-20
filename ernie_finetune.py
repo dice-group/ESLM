@@ -66,7 +66,7 @@ def main(mode, best_epoch):
     if mode == "train":
         # logging
         console.log(f"""Checking logging directory ...""")
-        log_file_path = os.path.join(os.getcwd(), 'logs/Bert_log.txt')
+        log_file_path = os.path.join(os.getcwd(), 'logs/Ernie_log.txt')
         if os.path.exists(os.path.join(os.getcwd(), "logs")) is not True:
             console.log(f"""Creating logging directory ...""")
             os.mkdir(os.path.join(os.getcwd(), "logs"))
@@ -91,7 +91,7 @@ def main(mode, best_epoch):
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
                     optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
+                    models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir)
                     best_epochs.append(best_epoch)
@@ -110,7 +110,7 @@ def main(mode, best_epoch):
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
-                    models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
+                    models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
                     model = ErnieClassifier()
                     if bool(strtobool(best_epoch)) is True:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
