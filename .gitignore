@@ -138,10 +138,6 @@ text_embed/
 kg_embed/
 test_bert.py
 test_build_graphs.py
-data_loader.py
-utils.py
-main.py
-train.py
 HARE/
 outputs/
 evaluator/

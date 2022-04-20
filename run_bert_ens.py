@@ -17,6 +17,7 @@ from transformers import BertModel
 from transformers import AutoModel, AutoTokenizer
 from tqdm import tqdm
 from rich.console import Console
+from distutils.util import strtobool
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -57,24 +58,13 @@ def format_time(elapsed):
     elapsed_rounded = int(round((elapsed)))
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
-def main(mode):
+def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    if mode == "train":
-        # logging
-        console.log(f"""Checking logging directory ...""")
-        log_file_path = os.path.join(os.getcwd(), 'logs/Bert_log.txt')
-        if os.path.exists(os.path.join(os.getcwd(), "logs")) is not True:
-            console.log(f"""Creating logging directory ...""")
-            os.mkdir(os.path.join(os.getcwd(), "logs"))
-        with open(log_file_path, 'w', encoding="utf-8") as log_file:
-            pass
     for ds_name in config["ds_name"]:
         if mode == "test":
             for topk in config["topk"]:
-                filename = 'logs/Bert_log.txt'
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
                 fmeasure_scores = []
@@ -84,7 +74,10 @@ def main(mode):
                 for fold in range(5):
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
-                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    if bool(strtobool(best_epoch)) is True:
+                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
+                    else:
+                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
@@ -173,6 +166,7 @@ def ensemble_predictions(members, all_input_ids, all_input_mask):
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
+    PARSER.add_argument("--best_epoch", type=str, default="True", help="")
     ARGS = PARSER.parse_args()
-    main(ARGS.mode)
+    main(ARGS.mode, ARGS.best_epoch)
     
