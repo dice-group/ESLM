@@ -82,7 +82,7 @@ def main(mode, best_epoch):
                     fold = fold
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    model = BertClassifier()
+                    model = ErnieClassifier()
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
