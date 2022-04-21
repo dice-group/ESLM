@@ -176,7 +176,7 @@ def format_time(elapsed):
     elapsed_rounded = int(round((elapsed)))
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
-def main(mode):
+def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
@@ -321,6 +321,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
+                "model_state_dict": model.state_dict(),
                 "bert_model": model.bert_model.state_dict(),
                 "classifier": model.classifier.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
@@ -335,6 +336,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             
         torch.save({
                 "epoch": epoch,
+                "model_state_dict": model.state_dict(),
                 "bert_model": model.bert_model.state_dict(),
                 "classifier": model.classifier.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
@@ -406,6 +408,7 @@ def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
+    PARSER.add_argument("--best_epoch", type=str, default="True", help="")
     ARGS = PARSER.parse_args()
-    main(ARGS.mode)
+    main(ARGS.mode, ARGS.best_epoch)
     
