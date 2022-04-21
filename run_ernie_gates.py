@@ -191,8 +191,6 @@ def main(mode):
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
                 best_epochs = []
-                filename = 'logs/Bert_log.txt'
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 for fold in range(5):
                     fold = fold
                     print("")
