@@ -45,9 +45,9 @@ class ErnieClassifier(nn.Module):
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
 
-    def forward(self, input_ids, attention_mask):
-        cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(cls_feats)
+    def forward(self, input_ids, attention_mask, token_type_ids):
+        _, pooled_output = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(pooled_output)
         cls_logit = self.softmax(cls_logit)
         return cls_logit
     
@@ -147,9 +147,9 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-            #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+            all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(all_input_ids, all_input_mask)
+            output_tensor = model(all_input_ids, all_input_mask, all_segment_ids)
             #print(output_tensor)
             #print(output_tensor.shape)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
@@ -180,10 +180,10 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-                #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+                all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
                 #output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
-                output_tensor = model(all_input_ids, all_input_mask)
+                output_tensor = model(all_input_ids, all_input_mask, all_segment_ids)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
                 (_, output_top) = torch.topk(valid_output_tensor, topk)
