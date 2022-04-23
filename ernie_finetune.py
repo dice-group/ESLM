@@ -247,9 +247,9 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-            #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+            all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(all_input_ids, all_input_mask)
+            output_tensor = model(all_input_ids, all_input_mask, all_segment_ids)
             
             #applu similarity 
             #output_tensor = model.bert_model(all_input_ids, all_input_mask)
