@@ -24,6 +24,7 @@ from transformers import BertTokenizer
 from tqdm import tqdm
 from rich.console import Console
 from distutils.util import strtobool
+from transformers import get_linear_schedule_with_warmup
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -130,10 +131,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
     stop_valid_epoch = None
     num_train_steps = int(
                         len(train_data) / 1 / 1 * config["n_epochs"])
-    scheduler = BertLR(optimizer=optimizer,
-                          learning_rate = 2e-5,
-                          t_total = num_train_steps,
-                          warmup = 0.1)#get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_train_steps)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
