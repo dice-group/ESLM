@@ -115,8 +115,8 @@ class BertClassifier(nn.Module):
     def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
         super(BertClassifier, self).__init__()
         self.nb_class = nb_class
-        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
-        self.bert_model = AutoModel.from_pretrained(pretrained_model)
+        self.tokenizer = BertTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = BertModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
@@ -195,11 +195,14 @@ def main(mode, best_epoch):
                     fold = fold
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    #bert_models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
-                    #checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    ernie_models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
+                    if bool(strtobool(best_epoch)) is True:
+                        checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_best_{fold}.pt"))
+                    else:
+                        checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_latest_{fold}.pt"))
                     model = ErnieGAT()
-                    #model.bert_model.load_state_dict(checkpoint['bert_model'])
-                    #model.classifier.load_state_dict(checkpoint['classifier']) 
+                    model.bert_model.load_state_dict(checkpoint['bert_model'])
+                    model.classifier.load_state_dict(checkpoint['classifier']) 
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
