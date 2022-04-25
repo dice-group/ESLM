@@ -251,13 +251,13 @@ class Utils:
             tokens_a = tokenizer.tokenize(sub_literal)
             tokens_b = tokenizer.tokenize(pred_literal)
             tokens_c = tokenizer.tokenize(obj_literal)
-            tokens = ["[CLS]"] + tokens_a + ["[SEP]"]
+            tokens = ["[CLS]"] + ["[HD]"] + tokens_a + ["[HD]"]
             segment_ids = [0] * len(tokens)
             if tokens_b:
-                tokens += tokens_b + ["[SEP]"]
+                tokens += tokens_b
                 segment_ids += [1] * (len(tokens_b) + 1)
             if tokens_c:
-                tokens += tokens_c + ["[SEP]"]
+                tokens += ["[TL]"] + tokens_c + ["[TL]"] + ["[SEP]"]
                 segment_ids += [0] * (len(tokens_c) + 1)
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
             input_mask = [1] * len(input_ids)
