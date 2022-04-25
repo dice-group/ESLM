@@ -265,8 +265,8 @@ class Utils:
             input_ids += padding
             input_mask += padding
             segment_ids += padding
-            #print(len(input_ids))
-            #print(len(segment_ids))
+            print(len(input_ids))
+            print(len(segment_ids))
             assert len(input_ids) == max_sequence_length
             assert len(input_mask) == max_sequence_length
             assert len(segment_ids) == max_sequence_length
