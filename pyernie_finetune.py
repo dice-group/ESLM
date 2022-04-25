@@ -205,8 +205,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
-                "bert_model": model.bert_model.state_dict(),
-                "classifier": model.classifier.state_dict(),
+                'state_dict': model.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
                 "train_loss": train_loss,
                 'valid_loss': valid_loss,
@@ -219,8 +218,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             
         torch.save({
                 "epoch": epoch,
-                "bert_model": model.bert_model.state_dict(),
-                "classifier": model.classifier.state_dict(),
+                'state_dict': model.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
                 "train_loss": train_loss,
                 'valid_loss': valid_loss,
