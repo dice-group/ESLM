@@ -35,7 +35,7 @@ from classes.dataset import ESBenchmark
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-pretrained_model='nghuyong/ernie-2.0-en'
+pretrained_model='bert-base-uncased'
 TOKENIZER = BertTokenizer.from_pretrained(pretrained_model)
 MAX_LENGTH = 39
 # define a rich console logger
@@ -73,7 +73,7 @@ def main(mode, best_epoch):
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
                     model = ErnieFine.from_pretrained(pretrained_model,num_classes = 1)
-                    print(model)
+                    model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
                     optimizer_grouped_parameters = [
