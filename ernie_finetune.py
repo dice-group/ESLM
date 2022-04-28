@@ -26,16 +26,35 @@ from config import config
 from classes.helpers import Utils
 from classes.dataset import ESBenchmark
 
+from ernie.modeling_ernie import ErnieModel
+from ernie.tokenizing_ernie import ErnieTokenizer
+
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-pretrained_model='nghuyong/ernie-2.0-en'
-TOKENIZER = BertTokenizer.from_pretrained(pretrained_model)
+pretrained_model='ernie-2.0-en'
+TOKENIZER = ErnieTokenizer.from_pretrained(pretrained_model)
 MAX_LENGTH = 42
 # define a rich console logger
 console=Console(record=True)
     
 class ErnieClassifier(nn.Module):
+    def __init__(self, pretrained_model='ernie-2.0-en', nb_class=1):
+        super(ErnieClassifier, self).__init__()
+        self.nb_class = nb_class
+        self.tokenizer = ErnieTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = ErnieModel.from_pretrained(pretrained_model)
+        self.feat_dim = list(self.bert_model.modules())[-2].out_features
+        self.classifier = nn.Linear(self.feat_dim, nb_class)
+        self.softmax = nn.Softmax(dim=0)
+
+    def forward(self, input_ids, attention_mask, token_type_ids):
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(outputs.pooler_output)
+        cls_logit = self.softmax(cls_logit)
+        return cls_logit
+
+class ErnieClassifierBaseline(nn.Module):
     def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
         super(ErnieClassifier, self).__init__()
         self.nb_class = nb_class
@@ -49,8 +68,7 @@ class ErnieClassifier(nn.Module):
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
         cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
-        return cls_logit
-    
+        return cls_logit    
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
