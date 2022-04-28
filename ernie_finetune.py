@@ -44,8 +44,7 @@ class ErnieClassifier(nn.Module):
         self.nb_class = nb_class
         self.tokenizer = ErnieTokenizer.from_pretrained(pretrained_model)
         self.bert_model = ErnieModel.from_pretrained(pretrained_model)
-        print(self.bert_model.pooler)
-        self.feat_dim = list(self.bert_model.modules())[-2].out_features
+        self.feat_dim = list(self.bert_model.pooler())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
 
