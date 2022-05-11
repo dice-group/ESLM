@@ -29,7 +29,7 @@ from classes.dataset import ESBenchmark
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-pretrained_model='ernie-2.0-en'
+pretrained_model='nghuyong/ernie-2.0-en'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
 MAX_LENGTH = 42
 # define a rich console logger
