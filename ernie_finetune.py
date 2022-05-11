@@ -48,7 +48,7 @@ class ErnieClassifier(nn.Module):
         self.softmax = nn.Softmax(dim=0)
 
     def forward(self, input_ids, attention_mask, token_type_ids):
-        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        outputs = self.bert_model(src_ids=input_ids, input_mask=attention_mask, pos_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
         cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
         return cls_logit
