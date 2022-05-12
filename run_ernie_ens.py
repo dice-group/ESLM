@@ -39,8 +39,8 @@ class ErnieClassifier(nn.Module):
     def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
         super(ErnieClassifier, self).__init__()
         self.nb_class = nb_class
-        self.tokenizer = BertTokenizer.from_pretrained(pretrained_model)
-        self.bert_model = BertModel.from_pretrained(pretrained_model)
+        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = AutoModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)

@@ -128,7 +128,7 @@ class BertClassifier(nn.Module):
 
 class ErnieGAT(nn.Module):
     """BERT-GATES model"""
-    def __init__(self, pretrained_model='bert-base-uncased', nb_class=1):
+    def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
         super(ErnieGAT, self).__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
         self.bert_model = AutoModel.from_pretrained(pretrained_model)

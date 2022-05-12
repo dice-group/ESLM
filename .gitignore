@@ -140,7 +140,6 @@ test_bert.py
 test_build_graphs.py
 HARE/
 outputs/
-evaluator/
 GATES_log.txt
 Bert_log.txt
 lama/
