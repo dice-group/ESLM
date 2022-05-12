@@ -31,7 +31,7 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrained_model='bert-base-uncased'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
-MAX_LENGTH = 39
+MAX_LENGTH = 42
 # define a rich console logger
 console=Console(record=True)
     
