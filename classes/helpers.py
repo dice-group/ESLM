@@ -323,7 +323,8 @@ class Utils:
             tokens_a = tokenizer.tokenize(sub_literal)
             tokens_b = tokenizer.tokenize(pred_literal)
             tokens_c = tokenizer.tokenize(obj_literal)
-            tokens = ["[CLS]"] + [" "] + tokens_a + [" "]+ tokens_b + [" "] + tokens_c ["[SEP]"]
+            tokens = ["[CLS]"] + tokens_a + tokens_b + tokens_c + ["[SEP]"]
+            print(tokens)
             segment_ids = [0] * len(tokens)
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
             print("input ids lengthe", len(input_ids))
