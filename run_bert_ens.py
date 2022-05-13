@@ -108,9 +108,9 @@ def generated_entity_summaries(test_data, dataset, topk, fold, models):
             features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
-            #all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
+            all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = evaluate_n_members(models, fold, all_input_ids, all_input_mask)
+            output_tensor = evaluate_n_members(models, fold, all_input_ids, all_input_mask, all_segment_ids)
             output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
@@ -148,18 +148,18 @@ def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
             for rank in rank_list:
                 fout.write(triples[rank])
 # evaluate a specific number of members in an ensemble
-def evaluate_n_members(members, fold, all_input_ids, all_input_mask):
+def evaluate_n_members(members, fold, all_input_ids, all_input_mask, all_segment_ids):
     if fold==4:
         subset = [members[0],  members[4]]
     else:
         subset = [members[fold],  members[fold+1]]
-    yhat = ensemble_predictions(subset, all_input_ids, all_input_mask)
+    yhat = ensemble_predictions(subset, all_input_ids, all_input_mask, all_segment_ids)
     return yhat
 
 # make an ensemble prediction for multi-class classification
-def ensemble_predictions(members, all_input_ids, all_input_mask):
+def ensemble_predictions(members, all_input_ids, all_input_mask, all_segment_ids):
 	# make predictions
-    yhats = torch.stack([model(all_input_ids, all_input_mask) for model in members])
+    yhats = torch.stack([model(all_input_ids, all_input_mask, all_segment_ids) for model in members])
     result = torch.sum(yhats, axis=0)
     return result
 
