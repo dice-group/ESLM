@@ -282,7 +282,7 @@ class Utils:
                                           ori_tokens=tokens,
                                           ori_labels=labels))
         return features
-    def convert_to_features_with_subject_ori(self, t_literals, tokenizer, max_sequence_length, facts, labels):
+    def convert_to_features_with_subject(self, t_literals, tokenizer, max_sequence_length, facts, labels):
         """Convert inputs to the features for BERT inputs"""
         features = []
         label_ids = self.tensor_from_weight(len(facts), facts, labels)
@@ -299,35 +299,6 @@ class Utils:
                 tokens += tokens_c + ["[SEP]"]
                 segment_ids += [0] * (len(tokens_c) + 1)
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
-            input_mask = [1] * len(input_ids)
-            padding = [0] * (max_sequence_length - len(input_ids))
-            input_ids += padding
-            input_mask += padding
-            segment_ids += padding
-            assert len(input_ids) == max_sequence_length
-            assert len(input_mask) == max_sequence_length
-            assert len(segment_ids) == max_sequence_length
-            label_id = label_ids[i]
-            features.append(InputFeatures(input_ids=input_ids,
-                                          input_mask=input_mask,
-                                          segment_ids=segment_ids,
-                                          label_id=label_id,
-                                          ori_tokens=tokens,
-                                          ori_labels=labels))
-        return features
-    def convert_to_features_with_subject(self, t_literals, tokenizer, max_sequence_length, facts, labels):
-        """Convert inputs to the features for BERT inputs"""
-        features = []
-        label_ids = self.tensor_from_weight(len(facts), facts, labels)
-        for i, (sub_literal, pred_literal, obj_literal) in enumerate(t_literals):
-            tokens_a = tokenizer.tokenize(sub_literal)
-            tokens_b = tokenizer.tokenize(pred_literal)
-            tokens_c = tokenizer.tokenize(obj_literal)
-            tokens = ["[CLS]"] + tokens_a + tokens_b + tokens_c + ["[SEP]"]
-            print(tokens)
-            segment_ids = [0] * len(tokens)
-            input_ids = tokenizer.convert_tokens_to_ids(tokens)
-            print("input ids lengthe", len(input_ids))
             input_mask = [1] * len(input_ids)
             padding = [0] * (max_sequence_length - len(input_ids))
             input_ids += padding
