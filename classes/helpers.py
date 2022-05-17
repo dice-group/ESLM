@@ -220,12 +220,43 @@ class Utils:
         for i, (_, pred_literal, obj_literal) in enumerate(t_literals):
             tokens_a = tokenizer.tokenize(pred_literal)
             tokens_b = tokenizer.tokenize(obj_literal)
-            self.truncate_seq_pair(tokens_a, tokens_b, max_sequence_length - 3)
             tokens = ["[CLS]"] + tokens_a + ["[SEP]"]
             segment_ids = [0] * len(tokens)
             tokens += tokens_b + ["[SEP]"]
             segment_ids += [1] * (len(tokens_b) + 1)
             #print(tokens)
+            input_ids = tokenizer.convert_tokens_to_ids(tokens)
+            input_mask = [1] * len(input_ids)
+            padding = [0] * (max_sequence_length - len(input_ids))
+            input_ids += padding
+            input_mask += padding
+            segment_ids += padding
+            assert len(input_ids) == max_sequence_length
+            assert len(input_mask) == max_sequence_length
+            assert len(segment_ids) == max_sequence_length
+            label_id = label_ids[i]
+            features.append(InputFeatures(input_ids=input_ids,
+                                          input_mask=input_mask,
+                                          segment_ids=segment_ids,
+                                          label_id=label_id,
+                                          ori_tokens=tokens,
+                                          ori_labels=labels))
+        return features
+    def convert_to_features_re(self, t_literals, tokenizer, max_sequence_length, facts, labels):
+        """Convert inputs to the features for BERT inputs"""
+        features = []
+        label_ids = self.tensor_from_weight(len(facts), facts, labels)
+        for i, (_, pred_literal, obj_literal) in enumerate(t_literals):
+            tokens_a = tokenizer.tokenize(pred_literal)
+            tokens_b = tokenizer.tokenize(obj_literal)
+            tokens = ["[CLS]"] + tokens_a
+            segment_ids = [0] * len(tokens)
+            if tokens_b:
+                tokens += ["[TL]"] + tokens_b + ["[TL]"] + ["[SEP]"]
+                segment_ids += [1] * (len(tokens_b) + 3)
+            else:
+                tokens += ["[SEP]"]
+                segment_ids += [0] * (1)
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
             input_mask = [1] * len(input_ids)
             padding = [0] * (max_sequence_length - len(input_ids))
@@ -261,7 +292,7 @@ class Utils:
                 segment_ids += [0] * (len(tokens_c)+3)
             else:
                 tokens += ["[SEP]"]
-                segment_ids += [0] * (1)
+                segment_ids += [1] * (1)
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
             input_mask = [1] * len(input_ids)
             padding = [0] * (max_sequence_length - len(input_ids))

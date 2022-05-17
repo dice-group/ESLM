@@ -46,7 +46,7 @@ class BertClassifier(nn.Module):
 
     def forward(self, input_ids, attention_mask, token_type_ids):
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(outputs.pooler_output)
+        cls_logit = self.classifier(outputs)
         cls_logit = self.softmax(cls_logit)
         return cls_logit 
     
@@ -249,7 +249,6 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model(all_input_ids, all_input_mask, all_segment_ids)
-            
             #applu similarity 
             #output_tensor = model.bert_model(all_input_ids, all_input_mask)
             #console.log(f"""Calculting the similarity between triples ...""")
