@@ -48,8 +48,8 @@ class BertClassifier(nn.Module):
         self.softmax = nn.Softmax(dim=0)
 
     def forward(self, input_ids, attention_mask, token_type_ids):
-        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(outputs)
+        _, pooled_outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(pooled_outputs)
         cls_logit = self.softmax(cls_logit)
         return cls_logit 
     
