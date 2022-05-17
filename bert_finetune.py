@@ -13,7 +13,10 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as f
-from transformers import AutoModel, AutoTokenizer, AdamW, get_linear_schedule_with_warmup, BertAdam
+#from transformers import AutoModel, AutoTokenizer, AdamW, get_linear_schedule_with_warmup
+from pytorch_pretrained_bert.modeling import BertModel, BertConfig
+from pytorch_pretrained_bert.tokenization import BertTokenizer
+from pytorch_pretrained_bert.optimization import BertAdam, WarmupLinearSchedule
 from tqdm import tqdm
 from rich.console import Console
 from distutils.util import strtobool
@@ -29,7 +32,7 @@ UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrained_model='bert-base-uncased'
-TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
+TOKENIZER = BertTokenizer.from_pretrained(pretrained_model)
 MAX_LENGTH = 39
 # define a rich console logger
 console=Console(record=True)
@@ -38,8 +41,8 @@ class BertClassifier(nn.Module):
     def __init__(self, pretrained_model='bert-base-uncased', nb_class=1):
         super(BertClassifier, self).__init__()
         self.nb_class = nb_class
-        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
-        self.bert_model = AutoModel.from_pretrained(pretrained_model)
+        self.tokenizer = BertTokenizer.from_pretrained(pretrained_model)
+        self.bert_model = BertModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
