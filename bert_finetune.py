@@ -13,7 +13,7 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as f
-from transformers import AutoModel, AutoTokenizer, AdamW, get_linear_schedule_with_warmup
+from transformers import AutoModel, AutoTokenizer, AdamW, get_linear_schedule_with_warmup, BertAdam
 from tqdm import tqdm
 from rich.console import Console
 from distutils.util import strtobool
@@ -76,6 +76,7 @@ def main(mode, best_epoch):
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
+                num_train_optimization_steps = int(len(train_data) / 1) * config["n_epochs"]
                 best_epochs = []
                 for fold in range(5):
                     fold = fold
@@ -89,7 +90,11 @@ def main(mode, best_epoch):
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
+                    #optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
+                    optimizer = BertAdam(optimizer_grouped_parameters,
+                                         lr=5e-5,
+                                         warmup=0.1,
+                                         t_total=num_train_optimization_steps)
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir)
@@ -99,8 +104,6 @@ def main(mode, best_epoch):
                     log_file.write(line)
         elif mode == "test":
             for topk in config["topk"]:
-                filename = 'logs/Bert_log.txt'
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
                 fmeasure_scores = []
@@ -130,7 +133,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
     best_acc = 0
     stop_valid_epoch = None
     total_steps = len(train_data) * config["n_epochs"]
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
@@ -159,7 +162,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
             loss.backward()
             optimizer.step()
-            scheduler.step()
+            #scheduler.step()
             optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
