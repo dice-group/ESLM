@@ -30,7 +30,7 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrained_model='bert-base-uncased'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
-MAX_LENGTH = 42
+MAX_LENGTH = 39
 # define a rich console logger
 console=Console(record=True)
     
@@ -132,7 +132,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         os.makedirs(models_dir)
     best_acc = 0
     stop_valid_epoch = None
-    total_steps = len(train_data) * config["n_epochs"]
+    #total_steps = len(train_data) * config["n_epochs"]
     #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     for epoch in range(config["n_epochs"]):
         model.train()
