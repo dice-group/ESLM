@@ -79,7 +79,6 @@ def main(mode, best_epoch):
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
-                num_train_optimization_steps = int(len(train_data) / 1) * config["n_epochs"]
                 best_epochs = []
                 for fold in range(5):
                     fold = fold
@@ -89,6 +88,7 @@ def main(mode, best_epoch):
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+                    num_train_optimization_steps = int(len(train_data[fold][0]) / 1) * config["n_epochs"]
                     optimizer_grouped_parameters = [
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
