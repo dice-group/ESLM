@@ -12,8 +12,7 @@ import datetime
 import numpy as np
 import torch
 from torch import nn
-from transformers import BertTokenizer, AdamW, get_linear_schedule_with_warmup
-from transformers import BertModel
+from transformers import get_linear_schedule_with_warmup
 from transformers import AutoModel, AutoTokenizer
 from tqdm import tqdm
 from rich.console import Console
