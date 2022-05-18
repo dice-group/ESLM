@@ -13,11 +13,8 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as f
-#from transformers import AutoModel, AutoTokenizer, AdamW, get_linear_schedule_with_warmup
-from pytorch_pretrained_bert.modeling import BertModel, BertConfig
-from pytorch_pretrained_bert.tokenization import BertTokenizer
-from pytorch_pretrained_bert.optimization import BertAdam, WarmupLinearSchedule
-from tqdm import tqdm
+from transformers import AdamW, get_linear_schedule_with_warmup
+from transformers import AutoTokenizer, AutoModelfrom tqdm import tqdm
 from rich.console import Console
 from distutils.util import strtobool
 
@@ -48,8 +45,8 @@ class BertClassifier(nn.Module):
         self.softmax = nn.Softmax(dim=0)
 
     def forward(self, input_ids, attention_mask, token_type_ids):
-        _, pooled_outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(pooled_outputs)
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
         return cls_logit 
     
@@ -88,16 +85,11 @@ def main(mode, best_epoch):
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
-                    num_train_optimization_steps = int(len(train_data[fold][0]) / 1) * config["n_epochs"]
                     optimizer_grouped_parameters = [
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    #optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    optimizer = BertAdam(optimizer_grouped_parameters,
-                                         lr=5e-5,
-                                         warmup=0.1,
-                                         t_total=num_train_optimization_steps)
+                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir)
@@ -135,8 +127,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         os.makedirs(models_dir)
     best_acc = 0
     stop_valid_epoch = None
-    #total_steps = len(train_data) * config["n_epochs"]
-    #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    total_steps = len(train_data) * config["n_epochs"]
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
@@ -165,7 +157,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
             loss.backward()
             optimizer.step()
-            #scheduler.step()
+            scheduler.step()
             optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
