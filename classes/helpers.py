@@ -222,8 +222,9 @@ class Utils:
             tokens_b = tokenizer.tokenize(obj_literal)
             tokens = ["[CLS]"] + tokens_a + ["[SEP]"]
             segment_ids = [0] * len(tokens)
-            tokens += tokens_b + ["[SEP]"]
-            segment_ids += [1] * (len(tokens_b) + 1)
+            if tokens_b:
+                tokens += tokens_b + ["[SEP]"]
+                segment_ids += [1] * (len(tokens_b) + 1)
             #print(tokens)
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
             input_mask = [1] * len(input_ids)
