@@ -141,7 +141,7 @@ class BertGATES(nn.Module):
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        features = outputs.last_hidden_state
+        features = outputs.pooler_output
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
@@ -190,8 +190,6 @@ def main(mode, best_epoch):
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
                 best_epochs = []
-                filename = 'logs/Bert_log.txt'
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 for fold in range(5):
                     fold = fold
                     print("")
@@ -222,8 +220,6 @@ def main(mode, best_epoch):
                     log_file.write(line)
         elif mode == "test":
             for topk in config["topk"]:
-                filename = 'logs/BertGATES_log.txt'
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
                 fmeasure_scores = []
@@ -234,7 +230,10 @@ def main(mode, best_epoch):
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES()
-                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    if bool(strtobool(best_epoch)) is True:
+                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
+                    else:
+                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
                     model.load_state_dict(checkpoint["model_state_dict"])
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier'])
@@ -297,7 +296,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 literal = dataset.get_literals(eid)
                 labels = dataset.prepare_labels(eid)
                 adj = graph_r.build_graph(triples, literal, eid)
-                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+                features = UTILS.convert_to_features(literal, TOKENIZER, MAX_LENGTH, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -335,10 +334,21 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'acc': best_acc,
                 'training_time': training_time,
                 'validation_time': validation_time
-                }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
-            if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
-                os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
+                }, os.path.join(models_dir, f"checkpoint_best_{fold}.pt"))
             stop_valid_epoch = epoch
+        torch.save({
+                "epoch": epoch,
+                "model_state_dict": model.state_dict(),
+                "bert_model": model.bert_model.state_dict(),
+                "classifier": model.classifier.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "train_loss": train_loss,
+                'valid_loss': valid_loss,
+                'fold': fold,
+                'acc': best_acc,
+                'training_time': training_time,
+                'validation_time': validation_time
+                }, os.path.join(models_dir, f"checkpoint_latest_{fold}.pt"))
     return stop_valid_epoch
 def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
     """"Generated entity summaries"""

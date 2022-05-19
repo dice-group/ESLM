@@ -13,8 +13,8 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as F
-from transformers import BertTokenizer, AdamW, get_linear_schedule_with_warmup
-from transformers import BertModel
+from transformers import AutoTokenizer, get_linear_schedule_with_warmup
+from transformers import AutoModel
 from tqdm import tqdm
 import scipy.sparse as sp
 
@@ -25,13 +25,12 @@ from config import config
 from classes.helpers import Utils
 from classes.dataset import ESBenchmark
 from classes.graphs_representation import GraphRepresentation
-from transformers import AutoModel, AutoTokenizer
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
-MAX_LENGTH = 39
+TOKENIZER = AutoTokenizer.from_pretrained("bert-base-uncased")
+MAX_LENGTH = 33
 DROPOUT = config["dropout"]
 IS_WEIGHTED_ADJ = config["weighted_adjacency_matrix"]
 IN_EDGE_FEAT = 1
@@ -138,10 +137,10 @@ class BertGATES(nn.Module):
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
         self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
-    def forward(self, adj, input_ids, input_mask=None):
+    def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
-        cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
-        features = cls_feats
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        features = outputs.last_hidden_state
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
