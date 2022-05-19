@@ -179,17 +179,12 @@ def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    if mode == "train":
-        log_file_path = os.path.join(os.getcwd(), 'logs/BertGATES_log.txt')
-        with open(log_file_path, 'w', encoding="utf-8") as log_file:
-            pass
     for ds_name in config["ds_name"]:
         graph_r = GraphRepresentation(ds_name)
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
-                best_epochs = []
                 for fold in range(5):
                     fold = fold
                     print("")
@@ -213,11 +208,7 @@ def main(mode, best_epoch):
                     optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r)
-                    best_epochs.append(best_epoch)
-                with open(log_file_path, 'a', encoding="utf-8") as log_file:
-                    line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
-                    log_file.write(line)
+                    train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r)                
         elif mode == "test":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -248,7 +239,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
     best_acc = 0
-    stop_valid_epoch = None
     total_steps = len(train_data) * config["n_epochs"]
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     for epoch in range(config["n_epochs"]):
@@ -320,7 +310,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         print("")
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
         if valid_acc > best_acc:
-            print(f"saving best model,  val_accuracy impfrom distutils.util import strtoboolroved from {best_acc} to {valid_acc}")
+            print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
             best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
@@ -335,7 +325,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'training_time': training_time,
                 'validation_time': validation_time
                 }, os.path.join(models_dir, f"checkpoint_best_{fold}.pt"))
-            stop_valid_epoch = epoch
         torch.save({
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
@@ -349,7 +338,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'training_time': training_time,
                 'validation_time': validation_time
                 }, os.path.join(models_dir, f"checkpoint_latest_{fold}.pt"))
-    return stop_valid_epoch
 def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
     """"Generated entity summaries"""
     model.eval()
