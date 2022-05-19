@@ -320,8 +320,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         print("")
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
         if valid_acc > best_acc:
-            print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
-            #best_acc = valid_acc
+            print(f"saving best model,  val_accuracy impfrom distutils.util import strtoboolroved from {best_acc} to {valid_acc}")
+            best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
