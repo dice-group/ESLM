@@ -49,7 +49,7 @@ class GraphAttentionLayer(nn.Module):
         nn.init.xavier_uniform_(self.weight.data, gain=1.414)
         if IS_WEIGHTED_ADJ is False:
             self.att = nn.Parameter(torch.empty(size=(2*out_feats, 1)))
-        else:
+        else:42
             self.att = nn.Parameter(torch.empty(size=(3*out_feats, 1)))
         nn.init.xavier_uniform_(self.att.data, gain=1.414)
         self.w_edge = nn.Parameter(torch.empty(size=(IN_EDGE_FEAT, out_feats)))
@@ -353,7 +353,7 @@ def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
             adj = graph_r.build_graph(triples, literal, eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features(literal, TOKENIZER, MAX_LENGTH, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)

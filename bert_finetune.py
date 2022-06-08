@@ -31,8 +31,6 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrained_model='bert-base-uncased'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
-MAX_LENGTH = 39
-# define a rich console logger
 console=Console(record=True)
     
 class BertClassifier(nn.Module):
@@ -44,7 +42,6 @@ class BertClassifier(nn.Module):
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
-
     def forward(self, input_ids, attention_mask, token_type_ids):
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
         cls_logit = self.classifier(outputs.pooler_output)
@@ -73,6 +70,10 @@ def main(mode, best_epoch):
         with open(log_file_path, 'w', encoding="utf-8") as log_file:
             pass
     for ds_name in config["ds_name"]:
+        if ds_name == "dbpedia":
+            MAX_LENGTH = 39
+        else:
+            MAX_LENGTH = 32
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -93,7 +94,7 @@ def main(mode, best_epoch):
                     optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir)
+                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, MAX_LENGTH)
                     best_epochs.append(best_epoch)
                 with open(log_file_path, 'a', encoding="utf-8") as log_file:
                     line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
@@ -117,12 +118,12 @@ def main(mode, best_epoch):
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
                 print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
-def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir):
+def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, max_length):
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -142,7 +143,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -175,7 +176,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 triples = dataset.get_triples(eid)
                 literal = dataset.get_literals(eid)
                 labels = dataset.prepare_labels(eid)
-                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -228,7 +229,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'validation_time': validation_time
                 }, os.path.join(models_dir, f"checkpoint_latest_{fold}.pt"))
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk):
+def generated_entity_summaries(model, test_data, dataset, topk, max_length):
     """"Generated entity summaries"""
     model.eval()
     ndcg_eval = NDCG()
@@ -242,7 +243,7 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)

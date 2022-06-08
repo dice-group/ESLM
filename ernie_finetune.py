@@ -13,7 +13,7 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as f
-from transformers import AdamW, get_linear_schedule_with_warmup
+from transformers import get_linear_schedule_with_warmup
 from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 from rich.console import Console
@@ -31,7 +31,6 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrained_model='nghuyong/ernie-2.0-en'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
-MAX_LENGTH = 42
 # define a rich console logger
 console=Console(record=True)
     
@@ -62,16 +61,11 @@ def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    if mode == "train":
-        # logging
-        console.log(f"""Checking logging directory ...""")
-        log_file_path = os.path.join(os.getcwd(), 'logs/Ernie_log.txt')
-        if os.path.exists(os.path.join(os.getcwd(), "logs")) is not True:
-            console.log(f"""Creating logging directory ...""")
-            os.mkdir(os.path.join(os.getcwd(), "logs"))
-        with open(log_file_path, 'w', encoding="utf-8") as log_file:
-            pass
     for ds_name in config["ds_name"]:
+        if ds_name == "dbpedia":
+            MAX_LENGTH = 39
+        else:
+            MAX_LENGTH = 32
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -89,18 +83,13 @@ def main(mode, best_epoch):
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    optimizer = AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
+                    optimizer = torch.nn.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir)
+                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, MAX_LENGTH)
                     best_epochs.append(best_epoch)
-                with open(log_file_path, 'a', encoding="utf-8") as log_file:
-                    line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
-                    log_file.write(line)
         elif mode == "test":
             for topk in config["topk"]:
-                #filename = 'logs/Bert_log.txt'
-                #use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
                 fmeasure_scores = []
@@ -118,12 +107,12 @@ def main(mode, best_epoch):
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
                 print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
-def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir):
+def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, max_length):
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -143,7 +132,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -176,7 +165,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 triples = dataset.get_triples(eid)
                 literal = dataset.get_literals(eid)
                 labels = dataset.prepare_labels(eid)
-                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -229,7 +218,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'validation_time': validation_time
                 }, os.path.join(models_dir, f"checkpoint_latest_{fold}.pt"))
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk):
+def generated_entity_summaries(model, test_data, dataset, topk, max_length):
     """"Generated entity summaries"""
     model.eval()
     ndcg_eval = NDCG()
@@ -243,7 +232,7 @@ def generated_entity_summaries(model, test_data, dataset, topk):
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
