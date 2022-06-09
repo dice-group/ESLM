@@ -31,7 +31,6 @@ LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pretrained_model='bert-base-uncased'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
-MAX_LENGTH = 42
 # define a rich console logger
 console=Console(record=True)
     
@@ -64,6 +63,10 @@ def main(mode, best_epoch):
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     for ds_name in config["ds_name"]:
+        if ds_name == "dbpedia":
+            MAX_LENGTH = 39
+        else:
+            MAX_LENGTH = 32
         if mode == "test":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -87,13 +90,13 @@ def main(mode, best_epoch):
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(test_data[fold][0], dataset, topk, fold, models)
+                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(test_data[fold][0], dataset, topk, fold, models, MAX_LENGTH)
                     fmeasure_scores.append(fmeasure_score)
                     ndcg_scores.append(ndcg_score)
                     map_scores.append(map_score)
                 print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
 
-def generated_entity_summaries(test_data, dataset, topk, fold, models):
+def generated_entity_summaries(test_data, dataset, topk, fold, models, max_length):
     """"Generated entity summaries"""
     ndcg_eval = NDCG()
     fmeasure_eval = FMeasure()
@@ -106,7 +109,7 @@ def generated_entity_summaries(test_data, dataset, topk, fold, models):
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER,max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
