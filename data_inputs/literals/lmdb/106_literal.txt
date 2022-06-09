@@ -1,48 +1,48 @@
-2381	Runtime	108
-2381	Writer	13288
-2381	Date	1965
-2381	Title	What'S New Pussycat?
-2381	Performance	66844
-2381	Performance	49723
-2381	Performance	51265
-2381	Performance	56069
-2381	Performance	50018
-2381	Performance	99761
-2381	Performance	58567
-2381	Hasphotocollection	What'S New Pussycat?
-2381	Language	Fr
-2381	Language	En
-2381	Filmid	2381
-2381	Film Cut	11663
-2381	Page	Alias?Type=Imdbid&S=0059903
-2381	Page	9202A8C04000641F80000000004Fd9B4
-2381	Page	Tt0059903
-19753	Link Source	2381
-136102	Link Source	2381
-1220	Link Source	2381
-136101	Link Source	2381
-71209	Link Source	2381
-38286	Link Source	2381
-63261	Link Source	2381
-2381	Director	13237
-2381	Director	15178
-2381	Actor	36799
-2381	Actor	10
-2381	Actor	29679
-2381	Actor	31973
-2381	Actor	30975
-2381	Actor	30463
-2381	Actor	29614
-2381	Subject	375
-2381	Country	GB
-2381	Based Near	2635167
-2381	Film Subject	375
-2381	Label	What'S New Pussycat?
-15178	Made	2381
-13237	Made	2381
-2381	Initial Release Date	1965
-2381	Producer	154
-12908	Film Of Distributor	2381
-2381	Type	Film
-2381	Music Contributor	4557
-2381	Music Contributor	4357
+What'S New Pussycat?	Runtime	108
+What'S New Pussycat?	Writer	Woody Allen
+What'S New Pussycat?	Date	1965
+What'S New Pussycat?	Title	What'S New Pussycat?
+What'S New Pussycat?	Performance	Performance #66844
+What'S New Pussycat?	Performance	Performance #49723
+What'S New Pussycat?	Performance	Performance #51265
+What'S New Pussycat?	Performance	Performance #56069
+What'S New Pussycat?	Performance	Performance #50018
+What'S New Pussycat?	Performance	Performance #99761
+What'S New Pussycat?	Performance	Performance #58567
+What'S New Pussycat?	Hasphotocollection	What'S New Pussycat?
+What'S New Pussycat?	Language	Fr
+What'S New Pussycat?	Language	En
+What'S New Pussycat?	Filmid	2381
+What'S New Pussycat?	Film Cut	Film Cut #11663
+What'S New Pussycat?	Page	Alias?Type=Imdbid&S=0059903
+What'S New Pussycat?	Page	9202A8C04000641F80000000004Fd9B4
+What'S New Pussycat?	Page	Tt0059903
+19753	Link Source	What'S New Pussycat?
+136102	Link Source	What'S New Pussycat?
+1220	Link Source	What'S New Pussycat?
+136101	Link Source	What'S New Pussycat?
+71209	Link Source	What'S New Pussycat?
+38286	Link Source	What'S New Pussycat?
+63261	Link Source	What'S New Pussycat?
+What'S New Pussycat?	Director	Richard Talmadge
+What'S New Pussycat?	Director	Clive Donner
+What'S New Pussycat?	Actor	Paula Prentiss
+What'S New Pussycat?	Actor	Peter O'Toole
+What'S New Pussycat?	Actor	Woody Allen
+What'S New Pussycat?	Actor	Ursula Andress
+What'S New Pussycat?	Actor	Capucine
+What'S New Pussycat?	Actor	Romy Schneider
+What'S New Pussycat?	Actor	Peter Sellers
+What'S New Pussycat?	Subject	Psychiatry
+What'S New Pussycat?	Country	GB
+What'S New Pussycat?	Based Near	2635167
+What'S New Pussycat?	Film Subject	Psychiatry
+What'S New Pussycat?	Label	What'S New Pussycat?
+Clive Donner	Made	What'S New Pussycat?
+Richard Talmadge	Made	What'S New Pussycat?
+What'S New Pussycat?	Initial Release Date	1965
+What'S New Pussycat?	Producer	Charles K. Feldman
+Film_Film_Distributor_Relationship #12908	Film Of Distributor	What'S New Pussycat?
+What'S New Pussycat?	Type	Film
+What'S New Pussycat?	Music Contributor	Hal David
+What'S New Pussycat?	Music Contributor	Burt Bacharach

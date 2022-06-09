@@ -1,32 +1,32 @@
-47469	Actor Name	Alice Braga
-47469	Actor Nytimes Id	
-47469	Performance	59117
-47469	Performance	123172
-47469	Performance	91784
-47469	Performance	108924
-47469	Performance	70346
-47469	Performance	18592
-47469	Performance	187510
-47469	Performance	186417
-47469	Performance	137673
-47469	Performance	159886
-47469	Performance	79634
-47469	Performance	85196
-47469	Type	Person
-47469	Type	Actor
-59947	Actor	47469
-18729	Actor	47469
-23446	Actor	47469
-944	Actor	47469
-96426	Actor	47469
-67438	Actor	47469
-10791	Actor	47469
-83977	Actor	47469
-7756	Actor	47469
-8961	Actor	47469
-18644	Actor	47469
-19258	Actor	47469
-47469	Page	9202A8C04000641F8000000000Dc5776
-47469	Actor Netflix Id	
-47469	Label	Alice Braga (Actor)
-47469	Actor Actorid	47469
+Alice Braga	Actor Name	Alice Braga
+Alice Braga	Actor Nytimes Id	
+Alice Braga	Performance	Performance #59117
+Alice Braga	Performance	Performance #123172
+Alice Braga	Performance	Performance #91784
+Alice Braga	Performance	Performance #108924
+Alice Braga	Performance	Performance #70346
+Alice Braga	Performance	Performance #18592
+Alice Braga	Performance	Performance #187510
+Alice Braga	Performance	Performance #186417
+Alice Braga	Performance	Performance #137673
+Alice Braga	Performance	Performance #159886
+Alice Braga	Performance	Performance #79634
+Alice Braga	Performance	Performance #85196
+Alice Braga	Type	Person
+Alice Braga	Type	Actor
+Solo Dios Sabe	Actor	Alice Braga
+Repossession Mambo	Actor	Alice Braga
+Crossing Over	Actor	Alice Braga
+City Of God	Actor	Alice Braga
+Predators	Actor	Alice Braga
+The Milky Way	Actor	Alice Braga
+O Cheiro Do Ralo	Actor	Alice Braga
+Predators	Actor	Alice Braga
+Lower City	Actor	Alice Braga
+I Am Legend	Actor	Alice Braga
+Blindness	Actor	Alice Braga
+Redbelt	Actor	Alice Braga
+Alice Braga	Page	9202A8C04000641F8000000000Dc5776
+Alice Braga	Actor Netflix Id	
+Alice Braga	Label	Alice Braga (Actor)
+Alice Braga	Actor Actorid	47469

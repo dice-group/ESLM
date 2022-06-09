@@ -1,22 +1,22 @@
-7390	Film Of Distributor	41006
-41006	Producer	377
-41006	Producer	13682
-41006	Date	1995
-41006	Page	9202A8C04000641F80000000004Af166
-41006	Title	The Incredibly True Adventure Of Two Girls In Love
-41006	Film Subject	333
-41006	Subject	333
-41006	Performance	32228
-41006	Performance	48861
-41006	Performance	32227
-41006	Filmid	41006
-41006	Type	Film
-41006	Initial Release Date	1995
-41006	Label	The Incredibly True Adventure Of Two Girls In Love
-41006	Music Contributor	5748
-41006	Director	13110
-13110	Made	41006
-41006	Writer	19046
-41006	Actor	40960
-41006	Actor	46958
-41006	Actor	38446
+Film_Film_Distributor_Relationship #7390	Film Of Distributor	The Incredibly True Adventure Of Two Girls In Love
+The Incredibly True Adventure Of Two Girls In Love	Producer	Dolly Hall
+The Incredibly True Adventure Of Two Girls In Love	Producer	Dolly Hall
+The Incredibly True Adventure Of Two Girls In Love	Date	1995
+The Incredibly True Adventure Of Two Girls In Love	Page	9202A8C04000641F80000000004Af166
+The Incredibly True Adventure Of Two Girls In Love	Title	The Incredibly True Adventure Of Two Girls In Love
+The Incredibly True Adventure Of Two Girls In Love	Film Subject	Lesbianism
+The Incredibly True Adventure Of Two Girls In Love	Subject	Lesbianism
+The Incredibly True Adventure Of Two Girls In Love	Performance	Performance #32228
+The Incredibly True Adventure Of Two Girls In Love	Performance	Performance #48861
+The Incredibly True Adventure Of Two Girls In Love	Performance	Performance #32227
+The Incredibly True Adventure Of Two Girls In Love	Filmid	41006
+The Incredibly True Adventure Of Two Girls In Love	Type	Film
+The Incredibly True Adventure Of Two Girls In Love	Initial Release Date	1995
+The Incredibly True Adventure Of Two Girls In Love	Label	The Incredibly True Adventure Of Two Girls In Love
+The Incredibly True Adventure Of Two Girls In Love	Music Contributor	Gus Mattox
+The Incredibly True Adventure Of Two Girls In Love	Director	Maria Maggenti
+Maria Maggenti	Made	The Incredibly True Adventure Of Two Girls In Love
+The Incredibly True Adventure Of Two Girls In Love	Writer	Maria Maggenti
+The Incredibly True Adventure Of Two Girls In Love	Actor	Laurel Holloman
+The Incredibly True Adventure Of Two Girls In Love	Actor	Maggie Moore
+The Incredibly True Adventure Of Two Girls In Love	Actor	Nicole Ari Parker

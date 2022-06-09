@@ -1,34 +1,34 @@
-34577	Type	Actor
-34577	Type	Person
-34577	Actor Actorid	34577
-34577	Actor Nytimes Id	
-34577	Page	9202A8C04000641F80000000003Be85D
-34577	Actor Netflix Id	
-34577	Performance	43959
-34577	Performance	22244
-34577	Performance	40313
-34577	Performance	64965
-34577	Performance	40312
-34577	Performance	40275
-34577	Performance	124550
-34577	Performance	178186
-34577	Performance	40276
-34577	Performance	119836
-34577	Performance	120141
-34577	Performance	48963
-34577	Performance	40281
-39205	Actor	34577
-10004	Actor	34577
-5509	Actor	34577
-42370	Actor	34577
-1044	Actor	34577
-6563	Actor	34577
-15764	Actor	34577
-7238	Actor	34577
-57806	Actor	34577
-6025	Actor	34577
-57576	Actor	34577
-87493	Actor	34577
-60932	Actor	34577
-34577	Actor Name	James Naughton
-34577	Label	James Naughton (Actor)
+James Naughton	Type	Actor
+James Naughton	Type	Person
+James Naughton	Actor Actorid	34577
+James Naughton	Actor Nytimes Id	
+James Naughton	Page	9202A8C04000641F80000000003Be85D
+James Naughton	Actor Netflix Id	
+James Naughton	Performance	Performance #43959
+James Naughton	Performance	Performance #22244
+James Naughton	Performance	Performance #40313
+James Naughton	Performance	Performance #64965
+James Naughton	Performance	Performance #40312
+James Naughton	Performance	Performance #40275
+James Naughton	Performance	Performance #124550
+James Naughton	Performance	Performance #178186
+James Naughton	Performance	Performance #40276
+James Naughton	Performance	Performance #119836
+James Naughton	Performance	Performance #120141
+James Naughton	Performance	Performance #48963
+James Naughton	Performance	Performance #40281
+First Kid	Actor	James Naughton
+Labor Pains	Actor	James Naughton
+Oxygen	Actor	James Naughton
+The First Wives Club	Actor	James Naughton
+Cat'S Eye	Actor	James Naughton
+The Devil Wears Prada	Actor	James Naughton
+The Good Mother	Actor	James Naughton
+The Birds Ii: Land'S End	Actor	James Naughton
+The Littlest Light On The Christmas Tree	Actor	James Naughton
+A Stranger Is Watching	Actor	James Naughton
+Necessity	Actor	James Naughton
+The Glass Menagerie	Actor	James Naughton
+Antigone	Actor	James Naughton
+James Naughton	Actor Name	James Naughton
+James Naughton	Label	James Naughton (Actor)

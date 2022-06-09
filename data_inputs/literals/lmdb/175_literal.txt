@@ -1,36 +1,36 @@
-8424	Label	James Cameron (Director)
-8424	Director Name	James Cameron
-8424	Page	9202A8C04000641F800000000001Fdcc
-72	Director	8424
-38211	Director	8424
-40972	Director	8424
-38151	Director	8424
-17780	Director	8424
-42629	Director	8424
-46687	Director	8424
-3296	Director	8424
-556	Director	8424
-4786	Director	8424
-38324	Director	8424
-33	Director	8424
-6220	Director	8424
-5622	Director	8424
-4673	Director	8424
-8424	Director Directorid	8424
-8424	Type	Director
-8424	Type	Person
-8424	Made	33
-8424	Made	38211
-8424	Made	40972
-8424	Made	42629
-8424	Made	556
-8424	Made	38151
-8424	Made	6220
-8424	Made	17780
-8424	Made	38324
-8424	Made	46687
-8424	Made	4673
-8424	Made	3296
-8424	Made	5622
-8424	Made	4786
-8424	Made	72
+James Cameron	Label	James Cameron (Director)
+James Cameron	Director Name	James Cameron
+James Cameron	Page	9202A8C04000641F800000000001Fdcc
+Titanic	Director	James Cameron
+The Abyss	Director	James Cameron
+Aliens Of The Deep	Director	James Cameron
+The Terminator	Director	James Cameron
+Titanic Special Edition Dvd	Director	James Cameron
+Ghosts Of The Abyss	Director	James Cameron
+The Dive	Director	James Cameron
+T2 3-D: Battle Across Time	Director	James Cameron
+Aliens	Director	James Cameron
+Battle Angel	Director	James Cameron
+True Lies	Director	James Cameron
+Terminator 2: Judgment Day	Director	James Cameron
+Avatar	Director	James Cameron
+Piranha Ii: The Spawning	Director	James Cameron
+Expedition: Bismarck	Director	James Cameron
+James Cameron	Director Directorid	8424
+James Cameron	Type	Director
+James Cameron	Type	Person
+James Cameron	Made	Terminator 2: Judgment Day
+James Cameron	Made	The Abyss
+James Cameron	Made	Aliens Of The Deep
+James Cameron	Made	Ghosts Of The Abyss
+James Cameron	Made	Aliens
+James Cameron	Made	The Terminator
+James Cameron	Made	Avatar
+James Cameron	Made	Titanic Special Edition Dvd
+James Cameron	Made	True Lies
+James Cameron	Made	The Dive
+James Cameron	Made	Expedition: Bismarck
+James Cameron	Made	T2 3-D: Battle Across Time
+James Cameron	Made	Piranha Ii: The Spawning
+James Cameron	Made	Battle Angel
+James Cameron	Made	Titanic

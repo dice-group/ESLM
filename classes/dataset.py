@@ -82,7 +82,7 @@ class ESBenchmark:
             if UTILS.is_uri(obj) and self.ds_name == "dbpedia":
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             elif UTILS.is_uri(obj) and self.ds_name == "lmdb":
-                obj_literal = UTILS.get_label_of_entity_lmdb(obj, endpoint)
+                obj_literal = UTILS.get_label_of_entity_lmdb("entity", obj, endpoint)
             else:
                 if type(obj) == str:
                     if obj.isupper():
@@ -95,8 +95,8 @@ class ESBenchmark:
                 pred_literal = UTILS.get_label_of_entity(pred, endpoint)
                 sub_literal = UTILS.get_label_of_entity(sub, endpoint)
             elif self.ds_name == "lmdb":
-                pred_literal = UTILS.get_label_of_entity_lmdb(pred, endpoint)
-                sub_literal = UTILS.get_label_of_entity_lmdb(sub, endpoint)
+                pred_literal = UTILS.get_label_of_entity_lmdb("property", pred, endpoint)
+                sub_literal = UTILS.get_label_of_entity_lmdb("entity", sub, endpoint)
             triple = (sub_literal, pred_literal, obj_literal)
             triples_tuple.append(triple)
         return triples_tuple

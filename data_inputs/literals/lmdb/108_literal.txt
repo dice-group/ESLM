@@ -1,39 +1,39 @@
-4053	Language	En
-4053	Language	Fr
-4053	Hasphotocollection	A Man, A Real One
-4053	Based Near	3017382
-4053	Label	A Man, A Real One
-4053	Film Cut	165
-4053	Type	Film
-4053	Date	2003-05-28
-4053	Title	A Man, A Real One
-4053	Producer	526
-4053	Genre	4
-4053	Filmid	4053
-632	Made	4053
-19714	Made	4053
-4053	Country	FR
-4053	Writer	797
-4053	Writer	23034
-4053	Writer	796
-4053	Page	9202A8C04000641F80000000007Afaba
-4053	Page	Tt0329706
-4053	Page	Alias?Type=Imdbid&S=0329706
-20517	Link Source	4053
-39050	Link Source	4053
-1984	Link Source	4053
-137540	Link Source	4053
-137539	Link Source	4053
-66572	Link Source	4053
-4053	Runtime	120
-4053	Actor	35688
-4053	Actor	1570
-4053	Actor	10974
-4053	Actor	1569
-4053	Initial Release Date	2003-05-28
-4053	Performance	777
-4053	Performance	778
-4053	Performance	779
-4053	Performance	84776
-4053	Director	19714
-4053	Director	632
+A Man, A Real One	Language	En
+A Man, A Real One	Language	Fr
+A Man, A Real One	Hasphotocollection	A Man, A Real One
+A Man, A Real One	Based Near	3017382
+A Man, A Real One	Label	A Man, A Real One
+A Man, A Real One	Film Cut	Film Cut #165
+A Man, A Real One	Type	Film
+A Man, A Real One	Date	2003-05-28
+A Man, A Real One	Title	A Man, A Real One
+A Man, A Real One	Producer	Philippe Martin
+A Man, A Real One	Genre	Drama
+A Man, A Real One	Filmid	4053
+Jean-Marie Larrieu	Made	A Man, A Real One
+Arnaud Larrieu	Made	A Man, A Real One
+A Man, A Real One	Country	FR
+A Man, A Real One	Writer	Sophie Filliã¨Res
+A Man, A Real One	Writer	Arnaud Larrieu
+A Man, A Real One	Writer	Jean-Marie Larrieu
+A Man, A Real One	Page	9202A8C04000641F80000000007Afaba
+A Man, A Real One	Page	Tt0329706
+A Man, A Real One	Page	Alias?Type=Imdbid&S=0329706
+20517	Link Source	A Man, A Real One
+39050	Link Source	A Man, A Real One
+1984	Link Source	A Man, A Real One
+137540	Link Source	A Man, A Real One
+137539	Link Source	A Man, A Real One
+66572	Link Source	A Man, A Real One
+A Man, A Real One	Runtime	120
+A Man, A Real One	Actor	Eva Ionesco
+A Man, A Real One	Actor	Pierre Pellet
+A Man, A Real One	Actor	Mathieu Amalric
+A Man, A Real One	Actor	Hã©Lã¨Ne Filliã¨Res
+A Man, A Real One	Initial Release Date	2003-05-28
+A Man, A Real One	Performance	Performance #777
+A Man, A Real One	Performance	Performance #778
+A Man, A Real One	Performance	Performance #779
+A Man, A Real One	Performance	Performance #84776
+A Man, A Real One	Director	Arnaud Larrieu
+A Man, A Real One	Director	Jean-Marie Larrieu

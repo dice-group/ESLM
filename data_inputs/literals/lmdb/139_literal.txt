@@ -1,44 +1,44 @@
-67878	Actor Actorid	67878
-67878	Label	Devyn Foster (Actor)
-67878	Actor Name	Devyn Foster
-67878	Performance	190517
-67878	Performance	190522
-67878	Performance	190521
-67878	Performance	190519
-67878	Performance	190527
-67878	Performance	190508
-67878	Performance	190515
-67878	Performance	190516
-67878	Performance	190518
-67878	Performance	190513
-67878	Performance	190514
-67878	Performance	190520
-67878	Performance	190528
-67878	Performance	190524
-67878	Performance	190525
-67878	Performance	190526
-67878	Performance	190523
-67878	Performance	190534
-86571	Actor	67878
-86572	Actor	67878
-86568	Actor	67878
-86574	Actor	67878
-81568	Actor	67878
-92131	Actor	67878
-91044	Actor	67878
-86660	Actor	67878
-86573	Actor	67878
-89760	Actor	67878
-86231	Actor	67878
-86575	Actor	67878
-86219	Actor	67878
-89937	Actor	67878
-81675	Actor	67878
-86336	Actor	67878
-83551	Actor	67878
-86333	Actor	67878
-67878	Page	9202A8C04000641F8000000012Ca2Cfe
-67878	Type	Person
-67878	Type	Actor
-67878	Actor Nytimes Id	
-67878	Actor Netflix Id	
+Devyn Foster	Actor Actorid	67878
+Devyn Foster	Label	Devyn Foster (Actor)
+Devyn Foster	Actor Name	Devyn Foster
+Devyn Foster	Performance	Performance #190517
+Devyn Foster	Performance	Performance #190522
+Devyn Foster	Performance	Performance #190521
+Devyn Foster	Performance	Performance #190519
+Devyn Foster	Performance	Performance #190527
+Devyn Foster	Performance	Performance #190508
+Devyn Foster	Performance	Performance #190515
+Devyn Foster	Performance	Performance #190516
+Devyn Foster	Performance	Performance #190518
+Devyn Foster	Performance	Performance #190513
+Devyn Foster	Performance	Performance #190514
+Devyn Foster	Performance	Performance #190520
+Devyn Foster	Performance	Performance #190528
+Devyn Foster	Performance	Performance #190524
+Devyn Foster	Performance	Performance #190525
+Devyn Foster	Performance	Performance #190526
+Devyn Foster	Performance	Performance #190523
+Devyn Foster	Performance	Performance #190534
+Knight Gallery	Actor	Devyn Foster
+The Hole	Actor	Devyn Foster
+The Urge	Actor	Devyn Foster
+Limited Entry	Actor	Devyn Foster
+Foul Play	Actor	Devyn Foster
+Spank Me & R Gang	Actor	Devyn Foster
+Young Americans	Actor	Devyn Foster
+Boot Black 2 Spit Shine	Actor	Devyn Foster
+Prisoner Of Love	Actor	Devyn Foster
+The Personals	Actor	Devyn Foster
+True Stories: Letters From The Hot House Files	Actor	Devyn Foster
+Chance Encounters	Actor	Devyn Foster
+Santa Monica Place	Actor	Devyn Foster
+Straight Guys, Straight Trade	Actor	Devyn Foster
+The Initiation	Actor	Devyn Foster
+Wet Dreams	Actor	Devyn Foster
+Fire In The Hole	Actor	Devyn Foster
+Hand To Hand	Actor	Devyn Foster
+Devyn Foster	Page	9202A8C04000641F8000000012Ca2Cfe
+Devyn Foster	Type	Person
+Devyn Foster	Type	Actor
+Devyn Foster	Actor Nytimes Id	
+Devyn Foster	Actor Netflix Id	

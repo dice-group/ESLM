@@ -1,27 +1,27 @@
-41573	Film Format	56
-41573	Writer	15593
-41573	Writer	16556
-9077	Made	41573
-41573	Film Art Director	2
-41573	Title	Broken Lance
-41573	Initial Release Date	1954
-41573	Performance	5456
-41573	Performance	5458
-41573	Performance	5454
-41573	Performance	5457
-41573	Performance	5455
-41573	Type	Film
-41573	Editor	1708
-41573	Director	9077
-41573	Page	9202A8C04000641F8000000000567F08
-1166	Film Of Distributor	41573
-41573	Actor	33143
-41573	Actor	32491
-41573	Actor	35936
-41573	Actor	30035
-41573	Actor	29794
-41573	Date	1954
-41573	Filmid	41573
-41573	Music Contributor	5454
-41573	Label	Broken Lance
-41573	Film Set Designer	2
+Broken Lance	Film Format	Cinemascope
+Broken Lance	Writer	Richard Murphy
+Broken Lance	Writer	Philip Yordan
+Edward Dmytryk	Made	Broken Lance
+Broken Lance	Film Art Director	Lyle R. Wheeler
+Broken Lance	Title	Broken Lance
+Broken Lance	Initial Release Date	1954
+Broken Lance	Performance	Performance #5456
+Broken Lance	Performance	Performance #5458
+Broken Lance	Performance	Performance #5454
+Broken Lance	Performance	Performance #5457
+Broken Lance	Performance	Performance #5455
+Broken Lance	Type	Film
+Broken Lance	Editor	Dorothy Spencer
+Broken Lance	Director	Edward Dmytryk
+Broken Lance	Page	9202A8C04000641F8000000000567F08
+Film_Film_Distributor_Relationship #1166	Film Of Distributor	Broken Lance
+Broken Lance	Actor	Richard Widmark
+Broken Lance	Actor	Robert Wagner
+Broken Lance	Actor	Jean Peters
+Broken Lance	Actor	Katy Jurado
+Broken Lance	Actor	Spencer Tracy
+Broken Lance	Date	1954
+Broken Lance	Filmid	41573
+Broken Lance	Music Contributor	Leigh Harline
+Broken Lance	Label	Broken Lance
+Broken Lance	Film Set Designer	Walter M. Scott

@@ -1,36 +1,36 @@
-14418	Label	Mack V. Wright (Director)
-14418	Director Directorid	14418
-14418	Director Name	Mack V. Wright
-14418	Made	45182
-14418	Made	24459
-14418	Made	19433
-14418	Made	21357
-14418	Made	24460
-14418	Made	24940
-14418	Made	25028
-14418	Made	25030
-14418	Made	19751
-14418	Made	11164
-14418	Made	19747
-14418	Made	19259
-14418	Made	19744
-14418	Made	24448
-14418	Made	11165
-14418	Page	9202A8C04000641F8000000005B5F33C
-19433	Director	14418
-25030	Director	14418
-45182	Director	14418
-24940	Director	14418
-19747	Director	14418
-24460	Director	14418
-19751	Director	14418
-11165	Director	14418
-21357	Director	14418
-19259	Director	14418
-19744	Director	14418
-24448	Director	14418
-11164	Director	14418
-24459	Director	14418
-25028	Director	14418
-14418	Type	Director
-14418	Type	Person
+Mack V. Wright	Label	Mack V. Wright (Director)
+Mack V. Wright	Director Directorid	14418
+Mack V. Wright	Director Name	Mack V. Wright
+Mack V. Wright	Made	The Lucky Texan
+Mack V. Wright	Made	Thieves' Clothes
+Mack V. Wright	Made	Winds Of The Wasteland
+Mack V. Wright	Made	The Great Adventures Of Wild Bill Hickok
+Mack V. Wright	Made	The Broncho Kid
+Mack V. Wright	Made	The Big Show
+Mack V. Wright	Made	Hit The Saddle
+Mack V. Wright	Made	Riders Of The Whistling Skull
+Mack V. Wright	Made	The Man From Monterey
+Mack V. Wright	Made	The Vigilantes Are Coming
+Mack V. Wright	Made	Somewhere In Sonora
+Mack V. Wright	Made	The Sea Hound
+Mack V. Wright	Made	Haunted Gold
+Mack V. Wright	Made	Masked
+Mack V. Wright	Made	Robinson Crusoe Of Clipper Island
+Mack V. Wright	Page	9202A8C04000641F8000000005B5F33C
+Winds Of The Wasteland	Director	Mack V. Wright
+Riders Of The Whistling Skull	Director	Mack V. Wright
+The Lucky Texan	Director	Mack V. Wright
+The Big Show	Director	Mack V. Wright
+Somewhere In Sonora	Director	Mack V. Wright
+The Broncho Kid	Director	Mack V. Wright
+The Man From Monterey	Director	Mack V. Wright
+Robinson Crusoe Of Clipper Island	Director	Mack V. Wright
+The Great Adventures Of Wild Bill Hickok	Director	Mack V. Wright
+The Sea Hound	Director	Mack V. Wright
+Haunted Gold	Director	Mack V. Wright
+Masked	Director	Mack V. Wright
+The Vigilantes Are Coming	Director	Mack V. Wright
+Thieves' Clothes	Director	Mack V. Wright
+Hit The Saddle	Director	Mack V. Wright
+Mack V. Wright	Type	Director
+Mack V. Wright	Type	Person
