@@ -319,11 +319,11 @@ def evaluation(dataset, k):
     fmeasure = FMeasure()
     m = MAP()
     
-    if dataset == "dbpedia":
+    if dataset.ds_name == "dbpedia":
         IN_SUMM = "outputs/dbpedia"
         start = [0, 140]
         end   = [100, 165]
-    elif dataset == "lmdb":
+    elif dataset.ds_name == "lmdb":
         IN_SUMM = "outputs/lmdb"
         start = [100, 165]
         end   = [140, 175]
