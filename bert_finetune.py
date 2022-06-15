@@ -378,7 +378,7 @@ def evaluation(dataset, k):
         #ndcg_score = getNDCG(rel)
         ndcg_score = ndcg_class.get_score(gold_list_top, encoded_rank_triples)
         f_score = fmeasure.get_score(encoded_topk_triples, gold_list_top)
-        map_score = m.get_avg_map(encoded_rank_triples, gold_list_top)
+        map_score = m.get_map(encoded_rank_triples, gold_list_top)
         #print(ndcg_score)
         #print("*************************")
         total_ndcg += ndcg_score
@@ -403,7 +403,7 @@ def evaluation(dataset, k):
         #ndcg_score = getNDCG(rel)
         ndcg_score = ndcg_class.get_score(gold_list_top, encoded_rank_triples)
         f_score = fmeasure.get_score(encoded_topk_triples, gold_list_top)
-        map_score = m.get_avg_map(encoded_rank_triples, gold_list_top)
+        map_score = m.get_map(encoded_rank_triples, gold_list_top)
         #print(ndcg_score)
         #print("*************************")
         total_ndcg += ndcg_score
