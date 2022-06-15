@@ -288,61 +288,74 @@ def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
                 fout.write(triples[rank])
 
 def get_rank_triples(db_path, num, top_n, triples_dict):
-    triples=[]
-    encoded_triples = []
-    filename = os.path.join(db_path, "{}".format(num), "{}_rank.nt".format(num))
-    if os.path.exists(os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))):
-        filename = os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))
-    print(filename)
-    class IndexSink(Sink):
-        """Triple Indexing"""
-        i = 0
-        j = 0
-        def __str__(self):
-            return self.__class__.__name__
-        @staticmethod
-        def triple(sub, pred, obj):
-            """Get triples"""
-            sub = sub.toPython()
-            pred = pred.toPython()
-            obj = obj.toPython()
-            triple_tuple = (sub, pred, obj)
-            triples.append(triple_tuple)
-    index_sink = IndexSink()
-    parser = NTriplesParser(index_sink)
-    with open(filename, 'rb') as reader:
-        parser.parse(reader)
-    for triple in triples:
+  triples=[]
+  encoded_triples = []
+  filename = os.path.join(db_path, "{}".format(num), "{}_rank.nt".format(num))
+  if os.path.exists(os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))):
+      filename = os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))
+  with open(filename, encoding="utf8") as reader:   
+    for i, triple in enumerate(reader):
+        triple = triple.replace("\n", "").strip()
+        triples.append(triple)
+        
         encoded_triple = triples_dict[triple]
         encoded_triples.append(encoded_triple)
-    return triples, encoded_triples
+  return triples, encoded_triples
 
 def get_topk_triples(db_path, num, top_n, triples_dict):
-    triples=[]
-    encoded_triples = []
-    class IndexSink(Sink):
-        """Triple Indexing"""
-        i = 0
-        j = 0
-        def __str__(self):
-            return self.__class__.__name__
-        @staticmethod
-        def triple(sub, pred, obj):
-            """Get triples"""
-            sub = sub.toPython()
-            pred = pred.toPython()
-            obj = obj.toPython()
-            triple_tuple = (sub, pred, obj)
-            triples.append(triple_tuple)
-    index_sink = IndexSink()
-    parser = NTriplesParser(index_sink)
-    with open(os.path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), 'rb') as reader:
-        parser.parse(reader)
-    for triple in triples:
+  triples=[]
+  encoded_triples = []
+  
+  with open(path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), encoding="utf8") as reader:   
+    for i, triple in enumerate(reader):
+        triple = triple.replace("\n", "").strip()
+        triples.append(triple)
+        
         encoded_triple = triples_dict[triple]
         encoded_triples.append(encoded_triple)
+  return triples, encoded_triples
+
+
+def get_all_data(db_path, num, top_n, file_n):
+  import glob
+  triples_dict = {}
+  triple_tuples = []
+  ### Retrieve all triples of an entity based on eid
+  with open(os.path.join(db_path, "{}".format(num), "{}_desc.nt".format(num)), encoding="utf8") as reader:   
+    for i, triple in enumerate(reader):
+      if len(triple)==1:
+        continue  
+      triple_tuple = triple.replace("\n", "").strip()#parserline(triple)
+      triple_tuples.append(triple_tuple)
+      if triple_tuple not in triples_dict:
+        triples_dict[triple_tuple] = len(triples_dict)
+  gold_list = []
+  ds_name = db_path.split("/")[-1].split("_")[0]
+  
+  ### Get file_n/ n files of ground truth summaries for faces dataset
+  if ds_name=="faces":
+      gold_files = glob.glob(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_*".format(num, top_n).format(num)))
+      #print(len(gold_files))
+      if len(gold_files) != file_n:
+          file_n = len(gold_files)
+  
+  ### Retrieve ground truth summaries of an entity based on eid and total of file_n  
+  for i in range(file_n):
+    with open(os.path.join(db_path, 
+            "{}".format(num), 
+            "{}_gold_top{}_{}.nt".format(num, top_n, i).format(num)),
+            encoding="utf8") as reader:
+      #print(path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, top_n, i).format(num)))
+      n_list = []
+      for i, triple in enumerate(reader):
+        if len(triple)==1:
+            continue
+        triple_tuple = triple.replace("\n", "").strip()#parserline(triple)
+        gold_id = triples_dict[triple_tuple]
+        n_list.append(gold_id)
+      gold_list.append(n_list)
         
-    return triples, encoded_triples
+  return gold_list, triples_dict, triple_tuples
 
 def evaluation(dataset, k):
     ndcg_class = NDCG()
@@ -366,8 +379,7 @@ def evaluation(dataset, k):
     total_map_score=0
     for i in range(start[0], end[0]):
         t = i+1
-        triples_dict = dataset.triples_dictionary(t)
-        gold_list_top = dataset.get_gold_summaries(t, triples_dict)
+        gold_list_top, triples_dict, triple_tuples = get_all_data(dataset.db_path, t, k, dataset.file_n)
         rank_triples, encoded_rank_triples = get_rank_triples(IN_SUMM, t, k, triples_dict)
         topk_triples, encoded_topk_triples = get_topk_triples(IN_SUMM, t, k, triples_dict)
         #print("############### Top-K Triples ################", t)
@@ -391,8 +403,7 @@ def evaluation(dataset, k):
         
     for i in range(start[1], end[1]):
         t = i+1
-        triples_dict = dataset.triples_dictionary(t)
-        gold_list_top = dataset.get_gold_summaries(t, triples_dict)
+        gold_list_top, triples_dict, triple_tuples = get_all_data(dataset.db_path, t, k, dataset.file_n)
         rank_triples, encoded_rank_triples = get_rank_triples(IN_SUMM, t, k, triples_dict)
         topk_triples, encoded_topk_triples = get_topk_triples(IN_SUMM, t, k, triples_dict)
         #print("############### Top-K Triples ################", t)
