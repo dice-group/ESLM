@@ -288,20 +288,33 @@ def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
                 fout.write(triples[rank])
 
 def get_rank_triples(db_path, num, top_n, triples_dict):
-  triples=[]
-  encoded_triples = []
-  filename = os.path.join(db_path, "{}".format(num), "{}_rank.nt".format(num))
-  if os.path.exists(os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))):
-      filename = os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))
-  with open(filename, encoding="utf8") as reader:   
-    for i, triple in enumerate(reader):
-        triple = triple.replace("\n", "").strip()
-        triples.append(triple)
-        print(triple)
-        print(triples_dict)
+    triples=[]
+    encoded_triples = []
+    filename = os.path.join(db_path, "{}".format(num), "{}_rank.nt".format(num))
+    if os.path.exists(os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))):
+        filename = os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))
+    class IndexSink(Sink):
+        """Triple Indexing"""
+        i = 0
+        j = 0
+        def __str__(self):
+            return self.__class__.__name__
+        @staticmethod
+        def triple(sub, pred, obj):
+            """Get triples"""
+            sub = sub.toPython()
+            pred = pred.toPython()
+            obj = obj.toPython()
+            triple_tuple = (sub, pred, obj)
+            triples.append(triple_tuple)
+    index_sink = IndexSink()
+    parser = NTriplesParser(index_sink)
+    with open(filename, encoding="utf8") as reader:
+        parser.parse(reader)
+    for triple in triples:
         encoded_triple = triples_dict[triple]
         encoded_triples.append(encoded_triple)
-  return triples, encoded_triples
+    return triples, encoded_triples
 
 def get_topk_triples(db_path, num, top_n, triples_dict):
     triples=[]
