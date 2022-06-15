@@ -293,6 +293,7 @@ def get_rank_triples(db_path, num, top_n, triples_dict):
     filename = os.path.join(db_path, "{}".format(num), "{}_rank.nt".format(num))
     if os.path.exists(os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))):
         filename = os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))
+    print(filename)
     class IndexSink(Sink):
         """Triple Indexing"""
         i = 0
