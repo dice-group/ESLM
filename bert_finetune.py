@@ -310,7 +310,7 @@ def get_rank_triples(db_path, num, top_n, triples_dict):
             triples.append(triple_tuple)
     index_sink = IndexSink()
     parser = NTriplesParser(index_sink)
-    with open(filename, encoding="utf8") as reader:
+    with open(filename, 'rb') as reader:
         parser.parse(reader)
     for triple in triples:
         encoded_triple = triples_dict[triple]
@@ -336,7 +336,7 @@ def get_topk_triples(db_path, num, top_n, triples_dict):
             triples.append(triple_tuple)
     index_sink = IndexSink()
     parser = NTriplesParser(index_sink)
-    with open(os.path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), encoding="utf8") as reader:
+    with open(os.path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), 'rb') as reader:
         parser.parse(reader)
     for triple in triples:
         encoded_triple = triples_dict[triple]
