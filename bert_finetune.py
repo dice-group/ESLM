@@ -76,7 +76,7 @@ def main(mode, best_epoch):
         else:
             MAX_LENGTH = 42
         if mode == "train":
-            for topk in config["topk"]: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
+            for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
                 best_epochs = []
