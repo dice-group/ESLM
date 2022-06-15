@@ -306,7 +306,7 @@ def get_topk_triples(db_path, num, top_n, triples_dict):
   triples=[]
   encoded_triples = []
   
-  with open(path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), encoding="utf8") as reader:   
+  with open(os.path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), encoding="utf8") as reader:   
     for i, triple in enumerate(reader):
         triple = triple.replace("\n", "").strip()
         triples.append(triple)
