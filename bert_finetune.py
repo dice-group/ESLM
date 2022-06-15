@@ -350,11 +350,11 @@ def evaluation(dataset, k):
     m = MAP()
     
     if dataset.ds_name == "dbpedia":
-        IN_SUMM = "outputs/dbpedia"
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/dbpedia')
         start = [0, 140]
         end   = [100, 165]
     elif dataset.ds_name == "lmdb":
-        IN_SUMM = "outputs/lmdb"
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/lmdb')
         start = [100, 165]
         end   = [140, 175]
             
