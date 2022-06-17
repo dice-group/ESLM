@@ -117,7 +117,7 @@ def main(mode, best_epoch):
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH)
+                    generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH)
 def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, max_length):
     """Training module"""
     if not os.path.exists(models_dir):
