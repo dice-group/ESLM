@@ -227,12 +227,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
 def generated_entity_summaries(model, test_data, dataset, topk, max_length):
     """"Generated entity summaries"""
     model.eval()
-    ndcg_eval = NDCG()
-    fmeasure_eval = FMeasure()
-    map_eval = MAP()
-    ndcg_scores = []
-    fmeasure_scores = []
-    map_scores = []
     with torch.no_grad():
         for eid in test_data:
             triples = dataset.get_triples(eid)
@@ -255,16 +249,6 @@ def generated_entity_summaries(model, test_data, dataset, topk, max_length):
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
             _, output_top = torch.topk(output_tensor, topk)
             _, output_rank = torch.topk(output_tensor, len(test_data[eid]))
-            triples_dict = dataset.triples_dictionary(eid)
-            gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
-            top_list_output_top = output_top.squeeze(0).numpy().tolist()
-            all_list_output_top = output_rank.squeeze(0).numpy().tolist()
-            ndcg_score = ndcg_eval.get_score(gold_list_top, all_list_output_top)
-            f_score = fmeasure_eval.get_score(top_list_output_top, gold_list_top)
-            map_score = map_eval.get_map(all_list_output_top, gold_list_top)
-            ndcg_scores.append(ndcg_score)
-            fmeasure_scores.append(f_score)
-            map_scores.append(map_score)
             directory = f"outputs/{dataset.get_ds_name}"
             if not os.path.exists(directory):
                 os.makedirs(directory)
@@ -277,7 +261,6 @@ def generated_entity_summaries(model, test_data, dataset, topk, max_length):
             top_or_rank = "rank_top"
             rank_list = output_rank.squeeze(0).numpy().tolist()
             writer(dataset.get_db_path, directory, eid, top_or_rank, topk, rank_list)
-    return np.average(fmeasure_scores), np.average(ndcg_scores), np.average(map_scores)
 
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
     "Write triples to file"
