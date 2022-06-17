@@ -75,7 +75,7 @@ def main(mode, best_epoch):
         if ds_name == "dbpedia":
             MAX_LENGTH = 39
         else:
-            MAX_LENGTH = 42
+            MAX_LENGTH = 34
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -196,7 +196,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         print("")
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
         if valid_acc > best_acc:
-            print(f"saving best model,  val_accuracy impfrom distutils.util import strtoboolroved from {best_acc} to {valid_acc}")
+            print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
             best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
