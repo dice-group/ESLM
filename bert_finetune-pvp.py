@@ -118,6 +118,7 @@ def main(mode, best_epoch):
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
                     generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH)
+                evaluation(dataset, topk)
 def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, max_length):
     """Training module"""
     if not os.path.exists(models_dir):
