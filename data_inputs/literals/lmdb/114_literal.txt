@@ -1,32 +1,32 @@
-Satomi Hakkenden	Language	Ja
+6191	Language	Ja
 61136	Link Source	Satomi Hakkenden
 139288	Link Source	Satomi Hakkenden
-Satomi Hakkenden	Country	JP
-Satomi Hakkenden	Writer	Kinji Fukasaku
-Satomi Hakkenden	Writer	Toshio Kamata
-Satomi Hakkenden	Date	1983-10-12
-Satomi Hakkenden	Based Near	1861060
-Kinji Fukasaku	Made	Satomi Hakkenden
-Satomi Hakkenden	Performance	Performance #87740
-Satomi Hakkenden	Performance	Performance #25385
-Satomi Hakkenden	Performance	Performance #25386
-Satomi Hakkenden	Performance	Performance #25387
-Satomi Hakkenden	Title	Satomi Hakkenden
-Satomi Hakkenden	Page	Tt0086244
-Satomi Hakkenden	Page	Alias?Type=Imdbid&S=0086244
-Satomi Hakkenden	Page	9202A8C04000641F8000000000Abf0A2
-Satomi Hakkenden	Type	Film
-Satomi Hakkenden	Producer	Haruki Kadokawa
-Satomi Hakkenden	Producer	Haruki Kadokawa
-Satomi Hakkenden	Director	Kinji Fukasaku
-Satomi Hakkenden	Film Cut	Film Cut #5444
-Satomi Hakkenden	Initial Release Date	1983-10-12
-Satomi Hakkenden	Music Contributor	Nobody
-Satomi Hakkenden	Filmid	6191
-Satomi Hakkenden	Cinematographer	Seizå Sengen
-Satomi Hakkenden	Runtime	136
-Satomi Hakkenden	Actor	Hiroyuki Sanada
-Satomi Hakkenden	Actor	Mari Natsuki
-Satomi Hakkenden	Actor	Sonny Chiba
-Satomi Hakkenden	Actor	Hiroko Yakushimaru
-Satomi Hakkenden	Label	Satomi Hakkenden
+6191	Country	JP
+6191	Writer	Kinji Fukasaku
+6191	Writer	Toshio Kamata
+6191	Date	1983-10-12
+6191	Based Near	1861060
+8972	Made	Satomi Hakkenden
+6191	Performance	Performance #87740
+6191	Performance	Performance #25385
+6191	Performance	Performance #25386
+6191	Performance	Performance #25387
+6191	Title	Satomi Hakkenden
+6191	Page	Tt0086244
+6191	Page	Alias?Type=Imdbid&S=0086244
+6191	Page	9202A8C04000641F8000000000Abf0A2
+6191	Type	Film
+6191	Producer	Haruki Kadokawa
+6191	Producer	Haruki Kadokawa
+6191	Director	Kinji Fukasaku
+6191	Film Cut	Film Cut #5444
+6191	Initial Release Date	1983-10-12
+6191	Music Contributor	Nobody
+6191	Filmid	6191
+6191	Cinematographer	Seizå Sengen
+6191	Runtime	136
+6191	Actor	Hiroyuki Sanada
+6191	Actor	Mari Natsuki
+6191	Actor	Sonny Chiba
+6191	Actor	Hiroko Yakushimaru
+6191	Label	Satomi Hakkenden

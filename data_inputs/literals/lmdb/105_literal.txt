@@ -1,40 +1,40 @@
-Dumb & Dumberer	Filmid	2108
-Dumb & Dumberer	Language	En
-Dumb & Dumberer	Film Cut	Film Cut #2019
-Dumb & Dumberer	Actor	Derek Richardson
-Dumb & Dumberer	Actor	Eric Christian Olsen
-Dumb & Dumberer	Actor	Eugene Levy
-Dumb & Dumberer	Actor	Derek Richardson
-Dumb & Dumberer	Director	Troy Miller
-Dumb & Dumberer	Director	Troy Miller
+2108	Filmid	2108
+2108	Language	En
+2108	Film Cut	Film Cut #2019
+2108	Actor	Derek Richardson
+2108	Actor	Eric Christian Olsen
+2108	Actor	Eugene Levy
+2108	Actor	Derek Richardson
+2108	Director	Troy Miller
+2108	Director	Troy Miller
 135864	Link Source	Dumb & Dumberer
 71114	Link Source	Dumb & Dumberer
-Dumb & Dumberer	Runtime	85
-Dumb & Dumberer	Prequel	Dumb & Dumber
-Dumb & Dumberer	Initial Release Date	2003-06-13
-Dumb & Dumberer	Title	Dumb & Dumberer
-Dumb & Dumber	Sequel	Dumb & Dumberer
-Dumb & Dumberer	Producer	Oren Koules
-Dumb & Dumberer	Producer	Steven Stabler
-Dumb & Dumberer	Producer	Troy Miller
-Dumb & Dumberer	Producer	Brad Krevoy
-Dumb & Dumberer	Producer	Troy Miller
-Dumb & Dumberer	Producer	Toby Emmerich
-Film_Film_Distributor_Relationship #7368	Film Of Distributor	Dumb & Dumberer
-Dumb & Dumberer	Page	Alias?Type=Imdbid&S=0329028
-Dumb & Dumberer	Page	9202A8C04000641F800000000048Fea0
-Dumb & Dumberer	Page	Tt0329028
-Dumb & Dumberer	Writer	Troy Miller
-Dumb & Dumberer	Writer	Troy Miller
-Dumb & Dumberer	Writer	Bobby Farrelly
-Dumb & Dumberer	Writer	Peter Farrelly
-Dumb & Dumberer	Writer	Bennett Yellin
-Dumb & Dumberer	Type	Film
-Troy Miller	Made	Dumb & Dumberer
-Troy Miller	Made	Dumb & Dumberer
-Dumb & Dumberer	Label	Dumb & Dumberer
-Dumb & Dumberer	Performance	Performance #9657
-Dumb & Dumberer	Performance	Performance #70982
-Dumb & Dumberer	Performance	Performance #9656
-Dumb & Dumberer	Performance	Performance #9658
-Dumb & Dumberer	Date	2003-06-13
+2108	Runtime	85
+2108	Prequel	Dumb & Dumber
+2108	Initial Release Date	2003-06-13
+2108	Title	Dumb & Dumberer
+1351	Sequel	Dumb & Dumberer
+2108	Producer	Oren Koules
+2108	Producer	Steven Stabler
+2108	Producer	Troy Miller
+2108	Producer	Brad Krevoy
+2108	Producer	Troy Miller
+2108	Producer	Toby Emmerich
+7368	Film Of Distributor	Dumb & Dumberer
+2108	Page	Alias?Type=Imdbid&S=0329028
+2108	Page	9202A8C04000641F800000000048Fea0
+2108	Page	Tt0329028
+2108	Writer	Troy Miller
+2108	Writer	Troy Miller
+2108	Writer	Bobby Farrelly
+2108	Writer	Peter Farrelly
+2108	Writer	Bennett Yellin
+2108	Type	Film
+2917	Made	Dumb & Dumberer
+1193	Made	Dumb & Dumberer
+2108	Label	Dumb & Dumberer
+2108	Performance	Performance #9657
+2108	Performance	Performance #70982
+2108	Performance	Performance #9656
+2108	Performance	Performance #9658
+2108	Date	2003-06-13

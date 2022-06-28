@@ -1,24 +1,24 @@
-The Spiral Staircase	Filmid	41408
-Robert Siodmak	Made	The Spiral Staircase
-The Spiral Staircase	Performance	Performance #35123
-The Spiral Staircase	Performance	Performance #35120
-The Spiral Staircase	Performance	Performance #35119
-The Spiral Staircase	Performance	Performance #35122
-The Spiral Staircase	Performance	Performance #35121
-The Spiral Staircase	Music Contributor	Roy Webb
-The Spiral Staircase	Editor	Harry W. Gerstad
-The Spiral Staircase	Producer	Dore Schary
-The Spiral Staircase	Label	The Spiral Staircase
-The Spiral Staircase	Date	1946-02-06
-The Spiral Staircase	Type	Film
-The Spiral Staircase	Title	The Spiral Staircase
-The Spiral Staircase	Writer	Mel Dinelli
-The Spiral Staircase	Writer	Ethel Lina White
-The Spiral Staircase	Director	Robert Siodmak
-The Spiral Staircase	Initial Release Date	1946-02-06
-The Spiral Staircase	Actor	George Brent
-The Spiral Staircase	Actor	Dorothy Mcguire
-The Spiral Staircase	Actor	Rhonda Fleming
-The Spiral Staircase	Actor	Ethel Barrymore
-The Spiral Staircase	Actor	Kent Smith
-The Spiral Staircase	Page	9202A8C04000641F8000000000527D33
+41408	Filmid	41408
+8475	Made	The Spiral Staircase
+41408	Performance	Performance #35123
+41408	Performance	Performance #35120
+41408	Performance	Performance #35119
+41408	Performance	Performance #35122
+41408	Performance	Performance #35121
+41408	Music Contributor	Roy Webb
+41408	Editor	Harry W. Gerstad
+41408	Producer	Dore Schary
+41408	Label	The Spiral Staircase
+41408	Date	1946-02-06
+41408	Type	Film
+41408	Title	The Spiral Staircase
+41408	Writer	Mel Dinelli
+41408	Writer	Ethel Lina White
+41408	Director	Robert Siodmak
+41408	Initial Release Date	1946-02-06
+41408	Actor	George Brent
+41408	Actor	Dorothy Mcguire
+41408	Actor	Rhonda Fleming
+41408	Actor	Ethel Barrymore
+41408	Actor	Kent Smith
+41408	Page	9202A8C04000641F8000000000527D33

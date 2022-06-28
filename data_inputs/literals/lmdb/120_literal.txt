@@ -1,35 +1,35 @@
-Mighty Joe Young	Actor	Bill Paxton
-Mighty Joe Young	Actor	Dave Coulier
-Mighty Joe Young	Actor	Charlize Theron
-Ron Underwood	Made	Mighty Joe Young
-Mighty Joe Young	Language	En
+8446	Actor	Bill Paxton
+8446	Actor	Dave Coulier
+8446	Actor	Charlize Theron
+11436	Made	Mighty Joe Young
+8446	Language	En
 73136	Link Source	Mighty Joe Young
 141053	Link Source	Mighty Joe Young
-Mighty Joe Young	Runtime	114
-Mighty Joe Young	Editor	Paul Hirsch
-Mighty Joe Young	Producer	Ted Hartley
-Mighty Joe Young	Producer	Ted Hartley
-Mighty Joe Young	Producer	Tom Jacobson
-Mighty Joe Young	Director	Ron Underwood
-Mighty Joe Young	Genre	Family
-Mighty Joe Young	Writer	Ruth Rose
-Mighty Joe Young	Writer	Lawrence Konner
-Mighty Joe Young	Writer	Mark Rosenthal
-Mighty Joe Young	Writer	Merian C. Cooper
-Mighty Joe Young	Page	Alias?Type=Imdbid&S=0120751
-Mighty Joe Young	Page	9202A8C04000641F8000000000Db9872
-Mighty Joe Young	Page	Tt0120751
-Mighty Joe Young	Filmid	8446
-Mighty Joe Young	Music Contributor	Richard Gibbs
-Mighty Joe Young	Music Contributor	James Horner
-Mighty Joe Young	Title	Mighty Joe Young
-Mighty Joe Young	Cinematographer	Donald Peterman
-Mighty Joe Young	Initial Release Date	1998-12-25
-Mighty Joe Young	Type	Film
-Mighty Joe Young	Film Cut	Film Cut #4184
-Mighty Joe Young	Date	1998-12-25
-Mighty Joe Young	Performance	Performance #19600
-Mighty Joe Young	Performance	Performance #19601
-Mighty Joe Young	Performance	Performance #173853
-Mighty Joe Young	Label	Mighty Joe Young
-Film_Film_Distributor_Relationship #5652	Film Of Distributor	Mighty Joe Young
+8446	Runtime	114
+8446	Editor	Paul Hirsch
+8446	Producer	Ted Hartley
+8446	Producer	Ted Hartley
+8446	Producer	Tom Jacobson
+8446	Director	Ron Underwood
+8446	Genre	Family
+8446	Writer	Ruth Rose
+8446	Writer	Lawrence Konner
+8446	Writer	Mark Rosenthal
+8446	Writer	Merian C. Cooper
+8446	Page	Alias?Type=Imdbid&S=0120751
+8446	Page	9202A8C04000641F8000000000Db9872
+8446	Page	Tt0120751
+8446	Filmid	8446
+8446	Music Contributor	Richard Gibbs
+8446	Music Contributor	James Horner
+8446	Title	Mighty Joe Young
+8446	Cinematographer	Donald Peterman
+8446	Initial Release Date	1998-12-25
+8446	Type	Film
+8446	Film Cut	Film Cut #4184
+8446	Date	1998-12-25
+8446	Performance	Performance #19600
+8446	Performance	Performance #19601
+8446	Performance	Performance #173853
+8446	Label	Mighty Joe Young
+5652	Film Of Distributor	Mighty Joe Young

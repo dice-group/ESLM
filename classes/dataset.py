@@ -96,7 +96,7 @@ class ESBenchmark:
                 sub_literal = UTILS.get_label_of_entity(sub, endpoint)
             elif self.ds_name == "lmdb":
                 pred_literal = UTILS.get_label_of_entity_lmdb("property", pred, endpoint)
-                sub_literal = UTILS.get_label_of_entity_lmdb("entity", sub, endpoint)
+                sub_literal = UTILS.get_uri_label(sub)
             triple = (sub_literal, pred_literal, obj_literal)
             triples_tuple.append(triple)
         return triples_tuple

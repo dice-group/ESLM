@@ -1,47 +1,47 @@
-The Handmaid'S Tale	Date	1990-02-15
+6213	Date	1990-02-15
 139299	Link Source	The Handmaid'S Tale
 39963	Link Source	The Handmaid'S Tale
 21430	Link Source	The Handmaid'S Tale
 2897	Link Source	The Handmaid'S Tale
 55701	Link Source	The Handmaid'S Tale
 72470	Link Source	The Handmaid'S Tale
-The Handmaid'S Tale	Label	The Handmaid'S Tale
-The Handmaid'S Tale	Title	The Handmaid'S Tale
-The Handmaid'S Tale	Filmid	6213
-The Handmaid'S Tale	Music Contributor	Ryuichi Sakamoto
-The Handmaid'S Tale	Relatedbook	0771008139
-The Handmaid'S Tale	Performance	Performance #40287
-The Handmaid'S Tale	Performance	Performance #31802
-The Handmaid'S Tale	Performance	Performance #31801
-The Handmaid'S Tale	Performance	Performance #31800
-The Handmaid'S Tale	Performance	Performance #152723
-The Handmaid'S Tale	Performance	Performance #31803
-The Handmaid'S Tale	Performance	Performance #118941
-The Handmaid'S Tale	Actor	Robert Duvall
-The Handmaid'S Tale	Actor	Aidan Quinn
-The Handmaid'S Tale	Actor	Faye Dunaway
-The Handmaid'S Tale	Actor	Elizabeth Mcgovern
-The Handmaid'S Tale	Actor	Traci Lind
-The Handmaid'S Tale	Actor	Blanche Baker
-The Handmaid'S Tale	Actor	Natasha Richardson
-The Handmaid'S Tale	Genre	Indie
-Film_Film_Distributor_Relationship #8599	Film Of Distributor	The Handmaid'S Tale
-The Handmaid'S Tale	Director	Volker Schlã¶Ndorff
-The Handmaid'S Tale	Hasphotocollection	The Handmaid'S Tale (Film)
-The Handmaid'S Tale	Producer	Daniel Wilson
-The Handmaid'S Tale	Initial Release Date	1990-02-15
-The Handmaid'S Tale	Cinematographer	Igor Luther
-The Handmaid'S Tale	Type	Film
-The Handmaid'S Tale	Writer	Margaret Atwood
-The Handmaid'S Tale	Writer	Harold Pinter
-The Handmaid'S Tale	Language	En
-Volker Schlã¶Ndorff	Made	The Handmaid'S Tale
-The Handmaid'S Tale	Runtime	109
-The Handmaid'S Tale	Page	9202A8C04000641F8000000000Ac8Dbc
-The Handmaid'S Tale	Page	Tt0099731
-The Handmaid'S Tale	Page	Alias?Type=Imdbid&S=0099731
-The Handmaid'S Tale	Subject	Feminism
-The Handmaid'S Tale	Editor	David Ray
-The Handmaid'S Tale	Editor	David Ray
-The Handmaid'S Tale	Film Cut	Film Cut #6866
-The Handmaid'S Tale	Film Subject	Feminism
+6213	Label	The Handmaid'S Tale
+6213	Title	The Handmaid'S Tale
+6213	Filmid	6213
+6213	Music Contributor	Ryuichi Sakamoto
+6213	Relatedbook	0771008139
+6213	Performance	Performance #40287
+6213	Performance	Performance #31802
+6213	Performance	Performance #31801
+6213	Performance	Performance #31800
+6213	Performance	Performance #152723
+6213	Performance	Performance #31803
+6213	Performance	Performance #118941
+6213	Actor	Robert Duvall
+6213	Actor	Aidan Quinn
+6213	Actor	Faye Dunaway
+6213	Actor	Elizabeth Mcgovern
+6213	Actor	Traci Lind
+6213	Actor	Blanche Baker
+6213	Actor	Natasha Richardson
+6213	Genre	Indie
+8599	Film Of Distributor	The Handmaid'S Tale
+6213	Director	Volker Schlã¶Ndorff
+6213	Hasphotocollection	The Handmaid'S Tale (Film)
+6213	Producer	Daniel Wilson
+6213	Initial Release Date	1990-02-15
+6213	Cinematographer	Igor Luther
+6213	Type	Film
+6213	Writer	Margaret Atwood
+6213	Writer	Harold Pinter
+6213	Language	En
+8982	Made	The Handmaid'S Tale
+6213	Runtime	109
+6213	Page	9202A8C04000641F8000000000Ac8Dbc
+6213	Page	Tt0099731
+6213	Page	Alias?Type=Imdbid&S=0099731
+6213	Subject	Feminism
+6213	Editor	David Ray
+6213	Editor	David Ray
+6213	Film Cut	Film Cut #6866
+6213	Film Subject	Feminism

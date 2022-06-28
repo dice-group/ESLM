@@ -1,46 +1,46 @@
-Soldier	Story Contributor	Philip K. Dick
-Soldier	Film Cut	Film Cut #5782
-Soldier	Genre	Adventure
+1338	Story Contributor	Philip K. Dick
+1338	Film Cut	Film Cut #5782
+1338	Genre	Adventure
 70819	Link Source	Soldier
 135199	Link Source	Soldier
 37782	Link Source	Soldier
 19249	Link Source	Soldier
 716	Link Source	Soldier
-Soldier	Performance	Performance #27085
-Soldier	Performance	Performance #27088
-Soldier	Performance	Performance #119395
-Soldier	Performance	Performance #27087
-Soldier	Performance	Performance #27089
-Soldier	Performance	Performance #186775
-Soldier	Performance	Performance #27086
-Soldier	Music Contributor	Joel Mcneely
-Soldier	Actor	Michael Chiklis
-Soldier	Actor	Jason Scott Lee
-Soldier	Actor	Gary Busey
-Soldier	Actor	Sean Pertwee
-Soldier	Actor	Kurt Russell
-Soldier	Actor	Connie Nielsen
-Soldier	Actor	Jason Isaacs
-Soldier	Label	Soldier
-Soldier	Film Story Contributor	Philip K. Dick
-Film_Film_Distributor_Relationship #7073	Film Of Distributor	Soldier
-Soldier	Director	Paul W. S. Anderson
-Soldier	Type	Film
-Soldier	Language	En
-Soldier	Runtime	99
-Soldier	Initial Release Date	1998-10-23
-Soldier	Page	9202A8C04000641F8000000000333908
-Soldier	Page	Alias?Type=Imdbid&S=0120157
-Soldier	Page	Tt0120157
-Soldier	Hasphotocollection	Soldier (Film)
-Soldier	Writer	David Peoples
-Paul W. S. Anderson	Made	Soldier
-Soldier	Producer	Jerry Weintraub
-Soldier	Producer	R.J. Louis
-Soldier	Producer	Fred Fontana
-Soldier	Producer	Jeremy Bolt
-Soldier	Producer	Susan Ekins
-Soldier	Producer	James G. Robinson
-Soldier	Date	1998-10-23
-Soldier	Title	Soldier
-Soldier	Filmid	1338
+1338	Performance	Performance #27085
+1338	Performance	Performance #27088
+1338	Performance	Performance #119395
+1338	Performance	Performance #27087
+1338	Performance	Performance #27089
+1338	Performance	Performance #186775
+1338	Performance	Performance #27086
+1338	Music Contributor	Joel Mcneely
+1338	Actor	Michael Chiklis
+1338	Actor	Jason Scott Lee
+1338	Actor	Gary Busey
+1338	Actor	Sean Pertwee
+1338	Actor	Kurt Russell
+1338	Actor	Connie Nielsen
+1338	Actor	Jason Isaacs
+1338	Label	Soldier
+1338	Film Story Contributor	Philip K. Dick
+7073	Film Of Distributor	Soldier
+1338	Director	Paul W. S. Anderson
+1338	Type	Film
+1338	Language	En
+1338	Runtime	99
+1338	Initial Release Date	1998-10-23
+1338	Page	9202A8C04000641F8000000000333908
+1338	Page	Alias?Type=Imdbid&S=0120157
+1338	Page	Tt0120157
+1338	Hasphotocollection	Soldier (Film)
+1338	Writer	David Peoples
+77	Made	Soldier
+1338	Producer	Jerry Weintraub
+1338	Producer	R.J. Louis
+1338	Producer	Fred Fontana
+1338	Producer	Jeremy Bolt
+1338	Producer	Susan Ekins
+1338	Producer	James G. Robinson
+1338	Date	1998-10-23
+1338	Title	Soldier
+1338	Filmid	1338

@@ -1,38 +1,38 @@
-Rebirth Of Fusion!! Gokå« And Vegeta!!	Prequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Date	1994-07-09
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Initial Release Date	1994-07-09
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Label	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Writer	Takao Koyama
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Writer	Akira Toriyama
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Music Contributor	Shunsuke Kikuchi
+1835	Prequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	Date	1994-07-09
+4501	Initial Release Date	1994-07-09
+4501	Label	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	Writer	Takao Koyama
+4501	Writer	Akira Toriyama
+4501	Music Contributor	Shunsuke Kikuchi
 137895	Link Source	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Film Cut	Film Cut #881
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Language	Ja
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4416
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4411
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4414
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #82244
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4412
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4409
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4410
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4415
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4408
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Performance	Performance #4413
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Filmid	4501
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Prequel	The Dangerous Duo! Super-Warriors Can'T Rest
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Sequel	Rebirth Of Fusion!! Gokå« And Vegeta!!
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Tomiko Suzuki
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Takeshi Kusao
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Mayumi Tanaka
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Naoki Tatsuta
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Sean Schemmel
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Miki Ito
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Daisuke GåRi
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Bin Shimada
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Masako Nozawa
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Actor	Joji Yanami
-The Dangerous Duo! Super-Warriors Can'T Rest	Sequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Runtime	50
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Title	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Page	9202A8C04000641F8000000000867897
-Super-Warrior Defeat!! I'M The One Who'Ll Win	Type	Film
+4501	Film Cut	Film Cut #881
+4501	Language	Ja
+4501	Performance	Performance #4416
+4501	Performance	Performance #4411
+4501	Performance	Performance #4414
+4501	Performance	Performance #82244
+4501	Performance	Performance #4412
+4501	Performance	Performance #4409
+4501	Performance	Performance #4410
+4501	Performance	Performance #4415
+4501	Performance	Performance #4408
+4501	Performance	Performance #4413
+4501	Filmid	4501
+4501	Prequel	The Dangerous Duo! Super-Warriors Can'T Rest
+4501	Sequel	Rebirth Of Fusion!! Gokå« And Vegeta!!
+4501	Actor	Tomiko Suzuki
+4501	Actor	Takeshi Kusao
+4501	Actor	Mayumi Tanaka
+4501	Actor	Naoki Tatsuta
+4501	Actor	Sean Schemmel
+4501	Actor	Miki Ito
+4501	Actor	Daisuke GåRi
+4501	Actor	Bin Shimada
+4501	Actor	Masako Nozawa
+4501	Actor	Joji Yanami
+3887	Sequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	Runtime	50
+4501	Title	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	Page	9202A8C04000641F8000000000867897
+4501	Type	Film

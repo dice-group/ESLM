@@ -1,42 +1,42 @@
-Men In White	Language	En
+12398	Language	En
 74334	Link Source	Men In White
 143782	Link Source	Men In White
-Men In White	Filmid	12398
-Men In White	Film Art Director	Cedric Gibbons
-Men In White	Producer	Monta Bell
-Men In White	Actor	Jean Hersholt
-Men In White	Actor	Clark Gable
-Men In White	Actor	Henry B. Walthall
-Men In White	Actor	Frank Puglia
-Men In White	Actor	Russell Hopton
-Men In White	Actor	Russell Hardie
-Men In White	Actor	Elizabeth Allan
-Men In White	Actor	Leo Chalzel
-Men In White	Actor	Myrna Loy
-Men In White	Actor	Isabel Jewell
-Men In White	Actor	Otto Kruger
-Men In White	Actor	Wallace Ford
-Men In White	Actor	Samuel S. Hinds
-Men In White	Label	Men In White
-Men In White	Story Contributor	Sidney Kingsley
-Men In White	Page	9202A8C04000641F80000000047968F5
-Men In White	Performance	Performance #148973
-Men In White	Performance	Performance #148979
-Men In White	Performance	Performance #148980
-Men In White	Performance	Performance #148971
-Men In White	Performance	Performance #148975
-Men In White	Performance	Performance #148976
-Men In White	Performance	Performance #148978
-Men In White	Performance	Performance #148968
-Men In White	Performance	Performance #148977
-Men In White	Performance	Performance #148970
-Men In White	Performance	Performance #148974
-Men In White	Performance	Performance #148972
-Men In White	Performance	Performance #148969
-Men In White	Type	Film
-Men In White	Title	Men In White
-Men In White	Film Story Contributor	Sidney Kingsley
-Men In White	Director	Ryszard BolesåAwski
-Men In White	Writer	Waldemar Young
-Ryszard BolesåAwski	Made	Men In White
-Men In White	Genre	Drama
+12398	Filmid	12398
+12398	Film Art Director	Cedric Gibbons
+12398	Producer	Monta Bell
+12398	Actor	Jean Hersholt
+12398	Actor	Clark Gable
+12398	Actor	Henry B. Walthall
+12398	Actor	Frank Puglia
+12398	Actor	Russell Hopton
+12398	Actor	Russell Hardie
+12398	Actor	Elizabeth Allan
+12398	Actor	Leo Chalzel
+12398	Actor	Myrna Loy
+12398	Actor	Isabel Jewell
+12398	Actor	Otto Kruger
+12398	Actor	Wallace Ford
+12398	Actor	Samuel S. Hinds
+12398	Label	Men In White
+12398	Story Contributor	Sidney Kingsley
+12398	Page	9202A8C04000641F80000000047968F5
+12398	Performance	Performance #148973
+12398	Performance	Performance #148979
+12398	Performance	Performance #148980
+12398	Performance	Performance #148971
+12398	Performance	Performance #148975
+12398	Performance	Performance #148976
+12398	Performance	Performance #148978
+12398	Performance	Performance #148968
+12398	Performance	Performance #148977
+12398	Performance	Performance #148970
+12398	Performance	Performance #148974
+12398	Performance	Performance #148972
+12398	Performance	Performance #148969
+12398	Type	Film
+12398	Title	Men In White
+12398	Film Story Contributor	Sidney Kingsley
+12398	Director	Ryszard BolesåAwski
+12398	Writer	Waldemar Young
+82	Made	Men In White
+12398	Genre	Drama

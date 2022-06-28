@@ -1,36 +1,36 @@
-Mack V. Wright	Label	Mack V. Wright (Director)
-Mack V. Wright	Director Directorid	14418
-Mack V. Wright	Director Name	Mack V. Wright
-Mack V. Wright	Made	The Lucky Texan
-Mack V. Wright	Made	Thieves' Clothes
-Mack V. Wright	Made	Winds Of The Wasteland
-Mack V. Wright	Made	The Great Adventures Of Wild Bill Hickok
-Mack V. Wright	Made	The Broncho Kid
-Mack V. Wright	Made	The Big Show
-Mack V. Wright	Made	Hit The Saddle
-Mack V. Wright	Made	Riders Of The Whistling Skull
-Mack V. Wright	Made	The Man From Monterey
-Mack V. Wright	Made	The Vigilantes Are Coming
-Mack V. Wright	Made	Somewhere In Sonora
-Mack V. Wright	Made	The Sea Hound
-Mack V. Wright	Made	Haunted Gold
-Mack V. Wright	Made	Masked
-Mack V. Wright	Made	Robinson Crusoe Of Clipper Island
-Mack V. Wright	Page	9202A8C04000641F8000000005B5F33C
-Winds Of The Wasteland	Director	Mack V. Wright
-Riders Of The Whistling Skull	Director	Mack V. Wright
-The Lucky Texan	Director	Mack V. Wright
-The Big Show	Director	Mack V. Wright
-Somewhere In Sonora	Director	Mack V. Wright
-The Broncho Kid	Director	Mack V. Wright
-The Man From Monterey	Director	Mack V. Wright
-Robinson Crusoe Of Clipper Island	Director	Mack V. Wright
-The Great Adventures Of Wild Bill Hickok	Director	Mack V. Wright
-The Sea Hound	Director	Mack V. Wright
-Haunted Gold	Director	Mack V. Wright
-Masked	Director	Mack V. Wright
-The Vigilantes Are Coming	Director	Mack V. Wright
-Thieves' Clothes	Director	Mack V. Wright
-Hit The Saddle	Director	Mack V. Wright
-Mack V. Wright	Type	Director
-Mack V. Wright	Type	Person
+14418	Label	Mack V. Wright (Director)
+14418	Director Directorid	14418
+14418	Director Name	Mack V. Wright
+14418	Made	The Lucky Texan
+14418	Made	Thieves' Clothes
+14418	Made	Winds Of The Wasteland
+14418	Made	The Great Adventures Of Wild Bill Hickok
+14418	Made	The Broncho Kid
+14418	Made	The Big Show
+14418	Made	Hit The Saddle
+14418	Made	Riders Of The Whistling Skull
+14418	Made	The Man From Monterey
+14418	Made	The Vigilantes Are Coming
+14418	Made	Somewhere In Sonora
+14418	Made	The Sea Hound
+14418	Made	Haunted Gold
+14418	Made	Masked
+14418	Made	Robinson Crusoe Of Clipper Island
+14418	Page	9202A8C04000641F8000000005B5F33C
+19433	Director	Mack V. Wright
+25030	Director	Mack V. Wright
+45182	Director	Mack V. Wright
+24940	Director	Mack V. Wright
+19747	Director	Mack V. Wright
+24460	Director	Mack V. Wright
+19751	Director	Mack V. Wright
+11165	Director	Mack V. Wright
+21357	Director	Mack V. Wright
+19259	Director	Mack V. Wright
+19744	Director	Mack V. Wright
+24448	Director	Mack V. Wright
+11164	Director	Mack V. Wright
+24459	Director	Mack V. Wright
+25028	Director	Mack V. Wright
+14418	Type	Director
+14418	Type	Person

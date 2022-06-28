@@ -1,39 +1,39 @@
-The Mummy'S Tomb	Director	Harold Young
-The Mummy'S Tomb	Director	Harold Young
-The Mummy'S Tomb	Initial Release Date	1942-10-23
+5232	Director	Harold Young
+5232	Director	Harold Young
+5232	Initial Release Date	1942-10-23
 21023	Link Source	The Mummy'S Tomb
 138483	Link Source	The Mummy'S Tomb
 2490	Link Source	The Mummy'S Tomb
 39556	Link Source	The Mummy'S Tomb
-The Mummy'S Tomb	Sequel	The Mummy'S Ghost
-The Mummy'S Ghost	Prequel	The Mummy'S Tomb
-The Mummy'S Tomb	Language	En
-The Mummy'S Tomb	Date	1942-10-23
-The Mummy'S Tomb	Page	9202A8C04000641F80000000009746Be
-The Mummy'S Tomb	Page	Tt0035096
-The Mummy'S Tomb	Page	Alias?Type=Imdbid&S=0035096
-The Mummy'S Tomb	Production Company	Universal Studios
-The Mummy'S Tomb	Hasphotocollection	The Mummy'S Tomb
-The Mummy'S Tomb	Title	The Mummy'S Tomb
-The Mummy'S Hand	Sequel	The Mummy'S Tomb
-The Mummy'S Tomb	Writer	Neil P. Varnick
-Harold Young	Made	The Mummy'S Tomb
-Harold Young	Made	The Mummy'S Tomb
-Film_Film_Distributor_Relationship #2035	Film Of Distributor	The Mummy'S Tomb
-The Mummy'S Tomb	Prequel	The Mummy'S Hand
-The Mummy'S Tomb	Filmid	5232
-The Mummy'S Tomb	Performance	Performance #192397
-The Mummy'S Tomb	Performance	Performance #33556
-The Mummy'S Tomb	Performance	Performance #95522
-The Mummy'S Tomb	Performance	Performance #79968
-The Mummy'S Tomb	Performance	Performance #33557
-The Mummy'S Tomb	Type	Film
-The Mummy'S Tomb	Label	The Mummy'S Tomb
-The Mummy'S Tomb	Producer	Ben Pivar
-The Mummy'S Tomb	Runtime	61
-The Mummy'S Tomb	Actor	Lon Chaney, Jr.
-The Mummy'S Tomb	Actor	John Hubbard
-The Mummy'S Tomb	Actor	Dick Foran
-The Mummy'S Tomb	Actor	Elyse Knox
-The Mummy'S Tomb	Actor	John Hubbard
-The Mummy'S Tomb	Film Cut	Film Cut #7260
+5232	Sequel	The Mummy'S Ghost
+5240	Prequel	The Mummy'S Tomb
+5232	Language	En
+5232	Date	1942-10-23
+5232	Page	9202A8C04000641F80000000009746Be
+5232	Page	Tt0035096
+5232	Page	Alias?Type=Imdbid&S=0035096
+5232	Production Company	Universal Studios
+5232	Hasphotocollection	The Mummy'S Tomb
+5232	Title	The Mummy'S Tomb
+5226	Sequel	The Mummy'S Tomb
+5232	Writer	Neil P. Varnick
+2475	Made	The Mummy'S Tomb
+2954	Made	The Mummy'S Tomb
+2035	Film Of Distributor	The Mummy'S Tomb
+5232	Prequel	The Mummy'S Hand
+5232	Filmid	5232
+5232	Performance	Performance #192397
+5232	Performance	Performance #33556
+5232	Performance	Performance #95522
+5232	Performance	Performance #79968
+5232	Performance	Performance #33557
+5232	Type	Film
+5232	Label	The Mummy'S Tomb
+5232	Producer	Ben Pivar
+5232	Runtime	61
+5232	Actor	Lon Chaney, Jr.
+5232	Actor	John Hubbard
+5232	Actor	Dick Foran
+5232	Actor	Elyse Knox
+5232	Actor	John Hubbard
+5232	Film Cut	Film Cut #7260

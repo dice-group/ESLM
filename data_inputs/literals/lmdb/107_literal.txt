@@ -1,35 +1,35 @@
-Biggie & Tupac	Director	Nick Broomfield
-Film_Film_Distributor_Relationship #10936	Film Of Distributor	Biggie & Tupac
-Biggie & Tupac	Performance	Performance #4347
-Biggie & Tupac	Performance	Performance #4346
-Biggie & Tupac	Performance	Performance #4344
-Biggie & Tupac	Performance	Performance #4343
-Biggie & Tupac	Performance	Performance #118676
-Biggie & Tupac	Performance	Performance #4345
-Biggie & Tupac	Date	2002-01-11
-Biggie & Tupac	Actor	David Hicken
-Biggie & Tupac	Actor	Nick Broomfield
-Biggie & Tupac	Actor	Billy Garland
-Biggie & Tupac	Actor	Voletta Wallace
-Biggie & Tupac	Actor	Russell Poole
-Biggie & Tupac	Actor	Tupac Shakur
-Biggie & Tupac	Music Contributor	Christian Henson
-Biggie & Tupac	Producer	Nick Broomfield
-Biggie & Tupac	Producer	Michele D'Acosta
-Biggie & Tupac	Editor	Jaime Estrada Torres
-Biggie & Tupac	Editor	Mark Atkins
-Biggie & Tupac	Language	En
-Biggie & Tupac	Production Company	Lions Gate Entertainment
-Biggie & Tupac	Film Cut	Film Cut #867
-Biggie & Tupac	Page	Alias?Type=Imdbid&S=0303356
-Biggie & Tupac	Page	Tt0303356
-Biggie & Tupac	Page	9202A8C04000641F80000000005646E7
-Biggie & Tupac	Label	Biggie & Tupac
+2572	Director	Nick Broomfield
+10936	Film Of Distributor	Biggie & Tupac
+2572	Performance	Performance #4347
+2572	Performance	Performance #4346
+2572	Performance	Performance #4344
+2572	Performance	Performance #4343
+2572	Performance	Performance #118676
+2572	Performance	Performance #4345
+2572	Date	2002-01-11
+2572	Actor	David Hicken
+2572	Actor	Nick Broomfield
+2572	Actor	Billy Garland
+2572	Actor	Voletta Wallace
+2572	Actor	Russell Poole
+2572	Actor	Tupac Shakur
+2572	Music Contributor	Christian Henson
+2572	Producer	Nick Broomfield
+2572	Producer	Michele D'Acosta
+2572	Editor	Jaime Estrada Torres
+2572	Editor	Mark Atkins
+2572	Language	En
+2572	Production Company	Lions Gate Entertainment
+2572	Film Cut	Film Cut #867
+2572	Page	Alias?Type=Imdbid&S=0303356
+2572	Page	Tt0303356
+2572	Page	9202A8C04000641F80000000005646E7
+2572	Label	Biggie & Tupac
 136276	Link Source	Biggie & Tupac
-Biggie & Tupac	Initial Release Date	2002-01-11
-Biggie & Tupac	Filmid	2572
-Biggie & Tupac	Type	Film
-Nick Broomfield	Made	Biggie & Tupac
-Biggie & Tupac	Runtime	108
-Biggie & Tupac	Cinematographer	Joan Churchill
-Biggie & Tupac	Title	Biggie & Tupac
+2572	Initial Release Date	2002-01-11
+2572	Filmid	2572
+2572	Type	Film
+9690	Made	Biggie & Tupac
+2572	Runtime	108
+2572	Cinematographer	Joan Churchill
+2572	Title	Biggie & Tupac

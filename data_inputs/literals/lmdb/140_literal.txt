@@ -1,36 +1,36 @@
-Aces Go Places 4	Director	Ringo Lam
-Full Contact	Director	Ringo Lam
-Replicant	Director	Ringo Lam
-In Hell	Director	Ringo Lam
-City On Fire	Director	Ringo Lam
-Full Alert	Director	Ringo Lam
-Maximum Risk	Director	Ringo Lam
-Wild Search	Director	Ringo Lam
-Triangle	Director	Ringo Lam
-Esprit D'Amour	Director	Ringo Lam
-Twin Dragons	Director	Ringo Lam
-Prison On Fire Ii	Director	Ringo Lam
-Mad Mission	Director	Ringo Lam
-Prison On Fire	Director	Ringo Lam
-Undeclared War	Director	Ringo Lam
-Ringo Lam	Label	Ringo Lam (Director)
-Ringo Lam	Made	Undeclared War
-Ringo Lam	Made	Aces Go Places 4
-Ringo Lam	Made	Full Contact
-Ringo Lam	Made	City On Fire
-Ringo Lam	Made	Prison On Fire Ii
-Ringo Lam	Made	Esprit D'Amour
-Ringo Lam	Made	Triangle
-Ringo Lam	Made	Mad Mission
-Ringo Lam	Made	Full Alert
-Ringo Lam	Made	Maximum Risk
-Ringo Lam	Made	In Hell
-Ringo Lam	Made	Replicant
-Ringo Lam	Made	Twin Dragons
-Ringo Lam	Made	Prison On Fire
-Ringo Lam	Made	Wild Search
-Ringo Lam	Director Directorid	8669
-Ringo Lam	Page	9202A8C04000641F80000000000Ac6C9
-Ringo Lam	Type	Person
-Ringo Lam	Type	Director
-Ringo Lam	Director Name	Ringo Lam
+22494	Director	Ringo Lam
+45707	Director	Ringo Lam
+4901	Director	Ringo Lam
+46161	Director	Ringo Lam
+2661	Director	Ringo Lam
+64450	Director	Ringo Lam
+46058	Director	Ringo Lam
+15228	Director	Ringo Lam
+23877	Director	Ringo Lam
+85702	Director	Ringo Lam
+39853	Director	Ringo Lam
+43099	Director	Ringo Lam
+49262	Director	Ringo Lam
+43047	Director	Ringo Lam
+64122	Director	Ringo Lam
+8669	Label	Ringo Lam (Director)
+8669	Made	Undeclared War
+8669	Made	Aces Go Places 4
+8669	Made	Full Contact
+8669	Made	City On Fire
+8669	Made	Prison On Fire Ii
+8669	Made	Esprit D'Amour
+8669	Made	Triangle
+8669	Made	Mad Mission
+8669	Made	Full Alert
+8669	Made	Maximum Risk
+8669	Made	In Hell
+8669	Made	Replicant
+8669	Made	Twin Dragons
+8669	Made	Prison On Fire
+8669	Made	Wild Search
+8669	Director Directorid	8669
+8669	Page	9202A8C04000641F80000000000Ac6C9
+8669	Type	Person
+8669	Type	Director
+8669	Director Name	Ringo Lam

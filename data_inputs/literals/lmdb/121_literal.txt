@@ -1,46 +1,46 @@
-Abel Ferrara	Director Directorid	10100
-Abel Ferrara	Made	Bad Lieutenant
-Abel Ferrara	Made	King Of New York
-Abel Ferrara	Made	The Blackout
-Abel Ferrara	Made	'R Xmas
-Abel Ferrara	Made	The Funeral
-Abel Ferrara	Made	Mary
-Abel Ferrara	Made	Cat Chaser
-Abel Ferrara	Made	Cat Chaser
-Abel Ferrara	Made	Ms. 45
-Abel Ferrara	Made	Dangerous Game
-Abel Ferrara	Made	Go Go Tales
-Abel Ferrara	Made	The Driller Killer
-Abel Ferrara	Made	New Rose Hotel
-Abel Ferrara	Made	Fear City
-Abel Ferrara	Made	Chelsea On The Rocks
-Abel Ferrara	Made	Body Snatchers
-Abel Ferrara	Made	China Girl
-Abel Ferrara	Made	The Addiction
-Abel Ferrara	Made	R-Xmas
-Abel Ferrara	Made	The Blackout
-Abel Ferrara	Type	Person
-Abel Ferrara	Type	Director
-Abel Ferrara	Page	9202A8C04000641F8000000000535Fbd
-Abel Ferrara	Label	Abel Ferrara (Director)
-'R Xmas	Director	Abel Ferrara
-Cat Chaser	Director	Abel Ferrara
-Chelsea On The Rocks	Director	Abel Ferrara
-Fear City	Director	Abel Ferrara
-Ms. 45	Director	Abel Ferrara
-R-Xmas	Director	Abel Ferrara
-New Rose Hotel	Director	Abel Ferrara
-Body Snatchers	Director	Abel Ferrara
-The Addiction	Director	Abel Ferrara
-Mary	Director	Abel Ferrara
-China Girl	Director	Abel Ferrara
-Bad Lieutenant	Director	Abel Ferrara
-The Blackout	Director	Abel Ferrara
-Dangerous Game	Director	Abel Ferrara
-The Driller Killer	Director	Abel Ferrara
-Cat Chaser	Director	Abel Ferrara
-The Blackout	Director	Abel Ferrara
-King Of New York	Director	Abel Ferrara
-Go Go Tales	Director	Abel Ferrara
-The Funeral	Director	Abel Ferrara
-Abel Ferrara	Director Name	Abel Ferrara
+10100	Director Directorid	10100
+10100	Made	Bad Lieutenant
+10100	Made	King Of New York
+10100	Made	The Blackout
+10100	Made	'R Xmas
+10100	Made	The Funeral
+10100	Made	Mary
+10100	Made	Cat Chaser
+10100	Made	Cat Chaser
+10100	Made	Ms. 45
+10100	Made	Dangerous Game
+10100	Made	Go Go Tales
+10100	Made	The Driller Killer
+10100	Made	New Rose Hotel
+10100	Made	Fear City
+10100	Made	Chelsea On The Rocks
+10100	Made	Body Snatchers
+10100	Made	China Girl
+10100	Made	The Addiction
+10100	Made	R-Xmas
+10100	Made	The Blackout
+10100	Type	Person
+10100	Type	Director
+10100	Page	9202A8C04000641F8000000000535Fbd
+10100	Label	Abel Ferrara (Director)
+96870	Director	Abel Ferrara
+88229	Director	Abel Ferrara
+66097	Director	Abel Ferrara
+23866	Director	Abel Ferrara
+3535	Director	Abel Ferrara
+63785	Director	Abel Ferrara
+1160	Director	Abel Ferrara
+48179	Director	Abel Ferrara
+44846	Director	Abel Ferrara
+11719	Director	Abel Ferrara
+13196	Director	Abel Ferrara
+40914	Director	Abel Ferrara
+96598	Director	Abel Ferrara
+12281	Director	Abel Ferrara
+42868	Director	Abel Ferrara
+63031	Director	Abel Ferrara
+90531	Director	Abel Ferrara
+40146	Director	Abel Ferrara
+70633	Director	Abel Ferrara
+1159	Director	Abel Ferrara
+10100	Director Name	Abel Ferrara

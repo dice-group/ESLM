@@ -1,30 +1,30 @@
-The Aftermath	Title	The Aftermath
-The Aftermath	Language	En
-The Aftermath	Page	9202A8C04000641F8000000000D192D4
-The Aftermath	Page	Alias?Type=Imdbid&S=0758789
-The Aftermath	Page	Tt0758789
-The Aftermath	Based Near	2635167
-The Aftermath	Performance	Performance #29135
-The Aftermath	Performance	Performance #29134
-The Aftermath	Performance	Performance #29132
-The Aftermath	Performance	Performance #29133
-The Aftermath	Performance	Performance #29131
-The Aftermath	Director	Bharat Nalluri
-The Aftermath	Actor	Sophie Okonedo
-The Aftermath	Actor	Chiwetel Ejiofor
-The Aftermath	Actor	Tim Roth
-The Aftermath	Actor	Hugh Bonneville
-The Aftermath	Actor	Toni Collette
-The Aftermath	Type	Film
-The Aftermath	Filmid	7963
-Bharat Nalluri	Made	The Aftermath
-The Aftermath	Cinematographer	John De Borman
-The Aftermath	Writer	Abi Morgan
-The Aftermath	Producer	Finola Dwyer
-The Aftermath	Country	GB
-The Aftermath	Label	The Aftermath
-The Aftermath	Editor	Barney Pilling
+7963	Title	The Aftermath
+7963	Language	En
+7963	Page	9202A8C04000641F8000000000D192D4
+7963	Page	Alias?Type=Imdbid&S=0758789
+7963	Page	Tt0758789
+7963	Based Near	2635167
+7963	Performance	Performance #29135
+7963	Performance	Performance #29134
+7963	Performance	Performance #29132
+7963	Performance	Performance #29133
+7963	Performance	Performance #29131
+7963	Director	Bharat Nalluri
+7963	Actor	Sophie Okonedo
+7963	Actor	Chiwetel Ejiofor
+7963	Actor	Tim Roth
+7963	Actor	Hugh Bonneville
+7963	Actor	Toni Collette
+7963	Type	Film
+7963	Filmid	7963
+11682	Made	The Aftermath
+7963	Cinematographer	John De Borman
+7963	Writer	Abi Morgan
+7963	Producer	Finola Dwyer
+7963	Country	GB
+7963	Label	The Aftermath
+7963	Editor	Barney Pilling
 140699	Link Source	The Aftermath
 63652	Link Source	The Aftermath
 72987	Link Source	The Aftermath
-Film_Film_Distributor_Relationship #11639	Film Of Distributor	The Aftermath
+11639	Film Of Distributor	The Aftermath

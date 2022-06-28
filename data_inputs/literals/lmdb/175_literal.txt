@@ -1,36 +1,36 @@
-James Cameron	Label	James Cameron (Director)
-James Cameron	Director Name	James Cameron
-James Cameron	Page	9202A8C04000641F800000000001Fdcc
-Titanic	Director	James Cameron
-The Abyss	Director	James Cameron
-Aliens Of The Deep	Director	James Cameron
-The Terminator	Director	James Cameron
-Titanic Special Edition Dvd	Director	James Cameron
-Ghosts Of The Abyss	Director	James Cameron
-The Dive	Director	James Cameron
-T2 3-D: Battle Across Time	Director	James Cameron
-Aliens	Director	James Cameron
-Battle Angel	Director	James Cameron
-True Lies	Director	James Cameron
-Terminator 2: Judgment Day	Director	James Cameron
-Avatar	Director	James Cameron
-Piranha Ii: The Spawning	Director	James Cameron
-Expedition: Bismarck	Director	James Cameron
-James Cameron	Director Directorid	8424
-James Cameron	Type	Director
-James Cameron	Type	Person
-James Cameron	Made	Terminator 2: Judgment Day
-James Cameron	Made	The Abyss
-James Cameron	Made	Aliens Of The Deep
-James Cameron	Made	Ghosts Of The Abyss
-James Cameron	Made	Aliens
-James Cameron	Made	The Terminator
-James Cameron	Made	Avatar
-James Cameron	Made	Titanic Special Edition Dvd
-James Cameron	Made	True Lies
-James Cameron	Made	The Dive
-James Cameron	Made	Expedition: Bismarck
-James Cameron	Made	T2 3-D: Battle Across Time
-James Cameron	Made	Piranha Ii: The Spawning
-James Cameron	Made	Battle Angel
-James Cameron	Made	Titanic
+8424	Label	James Cameron (Director)
+8424	Director Name	James Cameron
+8424	Page	9202A8C04000641F800000000001Fdcc
+72	Director	James Cameron
+38211	Director	James Cameron
+40972	Director	James Cameron
+38151	Director	James Cameron
+17780	Director	James Cameron
+42629	Director	James Cameron
+46687	Director	James Cameron
+3296	Director	James Cameron
+556	Director	James Cameron
+4786	Director	James Cameron
+38324	Director	James Cameron
+33	Director	James Cameron
+6220	Director	James Cameron
+5622	Director	James Cameron
+4673	Director	James Cameron
+8424	Director Directorid	8424
+8424	Type	Director
+8424	Type	Person
+8424	Made	Terminator 2: Judgment Day
+8424	Made	The Abyss
+8424	Made	Aliens Of The Deep
+8424	Made	Ghosts Of The Abyss
+8424	Made	Aliens
+8424	Made	The Terminator
+8424	Made	Avatar
+8424	Made	Titanic Special Edition Dvd
+8424	Made	True Lies
+8424	Made	The Dive
+8424	Made	Expedition: Bismarck
+8424	Made	T2 3-D: Battle Across Time
+8424	Made	Piranha Ii: The Spawning
+8424	Made	Battle Angel
+8424	Made	Titanic

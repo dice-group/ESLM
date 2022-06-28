@@ -180,9 +180,9 @@ def main(mode, best_epoch):
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     for ds_name in config["ds_name"]:
         if ds_name == "dbpedia":
-            MAX_LENGTH = 33
+            MAX_LENGTH = 39
         else:
-            MAX_LENGTH = 28
+            MAX_LENGTH = 34
         graph_r = GraphRepresentation(ds_name)
         if mode == "train":
             for topk in config["topk"]:
@@ -201,6 +201,7 @@ def main(mode, best_epoch):
                     model = BertGATES()
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier']) 
+                    model.update()
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']

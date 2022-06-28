@@ -1,25 +1,25 @@
-Magnum, P.I.	Language	En
-Magnum, P.I.	Filmid	6468
-Magnum, P.I.	Writer	Rawson Marshall Thurber
-Magnum, P.I.	Date	2007
-Magnum, P.I.	Type	Film
-Magnum, P.I.	Performance	Performance #73576
-Magnum, P.I.	Performance	Performance #43526
-Magnum, P.I.	Performance	Performance #55985
-Magnum, P.I.	Title	Magnum, P.I.
-Magnum, P.I.	Initial Release Date	2007
-Magnum, P.I.	Label	Magnum, P.I.
-Magnum, P.I.	Page	Tt0756681
-Magnum, P.I.	Page	9202A8C04000641F8000000000B3087F
-Magnum, P.I.	Page	Alias?Type=Imdbid&S=0756681
-Magnum, P.I.	Producer	Brian Grazer
-Rawson Marshall Thurber	Made	Magnum, P.I.
-Magnum, P.I.	Actor	Matthew Mcconaughey
-Magnum, P.I.	Actor	Steve Zahn
-Magnum, P.I.	Actor	Tyrese Gibson
+6468	Language	En
+6468	Filmid	6468
+6468	Writer	Rawson Marshall Thurber
+6468	Date	2007
+6468	Type	Film
+6468	Performance	Performance #73576
+6468	Performance	Performance #43526
+6468	Performance	Performance #55985
+6468	Title	Magnum, P.I.
+6468	Initial Release Date	2007
+6468	Label	Magnum, P.I.
+6468	Page	Tt0756681
+6468	Page	9202A8C04000641F8000000000B3087F
+6468	Page	Alias?Type=Imdbid&S=0756681
+6468	Producer	Brian Grazer
+11328	Made	Magnum, P.I.
+6468	Actor	Matthew Mcconaughey
+6468	Actor	Steve Zahn
+6468	Actor	Tyrese Gibson
 21528	Link Source	Magnum, P.I.
 139511	Link Source	Magnum, P.I.
 2995	Link Source	Magnum, P.I.
 40061	Link Source	Magnum, P.I.
-Magnum, P.I.	Hasphotocollection	Magnum, P.I.
-Magnum, P.I.	Director	Rawson Marshall Thurber
+6468	Hasphotocollection	Magnum, P.I.
+6468	Director	Rawson Marshall Thurber
