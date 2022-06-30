@@ -67,7 +67,7 @@ class ESBenchmark:
                 triples.append(triple_tuple)
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
-        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc.nt"), 'rb') as reader:
+        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc_mod.nt"), 'rb') as reader:
             parser.parse(reader)
         return triples
     def get_labels(self, num):
@@ -82,7 +82,10 @@ class ESBenchmark:
             if UTILS.is_uri(obj) and self.ds_name == "dbpedia":
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             elif UTILS.is_uri(obj) and self.ds_name == "lmdb":
-                obj_literal = UTILS.get_label_of_entity_lmdb("entity", obj, endpoint)
+                #obj_literal = UTILS.get_label_of_entity_lmdb("entity", obj, endpoint)
+                if "dbpedia" in obj:
+                    endpoint = "http://dbpedia.org/sparql"
+                obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             else:
                 if type(obj) == str:
                     if obj.isupper():
