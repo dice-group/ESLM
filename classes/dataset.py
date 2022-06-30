@@ -67,7 +67,7 @@ class ESBenchmark:
                 triples.append(triple_tuple)
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
-        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc_mod.nt"), 'rb') as reader:
+        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc.nt"), 'rb') as reader:
             parser.parse(reader)
         return triples
     def get_labels(self, num):
