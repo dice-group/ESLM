@@ -1,0 +1,38 @@
+1835	Prequel	4501
+4501	Date	1994-07-09
+4501	Initial Release Date	1994-07-09
+4501	Label	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	Writer	1396
+4501	Writer	13022
+4501	Music Contributor	5614
+137895	Link Source	4501
+4501	Film Cut	881
+4501	Language	Ja
+4501	Performance	4416
+4501	Performance	4411
+4501	Performance	4414
+4501	Performance	82244
+4501	Performance	4412
+4501	Performance	4409
+4501	Performance	4410
+4501	Performance	4415
+4501	Performance	4408
+4501	Performance	4413
+4501	Filmid	4501
+4501	Prequel	3887
+4501	Sequel	1835
+4501	Actor	47808
+4501	Actor	34160
+4501	Actor	34497
+4501	Actor	42282
+4501	Actor	40928
+4501	Actor	33932
+4501	Actor	35586
+4501	Actor	35096
+4501	Actor	35093
+4501	Actor	1545
+3887	Sequel	4501
+4501	Runtime	50
+4501	Title	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	Page	9202A8C04000641F8000000000867897
+4501	Type	Film

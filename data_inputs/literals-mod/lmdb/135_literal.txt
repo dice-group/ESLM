@@ -1,0 +1,55 @@
+416	Director Name	Fred C. Newmeyer
+416	Director Directorid	416
+66506	Director	416
+44849	Director	416
+25006	Director	416
+66469	Director	416
+16516	Director	416
+55669	Director	416
+24605	Director	416
+45424	Director	416
+209	Director	416
+8672	Director	416
+5711	Director	416
+48957	Director	416
+93242	Director	416
+57112	Director	416
+40871	Director	416
+52376	Director	416
+66749	Director	416
+21577	Director	416
+21167	Director	416
+57862	Director	416
+57373	Director	416
+94441	Director	416
+7007	Director	416
+416	Label	Fred C. Newmeyer (Director)
+416	Type	Person
+416	Type	Director
+416	Page	9202A8C04000641F8000000000B97495
+416	Made	48957
+416	Made	5711
+416	Made	44849
+416	Made	45424
+416	Made	52376
+416	Made	57862
+416	Made	66469
+416	Made	66749
+416	Made	209
+416	Made	93242
+416	Made	7007
+416	Made	25006
+416	Made	21167
+416	Made	57112
+416	Made	57373
+416	Made	16516
+416	Made	55669
+416	Made	8672
+416	Made	66506
+416	Made	94441
+416	Made	40871
+416	Made	24605
+416	Made	21577
+209	Sameas	Safety Last%21
+21167	Sameas	The Perfect Clown
+21577	Sameas	Grandma%27S Boy

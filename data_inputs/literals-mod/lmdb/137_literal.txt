@@ -1,0 +1,32 @@
+52869	Type	Actor
+52869	Type	Person
+52869	Actor Actorid	52869
+52869	Actor Name	Sara Berner
+52869	Performance	145337
+52869	Performance	197575
+52869	Performance	149931
+52869	Performance	168659
+52869	Performance	141962
+52869	Performance	147548
+52869	Performance	145366
+52869	Performance	145202
+52869	Performance	145694
+52869	Performance	145237
+52869	Performance	145767
+52869	Performance	149944
+52869	Label	Sara Berner (Actor)
+52869	Page	9202A8C04000641F8000000006B4F1F3
+52869	Actor Nytimes Id	
+44517	Actor	52869
+38388	Actor	52869
+43693	Actor	52869
+50896	Actor	52869
+83088	Actor	52869
+48308	Actor	52869
+12950	Actor	52869
+1288	Actor	52869
+14907	Actor	52869
+12394	Actor	52869
+40943	Actor	52869
+15323	Actor	52869
+52869	Actor Netflix Id	

@@ -1,0 +1,40 @@
+47469	Actor Name	Alice Braga
+47469	Actor Nytimes Id	
+47469	Performance	59117
+47469	Performance	123172
+47469	Performance	91784
+47469	Performance	108924
+47469	Performance	70346
+47469	Performance	18592
+47469	Performance	187510
+47469	Performance	186417
+47469	Performance	137673
+47469	Performance	159886
+47469	Performance	79634
+47469	Performance	85196
+47469	Type	Person
+47469	Type	Actor
+59947	Actor	47469
+18729	Actor	47469
+23446	Actor	47469
+944	Actor	47469
+96426	Actor	47469
+67438	Actor	47469
+10791	Actor	47469
+83977	Actor	47469
+7756	Actor	47469
+8961	Actor	47469
+18644	Actor	47469
+19258	Actor	47469
+47469	Page	9202A8C04000641F8000000000Dc5776
+47469	Actor Netflix Id	
+47469	Label	Alice Braga (Actor)
+47469	Actor Actorid	47469
+8961	Sameas	I Am Legend %28Film%29
+7756	Sameas	Lower City
+944	Sameas	City Of God %28Film%29
+18644	Sameas	Blindness %28Film%29
+19258	Sameas	Redbelt
+18729	Sameas	Repossession Mambo
+10791	Sameas	O Cheiro Do Ralo
+23446	Sameas	Crossing Over %28Film%29

@@ -1,0 +1,39 @@
+5089	Writer	17201
+5089	Writer	5356
+2426	Link Source	5089
+20959	Link Source	5089
+39492	Link Source	5089
+62028	Link Source	5089
+138363	Link Source	5089
+5089	Runtime	91
+5089	Date	1946
+5089	Language	En
+5089	Film Subject	465
+5089	Performance	33879
+5089	Performance	33877
+5089	Performance	33878
+5089	Title	The Overlanders
+5089	Filmid	5089
+5089	Actor	7704
+5089	Actor	7703
+5089	Actor	40417
+5089	Director	2486
+5089	Director	13995
+5089	Label	The Overlanders
+5089	Country	AU
+5089	Producer	10678
+2117	Film Of Distributor	5089
+5089	Based Near	2077456
+5089	Initial Release Date	1946
+5089	Music Contributor	4984
+2486	Made	5089
+13995	Made	5089
+5089	Page	Alias?Type=Imdbid&S=0038821
+5089	Page	9202A8C04000641F8000000000942Ce9
+5089	Page	Tt0038821
+5089	Editor	1456
+5089	Subject	465
+5089	Type	Film
+5089	Hasphotocollection	The Overlanders (Film)
+5089	Film Cut	7327
+5089	Sameas	The Overlanders %28Film%29

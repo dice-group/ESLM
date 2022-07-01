@@ -1,0 +1,58 @@
+38875	Label	James Hong (Actor)
+38875	Actor Netflix Id	
+38875	Performance	67745
+38875	Performance	4330
+38875	Performance	47271
+38875	Performance	72098
+38875	Performance	113076
+38875	Performance	133703
+38875	Performance	53338
+38875	Performance	108710
+38875	Performance	42430
+38875	Performance	114086
+38875	Performance	84785
+38875	Performance	169477
+38875	Performance	76195
+38875	Performance	174190
+38875	Performance	21286
+38875	Performance	103177
+38875	Performance	178390
+38875	Performance	182041
+38875	Performance	114242
+38875	Performance	46588
+38875	Performance	186592
+38875	Actor Nytimes Id	
+284	Actor	38875
+38069	Actor	38875
+87571	Actor	38875
+2933	Actor	38875
+87891	Actor	38875
+18940	Actor	38875
+53144	Actor	38875
+7150	Actor	38875
+48683	Actor	38875
+91405	Actor	38875
+42553	Actor	38875
+3162	Actor	38875
+54426	Actor	38875
+22495	Actor	38875
+11392	Actor	38875
+56456	Actor	38875
+39946	Actor	38875
+38232	Actor	38875
+13832	Actor	38875
+4180	Actor	38875
+54637	Actor	38875
+48681	Actor	38875
+38875	Page	9202A8C04000641F80000000006B3A0F
+38875	Type	Person
+38875	Type	Actor
+38875	Actor Name	James Hong
+38875	Actor Actorid	38875
+2933	Sameas	The Art Of War %28Film%29
+11392	Sameas	Balls Of Fury
+4180	Sameas	Missing In Action %28Film%29
+13832	Sameas	Tank Girl %28Film%29
+284	Sameas	The Sand Pebbles %28Film%29
+22495	Sameas	Shadowzone %28Film%29
+3162	Sameas	Tango %26 Cash

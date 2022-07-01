@@ -1,0 +1,48 @@
+6213	Date	1990-02-15
+139299	Link Source	6213
+39963	Link Source	6213
+21430	Link Source	6213
+2897	Link Source	6213
+55701	Link Source	6213
+72470	Link Source	6213
+6213	Label	The Handmaid'S Tale
+6213	Title	The Handmaid'S Tale
+6213	Filmid	6213
+6213	Music Contributor	4082
+6213	Relatedbook	0771008139
+6213	Performance	40287
+6213	Performance	31802
+6213	Performance	31801
+6213	Performance	31800
+6213	Performance	152723
+6213	Performance	31803
+6213	Performance	118941
+6213	Actor	30559
+6213	Actor	35239
+6213	Actor	30004
+6213	Actor	31745
+6213	Actor	52659
+6213	Actor	47463
+6213	Actor	33031
+6213	Genre	23
+8599	Film Of Distributor	6213
+6213	Director	8982
+6213	Hasphotocollection	The Handmaid'S Tale (Film)
+6213	Producer	11068
+6213	Initial Release Date	1990-02-15
+6213	Cinematographer	1292
+6213	Type	Film
+6213	Writer	13441
+6213	Writer	13572
+6213	Language	En
+8982	Made	6213
+6213	Runtime	109
+6213	Page	9202A8C04000641F8000000000Ac8Dbc
+6213	Page	Tt0099731
+6213	Page	Alias?Type=Imdbid&S=0099731
+6213	Subject	281
+6213	Editor	1656
+6213	Editor	94
+6213	Film Cut	6866
+6213	Film Subject	281
+6213	Sameas	The Handmaid%27S Tale %28Film%29

@@ -1,0 +1,47 @@
+1338	Story Contributor	255
+1338	Film Cut	5782
+1338	Genre	31
+70819	Link Source	1338
+135199	Link Source	1338
+37782	Link Source	1338
+19249	Link Source	1338
+716	Link Source	1338
+1338	Performance	27085
+1338	Performance	27088
+1338	Performance	119395
+1338	Performance	27087
+1338	Performance	27089
+1338	Performance	186775
+1338	Performance	27086
+1338	Music Contributor	5683
+1338	Actor	34294
+1338	Actor	33729
+1338	Actor	29477
+1338	Actor	31772
+1338	Actor	31101
+1338	Actor	36188
+1338	Actor	32175
+1338	Label	Soldier
+1338	Film Story Contributor	255
+7073	Film Of Distributor	1338
+1338	Director	77
+1338	Type	Film
+1338	Language	En
+1338	Runtime	99
+1338	Initial Release Date	1998-10-23
+1338	Page	9202A8C04000641F8000000000333908
+1338	Page	Alias?Type=Imdbid&S=0120157
+1338	Page	Tt0120157
+1338	Hasphotocollection	Soldier (Film)
+1338	Writer	16216
+77	Made	1338
+1338	Producer	11454
+1338	Producer	3482
+1338	Producer	4492
+1338	Producer	12796
+1338	Producer	4491
+1338	Producer	612
+1338	Date	1998-10-23
+1338	Title	Soldier
+1338	Filmid	1338
+1338	Sameas	Soldier %28Film%29

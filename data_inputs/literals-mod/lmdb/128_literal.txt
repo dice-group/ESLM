@@ -1,0 +1,36 @@
+32648	Actor Actorid	32648
+12047	Actor	32648
+24490	Actor	32648
+63080	Actor	32648
+60878	Actor	32648
+56333	Actor	32648
+64477	Actor	32648
+54902	Actor	32648
+1531	Actor	32648
+62972	Actor	32648
+59061	Actor	32648
+62997	Actor	32648
+2473	Actor	32648
+61816	Actor	32648
+49130	Actor	32648
+32648	Performance	121912
+32648	Performance	132536
+32648	Performance	127572
+32648	Performance	129624
+32648	Performance	127454
+32648	Performance	127422
+32648	Performance	21380
+32648	Performance	114399
+32648	Performance	125790
+32648	Performance	10267
+32648	Performance	124479
+32648	Performance	105895
+32648	Performance	68310
+32648	Type	Actor
+32648	Type	Person
+32648	Actor Netflix Id	
+32648	Label	Tomokazu Seki (Actor)
+32648	Page	9202A8C04000641F800000000028C1A8
+32648	Actor Name	Tomokazu Seki
+32648	Actor Nytimes Id	
+1531	Sameas	Escaflowne %28Film%29

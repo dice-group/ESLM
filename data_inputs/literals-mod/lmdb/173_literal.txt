@@ -1,0 +1,35 @@
+47032	Performance	91100
+47032	Performance	45160
+47032	Performance	184656
+47032	Performance	83567
+47032	Performance	184809
+47032	Performance	134547
+47032	Performance	75295
+47032	Performance	198141
+47032	Performance	67713
+47032	Performance	115382
+47032	Performance	146941
+47032	Performance	114368
+95572	Actor	47032
+13716	Actor	47032
+20724	Actor	47032
+70465	Actor	47032
+95541	Actor	47032
+53299	Actor	47032
+17222	Actor	47032
+47737	Actor	47032
+53825	Actor	47032
+98212	Actor	47032
+54847	Actor	47032
+11393	Actor	47032
+47032	Actor Netflix Id	
+47032	Actor Name	Columbus Short
+47032	Page	9202A8C04000641F8000000000D56Ae3
+47032	Actor Actorid	47032
+47032	Type	Actor
+47032	Type	Person
+47032	Label	Columbus Short (Actor)
+47032	Actor Nytimes Id	
+13716	Sameas	Save The Last Dance 2
+11393	Sameas	Stomp The Yard
+20724	Sameas	This Christmas %28Film%29

@@ -1,0 +1,58 @@
+36141	Actor Actorid	36141
+36141	Actor Nytimes Id	
+36141	Actor Name	Francis Ng
+36141	Label	Francis Ng (Actor)
+36141	Performance	50061
+36141	Performance	88474
+36141	Performance	60580
+36141	Performance	128183
+36141	Performance	107587
+36141	Performance	57193
+36141	Performance	57903
+36141	Performance	88060
+36141	Performance	122860
+36141	Performance	77142
+36141	Performance	131718
+36141	Performance	160521
+36141	Performance	65403
+36141	Performance	140336
+36141	Performance	83973
+36141	Performance	36053
+36141	Performance	58524
+36141	Performance	66281
+36141	Performance	129784
+36141	Performance	61076
+36141	Performance	115451
+36141	Performance	92016
+41076	Actor	36141
+14139	Actor	36141
+19139	Actor	36141
+11547	Actor	36141
+59733	Actor	36141
+23695	Actor	36141
+8731	Actor	36141
+16513	Actor	36141
+64450	Actor	36141
+19963	Actor	36141
+8548	Actor	36141
+40637	Actor	36141
+46460	Actor	36141
+63495	Actor	36141
+16976	Actor	36141
+13144	Actor	36141
+49795	Actor	36141
+15021	Actor	36141
+76933	Actor	36141
+57086	Actor	36141
+13700	Actor	36141
+10853	Actor	36141
+36141	Page	9202A8C04000641F80000000004D578B
+36141	Type	Person
+36141	Type	Actor
+36141	Actor Netflix Id	
+16513	Sameas	2000 Ad %28Film%29
+13700	Sameas	All%27S Well%2C Ends Well 1997
+10853	Sameas	Himalaya Singh
+8731	Sameas	The Golden Girls
+11547	Sameas	Karmic Mahjong
+13144	Sameas	The Mission %28Film%29

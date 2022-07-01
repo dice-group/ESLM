@@ -1,0 +1,42 @@
+2108	Filmid	2108
+2108	Language	En
+2108	Film Cut	2019
+2108	Actor	9452
+2108	Actor	42558
+2108	Actor	32287
+2108	Actor	3355
+2108	Director	1193
+2108	Director	2917
+135864	Link Source	2108
+71114	Link Source	2108
+2108	Runtime	85
+2108	Prequel	1351
+2108	Initial Release Date	2003-06-13
+2108	Title	Dumb & Dumberer
+1351	Sequel	2108
+2108	Producer	14177
+2108	Producer	698
+2108	Producer	2158
+2108	Producer	16678
+2108	Producer	5946
+2108	Producer	13754
+7368	Film Of Distributor	2108
+2108	Page	Alias?Type=Imdbid&S=0329028
+2108	Page	9202A8C04000641F800000000048Fea0
+2108	Page	Tt0329028
+2108	Writer	6220
+2108	Writer	2276
+2108	Writer	15305
+2108	Writer	15304
+2108	Writer	2275
+2108	Type	Film
+2917	Made	2108
+1193	Made	2108
+2108	Label	Dumb & Dumberer
+2108	Performance	9657
+2108	Performance	70982
+2108	Performance	9656
+2108	Performance	9658
+2108	Date	2003-06-13
+3355	Sameas	Derek Richardson
+9452	Sameas	Derek Richardson

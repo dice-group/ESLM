@@ -1,0 +1,38 @@
+8424	Label	James Cameron (Director)
+8424	Director Name	James Cameron
+8424	Page	9202A8C04000641F800000000001Fdcc
+72	Director	8424
+38211	Director	8424
+40972	Director	8424
+38151	Director	8424
+17780	Director	8424
+42629	Director	8424
+46687	Director	8424
+3296	Director	8424
+556	Director	8424
+4786	Director	8424
+38324	Director	8424
+33	Director	8424
+6220	Director	8424
+5622	Director	8424
+4673	Director	8424
+8424	Director Directorid	8424
+8424	Type	Director
+8424	Type	Person
+8424	Made	33
+8424	Made	38211
+8424	Made	40972
+8424	Made	42629
+8424	Made	556
+8424	Made	38151
+8424	Made	6220
+8424	Made	17780
+8424	Made	38324
+8424	Made	46687
+8424	Made	4673
+8424	Made	3296
+8424	Made	5622
+8424	Made	4786
+8424	Made	72
+556	Sameas	Aliens %28Film%29
+6220	Sameas	Avatar %28Film%29

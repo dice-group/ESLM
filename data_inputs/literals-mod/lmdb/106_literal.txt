@@ -1,0 +1,50 @@
+2381	Runtime	108
+2381	Writer	13288
+2381	Date	1965
+2381	Title	What'S New Pussycat?
+2381	Performance	66844
+2381	Performance	49723
+2381	Performance	51265
+2381	Performance	56069
+2381	Performance	50018
+2381	Performance	99761
+2381	Performance	58567
+2381	Hasphotocollection	What'S New Pussycat?
+2381	Language	Fr
+2381	Language	En
+2381	Filmid	2381
+2381	Film Cut	11663
+2381	Page	Alias?Type=Imdbid&S=0059903
+2381	Page	9202A8C04000641F80000000004Fd9B4
+2381	Page	Tt0059903
+19753	Link Source	2381
+136102	Link Source	2381
+1220	Link Source	2381
+136101	Link Source	2381
+71209	Link Source	2381
+38286	Link Source	2381
+63261	Link Source	2381
+2381	Director	13237
+2381	Director	15178
+2381	Actor	36799
+2381	Actor	10
+2381	Actor	29679
+2381	Actor	31973
+2381	Actor	30975
+2381	Actor	30463
+2381	Actor	29614
+2381	Subject	375
+2381	Country	GB
+2381	Based Near	2635167
+2381	Film Subject	375
+2381	Label	What'S New Pussycat?
+15178	Made	2381
+13237	Made	2381
+2381	Initial Release Date	1965
+2381	Producer	154
+12908	Film Of Distributor	2381
+2381	Type	Film
+2381	Music Contributor	4557
+2381	Music Contributor	4357
+2381	Sameas	What%27S New Pussycat%3F
+10	Sameas	Peter O%27Toole

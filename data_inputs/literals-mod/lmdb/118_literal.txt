@@ -1,0 +1,35 @@
+7348	Prequel	7347
+15854	Made	7348
+7348	Language	En
+7348	Initial Release Date	1983
+7348	Date	1983
+7348	Film Cut	872
+7348	Title	Bill: On His Own
+7348	Director	15854
+7348	Page	Tt0085247
+7348	Page	Alias?Type=Imdbid&S=0085247
+7348	Page	9202A8C04000641F8000000000C6Ae93
+7348	Runtime	100
+7348	Writer	1389
+7347	Prequel	7348
+7348	Performance	4371
+7348	Performance	4369
+7348	Performance	4370
+7348	Performance	4368
+7348	Performance	159456
+7348	Performance	4367
+7347	Sequel	7348
+140209	Link Source	7348
+7348	Type	Film
+7348	Genre	30
+7348	Genre	4
+7348	Sequel	7347
+7348	Label	Bill: On His Own
+7348	Actor	46165
+7348	Actor	29477
+7348	Actor	29778
+7348	Actor	30837
+7348	Actor	38081
+7348	Actor	30114
+7348	Filmid	7348
+7347	Sameas	Bill %28Film%29

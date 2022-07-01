@@ -1,0 +1,38 @@
+31707	Actor Actorid	31707
+31707	Type	Actor
+31707	Type	Person
+31707	Actor Name	Margaret Colin
+31707	Actor Netflix Id	
+31707	Label	Margaret Colin (Actor)
+62913	Actor	31707
+1924	Actor	31707
+1848	Actor	31707
+46293	Actor	31707
+49012	Actor	31707
+1763	Actor	31707
+1253	Actor	31707
+57526	Actor	31707
+63987	Actor	31707
+95531	Actor	31707
+73	Actor	31707
+6852	Actor	31707
+3298	Actor	31707
+31707	Performance	88430
+31707	Performance	96027
+31707	Performance	87924
+31707	Performance	80435
+31707	Performance	42133
+31707	Performance	127332
+31707	Performance	4756
+31707	Performance	37390
+31707	Performance	83508
+31707	Performance	128910
+31707	Performance	184537
+31707	Performance	15213
+31707	Performance	119763
+31707	Actor Nytimes Id	
+31707	Page	9202A8C04000641F80000000001D8847
+1924	Sameas	Unfaithful %28Film%29
+3298	Sameas	The Butcher%27S Wife
+1253	Sameas	The Devil%27S Own
+73	Sameas	Independence Day %28Film%29

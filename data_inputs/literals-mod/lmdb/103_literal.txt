@@ -1,0 +1,27 @@
+14299	Director	2930
+14299	Title	Briana Loves Jenna
+14299	Hasphotocollection	Briana Loves Jenna
+14299	Filmid	14299
+14299	Initial Release Date	2001,2001-11-27
+14299	Type	Film
+14299	Label	Briana Loves Jenna
+14299	Actor	30040
+14299	Actor	39031
+14299	Actor	31497
+14299	Actor	32619
+14299	Performance	70953
+14299	Performance	72536
+14299	Performance	55464
+14299	Performance	72396
+14299	Date	2001,2001-11-27
+14299	Language	En
+43285	Link Source	14299
+24752	Link Source	14299
+6219	Link Source	14299
+145197	Link Source	14299
+74894	Link Source	14299
+2930	Made	14299
+14299	Producer	5952
+14299	Producer	9896
+14299	Page	9202A8C04000641F80000000055827C2
+14299	Sameas	Briana Loves Jenna

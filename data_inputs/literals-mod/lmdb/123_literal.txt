@@ -1,0 +1,90 @@
+29369	Page	9202A8C04000641F8000000000006567
+29369	Label	Arnold Schwarzenegger (Actor)
+29369	Actor Nytimes Id	
+29369	Actor Actorid	29369
+29369	Actor Name	Arnold Schwarzenegger
+29369	Actor Netflix Id	
+29369	Performance	48657
+29369	Performance	130707
+29369	Performance	27714
+29369	Performance	37111
+29369	Performance	16696
+29369	Performance	15940
+29369	Performance	172514
+29369	Performance	10231
+29369	Performance	45946
+29369	Performance	7173
+29369	Performance	3688
+29369	Performance	122075
+29369	Performance	7258
+29369	Performance	108170
+29369	Performance	170732
+29369	Performance	71211
+29369	Performance	155111
+29369	Performance	24196
+29369	Performance	23316
+29369	Performance	28803
+29369	Performance	108573
+29369	Performance	37403
+29369	Performance	17411
+29369	Performance	7289
+29369	Performance	66980
+29369	Performance	42948
+29369	Performance	35380
+29369	Performance	37548
+29369	Performance	28799
+29369	Performance	24169
+29369	Performance	24035
+29369	Performance	153297
+29369	Performance	150932
+29369	Performance	10139
+29369	Performance	28975
+29369	Type	Person
+29369	Type	Actor
+39464	Actor	29369
+979	Actor	29369
+2078	Actor	29369
+59172	Actor	29369
+584	Actor	29369
+39119	Actor	29369
+43683	Actor	29369
+3296	Actor	29369
+2105	Actor	29369
+39882	Actor	29369
+1346	Actor	29369
+4	Actor	29369
+33	Actor	29369
+40490	Actor	29369
+9876	Actor	29369
+4477	Actor	29369
+40930	Actor	29369
+39250	Actor	29369
+44002	Actor	29369
+54780	Actor	29369
+5167	Actor	29369
+8441	Actor	29369
+40118	Actor	29369
+585	Actor	29369
+5235	Actor	29369
+38324	Actor	29369
+38490	Actor	29369
+578	Actor	29369
+2200	Actor	29369
+65937	Actor	29369
+38151	Actor	29369
+38231	Actor	29369
+40536	Actor	29369
+705	Actor	29369
+1346	Sameas	Dr. Dolittle 2
+4477	Sameas	Red Sonja %28Film%29
+585	Sameas	Commando %28Film%29
+9876	Sameas	The Running Man %28Film%29
+584	Sameas	Predator %28Film%29
+4	Sameas	Batman %26 Robin %28Film%29
+5167	Sameas	Conan The Barbarian %28Film%29
+2078	Sameas	Junior %28Film%29
+2105	Sameas	Twins %28Film%29
+8441	Sameas	Scavenger Hunt
+979	Sameas	Eraser %28Film%29
+705	Sameas	Collateral Damage %28Film%29
+5235	Sameas	Stay Hungry

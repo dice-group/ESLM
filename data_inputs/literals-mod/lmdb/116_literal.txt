@@ -1,0 +1,26 @@
+6468	Language	En
+6468	Filmid	6468
+6468	Writer	17242
+6468	Date	2007
+6468	Type	Film
+6468	Performance	73576
+6468	Performance	43526
+6468	Performance	55985
+6468	Title	Magnum, P.I.
+6468	Initial Release Date	2007
+6468	Label	Magnum, P.I.
+6468	Page	Tt0756681
+6468	Page	9202A8C04000641F8000000000B3087F
+6468	Page	Alias?Type=Imdbid&S=0756681
+6468	Producer	11092
+11328	Made	6468
+6468	Actor	32753
+6468	Actor	35595
+6468	Actor	49301
+21528	Link Source	6468
+139511	Link Source	6468
+2995	Link Source	6468
+40061	Link Source	6468
+6468	Hasphotocollection	Magnum, P.I.
+6468	Director	11328
+6468	Sameas	Magnum%2C P.I.

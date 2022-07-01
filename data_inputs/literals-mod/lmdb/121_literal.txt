@@ -1,0 +1,52 @@
+10100	Director Directorid	10100
+10100	Made	40914
+10100	Made	40146
+10100	Made	90531
+10100	Made	96870
+10100	Made	1159
+10100	Made	11719
+10100	Made	88229
+10100	Made	63031
+10100	Made	3535
+10100	Made	12281
+10100	Made	70633
+10100	Made	42868
+10100	Made	1160
+10100	Made	23866
+10100	Made	66097
+10100	Made	48179
+10100	Made	13196
+10100	Made	44846
+10100	Made	63785
+10100	Made	96598
+10100	Type	Person
+10100	Type	Director
+10100	Page	9202A8C04000641F8000000000535Fbd
+10100	Label	Abel Ferrara (Director)
+96870	Director	10100
+88229	Director	10100
+66097	Director	10100
+23866	Director	10100
+3535	Director	10100
+63785	Director	10100
+1160	Director	10100
+48179	Director	10100
+44846	Director	10100
+11719	Director	10100
+13196	Director	10100
+40914	Director	10100
+96598	Director	10100
+12281	Director	10100
+42868	Director	10100
+63031	Director	10100
+90531	Director	10100
+40146	Director	10100
+70633	Director	10100
+1159	Director	10100
+10100	Director Name	Abel Ferrara
+13196	Sameas	China Girl %28Film%29
+11719	Sameas	Mary %28Film%29
+1160	Sameas	New Rose Hotel %28Film%29
+12281	Sameas	Dangerous Game
+3535	Sameas	Ms. 45
+23866	Sameas	Fear City

@@ -1,0 +1,32 @@
+6191	Language	Ja
+61136	Link Source	6191
+139288	Link Source	6191
+6191	Country	JP
+6191	Writer	14150
+6191	Writer	4410
+6191	Date	1983-10-12
+6191	Based Near	1861060
+8972	Made	6191
+6191	Performance	87740
+6191	Performance	25385
+6191	Performance	25386
+6191	Performance	25387
+6191	Title	Satomi Hakkenden
+6191	Page	Tt0086244
+6191	Page	Alias?Type=Imdbid&S=0086244
+6191	Page	9202A8C04000641F8000000000Abf0A2
+6191	Type	Film
+6191	Producer	4154
+6191	Producer	14066
+6191	Director	8972
+6191	Film Cut	5444
+6191	Initial Release Date	1983-10-12
+6191	Music Contributor	180
+6191	Filmid	6191
+6191	Cinematographer	1122
+6191	Runtime	136
+6191	Actor	34973
+6191	Actor	44257
+6191	Actor	32168
+6191	Actor	36373
+6191	Label	Satomi Hakkenden

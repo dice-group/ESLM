@@ -1,0 +1,59 @@
+30598	Actor Actorid	30598
+16960	Actor	30598
+2274	Actor	30598
+41317	Actor	30598
+10336	Actor	30598
+2338	Actor	30598
+53197	Actor	30598
+93349	Actor	30598
+13855	Actor	30598
+2042	Actor	30598
+38576	Actor	30598
+14368	Actor	30598
+19656	Actor	30598
+61927	Actor	30598
+47332	Actor	30598
+54618	Actor	30598
+40935	Actor	30598
+42713	Actor	30598
+18780	Actor	30598
+10692	Actor	30598
+42230	Actor	30598
+30598	Actor Nytimes Id	
+30598	Type	Person
+30598	Type	Actor
+30598	Actor Netflix Id	
+30598	Page	9202A8C04000641F800000000012D8Fa
+30598	Actor Name	Tom Courtenay
+30598	Performance	113132
+30598	Performance	92512
+30598	Performance	54247
+30598	Performance	70134
+30598	Performance	91930
+30598	Performance	38982
+30598	Performance	74228
+30598	Performance	114228
+30598	Performance	4392
+30598	Performance	94391
+30598	Performance	173836
+30598	Performance	125941
+30598	Performance	17700
+30598	Performance	136030
+30598	Performance	197795
+30598	Performance	64560
+30598	Performance	17432
+30598	Performance	55450
+30598	Performance	70920
+30598	Performance	183968
+30598	Performance	71338
+30598	Performance	30832
+30598	Label	Tom Courtenay (Actor)
+2338	Sameas	Whatever Happened To Harold Smith?
+2042	Sameas	King Rat %28Film%29
+10336	Sameas	Operation Crossbow %28Film%29
+2274	Sameas	The Golden Compass %28Film%29
+18780	Sameas	Ready When You Are%2C Mr Mcgill
+10692	Sameas	Billy Liar %28Film%29
+13855	Sameas	The Day The Fish Came Out
+19656	Sameas	A Dandy In Aspic
+16960	Sameas	Last Orders %28Film%29

@@ -1,0 +1,40 @@
+38225	Actor Name	Dante Basco
+38225	Actor Nytimes Id	
+38225	Performance	122675
+38225	Performance	152327
+38225	Performance	121760
+38225	Performance	44873
+38225	Performance	187452
+38225	Performance	123155
+38225	Performance	184389
+38225	Performance	30620
+38225	Performance	83942
+38225	Performance	82695
+38225	Performance	77341
+38225	Performance	10502
+38225	Performance	28513
+38225	Performance	84005
+38225	Performance	120534
+905	Actor	38225
+58958	Actor	38225
+5215	Actor	38225
+41946	Actor	38225
+45096	Actor	38225
+47819	Actor	38225
+59934	Actor	38225
+46420	Actor	38225
+58102	Actor	38225
+94383	Actor	38225
+11541	Actor	38225
+1393	Actor	38225
+96372	Actor	38225
+59607	Actor	38225
+38225	Label	Dante Basco (Actor)
+38225	Actor Actorid	38225
+38225	Actor Netflix Id	
+38225	Type	Person
+38225	Type	Actor
+38225	Page	9202A8C04000641F8000000000646474
+1393	Sameas	But I%27M A Cheerleader
+11541	Sameas	Fakin%27 Da Funk
+905	Sameas	Hook %28Film%29

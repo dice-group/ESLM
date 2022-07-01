@@ -1,0 +1,22 @@
+7390	Film Of Distributor	41006
+41006	Producer	377
+41006	Producer	13682
+41006	Date	1995
+41006	Page	9202A8C04000641F80000000004Af166
+41006	Title	The Incredibly True Adventure Of Two Girls In Love
+41006	Film Subject	333
+41006	Subject	333
+41006	Performance	32228
+41006	Performance	48861
+41006	Performance	32227
+41006	Filmid	41006
+41006	Type	Film
+41006	Initial Release Date	1995
+41006	Label	The Incredibly True Adventure Of Two Girls In Love
+41006	Music Contributor	5748
+41006	Director	13110
+13110	Made	41006
+41006	Writer	19046
+41006	Actor	40960
+41006	Actor	46958
+41006	Actor	38446

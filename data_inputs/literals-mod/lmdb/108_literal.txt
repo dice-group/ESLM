@@ -1,0 +1,41 @@
+4053	Language	En
+4053	Language	Fr
+4053	Hasphotocollection	A Man, A Real One
+4053	Based Near	3017382
+4053	Label	A Man, A Real One
+4053	Film Cut	165
+4053	Type	Film
+4053	Date	2003-05-28
+4053	Title	A Man, A Real One
+4053	Producer	526
+4053	Genre	4
+4053	Filmid	4053
+632	Made	4053
+19714	Made	4053
+4053	Country	FR
+4053	Writer	797
+4053	Writer	23034
+4053	Writer	796
+4053	Page	9202A8C04000641F80000000007Afaba
+4053	Page	Tt0329706
+4053	Page	Alias?Type=Imdbid&S=0329706
+20517	Link Source	4053
+39050	Link Source	4053
+1984	Link Source	4053
+137540	Link Source	4053
+137539	Link Source	4053
+66572	Link Source	4053
+4053	Runtime	120
+4053	Actor	35688
+4053	Actor	1570
+4053	Actor	10974
+4053	Actor	1569
+4053	Initial Release Date	2003-05-28
+4053	Performance	777
+4053	Performance	778
+4053	Performance	779
+4053	Performance	84776
+4053	Director	19714
+4053	Director	632
+10974	Sameas	Mathieu Amalric
+4053	Sameas	A Man%2C A Real One

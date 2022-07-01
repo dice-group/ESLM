@@ -1,0 +1,42 @@
+12398	Language	En
+74334	Link Source	12398
+143782	Link Source	12398
+12398	Filmid	12398
+12398	Film Art Director	5
+12398	Producer	13587
+12398	Actor	29977
+12398	Actor	29731
+12398	Actor	44076
+12398	Actor	40968
+12398	Actor	55700
+12398	Actor	61226
+12398	Actor	728
+12398	Actor	61227
+12398	Actor	30368
+12398	Actor	33534
+12398	Actor	46898
+12398	Actor	38458
+12398	Actor	61176
+12398	Label	Men In White
+12398	Story Contributor	601
+12398	Page	9202A8C04000641F80000000047968F5
+12398	Performance	148973
+12398	Performance	148979
+12398	Performance	148980
+12398	Performance	148971
+12398	Performance	148975
+12398	Performance	148976
+12398	Performance	148978
+12398	Performance	148968
+12398	Performance	148977
+12398	Performance	148970
+12398	Performance	148974
+12398	Performance	148972
+12398	Performance	148969
+12398	Type	Film
+12398	Title	Men In White
+12398	Film Story Contributor	601
+12398	Director	82
+12398	Writer	20104
+82	Made	12398
+12398	Genre	4

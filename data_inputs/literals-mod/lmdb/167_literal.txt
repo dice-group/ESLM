@@ -1,0 +1,40 @@
+16986	Filmid	16986
+16986	Title	Anything Goes
+16986	Hasphotocollection	Anything Goes (Film)
+147317	Link Source	16986
+7483	Link Source	16986
+26016	Link Source	16986
+75652	Link Source	16986
+44549	Link Source	16986
+5972	Film Of Distributor	16986
+16986	Film Art Director	4
+16986	Writer	16079
+16986	Writer	14754
+16986	Writer	14938
+16986	Director	8590
+16986	Page	Tt0048954
+16986	Page	Alias?Type=Imdbid&S=0048954
+16986	Page	9202A8C04000641F80000000056C9D19
+16986	Label	Anything Goes
+16986	Producer	11463
+16986	Date	1936-01-24
+16986	Type	Film
+16986	Runtime	92
+16986	Performance	91023
+16986	Performance	63987
+16986	Performance	91024
+16986	Performance	61682
+16986	Performance	91025
+8590	Made	16986
+16986	Editor	3033
+16986	Language	En
+16986	Initial Release Date	1936-01-24
+16986	Actor	49568
+16986	Actor	31945
+16986	Actor	33542
+16986	Actor	30204
+16986	Actor	32395
+16986	Genre	9
+16986	Music Contributor	5826
+16986	Film Cut	9794
+16986	Sameas	Anything Goes %28Film%29

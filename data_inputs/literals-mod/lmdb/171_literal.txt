@@ -1,0 +1,43 @@
+14418	Label	Mack V. Wright (Director)
+14418	Director Directorid	14418
+14418	Director Name	Mack V. Wright
+14418	Made	45182
+14418	Made	24459
+14418	Made	19433
+14418	Made	21357
+14418	Made	24460
+14418	Made	24940
+14418	Made	25028
+14418	Made	25030
+14418	Made	19751
+14418	Made	11164
+14418	Made	19747
+14418	Made	19259
+14418	Made	19744
+14418	Made	24448
+14418	Made	11165
+14418	Page	9202A8C04000641F8000000005B5F33C
+19433	Director	14418
+25030	Director	14418
+45182	Director	14418
+24940	Director	14418
+19747	Director	14418
+24460	Director	14418
+19751	Director	14418
+11165	Director	14418
+21357	Director	14418
+19259	Director	14418
+19744	Director	14418
+24448	Director	14418
+11164	Director	14418
+24459	Director	14418
+25028	Director	14418
+14418	Type	Director
+14418	Type	Person
+19747	Sameas	Somewhere In Sonora
+19744	Sameas	Haunted Gold
+19751	Sameas	The Man From Monterey
+11164	Sameas	The Vigilantes Are Coming
+11165	Sameas	Robinson Crusoe Of Clipper Island
+24448	Sameas	Masked %28Film%29
+21357	Sameas	The Great Adventures Of Wild Bill Hickok

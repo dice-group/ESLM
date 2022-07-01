@@ -1,0 +1,38 @@
+34577	Type	Actor
+34577	Type	Person
+34577	Actor Actorid	34577
+34577	Actor Nytimes Id	
+34577	Page	9202A8C04000641F80000000003Be85D
+34577	Actor Netflix Id	
+34577	Performance	43959
+34577	Performance	22244
+34577	Performance	40313
+34577	Performance	64965
+34577	Performance	40312
+34577	Performance	40275
+34577	Performance	124550
+34577	Performance	178186
+34577	Performance	40276
+34577	Performance	119836
+34577	Performance	120141
+34577	Performance	48963
+34577	Performance	40281
+39205	Actor	34577
+10004	Actor	34577
+5509	Actor	34577
+42370	Actor	34577
+1044	Actor	34577
+6563	Actor	34577
+15764	Actor	34577
+7238	Actor	34577
+57806	Actor	34577
+6025	Actor	34577
+57576	Actor	34577
+87493	Actor	34577
+60932	Actor	34577
+34577	Actor Name	James Naughton
+34577	Label	James Naughton (Actor)
+1044	Sameas	Cat%27S Eye %28Film%29
+5509	Sameas	Oxygen %28Film%29
+15764	Sameas	The Good Mother %28Film%29
+6025	Sameas	A Stranger Is Watching %28Film%29

@@ -1,0 +1,48 @@
+30423	Actor Netflix Id	
+30423	Actor Actorid	30423
+30423	Label	Rowan Atkinson (Actor)
+30423	Type	Actor
+30423	Type	Person
+30423	Performance	32909
+30423	Performance	16031
+30423	Performance	25634
+30423	Performance	49737
+30423	Performance	11653
+30423	Performance	41087
+30423	Performance	115590
+30423	Performance	107500
+30423	Performance	23991
+30423	Performance	57702
+30423	Performance	41088
+30423	Performance	14365
+30423	Performance	191309
+30423	Performance	3785
+30423	Performance	43952
+30423	Performance	108617
+30423	Performance	16484
+30423	Performance	18468
+30423	Actor Nytimes Id	
+30423	Actor Name	Rowan Atkinson
+30423	Page	9202A8C04000641F800000000011Db88
+39079	Actor	30423
+39545	Actor	30423
+1849	Actor	30423
+39279	Actor	30423
+4748	Actor	30423
+43940	Actor	30423
+39334	Actor	30423
+2382	Actor	30423
+1254	Actor	30423
+40703	Actor	30423
+900	Actor	30423
+38094	Actor	30423
+45913	Actor	30423
+44347	Actor	30423
+39533	Actor	30423
+38496	Actor	30423
+7069	Actor	30423
+10072	Actor	30423
+2382	Sameas	Hot Shots%21 Part Deux
+7069	Sameas	Bean %28Film%29
+1254	Sameas	Rat Race
+1849	Sameas	Scooby-Doo %28Film%29

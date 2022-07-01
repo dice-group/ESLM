@@ -1,0 +1,39 @@
+22494	Director	8669
+45707	Director	8669
+4901	Director	8669
+46161	Director	8669
+2661	Director	8669
+64450	Director	8669
+46058	Director	8669
+15228	Director	8669
+23877	Director	8669
+85702	Director	8669
+39853	Director	8669
+43099	Director	8669
+49262	Director	8669
+43047	Director	8669
+64122	Director	8669
+8669	Label	Ringo Lam (Director)
+8669	Made	64122
+8669	Made	22494
+8669	Made	45707
+8669	Made	2661
+8669	Made	43099
+8669	Made	85702
+8669	Made	23877
+8669	Made	49262
+8669	Made	64450
+8669	Made	46058
+8669	Made	46161
+8669	Made	4901
+8669	Made	39853
+8669	Made	43047
+8669	Made	15228
+8669	Director Directorid	8669
+8669	Page	9202A8C04000641F80000000000Ac6C9
+8669	Type	Person
+8669	Type	Director
+8669	Director Name	Ringo Lam
+4901	Sameas	Replicant %28Film%29
+23877	Sameas	Triangle %28Film%29
+15228	Sameas	Wild Search
