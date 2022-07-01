@@ -74,7 +74,7 @@ def main(mode, best_epoch):
         if ds_name == "dbpedia":
             MAX_LENGTH = 42
         else:
-            MAX_LENGTH = 32
+            MAX_LENGTH = 28
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
