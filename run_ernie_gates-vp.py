@@ -141,19 +141,19 @@ class ErnieGAT(nn.Module):
         self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
-        cls_feats = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        features = outputs.pooler_output
         #cls_logit = self.classifier(outputs.pooler_output)
         #cls_logit = self.softmax(cls_logit)
         #cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
-        features = cls_feats
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
-        features = UTILS.normalize_features(features.detach().numpy())
-        features = torch.FloatTensor(np.array(features))
+        #features = UTILS.normalize_features(features.detach().numpy())
+        #features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
         #pred = 
