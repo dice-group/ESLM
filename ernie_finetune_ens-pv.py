@@ -71,9 +71,6 @@ def main(mode, best_epoch):
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
-                fmeasure_scores = []
-                ndcg_scores = []
-                map_scores = []
                 models = []
                 for fold in range(5):
                     models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
