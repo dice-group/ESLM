@@ -64,7 +64,7 @@ def main(mode, best_epoch):
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     for ds_name in config["ds_name"]:
         if ds_name == "dbpedia":
-            MAX_LENGTH = 39
+            MAX_LENGTH = 34
         else:
             MAX_LENGTH = 32
         if mode == "test":
