@@ -172,10 +172,6 @@ def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    if mode == "train":
-        log_file_path = os.path.join(os.getcwd(), 'logs/BertGATES_log.txt')
-        with open(log_file_path, 'w', encoding="utf-8") as log_file:
-            pass
     for ds_name in config["ds_name"]:
         graph_r = GraphRepresentation(ds_name)
         if ds_name == "dbpedia":
@@ -186,7 +182,6 @@ def main(mode, best_epoch):
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
-                best_epochs = []
                 for fold in range(5):
                     fold = fold
                     print("")
@@ -209,11 +204,7 @@ def main(mode, best_epoch):
                     optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"ernie_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)
-                    best_epochs.append(best_epoch)
-                with open(log_file_path, 'a', encoding="utf-8") as log_file:
-                    line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
-                    log_file.write(line)
+                    train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)
         elif mode == "test":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
