@@ -152,8 +152,8 @@ class ErnieGAT(nn.Module):
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
-        #features = UTILS.normalize_features(features.detach().numpy())
-        #features = torch.FloatTensor(np.array(features))
+        features = UTILS.normalize_features(features.detach().numpy())
+        features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
         #pred = 
