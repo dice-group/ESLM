@@ -199,7 +199,6 @@ def main(mode, best_epoch):
                     model = ErnieGAT()
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier']) 
-                    model.update()
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
