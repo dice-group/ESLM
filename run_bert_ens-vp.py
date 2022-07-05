@@ -81,7 +81,6 @@ def main(mode, best_epoch):
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
                     models.append(model)
-                    
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
@@ -151,8 +150,7 @@ def get_rank_triples(db_path, num, top_n, triples_dict):
   with open(filename, encoding="utf8") as reader:   
     for i, triple in enumerate(reader):
         triple = triple.replace("\n", "").strip()
-        triples.append(triple)
-        
+        triples.append(triple)     
         encoded_triple = triples_dict[triple]
         encoded_triples.append(encoded_triple)
   return triples, encoded_triples
