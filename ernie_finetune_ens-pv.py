@@ -100,7 +100,7 @@ def generated_entity_summaries(test_data, dataset, topk, fold, models, max_lengt
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER,max_length, triples, labels)
+            features = UTILS.convert_to_features(literal, TOKENIZER,max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
