@@ -61,18 +61,9 @@ def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    if mode == "train":
-        # logging
-        console.log(f"""Checking logging directory ...""")
-        log_file_path = os.path.join(os.getcwd(), 'logs/Bert_log.txt')
-        if os.path.exists(os.path.join(os.getcwd(), "logs")) is not True:
-            console.log(f"""Creating logging directory ...""")
-            os.mkdir(os.path.join(os.getcwd(), "logs"))
-        with open(log_file_path, 'w', encoding="utf-8") as log_file:
-            pass
     for ds_name in config["ds_name"]:
         if ds_name == "dbpedia":
-            MAX_LENGTH = 42
+            MAX_LENGTH = 39
         else:
             MAX_LENGTH = 34
         if mode == "train":
@@ -264,7 +255,7 @@ def generated_entity_summaries(model, test_data, dataset, topk, max_length):
 
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
     "Write triples to file"
-    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
+    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc_mod.nt"), encoding="utf8") as fin:
         with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
@@ -304,7 +295,7 @@ def get_all_data(db_path, num, top_n, file_n):
   triples_dict = {}
   triple_tuples = []
   ### Retrieve all triples of an entity based on eid
-  with open(os.path.join(db_path, "{}".format(num), "{}_desc.nt".format(num)), encoding="utf8") as reader:   
+  with open(os.path.join(db_path, "{}".format(num), "{}_desc_mod.nt".format(num)), encoding="utf8") as reader:   
     for i, triple in enumerate(reader):
       if len(triple)==1:
         continue  
