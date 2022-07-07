@@ -146,7 +146,7 @@ def generated_entity_summaries(test_data, dataset, topk, fold, models, max_lengt
 
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
     "Write triples to file"
-    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
+    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc_mod.nt"), encoding="utf8") as fin:
         with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
