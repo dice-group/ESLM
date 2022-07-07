@@ -111,20 +111,21 @@ class GAT(nn.Module):
     def __str__(self):
         return self.__class__.__name__
 
-class BertClassifier(nn.Module):
+class ErnieClassifier(nn.Module):
     def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
-        super(BertClassifier, self).__init__()
+        super(ErnieClassifier, self).__init__()
         self.nb_class = nb_class
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
         self.bert_model = AutoModel.from_pretrained(pretrained_model)
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
-    def forward(self, input_ids, attention_mask):
-        cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(cls_feats)
+
+    def forward(self, input_ids, attention_mask, token_type_ids):
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
-        return cls_logit
+        return cls_logit 
 
 class ErnieGAT(nn.Module):
     """BERT-GATES model"""
@@ -139,10 +140,10 @@ class ErnieGAT(nn.Module):
         self.dropout = config["dropout"]
         self.weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
         self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
-    def forward(self, adj, input_ids, input_mask=None):
+    def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
-        cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
-        features = cls_feats
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        features = outputs.pooler_output
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
