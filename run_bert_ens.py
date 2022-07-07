@@ -80,6 +80,7 @@ def main(mode, best_epoch):
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
+                    model.eval()
                     models.append(model)
                     
                 for fold in range(5):
