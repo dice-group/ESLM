@@ -82,6 +82,7 @@ def main(mode, best_epoch):
                     model.bert_model.load_state_dict(checkpoint["bert_model"])
                     model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
+                    model.eval()
                     models.append(model)
                     
                 for fold in range(5):
@@ -140,7 +141,7 @@ def evaluate_n_members(members, fold, all_input_ids, all_input_mask, all_segment
 # make an ensemble prediction for multi-class classification
 def ensemble_predictions(members, all_input_ids, all_input_mask, all_segment_ids):
 	# make predictions
-    yhats = torch.stack([model(all_input_ids, all_input_mask, all_segment_ids) for model.eval() in members])
+    yhats = torch.stack([model(all_input_ids, all_input_mask, all_segment_ids) for model in members])
     result = torch.sum(yhats, axis=0)
     return result
 
