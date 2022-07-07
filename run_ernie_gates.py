@@ -212,7 +212,6 @@ def main(mode, best_epoch):
                     
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier']) 
-                    optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
                     models_path = os.path.join("models", f"ernie_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)
