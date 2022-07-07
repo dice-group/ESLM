@@ -88,6 +88,7 @@ def main(mode, best_epoch):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     generated_entity_summaries(test_data[fold][0], dataset, topk, fold, models, MAX_LENGTH)
+                evaluation(dataset, topk)
 
 def generated_entity_summaries(test_data, dataset, topk, fold, models, max_length):
     """"Generated entity summaries"""
