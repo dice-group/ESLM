@@ -192,6 +192,16 @@ def main(mode, best_epoch):
                 train_data, valid_data = dataset.get_training_dataset()
                 for fold in range(5):
                     fold = fold
+                    model = ErnieGAT()
+                    #optimizer = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
+                    param_optimizer = list(model.named_parameters())
+                    no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+                    optimizer_grouped_parameters = [
+                        {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
+                        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+                        ]
+                    model.to(DEVICE)
+                    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
                     ernie_models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
@@ -199,19 +209,10 @@ def main(mode, best_epoch):
                         checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_best_{fold}.pt"))
                     else:
                         checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_latest_{fold}.pt"))
-                    model = ErnieGAT()
+                    
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier']) 
-                    model.to(DEVICE)
-                    #param_optimizer = list(model.named_parameters())
-                    #no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
-                    #optimizer_grouped_parameters = [
-                    #    {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
-                    #    {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
-                    #    ]
-                    #optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
-                    
-                    optimizer = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
+                    optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
                     models_path = os.path.join("models", f"ernie_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)
@@ -241,7 +242,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
     best_acc = 0
     stop_valid_epoch = None
     total_steps = len(train_data) * config["n_epochs"]
-    #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
@@ -269,7 +270,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
             loss.backward()
             optimizer.step()
-            #scheduler.step()
+            scheduler.step()
             optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
