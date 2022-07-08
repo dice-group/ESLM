@@ -30,7 +30,6 @@ UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TOKENIZER = AutoTokenizer.from_pretrained("bert-base-uncased")
-MAX_LENGTH = 33
 DROPOUT = config["dropout"]
 IS_WEIGHTED_ADJ = config["weighted_adjacency_matrix"]
 IN_EDGE_FEAT = 1
@@ -118,9 +117,9 @@ class BertClassifier(nn.Module):
         self.feat_dim = list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
-    def forward(self, input_ids, attention_mask):
-        cls_feats = self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(cls_feats)
+    def forward(self, input_ids, attention_mask, token_type_ids):
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
         return cls_logit
 
@@ -139,8 +138,8 @@ class BertGATES(nn.Module):
         self.gat = GAT(nfeat=self.feat_dim, nhid=self.hidden_layer, nclass=nb_class, alpha=0.2)
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
-        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        features = outputs.last_hidden_state
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        features = outputs.pooler_output
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
@@ -178,17 +177,16 @@ def main(mode):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
-    if mode == "train":
-        log_file_path = os.path.join(os.getcwd(), 'logs/BertGATES_log.txt')
-        with open(log_file_path, 'w', encoding="utf-8") as log_file:
-            pass
     for ds_name in config["ds_name"]:
+        if ds_name == "dbpedia":
+            MAX_LENGTH = 39
+        else:
+            MAX_LENGTH = 34
         graph_r = GraphRepresentation(ds_name)
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 train_data, valid_data = dataset.get_training_dataset()
-                best_epochs = []
                 filename = 'logs/Bert_log.txt'
                 use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 for fold in range(5):
@@ -207,23 +205,16 @@ def main(mode):
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
+                    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=3e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
-                    best_epoch = train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r)
-                    best_epochs.append(best_epoch)
-                with open(log_file_path, 'a', encoding="utf-8") as log_file:
-                    line = f'{ds_name}-top{topk} epoch:\t{best_epochs}\n'
-                    log_file.write(line)
+                    train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)
         elif mode == "test":
             for topk in config["topk"]:
                 filename = 'logs/BertGATES_log.txt'
                 use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
-                fmeasure_scores = []
-                ndcg_scores = []
-                map_scores = []
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
@@ -234,12 +225,9 @@ def main(mode):
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier'])
                     model.to(DEVICE)
-                    fmeasure_score, ndcg_score, map_score = generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r)
-                    fmeasure_scores.append(fmeasure_score)
-                    ndcg_scores.append(ndcg_score)
-                    map_scores.append(map_score)
-                print(f"{dataset.ds_name}@top{topk}: F-Measure={np.average(fmeasure_scores)}, NDCG={np.average(ndcg_scores)}, MAP={np.average(map_scores)}")
-def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, graph_r):
+                    generated_entity_summaries(model, test_data[fold][0], dataset, topk, graph_r, MAX_LENGTH)
+                evaluation(dataset, topk)
+def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_dir, graph_r, max_length):
     """Training module"""
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -260,7 +248,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
             adj = graph_r.build_graph(triples, literal, eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -292,7 +280,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 literal = dataset.get_literals(eid)
                 labels = dataset.prepare_labels(eid)
                 adj = graph_r.build_graph(triples, literal, eid)
-                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+                features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
                 all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
@@ -317,7 +305,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
         if valid_acc > best_acc:
             print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
-            #best_acc = valid_acc
+            best_acc = valid_acc
             torch.save({
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
@@ -330,48 +318,44 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 'acc': best_acc,
                 'training_time': training_time,
                 'validation_time': validation_time
-                }, os.path.join(models_dir, f"checkpoint_epoch_{epoch}.pt"))
-            if os.path.exists(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt")):
-                os.remove(os.path.join(models_dir, f"checkpoint_epoch_{stop_valid_epoch}.pt"))
+                }, os.path.join(models_dir, f"checkpoint_best_{fold}.pt"))
             stop_valid_epoch = epoch
+            
+        torch.save({
+                "epoch": epoch,
+                "model_state_dict": model.state_dict(),
+                "bert_model": model.bert_model.state_dict(),
+                "classifier": model.classifier.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "train_loss": train_loss,
+                'valid_loss': valid_loss,
+                'fold': fold,
+                'acc': best_acc,
+                'training_time': training_time,
+                'validation_time': validation_time
+                }, os.path.join(models_dir, f"checkpoint_latest_{fold}.pt"))
     return stop_valid_epoch
-def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
+def generated_entity_summaries(model, test_data, dataset, topk, graph_r, max_length):
     """"Generated entity summaries"""
     model.eval()
-    ndcg_eval = NDCG()
-    fmeasure_eval = FMeasure()
-    map_eval = MAP()
-    ndcg_scores = []
-    fmeasure_scores = []
-    map_scores = []
     with torch.no_grad():
         for eid in test_data:
             triples = dataset.get_triples(eid)
             literal = dataset.get_literals(eid)
             labels = dataset.prepare_labels(eid)
             adj = graph_r.build_graph(triples, literal, eid)
-            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, MAX_LENGTH, triples, labels)
+            features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
-            output_tensor = model(adj, all_input_ids, all_input_mask)
+            output_tensor = model(adj, all_input_ids, all_input_mask, all_segment_ids)
             output_tensor = output_tensor.view(1, -1).cpu()
             
             target_tensor = target_tensor.view(1, -1).cpu()
             #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
             _, output_top = torch.topk(output_tensor, topk)
             _, output_rank = torch.topk(output_tensor, len(test_data[eid]))
-            triples_dict = dataset.triples_dictionary(eid)
-            gold_list_top = dataset.get_gold_summaries(eid, triples_dict)
-            top_list_output_top = output_top.squeeze(0).numpy().tolist()
-            all_list_output_top = output_rank.squeeze(0).numpy().tolist()
-            ndcg_score = ndcg_eval.get_score(gold_list_top, all_list_output_top)
-            f_score = fmeasure_eval.get_score(top_list_output_top, gold_list_top)
-            map_score = map_eval.get_map(all_list_output_top, gold_list_top)
-            ndcg_scores.append(ndcg_score)
-            fmeasure_scores.append(f_score)
-            map_scores.append(map_score)
             directory = f"outputs/{dataset.get_ds_name}"
             if not os.path.exists(directory):
                 os.makedirs(directory)
@@ -384,14 +368,152 @@ def generated_entity_summaries(model, test_data, dataset, topk, graph_r):
             top_or_rank = "rank_top"
             rank_list = output_rank.squeeze(0).numpy().tolist()
             writer(dataset.get_db_path, directory, eid, top_or_rank, topk, rank_list)
-    return np.average(fmeasure_scores), np.average(ndcg_scores), np.average(map_scores)
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
     "Write triples to file"
-    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
+    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc_mod.nt"), encoding="utf8") as fin:
         with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
                 fout.write(triples[rank])
+def get_rank_triples(db_path, num, top_n, triples_dict):
+  triples=[]
+  encoded_triples = []
+  filename = os.path.join(db_path, "{}".format(num), "{}_rank.nt".format(num))
+  if os.path.exists(os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))):
+      filename = os.path.join(db_path, "{}".format(num), "{}_rank_top{}.nt".format(num, top_n))
+  with open(filename, encoding="utf8") as reader:   
+    for i, triple in enumerate(reader):
+        triple = triple.replace("\n", "").strip()
+        triples.append(triple)
+        
+        encoded_triple = triples_dict[triple]
+        encoded_triples.append(encoded_triple)
+  return triples, encoded_triples
+
+def get_topk_triples(db_path, num, top_n, triples_dict):
+  triples=[]
+  encoded_triples = []
+  
+  with open(os.path.join(db_path, "{}".format(num), "{}_top{}.nt".format(num, top_n)), encoding="utf8") as reader:   
+    for i, triple in enumerate(reader):
+        triple = triple.replace("\n", "").strip()
+        triples.append(triple)
+        
+        encoded_triple = triples_dict[triple]
+        encoded_triples.append(encoded_triple)
+  return triples, encoded_triples
+
+
+def get_all_data(db_path, num, top_n, file_n):
+  import glob
+  triples_dict = {}
+  triple_tuples = []
+  ### Retrieve all triples of an entity based on eid
+  with open(os.path.join(db_path, "{}".format(num), "{}_desc_mod.nt".format(num)), encoding="utf8") as reader:   
+    for i, triple in enumerate(reader):
+      if len(triple)==1:
+        continue  
+      triple_tuple = triple.replace("\n", "").strip()#parserline(triple)
+      triple_tuples.append(triple_tuple)
+      if triple_tuple not in triples_dict:
+        triples_dict[triple_tuple] = len(triples_dict)
+  gold_list = []
+  ds_name = db_path.split("/")[-1].split("_")[0]
+  
+  ### Get file_n/ n files of ground truth summaries for faces dataset
+  if ds_name=="faces":
+      gold_files = glob.glob(os.path.join(db_path, "{}".format(num), "{}_gold_top{}_*".format(num, top_n).format(num)))
+      #print(len(gold_files))
+      if len(gold_files) != file_n:
+          file_n = len(gold_files)
+  
+  ### Retrieve ground truth summaries of an entity based on eid and total of file_n  
+  for i in range(file_n):
+    with open(os.path.join(db_path, 
+            "{}".format(num), 
+            "{}_gold_top{}_{}.nt".format(num, top_n, i).format(num)),
+            encoding="utf8") as reader:
+      #print(path.join(db_path, "{}".format(num), "{}_gold_top{}_{}.nt".format(num, top_n, i).format(num)))
+      n_list = []
+      for i, triple in enumerate(reader):
+        if len(triple)==1:
+            continue
+        triple_tuple = triple.replace("\n", "").strip()#parserline(triple)
+        gold_id = triples_dict[triple_tuple]
+        n_list.append(gold_id)
+      gold_list.append(n_list)
+        
+  return gold_list, triples_dict, triple_tuples
+
+def evaluation(dataset, k):
+    ndcg_class = NDCG()
+    fmeasure = FMeasure()
+    m = MAP()
+    
+    if dataset.ds_name == "dbpedia":
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/dbpedia')
+        start = [0, 140]
+        end   = [100, 165]
+    elif dataset.ds_name == "lmdb":
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/lmdb')
+        start = [100, 165]
+        end   = [140, 175]
+            
+    all_ndcg_scores = []
+    all_fscore = []
+    all_map_scores = []
+    total_ndcg=0
+    total_fscore=0
+    total_map_score=0
+    for i in range(start[0], end[0]):
+        t = i+1
+        gold_list_top, triples_dict, triple_tuples = get_all_data(dataset.db_path, t, k, dataset.file_n)
+        rank_triples, encoded_rank_triples = get_rank_triples(IN_SUMM, t, k, triples_dict)
+        topk_triples, encoded_topk_triples = get_topk_triples(IN_SUMM, t, k, triples_dict)
+        #print("############### Top-K Triples ################", t)
+        #print("######################")
+        #print(triples_dict)
+        #print("total of gold summaries", len(gold_list_top))
+        #print("topk", encoded_topk_triples)
+        #ndcg_score = getNDCG(rel)
+        ndcg_score = ndcg_class.get_score(gold_list_top, encoded_rank_triples)
+        f_score = fmeasure.get_score(encoded_topk_triples, gold_list_top)
+        map_score = m.get_map(encoded_rank_triples, gold_list_top)
+        #print(ndcg_score)
+        #print("*************************")
+        total_ndcg += ndcg_score
+        all_ndcg_scores.append(ndcg_score)
+        
+        total_fscore += f_score
+        all_fscore.append(f_score)
+        
+        all_map_scores.append(map_score)
+        
+    for i in range(start[1], end[1]):
+        t = i+1
+        gold_list_top, triples_dict, triple_tuples = get_all_data(dataset.db_path, t, k, dataset.file_n)
+        rank_triples, encoded_rank_triples = get_rank_triples(IN_SUMM, t, k, triples_dict)
+        topk_triples, encoded_topk_triples = get_topk_triples(IN_SUMM, t, k, triples_dict)
+        #print("############### Top-K Triples ################", t)
+        #print("######################")
+        #print(triples_dict)
+        #print("total of gold summaries", len(gold_list_top))
+        #print("topk", encoded_topk_triples)
+        #ndcg_score = getNDCG(rel)
+        ndcg_score = ndcg_class.get_score(gold_list_top, encoded_rank_triples)
+        f_score = fmeasure.get_score(encoded_topk_triples, gold_list_top)
+        map_score = m.get_map(encoded_rank_triples, gold_list_top)
+        #print(ndcg_score)
+        #print("*************************")
+        total_ndcg += ndcg_score
+        all_ndcg_scores.append(ndcg_score)
+        
+        total_fscore += f_score
+        all_fscore.append(f_score)
+        
+        all_map_scores.append(map_score)
+        
+    print("{}@top{}: F-Measure={}, NDCG={}, MAP={}".format(dataset, k, np.average(all_fscore), np.average(all_ndcg_scores), np.average(all_map_scores)))
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
