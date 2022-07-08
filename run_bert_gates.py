@@ -194,7 +194,7 @@ def main(mode, best_epoch):
                     fold = fold
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    bert_models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
+                    bert_models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     if bool(strtobool(best_epoch)) is True:
                         checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_best_{fold}.pt"))
                     else:
