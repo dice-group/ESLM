@@ -17,6 +17,7 @@ from transformers import AutoTokenizer, get_linear_schedule_with_warmup
 from transformers import AutoModel
 from tqdm import tqdm
 import scipy.sparse as sp
+from distutils.util import strtobool
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -173,7 +174,7 @@ def format_time(elapsed):
     elapsed_rounded = int(round((elapsed)))
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
-def main(mode):
+def main(mode, best_epoch):
     """Main module"""
     file_n = config["file_n"]
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
@@ -193,8 +194,11 @@ def main(mode):
                     fold = fold
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
-                    bert_models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
-                    checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    bert_models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
+                    if bool(strtobool(best_epoch)) is True:
+                        checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_best_{fold}.pt"))
+                    else:
+                        checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_latest_{fold}.pt"))
                     model = BertGATES()
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier']) 
@@ -211,16 +215,17 @@ def main(mode):
                     train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)
         elif mode == "test":
             for topk in config["topk"]:
-                filename = 'logs/BertGATES_log.txt'
-                use_epoch = UTILS.read_epochs_from_log(ds_name, topk, filename)
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
                 test_data = dataset.get_testing_dataset()
                 for fold in range(5):
                     print("")
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
-                    models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
+                    bert_models_path = os.path.join("models", f"bert_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertGATES()
-                    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_epoch_{use_epoch[fold]}.pt"))
+                    if bool(strtobool(best_epoch)) is True:
+                        checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_best_{fold}.pt"))
+                    else:
+                        checkpoint = torch.load(os.path.join(bert_models_path, f"checkpoint_latest_{fold}.pt"))
                     model.load_state_dict(checkpoint["model_state_dict"])
                     model.bert_model.load_state_dict(checkpoint['bert_model'])
                     model.classifier.load_state_dict(checkpoint['classifier'])
@@ -517,6 +522,7 @@ def evaluation(dataset, k):
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
+    PARSER.add_argument("--best_epoch", type=str, default="True", help="")
     ARGS = PARSER.parse_args()
-    main(ARGS.mode)
+    main(ARGS.mode, ARGS.best_epoch)
     
