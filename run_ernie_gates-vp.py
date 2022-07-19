@@ -132,7 +132,7 @@ class ErnieGAT(nn.Module):
         super(ErnieGAT, self).__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
         self.bert_model = AutoModel.from_pretrained(pretrained_model)
-        self.feat_dim = 24#list(self.bert_model.modules())[-2].out_features
+        self.feat_dim = 768#list(self.bert_model.modules())[-2].out_features
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.hidden_layer = config["hidden_layer"]
         self.nheads = config["nheads"]
@@ -142,8 +142,8 @@ class ErnieGAT(nn.Module):
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
-        features = outputs.last_hidden_state
-        features = torch.flatten(features, start_dim=1)
+        features = outputs.pooler_output
+        #features = torch.flatten(features, start_dim=1)
         #print(features)
         #print(features.shape)
         #cls_logit = self.classifier(outputs.pooler_output)
