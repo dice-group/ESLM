@@ -142,6 +142,7 @@ class ErnieGAT(nn.Module):
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        print(outputs)
         features = outputs.last_hidden_state
         #cls_logit = self.classifier(outputs.pooler_output)
         #cls_logit = self.softmax(cls_logit)
