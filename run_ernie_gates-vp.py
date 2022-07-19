@@ -143,6 +143,7 @@ class ErnieGAT(nn.Module):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
         features = outputs.last_hidden_state
+        features = torch.flatten(features, start_dim=1)
         print(features)
         print(features.shape)
         #cls_logit = self.classifier(outputs.pooler_output)
