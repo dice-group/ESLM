@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+t#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Wed Feb 23 10:25:40 2022
@@ -143,15 +143,15 @@ class ErnieGAT(nn.Module):
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
-        features = outputs.pooler_output
+        features = print(outputs[0][:, 0])#outputs.pooler_output
         #features = self.classifier(cls_feats)
         #cls_pred = nn.Softmax(dim=0)(cls_logit)
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
         adj = torch.FloatTensor(np.array(adj.todense()))
-        #features = UTILS.normalize_features(features.detach().numpy())
-        #features = torch.FloatTensor(np.array(features))
+        features = UTILS.normalize_features(features.detach().numpy())
+        features = torch.FloatTensor(np.array(features))
         edge = torch.FloatTensor(np.array(edge)).unsqueeze(1)
         logits = self.gat(features, edge, adj)
         #pred = 

@@ -46,8 +46,17 @@ class BertClassifier(nn.Module):
 
     def forward(self, input_ids, attention_mask, token_type_ids):
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(outputs.pooler_output)
-        #cls_logit = self.softmax(cls_logit)
+        #print(outputs[0][:, 0])
+        #print("########")
+        #print(outputs[1])
+        #outputs[0] --> torch.Size([42, 32, 768])
+        #outputs[0][:, 0] --> torch.Size([42, 768])
+        #outputs[1][:, 0] --> torch.Size([42])
+        #outputs[1] --> torch.Size([42, 768])
+
+        cls_logit = self.classifier(outputs[1])
+        #print(cls_logit.shape)
+        cls_logit = self.softmax(cls_logit)
         return cls_logit 
     
 def format_time(elapsed):
@@ -145,7 +154,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model(all_input_ids, all_input_mask, all_segment_ids)
-            print(output_tensor)
+            #print(output_tensor.view(-1, 1))
             #print(output_tensor.shape)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
