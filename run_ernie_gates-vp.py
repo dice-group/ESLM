@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+k#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Wed Feb 23 10:25:40 2022
@@ -142,7 +142,7 @@ class ErnieGAT(nn.Module):
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
-        features = outputs.pooler_output
+        features = print(outputs[0][:, 0])#outputs.pooler_output
         #features = torch.flatten(features, start_dim=1)
         #print(features)
         #print(features.shape)
