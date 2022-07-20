@@ -145,7 +145,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels)
             output_tensor = model(all_input_ids, all_input_mask, all_segment_ids)
-            #print(output_tensor)
+            print(output_tensor)
             #print(output_tensor.shape)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
