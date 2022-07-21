@@ -142,15 +142,7 @@ class ErnieGAT(nn.Module):
     def forward(self, adj, input_ids, attention_mask, token_type_ids):
         """forward"""
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
-        features = outputs[0][:, 0]#outputs.pooler_output
-        #features = torch.flatten(features, start_dim=1)
-        #print(features)
-        #print(features.shape)
-        #cls_logit = self.classifier(outputs.pooler_output)
-        #cls_logit = self.softmax(cls_logit)
-        #cls_feats = self.bert_model(input_ids, input_mask)[0][:, 0]
-        #features = self.classifier(cls_feats)
-        #cls_pred = nn.Softmax(dim=0)(cls_logit)
+        features = outputs[1]
         edge = adj.data
         adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
         adj = UTILS.normalize_adj(adj + sp.eye(adj.shape[0]))
