@@ -122,7 +122,7 @@ def generated_entity_summaries(test_data, dataset, topk, fold, models, max_lengt
 
 def writer(db_dir, directory, eid, top_or_rank, topk, rank_list):
     "Write triples to file"
-    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc.nt"), encoding="utf8") as fin:
+    with open(os.path.join(db_dir, f"{eid}", f"{eid}_desc_mod.nt"), encoding="utf8") as fin:
         with open(os.path.join(directory, f"{eid}_{top_or_rank}{topk}.nt"), "w", encoding="utf8") as fout:
             triples = [triple for _, triple in enumerate(fin)]
             for rank in rank_list:
@@ -177,7 +177,7 @@ def get_all_data(db_path, num, top_n, file_n):
   triples_dict = {}
   triple_tuples = []
   ### Retrieve all triples of an entity based on eid
-  with open(os.path.join(db_path, "{}".format(num), "{}_desc.nt".format(num)), encoding="utf8") as reader:   
+  with open(os.path.join(db_path, "{}".format(num), "{}_desc_mod.nt".format(num)), encoding="utf8") as reader:   
     for i, triple in enumerate(reader):
       if len(triple)==1:
         continue  

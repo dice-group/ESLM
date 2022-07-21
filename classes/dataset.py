@@ -67,7 +67,7 @@ class ESBenchmark:
                 triples.append(triple_tuple)
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
-        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc.nt"), 'rb') as reader:
+        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc_mod.nt"), 'rb') as reader:
             parser.parse(reader)
         return triples
     def get_labels(self, num):
@@ -106,7 +106,7 @@ class ESBenchmark:
     def get_literals(self, num):
         """Get literal value from literal txt"""
         triples_literal = []
-        path = os.path.join(os.getcwd(), f"data_inputs/literals/{self.ds_name}")
+        path = os.path.join(os.getcwd(), f"data_inputs/literals-mod/{self.ds_name}")
         with open(os.path.join(path, f"{num}_literal.txt"), encoding="utf-8") as reader:
             for literal in reader:
                 values = literal.split("\t")
