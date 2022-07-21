@@ -183,13 +183,13 @@ def main(mode, best_epoch):
                     print("")
                     print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
                     ernie_models_path = os.path.join("models", f"ernie_checkpoint-{ds_name}-{topk}-{fold}")
-                    if bool(strtobool(best_epoch)) is True:
-                        checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_best_{fold}.pt"))
-                    else:
-                        checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_latest_{fold}.pt"))
+                    #if bool(strtobool(best_epoch)) is True:
+                    #    checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_best_{fold}.pt"))
+                    #else:
+                    #    checkpoint = torch.load(os.path.join(ernie_models_path, f"checkpoint_latest_{fold}.pt"))
                     model = ErnieGAT()
-                    model.bert_model.load_state_dict(checkpoint['bert_model'])
-                    model.classifier.load_state_dict(checkpoint['classifier']) 
+                    #model.bert_model.load_state_dict(checkpoint['bert_model'])
+                    #model.classifier.load_state_dict(checkpoint['classifier']) 
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
                     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
@@ -197,8 +197,8 @@ def main(mode, best_epoch):
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    #optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=5e-2, eps=1e-8)
-                    optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
+                    optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=5e-2, eps=1e-8)
+                    ######optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
                     models_path = os.path.join("models", f"ernie_gates_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, graph_r, MAX_LENGTH)

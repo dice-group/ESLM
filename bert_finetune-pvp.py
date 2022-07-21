@@ -119,12 +119,12 @@ def main(mode, best_epoch):
                     print(f"fold: {fold+1}, total entities: {len(test_data[fold][0])}", f"topk: top{topk}")
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     model = BertClassifier()
-                    if bool(strtobool(best_epoch)) is True:
-                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
-                    else:
-                        checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
-                    model.bert_model.load_state_dict(checkpoint["bert_model"])
-                    model.classifier.load_state_dict(checkpoint["classifier"])
+                    #if bool(strtobool(best_epoch)) is True:
+                    #    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_best_{fold}.pt"))
+                    #else:
+                    #    checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
+                    #model.bert_model.load_state_dict(checkpoint["bert_model"])
+                    #model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
                     generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH)
                 evaluation(dataset, topk)
