@@ -1,20 +1,20 @@
 Gerbil Mouse	Kingdom	Animal
 Gerbil Mouse	Phylum	Chordate
-Gerbil Mouse	Conservation Status	LC
-Gerbil Mouse	Label	Gerbil Mouse
-Gerbil Mouse	Subject	Nesomyid Rodents
-Gerbil Mouse	Subject	Animals Described In 1834
+Gerbil Mouse	État De Conservation	LC
+Gerbil Mouse	label	Gerbil Mouse
+Gerbil Mouse	subject	Nesomyid Rodents
+Gerbil Mouse	subject	Animals Described In 1834
 Gerbil Mouse	Class	Mammal
 Gerbil Mouse	Conservation Status System	IUCN3.1
-Gerbil Mouse	Type	Thing
-Gerbil Mouse	Type	Mammal
-Gerbil Mouse	Type	Animal
-Gerbil Mouse	Type	Q19088
-Gerbil Mouse	Type	Eukaryote
-Gerbil Mouse	Type	Q7377
-Gerbil Mouse	Type	Q729
-Gerbil Mouse	Type	Species
-Gerbil Mouse	Name	Gerbil Mouse
+Gerbil Mouse	type	Thing
+Gerbil Mouse	type	Mammal
+Gerbil Mouse	type	Animal
+Gerbil Mouse	type	Q19088
+Gerbil Mouse	type	Eukaryote
+Gerbil Mouse	type	Q7377
+Gerbil Mouse	type	Q729
+Gerbil Mouse	type	Species
+Gerbil Mouse	name	Gerbil Mouse
 Gerbil Mouse	Family	Nesomyidae
 Gerbil Mouse	Family	Dendromurinae
 Gerbil Mouse	Order (Taxonomy)	Rodent

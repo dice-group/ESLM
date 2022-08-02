@@ -1,35 +1,35 @@
-Battle Of Rottofreddo	Type	Q1656682
-Battle Of Rottofreddo	Type	Event
-Battle Of Rottofreddo	Type	Event100029378
-Battle Of Rottofreddo	Type	Military Conflict
-Battle Of Rottofreddo	Type	Conflictsin1746
-Battle Of Rottofreddo	Type	Yagopermanentlylocatedentity
-Battle Of Rottofreddo	Type	Abstraction100002137
-Battle Of Rottofreddo	Type	Battle100953559
-Battle Of Rottofreddo	Type	Psychologicalfeature100023100
-Battle Of Rottofreddo	Type	Battlesinvolvingaustria
-Battle Of Rottofreddo	Type	Act100030358
-Battle Of Rottofreddo	Type	Event
-Battle Of Rottofreddo	Type	Societal Event
-Battle Of Rottofreddo	Type	Conflict100958896
-Battle Of Rottofreddo	Type	Militaryaction100952963
-Battle Of Rottofreddo	Type	Event
-Battle Of Rottofreddo	Type	Groupaction101080366
-Battle Of Rottofreddo	Type	Battlesinvolvingfrance
-Battle Of Rottofreddo	Type	Thing
+Battle Of Rottofreddo	type	Q1656682
+Battle Of Rottofreddo	type	Event
+Battle Of Rottofreddo	type	Event100029378
+Battle Of Rottofreddo	type	Military Conflict
+Battle Of Rottofreddo	type	ConflictsIn1746
+Battle Of Rottofreddo	type	YagoPermanentlyLocatedEntity
+Battle Of Rottofreddo	type	Abstraction100002137
+Battle Of Rottofreddo	type	Battle100953559
+Battle Of Rottofreddo	type	PsychologicalFeature100023100
+Battle Of Rottofreddo	type	BattlesInvolvingAustria
+Battle Of Rottofreddo	type	Act100030358
+Battle Of Rottofreddo	type	Event
+Battle Of Rottofreddo	type	Societal Event
+Battle Of Rottofreddo	type	Conflict100958896
+Battle Of Rottofreddo	type	MilitaryAction100952963
+Battle Of Rottofreddo	type	Event
+Battle Of Rottofreddo	type	GroupAction101080366
+Battle Of Rottofreddo	type	BattlesInvolvingFrance
+Battle Of Rottofreddo	type	Thing
 Battle Of Rottofreddo	Is Part Of Military Conflict	War Of The Austrian Succession
 Battle Of Rottofreddo	Result	French Victory
-Battle Of Rottofreddo	Label	Battle Of Rottofreddo
+Battle Of Rottofreddo	label	Battle Of Rottofreddo
 Battle Of Rottofreddo	Commander	Jean-Baptiste Francois Des Marets, Marquis De Maillebois
 Battle Of Rottofreddo	Commander	Antoniotto Botta Adorno
 Battle Of Rottofreddo	Date	1746-08-12
-Battle Of Rottofreddo	Subject	1746 In Austria
-Battle Of Rottofreddo	Subject	Battles Involving France
-Battle Of Rottofreddo	Subject	1746 In Italy
-Battle Of Rottofreddo	Subject	1746 In France
-Battle Of Rottofreddo	Subject	Conflicts In 1746
-Battle Of Rottofreddo	Subject	Battles Involving Austria
-Battle Of Rottofreddo	Name	Battle Of Rottofreddo
+Battle Of Rottofreddo	subject	1746 In Austria
+Battle Of Rottofreddo	subject	Battles Involving France
+Battle Of Rottofreddo	subject	1746 In Italy
+Battle Of Rottofreddo	subject	1746 In France
+Battle Of Rottofreddo	subject	Conflicts In 1746
+Battle Of Rottofreddo	subject	Battles Involving Austria
+Battle Of Rottofreddo	name	Battle Of Rottofreddo
 Battle Of Rottofreddo	Relates An Entity To The Populated Place In Which It Is Located.	Province Of Piacenza
 Battle Of Rottofreddo	Relates An Entity To The Populated Place In Which It Is Located.	Italy
 Battle Of Rottofreddo	Relates An Entity To The Populated Place In Which It Is Located.	Rottofreno

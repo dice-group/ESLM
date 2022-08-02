@@ -1,45 +1,45 @@
-Svyatoslav Tanasov	Career Station	Svyatoslav Tanasov  2
-Svyatoslav Tanasov	Height (Μ)	1.78
-Svyatoslav Tanasov	Team	Fc Taganrog
-Svyatoslav Tanasov	Givenname	Svyatoslav
-Svyatoslav Tanasov	Surname	Tanasov
-Svyatoslav Tanasov	Birth Year	1989-01-01
-Svyatoslav Tanasov	Subject	1989 Births
-Svyatoslav Tanasov	Subject	Russian Footballers
-Svyatoslav Tanasov	Subject	Living People
-Svyatoslav Tanasov	Subject	Fc Taganrog Players
-Svyatoslav Tanasov	Description	Russian Footballer
-Svyatoslav Tanasov	Description	Russian Footballer
-Svyatoslav Tanasov	Position	Defender (Association Football)
-Svyatoslav Tanasov	Type	Causalagent100007347
-Svyatoslav Tanasov	Type	Athlete109820263
-Svyatoslav Tanasov	Type	Livingthing100004258
-Svyatoslav Tanasov	Type	Thing
-Svyatoslav Tanasov	Type	Yagolegalactor
-Svyatoslav Tanasov	Type	Yagolegalactorgeo
-Svyatoslav Tanasov	Type	Whole100003553
-Svyatoslav Tanasov	Type	Q5
-Svyatoslav Tanasov	Type	Person
-Svyatoslav Tanasov	Type	Livingpeople
-Svyatoslav Tanasov	Type	Person
-Svyatoslav Tanasov	Type	Athlete
-Svyatoslav Tanasov	Type	Player110439851
-Svyatoslav Tanasov	Type	Soccer Player
-Svyatoslav Tanasov	Type	Object100002684
-Svyatoslav Tanasov	Type	Footballplayer110101634
-Svyatoslav Tanasov	Type	Person
-Svyatoslav Tanasov	Type	Person100007846
-Svyatoslav Tanasov	Type	Agent
-Svyatoslav Tanasov	Type	Q215627
-Svyatoslav Tanasov	Type	Agent
-Svyatoslav Tanasov	Type	Organism100004475
-Svyatoslav Tanasov	Type	Q937857
-Svyatoslav Tanasov	Type	Contestant109613191
-Svyatoslav Tanasov	Type	Naturalperson
-Svyatoslav Tanasov	Type	Physicalentity100001930
-Svyatoslav Tanasov	Type	Russianfootballers
-Svyatoslav Tanasov	Birth Date	1989-08-02
-Svyatoslav Tanasov	Name	Svyatoslav Tanasov
-Svyatoslav Tanasov	Name	Tanasov, Svyatoslav
-Svyatoslav Tanasov	Name	Svyatoslav Sergeyevich Tanasov
-Svyatoslav Tanasov	Label	Svyatoslav Tanasov
+Svyatoslav_Tanasov	Career Station	Svyatoslav_Tanasov__2
+Svyatoslav_Tanasov	Height (Μ)	1.78
+Svyatoslav_Tanasov	Team	Fc Taganrog
+Svyatoslav_Tanasov	givenName	Svyatoslav
+Svyatoslav_Tanasov	surname	Tanasov
+Svyatoslav_Tanasov	Birth Year	1989-01-01
+Svyatoslav_Tanasov	subject	1989 Births
+Svyatoslav_Tanasov	subject	Russian Footballers
+Svyatoslav_Tanasov	subject	Living People
+Svyatoslav_Tanasov	subject	Fc Taganrog Players
+Svyatoslav_Tanasov	description	Russian Footballer
+Svyatoslav_Tanasov	description	Russian Footballer
+Svyatoslav_Tanasov	Position	Defender (Association Football)
+Svyatoslav_Tanasov	type	CausalAgent100007347
+Svyatoslav_Tanasov	type	Athlete109820263
+Svyatoslav_Tanasov	type	LivingThing100004258
+Svyatoslav_Tanasov	type	Thing
+Svyatoslav_Tanasov	type	YagoLegalActor
+Svyatoslav_Tanasov	type	YagoLegalActorGeo
+Svyatoslav_Tanasov	type	Whole100003553
+Svyatoslav_Tanasov	type	Q5
+Svyatoslav_Tanasov	type	Person
+Svyatoslav_Tanasov	type	LivingPeople
+Svyatoslav_Tanasov	type	Person
+Svyatoslav_Tanasov	type	Athlete
+Svyatoslav_Tanasov	type	Player110439851
+Svyatoslav_Tanasov	type	Soccer Player
+Svyatoslav_Tanasov	type	Object100002684
+Svyatoslav_Tanasov	type	FootballPlayer110101634
+Svyatoslav_Tanasov	type	Person
+Svyatoslav_Tanasov	type	Person100007846
+Svyatoslav_Tanasov	type	Agent
+Svyatoslav_Tanasov	type	Q215627
+Svyatoslav_Tanasov	type	Agent
+Svyatoslav_Tanasov	type	Organism100004475
+Svyatoslav_Tanasov	type	Q937857
+Svyatoslav_Tanasov	type	Contestant109613191
+Svyatoslav_Tanasov	type	NaturalPerson
+Svyatoslav_Tanasov	type	PhysicalEntity100001930
+Svyatoslav_Tanasov	type	RussianFootballers
+Svyatoslav_Tanasov	Birth Date	1989-08-02
+Svyatoslav_Tanasov	name	Svyatoslav Tanasov
+Svyatoslav_Tanasov	name	Tanasov, Svyatoslav
+Svyatoslav_Tanasov	name	Svyatoslav Sergeyevich Tanasov
+Svyatoslav_Tanasov	label	Svyatoslav Tanasov

@@ -1,20 +1,20 @@
 Touch Of Death (1961 Film)	Film Director	Lance Comfort
-Touch Of Death (1961 Film)	Type	Movie
-Touch Of Death (1961 Film)	Type	Q386724
-Touch Of Death (1961 Film)	Type	Creativework
-Touch Of Death (1961 Film)	Type	Work
-Touch Of Death (1961 Film)	Type	Q11424
-Touch Of Death (1961 Film)	Type	Thing
-Touch Of Death (1961 Film)	Type	Movie
+Touch Of Death (1961 Film)	type	Movie
+Touch Of Death (1961 Film)	type	Q386724
+Touch Of Death (1961 Film)	type	CreativeWork
+Touch Of Death (1961 Film)	type	Work
+Touch Of Death (1961 Film)	type	Q11424
+Touch Of Death (1961 Film)	type	Thing
+Touch Of Death (1961 Film)	type	Movie
 Touch Of Death (1961 Film)	Starring	William Lucas (Actor)
 Touch Of Death (1961 Film)	Runtime (S)	3480.0
-Touch Of Death (1961 Film)	Subject	British Crime Films
-Touch Of Death (1961 Film)	Subject	1960S Crime Films
-Touch Of Death (1961 Film)	Subject	1961 Films
-Touch Of Death (1961 Film)	Subject	British Films
-Touch Of Death (1961 Film)	Subject	Black-And-White Films
-Touch Of Death (1961 Film)	Subject	Films Directed By Lance Comfort
-Touch Of Death (1961 Film)	Label	Touch Of Death (1961 Film)
+Touch Of Death (1961 Film)	subject	British Crime Films
+Touch Of Death (1961 Film)	subject	1960S Crime Films
+Touch Of Death (1961 Film)	subject	1961 Films
+Touch Of Death (1961 Film)	subject	British Films
+Touch Of Death (1961 Film)	subject	Black-And-White Films
+Touch Of Death (1961 Film)	subject	Films Directed By Lance Comfort
+Touch Of Death (1961 Film)	label	Touch Of Death (1961 Film)
 Touch Of Death (1961 Film)	Country	United Kingdom
-Touch Of Death (1961 Film)	Name	Touch Of Death
+Touch Of Death (1961 Film)	name	Touch Of Death
 Touch Of Death (1961 Film)	Music Composer	Johnny Douglas (Conductor)

@@ -1,25 +1,25 @@
 Trichoscypha Cavalliensis	Kingdom	Plant
-Trichoscypha Cavalliensis	Label	Trichoscypha Cavalliensis
-Trichoscypha Cavalliensis	Type	Object100002684
-Trichoscypha Cavalliensis	Type	Thing
-Trichoscypha Cavalliensis	Type	Organism100004475
-Trichoscypha Cavalliensis	Type	Eukaryote
-Trichoscypha Cavalliensis	Type	Livingthing100004258
-Trichoscypha Cavalliensis	Type	Physicalentity100001930
-Trichoscypha Cavalliensis	Type	Vulnerableplants
-Trichoscypha Cavalliensis	Type	Q19088
-Trichoscypha Cavalliensis	Type	Plant
-Trichoscypha Cavalliensis	Type	Plant100017222
-Trichoscypha Cavalliensis	Type	Q756
-Trichoscypha Cavalliensis	Type	Species
-Trichoscypha Cavalliensis	Type	Whole100003553
+Trichoscypha Cavalliensis	label	Trichoscypha Cavalliensis
+Trichoscypha Cavalliensis	type	Object100002684
+Trichoscypha Cavalliensis	type	Thing
+Trichoscypha Cavalliensis	type	Organism100004475
+Trichoscypha Cavalliensis	type	Eukaryote
+Trichoscypha Cavalliensis	type	LivingThing100004258
+Trichoscypha Cavalliensis	type	PhysicalEntity100001930
+Trichoscypha Cavalliensis	type	VulnerablePlants
+Trichoscypha Cavalliensis	type	Q19088
+Trichoscypha Cavalliensis	type	Plant
+Trichoscypha Cavalliensis	type	Plant100017222
+Trichoscypha Cavalliensis	type	Q756
+Trichoscypha Cavalliensis	type	Species
+Trichoscypha Cavalliensis	type	Whole100003553
 Trichoscypha Cavalliensis	Class	Eudicots
 Trichoscypha Cavalliensis	Genus	Trichoscypha
 Trichoscypha Cavalliensis	Family	Anacardiaceae
 Trichoscypha Cavalliensis	Division	Flowering Plant
-Trichoscypha Cavalliensis	Conservation Status	VU
+Trichoscypha Cavalliensis	État De Conservation	VU
 Trichoscypha Cavalliensis	Order (Taxonomy)	Sapindales
 Trichoscypha Cavalliensis	Order (Taxonomy)	Rosids
-Trichoscypha Cavalliensis	Subject	Vulnerable Plants
-Trichoscypha Cavalliensis	Subject	Trichoscypha
+Trichoscypha Cavalliensis	subject	Vulnerable Plants
+Trichoscypha Cavalliensis	subject	Trichoscypha
 Trichoscypha Cavalliensis	Conservation Status System	IUCN2.3

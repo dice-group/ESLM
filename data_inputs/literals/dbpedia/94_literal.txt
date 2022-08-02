@@ -1,29 +1,29 @@
 Intensive Care Medicine (Journal)	First Publication Year	1975-01-01
 Intensive Care Medicine (Journal)	Impact Factor	5.544
-Intensive Care Medicine (Journal)	Type	Work
-Intensive Care Medicine (Journal)	Type	Thing
-Intensive Care Medicine (Journal)	Type	Q1092563
-Intensive Care Medicine (Journal)	Type	Q386724
-Intensive Care Medicine (Journal)	Type	Academic Journal
-Intensive Care Medicine (Journal)	Type	Creativework
-Intensive Care Medicine (Journal)	Type	Written Work
-Intensive Care Medicine (Journal)	Type	Periodical Literature
-Intensive Care Medicine (Journal)	Type	Q737498
+Intensive Care Medicine (Journal)	type	Work
+Intensive Care Medicine (Journal)	type	Thing
+Intensive Care Medicine (Journal)	type	Q1092563
+Intensive Care Medicine (Journal)	type	Q386724
+Intensive Care Medicine (Journal)	type	Academic Journal
+Intensive Care Medicine (Journal)	type	CreativeWork
+Intensive Care Medicine (Journal)	type	Written Work
+Intensive Care Medicine (Journal)	type	Periodical Literature
+Intensive Care Medicine (Journal)	type	Q737498
 Intensive Care Medicine (Journal)	CODEN	ICMED9
 Intensive Care Medicine (Journal)	Issn	0342-4642
 Intensive Care Medicine (Journal)	Issn	1432-1238
-Intensive Care Medicine (Journal)	Name	Intensive Care Medicine
+Intensive Care Medicine (Journal)	name	Intensive Care Medicine
 Intensive Care Medicine (Journal)	Abbreviation	Intensive Care Med.
 Intensive Care Medicine (Journal)	OCLC	884609077
 Intensive Care Medicine (Journal)	Publisher	Springer Science+Business Media
-Intensive Care Medicine (Journal)	Label	Intensive Care Medicine (Journal)
+Intensive Care Medicine (Journal)	label	Intensive Care Medicine (Journal)
 Intensive Care Medicine (Journal)	Impact Factor As Of	2013-01-01
 Intensive Care Medicine (Journal)	Academic Discipline	Intensive Care Medicine
-Intensive Care Medicine (Journal)	Homepage	Index.Html
-Intensive Care Medicine (Journal)	Subject	Publications Established In 1975
-Intensive Care Medicine (Journal)	Subject	Academic Journals Associated With Learned And Professional Societies
-Intensive Care Medicine (Journal)	Subject	Emergency Medicine Journals
-Intensive Care Medicine (Journal)	Subject	English-Language Journals
-Intensive Care Medicine (Journal)	Subject	Springer Science+Business Media Academic Journals
-Intensive Care Medicine (Journal)	Subject	Monthly Journals
+Intensive Care Medicine (Journal)	homepage	index.html
+Intensive Care Medicine (Journal)	subject	Publications Established In 1975
+Intensive Care Medicine (Journal)	subject	Academic Journals Associated With Learned And Professional Societies
+Intensive Care Medicine (Journal)	subject	Emergency Medicine Journals
+Intensive Care Medicine (Journal)	subject	English-Language Journals
+Intensive Care Medicine (Journal)	subject	Springer Science+Business Media Academic Journals
+Intensive Care Medicine (Journal)	subject	Monthly Journals
 Intensive Care Medicine (Journal)	Frequency Of Publication	Monthly

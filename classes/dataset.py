@@ -17,14 +17,14 @@ class ESBenchmark:
         self.topk = topk
         self.weighted_adjacency_matrix = weighted_adjacency_matrix
         self.in_esbm_dir = os.path.join(os.getcwd(), "datasets/ESBM_benchmark_v1.2")
-        self.in_faces_dir = os.path.join(os.getcwd(), 'datasets/FACES/faces_data')
+        self.in_faces_dir = os.path.join(os.getcwd(), 'datasets/FACES')
         self.ds_name = ds_name
         if ds_name == "dbpedia":
             self.db_path = os.path.join(self.in_esbm_dir, "dbpedia_data")
         elif ds_name == "lmdb":
             self.db_path = os.path.join(self.in_esbm_dir, "lmdb_data")
         elif ds_name == "faces":
-            self.db_path = os.path.join(self.in_esbm_dir, "faces_data")
+            self.db_path = os.path.join(self.in_faces_dir, "faces_data")
         else:
             raise ValueError("The database name must be dbpedia, lmdb. or faces")
     def get_5fold_train_valid_test_elist(self, ds_name_str):
@@ -67,13 +67,13 @@ class ESBenchmark:
                 triples.append(triple_tuple)
         index_sink = IndexSink()
         parser = NTriplesParser(index_sink)
-        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc_mod.nt"), 'rb') as reader:
+        with open(os.path.join(self.db_path, f"{num}", f"{num}_desc.nt"), 'rb') as reader:
             parser.parse(reader)
         return triples
     def get_labels(self, num):
         """Get entity label from knowledge base"""
         triples = self.get_triples(num)
-        if self.ds_name == "dbpedia":
+        if self.ds_name == "dbpedia" or self.ds_name == "faces":
             endpoint = "http://dbpedia.org/sparql"
         elif self.ds_name == "lmdb":
             endpoint = "https://api.triplydb.com/datasets/Triply/linkedmdb/services/linkedmdb/sparql"
@@ -86,6 +86,8 @@ class ESBenchmark:
                 if "dbpedia" in obj:
                     endpoint = "http://dbpedia.org/sparql"
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
+            elif UTILS.is_uri(obj) and self.ds_name=="faces":
+                obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             else:
                 if type(obj) == str:
                     if obj.isupper():
@@ -94,7 +96,7 @@ class ESBenchmark:
                         obj_literal = obj.title()
                 else:
                     obj_literal = obj
-            if self.ds_name == "dbpedia":
+            if self.ds_name == "dbpedia" or self.ds_name == "faces":
                 pred_literal = UTILS.get_label_of_entity(pred, endpoint)
                 sub_literal = UTILS.get_label_of_entity(sub, endpoint)
             elif self.ds_name == "lmdb":

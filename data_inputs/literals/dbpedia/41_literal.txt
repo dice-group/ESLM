@@ -1,23 +1,23 @@
-Foppt Den Dämon!	Type	Album
-Foppt Den Dämon!	Type	Creativework
-Foppt Den Dämon!	Type	Musicalbum
-Foppt Den Dämon!	Type	Work
-Foppt Den Dämon!	Type	Thing
-Foppt Den Dämon!	Type	Q2188189
-Foppt Den Dämon!	Type	Q482994
-Foppt Den Dämon!	Type	Q386724
-Foppt Den Dämon!	Type	Musical Work
-Mcmxcv (Album)	Subsequent Work	Foppt Den Dämon!
-Foppt Den Dämon!	Name	Foppt Den Dämon!
+Foppt Den Dämon!	type	Album
+Foppt Den Dämon!	type	CreativeWork
+Foppt Den Dämon!	type	MusicAlbum
+Foppt Den Dämon!	type	Work
+Foppt Den Dämon!	type	Thing
+Foppt Den Dämon!	type	Q2188189
+Foppt Den Dämon!	type	Q482994
+Foppt Den Dämon!	type	Q386724
+Foppt Den Dämon!	type	Musical Work
+MCMXCV_(album)	Subsequent Work	Foppt Den Dämon!
+Foppt Den Dämon!	name	Foppt Den Dämon!
 Foppt Den Dämon!	Type	Album
 Bannkreis	Previous Work	Foppt Den Dämon!
-Foppt Den Dämon!	Label	Foppt Den Dämon!
+Foppt Den Dämon!	label	Foppt Den Dämon!
 Foppt Den Dämon!	Genre	Medieval Metal
 Foppt Den Dämon!	Genre	Medieval Folk Rock
 Foppt Den Dämon!	Runtime (S)	2528.0
 Foppt Den Dämon!	Subsequent Work	Bannkreis
-Foppt Den Dämon!	Previous Work	Mcmxcv (Album)
+Foppt Den Dämon!	Previous Work	MCMXCV_(album)
 Foppt Den Dämon!	Performer	Subway To Sally
-Foppt Den Dämon!	Subject	Subway To Sally Albums
-Foppt Den Dämon!	Subject	1996 Albums
+Foppt Den Dämon!	subject	Subway_to_Sally_albums
+Foppt Den Dämon!	subject	1996 Albums
 Foppt Den Dämon!	Record Label	Red Rooster Records

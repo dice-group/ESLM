@@ -1,27 +1,27 @@
 Stemonoporus Laevifolius	Kingdom	Plant
-Stemonoporus Laevifolius	Conservation Status	EN
+Stemonoporus Laevifolius	État De Conservation	EN
 Stemonoporus Laevifolius	Division	Flowering Plant
 Stemonoporus Laevifolius	Order (Taxonomy)	Malvales
 Stemonoporus Laevifolius	Order (Taxonomy)	Rosids
 Stemonoporus Laevifolius	Family	Dipterocarpaceae
 Stemonoporus Laevifolius	Class	Eudicots
 Stemonoporus Laevifolius	Binomial Authority	André Joseph Guillaume Henri Kostermans
-Stemonoporus Laevifolius	Subject	Stemonoporus
-Stemonoporus Laevifolius	Subject	Endangered Plants
-Stemonoporus Laevifolius	Subject	Flora Of Sri Lanka
+Stemonoporus Laevifolius	subject	Stemonoporus
+Stemonoporus Laevifolius	subject	Endangered Plants
+Stemonoporus Laevifolius	subject	Flora Of Sri Lanka
 Stemonoporus Laevifolius	Genus	Stemonoporus
 Stemonoporus Laevifolius	Conservation Status System	IUCN2.3
-Stemonoporus Laevifolius	Label	Stemonoporus Laevifolius
-Stemonoporus Laevifolius	Type	Thing
-Stemonoporus Laevifolius	Type	Plant
-Stemonoporus Laevifolius	Type	Eukaryote
-Stemonoporus Laevifolius	Type	Organism100004475
-Stemonoporus Laevifolius	Type	Q756
-Stemonoporus Laevifolius	Type	Species
-Stemonoporus Laevifolius	Type	Physicalentity100001930
-Stemonoporus Laevifolius	Type	Q19088
-Stemonoporus Laevifolius	Type	Object100002684
-Stemonoporus Laevifolius	Type	Plant100017222
-Stemonoporus Laevifolius	Type	Whole100003553
-Stemonoporus Laevifolius	Type	Livingthing100004258
-Stemonoporus Laevifolius	Type	Endangeredplants
+Stemonoporus Laevifolius	label	Stemonoporus Laevifolius
+Stemonoporus Laevifolius	type	Thing
+Stemonoporus Laevifolius	type	Plant
+Stemonoporus Laevifolius	type	Eukaryote
+Stemonoporus Laevifolius	type	Organism100004475
+Stemonoporus Laevifolius	type	Q756
+Stemonoporus Laevifolius	type	Species
+Stemonoporus Laevifolius	type	PhysicalEntity100001930
+Stemonoporus Laevifolius	type	Q19088
+Stemonoporus Laevifolius	type	Object100002684
+Stemonoporus Laevifolius	type	Plant100017222
+Stemonoporus Laevifolius	type	Whole100003553
+Stemonoporus Laevifolius	type	LivingThing100004258
+Stemonoporus Laevifolius	type	EndangeredPlants

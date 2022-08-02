@@ -1,32 +1,32 @@
-Tchonoro	Name	Tchonoro
-Tchonoro	Long	1.2666667
-Tchonoro	Type	Populated Place
-Tchonoro	Type	Yagogeoentity
-Tchonoro	Type	Physicalentity100001930
-Tchonoro	Type	Object100002684
-Tchonoro	Type	Populatedplacesinkararegion
-Tchonoro	Type	Region108630985
-Tchonoro	Type	Place
-Tchonoro	Type	Place
-Tchonoro	Type	Yagolegalactorgeo
-Tchonoro	Type	Yagopermanentlylocatedentity
-Tchonoro	Type	Geographicalarea108574314
-Tchonoro	Type	Location100027167
-Tchonoro	Type	Settlement
-Tchonoro	Type	Location
-Tchonoro	Type	Q486972
-Tchonoro	Type	Tract108673395
-Tchonoro	Type	Site108651247
-Tchonoro	Type	Spatialthing
-Tchonoro	Type	Thing
-Tchonoro	Label	Tchonoro
+Tchonoro	name	Tchonoro
+Tchonoro	long	1.2666667
+Tchonoro	type	Populated Place
+Tchonoro	type	YagoGeoEntity
+Tchonoro	type	PhysicalEntity100001930
+Tchonoro	type	Object100002684
+Tchonoro	type	PopulatedPlacesInKaraRegion
+Tchonoro	type	Region108630985
+Tchonoro	type	Place
+Tchonoro	type	Place
+Tchonoro	type	YagoLegalActorGeo
+Tchonoro	type	YagoPermanentlyLocatedEntity
+Tchonoro	type	GeographicalArea108574314
+Tchonoro	type	Location100027167
+Tchonoro	type	Settlement
+Tchonoro	type	Location
+Tchonoro	type	Q486972
+Tchonoro	type	Tract108673395
+Tchonoro	type	Site108651247
+Tchonoro	type	SpatialThing
+Tchonoro	type	Thing
+Tchonoro	label	Tchonoro
 Tchonoro	Time Zone	Coordinated Universal Time
-Tchonoro	Depiction	Flag Of Togo.Svg
-Tchonoro	Lat	9.35
+Tchonoro	depiction	Flag_of_Togo.svg
+Tchonoro	lat	9.35
 Tchonoro	Country	Togo
 Tchonoro	Is Part Of	Assoli Prefecture
 Tchonoro	Is Part Of	Kachin State
-Tchonoro	Thumbnail	Flag Of Togo.Svg?Width=300
-Tchonoro	Point	9.35 1.2666666666666666
-Tchonoro	Subject	Populated Places In Kara Region
-Tchonoro	Subject	Assoli
+Tchonoro	Thumbnail	Flag_of_Togo.svg?width=300
+Tchonoro	point	9.35 1.2666666666666666
+Tchonoro	subject	Populated Places In Kara Region
+Tchonoro	subject	Assoli

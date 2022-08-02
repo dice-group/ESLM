@@ -1,58 +1,58 @@
 Fired Wife	Based On	Hagar Wilde
 Hagar Wilde	Birth Date	1905-07-07
-Hagar Wilde	Label	Hagar Wilde
-Hagar Wilde	Surname	Wilde
+Hagar Wilde	label	Hagar Wilde
+Hagar Wilde	surname	Wilde
 Hagar Wilde	Imdb Id	0928444
-Hagar Wilde	Description	American Writer
-Hagar Wilde	Description	American Writer
-Bringing Up Baby	Writer	Hagar Wilde
-Carefree (Film)	Writer	Hagar Wilde
-I Was A Male War Bride	Writer	Hagar Wilde
-Red, Hot And Blue (Film)	Writer	Hagar Wilde
-The Unseen (1945 Film)	Writer	Hagar Wilde
-Hagar Wilde	Givenname	Hagar
+Hagar Wilde	description	American Writer
+Hagar Wilde	description	American Writer
+Bringing Up Baby	Auteur	Hagar Wilde
+Carefree (Film)	Auteur	Hagar Wilde
+I Was A Male War Bride	Auteur	Hagar Wilde
+Red, Hot And Blue (Film)	Auteur	Hagar Wilde
+The Unseen (1945 Film)	Auteur	Hagar Wilde
+Hagar Wilde	givenName	Hagar
 Hagar Wilde	Death Year	1971-01-01
-Hagar Wilde	Subject	1905 Births
-Hagar Wilde	Subject	Place Of Birth Missing
-Hagar Wilde	Subject	20Th-Century Women Writers
-Hagar Wilde	Subject	American Women Screenwriters
-Hagar Wilde	Subject	American Women Short Story Writers
-Hagar Wilde	Subject	1971 Deaths
-Hagar Wilde	Subject	Women Television Writers
-Hagar Wilde	Subject	American Television Writers
-Hagar Wilde	Subject	20Th-Century American Writers
+Hagar Wilde	subject	1905 Births
+Hagar Wilde	subject	Place Of Birth Missing
+Hagar Wilde	subject	20Th-Century Women Writers
+Hagar Wilde	subject	American Women Screenwriters
+Hagar Wilde	subject	American Women Short Story Writers
+Hagar Wilde	subject	1971 Deaths
+Hagar Wilde	subject	Women Television Writers
+Hagar Wilde	subject	American Television Writers
+Hagar Wilde	subject	20Th-Century American Writers
 Hagar Wilde	Death Date	1971-09-25
-Hagar Wilde	Name	Wilde, Hagar
-Hagar Wilde	Name	Hagar Wilde
+Hagar Wilde	name	Wilde, Hagar
+Hagar Wilde	name	Hagar Wilde
 Hagar Wilde	Birth Year	1905-01-01
-Hagar Wilde	Type	Americanscreenwriters
-Hagar Wilde	Type	Screenwriter110564400
-Hagar Wilde	Type	Womenscreenwriters
-Hagar Wilde	Type	Physicalentity100001930
-Hagar Wilde	Type	Q5
-Hagar Wilde	Type	Yagolegalactor
-Hagar Wilde	Type	Agent
-Hagar Wilde	Type	Organism100004475
-Hagar Wilde	Type	Causalagent100007347
-Hagar Wilde	Type	Americanshortstorywriters
-Hagar Wilde	Type	Agent
-Hagar Wilde	Type	Person
-Hagar Wilde	Type	Whole100003553
-Hagar Wilde	Type	Writer110794014
-Hagar Wilde	Type	Livingthing100004258
-Hagar Wilde	Type	Naturalperson
-Hagar Wilde	Type	Americantelevisionwriters
-Hagar Wilde	Type	Object100002684
-Hagar Wilde	Type	Scriptwriter110564905
-Hagar Wilde	Type	Womentelevisionwriters
-Hagar Wilde	Type	Writer
-Hagar Wilde	Type	Q36180
-Hagar Wilde	Type	Communicator109610660
-Hagar Wilde	Type	Q28389
-Hagar Wilde	Type	Person
-Hagar Wilde	Type	Yagolegalactorgeo
-Hagar Wilde	Type	Person100007846
-Hagar Wilde	Type	Person
-Hagar Wilde	Type	Screenwriter
-Hagar Wilde	Type	Thing
-Hagar Wilde	Type	Q215627
+Hagar Wilde	type	AmericanScreenwriters
+Hagar Wilde	type	Screenwriter110564400
+Hagar Wilde	type	WomenScreenwriters
+Hagar Wilde	type	PhysicalEntity100001930
+Hagar Wilde	type	Q5
+Hagar Wilde	type	YagoLegalActor
+Hagar Wilde	type	Agent
+Hagar Wilde	type	Organism100004475
+Hagar Wilde	type	CausalAgent100007347
+Hagar Wilde	type	AmericanShortStoryWriters
+Hagar Wilde	type	Agent
+Hagar Wilde	type	Person
+Hagar Wilde	type	Whole100003553
+Hagar Wilde	type	Writer110794014
+Hagar Wilde	type	LivingThing100004258
+Hagar Wilde	type	NaturalPerson
+Hagar Wilde	type	AmericanTelevisionWriters
+Hagar Wilde	type	Object100002684
+Hagar Wilde	type	Scriptwriter110564905
+Hagar Wilde	type	WomenTelevisionWriters
+Hagar Wilde	type	Writer
+Hagar Wilde	type	Q36180
+Hagar Wilde	type	Communicator109610660
+Hagar Wilde	type	Q28389
+Hagar Wilde	type	Person
+Hagar Wilde	type	YagoLegalActorGeo
+Hagar Wilde	type	Person100007846
+Hagar Wilde	type	Person
+Hagar Wilde	type	Screenwriter
+Hagar Wilde	type	Thing
+Hagar Wilde	type	Q215627

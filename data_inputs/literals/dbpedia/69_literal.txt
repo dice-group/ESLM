@@ -1,36 +1,36 @@
 Battle On The Elster	Result	Military Victory For Rudolf, Political Victory For Henry
-Battle On The Elster	Thumbnail	Rudolf Von Schwaben.Jpg?Width=300
-Battle On The Elster	Name	Battle On The Elster
+Battle On The Elster	Thumbnail	Rudolf_von_Schwaben.jpg?width=300
+Battle On The Elster	name	Battle On The Elster
 Battle On The Elster	Relates An Entity To The Populated Place In Which It Is Located.	Zeitz
 Battle On The Elster	Relates An Entity To The Populated Place In Which It Is Located.	Hohenmölsen
 Battle On The Elster	Is Part Of Military Conflict	Great Saxon Revolt
 Battle On The Elster	Combatant	Rudolf Of Swabia
 Battle On The Elster	Combatant	Holy Roman Emperor, Henry Iv
-Battle On The Elster	Type	Battle100953559
-Battle On The Elster	Type	Societal Event
-Battle On The Elster	Type	Battlesinvolvingbohemia
-Battle On The Elster	Type	Event
-Battle On The Elster	Type	Act100030358
-Battle On The Elster	Type	Event100029378
-Battle On The Elster	Type	Psychologicalfeature100023100
-Battle On The Elster	Type	Militaryaction100952963
-Battle On The Elster	Type	Groupaction101080366
-Battle On The Elster	Type	Event
-Battle On The Elster	Type	Battlesofthemiddleages
-Battle On The Elster	Type	Event
-Battle On The Elster	Type	Thing
-Battle On The Elster	Type	Abstraction100002137
-Battle On The Elster	Type	Military Conflict
-Battle On The Elster	Type	Q1656682
-Battle On The Elster	Type	Yagopermanentlylocatedentity
-Battle On The Elster	Type	Battlesinvolvingtheholyromanempire
-Battle On The Elster	Type	Battlesinvolvingsaxony
-Battle On The Elster	Depiction	Rudolf Von Schwaben.Jpg
-Battle On The Elster	Subject	1080 In Europe
-Battle On The Elster	Subject	Conflicts In 1080
-Battle On The Elster	Subject	Battles Involving The Holy Roman Empire
-Battle On The Elster	Subject	Battles Involving Saxony
-Battle On The Elster	Subject	Battles Of The Middle Ages
-Battle On The Elster	Subject	Battles Involving Bohemia
-Battle On The Elster	Label	Battle On The Elster
+Battle On The Elster	type	Battle100953559
+Battle On The Elster	type	Societal Event
+Battle On The Elster	type	BattlesInvolvingBohemia
+Battle On The Elster	type	Event
+Battle On The Elster	type	Act100030358
+Battle On The Elster	type	Event100029378
+Battle On The Elster	type	PsychologicalFeature100023100
+Battle On The Elster	type	MilitaryAction100952963
+Battle On The Elster	type	GroupAction101080366
+Battle On The Elster	type	Event
+Battle On The Elster	type	BattlesOfTheMiddleAges
+Battle On The Elster	type	Event
+Battle On The Elster	type	Thing
+Battle On The Elster	type	Abstraction100002137
+Battle On The Elster	type	Military Conflict
+Battle On The Elster	type	Q1656682
+Battle On The Elster	type	YagoPermanentlyLocatedEntity
+Battle On The Elster	type	BattlesInvolvingTheHolyRomanEmpire
+Battle On The Elster	type	BattlesInvolvingSaxony
+Battle On The Elster	depiction	Rudolf_von_Schwaben.jpg
+Battle On The Elster	subject	1080 In Europe
+Battle On The Elster	subject	Conflicts In 1080
+Battle On The Elster	subject	Battles Involving The Holy Roman Empire
+Battle On The Elster	subject	Battles Involving Saxony
+Battle On The Elster	subject	Battles Of The Middle Ages
+Battle On The Elster	subject	Battles Involving Bohemia
+Battle On The Elster	label	Battle On The Elster
 Battle On The Elster	Date	1080-10-14

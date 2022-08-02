@@ -1,24 +1,24 @@
-Bornean Mountain Ground Squirrel	Subject	Rodents Of Malaysia
-Bornean Mountain Ground Squirrel	Subject	Dremomys
-Bornean Mountain Ground Squirrel	Subject	Rodents Of Indonesia
-Bornean Mountain Ground Squirrel	Thumbnail	Bornean Mountain Ground Squirrel (Dremomys Everetti) (7113326479).Jpg?Width=300
-Bornean Mountain Ground Squirrel	Conservation Status	LC
+Bornean Mountain Ground Squirrel	subject	Rodents Of Malaysia
+Bornean Mountain Ground Squirrel	subject	Dremomys
+Bornean Mountain Ground Squirrel	subject	Rodents Of Indonesia
+Bornean Mountain Ground Squirrel	Thumbnail	Bornean_Mountain_Ground_Squirrel_(Dremomys_everetti)_(7113326479).jpg?width=300
+Bornean Mountain Ground Squirrel	État De Conservation	LC
 Bornean Mountain Ground Squirrel	Genus	Red-Cheeked Squirrel
 Bornean Mountain Ground Squirrel	Conservation Status System	Iucn3.1
-Bornean Mountain Ground Squirrel	Type	Eukaryote
-Bornean Mountain Ground Squirrel	Type	Q729
-Bornean Mountain Ground Squirrel	Type	Animal
-Bornean Mountain Ground Squirrel	Type	Species
-Bornean Mountain Ground Squirrel	Type	Thing
-Bornean Mountain Ground Squirrel	Type	Mammal
-Bornean Mountain Ground Squirrel	Type	Q7377
-Bornean Mountain Ground Squirrel	Type	Q19088
+Bornean Mountain Ground Squirrel	type	Eukaryote
+Bornean Mountain Ground Squirrel	type	Q729
+Bornean Mountain Ground Squirrel	type	Animal
+Bornean Mountain Ground Squirrel	type	Species
+Bornean Mountain Ground Squirrel	type	Thing
+Bornean Mountain Ground Squirrel	type	Mammal
+Bornean Mountain Ground Squirrel	type	Q7377
+Bornean Mountain Ground Squirrel	type	Q19088
 Bornean Mountain Ground Squirrel	Phylum	Chordate
 Bornean Mountain Ground Squirrel	Order (Taxonomy)	Rodent
 Bornean Mountain Ground Squirrel	Class	Mammal
 Bornean Mountain Ground Squirrel	Binomial Authority	Oldfield Thomas
-Bornean Mountain Ground Squirrel	Name	Bornean Mountain Ground Squirrel
-Bornean Mountain Ground Squirrel	Label	Bornean Mountain Ground Squirrel
+Bornean Mountain Ground Squirrel	name	Bornean Mountain Ground Squirrel
+Bornean Mountain Ground Squirrel	label	Bornean Mountain Ground Squirrel
 Bornean Mountain Ground Squirrel	Kingdom	Animal
 Bornean Mountain Ground Squirrel	Family	Squirrel
-Bornean Mountain Ground Squirrel	Depiction	Bornean Mountain Ground Squirrel (Dremomys Everetti) (7113326479).Jpg
+Bornean Mountain Ground Squirrel	depiction	Bornean_Mountain_Ground_Squirrel_(Dremomys_everetti)_(7113326479).jpg

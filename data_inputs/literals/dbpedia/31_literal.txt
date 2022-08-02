@@ -1,33 +1,33 @@
 African Grey Hornbill	Kingdom	Animal
 African Grey Hornbill	Genus	Tockus
 African Grey Hornbill	Family	Hornbill
-African Grey Hornbill	Name	African Grey Hornbill
-African Grey Hornbill	Label	African Grey Hornbill
+African Grey Hornbill	name	African Grey Hornbill
+African Grey Hornbill	label	African Grey Hornbill
 African Grey Hornbill	Conservation Status System	IUCN3.1
-African Grey Hornbill	Depiction	Tockus Nasutus -Near Sawela Lodge, Lake Naivasha, Kenya -Female-8.Jpg
-African Grey Hornbill	Depiction	Lake Naivasha
+African Grey Hornbill	depiction	Tockus_nasutus_-near_Sawela_Lodge,_Lake_Naivasha,_Kenya_-female-8.jpg
+African Grey Hornbill	depiction	Lake Naivasha
 African Grey Hornbill	Phylum	Chordate
 African Grey Hornbill	Class	Bird
-African Grey Hornbill	Type	Eukaryote
-African Grey Hornbill	Type	Q729
-African Grey Hornbill	Type	Q19088
-African Grey Hornbill	Type	Thing
-African Grey Hornbill	Type	Animal
-African Grey Hornbill	Type	Bird
-African Grey Hornbill	Type	Species
-African Grey Hornbill	Subject	Birds Of Gabon
-African Grey Hornbill	Subject	Birds Of Kenya
-African Grey Hornbill	Subject	Animals Described In 1766
-African Grey Hornbill	Subject	Birds Of Equatorial Guinea
-African Grey Hornbill	Subject	Birds Of South Africa
-African Grey Hornbill	Subject	Birds Of Africa
-African Grey Hornbill	Subject	Birds Of Asia
-African Grey Hornbill	Subject	Hornbills
-African Grey Hornbill	Subject	Birds Of Namibia
-African Grey Hornbill	Subject	Tockus
-African Grey Hornbill	Subject	Birds Of The Republic Of The Congo
-African Grey Hornbill	Subject	Birds Of Cameroon
-African Grey Hornbill	Conservation Status	LC
-African Grey Hornbill	Thumbnail	Tockus Nasutus -Near Sawela Lodge, Lake Naivasha, Kenya -Female-8.Jpg?Width=300
+African Grey Hornbill	type	Eukaryote
+African Grey Hornbill	type	Q729
+African Grey Hornbill	type	Q19088
+African Grey Hornbill	type	Thing
+African Grey Hornbill	type	Animal
+African Grey Hornbill	type	Bird
+African Grey Hornbill	type	Species
+African Grey Hornbill	subject	Birds_of_Gabon
+African Grey Hornbill	subject	Birds_of_Kenya
+African Grey Hornbill	subject	Animals Described In 1766
+African Grey Hornbill	subject	Birds_of_Equatorial_Guinea
+African Grey Hornbill	subject	Birds_of_South_Africa
+African Grey Hornbill	subject	Birds Of Africa
+African Grey Hornbill	subject	Birds Of Asia
+African Grey Hornbill	subject	Hornbills
+African Grey Hornbill	subject	Birds_of_Namibia
+African Grey Hornbill	subject	Tockus
+African Grey Hornbill	subject	Birds_of_the_Republic_of_the_Congo
+African Grey Hornbill	subject	Birds_of_Cameroon
+African Grey Hornbill	État De Conservation	LC
+African Grey Hornbill	Thumbnail	Tockus_nasutus_-near_Sawela_Lodge,_Lake_Naivasha,_Kenya_-female-8.jpg?width=300
 African Grey Hornbill	Order (Taxonomy)	Bucerotiformes
 African Grey Hornbill	Binomial Authority	Carl Linnaeus

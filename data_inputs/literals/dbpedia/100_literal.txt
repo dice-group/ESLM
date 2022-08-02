@@ -1,31 +1,31 @@
-Wide Awake Drunk	Subject	2009 Albums
-Wide Awake Drunk	Genre	Indie Folk
-Wide Awake Drunk	Performer	Greg Connors
-Wide Awake Drunk	Producer	Stan Satin
-Wide Awake Drunk	Label	Wide Awake Drunk
-Wide Awake Drunk	Record Label	Scared Records
-Invisible Tape	Previous Work	Wide Awake Drunk
-Wide Awake Drunk	Name	Wide Awake Drunk
-Wide Awake Drunk	Type	Creativework
-Wide Awake Drunk	Type	Q2188189
-Wide Awake Drunk	Type	Q386724
-Wide Awake Drunk	Type	Q482994
-Wide Awake Drunk	Type	Whole100003553
-Wide Awake Drunk	Type	Album106591815
-Wide Awake Drunk	Type	Musical Work
-Wide Awake Drunk	Type	Physicalentity100001930
-Wide Awake Drunk	Type	2009Albums
-Wide Awake Drunk	Type	Album
-Wide Awake Drunk	Type	Instrumentality103575240
-Wide Awake Drunk	Type	Thing
-Wide Awake Drunk	Type	Work
-Wide Awake Drunk	Type	Medium106254669
-Wide Awake Drunk	Type	Artifact100021939
-Wide Awake Drunk	Type	Object100002684
-Wide Awake Drunk	Type	Musicalbum
-Wide Awake Drunk	Runtime (S)	3259.0
-Wide Awake Drunk	Type	Album
-Wide Awake Drunk	Previous Work	Fluke Ep
-Wide Awake Drunk	Subsequent Work	Invisible Tape
-Wide Awake Drunk	Recorded In	Atlanta
-Wide Awake Drunk	Recorded In	New York
+Wide_Awake_Drunk	subject	2009 Albums
+Wide_Awake_Drunk	Genre	Indie Folk
+Wide_Awake_Drunk	Performer	Greg_Connors
+Wide_Awake_Drunk	Producer	Stan_Satin
+Wide_Awake_Drunk	label	Wide Awake Drunk
+Wide_Awake_Drunk	Record Label	Scared Records
+Invisible_Tape	Previous Work	Wide_Awake_Drunk
+Wide_Awake_Drunk	name	Wide Awake Drunk
+Wide_Awake_Drunk	type	CreativeWork
+Wide_Awake_Drunk	type	Q2188189
+Wide_Awake_Drunk	type	Q386724
+Wide_Awake_Drunk	type	Q482994
+Wide_Awake_Drunk	type	Whole100003553
+Wide_Awake_Drunk	type	Album106591815
+Wide_Awake_Drunk	type	Musical Work
+Wide_Awake_Drunk	type	PhysicalEntity100001930
+Wide_Awake_Drunk	type	2009Albums
+Wide_Awake_Drunk	type	Album
+Wide_Awake_Drunk	type	Instrumentality103575240
+Wide_Awake_Drunk	type	Thing
+Wide_Awake_Drunk	type	Work
+Wide_Awake_Drunk	type	Medium106254669
+Wide_Awake_Drunk	type	Artifact100021939
+Wide_Awake_Drunk	type	Object100002684
+Wide_Awake_Drunk	type	MusicAlbum
+Wide_Awake_Drunk	Runtime (S)	3259.0
+Wide_Awake_Drunk	Type	Album
+Wide_Awake_Drunk	Previous Work	Fluke_EP
+Wide_Awake_Drunk	Subsequent Work	Invisible_Tape
+Wide_Awake_Drunk	Recorded In	Atlanta
+Wide_Awake_Drunk	Recorded In	New York

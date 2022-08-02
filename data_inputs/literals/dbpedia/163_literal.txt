@@ -1,38 +1,38 @@
-Silence Is Easy (Song)	Writer	Starsailor (Band)
+Silence Is Easy (Song)	Auteur	Starsailor (Band)
 Silence Is Easy (Song)	Runtime (S)	220.0
 Silence Is Easy (Song)	Musical Artist	Starsailor (Band)
-Silence Is Easy (Song)	Label	Silence Is Easy (Song)
-Silence Is Easy (Song)	Type	Creativework
-Silence Is Easy (Song)	Type	Musical Work
-Silence Is Easy (Song)	Type	2003Singles
-Silence Is Easy (Song)	Type	Whole100003553
-Silence Is Easy (Song)	Type	Thing
-Silence Is Easy (Song)	Type	Object100002684
-Silence Is Easy (Song)	Type	Single
-Silence Is Easy (Song)	Type	Medium106254669
-Silence Is Easy (Song)	Type	Q386724
-Silence Is Easy (Song)	Type	Physicalentity100001930
-Silence Is Easy (Song)	Type	Q2188189
-Silence Is Easy (Song)	Type	Instrumentality103575240
-Silence Is Easy (Song)	Type	Artifact100021939
-Silence Is Easy (Song)	Type	Work
-Silence Is Easy (Song)	Type	Q134556
+Silence Is Easy (Song)	label	Silence Is Easy (Song)
+Silence Is Easy (Song)	type	CreativeWork
+Silence Is Easy (Song)	type	Musical Work
+Silence Is Easy (Song)	type	2003Singles
+Silence Is Easy (Song)	type	Whole100003553
+Silence Is Easy (Song)	type	Thing
+Silence Is Easy (Song)	type	Object100002684
+Silence Is Easy (Song)	type	Single
+Silence Is Easy (Song)	type	Medium106254669
+Silence Is Easy (Song)	type	Q386724
+Silence Is Easy (Song)	type	PhysicalEntity100001930
+Silence Is Easy (Song)	type	Q2188189
+Silence Is Easy (Song)	type	Instrumentality103575240
+Silence Is Easy (Song)	type	Artifact100021939
+Silence Is Easy (Song)	type	Work
+Silence Is Easy (Song)	type	Q134556
 Silence Is Easy (Song)	Producer	Phil Spector
 Silence Is Easy (Song)	Record Label	EMI
 Poor Misguided Fool	Subsequent Work	Silence Is Easy (Song)
 Silence Is Easy (Song)	Previous Work	Poor Misguided Fool
-Silence Is Easy (Song)	Subject	Emi Records Singles
-Silence Is Easy (Song)	Subject	Songs Written By James Walsh (Musician)
-Silence Is Easy (Song)	Subject	Songs Written By Barry Westhead
-Silence Is Easy (Song)	Subject	2003 Singles
-Silence Is Easy (Song)	Subject	Starsailor (Band) Songs
-Silence Is Easy (Song)	Subject	Songs Written By James Stelfox
-Silence Is Easy (Song)	Subject	Song Recordings Produced By Phil Spector
-Silence Is Easy (Song)	Subject	2003 Songs
+Silence Is Easy (Song)	subject	Emi Records Singles
+Silence Is Easy (Song)	subject	Songs Written By James Walsh (Musician)
+Silence Is Easy (Song)	subject	Songs Written By Barry Westhead
+Silence Is Easy (Song)	subject	2003 Singles
+Silence Is Easy (Song)	subject	Starsailor (Band) Songs
+Silence Is Easy (Song)	subject	Songs Written By James Stelfox
+Silence Is Easy (Song)	subject	Song Recordings Produced By Phil Spector
+Silence Is Easy (Song)	subject	2003 Songs
 Silence Is Easy (Song)	Release Date	2003-09-01
 Silence Is Easy (Song)	Genre	Alternative Rock
 Silence Is Easy (Song)	Subsequent Work	Born Again (Starsailor Song)
 Silence Is Easy (Song)	Musical Band	Starsailor (Band)
-Silence Is Easy (Song)	Name	Silence Is Easy
+Silence Is Easy (Song)	name	Silence Is Easy
 Born Again (Starsailor Song)	Previous Work	Silence Is Easy (Song)
 Silence Is Easy (Song)	Album	Silence Is Easy

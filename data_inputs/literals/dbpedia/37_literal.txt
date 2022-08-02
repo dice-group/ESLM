@@ -1,16 +1,16 @@
-Ovophis	Type	Species
-Ovophis	Type	Reptile
-Ovophis	Type	Thing
-Ovophis	Type	Q729
-Ovophis	Type	Eukaryote
-Ovophis	Type	Q19088
-Ovophis	Type	Animal
+Ovophis	type	Species
+Ovophis	type	Reptile
+Ovophis	type	Thing
+Ovophis	type	Q729
+Ovophis	type	Eukaryote
+Ovophis	type	Q19088
+Ovophis	type	Animal
 Ovophis	Kingdom	Animal
-Ovophis	Subject	Crotalinae
-Ovophis	Name	Ovophis
+Ovophis	subject	Crotalinae
+Ovophis	name	Ovophis
 Ovophis	Family	Viperidae
 Ovophis	Family	Pit Viper
-Ovophis	Label	Ovophis
+Ovophis	label	Ovophis
 Ovophis	Phylum	Vertebrate
 Ovophis	Phylum	Chordate
 Ovophis	Order (Taxonomy)	Squamata

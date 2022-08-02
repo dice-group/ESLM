@@ -1,29 +1,29 @@
-Edmund Smith Conklin	Type	Person
-Edmund Smith Conklin	Type	Q215627
-Edmund Smith Conklin	Type	Agent
-Edmund Smith Conklin	Type	Thing
-Edmund Smith Conklin	Type	Person
-Edmund Smith Conklin	Type	Person
-Edmund Smith Conklin	Type	Q5
-Edmund Smith Conklin	Type	Naturalperson
-Edmund Smith Conklin	Type	Agent
-Edmund Smith Conklin	Subject	Anomalistic Psychology
-Edmund Smith Conklin	Subject	Clark University Alumni
-Edmund Smith Conklin	Subject	People From New Britain, Connecticut
-Edmund Smith Conklin	Subject	American Psychologists
-Edmund Smith Conklin	Subject	Indiana University Faculty
-Edmund Smith Conklin	Subject	Syracuse University Faculty
-Edmund Smith Conklin	Subject	University Of Chicago Alumni
-Edmund Smith Conklin	Subject	1942 Deaths
-Edmund Smith Conklin	Subject	1884 Births
-Edmund Smith Conklin	Name	Conklin, Edmund Smith
-Edmund Smith Conklin	Name	Edmund Smith Conklin
+Edmund Smith Conklin	type	Person
+Edmund Smith Conklin	type	Q215627
+Edmund Smith Conklin	type	Agent
+Edmund Smith Conklin	type	Thing
+Edmund Smith Conklin	type	Person
+Edmund Smith Conklin	type	Person
+Edmund Smith Conklin	type	Q5
+Edmund Smith Conklin	type	NaturalPerson
+Edmund Smith Conklin	type	Agent
+Edmund Smith Conklin	subject	Anomalistic Psychology
+Edmund Smith Conklin	subject	Clark University Alumni
+Edmund Smith Conklin	subject	People From New Britain, Connecticut
+Edmund Smith Conklin	subject	American Psychologists
+Edmund Smith Conklin	subject	Indiana University Faculty
+Edmund Smith Conklin	subject	Syracuse University Faculty
+Edmund Smith Conklin	subject	University Of Chicago Alumni
+Edmund Smith Conklin	subject	1942 Deaths
+Edmund Smith Conklin	subject	1884 Births
+Edmund Smith Conklin	name	Conklin, Edmund Smith
+Edmund Smith Conklin	name	Edmund Smith Conklin
 Edmund Smith Conklin	Death Date	1942-10-06
 Edmund Smith Conklin	Birth Year	1884-01-01
-Edmund Smith Conklin	Givenname	Edmund Smith
+Edmund Smith Conklin	givenName	Edmund Smith
 Edmund Smith Conklin	Birth Date	1884-04-19
-Edmund Smith Conklin	Surname	Conklin
+Edmund Smith Conklin	surname	Conklin
 Edmund Smith Conklin	Death Year	1942-01-01
-Edmund Smith Conklin	Description	American Psychologist
-Edmund Smith Conklin	Description	American Psychologist
-Edmund Smith Conklin	Label	Edmund Smith Conklin
+Edmund Smith Conklin	description	American Psychologist
+Edmund Smith Conklin	description	American Psychologist
+Edmund Smith Conklin	label	Edmund Smith Conklin

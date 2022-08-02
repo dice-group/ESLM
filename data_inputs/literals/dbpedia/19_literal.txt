@@ -1,25 +1,25 @@
 Massacre On 34Th Street	Previous Event	November To Remember
-Massacre On 34Th Street	Type	Thing
-Massacre On 34Th Street	Type	Wrestling Event
-Massacre On 34Th Street	Type	Q1656682
-Massacre On 34Th Street	Type	Societal Event
-Massacre On 34Th Street	Type	Sports Event
-Massacre On 34Th Street	Type	Sportsevent
-Massacre On 34Th Street	Type	Event
-Massacre On 34Th Street	Type	Event
-Massacre On 34Th Street	Type	Event
+Massacre On 34Th Street	type	Thing
+Massacre On 34Th Street	type	Wrestling Event
+Massacre On 34Th Street	type	Q1656682
+Massacre On 34Th Street	type	Societal Event
+Massacre On 34Th Street	type	Sports Event
+Massacre On 34Th Street	type	SportsEvent
+Massacre On 34Th Street	type	Event
+Massacre On 34Th Street	type	Event
+Massacre On 34Th Street	type	Event
 Massacre On 34Th Street	Following Event	Guilty As Charged
 Massacre On 34Th Street	Date	2000-12-03
 Massacre On 34Th Street	Promotion	Extreme Championship Wrestling
-Massacre On 34Th Street	Subject	Extreme Championship Wrestling Shows
-Massacre On 34Th Street	Subject	Professional Wrestling In New York
-Massacre On 34Th Street	Subject	Sports In Manhattan
-Massacre On 34Th Street	Subject	2000 In Professional Wrestling
-Massacre On 34Th Street	Subject	2000 In New York
+Massacre On 34Th Street	subject	Extreme Championship Wrestling Shows
+Massacre On 34Th Street	subject	Professional_wrestling_in_New_York
+Massacre On 34Th Street	subject	Sports In Manhattan
+Massacre On 34Th Street	subject	2000 In Professional Wrestling
+Massacre On 34Th Street	subject	2000_in_New_York
 Massacre On 34Th Street	Location	Hammerstein Ballroom
 Massacre On 34Th Street	Location	New York City
 November To Remember	Following Event	Massacre On 34Th Street
-Massacre On 34Th Street	Label	Massacre On 34Th Street
-Massacre On 34Th Street	Name	Massacre On 34Th Street
+Massacre On 34Th Street	label	Massacre On 34Th Street
+Massacre On 34Th Street	name	Massacre On 34Th Street
 Holiday Hell	Previous Event	Massacre On 34Th Street
 Guilty As Charged	Previous Event	Massacre On 34Th Street

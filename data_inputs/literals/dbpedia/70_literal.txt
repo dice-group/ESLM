@@ -1,54 +1,54 @@
-Operation Hump	Depiction	Us 1 503Rd Paratrooper Operation Hump Svn November 1965.Png
+Operation Hump	depiction	US_1_503rd_paratrooper_Operation_Hump_SVN_November_1965.PNG
 Operation Hump	Is Part Of Military Conflict	Vietnam War
 173Rd Airborne Brigade Combat Team	Battle	Operation Hump
 Lawrence Joel	Battle	Operation Hump
 1St Brigade Combat Team, 1St Cavalry Division (United States)	Battle	Operation Hump
-Operation Hump	Subject	Battles Of The Vietnam War Involving New Zealand
-Operation Hump	Subject	Campaigns Of The Vietnam War
-Operation Hump	Subject	1965 In Vietnam
-Operation Hump	Subject	Battles Of The Vietnam War Involving The United States
-Operation Hump	Subject	Dong Nai Province
-Operation Hump	Subject	Battles Involving Vietnam
-Operation Hump	Subject	Conflicts In 1965
-Operation Hump	Subject	Battles Of The Vietnam War Involving Australia
+Operation Hump	subject	Battles Of The Vietnam War Involving New Zealand
+Operation Hump	subject	Campaigns Of The Vietnam War
+Operation Hump	subject	1965 In Vietnam
+Operation Hump	subject	Battles Of The Vietnam War Involving The United States
+Operation Hump	subject	Dong_Nai_Province
+Operation Hump	subject	Battles Involving Vietnam
+Operation Hump	subject	Conflicts In 1965
+Operation Hump	subject	Battles Of The Vietnam War Involving Australia
 Operation Hump	Date	1965-11-08
-Operation Hump	Thumbnail	Us 1 503Rd Paratrooper Operation Hump Svn November 1965.Png?Width=300
+Operation Hump	Thumbnail	US_1_503rd_paratrooper_Operation_Hump_SVN_November_1965.PNG?width=300
 Operation Hump	Result	United States/Australian Victory, Viet Cong Retreats.
 Operation Hump	Causalties	48 Us Killed
 Operation Hump	Causalties	Many More Wounded
 Operation Hump	Causalties	2 Australian Mia (Located And Repatriated To Australia 5 June 2007)
-Operation Hump	Label	Operation Hump
+Operation Hump	label	Operation Hump
 Operation Hump	Relates An Entity To The Populated Place In Which It Is Located.	Biên Hòa
 Operation Hump	Relates An Entity To The Populated Place In Which It Is Located.	South Vietnam
-Operation Hump	Name	Operation Hump
+Operation Hump	name	Operation Hump
 Operation Hump	Strength	Total Force Around 400
 Operation Hump	Strength	Around 1200
-Operation Hump	Type	Contest107456188
-Operation Hump	Type	Conflict100958896
-Operation Hump	Type	Battlesofthevietnamwarinvolvingnewzealand
-Operation Hump	Type	Q1656682
-Operation Hump	Type	Campaignsofthevietnamwar
-Operation Hump	Type	Battle100953559
-Operation Hump	Type	Groupaction101080366
-Operation Hump	Type	Event100029378
-Operation Hump	Type	Thing
-Operation Hump	Type	Battlesofthevietnamwarinvolvingaustralia
-Operation Hump	Type	Conflictsin1965
-Operation Hump	Type	Psychologicalfeature100023100
-Operation Hump	Type	Socialevent107288639
-Operation Hump	Type	Race107472657
-Operation Hump	Type	Event
-Operation Hump	Type	Abstraction100002137
-Operation Hump	Type	Politicalcampaign107472929
-Operation Hump	Type	Act100030358
-Operation Hump	Type	Military Conflict
-Operation Hump	Type	Militaryaction100952963
-Operation Hump	Type	Event
-Operation Hump	Type	Event
-Operation Hump	Type	Societal Event
-Operation Hump	Type	Battlesinvolvingvietnam
-Operation Hump	Type	Battlesofthevietnamwarinvolvingtheunitedstates
-Operation Hump	Type	Yagopermanentlylocatedentity
+Operation Hump	type	Contest107456188
+Operation Hump	type	Conflict100958896
+Operation Hump	type	BattlesOfTheVietnamWarInvolvingNewZealand
+Operation Hump	type	Q1656682
+Operation Hump	type	CampaignsOfTheVietnamWar
+Operation Hump	type	Battle100953559
+Operation Hump	type	GroupAction101080366
+Operation Hump	type	Event100029378
+Operation Hump	type	Thing
+Operation Hump	type	BattlesOfTheVietnamWarInvolvingAustralia
+Operation Hump	type	ConflictsIn1965
+Operation Hump	type	PsychologicalFeature100023100
+Operation Hump	type	SocialEvent107288639
+Operation Hump	type	Race107472657
+Operation Hump	type	Event
+Operation Hump	type	Abstraction100002137
+Operation Hump	type	PoliticalCampaign107472929
+Operation Hump	type	Act100030358
+Operation Hump	type	Military Conflict
+Operation Hump	type	MilitaryAction100952963
+Operation Hump	type	Event
+Operation Hump	type	Event
+Operation Hump	type	Societal Event
+Operation Hump	type	BattlesInvolvingVietnam
+Operation Hump	type	BattlesOfTheVietnamWarInvolvingTheUnitedStates
+Operation Hump	type	YagoPermanentlyLocatedEntity
 Operation Hump	Combatant	22Pxviet Cong
 Operation Hump	Combatant	22Pxunited States
 Operation Hump	Combatant	22Pxaustralia

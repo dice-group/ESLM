@@ -1,75 +1,75 @@
 Momchil Tsvetanov	Birth Place	Pleven
 Momchil Tsvetanov	Birth Place	Bulgaria
-Momchil Tsvetanov	Name	Momchil Emilov Tsvetanov
-Momchil Tsvetanov	Name	Momchil Tsvetanov
-Momchil Tsvetanov	Name	Tsvetanov, Momchil
-Momchil Tsvetanov	Type	Pfclitexlovechplayers
-Momchil Tsvetanov	Type	Player110439851
-Momchil Tsvetanov	Type	Bulgarianfootballers
-Momchil Tsvetanov	Type	Footballplayer110101634
-Momchil Tsvetanov	Type	Bulgarianaprofessionalfootballgroupplayers
-Momchil Tsvetanov	Type	Q215627
-Momchil Tsvetanov	Type	Person100007846
-Momchil Tsvetanov	Type	Thing
-Momchil Tsvetanov	Type	Agent
-Momchil Tsvetanov	Type	Soccer Player
-Momchil Tsvetanov	Type	Pfcspartakplevenplayers
-Momchil Tsvetanov	Type	Livingthing100004258
-Momchil Tsvetanov	Type	Agent
-Momchil Tsvetanov	Type	Yagolegalactorgeo
-Momchil Tsvetanov	Type	Person
-Momchil Tsvetanov	Type	Livingpeople
-Momchil Tsvetanov	Type	Athlete109820263
-Momchil Tsvetanov	Type	Athlete
-Momchil Tsvetanov	Type	Contestant109613191
-Momchil Tsvetanov	Type	Yagolegalactor
-Momchil Tsvetanov	Type	Whole100003553
-Momchil Tsvetanov	Type	Causalagent100007347
-Momchil Tsvetanov	Type	Person
-Momchil Tsvetanov	Type	Physicalentity100001930
-Momchil Tsvetanov	Type	Naturalperson
-Momchil Tsvetanov	Type	Q5
-Momchil Tsvetanov	Type	Q937857
-Momchil Tsvetanov	Type	Organism100004475
-Momchil Tsvetanov	Type	Object100002684
-Momchil Tsvetanov	Type	Person
-Momchil Tsvetanov	Subject	Pfc Cska Sofia Players
-Momchil Tsvetanov	Subject	Living People
-Momchil Tsvetanov	Subject	Pfc Botev Plovdiv Players
-Momchil Tsvetanov	Subject	Pfc Litex Lovech Players
-Momchil Tsvetanov	Subject	Pfc Spartak Pleven Players
-Momchil Tsvetanov	Subject	Association Football Midfielders
-Momchil Tsvetanov	Subject	Bulgarian A Football Group Players
-Momchil Tsvetanov	Subject	Bulgarian Footballers
-Momchil Tsvetanov	Subject	1990 Births
+Momchil Tsvetanov	name	Momchil Emilov Tsvetanov
+Momchil Tsvetanov	name	Momchil Tsvetanov
+Momchil Tsvetanov	name	Tsvetanov, Momchil
+Momchil Tsvetanov	type	PFCLitexLovechPlayers
+Momchil Tsvetanov	type	Player110439851
+Momchil Tsvetanov	type	BulgarianFootballers
+Momchil Tsvetanov	type	FootballPlayer110101634
+Momchil Tsvetanov	type	BulgarianAProfessionalFootballGroupPlayers
+Momchil Tsvetanov	type	Q215627
+Momchil Tsvetanov	type	Person100007846
+Momchil Tsvetanov	type	Thing
+Momchil Tsvetanov	type	Agent
+Momchil Tsvetanov	type	Soccer Player
+Momchil Tsvetanov	type	PFCSpartakPlevenPlayers
+Momchil Tsvetanov	type	LivingThing100004258
+Momchil Tsvetanov	type	Agent
+Momchil Tsvetanov	type	YagoLegalActorGeo
+Momchil Tsvetanov	type	Person
+Momchil Tsvetanov	type	LivingPeople
+Momchil Tsvetanov	type	Athlete109820263
+Momchil Tsvetanov	type	Athlete
+Momchil Tsvetanov	type	Contestant109613191
+Momchil Tsvetanov	type	YagoLegalActor
+Momchil Tsvetanov	type	Whole100003553
+Momchil Tsvetanov	type	CausalAgent100007347
+Momchil Tsvetanov	type	Person
+Momchil Tsvetanov	type	PhysicalEntity100001930
+Momchil Tsvetanov	type	NaturalPerson
+Momchil Tsvetanov	type	Q5
+Momchil Tsvetanov	type	Q937857
+Momchil Tsvetanov	type	Organism100004475
+Momchil Tsvetanov	type	Object100002684
+Momchil Tsvetanov	type	Person
+Momchil Tsvetanov	subject	Pfc Cska Sofia Players
+Momchil Tsvetanov	subject	Living People
+Momchil Tsvetanov	subject	Pfc Botev Plovdiv Players
+Momchil Tsvetanov	subject	Pfc Litex Lovech Players
+Momchil Tsvetanov	subject	Pfc Spartak Pleven Players
+Momchil Tsvetanov	subject	Association Football Midfielders
+Momchil Tsvetanov	subject	Bulgarian A Football Group Players
+Momchil Tsvetanov	subject	Bulgarian Footballers
+Momchil Tsvetanov	subject	1990 Births
 Momchil Tsvetanov	Number	7
 Momchil Tsvetanov	Height (Μ)	1.73
 Momchil Tsvetanov	Alias	Момчил Цветанов
-Momchil Tsvetanov	Surname	Tsvetanov
-Momchil Tsvetanov	Thumbnail	Momchil Cvetanov.Jpg?Width=300
-Momchil Tsvetanov	Label	Momchil Tsvetanov
+Momchil Tsvetanov	surname	Tsvetanov
+Momchil Tsvetanov	Thumbnail	Momchil_Cvetanov.JPG?width=300
+Momchil Tsvetanov	label	Momchil Tsvetanov
 Momchil Tsvetanov	Position	Midfielder
-Momchil Tsvetanov	Description	Bulgarian Footballer
-Momchil Tsvetanov	Description	Bulgarian Footballer
+Momchil Tsvetanov	description	Bulgarian Footballer
+Momchil Tsvetanov	description	Bulgarian Footballer
 Momchil Tsvetanov	Birth Date	1990-03-12
 Momchil Tsvetanov	Birth Date	1990-12-03
-Momchil Tsvetanov	Givenname	Momchil
+Momchil Tsvetanov	givenName	Momchil
 Momchil Tsvetanov	Team	Pfc Cska Sofia
 Momchil Tsvetanov	Team	Pfc Botev Plovdiv
 Momchil Tsvetanov	Team	Pfc Litex Lovech
 Momchil Tsvetanov	Team	Bulgaria National Under-19 Football Team
 Momchil Tsvetanov	Team	Bulgaria National Under-21 Football Team
 Momchil Tsvetanov	Team	Pfc Spartak Pleven
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  7
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  5
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  1
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  3
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  4
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  2
-Momchil Tsvetanov	Career Station	Momchil Tsvetanov  6
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__7
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__5
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__1
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__3
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__4
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__2
+Momchil Tsvetanov	Career Station	Momchil_Tsvetanov__6
 Momchil Tsvetanov	Birth Year	1990-01-01
-Momchil Tsvetanov	Depiction	Momchil Cvetanov.Jpg
+Momchil Tsvetanov	depiction	Momchil_Cvetanov.JPG
 List Of Bulgarian Football Transfers Summer 2015	Current Member	Momchil Tsvetanov
 List Of Bulgarian Football Transfers Summer 2014	Current Member	Momchil Tsvetanov
-2015–16 Pfc Cska Sofia Season  Momchil Tsvetanov  1	Current Member	Momchil Tsvetanov
-Pfc Cska Sofia  Momchil Tsvetanov  1	Current Member	Momchil Tsvetanov
+2015–16_PFC_CSKA_Sofia_season__Momchil_Tsvetanov__1	Current Member	Momchil Tsvetanov
+PFC_CSKA_Sofia__Momchil_Tsvetanov__1	Current Member	Momchil Tsvetanov

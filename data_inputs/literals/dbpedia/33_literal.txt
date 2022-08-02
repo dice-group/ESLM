@@ -1,29 +1,29 @@
-Eastern Sumatran Rhinoceros	Label	Eastern Sumatran Rhinoceros
-Eastern Sumatran Rhinoceros	Name	Eastern Sumatran Rhinoceros
-Eastern Sumatran Rhinoceros	Conservation Status	EW
+Eastern Sumatran Rhinoceros	label	Eastern Sumatran Rhinoceros
+Eastern Sumatran Rhinoceros	name	Eastern Sumatran Rhinoceros
+Eastern Sumatran Rhinoceros	État De Conservation	EW
 Eastern Sumatran Rhinoceros	Kingdom	Animal
-Eastern Sumatran Rhinoceros	Depiction	Patung Badak Sumbu.Jpg
+Eastern Sumatran Rhinoceros	depiction	Patung_badak_sumbu.JPG
 Eastern Sumatran Rhinoceros	Genus	Sumatran Rhinoceros
 Eastern Sumatran Rhinoceros	Family	Rhinoceros
-Eastern Sumatran Rhinoceros	Thumbnail	Patung Badak Sumbu.Jpg?Width=300
-Eastern Sumatran Rhinoceros	Subject	Mammals Of Southeast Asia
-Eastern Sumatran Rhinoceros	Subject	Mammals Of Borneo
-Eastern Sumatran Rhinoceros	Subject	Mammals Of Indonesia
-Eastern Sumatran Rhinoceros	Subject	Rhinoceroses
-Eastern Sumatran Rhinoceros	Subject	Mammal Extinctions Since 1500
-Eastern Sumatran Rhinoceros	Subject	Mammals Of Malaysia
-Eastern Sumatran Rhinoceros	Subject	Animals Described In 1965
-Eastern Sumatran Rhinoceros	Subject	Species Made Extinct By Human Activities
+Eastern Sumatran Rhinoceros	Thumbnail	Patung_badak_sumbu.JPG?width=300
+Eastern Sumatran Rhinoceros	subject	Mammals Of Southeast Asia
+Eastern Sumatran Rhinoceros	subject	Mammals Of Borneo
+Eastern Sumatran Rhinoceros	subject	Mammals Of Indonesia
+Eastern Sumatran Rhinoceros	subject	Rhinoceroses
+Eastern Sumatran Rhinoceros	subject	Mammal Extinctions Since 1500
+Eastern Sumatran Rhinoceros	subject	Mammals Of Malaysia
+Eastern Sumatran Rhinoceros	subject	Animals Described In 1965
+Eastern Sumatran Rhinoceros	subject	Species Made Extinct By Human Activities
 Eastern Sumatran Rhinoceros	Phylum	Chordate
 Eastern Sumatran Rhinoceros	Order (Taxonomy)	Odd-Toed Ungulate
 Eastern Sumatran Rhinoceros	Class	Mammal
-Eastern Sumatran Rhinoceros	Type	Animal
-Eastern Sumatran Rhinoceros	Type	Mammal
-Eastern Sumatran Rhinoceros	Type	Q7377
-Eastern Sumatran Rhinoceros	Type	Species
-Eastern Sumatran Rhinoceros	Type	Thing
-Eastern Sumatran Rhinoceros	Type	Eukaryote
-Eastern Sumatran Rhinoceros	Type	Q19088
-Eastern Sumatran Rhinoceros	Type	Q729
+Eastern Sumatran Rhinoceros	type	Animal
+Eastern Sumatran Rhinoceros	type	Mammal
+Eastern Sumatran Rhinoceros	type	Q7377
+Eastern Sumatran Rhinoceros	type	Species
+Eastern Sumatran Rhinoceros	type	Thing
+Eastern Sumatran Rhinoceros	type	Eukaryote
+Eastern Sumatran Rhinoceros	type	Q19088
+Eastern Sumatran Rhinoceros	type	Q729
 Eastern Sumatran Rhinoceros	Species	Sumatran Rhinoceros
 Eastern Sumatran Rhinoceros	Conservation Status System	Iucn3.1

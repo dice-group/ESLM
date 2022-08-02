@@ -1,31 +1,31 @@
 Gonyosoma Hodgsoni	Kingdom	Animal
 Gonyosoma Hodgsoni	Genus	Gonyosoma
-Gonyosoma Hodgsoni	Type	Q729
-Gonyosoma Hodgsoni	Type	Snake101726692
-Gonyosoma Hodgsoni	Type	Chordate101466257
-Gonyosoma Hodgsoni	Type	Diapsid101661818
-Gonyosoma Hodgsoni	Type	Livingthing100004258
-Gonyosoma Hodgsoni	Type	Reptile101661091
-Gonyosoma Hodgsoni	Type	Q19088
-Gonyosoma Hodgsoni	Type	Colubridsnake101727646
-Gonyosoma Hodgsoni	Type	Thing
-Gonyosoma Hodgsoni	Type	Colubrids
-Gonyosoma Hodgsoni	Type	Eukaryote
-Gonyosoma Hodgsoni	Type	Physicalentity100001930
-Gonyosoma Hodgsoni	Type	Whole100003553
-Gonyosoma Hodgsoni	Type	Animal
-Gonyosoma Hodgsoni	Type	Object100002684
-Gonyosoma Hodgsoni	Type	Animal100015388
-Gonyosoma Hodgsoni	Type	Vertebrate101471682
-Gonyosoma Hodgsoni	Type	Reptile
-Gonyosoma Hodgsoni	Type	Species
-Gonyosoma Hodgsoni	Type	Organism100004475
+Gonyosoma Hodgsoni	type	Q729
+Gonyosoma Hodgsoni	type	Snake101726692
+Gonyosoma Hodgsoni	type	Chordate101466257
+Gonyosoma Hodgsoni	type	Diapsid101661818
+Gonyosoma Hodgsoni	type	LivingThing100004258
+Gonyosoma Hodgsoni	type	Reptile101661091
+Gonyosoma Hodgsoni	type	Q19088
+Gonyosoma Hodgsoni	type	ColubridSnake101727646
+Gonyosoma Hodgsoni	type	Thing
+Gonyosoma Hodgsoni	type	Colubrids
+Gonyosoma Hodgsoni	type	Eukaryote
+Gonyosoma Hodgsoni	type	PhysicalEntity100001930
+Gonyosoma Hodgsoni	type	Whole100003553
+Gonyosoma Hodgsoni	type	Animal
+Gonyosoma Hodgsoni	type	Object100002684
+Gonyosoma Hodgsoni	type	Animal100015388
+Gonyosoma Hodgsoni	type	Vertebrate101471682
+Gonyosoma Hodgsoni	type	Reptile
+Gonyosoma Hodgsoni	type	Species
+Gonyosoma Hodgsoni	type	Organism100004475
 Gonyosoma Hodgsoni	Order (Taxonomy)	Squamata
 Gonyosoma Hodgsoni	Order (Taxonomy)	Snake
 Gonyosoma Hodgsoni	Family	Colubridae
 Gonyosoma Hodgsoni	Phylum	Chordate
-Gonyosoma Hodgsoni	Subject	Colubrids
+Gonyosoma Hodgsoni	subject	Colubrids
 Gonyosoma Hodgsoni	Class	Reptile
-Gonyosoma Hodgsoni	Label	Gonyosoma Hodgsoni
-Gonyosoma Hodgsoni	Name	Gonyosoma Hodgsoni
+Gonyosoma Hodgsoni	label	Gonyosoma Hodgsoni
+Gonyosoma Hodgsoni	name	Gonyosoma Hodgsoni
 Gonyosoma Hodgsoni	Synonym	Elaphe Hodgsoni

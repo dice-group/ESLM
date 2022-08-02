@@ -1,103 +1,103 @@
 Adrian Griffin	Active Years End Year	2008-01-01
-Adrian Griffin	Term Period	Adrian Griffin  5
-Adrian Griffin	Term Period	Adrian Griffin  4
-Adrian Griffin	Term Period	Adrian Griffin  7
-Adrian Griffin	Term Period	Adrian Griffin  8
-Adrian Griffin	Term Period	Adrian Griffin  3
-Adrian Griffin	Term Period	Adrian Griffin  2
-Adrian Griffin	Term Period	Adrian Griffin  9
-Adrian Griffin	Term Period	Adrian Griffin  1
-Adrian Griffin	Term Period	Adrian Griffin  6
-Adrian Griffin	Term Period	Adrian Griffin  10
+Adrian Griffin	Term Period	Adrian_Griffin__5
+Adrian Griffin	Term Period	Adrian_Griffin__4
+Adrian Griffin	Term Period	Adrian_Griffin__7
+Adrian Griffin	Term Period	Adrian_Griffin__8
+Adrian Griffin	Term Period	Adrian_Griffin__3
+Adrian Griffin	Term Period	Adrian_Griffin__2
+Adrian Griffin	Term Period	Adrian_Griffin__9
+Adrian Griffin	Term Period	Adrian_Griffin__1
+Adrian Griffin	Term Period	Adrian_Griffin__6
+Adrian Griffin	Term Period	Adrian_Griffin__10
 Adrian Griffin	Weight (G)	98431.2
-Adrian Griffin	Label	Adrian Griffin
-Adrian Griffin	Type	Object100002684
-Adrian Griffin	Type	Q3665646
-Adrian Griffin	Type	Shootingguards
-Adrian Griffin	Type	Leader109623038
-Adrian Griffin	Type	Person
-Adrian Griffin	Type	Person
-Adrian Griffin	Type	Person
-Adrian Griffin	Type	Setonhallpiratesmen'Sbasketballplayers
-Adrian Griffin	Type	Naturalperson
-Adrian Griffin	Type	Basketballplayer109842047
-Adrian Griffin	Type	Livingthing100004258
-Adrian Griffin	Type	Chicagobullsplayers
-Adrian Griffin	Type	Agent
-Adrian Griffin	Type	Milwaukeebucksassistantcoaches
-Adrian Griffin	Type	Thing
-Adrian Griffin	Type	Houstonrocketsplayers
-Adrian Griffin	Type	Forward110105733
-Adrian Griffin	Type	Livingpeople
-Adrian Griffin	Type	Basketball Player
-Adrian Griffin	Type	Person100007846
-Adrian Griffin	Type	Seattlesupersonicsplayers
-Adrian Griffin	Type	Q215627
-Adrian Griffin	Type	Africanamericanbasketballcoaches
-Adrian Griffin	Type	Smallforwards
-Adrian Griffin	Type	Yagolegalactorgeo
-Adrian Griffin	Type	Africanamericanbasketballplayers
-Adrian Griffin	Type	Athlete
-Adrian Griffin	Type	Basketballplayersfromkansas
-Adrian Griffin	Type	Player110439851
-Adrian Griffin	Type	Basketballcoach109841955
-Adrian Griffin	Type	Organism100004475
-Adrian Griffin	Type	Yagolegalactor
-Adrian Griffin	Type	Causalagent100007347
-Adrian Griffin	Type	Undraftednationalbasketballassociationplayers
-Adrian Griffin	Type	Agent
-Adrian Griffin	Type	Bostoncelticsplayers
-Adrian Griffin	Type	Contestant109613191
-Adrian Griffin	Type	Preserver110466918
-Adrian Griffin	Type	Trainer110722575
-Adrian Griffin	Type	Q5
-Adrian Griffin	Type	Guard110150071
-Adrian Griffin	Type	Athlete109820263
-Adrian Griffin	Type	Physicalentity100001930
-Adrian Griffin	Type	Dallasmavericksplayers
-Adrian Griffin	Type	Peoplefromwichita,Kansas
-Adrian Griffin	Type	Defender109614684
-Adrian Griffin	Type	Connecticutprideplayers
-Adrian Griffin	Type	Chicagobullsassistantcoaches
-Adrian Griffin	Type	Whole100003553
-Adrian Griffin	Type	Coach109931640
+Adrian Griffin	label	Adrian Griffin
+Adrian Griffin	type	Object100002684
+Adrian Griffin	type	Q3665646
+Adrian Griffin	type	ShootingGuards
+Adrian Griffin	type	Leader109623038
+Adrian Griffin	type	Person
+Adrian Griffin	type	Person
+Adrian Griffin	type	Person
+Adrian Griffin	type	SetonHallPiratesMen'sBasketballPlayers
+Adrian Griffin	type	NaturalPerson
+Adrian Griffin	type	BasketballPlayer109842047
+Adrian Griffin	type	LivingThing100004258
+Adrian Griffin	type	ChicagoBullsPlayers
+Adrian Griffin	type	Agent
+Adrian Griffin	type	MilwaukeeBucksAssistantCoaches
+Adrian Griffin	type	Thing
+Adrian Griffin	type	HoustonRocketsPlayers
+Adrian Griffin	type	Forward110105733
+Adrian Griffin	type	LivingPeople
+Adrian Griffin	type	Basketball Player
+Adrian Griffin	type	Person100007846
+Adrian Griffin	type	SeattleSuperSonicsPlayers
+Adrian Griffin	type	Q215627
+Adrian Griffin	type	AfricanAmericanBasketballCoaches
+Adrian Griffin	type	SmallForwards
+Adrian Griffin	type	YagoLegalActorGeo
+Adrian Griffin	type	AfricanAmericanBasketballPlayers
+Adrian Griffin	type	Athlete
+Adrian Griffin	type	BasketballPlayersFromKansas
+Adrian Griffin	type	Player110439851
+Adrian Griffin	type	BasketballCoach109841955
+Adrian Griffin	type	Organism100004475
+Adrian Griffin	type	YagoLegalActor
+Adrian Griffin	type	CausalAgent100007347
+Adrian Griffin	type	UndraftedNationalBasketballAssociationPlayers
+Adrian Griffin	type	Agent
+Adrian Griffin	type	BostonCelticsPlayers
+Adrian Griffin	type	Contestant109613191
+Adrian Griffin	type	Preserver110466918
+Adrian Griffin	type	Trainer110722575
+Adrian Griffin	type	Q5
+Adrian Griffin	type	Guard110150071
+Adrian Griffin	type	Athlete109820263
+Adrian Griffin	type	PhysicalEntity100001930
+Adrian Griffin	type	DallasMavericksPlayers
+Adrian Griffin	type	PeopleFromWichita,Kansas
+Adrian Griffin	type	Defender109614684
+Adrian Griffin	type	ConnecticutPridePlayers
+Adrian Griffin	type	ChicagoBullsAssistantCoaches
+Adrian Griffin	type	Whole100003553
+Adrian Griffin	type	Coach109931640
 Adrian Griffin	Birth Date	1974-07-04
 Adrian Griffin	Draft Year	1996-01-01
 Adrian Griffin	Team	Orlando Magic
-Adrian Griffin	Surname	Griffin
+Adrian Griffin	surname	Griffin
 Adrian Griffin	League	National Basketball Association
-Adrian Griffin	Subject	Small Forwards
-Adrian Griffin	Subject	Undrafted National Basketball Association Players
-Adrian Griffin	Subject	Boston Celtics Players
-Adrian Griffin	Subject	Shooting Guards
-Adrian Griffin	Subject	Orlando Magic Assistant Coaches
-Adrian Griffin	Subject	Basketball Players From Kansas
-Adrian Griffin	Subject	Dallas Mavericks Players
-Adrian Griffin	Subject	African-American Basketball Coaches
-Adrian Griffin	Subject	Sportspeople From Wichita, Kansas
-Adrian Griffin	Subject	American Expatriate Basketball People In Italy
-Adrian Griffin	Subject	Connecticut Pride Players
-Adrian Griffin	Subject	American Men'S Basketball Players
-Adrian Griffin	Subject	Chicago Bulls Assistant Coaches
-Adrian Griffin	Subject	Chicago Bulls Players
-Adrian Griffin	Subject	Houston Rockets Players
-Adrian Griffin	Subject	Atlantic City Seagulls Players
-Adrian Griffin	Subject	1974 Births
-Adrian Griffin	Subject	Seattle Supersonics Players
-Adrian Griffin	Subject	African-American Basketball Players
-Adrian Griffin	Subject	Living People
-Adrian Griffin	Subject	Milwaukee Bucks Assistant Coaches
-Adrian Griffin	Subject	Seton Hall Pirates Men'S Basketball Players
+Adrian Griffin	subject	Small Forwards
+Adrian Griffin	subject	Undrafted National Basketball Association Players
+Adrian Griffin	subject	Boston Celtics Players
+Adrian Griffin	subject	Shooting Guards
+Adrian Griffin	subject	Orlando Magic Assistant Coaches
+Adrian Griffin	subject	Basketball Players From Kansas
+Adrian Griffin	subject	Dallas Mavericks Players
+Adrian Griffin	subject	African-American Basketball Coaches
+Adrian Griffin	subject	Sportspeople From Wichita, Kansas
+Adrian Griffin	subject	American Expatriate Basketball People In Italy
+Adrian Griffin	subject	Connecticut Pride Players
+Adrian Griffin	subject	American Men'S Basketball Players
+Adrian Griffin	subject	Chicago Bulls Assistant Coaches
+Adrian Griffin	subject	Chicago Bulls Players
+Adrian Griffin	subject	Houston Rockets Players
+Adrian Griffin	subject	Atlantic City Seagulls Players
+Adrian Griffin	subject	1974 Births
+Adrian Griffin	subject	Seattle Supersonics Players
+Adrian Griffin	subject	African-American Basketball Players
+Adrian Griffin	subject	Living People
+Adrian Griffin	subject	Milwaukee Bucks Assistant Coaches
+Adrian Griffin	subject	Seton Hall Pirates Men'S Basketball Players
 Adrian Griffin	College	Seton Hall Pirates Men'S Basketball
 Adrian Griffin	Birth Place	Kansas
 Adrian Griffin	Birth Place	Wichita, Kansas
-Adrian Griffin	Description	American Basketball Player-Coach
-Adrian Griffin	Description	American Basketball Player-Coach
-Adrian Griffin	Givenname	Adrian
-Adrian Griffin	Depiction	Adrian Griffin.Jpg
-Adrian Griffin	Thumbnail	Adrian Griffin.Jpg?Width=300
-Adrian Griffin	Name	Griffin, Adrian
-Adrian Griffin	Name	Adrian Griffin
+Adrian Griffin	description	American Basketball Player-Coach
+Adrian Griffin	description	American Basketball Player-Coach
+Adrian Griffin	givenName	Adrian
+Adrian Griffin	depiction	Adrian_Griffin.jpg
+Adrian Griffin	Thumbnail	Adrian_Griffin.jpg?width=300
+Adrian Griffin	name	Griffin, Adrian
+Adrian Griffin	name	Adrian Griffin
 Adrian Griffin	Active Years Start Year	1996-01-01
 Adrian Griffin	Birth Year	1974-01-01
 Adrian Griffin	Height (Μ)	1.9558

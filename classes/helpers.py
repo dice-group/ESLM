@@ -53,13 +53,15 @@ class Utils:
         if n_result > 0:
             found = True
         return found
-    @staticmethod
-    def normalize_string(word):
+    def normalize_string(self, word):
         '''Normalize string into title style or upper style '''
         if word.isupper():
             string = word
         else:
-            string = word.title()
+            if self.is_uri(word):
+                string = word
+            else:
+                string = word.title()
         return string
     def get_label_of_entity(self, uri, endpoint):
         """Get entity label from knowledge base"""
@@ -159,8 +161,8 @@ class Utils:
             word = last
             if ':' in word:
                 word = word.split(':')[-1]
-        word = word.replace("_", " ")
-        return self.normalize_string(word)
+        #word = word.replace("_", " ")
+        return word #self.normalize_string(word)
     @staticmethod
     def as_hours(seconds):
         """Convert second to hours, minutes, seconds"""

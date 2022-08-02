@@ -1,41 +1,41 @@
 Can U Get Wit It	Genre	Slow Jam
 Can U Get Wit It	Genre	Hip Hop Soul
-Can U Get Wit It	Name	Can U Get Wit It
+Can U Get Wit It	name	Can U Get Wit It
 Can U Get Wit It	Previous Work	Call Me A Mack
 Can U Get Wit It	Musical Band	Usher (Singer)
 Can U Get Wit It	Runtime (S)	255.0
 Can U Get Wit It	Runtime (S)	296.0
 Can U Get Wit It	Record Label	Laface Records
 Can U Get Wit It	Record Label	Arista Records
-Can U Get Wit It	Label	Can U Get Wit It
+Can U Get Wit It	label	Can U Get Wit It
 Can U Get Wit It	Format (Object)	Compact Disc
 Call Me A Mack	Subsequent Work	Can U Get Wit It
 Can U Get Wit It	Release Date	1994-07-01
-Can U Get Wit It	Writer	Devante Swing
+Can U Get Wit It	Auteur	Devante Swing
 Can U Get Wit It	Musical Artist	Usher (Singer)
 Can U Get Wit It	Album	Usher (Album)
-Can U Get Wit It	Subject	Usher (Singer) Songs
-Can U Get Wit It	Subject	Songs Written By Devante Swing
-Can U Get Wit It	Subject	1994 Songs
-Can U Get Wit It	Subject	Laface Records Singles
-Can U Get Wit It	Subject	Arista Records Singles
-Can U Get Wit It	Subject	1994 Singles
-Can U Get Wit It	Subject	Song Recordings Produced By Devante Swing
-Can U Get Wit It	Type	Physicalentity100001930
-Can U Get Wit It	Type	Medium106254669
-Can U Get Wit It	Type	Q386724
-Can U Get Wit It	Type	Object100002684
-Can U Get Wit It	Type	Thing
-Can U Get Wit It	Type	Artifact100021939
-Can U Get Wit It	Type	Creativework
-Can U Get Wit It	Type	Single
-Can U Get Wit It	Type	1994Singles
-Can U Get Wit It	Type	Work
-Can U Get Wit It	Type	Q134556
-Can U Get Wit It	Type	Musical Work
-Can U Get Wit It	Type	Q2188189
-Can U Get Wit It	Type	Whole100003553
-Can U Get Wit It	Type	Instrumentality103575240
+Can U Get Wit It	subject	Usher (Singer) Songs
+Can U Get Wit It	subject	Songs Written By Devante Swing
+Can U Get Wit It	subject	1994 Songs
+Can U Get Wit It	subject	Laface Records Singles
+Can U Get Wit It	subject	Arista Records Singles
+Can U Get Wit It	subject	1994 Singles
+Can U Get Wit It	subject	Song Recordings Produced By Devante Swing
+Can U Get Wit It	type	PhysicalEntity100001930
+Can U Get Wit It	type	Medium106254669
+Can U Get Wit It	type	Q386724
+Can U Get Wit It	type	Object100002684
+Can U Get Wit It	type	Thing
+Can U Get Wit It	type	Artifact100021939
+Can U Get Wit It	type	CreativeWork
+Can U Get Wit It	type	Single
+Can U Get Wit It	type	1994Singles
+Can U Get Wit It	type	Work
+Can U Get Wit It	type	Q134556
+Can U Get Wit It	type	Musical Work
+Can U Get Wit It	type	Q2188189
+Can U Get Wit It	type	Whole100003553
+Can U Get Wit It	type	Instrumentality103575240
 Can U Get Wit It	Subsequent Work	Think Of You (Usher Song)
 Can U Get Wit It	Producer	Devante Swing
 Think Of You (Usher Song)	Previous Work	Can U Get Wit It

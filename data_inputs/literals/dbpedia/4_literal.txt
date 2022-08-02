@@ -1,40 +1,40 @@
-Anthony Beaumont-Dark	Subject	Uk Mps 1987–92
-Anthony Beaumont-Dark	Subject	Members Of The Parliament Of The United Kingdom For English Constituencies
-Anthony Beaumont-Dark	Subject	Uk Mps 1983–87
-Anthony Beaumont-Dark	Subject	2006 Deaths
-Anthony Beaumont-Dark	Subject	Conservative Party (Uk) Mps
-Anthony Beaumont-Dark	Subject	Uk Mps 1979–83
-Anthony Beaumont-Dark	Subject	1932 Births
-Anthony Beaumont-Dark	Subject	Alumni Of The University Of Birmingham
-Anthony Beaumont-Dark	Subject	Knights Bachelor
-Anthony Beaumont-Dark	Subject	People From Birmingham, West Midlands
+Anthony Beaumont-Dark	subject	UK_MPs_1987–92
+Anthony Beaumont-Dark	subject	Members Of The Parliament Of The United Kingdom For English Constituencies
+Anthony Beaumont-Dark	subject	UK_MPs_1983–87
+Anthony Beaumont-Dark	subject	2006 Deaths
+Anthony Beaumont-Dark	subject	Conservative Party (Uk) Mps
+Anthony Beaumont-Dark	subject	UK_MPs_1979–83
+Anthony Beaumont-Dark	subject	1932 Births
+Anthony Beaumont-Dark	subject	Alumni Of The University Of Birmingham
+Anthony Beaumont-Dark	subject	Knights Bachelor
+Anthony Beaumont-Dark	subject	People From Birmingham, West Midlands
 Anthony Beaumont-Dark	Birth Year	1932-01-01
-Anthony Beaumont-Dark	Label	Anthony Beaumont-Dark
+Anthony Beaumont-Dark	label	Anthony Beaumont-Dark
 Anthony Beaumont-Dark	Birth Date	1932-10-11
 Anthony Beaumont-Dark	Death Year	2006-01-01
-Anthony Beaumont-Dark	Givenname	Anthony
-Anthony Beaumont-Dark	Name	Beaumont-Dark, Anthony
-Anthony Beaumont-Dark	Name	Anthony Beaumont-Dark
-Anthony Beaumont-Dark	Type	Livingthing100004258
-Anthony Beaumont-Dark	Type	Organism100004475
-Anthony Beaumont-Dark	Type	Yagolegalactor
-Anthony Beaumont-Dark	Type	Peoplefrombirmingham,Westmidlands
-Anthony Beaumont-Dark	Type	Q5
-Anthony Beaumont-Dark	Type	Whole100003553
-Anthony Beaumont-Dark	Type	Person
-Anthony Beaumont-Dark	Type	Object100002684
-Anthony Beaumont-Dark	Type	Naturalperson
-Anthony Beaumont-Dark	Type	Causalagent100007347
-Anthony Beaumont-Dark	Type	Agent
-Anthony Beaumont-Dark	Type	Physicalentity100001930
-Anthony Beaumont-Dark	Type	Agent
-Anthony Beaumont-Dark	Type	Yagolegalactorgeo
-Anthony Beaumont-Dark	Type	Person100007846
-Anthony Beaumont-Dark	Type	Person
-Anthony Beaumont-Dark	Type	Person
-Anthony Beaumont-Dark	Type	Thing
-Anthony Beaumont-Dark	Type	Q215627
+Anthony Beaumont-Dark	givenName	Anthony
+Anthony Beaumont-Dark	name	Beaumont-Dark, Anthony
+Anthony Beaumont-Dark	name	Anthony Beaumont-Dark
+Anthony Beaumont-Dark	type	LivingThing100004258
+Anthony Beaumont-Dark	type	Organism100004475
+Anthony Beaumont-Dark	type	YagoLegalActor
+Anthony Beaumont-Dark	type	PeopleFromBirmingham,WestMidlands
+Anthony Beaumont-Dark	type	Q5
+Anthony Beaumont-Dark	type	Whole100003553
+Anthony Beaumont-Dark	type	Person
+Anthony Beaumont-Dark	type	Object100002684
+Anthony Beaumont-Dark	type	NaturalPerson
+Anthony Beaumont-Dark	type	CausalAgent100007347
+Anthony Beaumont-Dark	type	Agent
+Anthony Beaumont-Dark	type	PhysicalEntity100001930
+Anthony Beaumont-Dark	type	Agent
+Anthony Beaumont-Dark	type	YagoLegalActorGeo
+Anthony Beaumont-Dark	type	Person100007846
+Anthony Beaumont-Dark	type	Person
+Anthony Beaumont-Dark	type	Person
+Anthony Beaumont-Dark	type	Thing
+Anthony Beaumont-Dark	type	Q215627
 Anthony Beaumont-Dark	Death Date	2006-04-02
-Anthony Beaumont-Dark	Surname	Beaumont-Dark
-Anthony Beaumont-Dark	Description	British Politician
-Anthony Beaumont-Dark	Description	British Politician
+Anthony Beaumont-Dark	surname	Beaumont-Dark
+Anthony Beaumont-Dark	description	British Politician
+Anthony Beaumont-Dark	description	British Politician

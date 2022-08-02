@@ -1,24 +1,24 @@
-Battle Of Bregalnica	Depiction	Plan Of The Battle Of Bregalnitza.Png
-Battle Of Bregalnica	Label	Battle Of Bregalnica
+Battle Of Bregalnica	depiction	Plan_of_the_Battle_of_Bregalnitza.png
+Battle Of Bregalnica	label	Battle Of Bregalnica
 Battle Of Bregalnica	Relates An Entity To The Populated Place In Which It Is Located.	Ottoman Empire
 Battle Of Bregalnica	Relates An Entity To The Populated Place In Which It Is Located.	Bregalnica
-Battle Of Bregalnica	Thumbnail	Plan Of The Battle Of Bregalnitza.Png?Width=300
-Battle Of Bregalnica	Subject	Battles Involving Serbia
-Battle Of Bregalnica	Subject	1913 In Bulgaria
-Battle Of Bregalnica	Subject	Battles Involving Bulgaria
-Battle Of Bregalnica	Subject	Battles Of The Second Balkan War
-Battle Of Bregalnica	Subject	Conflicts In 1913
-Battle Of Bregalnica	Subject	Vardar Macedonia (1912–1918)
-Battle Of Bregalnica	Subject	1913 In Serbia
+Battle Of Bregalnica	Thumbnail	Plan_of_the_Battle_of_Bregalnitza.png?width=300
+Battle Of Bregalnica	subject	Battles Involving Serbia
+Battle Of Bregalnica	subject	1913 In Bulgaria
+Battle Of Bregalnica	subject	Battles Involving Bulgaria
+Battle Of Bregalnica	subject	Battles Of The Second Balkan War
+Battle Of Bregalnica	subject	Conflicts In 1913
+Battle Of Bregalnica	subject	Vardar Macedonia (1912–1918)
+Battle Of Bregalnica	subject	1913 In Serbia
 Battle Of Bregalnica	Is Part Of Military Conflict	Second Balkan War
 Battle Of Bregalnica	Date	1913-07-08
 Fourth Army (Bulgaria)	Battle	Battle Of Bregalnica
 Jovan Babunski	Battle	Battle Of Bregalnica
 Mihail Savov	Battle	Battle Of Bregalnica
-Battle Of Bregalnica	Name	Battle Of Bregalnica
+Battle Of Bregalnica	name	Battle Of Bregalnica
 Battle Of Bregalnica	Result	Serbian Victory
 Battle Of Bregalnica	Commander	Živojin Mišić
-Battle Of Bregalnica	Commander	Vicho Dikov
+Battle Of Bregalnica	Commander	Vicho_Dikov
 Battle Of Bregalnica	Commander	Janko Vukotić
 Battle Of Bregalnica	Commander	Alexander I Of Yugoslavia
 Battle Of Bregalnica	Commander	Mihail Savov
@@ -29,23 +29,23 @@ Battle Of Bregalnica	Strength	Ca. 194,000 Men, 235 Guns (104 Infantry Battalions
 Battle Of Bregalnica	Strength	Ca. 130,000 Men,  Guns (100 Infantry Battalions, 6 Cavalry Regiments, 63 Artillery Batteries)
 Battle Of Bregalnica	Strength	Montenegrin Division Ca. 13,000 Men, 6 Guns And 24 Machine Guns
 Battle Of Bregalnica	Causalties	20,000
-Battle Of Bregalnica	Type	Groupaction101080366
-Battle Of Bregalnica	Type	Militaryaction100952963
-Battle Of Bregalnica	Type	Military Conflict
-Battle Of Bregalnica	Type	Battle100953559
-Battle Of Bregalnica	Type	Event
-Battle Of Bregalnica	Type	Event
-Battle Of Bregalnica	Type	Conflict100958896
-Battle Of Bregalnica	Type	Conflictsin1913
-Battle Of Bregalnica	Type	Psychologicalfeature100023100
-Battle Of Bregalnica	Type	Q1656682
-Battle Of Bregalnica	Type	Battlesofthesecondbalkanwar
-Battle Of Bregalnica	Type	Event100029378
-Battle Of Bregalnica	Type	Abstraction100002137
-Battle Of Bregalnica	Type	Battlesinvolvingbulgaria
-Battle Of Bregalnica	Type	Thing
-Battle Of Bregalnica	Type	Battlesinvolvingserbia
-Battle Of Bregalnica	Type	Societal Event
-Battle Of Bregalnica	Type	Event
-Battle Of Bregalnica	Type	Act100030358
-Battle Of Bregalnica	Type	Yagopermanentlylocatedentity
+Battle Of Bregalnica	type	GroupAction101080366
+Battle Of Bregalnica	type	MilitaryAction100952963
+Battle Of Bregalnica	type	Military Conflict
+Battle Of Bregalnica	type	Battle100953559
+Battle Of Bregalnica	type	Event
+Battle Of Bregalnica	type	Event
+Battle Of Bregalnica	type	Conflict100958896
+Battle Of Bregalnica	type	ConflictsIn1913
+Battle Of Bregalnica	type	PsychologicalFeature100023100
+Battle Of Bregalnica	type	Q1656682
+Battle Of Bregalnica	type	BattlesOfTheSecondBalkanWar
+Battle Of Bregalnica	type	Event100029378
+Battle Of Bregalnica	type	Abstraction100002137
+Battle Of Bregalnica	type	BattlesInvolvingBulgaria
+Battle Of Bregalnica	type	Thing
+Battle Of Bregalnica	type	BattlesInvolvingSerbia
+Battle Of Bregalnica	type	Societal Event
+Battle Of Bregalnica	type	Event
+Battle Of Bregalnica	type	Act100030358
+Battle Of Bregalnica	type	YagoPermanentlyLocatedEntity

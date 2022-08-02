@@ -1,38 +1,38 @@
 Storme Warren	Birth Date	1970-03-03
-Storme Warren	Surname	Warren
-Storme Warren	Description	Television Personality
-Storme Warren	Description	Television Personality
-Storme Warren	Subject	1970 Births
-Storme Warren	Subject	Living People
-Storme Warren	Subject	American Television Personalities
+Storme Warren	surname	Warren
+Storme Warren	description	Television Personality
+Storme Warren	description	Television Personality
+Storme Warren	subject	1970 Births
+Storme Warren	subject	Living People
+Storme Warren	subject	American Television Personalities
 Storme Warren	Birth Year	1970-01-01
-Storme Warren	Name	Warren, Storme
-Storme Warren	Name	Storme Warren
+Storme Warren	name	Warren, Storme
+Storme Warren	name	Storme Warren
 Storme Warren	Birth Name	Storme Warren
 Storme Warren	Imdb Id	2153141
-Storme Warren	Type	Q215627
-Storme Warren	Type	Causalagent100007347
-Storme Warren	Type	Object100002684
-Storme Warren	Type	Thing
-Storme Warren	Type	Livingpeople
-Storme Warren	Type	Agent
-Storme Warren	Type	Organism100004475
-Storme Warren	Type	Livingthing100004258
-Storme Warren	Type	Person100007846
-Storme Warren	Type	Naturalperson
-Storme Warren	Type	Person
-Storme Warren	Type	Q5
-Storme Warren	Type	Yagolegalactor
-Storme Warren	Type	Yagolegalactorgeo
-Storme Warren	Type	Agent
-Storme Warren	Type	Person
-Storme Warren	Type	Person
-Storme Warren	Type	Whole100003553
-Storme Warren	Type	Physicalentity100001930
-Storme Warren	Label	Storme Warren
-Storme Warren	Givenname	Storme
+Storme Warren	type	Q215627
+Storme Warren	type	CausalAgent100007347
+Storme Warren	type	Object100002684
+Storme Warren	type	Thing
+Storme Warren	type	LivingPeople
+Storme Warren	type	Agent
+Storme Warren	type	Organism100004475
+Storme Warren	type	LivingThing100004258
+Storme Warren	type	Person100007846
+Storme Warren	type	NaturalPerson
+Storme Warren	type	Person
+Storme Warren	type	Q5
+Storme Warren	type	YagoLegalActor
+Storme Warren	type	YagoLegalActorGeo
+Storme Warren	type	Agent
+Storme Warren	type	Person
+Storme Warren	type	Person
+Storme Warren	type	Whole100003553
+Storme Warren	type	PhysicalEntity100001930
+Storme Warren	label	Storme Warren
+Storme Warren	givenName	Storme
 Storme Warren	Occupation	Host
-Storme Warren	Occupation	Storme Warren  1
+Storme Warren	Occupation	Storme_Warren__1
 Storme Warren	Birth Place	Ohio
 Storme Warren	Birth Place	United States
 Storme Warren	Birth Place	Cincinnati

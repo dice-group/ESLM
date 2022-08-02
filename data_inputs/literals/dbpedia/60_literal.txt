@@ -2,54 +2,54 @@ William Anthony Hughes	Birth Place	Youngstown, Ohio
 William Anthony Hughes	Birth Place	Ohio
 William Anthony Hughes	Death Year	2013-01-01
 William Anthony Hughes	Death Place	Fort Thomas, Kentucky
-William Anthony Hughes	Surname	Hughes
-William Anthony Hughes	Givenname	William Anthony
+William Anthony Hughes	surname	Hughes
+William Anthony Hughes	givenName	William Anthony
 William Anthony Hughes	Birth Date	1921-09-23
-William Anthony Hughes	Label	William Anthony Hughes
+William Anthony Hughes	label	William Anthony Hughes
 William Anthony Hughes	Birth Year	1921-01-01
-William Anthony Hughes	Type	Scholar110557854
-William Anthony Hughes	Type	Person
-William Anthony Hughes	Type	Agent
-William Anthony Hughes	Type	Alumnus109786338
-William Anthony Hughes	Type	Clergyman109927451
-William Anthony Hughes	Type	Priest110470779
-William Anthony Hughes	Type	Person100007846
-William Anthony Hughes	Type	Intellectual109621545
-William Anthony Hughes	Type	Bishop109857200
-William Anthony Hughes	Type	St.Charlescollegealumni
-William Anthony Hughes	Type	Naturalperson
-William Anthony Hughes	Type	Spiritualleader109505153
-William Anthony Hughes	Type	Physicalentity100001930
-William Anthony Hughes	Type	Q215627
-William Anthony Hughes	Type	Thing
-William Anthony Hughes	Type	Yagolegalactor
-William Anthony Hughes	Type	Livingpeople
-William Anthony Hughes	Type	Whole100003553
-William Anthony Hughes	Type	Object100002684
-William Anthony Hughes	Type	Yagolegalactorgeo
-William Anthony Hughes	Type	Person
-William Anthony Hughes	Type	Peoplefromyoungstown,Ohio
-William Anthony Hughes	Type	Americanromancatholicbishops
-William Anthony Hughes	Type	St.Mary'Sseminary(Ohio)Alumni
-William Anthony Hughes	Type	Person
-William Anthony Hughes	Type	Organism100004475
-William Anthony Hughes	Type	Agent
-William Anthony Hughes	Type	Leader109623038
-William Anthony Hughes	Type	Livingthing100004258
-William Anthony Hughes	Type	Q5
-William Anthony Hughes	Type	Causalagent100007347
-William Anthony Hughes	Subject	American Roman Catholic Bishops
-William Anthony Hughes	Subject	Saint Mary Seminary And Graduate School Of Theology Alumni
-William Anthony Hughes	Subject	People From Covington, Kentucky
-William Anthony Hughes	Subject	2013 Deaths
-William Anthony Hughes	Subject	Roman Catholic Diocese Of Covington
-William Anthony Hughes	Subject	University Of Notre Dame Alumni
-William Anthony Hughes	Subject	1921 Births
-William Anthony Hughes	Subject	American People Of Irish Descent
-William Anthony Hughes	Subject	St. Charles College Alumni
-William Anthony Hughes	Subject	People From Youngstown, Ohio
-William Anthony Hughes	Description	Prelate Of The Roman Catholic Church
-William Anthony Hughes	Description	Prelateof Theroman Catholic Church
-William Anthony Hughes	Name	William Anthony Hughes
-William Anthony Hughes	Name	Hughes, William Anthony
+William Anthony Hughes	type	Scholar110557854
+William Anthony Hughes	type	Person
+William Anthony Hughes	type	Agent
+William Anthony Hughes	type	Alumnus109786338
+William Anthony Hughes	type	Clergyman109927451
+William Anthony Hughes	type	Priest110470779
+William Anthony Hughes	type	Person100007846
+William Anthony Hughes	type	Intellectual109621545
+William Anthony Hughes	type	Bishop109857200
+William Anthony Hughes	type	St.CharlesCollegeAlumni
+William Anthony Hughes	type	NaturalPerson
+William Anthony Hughes	type	SpiritualLeader109505153
+William Anthony Hughes	type	PhysicalEntity100001930
+William Anthony Hughes	type	Q215627
+William Anthony Hughes	type	Thing
+William Anthony Hughes	type	YagoLegalActor
+William Anthony Hughes	type	LivingPeople
+William Anthony Hughes	type	Whole100003553
+William Anthony Hughes	type	Object100002684
+William Anthony Hughes	type	YagoLegalActorGeo
+William Anthony Hughes	type	Person
+William Anthony Hughes	type	PeopleFromYoungstown,Ohio
+William Anthony Hughes	type	AmericanRomanCatholicBishops
+William Anthony Hughes	type	St.Mary'sSeminary(Ohio)Alumni
+William Anthony Hughes	type	Person
+William Anthony Hughes	type	Organism100004475
+William Anthony Hughes	type	Agent
+William Anthony Hughes	type	Leader109623038
+William Anthony Hughes	type	LivingThing100004258
+William Anthony Hughes	type	Q5
+William Anthony Hughes	type	CausalAgent100007347
+William Anthony Hughes	subject	American Roman Catholic Bishops
+William Anthony Hughes	subject	Saint Mary Seminary And Graduate School Of Theology Alumni
+William Anthony Hughes	subject	People From Covington, Kentucky
+William Anthony Hughes	subject	2013 Deaths
+William Anthony Hughes	subject	Roman Catholic Diocese Of Covington
+William Anthony Hughes	subject	University Of Notre Dame Alumni
+William Anthony Hughes	subject	1921 Births
+William Anthony Hughes	subject	American People Of Irish Descent
+William Anthony Hughes	subject	St. Charles College Alumni
+William Anthony Hughes	subject	People From Youngstown, Ohio
+William Anthony Hughes	description	Prelate Of The Roman Catholic Church
+William Anthony Hughes	description	Prelateof Theroman Catholic Church
+William Anthony Hughes	name	William Anthony Hughes
+William Anthony Hughes	name	Hughes, William Anthony
 William Anthony Hughes	Death Date	2013-02-07

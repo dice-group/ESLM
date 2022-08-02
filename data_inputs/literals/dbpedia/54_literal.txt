@@ -1,43 +1,43 @@
 Fabrice Gautrat	Birth Year	1987-01-01
-Fabrice Gautrat	Subject	San Diego Toreros Men'S Soccer Players
-Fabrice Gautrat	Subject	Soccer Players From California
-Fabrice Gautrat	Subject	American Soccer Players
-Fabrice Gautrat	Subject	Orange County Blues Fc Players
-Fabrice Gautrat	Subject	Living People
-Fabrice Gautrat	Subject	1987 Births
-Fabrice Gautrat	Subject	Southern California Seahorses Players
-Fabrice Gautrat	Subject	American Expatriate Soccer Players
-Fabrice Gautrat	Subject	Atlanta Silverbacks Players
-Fabrice Gautrat	Subject	United Soccer League Players
-Fabrice Gautrat	Subject	Premier Development League Players
-Fabrice Gautrat	Subject	North American Soccer League Players
-Fabrice Gautrat	Label	Fabrice Gautrat
+Fabrice Gautrat	subject	San Diego Toreros Men'S Soccer Players
+Fabrice Gautrat	subject	Soccer Players From California
+Fabrice Gautrat	subject	American Soccer Players
+Fabrice Gautrat	subject	Orange County Blues Fc Players
+Fabrice Gautrat	subject	Living People
+Fabrice Gautrat	subject	1987 Births
+Fabrice Gautrat	subject	Southern California Seahorses Players
+Fabrice Gautrat	subject	American Expatriate Soccer Players
+Fabrice Gautrat	subject	Atlanta Silverbacks Players
+Fabrice Gautrat	subject	United Soccer League Players
+Fabrice Gautrat	subject	Premier Development League Players
+Fabrice Gautrat	subject	North American Soccer League Players
+Fabrice Gautrat	label	Fabrice Gautrat
 Fabrice Gautrat	Number	5
-Fabrice Gautrat	Type	Athlete
-Fabrice Gautrat	Type	Agent
-Fabrice Gautrat	Type	Q937857
-Fabrice Gautrat	Type	Person
-Fabrice Gautrat	Type	Person
-Fabrice Gautrat	Type	Naturalperson
-Fabrice Gautrat	Type	Agent
-Fabrice Gautrat	Type	Q5
-Fabrice Gautrat	Type	Thing
-Fabrice Gautrat	Type	Person
-Fabrice Gautrat	Type	Soccer Player
-Fabrice Gautrat	Type	Q215627
-Fabrice Gautrat	Name	Gautrat, Fabrice
-Fabrice Gautrat	Name	Fabrice Gautrat
+Fabrice Gautrat	type	Athlete
+Fabrice Gautrat	type	Agent
+Fabrice Gautrat	type	Q937857
+Fabrice Gautrat	type	Person
+Fabrice Gautrat	type	Person
+Fabrice Gautrat	type	NaturalPerson
+Fabrice Gautrat	type	Agent
+Fabrice Gautrat	type	Q5
+Fabrice Gautrat	type	Thing
+Fabrice Gautrat	type	Person
+Fabrice Gautrat	type	Soccer Player
+Fabrice Gautrat	type	Q215627
+Fabrice Gautrat	name	Gautrat, Fabrice
+Fabrice Gautrat	name	Fabrice Gautrat
 Fabrice Gautrat	Birth Date	1987-11-04
-Fabrice Gautrat	Givenname	Fabrice
-Fabrice Gautrat	Surname	Gautrat
+Fabrice Gautrat	givenName	Fabrice
+Fabrice Gautrat	surname	Gautrat
 Fabrice Gautrat	Birth Place	Culver City, California
 Fabrice Gautrat	Height (Μ)	1.8796
-Fabrice Gautrat	Career Station	Fabrice Gautrat  1
-Fabrice Gautrat	Career Station	Fabrice Gautrat  4
-Fabrice Gautrat	Career Station	Fabrice Gautrat  3
-Fabrice Gautrat	Career Station	Fabrice Gautrat  2
-Fabrice Gautrat	Career Station	Fabrice Gautrat  6
-Fabrice Gautrat	Career Station	Fabrice Gautrat  5
+Fabrice Gautrat	Career Station	Fabrice_Gautrat__1
+Fabrice Gautrat	Career Station	Fabrice_Gautrat__4
+Fabrice Gautrat	Career Station	Fabrice_Gautrat__3
+Fabrice Gautrat	Career Station	Fabrice_Gautrat__2
+Fabrice Gautrat	Career Station	Fabrice_Gautrat__6
+Fabrice Gautrat	Career Station	Fabrice_Gautrat__5
 Fabrice Gautrat	Position	Defender (Association Football)
 Fabrice Gautrat	Team	San Diego Toreros
 Fabrice Gautrat	Team	Atlanta Silverbacks
@@ -45,5 +45,5 @@ Fabrice Gautrat	Team	Southern California Seahorses
 Fabrice Gautrat	Team	Uja Maccabi Paris Métropole
 Fabrice Gautrat	Team	The Master'S College
 Fabrice Gautrat	Team	Orange County Blues Fc
-Fabrice Gautrat	Description	Footballer
-Fabrice Gautrat	Description	Footballer
+Fabrice Gautrat	description	Footballer
+Fabrice Gautrat	description	Footballer

@@ -1,37 +1,37 @@
-Kotumachagi	Subject	Villages In Gadag District
-Kotumachagi	Lat	15.54259
-Kotumachagi	Depiction	Kotumachagivillagetemple.Jpg
+Kotumachagi	subject	Villages In Gadag District
+Kotumachagi	lat	15.54259
+Kotumachagi	depiction	KotumachagiVillageTemple.jpg
 Kotumachagi	Is Part Of	Karnataka
 Kotumachagi	Is Part Of	Gadag-Betageri
 Kotumachagi	Country	India
-Kotumachagi	Type	Place
-Kotumachagi	Type	Physicalentity100001930
-Kotumachagi	Type	Village
-Kotumachagi	Type	Villagesingadagdistrict
-Kotumachagi	Type	Q532
-Kotumachagi	Type	Location
-Kotumachagi	Type	Spatialthing
-Kotumachagi	Type	Place
-Kotumachagi	Type	Yagogeoentity
-Kotumachagi	Type	Yagolegalactorgeo
-Kotumachagi	Type	Thing
-Kotumachagi	Type	Settlement
-Kotumachagi	Type	Village108672738
-Kotumachagi	Type	Location100027167
-Kotumachagi	Type	Q486972
-Kotumachagi	Type	Region108630985
-Kotumachagi	Type	Populated Place
-Kotumachagi	Type	Settlement108672562
-Kotumachagi	Type	Yagopermanentlylocatedentity
-Kotumachagi	Type	Geographicalarea108574314
-Kotumachagi	Type	Object100002684
+Kotumachagi	type	Place
+Kotumachagi	type	PhysicalEntity100001930
+Kotumachagi	type	Village
+Kotumachagi	type	VillagesInGadagDistrict
+Kotumachagi	type	Q532
+Kotumachagi	type	Location
+Kotumachagi	type	SpatialThing
+Kotumachagi	type	Place
+Kotumachagi	type	YagoGeoEntity
+Kotumachagi	type	YagoLegalActorGeo
+Kotumachagi	type	Thing
+Kotumachagi	type	Settlement
+Kotumachagi	type	Village108672738
+Kotumachagi	type	Location100027167
+Kotumachagi	type	Q486972
+Kotumachagi	type	Region108630985
+Kotumachagi	type	Populated Place
+Kotumachagi	type	Settlement108672562
+Kotumachagi	type	YagoPermanentlyLocatedEntity
+Kotumachagi	type	GeographicalArea108574314
+Kotumachagi	type	Object100002684
 Kotumachagi	Utc Offset	+5:30
-Kotumachagi	Thumbnail	Kotumachagivillagetemple.Jpg?Width=300
+Kotumachagi	Thumbnail	KotumachagiVillageTemple.jpg?width=300
 Kotumachagi	Type	Village
 Kotumachagi	Time Zone	Indian Standard Time
-Kotumachagi	Label	Kotumachagi
-Kotumachagi	Long	75.77102
-Kotumachagi	Point	15.54259 75.77102
+Kotumachagi	label	Kotumachagi
+Kotumachagi	long	75.77102
+Kotumachagi	point	15.54259 75.77102
 Kotumachagi	Population Total	6895
-Kotumachagi	Name	ಕೋಟುಮಚಗಿ
-Kotumachagi	Name	Kotumachagi
+Kotumachagi	name	ಕೋಟುಮಚಗಿ
+Kotumachagi	name	Kotumachagi

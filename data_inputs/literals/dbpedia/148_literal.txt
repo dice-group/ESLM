@@ -1,16 +1,16 @@
-Battle Of Zacatecas (1914)	Type	Event
-Battle Of Zacatecas (1914)	Type	Thing
-Battle Of Zacatecas (1914)	Type	Event
-Battle Of Zacatecas (1914)	Type	Societal Event
-Battle Of Zacatecas (1914)	Type	Q1656682
-Battle Of Zacatecas (1914)	Type	Military Conflict
-Battle Of Zacatecas (1914)	Type	Event
-Battle Of Zacatecas (1914)	Name	Battle Of Zacatecas
-Battle Of Zacatecas (1914)	Subject	Battles Of The Mexican Revolution
-Battle Of Zacatecas (1914)	Subject	1914 In Mexico
+Battle Of Zacatecas (1914)	type	Event
+Battle Of Zacatecas (1914)	type	Thing
+Battle Of Zacatecas (1914)	type	Event
+Battle Of Zacatecas (1914)	type	Societal Event
+Battle Of Zacatecas (1914)	type	Q1656682
+Battle Of Zacatecas (1914)	type	Military Conflict
+Battle Of Zacatecas (1914)	type	Event
+Battle Of Zacatecas (1914)	name	Battle Of Zacatecas
+Battle Of Zacatecas (1914)	subject	Battles Of The Mexican Revolution
+Battle Of Zacatecas (1914)	subject	1914 In Mexico
 Battle Of Zacatecas (1914)	Relates An Entity To The Populated Place In Which It Is Located.	Zacatecas
 Battle Of Zacatecas (1914)	Relates An Entity To The Populated Place In Which It Is Located.	Zacatecas, Zacatecas
-Battle Of Zacatecas (1914)	Label	Battle Of Zacatecas (1914)
+Battle Of Zacatecas (1914)	label	Battle Of Zacatecas (1914)
 Battle Of Zacatecas (1914)	Commander	Pancho Villa
 Battle Of Zacatecas (1914)	Commander	Luís Medina Barrón
 Battle Of Zacatecas (1914)	Result	Decisive Rebel Victory

@@ -4,18 +4,18 @@ Trachelipus Dimorphus	Synonym	*Trachelipus Waechtleri
 Trachelipus Dimorphus	Synonym	*Tracheoniscus Waechtleri
 Trachelipus Dimorphus	Synonym	*Porcellio Dimorphus
 Trachelipus Dimorphus	Synonym	*Tracheoniscus Dimorphus
-Trachelipus Dimorphus	Label	Trachelipus Dimorphus
+Trachelipus Dimorphus	label	Trachelipus Dimorphus
 Trachelipus Dimorphus	Genus	Trachelipus
-Trachelipus Dimorphus	Type	Thing
-Trachelipus Dimorphus	Type	Q19088
-Trachelipus Dimorphus	Type	Q729
-Trachelipus Dimorphus	Type	Eukaryote
-Trachelipus Dimorphus	Type	Species
-Trachelipus Dimorphus	Type	Crustacean
-Trachelipus Dimorphus	Type	Animal
-Trachelipus Dimorphus	Subject	Trachelipodidae
-Trachelipus Dimorphus	Subject	Animals Described In 1941
-Trachelipus Dimorphus	Subject	Woodlice Of Europe
+Trachelipus Dimorphus	type	Thing
+Trachelipus Dimorphus	type	Q19088
+Trachelipus Dimorphus	type	Q729
+Trachelipus Dimorphus	type	Eukaryote
+Trachelipus Dimorphus	type	Species
+Trachelipus Dimorphus	type	Crustacean
+Trachelipus Dimorphus	type	Animal
+Trachelipus Dimorphus	subject	Trachelipodidae
+Trachelipus Dimorphus	subject	Animals Described In 1941
+Trachelipus Dimorphus	subject	Woodlice Of Europe
 Trachelipus Dimorphus	Kingdom	Animal
 Trachelipus Dimorphus	Order (Taxonomy)	Isopoda
 Trachelipus Dimorphus	Phylum	Arthropod
