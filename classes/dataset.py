@@ -34,7 +34,7 @@ class ESBenchmark:
         elif ds_name_str == "lmdb":
             split_path = os.path.join(self.in_esbm_dir, "lmdb_split")
         elif ds_name_str == "faces":
-            split_path = os.path.join(self.in_esbm_dir, "faces_split")
+            split_path = os.path.join(self.in_faces_dir, "faces_split")
         else:
             raise ValueError("The database name must be dbpedia, lmdb. or faces")
         train_data, valid_data, test_data = [], [], []
