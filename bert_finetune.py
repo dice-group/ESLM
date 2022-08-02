@@ -64,6 +64,8 @@ def main(mode, best_epoch):
     for ds_name in config["ds_name"]:
         if ds_name == "dbpedia":
             MAX_LENGTH = 46
+        elif ds_name == "faces":
+            MAX_LENGTH = 46
         else:
             MAX_LENGTH = 34
         if mode == "train":
