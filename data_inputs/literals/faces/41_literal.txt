@@ -1,0 +1,36 @@
+Nile	Mouth Position	Nile__mouthPosition__1
+Nile	Country	Sudan
+Nile	Country	Democratic Republic Of The Congo
+Nile	Country	Egypt
+Nile	Country	Ethiopia
+Nile	Country	Kenya
+Nile	City	Juba
+Nile	Source	Blue Nile
+Nile	isPrimaryTopicOf	Nile
+Nile	City	Jinja, Uganda
+Nile	Source Position	Nile__sourcePosition__2
+Nile	Source Position	Nile__sourcePosition__1
+Nile	Source1 Location	Lake Tana
+Nile	Country	Uganda
+Nile	City	Cairo
+Nile	Country	South Sudan
+Nile	Country	Rwanda
+Nile	Source Place	Lake Tana
+Nile	wasDerivedFrom	Nile?oldid=547344631
+Nile	City 	Jinja, Uganda
+Nile	Source	White Nile
+Nile	hasPhotoCollection	Nile
+Nile	Mouth Mountain	Mediterranean Sea
+Nile	Source Country	Ethiopia
+Nile	Country	Burundi
+Nile	Source Mountain	Lake Tana
+Nile	City 	Khartoum
+Nile	City	Khartoum
+Nile	Source Country	Rwanda
+Nile	City 	Juba
+Nile	Mouth Place	Mediterranean Sea
+Nile	Country	Tanzania
+Nile	City 	Cairo
+Nile	depiction	Nile_watershed_topo.png
+Nile	Thumbnail	200px-Nile_watershed_topo.png
+Nile	Source Confluence	Khartoum

@@ -1,0 +1,46 @@
+Knight Rider (1982 Tv Series)	Genre	U.S. Television Science Fiction
+Knight Rider (1982 Tv Series)	Composer	Morton Stevens
+Knight Rider (1982 Tv Series)	Voice	William Daniels
+Knight Rider (1982 Tv Series)	Format (Object)	Monaural
+Knight Rider (1982 Tv Series)	Related	Code Of Vengeance
+Knight Rider (1982 Tv Series)	Company	Universal Television
+Knight Rider (1982 Tv Series)	Format (Object)	Monophonic Sound
+Knight Rider (1982 Tv Series)	Genre	Adventure (Genre)
+Knight Rider (1982 Tv Series)	Network	NBC
+Knight Rider (1982 Tv Series)	Starring	Patricia Mcpherson
+Knight Rider (1982 Tv Series)	Related	Team Knight Rider
+Knight Rider (1982 Tv Series)	Starring	Rebecca Holden
+Knight Rider (1982 Tv Series)	Thumbnail	200px-Knightlogo.png
+Knight Rider (1982 Tv Series)	Theme Music Composer	Stu Phillips (Composer)
+Knight Rider (1982 Tv Series)	Company	Universal Television
+Knight Rider (1982 Tv Series)	Format (Object)	Stereophonic Sound
+Knight Rider (1982 Tv Series)	depiction	Knightlogo.png
+Knight Rider (1982 Tv Series)	Composer	Morton Stevens
+Knight Rider (1982 Tv Series)	Starring	David Hasselhoff
+Knight Rider (1982 Tv Series)	Creator	Glen A. Larson
+Knight Rider (1982 Tv Series)	Genre	Adventure (Genre)
+Knight Rider (1982 Tv Series)	Distributor	Nbc Universal Television Distribution
+Knight Rider (1982 Tv Series)	Composer	Stu Phillips (Composer)
+Knight Rider (1982 Tv Series)	Genre	Adventure Fiction
+Knight Rider (1982 Tv Series)	wasDerivedFrom	Knight_Rider_(1982_TV_series)?oldid=544395569
+Knight Rider (1982 Tv Series)	isPrimaryTopicOf	Knight_Rider_(1982_TV_series)
+Knight Rider (1982 Tv Series)	Executive Producer	Glen A. Larson
+Knight Rider (1982 Tv Series)	Starring	Edward Mulhare
+Knight Rider (1982 Tv Series)	Starring	Rebecca Holden
+Knight Rider (1982 Tv Series)	Genre	Action (Fiction)
+Knight Rider (1982 Tv Series)	Genre	Action (Fiction)
+Knight Rider (1982 Tv Series)	hasPhotoCollection	Knight_Rider_(1982_TV_series)
+Knight Rider (1982 Tv Series)	Starring	Peter Parros
+Knight Rider (1982 Tv Series)	Subsequent Work	Knight Rider (2008 Tv Series)
+Knight Rider (1982 Tv Series)	Distributor	Nbcuniversal Television Distribution
+Knight Rider (1982 Tv Series)	Genre	U.S. Television Science Fiction
+Knight Rider (1982 Tv Series)	Distributor	Nbcuniversal Television Distribution
+Knight Rider (1982 Tv Series)	Starring	David Hasselhoff
+Knight Rider (1982 Tv Series)	Narrator	Richard Basehart
+Knight Rider (1982 Tv Series)	Starring	Edward Mulhare
+Knight Rider (1982 Tv Series)	Starring	Peter Parros
+Knight Rider (1982 Tv Series)	Creator (Agent)	Glen A. Larson
+Knight Rider (1982 Tv Series)	Network	NBC
+Knight Rider (1982 Tv Series)	Genre	Adventure Fiction
+Knight Rider (1982 Tv Series)	Distributor	Nbc Universal Television Distribution
+Knight Rider (1982 Tv Series)	Starring	Patricia Mcpherson

@@ -1,0 +1,36 @@
+Bruce Lee	Resting Place	Seattle
+Bruce Lee	Spouse	Linda Lee Cadwell
+Bruce Lee	Website	www.bruceleefoundation.com
+Bruce Lee	Ancestry	Shunde District
+Bruce Lee	Death Place	Kowloon Tong
+Bruce Lee	Country	People'S Republic Of China
+Bruce Lee	Ancestry	China
+Bruce Lee	Ancestry	Guangdong
+Bruce Lee	Origin	Hong Kong
+Bruce Lee	wasDerivedFrom	Bruce_Lee?oldid=548585344
+Bruce Lee	homepage	www.bruceleefoundation.com
+Bruce Lee	Occupation	Chinese Martial Arts
+Bruce Lee	Children	Brandon Lee
+Bruce Lee	Birth Place	San Francisco
+Bruce Lee	Death Place	Kowloon
+Bruce Lee	homepage	www.brucelee.com
+Bruce Lee	Birth Place	United States
+Bruce Lee	Birth Place	San Francisco Chinese Hospital
+Bruce Lee	Death Place	British Hong Kong
+Bruce Lee	depiction	BruceLeecard.jpg
+Bruce Lee	Parent	Lee Hoi-Chuen
+Bruce Lee	Occupation	Kung Fu
+Bruce Lee	Website	www.brucelee.com
+Bruce Lee	isPrimaryTopicOf	Bruce_Lee
+Bruce Lee	Parents	Lee Hoi-Chuen
+Bruce Lee	Child	Shannon Lee
+Bruce Lee	Resting Place	Lake View Cemetery (Seattle)
+Bruce Lee	Country	China
+Bruce Lee	Restingplace	Lake View Cemetery (Seattle)
+Bruce Lee	Child	Brandon Lee
+Bruce Lee	Death Place	Hong Kong
+Bruce Lee	Restingplace	Seattle
+Bruce Lee	Thumbnail	200px-BruceLeecard.jpg
+Bruce Lee	hasPhotoCollection	Bruce_Lee
+Bruce Lee	Award	Fist Of Fury
+Bruce Lee	Spouse	Linda Lee Cadwell

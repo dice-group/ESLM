@@ -1,0 +1,39 @@
+Bill Gates	Residence	Washington (State)
+Bill Gates	Spouse	Melinda Gates
+Bill Gates	Parents	Mary Maxwell Gates
+Bill Gates	Thumbnail	200px-BillGates2012.jpg
+Bill Gates	Occupation	Bill_Gates__3
+Bill Gates	hasPhotoCollection	Bill_Gates
+Bill Gates	depiction	BillGates2012.jpg
+Bill Gates	Religion	Agnostic
+Bill Gates	Place Of Birth	Washington (State)
+Bill Gates	Place Of Birth	Seattle
+Bill Gates	Boards	Berkshire Hathaway
+Bill Gates	Parent	Mary Maxwell Gates
+Bill Gates	Occupation	Bill_Gates__4
+Bill Gates	After	Carlos Slim
+Bill Gates	Alma Mater	Harvard University
+Bill Gates	Parent	William H. Gates, Sr.
+Bill Gates	isPrimaryTopicOf	Bill_Gates
+Bill Gates	Place Of Birth	United States
+Bill Gates	Occupation	Cascade Investment
+Bill Gates	Birth Place	Seattle
+Bill Gates	Birth Place	Washington (State)
+Bill Gates	Occupation	Corbis
+Bill Gates	Title	Forbes List Of Billionaires
+Bill Gates	Before	Warren Buffett
+Bill Gates	Occupation	Bill & Melinda Gates Foundation
+Bill Gates	Religion	Agnostic
+Bill Gates	Birth Place	United States
+Bill Gates	Title	List Of Billionaires
+Bill Gates	Religion	Agnosticism
+Bill Gates	Occupation	Microsoft
+Bill Gates	Board	Berkshire Hathaway
+Bill Gates	Alma Mater	Harvard University
+Bill Gates	Alma Mater	List_of_college_dropout_billionaires
+Bill Gates	Parents	William H. Gates, Sr.
+Bill Gates	Religion	Agnosticism
+Bill Gates	Residence	Medina, Washington
+Bill Gates	Occupation	Bill_Gates__1
+Bill Gates	Occupation	Bill_Gates__2
+Bill Gates	wasDerivedFrom	Bill_Gates?oldid=548580337

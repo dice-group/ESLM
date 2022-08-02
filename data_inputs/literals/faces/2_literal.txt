@@ -1,0 +1,52 @@
+Friedrich Engel (Mathematician)	Death Place	Hessen
+Friedrich Engel (Mathematician)	Birth Place	German Confederation
+Friedrich Engel (Mathematician)	Birth Place	Kingdom Of Saxony
+Friedrich Engel (Mathematician)	Death Place	Giessen
+Friedrich Engel (Mathematician)	Birth Place	German Confederation
+Friedrich Engel (Mathematician)	Known For	Engel Expansion
+Friedrich Engel (Mathematician)	Alma Mater	Humboldt University Of Berlin
+Friedrich Engel (Mathematician)	isPrimaryTopicOf	Friedrich_Engel_(mathematician)
+Friedrich Engel (Mathematician)	Known For	Engel'S Theorem
+Friedrich Engel (Mathematician)	Birth Place	Germany
+Friedrich Engel (Mathematician)	Death Place	Germany
+Friedrich Engel (Mathematician)	Birth Place	Lugau
+Friedrich Engel (Mathematician)	Known For	Engel Theorem
+Friedrich Engel (Mathematician)	Known For	Engel Expansion
+Friedrich Engel (Mathematician)	Death Place	Hessen
+Friedrich Engel (Mathematician)	Alma Mater	Leipzig University
+Friedrich Engel (Mathematician)	Death Place	Giessen
+Friedrich Engel (Mathematician)	Alma Mater	University Of Berlin
+Friedrich Engel (Mathematician)	Workplaces	University Of Greifswald
+Friedrich Engel (Mathematician)	Known For	Engel Group
+Friedrich Engel (Mathematician)	Place Of Death	Germany
+Friedrich Engel (Mathematician)	Workplaces	University Of Giessen
+Friedrich Engel (Mathematician)	Alma Mater	Humboldt University Of Berlin
+Friedrich Engel (Mathematician)	Place Of Birth	Germany
+Friedrich Engel (Mathematician)	Place Of Death	Hessen
+Friedrich Engel (Mathematician)	Workplaces	University Of Leipzig
+Friedrich Engel (Mathematician)	Place Of Death	Giessen
+Friedrich Engel (Mathematician)	Fields	Mathematics
+Friedrich Engel (Mathematician)	Place Of Birth	Saxony
+Friedrich Engel (Mathematician)	Death Place	Hesse
+Friedrich Engel (Mathematician)	Alma Mater	Leipzig University
+Friedrich Engel (Mathematician)	wasDerivedFrom	Friedrich_Engel_(mathematician)?oldid=546766827
+Friedrich Engel (Mathematician)	Alma Mater	University Of Berlin
+Friedrich Engel (Mathematician)	Death Place	Hesse
+Friedrich Engel (Mathematician)	Alma Mater	University Of Leipzig
+Friedrich Engel (Mathematician)	Alma Mater	University Of Leipzig
+Friedrich Engel (Mathematician)	Field	Mathematics
+Friedrich Engel (Mathematician)	Known For	Engel Group
+Friedrich Engel (Mathematician)	Death Place	Germany
+Friedrich Engel (Mathematician)	Birth Place	Saxony
+Friedrich Engel (Mathematician)	Place Of Death	Hesse
+Friedrich Engel (Mathematician)	Doctoral Student	Abraham Plessner
+Friedrich Engel (Mathematician)	Known For	Engel'S Theorem
+Friedrich Engel (Mathematician)	Doctoral Advisor	Felix Klein
+Friedrich Engel (Mathematician)	Doctoral Students	Abraham Plessner
+Friedrich Engel (Mathematician)	Workplaces	Leipzig University
+Friedrich Engel (Mathematician)	Birth Place	Kingdom Of Saxony
+Friedrich Engel (Mathematician)	Birth Place	Lugau
+Friedrich Engel (Mathematician)	Doctoral Advisor	Felix Klein
+Friedrich Engel (Mathematician)	Known For	Engel Theorem
+Friedrich Engel (Mathematician)	Place Of Birth	Lugau
+Friedrich Engel (Mathematician)	hasPhotoCollection	Friedrich_Engel_(mathematician)

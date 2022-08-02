@@ -1,0 +1,33 @@
+John Napier	Nationality	Scotland
+John Napier	Field	Mathematician
+John Napier	Known For	Napier'S Bones
+John Napier	Known For	Decimal Point
+John Napier	Birth Place	Merchiston Castle
+John Napier	Death Place	Edinburgh
+John Napier	Nationality	Scotland
+John Napier	Birth Place	Merchiston Tower
+John Napier	Birth Place	Merchiston Castle
+John Napier	Place Of Birth	Edinburgh
+John Napier	Place Of Birth	Scotland
+John Napier	Religion	Church Of Scotland
+John Napier	Alma Mater	University Of St Andrews
+John Napier	Field	Mathematician
+John Napier	Birth Place	Merchiston Tower
+John Napier	wasDerivedFrom	John_Napier?oldid=547490259
+John Napier	Influenced	Henry Briggs (Mathematician)
+John Napier	Influenced	Henry Briggs (Mathematician)
+John Napier	hasPhotoCollection	John_Napier
+John Napier	Thumbnail	200px-John_Napier.jpg
+John Napier	Known For	Napier'S Bones
+John Napier	Known For	Decimal Mark
+John Napier	Birth Place	Edinburgh
+John Napier	Alma Mater	University Of St Andrews
+John Napier	Known For	Logarithm
+John Napier	Place Of Birth	Merchiston Castle
+John Napier	Known For	Decimal Mark
+John Napier	depiction	John_Napier.jpg
+John Napier	Place Of Birth	Merchiston Tower
+John Napier	isPrimaryTopicOf	John_Napier
+John Napier	Birth Place	Edinburgh
+John Napier	Birth Place	Scotland
+John Napier	Known For	Decimal Point

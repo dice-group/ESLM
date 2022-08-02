@@ -1,0 +1,19 @@
+J. C. Penney	Area Served	United States
+J. C. Penney	Traded As	S&P 500
+J. C. Penney	Region Served	United States
+J. C. Penney	Founded By	James Cash Penney
+J. C. Penney	Key Person	Ron Johnson (Businessman)
+J. C. Penney	Key People	Ron Johnson (Businessman)
+J. C. Penney	homepage	www.jcpenney.com
+J. C. Penney	Homepage	www.jcpenney.com
+J. C. Penney	Thumbnail	200px-JCPenney_2012_logo.svg.png
+J. C. Penney	isPrimaryTopicOf	J._C._Penney
+J. C. Penney	Location	Plano, Texas
+J. C. Penney	Industry	Retail
+J. C. Penney	Type	Public Company
+J. C. Penney	depiction	JCPenney_2012_logo.svg
+J. C. Penney	hasPhotoCollection	J._C._Penney
+J. C. Penney	Founder	James Cash Penney
+J. C. Penney	Industry	Retail
+J. C. Penney	wasDerivedFrom	J._C._Penney?oldid=548607298
+J. C. Penney	Type	Public Company

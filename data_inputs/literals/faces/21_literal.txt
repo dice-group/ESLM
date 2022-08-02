@@ -1,0 +1,28 @@
+England	Format	Ogg
+England	Patron Saint	Saint George
+England	Demonym	English People
+England	Regional Language	Cornish Language
+England	hasPhotoCollection	England
+England	Leader Title	Monarchy Of The United Kingdom
+England	Cctld	.Uk
+England	isPrimaryTopicOf	England
+England	Leader Name	Elizabeth Ii
+England	Calling Code	+44
+England	Leader Title	Prime Minister Of The United Kingdom
+England	Language	English Language
+England	Capital	London
+England	homepage	www.direct.gov.uk
+England	depiction	Flag_of_England.svg
+England	wasDerivedFrom	England?oldid=548583105
+England	Language	Cornish Language
+England	Leader Name	Elizabeth Ii
+England	Currency	Pound Sterling
+England	Official Language	English Language
+England	Regional Languages	Cornish Language
+England	Government Type	Devolution
+England	Calling Code	Telephone Numbers In The United Kingdom
+England	Thumbnail	200px-Flag_of_England.svg.png
+England	Legislature	Parliament Of The United Kingdom
+England	Source 	William Shakespeare
+England	Currency	Pound Sterling
+England	Capital	London

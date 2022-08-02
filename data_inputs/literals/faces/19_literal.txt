@@ -1,0 +1,36 @@
+Ann Arbor, Michigan	Timezone	Eastern Time Zone
+Ann Arbor, Michigan	Leader Name	John Hieftje
+Ann Arbor, Michigan	South	Toledo, Ohio
+Ann Arbor, Michigan	Subdivision Name	Michigan
+Ann Arbor, Michigan	Time Zone	Eastern Daylight Time
+Ann Arbor, Michigan	Blank Name	Federal Information Processing Standard
+Ann Arbor, Michigan	Government Type	Council-Manager
+Ann Arbor, Michigan	Time Zone	Eastern Time Zone
+Ann Arbor, Michigan	Leader Title	City Manager
+Ann Arbor, Michigan	Timezone	Eastern Time Zone (North America)
+Ann Arbor, Michigan	Population Blank1 Title	Demonym
+Ann Arbor, Michigan	wasDerivedFrom	Ann_Arbor,_Michigan?oldid=547839304
+Ann Arbor, Michigan	Website	www.a2gov.org
+Ann Arbor, Michigan	Leader Title	City Manager
+Ann Arbor, Michigan	Is Part Of	Washtenaw County, Michigan
+Ann Arbor, Michigan	homepage	www.a2gov.org
+Ann Arbor, Michigan	isPrimaryTopicOf	Ann_Arbor,_Michigan
+Ann Arbor, Michigan	Government Type	Council%E2%80%93manager_government
+Ann Arbor, Michigan	hasPhotoCollection	Ann_Arbor,_Michigan
+Ann Arbor, Michigan	West	Jackson, Michigan
+Ann Arbor, Michigan	Government Type	Council-Manager
+Ann Arbor, Michigan	Thumbnail	200px-Annarborskyline.jpg
+Ann Arbor, Michigan	depiction	Annarborskyline.jpg
+Ann Arbor, Michigan	Southwest	Adrian, Michigan
+Ann Arbor, Michigan	Timezone Dst	Eastern Time Zone
+Ann Arbor, Michigan	Subdivision Type	List Of Counties In Michigan
+Ann Arbor, Michigan	North	Flint, Michigan
+Ann Arbor, Michigan	Leader Name	John Hieftje
+Ann Arbor, Michigan	Southeast	Monroe, Michigan
+Ann Arbor, Michigan	Is Part Of	Michigan
+Ann Arbor, Michigan	West	Kalamazoo, Michigan
+Ann Arbor, Michigan	Subdivision Name	Washtenaw County, Michigan
+Ann Arbor, Michigan	Time Zone	Eastern Time Zone (North America)
+Ann Arbor, Michigan	Government Type	Council%E2%80%93manager_government
+Ann Arbor, Michigan	Timezone Dst	Eastern Daylight Time
+Ann Arbor, Michigan	Northwest	Lansing, Michigan

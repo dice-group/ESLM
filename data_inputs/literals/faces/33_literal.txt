@@ -1,0 +1,57 @@
+Walt Disney	Religion	Congregationalist
+Walt Disney	Birth Place	Hermosa, Chicago
+Walt Disney	Awards	Golden Globe Cecil B. Demille Award
+Walt Disney	Residence	Burbank, California
+Walt Disney	Birth Place	Chicago, Illinois
+Walt Disney	Children	Diane Disney Miller
+Walt Disney	Occupation	Walt_Disney__1
+Walt Disney	Occupation	The Walt Disney Company
+Walt Disney	Death Place	Burbank, California
+Walt Disney	Relation	Roy E. Disney
+Walt Disney	Spouse	Lillian Disney
+Walt Disney	Spouse	Lillian Disney
+Walt Disney	After	Jimmy Macdonald (Sound Effects Artist)
+Walt Disney	Boards	The Walt Disney Company
+Walt Disney	Party	Republican Party (United States)
+Walt Disney	Resting Place	Forest Lawn Memorial Park, Glendale
+Walt Disney	Child	Diane Disney Miller
+Walt Disney	Award	Emmy Award
+Walt Disney	Family	Roy O. Disney
+Walt Disney	Award	Golden Globe Cecil B. Demille Award
+Walt Disney	Children	Disney Family
+Walt Disney	Children	Sharon Mae Disney
+Walt Disney	Party	Republican Party (United States)
+Walt Disney	Child	Sharon Mae Disney
+Walt Disney	Board	The Walt Disney Company
+Walt Disney	Child	Diane Marie Disney
+Walt Disney	Birth Place	Illinois
+Walt Disney	Parents	Elias Disney
+Walt Disney	Relations	Ron W. Miller
+Walt Disney	Relations	Disney Family
+Walt Disney	Parent	Elias Disney
+Walt Disney	Award	Academy Award
+Walt Disney	Thumbnail	200px-Walt_disney_portrait.jpg
+Walt Disney	hasPhotoCollection	Walt_Disney
+Walt Disney	Resting Place	Glendale, California
+Walt Disney	Title	Mickey Mouse
+Walt Disney	Family	Disney Family
+Walt Disney	Relations	Ronald William Miller
+Walt Disney	Children	Diane Marie Disney
+Walt Disney	Award	Cecil B. Demille Award
+Walt Disney	Child	Disney Family
+Walt Disney	Relation	Ronald William Miller
+Walt Disney	Birth Place	Chicago
+Walt Disney	Religion	Congregational Church
+Walt Disney	wasDerivedFrom	Walt_Disney?oldid=545713691
+Walt Disney	Relation	Disney Family
+Walt Disney	Relation	Ron W. Miller
+Walt Disney	Parent	Flora_Call_Disney
+Walt Disney	isPrimaryTopicOf	Walt_Disney
+Walt Disney	Occupation	Walt_Disney__2
+Walt Disney	Home Town	Illinois
+Walt Disney	Education	List Of Schools In Chicago Public Schools
+Walt Disney	Parents	Flora_Call_Disney
+Walt Disney	Awards	Cecil B. Demille Award
+Walt Disney	Relations	Roy E. Disney
+Walt Disney	depiction	Walt_disney_portrait.jpg
+Walt Disney	Home Town	Chicago

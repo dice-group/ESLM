@@ -1,0 +1,62 @@
+Manchester City F.C.	Ground	City Of Manchester Stadium
+Manchester City F.C.	Name	Richard Wright (Footballer)
+Manchester City F.C.	Name	Maicon Sisenando
+Manchester City F.C.	Name	James Milner
+Manchester City F.C.	Name	Jack Rodwell
+Manchester City F.C.	Name	Luca Scapuzzi
+Manchester City F.C.	Name	John Guidetti
+Manchester City F.C.	Name	Reece Wabara
+Manchester City F.C.	Name	Joleon Lescott
+Manchester City F.C.	wasDerivedFrom	Manchester_City_F.C.?oldid=547226848
+Manchester City F.C.	Name	Abdisalam Ibrahim
+Manchester City F.C.	Name	Denis_Su%C3%A1rez
+Manchester City F.C.	Website	www.mcfc.co.uk
+Manchester City F.C.	Name	Edin_D%C5%BEeko
+Manchester City F.C.	hasPhotoCollection	Manchester_City_F.C.
+Manchester City F.C.	Name	Roque Santa Cruz
+Manchester City F.C.	Owner	Mansour Bin Zayed Al Nahyan
+Manchester City F.C.	depiction	Manchester_City.svg
+Manchester City F.C.	Name	Dedryck Boyata
+Manchester City F.C.	Owner	Sheikh
+Manchester City F.C.	Manager	Roberto Mancini
+Manchester City F.C.	Other	Captain (Association Football)
+Manchester City F.C.	Name	Aleksandar Kolarov
+Manchester City F.C.	homepage	www.mcfc.co.uk
+Manchester City F.C.	Name	Gareth Barry
+Manchester City F.C.	Name	Ga%C3%ABl_Clichy
+Manchester City F.C.	Name	David Silva
+Manchester City F.C.	League	Premier League
+Manchester City F.C.	Name	Pablo Zabaleta
+Manchester City F.C.	S	scottish_football.cfm?curpageid=688
+Manchester City F.C.	Ground	City Of Manchester Stadium
+Manchester City F.C.	Name	Scott Sinclair
+Manchester City F.C.	Chairman	Khaldoon Al Mubarak
+Manchester City F.C.	Name	Joe Hart
+Manchester City F.C.	League	Premier League
+Manchester City F.C.	isPrimaryTopicOf	Manchester_City_F.C.
+Manchester City F.C.	Ceo	Ferran Soriano
+Manchester City F.C.	Name	Abdul Razak (Footballer)
+Manchester City F.C.	Name	Carlos_T%C3%A9vez
+Manchester City F.C.	Name	Yaya_Tour%C3%A9
+Manchester City F.C.	Season	2011%E2%80%9312_Premier_League
+Manchester City F.C.	Thumbnail	200px-Manchester_City.svg.png
+Manchester City F.C.	Name	Karim Rekik
+Manchester City F.C.	Chairman	Khaldoon Al Mubarak
+Manchester City F.C.	Name	Micah Richards
+Manchester City F.C.	Name	Costel Pantilimon
+Manchester City F.C.	Chief Executive Officer	Ferran Soriano
+Manchester City F.C.	Name	Matija_Nastasi%C4%87
+Manchester City F.C.	Name	Sergio_Ag%C3%BCero
+Manchester City F.C.	Name	J%C3%A9r%C3%A9my_H%C3%A9lan
+Manchester City F.C.	S	Past-Players
+Manchester City F.C.	Name	Wayne Bridge
+Manchester City F.C.	Name	Alex Nimely
+Manchester City F.C.	Name	Samir Nasri
+Manchester City F.C.	Name	Ryan Mcgivern (Footballer)
+Manchester City F.C.	Name	Maicon (Footballer Born 1981)
+Manchester City F.C.	Name	Javi_Garc%C3%ADa
+Manchester City F.C.	Name	Marcos Lopes
+Manchester City F.C.	Name	Vincent Kompany
+Manchester City F.C.	Manager	Roberto Mancini
+Manchester City F.C.	S	profiles
+Manchester City F.C.	Name	Kolo_Tour%C3%A9

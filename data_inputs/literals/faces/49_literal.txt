@@ -1,0 +1,38 @@
+Usain Bolt	Honorific Prefix	Order Of Distinction
+Usain Bolt	Place Of Birth	Jamaica
+Usain Bolt	Title	Track & Field News Athlete Of The Year
+Usain Bolt	Sport	Track And Field
+Usain Bolt	State Of Origin	Jamaica
+Usain Bolt	Birth Place	Trelawny Parish
+Usain Bolt	Title	Laureus World Sports Award For Sportsman Of The Year
+Usain Bolt	Title	Best International Athlete Espy Award
+Usain Bolt	Title	Best Track And Field Athlete Espy Award
+Usain Bolt	Title	100 Metres
+Usain Bolt	Birth Place	Trelawny Parish
+Usain Bolt	Title	Men'S 100 Metres World Record Progression
+Usain Bolt	Honorific Prefix	The Honourable
+Usain Bolt	Event	Sprint (Running)
+Usain Bolt	hasPhotoCollection	Usain_Bolt
+Usain Bolt	Birth Place	Jamaica
+Usain Bolt	wasDerivedFrom	Usain_Bolt?oldid=546464032
+Usain Bolt	Birth Place	Trelawny Parish, Jamaica
+Usain Bolt	depiction	Usain_Bolt_2012_Olympics_1.jpg
+Usain Bolt	Thumbnail	200px-Usain_Bolt_2012_Olympics_1.jpg
+Usain Bolt	Birth Place	Trelawny Parish, Jamaica
+Usain Bolt	Title	Jamaica Sportsperson Of The Year
+Usain Bolt	Title	200 Metres
+Usain Bolt	Birth Place	Jamaica
+Usain Bolt	Residence	Kingston, Jamaica
+Usain Bolt	Place Of Birth	Trelawny Parish
+Usain Bolt	isPrimaryTopicOf	Usain_Bolt
+Usain Bolt	Title	Track & Field Athlete Of The Year
+Usain Bolt	Title	Bbc Overseas Sports Personality Of The Year
+Usain Bolt	Honorific Suffix	Order Of Jamaica
+Usain Bolt	Residence	Kingston, Jamaica
+Usain Bolt	Title	Jamaica Sportsman Of The Year
+Usain Bolt	Nationality	Jamaica
+Usain Bolt	Years	2012 Summer Olympics
+Usain Bolt	Title	Iaaf World Athlete Of The Year
+Usain Bolt	Title	L'%C3%89quipe_Champion_of_Champions
+Usain Bolt	Place Of Birth	Trelawny Parish, Jamaica
+Usain Bolt	Title	Men'S 200 Metres World Record Progression

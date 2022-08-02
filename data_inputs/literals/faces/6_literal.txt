@@ -1,0 +1,78 @@
+Family Feud	Narrated	Burton Richardson (Announcer)
+Family Feud	Distributor	Lexington Broadcast Services Company
+Family Feud	Network	CBS
+Family Feud	Location	Cbs Television City
+Family Feud	Company	Fremantlemedia
+Family Feud	Location	Nbc Studios
+Family Feud	Distributor	All American Television
+Family Feud	wasDerivedFrom	Family_Feud?oldid=548121320
+Family Feud	Narrator	Joey Fatone
+Family Feud	Distributor	20Th Television
+Family Feud	Presenter	Steve Harvey
+Family Feud	Network	CBS
+Family Feud	Company	Georgia Department Of Economic Development
+Family Feud	Location	Nbc Studios
+Family Feud	Theme Music Composer	Edd Kalehoff
+Family Feud	Distributor	Debmar-Mercury
+Family Feud	Distributor	Viacom Enterprises
+Family Feud	Presenter	Richard Dawson
+Family Feud	Company	Fremantlemedia
+Family Feud	Format	Game Show
+Family Feud	Network	American Broadcasting Company
+Family Feud	Thumbnail	200px-FamilyFeud2007Logo.png
+Family Feud	Presenter	Louie Anderson
+Family Feud	Location	Sunset Bronson Studios
+Family Feud	Narrated	Gene Wood
+Family Feud	Company	Georgia Department Of Economic Development
+Family Feud	Location	Sunset Bronson Studios
+Family Feud	Composer	Score Productions
+Family Feud	Narrated	Joey Fatone
+Family Feud	Presenter	Ray Combs
+Family Feud	Format (Object)	Game Show
+Family Feud	Presenter	Richard Karn
+Family Feud	Network	American Broadcasting Company
+Family Feud	Runtime	Broadcast Syndication
+Family Feud	Title	Daytime Emmy Award For Outstanding Game/Audience Participation Show
+Family Feud	Network	Broadcast Syndication
+Family Feud	depiction	FamilyFeud2007Logo.png
+Family Feud	Presenter	Richard Karn
+Family Feud	Location	Universal Studios
+Family Feud	Location	Nbc Studios (New York)
+Family Feud	Creator	Mark Goodson
+Family Feud	Location	Old Warner Brothers Studio
+Family Feud	Director	Paul Alter
+Family Feud	Network	Broadcast Syndication
+Family Feud	Location	Atlanta Civic Center
+Family Feud	Presenter	John O'Hurley
+Family Feud	Distributor	Debmar-Mercury
+Family Feud	Runtime	American Broadcasting Company
+Family Feud	Location	Universal Studios
+Family Feud	Location	Nbc Studios (New York)
+Family Feud	Distributor	All American Television
+Family Feud	Location	Atlanta
+Family Feud	Location	Old Warner Brothers Studio
+Family Feud	Narrator	Burton Richardson (Announcer)
+Family Feud	Distributor	Tribune Entertainment
+Family Feud	Composer	Edd Kalehoff
+Family Feud	isPrimaryTopicOf	Family_Feud
+Family Feud	Presenter	Louie Anderson
+Family Feud	hasPhotoCollection	Family_Feud
+Family Feud	Film Director	Paul Alter
+Family Feud	Creator (Agent)	Mark Goodson
+Family Feud	Location	Atlanta Civic Center
+Family Feud	Presenter	Richard Dawson
+Family Feud	homepage	www.familyfeud.com
+Family Feud	Presenter	Steve Harvey
+Family Feud	Presenter	John O'Hurley
+Family Feud	Theme Music Composer	Score Productions
+Family Feud	Location	The Prospect Studios
+Family Feud	Distributor	Viacom Enterprises
+Family Feud	Narrator	Gene Wood
+Family Feud	Location	Cbs Television City
+Family Feud	Director	Marc Breslow
+Family Feud	Location	The Prospect Studios
+Family Feud	Runtime	CBS
+Family Feud	Presenter	Ray Combs
+Family Feud	Distributor	Lexington Broadcast Services Company
+Family Feud	Film Director	Marc Breslow
+Family Feud	Distributor	Tribune Entertainment

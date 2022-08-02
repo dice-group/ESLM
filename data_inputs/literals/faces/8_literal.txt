@@ -1,0 +1,26 @@
+Candle In The Wind	Recorded In	Trident Studios
+Candle In The Wind	isPrimaryTopicOf	Candle_in_the_Wind
+Candle In The Wind	Musical Artist	Elton John
+Candle In The Wind	Previous Work	Step Into Christmas
+Candle In The Wind	Genre	Glam Rock
+Candle In The Wind	Thumbnail	200px-Elton_John_-_Candle_in_the_Wind_(1986).jpg
+Candle In The Wind	Label	Mca Records
+Candle In The Wind	Artist	Elton John
+Candle In The Wind	Label	Djm Records
+Candle In The Wind	Format (Object)	Gramophone Record
+Candle In The Wind	Genre	Glam Rock
+Candle In The Wind	Genre	Pop Rock
+Candle In The Wind	Writer	Elton John
+Candle In The Wind	Auteur	Elton John
+Candle In The Wind	depiction	Elton_John_-_Candle_in_the_Wind_(1986).jpg
+Candle In The Wind	Subsequent Work	Bennie And The Jets
+Candle In The Wind	Writer	Bernie Taupin
+Candle In The Wind	hasPhotoCollection	Candle_in_the_Wind
+Candle In The Wind	From Album	Goodbye Yellow Brick Road
+Candle In The Wind	Record Label	Mca Records
+Candle In The Wind	Auteur	Bernie Taupin
+Candle In The Wind	Musical Band	Elton John
+Candle In The Wind	Record Label	Djm Records
+Candle In The Wind	Genre	Pop Rock
+Candle In The Wind	wasDerivedFrom	Candle_in_the_Wind?oldid=548314767
+Candle In The Wind	Format	Gramophone Record

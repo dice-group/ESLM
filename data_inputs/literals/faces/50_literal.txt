@@ -1,0 +1,55 @@
+Joe Biden	Birth Place	Scranton, Pennsylvania
+Joe Biden	Order	United States Senate Committee On Foreign Relations
+Joe Biden	Website	joebiden
+Joe Biden	Successor	Dianne Feinstein
+Joe Biden	Successor	Orrin Hatch
+Joe Biden	Website	joebiden
+Joe Biden	Birth Place	Pennsylvania
+Joe Biden	Term Period	Joe_Biden__6
+Joe Biden	Residence	Wilmington, Delaware
+Joe Biden	wasDerivedFrom	Joe_Biden?oldid=547812672
+Joe Biden	Successor	Ted Kaufman
+Joe Biden	President	Barack Obama
+Joe Biden	Profession	Lawyer
+Joe Biden	Term Period	Joe_Biden__1
+Joe Biden	Predecessor	Strom Thurmond
+Joe Biden	Successor	John Kerry
+Joe Biden	Successor	Richard Lugar
+Joe Biden	President	Barack Obama
+Joe Biden	Successor	John Kerry
+Joe Biden	Order	International Narcotics Control Caucus
+Joe Biden	isPrimaryTopicOf	Joe_Biden
+Joe Biden	Region	Delaware
+Joe Biden	Successor	Ted Kaufman
+Joe Biden	Spouse	Jill Biden
+Joe Biden	Order	United States Senate Committee On The Judiciary
+Joe Biden	Term Period	Joe_Biden__3
+Joe Biden	Predecessor	Richard Lugar
+Joe Biden	Thumbnail	200px-Biden_2013.jpg
+Joe Biden	Predecessor	Dick Cheney
+Joe Biden	Term Period	Joe_Biden__2
+Joe Biden	Child	Hunter Biden
+Joe Biden	homepage	vice-president-biden
+Joe Biden	Successor	Richard Lugar
+Joe Biden	homepage	joebiden
+Joe Biden	depiction	Biden_2013.jpg
+Joe Biden	Profession	Lawyer
+Joe Biden	Successor	Dianne Feinstein
+Joe Biden	Term Period	Joe_Biden__4
+Joe Biden	Successor	Jesse Helms
+Joe Biden	Child	Beau Biden
+Joe Biden	Party	Democratic Party (United States)
+Joe Biden	hasPhotoCollection	Joe_Biden
+Joe Biden	Predecessor	Chuck Grassley
+Joe Biden	Website	vice-president-biden
+Joe Biden	homepage	joebiden
+Joe Biden	Predecessor	Jesse Helms
+Joe Biden	Residence	Number One Observatory Circle
+Joe Biden	Successor	Orrin Hatch
+Joe Biden	Predecessor	J. Caleb Boggs
+Joe Biden	Religion	Catholic Church
+Joe Biden	Term Period	Joe_Biden__5
+Joe Biden	Party	Democratic Party (United States)
+Joe Biden	State	Delaware
+Joe Biden	Religion	Catholic Church
+Joe Biden	Successor	Jesse Helms

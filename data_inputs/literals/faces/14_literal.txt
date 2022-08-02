@@ -1,0 +1,43 @@
+Henry Iv Of France	Birth Place	Pau,_Pyr%C3%A9n%C3%A9es-Atlantiques
+Henry Iv Of France	depiction	HenriIV.jpg
+Henry Iv Of France	Successor	Louis Xiii Of France
+Henry Iv Of France	Predecessor	Henry Iii Of France
+Henry Iv Of France	Place Of Birth	Kingdom Of Navarre
+Henry Iv Of France	After	Louis Xiii Of France
+Henry Iv Of France	Birth Place	Kingdom Of Navarre
+Henry Iv Of France	Before	Jeanne Iii Of Navarre
+Henry Iv Of France	Birth Place	Kingdom Of Navarre
+Henry Iv Of France	Title	Viscounts_of_B%C3%A9arn
+Henry Iv Of France	Parent	Jeanne D'Albret
+Henry Iv Of France	Predecessor	Jeanne Iii Of Navarre
+Henry Iv Of France	Mother	Jeanne D'Albret
+Henry Iv Of France	House	House Of Bourbon
+Henry Iv Of France	Father	Antoine Of Navarre
+Henry Iv Of France	Place Of Birth	Pau,_Pyr%C3%A9n%C3%A9es-Atlantiques
+Henry Iv Of France	Spouse	Margaret Of Valois
+Henry Iv Of France	Issue	Louis Xiii Of France
+Henry Iv Of France	Title	Albret
+Henry Iv Of France	Religion	Roman Catholicism
+Henry Iv Of France	Spouse	Marie De' Medici
+Henry Iv Of France	Birth Place	Pau,_Pyr%C3%A9n%C3%A9es-Atlantiques
+Henry Iv Of France	wasDerivedFrom	Henry_IV_of_France?oldid=548593386
+Henry Iv Of France	Parent	Jeanne Iii Of Navarre
+Henry Iv Of France	Spouse	Margaret Of Valois
+Henry Iv Of France	Before	Jeanne D'Albret
+Henry Iv Of France	Thumbnail	200px-HenriIV.jpg
+Henry Iv Of France	hasPhotoCollection	Henry_IV_of_France
+Henry Iv Of France	Parent	Antoine Of Navarre
+Henry Iv Of France	Title	List Of Navarrese Monarchs
+Henry Iv Of France	Succession	King Of Navarre
+Henry Iv Of France	Predecessor	Henry Iii Of France
+Henry Iv Of France	Succession	List Of French Monarchs
+Henry Iv Of France	isPrimaryTopicOf	Henry_IV_of_France
+Henry Iv Of France	Title	List Of French Monarchs
+Henry Iv Of France	Successor	Louis Xiii Of France
+Henry Iv Of France	homepage	/en/uc/00
+Henry Iv Of France	Religion	Catholic Church
+Henry Iv Of France	Title	Co-Prince Of Andorra
+Henry Iv Of France	Title	Co-Princes Of Andorra
+Henry Iv Of France	Succession	List Of Navarrese Monarchs
+Henry Iv Of France	Predecessor	Jeanne D'Albret
+Henry Iv Of France	Mother	Jeanne Iii Of Navarre

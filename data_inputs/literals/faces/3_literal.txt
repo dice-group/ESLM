@@ -1,0 +1,39 @@
+Marie Curie	homepage	articles.php?aid=1113
+Marie Curie	Doctoral Student	%C3%93scar_Moreno
+Marie Curie	Known For	Radioactive Decay
+Marie Curie	Thumbnail	200px-Marie_Curie_c1920.png
+Marie Curie	Spouse	Pierre Curie
+Marie Curie	Doctoral Student	Andr%C3%A9-Louis_Debierne
+Marie Curie	wasDerivedFrom	Marie_Curie?oldid=547107936
+Marie Curie	Doctoral Students	Marguerite Perey
+Marie Curie	Known For	Radioactive Decay
+Marie Curie	Alma Mater	University Of Paris
+Marie Curie	Field	Physics
+Marie Curie	depiction	Marie_Curie_c1920.png
+Marie Curie	Doctoral Students	%C3%93scar_Moreno
+Marie Curie	Death Place	Passy, Haute-Savoie
+Marie Curie	Field	Chemistry
+Marie Curie	Work Institutions	University Of Paris
+Marie Curie	Known For	Radium
+Marie Curie	Alma Mater	Espci Paristech
+Marie Curie	Doctoral Student	Marguerite Perey
+Marie Curie	Doctoral Advisor	Henri Becquerel
+Marie Curie	Doctoral Students	Andr%C3%A9-Louis_Debierne
+Marie Curie	Alma Mater	Espci Paristech
+Marie Curie	Alma Mater	ESPCI
+Marie Curie	Known For	Radioactivity
+Marie Curie	hasPhotoCollection	Marie_Curie
+Marie Curie	Known For	Radioactivity
+Marie Curie	Birth Place	Congress Poland
+Marie Curie	Spouse	Pierre Curie
+Marie Curie	Known For	Polonium
+Marie Curie	Known For	Polonium
+Marie Curie	Alma Mater	ESPCI
+Marie Curie	Birth Place	Russian Empire
+Marie Curie	isPrimaryTopicOf	Marie_Curie
+Marie Curie	Known For	Radium
+Marie Curie	Field	Chemistry
+Marie Curie	Death Place	Sancellemoz
+Marie Curie	Doctoral Advisor	Henri Becquerel
+Marie Curie	Field	Physics
+Marie Curie	Birth Place	Warsaw

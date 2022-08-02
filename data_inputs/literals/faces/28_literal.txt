@@ -1,0 +1,33 @@
+Seychelles	Leader Name	James Michel
+Seychelles	Government Type	Presidential System
+Seychelles	Calling Code	Telephone Numbers In Seychelles
+Seychelles	Anthem	Koste Seselwa
+Seychelles	hasPhotoCollection	Seychelles
+Seychelles	Calling Code	+248
+Seychelles	Government Type	Republic
+Seychelles	Legislature	National Assembly (Seychelles)
+Seychelles	Cctld	.Sc
+Seychelles	Government Type	Unitary State
+Seychelles	Capital	Victoria, Seychelles
+Seychelles	Thumbnail	200px-Flag_of_the_Seychelles.svg.png
+Seychelles	Time Zone	Seychelles Time
+Seychelles	Currency	Seychellois Rupee
+Seychelles	Leader Title	List Of Presidents Of Seychelles
+Seychelles	Leader Title	President Of Seychelles
+Seychelles	Leader Title	Vice President Of Seychelles
+Seychelles	Source 	World Meteorological Organization
+Seychelles	isPrimaryTopicOf	Seychelles
+Seychelles	Leader Name	Danny Faure
+Seychelles	Currency	Seychellois Rupee
+Seychelles	Language	Seychellois Creole
+Seychelles	Languages	Seychellois Creole
+Seychelles	Leader Name	James Michel
+Seychelles	wasDerivedFrom	Seychelles?oldid=547744333
+Seychelles	Sovereignty Type	Independence
+Seychelles	depiction	Flag_of_the_Seychelles.svg
+Seychelles	Government Type	Unitary State
+Seychelles	Capital	Victoria, Seychelles
+Seychelles	Largest City	Capital City
+Seychelles	Largest City	Capital (Political)
+Seychelles	Leader Name	Danny Faure
+Seychelles	Government Type	Representative Democracy

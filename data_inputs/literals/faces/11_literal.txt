@@ -1,0 +1,29 @@
+Rice University	City	Houston
+Rice University	homepage	www.rice.edu
+Rice University	Type	Private University
+Rice University	President	David Leebron
+Rice University	Type	Private University
+Rice University	Athletics	Conference Usa
+Rice University	President	David Leebron
+Rice University	Provost	George Mclendon
+Rice University	State	Texas
+Rice University	Mascot	Sammy The Owl
+Rice University	Campus	Urban Area
+Rice University	Thumbnail	200px-Rice_University_seal.svg.png
+Rice University	hasPhotoCollection	Rice_University
+Rice University	Athletics	Conference Usa
+Rice University	Country	United States
+Rice University	wasDerivedFrom	Rice_University?oldid=546640179
+Rice University	Affiliations	Association Of American Universities
+Rice University	Provost	George Mclendon
+Rice University	depiction	Rice_University_seal.svg
+Rice University	Logo	RiceU_BlueSealLogo.png
+Rice University	City 	Houston
+Rice University	isPrimaryTopicOf	Rice_University
+Rice University	State	Texas
+Rice University	Athletics	National Collegiate Athletic Association
+Rice University	Country	United States
+Rice University	Website	www.rice.edu
+Rice University	Athletics	Division I (Ncaa)
+Rice University	Athletics	National Collegiate Athletic Association
+Rice University	Affiliation	Association Of American Universities

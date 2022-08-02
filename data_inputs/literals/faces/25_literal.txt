@@ -1,0 +1,39 @@
+Crysis 2	Game Engine	Cryengine
+Crysis 2	Media	Optical Disc
+Crysis 2	Computing Platform	Xbox 360
+Crysis 2	depiction	Crysis_2_cover.png
+Crysis 2	Auteur	Richard K. Morgan
+Crysis 2	Composer	Lorne Balfe
+Crysis 2	Modes	Single-Player Video Game
+Crysis 2	wasDerivedFrom	Crysis_2?oldid=548566038
+Crysis 2	Publisher	Electronic Arts
+Crysis 2	Game Engine	Cryengine 3
+Crysis 2	Computing Platform	Playstation 3
+Crysis 2	Composer	Lorne Balfe
+Crysis 2	Engine	Cryengine
+Crysis 2	Writer	Richard K. Morgan
+Crysis 2	Composer	Hans Zimmer
+Crysis 2	Developer	Crytek
+Crysis 2	Genre	Video Game Music
+Crysis 2	Computing Media	Digital Distribution
+Crysis 2	Genre	First-Person Shooter
+Crysis 2	Computing Media	Optical Disc
+Crysis 2	Developer	Crytek Uk
+Crysis 2	Publisher	Electronic Arts
+Crysis 2	Media	Digital Distribution
+Crysis 2	Engine	Cryengine 3
+Crysis 2	Developer	Crytek
+Crysis 2	Platforms	Playstation 3
+Crysis 2	Media	Online Distribution
+Crysis 2	Genre	First-Person Shooter
+Crysis 2	Platform	Microsoft Windows
+Crysis 2	isPrimaryTopicOf	Crysis_2
+Crysis 2	Platforms	Xbox 360
+Crysis 2	Composer	Hans Zimmer
+Crysis 2	Modes	Multiplayer Video Game
+Crysis 2	Computing Platform	Microsoft Windows
+Crysis 2	Series	Crysis (Series)
+Crysis 2	Platforms	Microsoft Windows
+Crysis 2	hasPhotoCollection	Crysis_2
+Crysis 2	Computing Media	Online Distribution
+Crysis 2	Thumbnail	200px-Crysis_2_cover.png

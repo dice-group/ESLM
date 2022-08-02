@@ -1,0 +1,59 @@
+The Cosby Show	Executive Producer	Tom Werner
+The Cosby Show	Opening Theme	Bobby Mcferrin
+The Cosby Show	Executive Producer	Tom Werner
+The Cosby Show	Company	Carsey-Werner Productions
+The Cosby Show	Company	Viacom Productions
+The Cosby Show	Related	A Different World
+The Cosby Show	Executive Producer	Bernie Kukoff
+The Cosby Show	Company	Carsey-Werner Productions
+The Cosby Show	Starring	Phylicia_Rash%C4%81d
+The Cosby Show	Camera	Multiple-Camera Setup
+The Cosby Show	Opening Theme	Oregon Symphony
+The Cosby Show	Starring	Bill Cosby
+The Cosby Show	wasDerivedFrom	The_Cosby_Show?oldid=548377159
+The Cosby Show	Creator (Agent)	Bill Cosby
+The Cosby Show	Creator	Bill Cosby
+The Cosby Show	Starring	Raven-Symon%C3%A9
+The Cosby Show	Starring	Tempestt Bledsoe
+The Cosby Show	Format (Object)	480I
+The Cosby Show	Creator (Agent)	Ed. Weinberger
+The Cosby Show	Starring	Lisa Bonet
+The Cosby Show	Distributor	Paramount Domestic Television
+The Cosby Show	Starring	Raven-Symon%C3%A9
+The Cosby Show	Executive Producer	Marcy Carsey
+The Cosby Show	isPrimaryTopicOf	The_Cosby_Show
+The Cosby Show	Camera	Videotape
+The Cosby Show	Starring	Sabrina Le Beauf
+The Cosby Show	Creator (Agent)	Michael J. Leeson
+The Cosby Show	Network	NBC
+The Cosby Show	Starring	Phylicia_Rash%C4%81d
+The Cosby Show	Starring	Geoffrey Owens
+The Cosby Show	Starring	Erika Alexander
+The Cosby Show	Distributor	Viacom Enterprises
+The Cosby Show	Starring	Malcolm-Jamal Warner
+The Cosby Show	Starring	Sabrina Le Beauf
+The Cosby Show	Genre	Sitcom
+The Cosby Show	Starring	Malcolm-Jamal Warner
+The Cosby Show	homepage	www.billcosby.com
+The Cosby Show	Starring	Geoffrey Owens
+The Cosby Show	Opening Theme	Craig Handy
+The Cosby Show	Starring	Keshia Knight Pulliam
+The Cosby Show	Language	English Language
+The Cosby Show	Opening Theme	Lester Bowie
+The Cosby Show	Thumbnail	200px-Cosby_Show_-_Logo.png
+The Cosby Show	Genre	Sitcom
+The Cosby Show	Starring	Lisa Bonet
+The Cosby Show	Composer	Bill Cosby
+The Cosby Show	depiction	Cosby_Show_-_Logo.png
+The Cosby Show	hasPhotoCollection	The_Cosby_Show
+The Cosby Show	Creator	Ed. Weinberger
+The Cosby Show	Starring	Erika Alexander
+The Cosby Show	Language	English Language
+The Cosby Show	Company	Viacom Productions
+The Cosby Show	Starring	Keshia Knight Pulliam
+The Cosby Show	Executive Producer	Janet Leahy
+The Cosby Show	Related	A Different World (Tv Series)
+The Cosby Show	Creator	Michael J. Leeson
+The Cosby Show	Executive Producer	Marcy Carsey
+The Cosby Show	Starring	Tempestt Bledsoe
+The Cosby Show	Network	NBC

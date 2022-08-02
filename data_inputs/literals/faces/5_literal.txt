@@ -1,0 +1,61 @@
+Richard Mentor Johnson	Birth Place	Kentucky
+Richard Mentor Johnson	Relation	James Johnson (Kentucky)
+Richard Mentor Johnson	After	Joseph Desha
+Richard Mentor Johnson	wasDerivedFrom	Richard_Mentor_Johnson?oldid=547019771
+Richard Mentor Johnson	After	Robert P. Letcher
+Richard Mentor Johnson	Alma Mater	Transylvania University
+Richard Mentor Johnson	After	William Brown (Congressman)
+Richard Mentor Johnson	Alongside	John Rowan (Kentucky)
+Richard Mentor Johnson	Party	Democratic-Republican Party
+Richard Mentor Johnson	Alma Mater	Transylvania University
+Richard Mentor Johnson	Predecessor	Martin Van Buren
+Richard Mentor Johnson	Religion	Baptist
+Richard Mentor Johnson	Title	List Of United States Democratic Party Presidential Tickets
+Richard Mentor Johnson	Military Rank	Colonel (United States)
+Richard Mentor Johnson	President	Martin Van Buren
+Richard Mentor Johnson	Region	Kentucky
+Richard Mentor Johnson	After	John Tyler
+Richard Mentor Johnson	Successor	George M. Bibb
+Richard Mentor Johnson	President	Martin Van Buren
+Richard Mentor Johnson	Spouse	Common Law Marriage
+Richard Mentor Johnson	Party	Democratic-Republican Party
+Richard Mentor Johnson	Rank	Colonel (United States)
+Richard Mentor Johnson	Battle	Battle Of The Thames
+Richard Mentor Johnson	Term Period	Richard_Mentor_Johnson__1
+Richard Mentor Johnson	Alongside	William Logan (Kentucky)
+Richard Mentor Johnson	Term Period	Richard_Mentor_Johnson__2
+Richard Mentor Johnson	Predecessor	John J. Crittenden
+Richard Mentor Johnson	Death Place	Frankfort, Kentucky
+Richard Mentor Johnson	Successor	George M. Bibb
+Richard Mentor Johnson	Death Place	Frankfort, Kentucky
+Richard Mentor Johnson	Place Of Death	Frankfort, Kentucky
+Richard Mentor Johnson	Religion	Baptists
+Richard Mentor Johnson	Before	Martin Van Buren
+Richard Mentor Johnson	Alongside	Isham Talbot
+Richard Mentor Johnson	Before	Robert L. Mchatton
+Richard Mentor Johnson	Battle	War Of 1812
+Richard Mentor Johnson	hasPhotoCollection	Richard_Mentor_Johnson
+Richard Mentor Johnson	Before	Stephen Ormsby
+Richard Mentor Johnson	Branch	United States Army
+Richard Mentor Johnson	Battles	War Of 1812
+Richard Mentor Johnson	Party	Democratic Party (United States)
+Richard Mentor Johnson	After	George M. Dallas
+Richard Mentor Johnson	Before	John J. Crittenden
+Richard Mentor Johnson	Religion	Baptist
+Richard Mentor Johnson	Alongside	John Rowan (Politician)
+Richard Mentor Johnson	After	William W. Southgate
+Richard Mentor Johnson	Successor	John Tyler
+Richard Mentor Johnson	After	George M. Bibb
+Richard Mentor Johnson	Battles	Battle Of The Thames
+Richard Mentor Johnson	Religion	Baptists
+Richard Mentor Johnson	Spouse	Common-Law Marriage
+Richard Mentor Johnson	Party	Democratic Party (United States)
+Richard Mentor Johnson	isPrimaryTopicOf	Richard_Mentor_Johnson
+Richard Mentor Johnson	Military Branch	United States Army
+Richard Mentor Johnson	depiction	RichardMentorJohnson.png
+Richard Mentor Johnson	Successor	John Tyler
+Richard Mentor Johnson	Title	Vice President Of The United States
+Richard Mentor Johnson	Thumbnail	200px-RichardMentorJohnson.png
+Richard Mentor Johnson	Before	Thomas Sandford
+Richard Mentor Johnson	After	William Wright Southgate
+Richard Mentor Johnson	State	Kentucky

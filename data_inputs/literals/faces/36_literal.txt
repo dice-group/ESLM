@@ -1,0 +1,40 @@
+Mortal Kombat Trilogy	Developer	Point Of View, Inc.
+Mortal Kombat Trilogy	depiction	MKTBox.jpg
+Mortal Kombat Trilogy	Computing Platform	Personal Computer
+Mortal Kombat Trilogy	Publisher	Gt Interactive
+Mortal Kombat Trilogy	Designer	John Tobias
+Mortal Kombat Trilogy	Publisher	Midway Games
+Mortal Kombat Trilogy	Computing Platform	Playstation (Console)
+Mortal Kombat Trilogy	Media	CD-ROM
+Mortal Kombat Trilogy	Computing Platform	Sega Saturn
+Mortal Kombat Trilogy	wasDerivedFrom	Mortal_Kombat_Trilogy?oldid=541603965
+Mortal Kombat Trilogy	Media	Rom Cartridge
+Mortal Kombat Trilogy	Platforms	Sega Saturn
+Mortal Kombat Trilogy	hasPhotoCollection	Mortal_Kombat_Trilogy
+Mortal Kombat Trilogy	Publisher	Softbank
+Mortal Kombat Trilogy	Publisher	Softbank
+Mortal Kombat Trilogy	Publisher	Gt Interactive Software
+Mortal Kombat Trilogy	Thumbnail	200px-MKTBox.jpg
+Mortal Kombat Trilogy	Developer	Avalanche Software
+Mortal Kombat Trilogy	Developer	Point Of View, Inc.
+Mortal Kombat Trilogy	Computing Platform	R-Zone
+Mortal Kombat Trilogy	Publisher	Wms Industries
+Mortal Kombat Trilogy	Publisher	Midway Games
+Mortal Kombat Trilogy	Platforms	Personal Computer
+Mortal Kombat Trilogy	Publisher	Gt Interactive
+Mortal Kombat Trilogy	Designer	Ed Boon
+Mortal Kombat Trilogy	Genre	Fighting Game
+Mortal Kombat Trilogy	Computing Platform	Game.Com
+Mortal Kombat Trilogy	Genre	Fighting Game
+Mortal Kombat Trilogy	Publisher	Wms Industries
+Mortal Kombat Trilogy	Computing Platform	Nintendo 64
+Mortal Kombat Trilogy	Platforms	Playstation (Console)
+Mortal Kombat Trilogy	Platforms	R-Zone
+Mortal Kombat Trilogy	Publisher	Gt Interactive Software
+Mortal Kombat Trilogy	Computing Media	CD-ROM
+Mortal Kombat Trilogy	Series	Mortal Kombat
+Mortal Kombat Trilogy	Computing Media	Rom Cartridge
+Mortal Kombat Trilogy	Platforms	Game.Com
+Mortal Kombat Trilogy	isPrimaryTopicOf	Mortal_Kombat_Trilogy
+Mortal Kombat Trilogy	Platforms	Nintendo 64
+Mortal Kombat Trilogy	Developer	Avalanche Software

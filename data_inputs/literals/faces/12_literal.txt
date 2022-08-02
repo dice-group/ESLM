@@ -1,0 +1,34 @@
+Czech Republic	Government Type	Parliamentary Republic
+Czech Republic	Thumbnail	200px-Flag_of_the_Czech_Republic.svg.png
+Czech Republic	Demonym	Czechs
+Czech Republic	Currency	Czech Koruna
+Czech Republic	Established Event	Dissolution Of Czechoslovakia
+Czech Republic	homepage	Homepage.aspx?lang=en-GB&selectedculture=en-US
+Czech Republic	Leader Name	Petr_Ne%C4%8Das
+Czech Republic	Established Event	Kingdom Of Bohemia
+Czech Republic	Currency	Czech Koruna
+Czech Republic	hasPhotoCollection	Czech_Republic
+Czech Republic	Upper House	Senate Of The Parliament Of The Czech Republic
+Czech Republic	Leader Name	Milo%C5%A1_Zeman
+Czech Republic	Leader Name	Petr_Ne%C4%8Das
+Czech Republic	Leader Title	President Of The Czech Republic
+Czech Republic	Official Languages	Czech Language
+Czech Republic	wasDerivedFrom	Czech_Republic?oldid=548486944
+Czech Republic	Capital	Prague
+Czech Republic	Time Zone Dst	Central European Time
+Czech Republic	Government Type	Parliamentary Republic
+Czech Republic	Established Event	Czech Socialist Republic
+Czech Republic	Leader Name	Milo%C5%A1_Zeman
+Czech Republic	Legislature	Parliament Of The Czech Republic
+Czech Republic	Time Zone	Central European Time
+Czech Republic	Time Zone Dst	Central European Summer Time
+Czech Republic	isPrimaryTopicOf	Czech_Republic
+Czech Republic	Sovereignty Type	History Of The Czech Lands
+Czech Republic	Established Event	Czechoslovakia
+Czech Republic	Language	Czech Language
+Czech Republic	depiction	Flag_of_the_Czech_Republic.svg
+Czech Republic	Lower House	Chamber Of Deputies Of The Parliament Of The Czech Republic
+Czech Republic	Official Language	Czech Language
+Czech Republic	Capital	Prague
+Czech Republic	Leader Title	List Of Prime Ministers Of The Czech Republic
+Czech Republic	Sovereignty Type	History Of The Czech Lands

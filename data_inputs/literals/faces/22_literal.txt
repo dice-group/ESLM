@@ -1,0 +1,42 @@
+Poland	wasDerivedFrom	Poland?oldid=547946249
+Poland	Language	Polish Language
+Poland	Established Event	Partitions Of Poland
+Poland	Established Event	Polish%E2%80%93Lithuanian_Commonwealth
+Poland	isPrimaryTopicOf	Poland
+Poland	Languages	Polish Language
+Poland	Established Event	Invasion Of Poland
+Poland	Established Event	Duchy Of Warsaw
+Poland	Anthem	Poland Is Not Yet Lost
+Poland	Leader Name	Bronis%C5%82aw_Komorowski
+Poland	Established Event	Congress Poland
+Poland	Leader Title	President Of Poland
+Poland	Government Type	Parliamentary Republic
+Poland	Cctld	.Pl
+Poland	Languages2 Type	Regional Language
+Poland	Established Event	History_of_Poland_(1989%E2%80%93present)
+Poland	Leader Title	Prime Minister Of The Republic Of Poland
+Poland	Established Event	History_of_Poland_(1918%E2%80%931939)
+Poland	Established Event	Polish-Lithuanian Commonwealth
+Poland	Established Event	People'S Republic Of Poland
+Poland	Thumbnail	200px-Flag_of_Poland_(normative).svg.png
+Poland	hasPhotoCollection	Poland
+Poland	Capital	Warsaw
+Poland	Leader Name	Donald Tusk
+Poland	Upper House	Senate Of The Republic Of Poland
+Poland	Leader Name	Bronis%C5%82aw_Komorowski
+Poland	Legislature	National Assembly Of The Republic Of Poland
+Poland	Legislature	National Assembly (Poland)
+Poland	homepage	en
+Poland	Languages Type	Official Language
+Poland	Established Event	Kingdom_of_Poland_(1025%E2%80%931385)
+Poland	Leader Name	Donald Tusk
+Poland	Established Event	World War Ii
+Poland	Time Zone Dst	Central European Summer Time
+Poland	Currency	Polish_z%C5%82oty
+Poland	Time Zone Dst	Central European Time
+Poland	Languages	Kashubian Language
+Poland	Leader Title	Prime Minister Of Poland
+Poland	depiction	Flag_of_Poland_(normative).svg
+Poland	Government Type	Parliamentary Republic
+Poland	Capital	Warsaw
+Poland	Time Zone	Central European Time

@@ -1,0 +1,35 @@
+Albert Einstein	Place Of Death	Princeton, New Jersey
+Albert Einstein	Short Description	Physicist
+Albert Einstein	Birth Place	German Empire
+Albert Einstein	Residence	Switzerland
+Albert Einstein	Death Place	USA
+Albert Einstein	Field	Physics
+Albert Einstein	Place Of Birth	German Empire
+Albert Einstein	Fields	Physics
+Albert Einstein	Place Of Birth	Baden-W%C3%BCrttemberg
+Albert Einstein	depiction	Einstein_1921_by_F_Schmutzer.jpg
+Albert Einstein	Death Place	United States
+Albert Einstein	Birth Place	Baden-W%C3%BCrttemberg
+Albert Einstein	Birth Place	Kingdom_of_W%C3%BCrttemberg
+Albert Einstein	Doctoral Advisor	Alfred Kleiner
+Albert Einstein	Children	Lieserl Einstein
+Albert Einstein	Children	Eduard Einstein
+Albert Einstein	Birth Place	Kingdom_of_W%C3%BCrttemberg
+Albert Einstein	Residence	United States
+Albert Einstein	Place Of Birth	Ulm
+Albert Einstein	Thumbnail	200px-Einstein_1921_by_F_Schmutzer.jpg
+Albert Einstein	Birth Place	German Empire
+Albert Einstein	Birth Place	Ulm
+Albert Einstein	Death Place	Princeton, New Jersey
+Albert Einstein	Children	Einstein Family
+Albert Einstein	hasPhotoCollection	Albert_Einstein
+Albert Einstein	wasDerivedFrom	Albert_Einstein?oldid=548308618
+Albert Einstein	Place Of Death	USA
+Albert Einstein	Spouse	Mileva_Mari%C4%87
+Albert Einstein	Birth Place	Ulm
+Albert Einstein	Children	Hans Albert Einstein
+Albert Einstein	isPrimaryTopicOf	Albert_Einstein
+Albert Einstein	Academic Advisor	Heinrich Friedrich Weber
+Albert Einstein	Academic Advisors	Heinrich Friedrich Weber
+Albert Einstein	Place Of Death	United States
+Albert Einstein	Doctoral Advisor	Alfred Kleiner

@@ -1,0 +1,52 @@
+Alan Turing	Known For	Turing Pattern
+Alan Turing	Alma Mater	King'S College, Cambridge
+Alan Turing	depiction	Alan_Turing_photo.jpg
+Alan Turing	Known For	The Chemical Basis Of Morphogenesis
+Alan Turing	hasPhotoCollection	Alan_Turing
+Alan Turing	Birth Place	Maida Vale
+Alan Turing	Doctoral Student	Robin Gandy
+Alan Turing	Doctoral Advisor	Alonzo Church
+Alan Turing	Field	Cryptanalysis
+Alan Turing	Prizes	Fellow Of The Royal Society
+Alan Turing	isPrimaryTopicOf	Alan_Turing
+Alan Turing	Doctoral Students	Robin Gandy
+Alan Turing	Known For	Halting Problem
+Alan Turing	Award	Fellow Of The Royal Society
+Alan Turing	Work Institutions	National Physical Laboratory, Uk
+Alan Turing	Known For	Cryptanalysis Of The Enigma
+Alan Turing	Alma Mater	King'S College, Cambridge
+Alan Turing	Known For	Automatic Computing Engine
+Alan Turing	Known For	Turing Test
+Alan Turing	Prizes	Officer Of The Order Of The British Empire
+Alan Turing	Death Place	Manchester
+Alan Turing	Award	Order Of The British Empire
+Alan Turing	Known For	Cryptanalysis Of The Enigma
+Alan Turing	Prizes	Royal Society
+Alan Turing	Field	Computer Science
+Alan Turing	Work Institutions	University Of Manchester
+Alan Turing	Work Institutions	Government Communications Headquarters
+Alan Turing	Field	Mathematics
+Alan Turing	Work Institutions	University Of Cambridge
+Alan Turing	wasDerivedFrom	Alan_Turing?oldid=548596608
+Alan Turing	Alma Mater	Princeton University
+Alan Turing	Doctoral Advisor	Alonzo Church
+Alan Turing	Field	Mathematics
+Alan Turing	Birth Place	Paddington
+Alan Turing	Known For	Turing Machine
+Alan Turing	Work Institutions	Government Code And Cypher School
+Alan Turing	Alma Mater	Princeton University
+Alan Turing	Field	Cryptanalysis
+Alan Turing	Work Institutions	National Physical Laboratory (United Kingdom)
+Alan Turing	Known For	Turing Test
+Alan Turing	Known For	Turing Machine
+Alan Turing	Thesis Url	301792588
+Alan Turing	Known For	Turing Award
+Alan Turing	Thumbnail	200px-Alan_Turing_photo.jpg
+Alan Turing	Field	Computer Science
+Alan Turing	Known For	Turing Award
+Alan Turing	Prizes	Order Of The British Empire
+Alan Turing	Award	Officer Of The Order Of The British Empire
+Alan Turing	Known For	Automatic Computing Engine
+Alan Turing	Award	Royal Society
+Alan Turing	Known For	Halting Problem
+Alan Turing	Death Place	Wilmslow

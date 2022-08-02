@@ -1,0 +1,34 @@
+Lexus	Industry	Automotive
+Lexus	Industry	Automotive
+Lexus	Founded By	Eiji Toyoda
+Lexus	Thumbnail	200px-Lexus_division_emblem.svg.png
+Lexus	Division	Lexus F
+Lexus	Location	Nagoya
+Lexus	Location	Japan
+Lexus	Service	Financial Services
+Lexus	homepage	www.lexus-global.com
+Lexus	depiction	Lexus_division_emblem.svg
+Lexus	Type	Division (Business)
+Lexus	Owner	Toyota
+Lexus	Key Person	Managing Director
+Lexus	Founder	Eiji Toyoda
+Lexus	hasPhotoCollection	Lexus
+Lexus	Products	Automobiles
+Lexus	Divisions	Lexus F
+Lexus	Industry	Automotive Industry
+Lexus	Product	Automobiles
+Lexus	Key Person	Vice President
+Lexus	Owner	Toyota
+Lexus	isPrimaryTopicOf	Lexus
+Lexus	Type	Division (Business)
+Lexus	Homepage	www.lexus-global.com
+Lexus	Key Person	Vice President
+Lexus	Location	Nagoya
+Lexus	Industry	Automotive Industry
+Lexus	Owning Company	Toyota
+Lexus	Services	Financial Services
+Lexus	Key Person	Chief Executive Officer
+Lexus	Location	Japan
+Lexus	Products	Automobile
+Lexus	Product	Automobile
+Lexus	wasDerivedFrom	Lexus?oldid=543119450

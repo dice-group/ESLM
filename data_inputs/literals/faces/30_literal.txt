@@ -1,0 +1,42 @@
+Texas	Timezone	Mountain Time Zone
+Texas	Candidate	Mitt Romney
+Texas	Senators	Ted Cruz
+Texas	Upperhouse	Texas Senate
+Texas	Capital	Austin, Texas
+Texas	Flaglink	Flag Of Texas
+Texas	highestpoint	Guadalupe Peak
+Texas	Demonym	Texan
+Texas	Borderingstates	Oklahoma
+Texas	Timezone	Central Time Zone (North America)
+Texas	Demonym	Tejano
+Texas	depiction	Flag_of_Texas.svg
+Texas	Timezone	Central Standard Time
+Texas	Largest City	Houston
+Texas	Demonym	Texian
+Texas	Office	List Of U.S. States By Date Of Statehood
+Texas	Lieutenant Governor	David Dewhurst
+Texas	Country	United States
+Texas	isPrimaryTopicOf	Texas
+Texas	Senators	John Cornyn
+Texas	Candidate	Barack Obama
+Texas	Succeeded	Iowa
+Texas	Thumbnail	200px-Flag_of_Texas.svg.png
+Texas	hasPhotoCollection	Texas
+Texas	Timezone	Coordinated Universal Time
+Texas	Seallink	Seal Of Texas
+Texas	wasDerivedFrom	Texas?oldid=547668601
+Texas	Demonym	Texan (Disambiguation)
+Texas	Timezone	Mountain Daylight Time
+Texas	Legislature	Texas Legislature
+Texas	Language	Languages Of Texas
+Texas	Timezone	Central Daylight Time
+Texas	Largestcity	Houston
+Texas	Capital	Austin, Texas
+Texas	Timezone	Mountain Standard Time
+Texas	Southeast	Gulf Of Mexico
+Texas	Borderingstates	Arkansas
+Texas	Borderingstates	Louisiana
+Texas	Largestmetro	Dallas%E2%80%93Fort_Worth_metroplex
+Texas	Borderingstates	New Mexico
+Texas	lowestpoint	Gulf Of Mexico
+Texas	Lowerhouse	Texas House Of Representatives

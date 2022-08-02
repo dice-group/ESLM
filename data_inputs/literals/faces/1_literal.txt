@@ -1,0 +1,46 @@
+Barack Obama	wasDerivedFrom	Barack_Obama?oldid=548538288
+Barack Obama	Children	Malia Obama
+Barack Obama	State	Illinois
+Barack Obama	Successor	Roland Burris
+Barack Obama	Alma Mater	Occidental College
+Barack Obama	Residence	White House
+Barack Obama	Profession	Community Organizing
+Barack Obama	depiction	President_Barack_Obama.jpg
+Barack Obama	Predecessor	George W. Bush
+Barack Obama	Child	Sasha Obama
+Barack Obama	Residence	White House
+Barack Obama	Spouse	Michelle Obama
+Barack Obama	Predecessor	Peter Fitzgerald (Politician)
+Barack Obama	Birth Place	Hawaii
+Barack Obama	Profession	Lawyer
+Barack Obama	Predecessor	Alice Palmer (Politician)
+Barack Obama	Successor	Kwame Raoul
+Barack Obama	Successor	Kwame Raoul
+Barack Obama	Alma Mater	Columbia University
+Barack Obama	Website	www.barackobama.com
+Barack Obama	isPrimaryTopicOf	Barack_Obama
+Barack Obama	Term Period	Barack_Obama__2
+Barack Obama	Office	Illinois Senate
+Barack Obama	Child	Family Of Barack Obama
+Barack Obama	Vice President	Joe Biden
+Barack Obama	Children	Family Of Barack Obama
+Barack Obama	Religion	Christian
+Barack Obama	Alma Mater	Occidental College
+Barack Obama	Spouse	Michelle Obama
+Barack Obama	Data	Nobel Peace Prize
+Barack Obama	Birth Place	Honolulu
+Barack Obama	Vicepresident	Joe Biden
+Barack Obama	Religion	Christian
+Barack Obama	Profession	Community Organizing
+Barack Obama	Successor	Roland Burris
+Barack Obama	hasPhotoCollection	Barack_Obama
+Barack Obama	homepage	www.barackobama.com
+Barack Obama	Profession	Author
+Barack Obama	Child	Malia Obama
+Barack Obama	Thumbnail	200px-President_Barack_Obama.jpg
+Barack Obama	Alma Mater	Harvard Law School
+Barack Obama	Profession	Constitutional Law
+Barack Obama	Party	Democratic Party (United States)
+Barack Obama	Term Period	Barack_Obama__1
+Barack Obama	Party	Democratic Party (United States)
+Barack Obama	Region	Illinois

@@ -1,0 +1,52 @@
+Friends	Starring	David Schwimmer
+Friends	Distributor	NBC
+Friends	Executive Producer	Marta Kauffman
+Friends	Creator (Agent)	David Crane (Producer)
+Friends	Location	Warner Bros.
+Friends	wasDerivedFrom	Friends?oldid=547882844
+Friends	Executive Producer	Michael Curtis (Tv Producer)
+Friends	Starring	Matthew Perry
+Friends	Creator	Marta Kauffman
+Friends	Executive Producer	Kevin S. Bright
+Friends	Network	NBC
+Friends	Location	Warner Bros. Studios
+Friends	Company	Warner Bros. Television
+Friends	Distributor	NBC
+Friends	Executive Producer	Scott Silveri
+Friends	Starring	Lisa Kudrow
+Friends	isPrimaryTopicOf	Friends
+Friends	Composer	Allee Willis
+Friends	Format (Object)	480I
+Friends	Theme Music Composer	Allee Willis
+Friends	Starring	Matthew Perry
+Friends	depiction	Friends_titles.jpg
+Friends	Network	NBC
+Friends	homepage	friends15
+Friends	Starring	Courteney Cox
+Friends	Starring	Matt Leblanc
+Friends	Thumbnail	200px-Friends_titles.jpg
+Friends	Creator (Agent)	Marta Kauffman
+Friends	Location	Warner Bros.
+Friends	Opening Theme	I'Ll Be There For You (The Rembrandts Song)
+Friends	Company	Bright/Kauffman/Crane Productions
+Friends	hasPhotoCollection	Friends
+Friends	Creator	David Crane (Producer)
+Friends	Executive Producer	Kevin S. Bright
+Friends	Executive Producer	Wil Calhoun
+Friends	Executive Producer	David Crane (Producer)
+Friends	Starring	David Schwimmer
+Friends	Starring	Lisa Kudrow
+Friends	Opening Theme	The Rembrandts
+Friends	Distributor	Warner Bros. Television Distribution
+Friends	Genre	Sitcom
+Friends	Starring	Courteney Cox
+Friends	Starring	Jennifer Aniston
+Friends	Genre	Sitcom
+Friends	Starring	Matt Leblanc
+Friends	Starring	Jennifer Aniston
+Friends	Format (Object)	1080I
+Friends	Subsequent Work	Joey (Tv Series)
+Friends	Location	Warner Bros. Studios
+Friends	Company	Bright/Kauffman/Crane Productions
+Friends	Company	Warner Bros. Television
+Friends	Website	friends15

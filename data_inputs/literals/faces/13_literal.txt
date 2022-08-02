@@ -1,0 +1,55 @@
+Amsterdam	Parts	Amsterdam-Zuid
+Amsterdam	Leader Name	Eric Van Der Burg
+Amsterdam	isPrimaryTopicOf	Amsterdam
+Amsterdam	Population Blank1 Title	Randstad
+Amsterdam	Parts	Amsterdam-West
+Amsterdam	Leader Name	Pieter_Hilhorst
+Amsterdam	hasPhotoCollection	Amsterdam
+Amsterdam	Leader Name	Eric Wiebes
+Amsterdam	Leader Name	Maarten_van_Poelgeest
+Amsterdam	Country	Netherlands
+Amsterdam	Leader Name	Freek_Ossel
+Amsterdam	Parts	Amsterdam Nieuw-West
+Amsterdam	Time Zone	Central European Summer Time
+Amsterdam	Leader Name	Eric Wiebes
+Amsterdam	Leader Party	Labour Party (Netherlands)
+Amsterdam	Leader Name	Pieter_Hilhorst
+Amsterdam	Is Part Of	North Holland
+Amsterdam	depiction	Amsterdam_Collage.png
+Amsterdam	Link	1349
+Amsterdam	Leader Name	Andr%C3%A9e_van_Es
+Amsterdam	Thumbnail	200px-Amsterdam_Collage.png
+Amsterdam	Motto	Coat Of Arms Of Amsterdam
+Amsterdam	Leader Title	List Of Mayors Of Amsterdam
+Amsterdam	Time Zone	Central European Time
+Amsterdam	Leader Name	Carolien_Gehrels
+Amsterdam	Subdivision Name	Netherlands
+Amsterdam	Parts	Amsterdam-Oost
+Amsterdam	State Party	Netherlands
+Amsterdam	Leader Name	Eberhard Van Der Laan
+Amsterdam	Postal Code Type	List Of Postal Codes In The Netherlands
+Amsterdam	Leader Name	Maarten_van_Poelgeest
+Amsterdam	Parts	Amsterdam-Zuidoost
+Amsterdam	Region	List Of World Heritage Sites
+Amsterdam	Subdivision Name	North Holland
+Amsterdam	Population Blank1 Title	Demonym
+Amsterdam	homepage	www.amsterdam.nl
+Amsterdam	Leader Name	Eric Van Der Burg
+Amsterdam	Parts	Westpoort
+Amsterdam	Region	List Of World Heritage Sites In Europe
+Amsterdam	wasDerivedFrom	Amsterdam?oldid=548577509
+Amsterdam	Parts	Amsterdam-Noord
+Amsterdam	Subdivision Type	COROP
+Amsterdam	Leader Party	Labour Party (Netherlands)
+Amsterdam	Parts	Amsterdam-Centrum
+Amsterdam	Leader Name	Freek_Ossel
+Amsterdam	Website	www.amsterdam.nl
+Amsterdam	Url	Amsterdam%2C_Holland
+Amsterdam	Parts Type	Stadsdeel
+Amsterdam	Is Part Of	Amsterdam (Voc Ship)
+Amsterdam	Leader Name	Carolien_Gehrels
+Amsterdam	Leader Title	Wethouder
+Amsterdam	Leader Name	Eberhard Van Der Laan
+Amsterdam	Parts Type	Urban Districts Of Netherlands
+Amsterdam	Leader Title	College Van Burgemeester En Wethouders
+Amsterdam	Leader Name	Andr%C3%A9e_van_Es

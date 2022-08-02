@@ -1,0 +1,56 @@
+Baywatch	homepage	www.baywatch.com
+Baywatch	Executive Producer	David Hasselhoff
+Baywatch	Executive Producer	Michael Berk
+Baywatch	Location	Santa Monica, California
+Baywatch	Location	Hawaii
+Baywatch	Format (Object)	Monaural
+Baywatch	Distributor	All American Television
+Baywatch	isPrimaryTopicOf	Baywatch
+Baywatch	Genre	Action (Fiction)
+Baywatch	Format (Object)	4:3
+Baywatch	Genre	Action (Fiction)
+Baywatch	hasPhotoCollection	Baywatch
+Baywatch	Distributor	Lexington Broadcast Services Company
+Baywatch	Audio Format	Stereophonic Sound
+Baywatch	Executive Producer	Gregory J. Bonann
+Baywatch	depiction	Baywatch_logo.jpg
+Baywatch	Distributor	Lexington Broadcast Services Company
+Baywatch	Audio Format	Monophonic Sound
+Baywatch	Creator (Agent)	Baywatch
+Baywatch	Network	Broadcast Syndication
+Baywatch	Distributor	Fremantlemedia Enterprises
+Baywatch	Format (Object)	Aspect Ratio (Image)
+Baywatch	Format (Object)	Monophonic Sound
+Baywatch	wasDerivedFrom	Baywatch?oldid=547105195
+Baywatch	Executive Producer	Gregory J. Bonann
+Baywatch	Creator (Agent)	Douglas Schwartz
+Baywatch	Creator	Michael Berk
+Baywatch	Executive Producer	David Hasselhoff
+Baywatch	Distributor	Fremantlemedia Enterprises
+Baywatch	Creator (Agent)	Gregory J. Bonann
+Baywatch	Genre	Dramatic Programming
+Baywatch	Distributor	Fremantlemedia
+Baywatch	Distributor	All American Television
+Baywatch	Format (Object)	Stereophonic Sound
+Baywatch	Creator	Gregory J. Bonann
+Baywatch	Distributor	Fremantlemedia
+Baywatch	Network	NBC
+Baywatch	Location	Hawaii
+Baywatch	Genre	Action (Genre)
+Baywatch	Network	Broadcast Syndication
+Baywatch	Executive Producer	Douglas Schwartz
+Baywatch	Creator	Douglas Schwartz
+Baywatch	Location	Santa Monica, California
+Baywatch	Creator (Agent)	Michael Berk
+Baywatch	Executive Producer	Michael Berk
+Baywatch	Executive Producer	Baywatch
+Baywatch	Genre	Action (Genre)
+Baywatch	Status	Cancellation (Television)
+Baywatch	Thumbnail	200px-Baywatch_logo.jpg
+Baywatch	Executive Producer	Baywatch
+Baywatch	Audio Format	Monaural
+Baywatch	Creator	Baywatch
+Baywatch	Executive Producer	Douglas Schwartz
+Baywatch	Website	www.baywatch.com
+Baywatch	Related	Baywatch Nights
+Baywatch	Network	NBC

@@ -1,0 +1,33 @@
+Mike Turner	Residence	Dayton, Ohio
+Mike Turner	After	Rhine Mclin
+Mike Turner	Alma Mater	Ohio Northern University
+Mike Turner	homepage	turner.house.gov
+Mike Turner	isPrimaryTopicOf	Mike_Turner
+Mike Turner	Alma Mater	Case Western Reserve University
+Mike Turner	Religion	Presbyterianism
+Mike Turner	hasPhotoCollection	Mike_Turner
+Mike Turner	Title	Mayor Of Dayton, Ohio
+Mike Turner	Birth Place	Dayton, Ohio
+Mike Turner	Region	Ohio
+Mike Turner	Before	Tony P. Hall
+Mike Turner	State	Ohio
+Mike Turner	Succeeded	Joyce Beatty
+Mike Turner	Party	Republican Party (United States)
+Mike Turner	Birth Place	Dayton, Ohio
+Mike Turner	Party	Republican Party (United States)
+Mike Turner	Religion	Presbyterianism
+Mike Turner	Before	Clay Dixon
+Mike Turner	Successor	Rhine Mclin
+Mike Turner	depiction	Mike_Turner,_Official_Portrait,_c112th_Congress.jpg
+Mike Turner	wasDerivedFrom	Mike_Turner?oldid=548318013
+Mike Turner	Residence	Dayton, Ohio
+Mike Turner	Title	Politics Of Dayton, Ohio
+Mike Turner	Religion	Presbyterian
+Mike Turner	Alma Mater	Case Western Reserve
+Mike Turner	Alma Mater	University Of Dayton
+Mike Turner	Preceded	Tony P. Hall
+Mike Turner	Thumbnail	200px-Mike_Turner,_Official_Portrait,_c112th_Congress.jpg
+Mike Turner	Religion	Presbyterian
+Mike Turner	Successor	Rhine Mclin
+Mike Turner	Preceded	Dennis Kucinich
+Mike Turner	Place Of Birth	Dayton, Ohio

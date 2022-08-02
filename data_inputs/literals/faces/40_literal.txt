@@ -1,0 +1,40 @@
+Norway	isPrimaryTopicOf	Norway
+Norway	Currency	Norwegian Krone
+Norway	Leader Title	Monarchy Of Norway
+Norway	Capital	Oslo
+Norway	Leader Name	Red-Green Coalition
+Norway	Thumbnail	200px-Flag_of_Norway.svg.png
+Norway	Government Type	Constitutional Monarchy
+Norway	Leader Name	Tore Schei
+Norway	Calling Code	Telephone Numbers In Norway
+Norway	West	Atlantic Ocean
+Norway	North	Barents Sea
+Norway	Established Event	Constitution Of Norway
+Norway	Government Type	Parliamentary System
+Norway	Established Event	Unification Of Norway
+Norway	Leader Name	Harald V Of Norway
+Norway	Leader Title	Norwegian Parliamentary Election, 2009
+Norway	Northwest	Norwegian Sea
+Norway	Currency	Norwegian Krone
+Norway	South	Skagerrak
+Norway	Time Zone	Central European Time
+Norway	Government Type	Unitary State
+Norway	depiction	Flag_of_Norway.svg
+Norway	Northeast	Barents Sea
+Norway	Capital	Oslo
+Norway	Leader Name	Red-Green Coalition
+Norway	homepage	www.norway.no
+Norway	Leader Title	Supreme Court Of Norway
+Norway	Time Zone Dst	Central European Time
+Norway	Time Zone Dst	Central European Summer Time
+Norway	Leader Name	Tore Schei
+Norway	stateReligion	Church Of Norway
+Norway	hasPhotoCollection	Norway
+Norway	Leader Name	Harald V Of Norway
+Norway	South	North Sea
+Norway	Leader Title	Prime Minister Of Norway
+Norway	Demonym	Norwegians
+Norway	Government Type	Unitary State
+Norway	Leader Title	Parliament Of Norway
+Norway	wasDerivedFrom	Norway?oldid=547313779
+Norway	Southwest	North Sea

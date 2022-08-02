@@ -1,0 +1,38 @@
+Love Me (Justin Bieber Song)	Subsequent Work	First Dance (Song)
+Love Me (Justin Bieber Song)	Recorded In	Cincinnati, Ohio
+Love Me (Justin Bieber Song)	Writer	Peter Svensson
+Love Me (Justin Bieber Song)	Auteur	Nina Persson
+Love Me (Justin Bieber Song)	Genre	Synthpop
+Love Me (Justin Bieber Song)	Label	Island Def Jam Music Group
+Love Me (Justin Bieber Song)	Recorded In	Denver
+Love Me (Justin Bieber Song)	Recorded In	Cincinnati
+Love Me (Justin Bieber Song)	Record Label	The Island Def Jam Music Group
+Love Me (Justin Bieber Song)	Writer	The Smeezingtons
+Love Me (Justin Bieber Song)	Genre	Electropop
+Love Me (Justin Bieber Song)	isPrimaryTopicOf	Love_Me_(Justin_Bieber_song)
+Love Me (Justin Bieber Song)	Genre	Dance-Pop
+Love Me (Justin Bieber Song)	Artist	Justin Bieber
+Love Me (Justin Bieber Song)	Producer	Dj Frank E
+Love Me (Justin Bieber Song)	Label	The Island Def Jam Music Group
+Love Me (Justin Bieber Song)	Format	Music Download
+Love Me (Justin Bieber Song)	Genre	Electropop
+Love Me (Justin Bieber Song)	Type	Promotional Recording
+Love Me (Justin Bieber Song)	Genre	Synthpop
+Love Me (Justin Bieber Song)	Label	RBMG
+Love Me (Justin Bieber Song)	wasDerivedFrom	Love_Me_(Justin_Bieber_song)?oldid=547160061
+Love Me (Justin Bieber Song)	Genre	Dance-Pop
+Love Me (Justin Bieber Song)	Auteur	The Smeezingtons
+Love Me (Justin Bieber Song)	Album	My World (Ep)
+Love Me (Justin Bieber Song)	Format	Ogg
+Love Me (Justin Bieber Song)	Auteur	Peter Svensson
+Love Me (Justin Bieber Song)	Recorded In	Denver, Colorado
+Love Me (Justin Bieber Song)	Performer	Justin Bieber
+Love Me (Justin Bieber Song)	Previous Work	One Less Lonely Girl
+Love Me (Justin Bieber Song)	hasPhotoCollection	Love_Me_(Justin_Bieber_song)
+Love Me (Justin Bieber Song)	Writer	Nina Persson
+Love Me (Justin Bieber Song)	Thumbnail	200px-Resized_justin_bieber_love_me_cover.jpg
+Love Me (Justin Bieber Song)	Record Label	RBMG
+Love Me (Justin Bieber Song)	Album	My World (Ep)
+Love Me (Justin Bieber Song)	Type	Promotional Recording
+Love Me (Justin Bieber Song)	Record Label	Island Def Jam Music Group
+Love Me (Justin Bieber Song)	depiction	Resized_justin_bieber_love_me_cover.jpg

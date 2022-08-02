@@ -1,0 +1,88 @@
+Beverly Hills, 90210	Starring	Ian Ziering
+Beverly Hills, 90210	Starring	Tiffani Thiessen
+Beverly Hills, 90210	Starring	Jamie Walters
+Beverly Hills, 90210	Format (Object)	Monaural
+Beverly Hills, 90210	Audio Format	Dolby Surround
+Beverly Hills, 90210	Starring	Joe E. Tata
+Beverly Hills, 90210	Subsequent Work	Melrose Place (2009 Tv Series)
+Beverly Hills, 90210	Starring	James Eckhouse
+Beverly Hills, 90210	Distributor	Worldvision Enterprises
+Beverly Hills, 90210	Distributor	Paramount Domestic Television
+Beverly Hills, 90210	Starring	Jamie Walters (American Entertainer)
+Beverly Hills, 90210	Channel	Fox Broadcasting Company
+Beverly Hills, 90210	Camera	Single-Camera Setup
+Beverly Hills, 90210	hasPhotoCollection	Beverly_Hills,_90210
+Beverly Hills, 90210	Company	Spelling Television
+Beverly Hills, 90210	Starring	Carol Potter (Actress)
+Beverly Hills, 90210	Starring	Hilary Swank
+Beverly Hills, 90210	Creator	Darren Star
+Beverly Hills, 90210	Starring	Daniel Cosgrove
+Beverly Hills, 90210	Starring	Jason Priestley
+Beverly Hills, 90210	Starring	Daniel Cosgrove
+Beverly Hills, 90210	Creator (Agent)	Aaron Spelling
+Beverly Hills, 90210	Starring	Joe E. Tata
+Beverly Hills, 90210	Followed By	Melrose Place (2009 Tv Series)
+Beverly Hills, 90210	Starring	Vanessa Marcil
+Beverly Hills, 90210	Distributor	Cbs Paramount Domestic Television
+Beverly Hills, 90210	Starring	Brian Austin Green
+Beverly Hills, 90210	Audio Format	Multichannel Television Sound
+Beverly Hills, 90210	Subsequent Work	Models Inc.
+Beverly Hills, 90210	Executive Producer	Darren Star
+Beverly Hills, 90210	depiction	90210Logo.jpg
+Beverly Hills, 90210	Starring	Jennie Garth
+Beverly Hills, 90210	Starring	Luke Perry
+Beverly Hills, 90210	Distributor	Cbs Television Distribution
+Beverly Hills, 90210	Starring	Tiffani Thiessen
+Beverly Hills, 90210	Starring	Jamie Walters
+Beverly Hills, 90210	Creator (Agent)	Darren Star
+Beverly Hills, 90210	Executive Producer	Aaron Spelling
+Beverly Hills, 90210	isPrimaryTopicOf	Beverly_Hills,_90210
+Beverly Hills, 90210	Subsequent Work	Melrose Place
+Beverly Hills, 90210	Starring	Vincent Young (Actor)
+Beverly Hills, 90210	Channel	Fox Broadcasting Company
+Beverly Hills, 90210	Starring	Douglas Emerson
+Beverly Hills, 90210	Creator	Aaron Spelling
+Beverly Hills, 90210	Starring	Shannen Doherty
+Beverly Hills, 90210	Starring	Gabrielle Carteris
+Beverly Hills, 90210	Genre	Teen Drama
+Beverly Hills, 90210	Starring	Hilary Swank
+Beverly Hills, 90210	Audio Format	Monaural
+Beverly Hills, 90210	Starring	James Eckhouse
+Beverly Hills, 90210	Creator	E. Duke Vincent
+Beverly Hills, 90210	Executive Producer	Aaron Spelling
+Beverly Hills, 90210	Executive Producer	E. Duke Vincent
+Beverly Hills, 90210	Starring	Vanessa Marcil
+Beverly Hills, 90210	Starring	Tori Spelling
+Beverly Hills, 90210	Company	Spelling Television
+Beverly Hills, 90210	Starring	Mark Damon Espinoza
+Beverly Hills, 90210	Distributor	Worldvision Enterprises
+Beverly Hills, 90210	Starring	Lindsay Price
+Beverly Hills, 90210	Starring	Mark Damon Espinoza
+Beverly Hills, 90210	Distributor	Cbs Television Distribution
+Beverly Hills, 90210	Distributor	Cbs Paramount Domestic Television
+Beverly Hills, 90210	Starring	Jason Priestley
+Beverly Hills, 90210	Starring	Kathleen Robertson
+Beverly Hills, 90210	Starring	Vincent Young (Actor)
+Beverly Hills, 90210	Format (Object)	Dolby Surround
+Beverly Hills, 90210	Starring	Carol Potter (Actress)
+Beverly Hills, 90210	Starring	Tori Spelling
+Beverly Hills, 90210	wasDerivedFrom	Beverly_Hills,_90210?oldid=548486808
+Beverly Hills, 90210	Starring	Douglas Emerson
+Beverly Hills, 90210	Thumbnail	200px-90210Logo.jpg
+Beverly Hills, 90210	Starring	Jamie Walters (American Entertainer)
+Beverly Hills, 90210	Genre	Soap Opera
+Beverly Hills, 90210	Creator (Agent)	E. Duke Vincent
+Beverly Hills, 90210	Subsequent Work	90210 (Tv Series)
+Beverly Hills, 90210	Starring	Gabrielle Carteris
+Beverly Hills, 90210	Executive Producer	Charles Rosin
+Beverly Hills, 90210	Starring	Luke Perry
+Beverly Hills, 90210	Genre	Teen Drama
+Beverly Hills, 90210	Starring	Ian Ziering
+Beverly Hills, 90210	Starring	Jennie Garth
+Beverly Hills, 90210	Genre	Soap Opera
+Beverly Hills, 90210	Starring	Shannen Doherty
+Beverly Hills, 90210	Starring	Brian Austin Green
+Beverly Hills, 90210	Starring	Lindsay Price
+Beverly Hills, 90210	Starring	Kathleen Robertson
+Beverly Hills, 90210	Format (Object)	Multichannel Television Sound
+Beverly Hills, 90210	Distributor	Paramount Domestic Television

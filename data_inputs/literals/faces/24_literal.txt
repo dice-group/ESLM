@@ -1,0 +1,30 @@
+Ferrari	Key People	Luca Cordero Di Montezemolo
+Ferrari	Location City	Maranello
+Ferrari	Location City	Maranello
+Ferrari	isPrimaryTopicOf	Ferrari
+Ferrari	Founder	Enzo Ferrari
+Ferrari	Parent Company	Fiat
+Ferrari	Key Person	Piero Ferrari
+Ferrari	Type	Societ%C3%A0_per_azioni
+Ferrari	Key Person	Luca Di Montezemolo
+Ferrari	Państwo	Italy
+Ferrari	Type	Joint-Stock Company
+Ferrari	Key Person	Luca Cordero Di Montezemolo
+Ferrari	Industry	Automotive Industry
+Ferrari	Type	Societ%C3%A0_per_azioni
+Ferrari	Parent	Fiat
+Ferrari	Key People	Piero Ferrari
+Ferrari	Founded By	Enzo Ferrari
+Ferrari	Industry	Automotive Industry
+Ferrari	Location Country	Italy
+Ferrari	Homepage	www.ferrari.com
+Ferrari	Thumbnail	200px-Ferrari-Logo.svg.png
+Ferrari	Owning Company	Piero Ferrari
+Ferrari	Key People	Luca Di Montezemolo
+Ferrari	Owner	Piero Ferrari
+Ferrari	homepage	www.ferrari.com
+Ferrari	Type	Joint-Stock Company
+Ferrari	wasDerivedFrom	Ferrari?oldid=548559290
+Ferrari	Product	Supercar
+Ferrari	depiction	Ferrari-Logo.svg
+Ferrari	hasPhotoCollection	Ferrari

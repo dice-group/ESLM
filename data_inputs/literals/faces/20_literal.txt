@@ -1,0 +1,26 @@
+Yukon River	hasPhotoCollection	Yukon_River
+Yukon River	Mouth Mountain	Wade Hampton Census Area, Alaska
+Yukon River	depiction	Dawson_City_Lookout_Yukon_River_3264px.jpg
+Yukon River	Mouth Position	Yukon_River__mouthPosition__1
+Yukon River	sourceRegion	British Columbia
+Yukon River	Country	Canada
+Yukon River	sourceCountry	Canada
+Yukon River	Mouth Country	United States
+Yukon River	State	Alaska
+Yukon River	isPrimaryTopicOf	Yukon_River
+Yukon River	Mouth Place	Wade Hampton Census Area, Alaska
+Yukon River	Country	United States
+Yukon River	Source Country	Canada
+Yukon River	Source	Atlin Lake
+Yukon River	Mouth Region	Alaska
+Yukon River	Source Mountain	Atlin District
+Yukon River	Mouth Location	Wade Hampton Census Area, Alaska
+Yukon River	Thumbnail	200px-Dawson_City_Lookout_Yukon_River_3264px.jpg
+Yukon River	Source Place	Atlin District
+Yukon River	wasDerivedFrom	Yukon_River?oldid=546352640
+Yukon River	Source Region	British Columbia
+Yukon River	mouthRegion	Alaska
+Yukon River	Source Position	Yukon_River__sourcePosition__1
+Yukon River	River Mouth	Bering Sea
+Yukon River	mouthCountry	United States
+Yukon River	sourceLocation	Atlin District

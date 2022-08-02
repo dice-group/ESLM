@@ -1,0 +1,29 @@
+(What Is) Love?	Subsequent Work	Run The World
+(What Is) Love?	Producer	D'Mile
+(What Is) Love?	Producer	Kuk Harrell
+(What Is) Love?	Thumbnail	200px-(promo_cover).jpg
+(What Is) Love?	Genre	Electropop
+(What Is) Love?	Previous Work	I'M Into You
+(What Is) Love?	Producer	D'Mile
+(What Is) Love?	Producer	Kuk Harrell
+(What Is) Love?	Genre	Synthpop
+(What Is) Love?	Album	Love?
+(What Is) Love?	Type	Promotional Recording
+(What Is) Love?	Format	Music Download
+(What Is) Love?	Writer	D'Mile
+(What Is) Love?	Record Label	Island Records
+(What Is) Love?	Auteur	Wynter Gordon
+(What Is) Love?	Artist	Jennifer Lopez
+(What Is) Love?	depiction	(promo_cover).jpg
+(What Is) Love?	Label	Island Records
+(What Is) Love?	Writer	Wynter Gordon
+(What Is) Love?	Genre	Synthpop
+(What Is) Love?	Album	Love?
+(What Is) Love?	Subsequent Work	Run The World (Song)
+(What Is) Love?	Performer	Jennifer Lopez
+(What Is) Love?	hasPhotoCollection	(What_Is)_Love%3F
+(What Is) Love?	Type	Promotional Recording
+(What Is) Love?	wasDerivedFrom	(What_Is)_Love%3F?oldid=548247540
+(What Is) Love?	Genre	Electropop
+(What Is) Love?	Auteur	D'Mile
+(What Is) Love?	isPrimaryTopicOf	(What_Is)_Love%3F

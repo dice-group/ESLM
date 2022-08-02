@@ -1,0 +1,46 @@
+Benjamin Franklin	Appointed	Continental Congress
+Benjamin Franklin	Child	Sarah Franklin Bache
+Benjamin Franklin	Predecessor	John Dickinson (Politician)
+Benjamin Franklin	Party	Independent (Politician)
+Benjamin Franklin	Birth Place	Boston
+Benjamin Franklin	Child	William Franklin
+Benjamin Franklin	depiction	BenFranklinDuplessis.jpg
+Benjamin Franklin	Vice President	Charles Biddle
+Benjamin Franklin	Vicepresident	Charles Biddle
+Benjamin Franklin	Death Place	Pennsylvania
+Benjamin Franklin	Successor	Thomas Mifflin
+Benjamin Franklin	Profession	Politics Of The United States
+Benjamin Franklin	Party	Independent (Politician)
+Benjamin Franklin	Children	William Franklin
+Benjamin Franklin	isPrimaryTopicOf	Benjamin_Franklin
+Benjamin Franklin	Spouse	Deborah Read
+Benjamin Franklin	Successor	Jonathan Russell
+Benjamin Franklin	Successor	Thomas Mifflin
+Benjamin Franklin	Children	Sarah Franklin Bache
+Benjamin Franklin	Associate	Arthur Lee (Diplomat)
+Benjamin Franklin	Predecessor	Isaac Norris (Statesman)
+Benjamin Franklin	Death Place	Pennsylvania
+Benjamin Franklin	Associate	John Adams
+Benjamin Franklin	Successor	Jonathan Russell
+Benjamin Franklin	Successor	Thomas Jefferson
+Benjamin Franklin	Successor	Isaac Norris (Statesman)
+Benjamin Franklin	Birth Place	Province Of Massachusetts Bay
+Benjamin Franklin	Death Place	Philadelphia
+Benjamin Franklin	Vicepresident	Thomas Mifflin
+Benjamin Franklin	Birth Place	Province Of Massachusetts Bay
+Benjamin Franklin	Successor	Isaac Norris (Statesman)
+Benjamin Franklin	Office	Speaker Of The Pennsylvania House Of Representatives
+Benjamin Franklin	Successor	Richard Bache
+Benjamin Franklin	Spouse	Deborah Read
+Benjamin Franklin	Thumbnail	200px-BenFranklinDuplessis.jpg
+Benjamin Franklin	Birth Place	Boston
+Benjamin Franklin	hasPhotoCollection	Benjamin_Franklin
+Benjamin Franklin	Vice President	Thomas Mifflin
+Benjamin Franklin	homepage	www.benfranklin300.com
+Benjamin Franklin	wasDerivedFrom	Benjamin_Franklin?oldid=547636908
+Benjamin Franklin	Associate	Silas Deane
+Benjamin Franklin	Appointed	Congress Of The Confederation
+Benjamin Franklin	Successor	Thomas Jefferson
+Benjamin Franklin	Death Place	Philadelphia
+Benjamin Franklin	Successor	Richard Bache
+Benjamin Franklin	Predecessor	John Dickinson (Pennsylvania And Delaware)

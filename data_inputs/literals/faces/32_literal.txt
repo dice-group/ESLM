@@ -1,0 +1,38 @@
+Aladdin (1992 Disney Film)	Starring	Jonathan Freeman (Actor)
+Aladdin (1992 Disney Film)	depiction	Aladdinposter.jpg
+Aladdin (1992 Disney Film)	Starring	Scott Weinger
+Aladdin (1992 Disney Film)	Title	Academy Award For Best Original Song
+Aladdin (1992 Disney Film)	Starring	Linda Larkin
+Aladdin (1992 Disney Film)	Director	Ron Clements
+Aladdin (1992 Disney Film)	Director	John Musker
+Aladdin (1992 Disney Film)	Auteur	Ted Elliott
+Aladdin (1992 Disney Film)	Producer	John Musker
+Aladdin (1992 Disney Film)	Starring	Gilbert Gottfried
+Aladdin (1992 Disney Film)	Narrator	Robin Williams
+Aladdin (1992 Disney Film)	hasPhotoCollection	Aladdin_(1992_Disney_film)
+Aladdin (1992 Disney Film)	Narrator	Robin Williams
+Aladdin (1992 Disney Film)	Starring	Scott Weinger
+Aladdin (1992 Disney Film)	Starring	Douglas Seale
+Aladdin (1992 Disney Film)	Music	Alan Menken
+Aladdin (1992 Disney Film)	Writer	Ted Elliott
+Aladdin (1992 Disney Film)	Starring	Frank Welker
+Aladdin (1992 Disney Film)	Music Composer	Alan Menken
+Aladdin (1992 Disney Film)	Distributor	Walt Disney Pictures
+Aladdin (1992 Disney Film)	Starring	Gilbert Gottfried
+Aladdin (1992 Disney Film)	Studio	Walt Disney Animation Studios
+Aladdin (1992 Disney Film)	Starring	Frank Welker
+Aladdin (1992 Disney Film)	Writer	Terry Rossio
+Aladdin (1992 Disney Film)	Starring	Douglas Seale
+Aladdin (1992 Disney Film)	Starring	Linda Larkin
+Aladdin (1992 Disney Film)	Producer	Ron Clements
+Aladdin (1992 Disney Film)	Film Director	Ron Clements
+Aladdin (1992 Disney Film)	isPrimaryTopicOf	Aladdin_(1992_Disney_film)
+Aladdin (1992 Disney Film)	Starring	Robin Williams
+Aladdin (1992 Disney Film)	Distributor	Walt Disney Pictures
+Aladdin (1992 Disney Film)	Auteur	Terry Rossio
+Aladdin (1992 Disney Film)	Starring	Jonathan Freeman (Actor)
+Aladdin (1992 Disney Film)	Film Director	John Musker
+Aladdin (1992 Disney Film)	Thumbnail	200px-Aladdinposter.jpg
+Aladdin (1992 Disney Film)	wasDerivedFrom	Aladdin_(1992_Disney_film)?oldid=548592936
+Aladdin (1992 Disney Film)	Auteur	John Musker
+Aladdin (1992 Disney Film)	Auteur	Ron Clements

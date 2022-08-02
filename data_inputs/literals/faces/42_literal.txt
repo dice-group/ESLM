@@ -1,0 +1,62 @@
+Charles Darwin	Award	Wollaston Medal
+Charles Darwin	Influences	Charles Lyell
+Charles Darwin	Influences	John Herschel
+Charles Darwin	Influenced By	Alexander Von Humboldt
+Charles Darwin	Influences	Alexander Von Humboldt
+Charles Darwin	Short Description	Natural History
+Charles Darwin	Academic Advisors	Adam Sedgwick
+Charles Darwin	Birth Place	The Mount, Shrewsbury
+Charles Darwin	Citizenship	British Citizenship
+Charles Darwin	Known For	Natural Selection
+Charles Darwin	Birth Place	Shrewsbury
+Charles Darwin	Influenced	George Romanes
+Charles Darwin	Known For	The Voyage Of The Beagle
+Charles Darwin	Influenced By	John Herschel
+Charles Darwin	Influenced By	Charles Lyell
+Charles Darwin	Award	Royal Medal
+Charles Darwin	Known For	Natural Selection
+Charles Darwin	Influenced	Ernst Haeckel
+Charles Darwin	Influenced	Thomas Henry Huxley
+Charles Darwin	Awards	Wollaston Medal
+Charles Darwin	Death Place	Kent
+Charles Darwin	Nationality	United Kingdom Of Great Britain And Ireland
+Charles Darwin	Thumbnail	200px-Charles_Darwin_seated_crop.jpg
+Charles Darwin	Academic Advisors	John Stevens Henslow
+Charles Darwin	Citizenship	British Citizenship
+Charles Darwin	Academic Advisor	Adam Sedgwick
+Charles Darwin	Influenced	Joseph Dalton Hooker
+Charles Darwin	Citizenship	British Nationality Law
+Charles Darwin	Workplaces	Geological Society Of London
+Charles Darwin	Known For	On The Origin Of Species
+Charles Darwin	Influenced	John Lubbock, 1St Baron Avebury
+Charles Darwin	Award	Copley Medal
+Charles Darwin	Known For	Common Descent
+Charles Darwin	Field	Natural History
+Charles Darwin	Birth Place	Shropshire
+Charles Darwin	Influenced	George Romanes
+Charles Darwin	Death Place	United Kingdom Of Great Britain And Ireland
+Charles Darwin	Birth Place	United Kingdom Of Great Britain And Ireland
+Charles Darwin	Awards	Royal Medal
+Charles Darwin	Spouse	Emma Darwin
+Charles Darwin	Birth Place	United Kingdom Of Great Britain And Ireland
+Charles Darwin	wasDerivedFrom	Charles_Darwin?oldid=547325692
+Charles Darwin	Death Place	Downe
+Charles Darwin	Birth Place	Shropshire
+Charles Darwin	Known For	Common Descent
+Charles Darwin	Influenced	Thomas Henry Huxley
+Charles Darwin	hasPhotoCollection	Charles_Darwin
+Charles Darwin	Birth Place	The Mount, Shrewsbury
+Charles Darwin	Awards	Copley Medal
+Charles Darwin	depiction	Charles_Darwin_seated_crop.jpg
+Charles Darwin	Influenced	Joseph Dalton Hooker
+Charles Darwin	Citizenship	British Nationality Law
+Charles Darwin	Death Place	Down House
+Charles Darwin	isPrimaryTopicOf	Charles_Darwin
+Charles Darwin	Known For	Evolution
+Charles Darwin	Academic Advisor	John Stevens Henslow
+Charles Darwin	Spouse	Emma Darwin
+Charles Darwin	Nationality	United Kingdom Of Great Britain And Ireland
+Charles Darwin	Influenced	John Lubbock, 1St Baron Avebury
+Charles Darwin	Fields	Natural History
+Charles Darwin	Influenced	Ernst Haeckel
+Charles Darwin	Workplaces	University Of Cambridge

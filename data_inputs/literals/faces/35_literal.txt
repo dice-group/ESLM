@@ -1,0 +1,78 @@
+Vladimir Putin	Birth Place	Saint Petersburg
+Vladimir Putin	Predecessor	Viktor Zubkov
+Vladimir Putin	Office	United Russia
+Vladimir Putin	Religion	Russian Orthodox Church
+Vladimir Putin	Term Period	Vladimir_Putin__2
+Vladimir Putin	Predecessor	Boris Yeltsin
+Vladimir Putin	Teacher	Hatsuo Royama
+Vladimir Putin	Term Period	Vladimir_Putin__3
+Vladimir Putin	Birth Place	Russia
+Vladimir Putin	Term Period	Vladimir_Putin__4
+Vladimir Putin	Spouse	Lyudmila Putina
+Vladimir Putin	Birth Place	Soviet Union
+Vladimir Putin	Religion	Russian Orthodox Church
+Vladimir Putin	hasPhotoCollection	Vladimir_Putin
+Vladimir Putin	Alma Mater	Saint Petersburg State University
+Vladimir Putin	Term Period	Vladimir_Putin__5
+Vladimir Putin	Religion	Russian Orthodox
+Vladimir Putin	Prime Minister	Mikhail Kasyanov
+Vladimir Putin	Deputy	Igor Shuvalov
+Vladimir Putin	Successor	Viktor Zubkov
+Vladimir Putin	President	Dmitry Medvedev
+Vladimir Putin	isPrimaryTopicOf	Vladimir_Putin
+Vladimir Putin	homepage	eng.putin.kremlin.ru
+Vladimir Putin	President	Boris Yeltsin
+Vladimir Putin	Predecessor	Sergei Stepashin
+Vladimir Putin	Deputy	Viktor Khristenko
+Vladimir Putin	Deputy	Igor Shuvalov
+Vladimir Putin	Rank	Master Of Sports
+Vladimir Putin	Party	Our_Home_%E2%80%93_Russia
+Vladimir Putin	Prime Minister	Dmitry Medvedev
+Vladimir Putin	Successor	Mikhail Kasyanov
+Vladimir Putin	Successor	Nikolai Patrushev
+Vladimir Putin	Successor	Viktor Zubkov
+Vladimir Putin	depiction	Vladimir_Putin_12015.jpg
+Vladimir Putin	Predecessor	Boris Gryzlov
+Vladimir Putin	Birth Place	Saint Petersburg
+Vladimir Putin	Military Rank	Polkovnik
+Vladimir Putin	Deputy	Mikhail Kasyanov
+Vladimir Putin	Occupation	President Of Russia
+Vladimir Putin	Prime Minister	Viktor Khristenko
+Vladimir Putin	Successor	Dmitry Medvedev
+Vladimir Putin	Party	Unity (Russian Political Party)
+Vladimir Putin	Deputy	Mikhail Kasyanov
+Vladimir Putin	Term Period	Vladimir_Putin__1
+Vladimir Putin	Prime Minister	Mikhail Fradkov
+Vladimir Putin	Primeminister	Mikhail Kasyanov
+Vladimir Putin	Religion	Russian Orthodox
+Vladimir Putin	Teacher	Anatoly_Rahlin
+Vladimir Putin	homepage	eng.putin.kremlin.ru
+Vladimir Putin	Alma Mater	Saint Petersburg State University
+Vladimir Putin	Primeminister	Dmitry Medvedev
+Vladimir Putin	Office	Federal Security Service (Russia)
+Vladimir Putin	Place Of Birth	Saint Petersburg
+Vladimir Putin	Branch	KGB
+Vladimir Putin	President	Boris Yeltsin
+Vladimir Putin	President	Dmitry Medvedev
+Vladimir Putin	Predecessor	Nikolay Kovalyov (Politician)
+Vladimir Putin	Successor	Nikolai Patrushev
+Vladimir Putin	Party	Independent (Politician)
+Vladimir Putin	Primeminister	Viktor Khristenko
+Vladimir Putin	Thumbnail	200px-Vladimir_Putin_12015.jpg
+Vladimir Putin	Successor	Mikhail Kasyanov
+Vladimir Putin	Party	United Russia
+Vladimir Putin	Primeminister	Mikhail Fradkov
+Vladimir Putin	Successor	Dmitry Medvedev
+Vladimir Putin	Rank	Unified Sports Classification System Of The Ussr And Russia
+Vladimir Putin	Rank	Polkovnik
+Vladimir Putin	Prime Minister	Viktor Zubkov
+Vladimir Putin	Deputy	Viktor Khristenko
+Vladimir Putin	Place Of Birth	Soviet Union
+Vladimir Putin	Predecessor	Dmitry Medvedev
+Vladimir Putin	Military Branch	KGB
+Vladimir Putin	Spouse	Lyudmila Putina
+Vladimir Putin	Birth Place	Soviet Union
+Vladimir Putin	Party	Communist Party Of The Soviet Union
+Vladimir Putin	wasDerivedFrom	Vladimir_Putin?oldid=548232030
+Vladimir Putin	Office	Prime Minister Of Russia
+Vladimir Putin	Primeminister	Viktor Zubkov

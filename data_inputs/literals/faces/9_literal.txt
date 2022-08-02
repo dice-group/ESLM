@@ -1,0 +1,32 @@
+Edward Teller	Known For	Hydrogen Bomb
+Edward Teller	Doctoral Advisor	Werner Heisenberg
+Edward Teller	Place Of Birth	Austria-Hungary
+Edward Teller	Alma Mater	Leipzig University
+Edward Teller	Death Place	Stanford, California
+Edward Teller	Birth Place	Austria-Hungary
+Edward Teller	Alma Mater	University Of Leipzig
+Edward Teller	wasDerivedFrom	Edward_Teller?oldid=548510106
+Edward Teller	Birth Place	Budapest
+Edward Teller	Death Place	Stanford, California
+Edward Teller	Doctoral Student	Charles Critchfield
+Edward Teller	Doctoral Student	Chen Ning Yang
+Edward Teller	Award	Harvey Prize
+Edward Teller	Awards	Harvey Prize
+Edward Teller	Doctoral Student	Marshall Rosenbluth
+Edward Teller	Thumbnail	200px-EdwardTeller1958_fewer_smudges.jpg
+Edward Teller	depiction	EdwardTeller1958_fewer_smudges.jpg
+Edward Teller	Doctoral Advisor	Werner Heisenberg
+Edward Teller	Place Of Birth	Budapest
+Edward Teller	isPrimaryTopicOf	Edward_Teller
+Edward Teller	Known For	Jahn%E2%80%93Teller_effect
+Edward Teller	Nationality	Hungarian American
+Edward Teller	Known For	Thermonuclear Weapon
+Edward Teller	Alma Mater	University Of Karlsruhe
+Edward Teller	Birth Place	Budapest
+Edward Teller	Field	Physics
+Edward Teller	Birth Place	Austria-Hungary
+Edward Teller	Nationality	Hungarian American
+Edward Teller	hasPhotoCollection	Edward_Teller
+Edward Teller	Doctoral Student	Lincoln Wolfenstein
+Edward Teller	Alma Mater	Karlsruhe Institute Of Technology
+Edward Teller	Birth Place	Hungary
