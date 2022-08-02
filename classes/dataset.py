@@ -8,12 +8,12 @@ Created on Wed Oct 27 15:58:42 2021
 import os
 from rdflib.plugins.parsers.ntriples import NTriplesParser, Sink
 from classes.helpers import Utils
+import glob
 
 UTILS = Utils()
 class ESBenchmark:
     """This class contains modules pertaining to dataset processes"""
     def __init__(self, ds_name, file_n=6, topk=5, weighted_adjacency_matrix=False):
-        self.file_n = file_n
         self.topk = topk
         self.weighted_adjacency_matrix = weighted_adjacency_matrix
         self.in_esbm_dir = os.path.join(os.getcwd(), "datasets/ESBM_benchmark_v1.2")
@@ -27,6 +27,7 @@ class ESBenchmark:
             self.db_path = os.path.join(self.in_faces_dir, "faces_data")
         else:
             raise ValueError("The database name must be dbpedia, lmdb. or faces")
+        self.file_n = file_n
     def get_5fold_train_valid_test_elist(self, ds_name_str):
         """Get splitted data including train, valid, and test data"""
         if ds_name_str == "dbpedia":
@@ -155,6 +156,11 @@ class ESBenchmark:
         return test_data
     def prepare_labels(self, num):
         """Create gold label dictionary from gold summary triples"""
+        if self.ds_name=="faces":
+            gold_files = glob.glob(os.path.join(self.db_path, f"{num}", f"{num}_gold_top{self.topk}_*"))
+            #print(len(gold_files))
+            if len(gold_files) != self.file_n:
+                self.file_n = len(gold_files)
         per_entity_label_dict = {}
         class IndexSink(Sink):
             """Indexing triples"""
