@@ -62,9 +62,11 @@ def main(mode, best_epoch):
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     for ds_name in config["ds_name"]:
         if ds_name == "dbpedia":
-            MAX_LENGTH = 39
+            MAX_LENGTH = 46
+        elif ds_name == "faces":
+            MAX_LENGTH = 46
         else:
-            MAX_LENGTH = 32
+            MAX_LENGTH = 34
         if mode == "test":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
