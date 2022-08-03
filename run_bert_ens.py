@@ -226,6 +226,10 @@ def evaluation(dataset, k):
         IN_SUMM = os.path.join(os.getcwd(), 'outputs/lmdb')
         start = [100, 165]
         end   = [140, 175]
+    elif dataset.ds_name == "faces":
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/faces')
+        start = [0, 25]
+        end   = [25, 50]
             
     all_ndcg_scores = []
     all_fscore = []
