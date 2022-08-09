@@ -1,30 +1,30 @@
-7963	Title	The Aftermath
-7963	Language	En
-7963	Page	9202A8C04000641F8000000000D192D4
-7963	Page	Alias?Type=Imdbid&S=0758789
-7963	Page	Tt0758789
-7963	Based Near	2635167
-7963	Performance	Performance #29135
-7963	Performance	Performance #29134
-7963	Performance	Performance #29132
-7963	Performance	Performance #29133
-7963	Performance	Performance #29131
-7963	Director	Bharat Nalluri
-7963	Actor	Sophie Okonedo
-7963	Actor	Chiwetel Ejiofor
-7963	Actor	Tim Roth
-7963	Actor	Hugh Bonneville
-7963	Actor	Toni Collette
-7963	Type	Film
-7963	Filmid	7963
-11682	Made	The Aftermath
-7963	Cinematographer	John De Borman
-7963	Writer	Abi Morgan
-7963	Producer	Finola Dwyer
-7963	Country	GB
-7963	Label	The Aftermath
-7963	Editor	Barney Pilling
-140699	Link Source	The Aftermath
-63652	Link Source	The Aftermath
-72987	Link Source	The Aftermath
-11639	Film Of Distributor	The Aftermath
+7963	title	The Aftermath
+7963	language	en
+7963	page	9202a8c04000641f8000000000d192d4
+7963	page	alias?type=imdbid&s=0758789
+7963	page	tt0758789
+7963	based_near	2635167
+7963	performance	29135
+7963	performance	29134
+7963	performance	29132
+7963	performance	29133
+7963	performance	29131
+7963	director	11682
+7963	actor	36466
+7963	actor	37594
+7963	actor	32015
+7963	actor	37715
+7963	actor	31908
+7963	type	film
+7963	filmid	7963
+11682	made	7963
+7963	cinematographer	692
+7963	writer	4850
+7963	producer	997
+7963	country	GB
+7963	label	The Aftermath
+7963	editor	1709
+140699	link_source	7963
+63652	link_source	7963
+72987	link_source	7963
+11639	film_of_distributor	7963

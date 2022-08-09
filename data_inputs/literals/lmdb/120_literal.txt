@@ -1,35 +1,35 @@
-8446	Actor	Bill Paxton
-8446	Actor	Dave Coulier
-8446	Actor	Charlize Theron
-11436	Made	Mighty Joe Young
-8446	Language	En
-73136	Link Source	Mighty Joe Young
-141053	Link Source	Mighty Joe Young
-8446	Runtime	114
-8446	Editor	Paul Hirsch
-8446	Producer	Ted Hartley
-8446	Producer	Ted Hartley
-8446	Producer	Tom Jacobson
-8446	Director	Ron Underwood
-8446	Genre	Family
-8446	Writer	Ruth Rose
-8446	Writer	Lawrence Konner
-8446	Writer	Mark Rosenthal
-8446	Writer	Merian C. Cooper
-8446	Page	Alias?Type=Imdbid&S=0120751
-8446	Page	9202A8C04000641F8000000000Db9872
-8446	Page	Tt0120751
-8446	Filmid	8446
-8446	Music Contributor	Richard Gibbs
-8446	Music Contributor	James Horner
-8446	Title	Mighty Joe Young
-8446	Cinematographer	Donald Peterman
-8446	Initial Release Date	1998-12-25
-8446	Type	Film
-8446	Film Cut	Film Cut #4184
-8446	Date	1998-12-25
-8446	Performance	Performance #19600
-8446	Performance	Performance #19601
-8446	Performance	Performance #173853
-8446	Label	Mighty Joe Young
-5652	Film Of Distributor	Mighty Joe Young
+8446	actor	31581
+8446	actor	32793
+8446	actor	29405
+11436	made	8446
+8446	language	en
+73136	link_source	8446
+141053	link_source	8446
+8446	runtime	114
+8446	editor	36
+8446	producer	3604
+8446	producer	5959
+8446	producer	1174
+8446	director	11436
+8446	genre	15
+8446	writer	3287
+8446	writer	2112
+8446	writer	2113
+8446	writer	110
+8446	page	alias?type=imdbid&s=0120751
+8446	page	9202a8c04000641f8000000000db9872
+8446	page	tt0120751
+8446	filmid	8446
+8446	music_contributor	5196
+8446	music_contributor	4592
+8446	title	Mighty Joe Young
+8446	cinematographer	157
+8446	initial_release_date	1998-12-25
+8446	type	film
+8446	film_cut	4184
+8446	date	1998-12-25
+8446	performance	19600
+8446	performance	19601
+8446	performance	173853
+8446	label	Mighty Joe Young
+5652	film_of_distributor	8446

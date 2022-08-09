@@ -1,48 +1,48 @@
-2381	Runtime	108
-2381	Writer	Woody Allen
-2381	Date	1965
-2381	Title	What'S New Pussycat?
-2381	Performance	Performance #66844
-2381	Performance	Performance #49723
-2381	Performance	Performance #51265
-2381	Performance	Performance #56069
-2381	Performance	Performance #50018
-2381	Performance	Performance #99761
-2381	Performance	Performance #58567
-2381	Hasphotocollection	What'S New Pussycat?
-2381	Language	Fr
-2381	Language	En
-2381	Filmid	2381
-2381	Film Cut	Film Cut #11663
-2381	Page	Alias?Type=Imdbid&S=0059903
-2381	Page	9202A8C04000641F80000000004Fd9B4
-2381	Page	Tt0059903
-19753	Link Source	What'S New Pussycat?
-136102	Link Source	What'S New Pussycat?
-1220	Link Source	What'S New Pussycat?
-136101	Link Source	What'S New Pussycat?
-71209	Link Source	What'S New Pussycat?
-38286	Link Source	What'S New Pussycat?
-63261	Link Source	What'S New Pussycat?
-2381	Director	Richard Talmadge
-2381	Director	Clive Donner
-2381	Actor	Paula Prentiss
-2381	Actor	Peter O'Toole
-2381	Actor	Woody Allen
-2381	Actor	Ursula Andress
-2381	Actor	Capucine
-2381	Actor	Romy Schneider
-2381	Actor	Peter Sellers
-2381	Subject	Psychiatry
-2381	Country	GB
-2381	Based Near	2635167
-2381	Film Subject	Psychiatry
-2381	Label	What'S New Pussycat?
-15178	Made	What'S New Pussycat?
-13237	Made	What'S New Pussycat?
-2381	Initial Release Date	1965
-2381	Producer	Charles K. Feldman
-12908	Film Of Distributor	What'S New Pussycat?
-2381	Type	Film
-2381	Music Contributor	Hal David
-2381	Music Contributor	Burt Bacharach
+2381	runtime	108
+2381	writer	13288
+2381	date	1965
+2381	title	What'S New Pussycat?
+2381	performance	66844
+2381	performance	49723
+2381	performance	51265
+2381	performance	56069
+2381	performance	50018
+2381	performance	99761
+2381	performance	58567
+2381	hasPhotoCollection	What's_New_Pussycat?
+2381	language	fr
+2381	language	en
+2381	filmid	2381
+2381	film_cut	11663
+2381	page	alias?type=imdbid&s=0059903
+2381	page	9202a8c04000641f80000000004fd9b4
+2381	page	tt0059903
+19753	link_source	2381
+136102	link_source	2381
+1220	link_source	2381
+136101	link_source	2381
+71209	link_source	2381
+38286	link_source	2381
+63261	link_source	2381
+2381	director	13237
+2381	director	15178
+2381	actor	36799
+2381	actor	10
+2381	actor	29679
+2381	actor	31973
+2381	actor	30975
+2381	actor	30463
+2381	actor	29614
+2381	subject	375
+2381	country	GB
+2381	based_near	2635167
+2381	film_subject	375
+2381	label	What'S New Pussycat?
+15178	made	2381
+13237	made	2381
+2381	initial_release_date	1965
+2381	producer	154
+12908	film_of_distributor	2381
+2381	type	film
+2381	music_contributor	4557
+2381	music_contributor	4357

@@ -1,51 +1,51 @@
-38875	Label	James Hong (Actor)
-38875	Actor Netflix Id	
-38875	Performance	Performance #67745
-38875	Performance	Performance #4330
-38875	Performance	Performance #47271
-38875	Performance	Performance #72098
-38875	Performance	Performance #113076
-38875	Performance	Performance #133703
-38875	Performance	Performance #53338
-38875	Performance	Performance #108710
-38875	Performance	Performance #42430
-38875	Performance	Performance #114086
-38875	Performance	Performance #84785
-38875	Performance	Performance #169477
-38875	Performance	Performance #76195
-38875	Performance	Performance #174190
-38875	Performance	Performance #21286
-38875	Performance	Performance #103177
-38875	Performance	Performance #178390
-38875	Performance	Performance #182041
-38875	Performance	Performance #114242
-38875	Performance	Performance #46588
-38875	Performance	Performance #186592
-38875	Actor Nytimes Id	
-284	Actor	James Hong
-38069	Actor	James Hong
-87571	Actor	James Hong
-2933	Actor	James Hong
-87891	Actor	James Hong
-18940	Actor	James Hong
-53144	Actor	James Hong
-7150	Actor	James Hong
-48683	Actor	James Hong
-91405	Actor	James Hong
-42553	Actor	James Hong
-3162	Actor	James Hong
-54426	Actor	James Hong
-22495	Actor	James Hong
-11392	Actor	James Hong
-56456	Actor	James Hong
-39946	Actor	James Hong
-38232	Actor	James Hong
-13832	Actor	James Hong
-4180	Actor	James Hong
-54637	Actor	James Hong
-48681	Actor	James Hong
-38875	Page	9202A8C04000641F80000000006B3A0F
-38875	Type	Person
-38875	Type	Actor
-38875	Actor Name	James Hong
-38875	Actor Actorid	38875
+38875	label	James Hong (Actor)
+38875	actor_netflix_id	
+38875	performance	67745
+38875	performance	4330
+38875	performance	47271
+38875	performance	72098
+38875	performance	113076
+38875	performance	133703
+38875	performance	53338
+38875	performance	108710
+38875	performance	42430
+38875	performance	114086
+38875	performance	84785
+38875	performance	169477
+38875	performance	76195
+38875	performance	174190
+38875	performance	21286
+38875	performance	103177
+38875	performance	178390
+38875	performance	182041
+38875	performance	114242
+38875	performance	46588
+38875	performance	186592
+38875	actor_nytimes_id	
+284	actor	38875
+38069	actor	38875
+87571	actor	38875
+2933	actor	38875
+87891	actor	38875
+18940	actor	38875
+53144	actor	38875
+7150	actor	38875
+48683	actor	38875
+91405	actor	38875
+42553	actor	38875
+3162	actor	38875
+54426	actor	38875
+22495	actor	38875
+11392	actor	38875
+56456	actor	38875
+39946	actor	38875
+38232	actor	38875
+13832	actor	38875
+4180	actor	38875
+54637	actor	38875
+48681	actor	38875
+38875	page	9202a8c04000641f80000000006b3a0f
+38875	type	Person
+38875	type	actor
+38875	actor_name	James Hong
+38875	actor_actorid	38875

@@ -1,36 +1,36 @@
-14418	Label	Mack V. Wright (Director)
-14418	Director Directorid	14418
-14418	Director Name	Mack V. Wright
-14418	Made	The Lucky Texan
-14418	Made	Thieves' Clothes
-14418	Made	Winds Of The Wasteland
-14418	Made	The Great Adventures Of Wild Bill Hickok
-14418	Made	The Broncho Kid
-14418	Made	The Big Show
-14418	Made	Hit The Saddle
-14418	Made	Riders Of The Whistling Skull
-14418	Made	The Man From Monterey
-14418	Made	The Vigilantes Are Coming
-14418	Made	Somewhere In Sonora
-14418	Made	The Sea Hound
-14418	Made	Haunted Gold
-14418	Made	Masked
-14418	Made	Robinson Crusoe Of Clipper Island
-14418	Page	9202A8C04000641F8000000005B5F33C
-19433	Director	Mack V. Wright
-25030	Director	Mack V. Wright
-45182	Director	Mack V. Wright
-24940	Director	Mack V. Wright
-19747	Director	Mack V. Wright
-24460	Director	Mack V. Wright
-19751	Director	Mack V. Wright
-11165	Director	Mack V. Wright
-21357	Director	Mack V. Wright
-19259	Director	Mack V. Wright
-19744	Director	Mack V. Wright
-24448	Director	Mack V. Wright
-11164	Director	Mack V. Wright
-24459	Director	Mack V. Wright
-25028	Director	Mack V. Wright
-14418	Type	Director
-14418	Type	Person
+14418	label	Mack V. Wright (Director)
+14418	director_directorid	14418
+14418	director_name	Mack V. Wright
+14418	made	45182
+14418	made	24459
+14418	made	19433
+14418	made	21357
+14418	made	24460
+14418	made	24940
+14418	made	25028
+14418	made	25030
+14418	made	19751
+14418	made	11164
+14418	made	19747
+14418	made	19259
+14418	made	19744
+14418	made	24448
+14418	made	11165
+14418	page	9202a8c04000641f8000000005b5f33c
+19433	director	14418
+25030	director	14418
+45182	director	14418
+24940	director	14418
+19747	director	14418
+24460	director	14418
+19751	director	14418
+11165	director	14418
+21357	director	14418
+19259	director	14418
+19744	director	14418
+24448	director	14418
+11164	director	14418
+24459	director	14418
+25028	director	14418
+14418	type	director
+14418	type	Person

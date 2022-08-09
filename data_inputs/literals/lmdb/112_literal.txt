@@ -1,38 +1,38 @@
-1835	Prequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
-4501	Date	1994-07-09
-4501	Initial Release Date	1994-07-09
-4501	Label	Super-Warrior Defeat!! I'M The One Who'Ll Win
-4501	Writer	Takao Koyama
-4501	Writer	Akira Toriyama
-4501	Music Contributor	Shunsuke Kikuchi
-137895	Link Source	Super-Warrior Defeat!! I'M The One Who'Ll Win
-4501	Film Cut	Film Cut #881
-4501	Language	Ja
-4501	Performance	Performance #4416
-4501	Performance	Performance #4411
-4501	Performance	Performance #4414
-4501	Performance	Performance #82244
-4501	Performance	Performance #4412
-4501	Performance	Performance #4409
-4501	Performance	Performance #4410
-4501	Performance	Performance #4415
-4501	Performance	Performance #4408
-4501	Performance	Performance #4413
-4501	Filmid	4501
-4501	Prequel	The Dangerous Duo! Super-Warriors Can'T Rest
-4501	Sequel	Rebirth Of Fusion!! Gokå« And Vegeta!!
-4501	Actor	Tomiko Suzuki
-4501	Actor	Takeshi Kusao
-4501	Actor	Mayumi Tanaka
-4501	Actor	Naoki Tatsuta
-4501	Actor	Sean Schemmel
-4501	Actor	Miki Ito
-4501	Actor	Daisuke GåRi
-4501	Actor	Bin Shimada
-4501	Actor	Masako Nozawa
-4501	Actor	Joji Yanami
-3887	Sequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
-4501	Runtime	50
-4501	Title	Super-Warrior Defeat!! I'M The One Who'Ll Win
-4501	Page	9202A8C04000641F8000000000867897
-4501	Type	Film
+1835	prequel	4501
+4501	date	1994-07-09
+4501	initial_release_date	1994-07-09
+4501	label	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	writer	1396
+4501	writer	13022
+4501	music_contributor	5614
+137895	link_source	4501
+4501	film_cut	881
+4501	language	ja
+4501	performance	4416
+4501	performance	4411
+4501	performance	4414
+4501	performance	82244
+4501	performance	4412
+4501	performance	4409
+4501	performance	4410
+4501	performance	4415
+4501	performance	4408
+4501	performance	4413
+4501	filmid	4501
+4501	prequel	3887
+4501	sequel	1835
+4501	actor	47808
+4501	actor	34160
+4501	actor	34497
+4501	actor	42282
+4501	actor	40928
+4501	actor	33932
+4501	actor	35586
+4501	actor	35096
+4501	actor	35093
+4501	actor	1545
+3887	sequel	4501
+4501	runtime	50
+4501	title	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	page	9202a8c04000641f8000000000867897
+4501	type	film

@@ -1,32 +1,32 @@
-6191	Language	Ja
-61136	Link Source	Satomi Hakkenden
-139288	Link Source	Satomi Hakkenden
-6191	Country	JP
-6191	Writer	Kinji Fukasaku
-6191	Writer	Toshio Kamata
-6191	Date	1983-10-12
-6191	Based Near	1861060
-8972	Made	Satomi Hakkenden
-6191	Performance	Performance #87740
-6191	Performance	Performance #25385
-6191	Performance	Performance #25386
-6191	Performance	Performance #25387
-6191	Title	Satomi Hakkenden
-6191	Page	Tt0086244
-6191	Page	Alias?Type=Imdbid&S=0086244
-6191	Page	9202A8C04000641F8000000000Abf0A2
-6191	Type	Film
-6191	Producer	Haruki Kadokawa
-6191	Producer	Haruki Kadokawa
-6191	Director	Kinji Fukasaku
-6191	Film Cut	Film Cut #5444
-6191	Initial Release Date	1983-10-12
-6191	Music Contributor	Nobody
-6191	Filmid	6191
-6191	Cinematographer	Seizå Sengen
-6191	Runtime	136
-6191	Actor	Hiroyuki Sanada
-6191	Actor	Mari Natsuki
-6191	Actor	Sonny Chiba
-6191	Actor	Hiroko Yakushimaru
-6191	Label	Satomi Hakkenden
+6191	language	ja
+61136	link_source	6191
+139288	link_source	6191
+6191	country	JP
+6191	writer	14150
+6191	writer	4410
+6191	date	1983-10-12
+6191	based_near	1861060
+8972	made	6191
+6191	performance	87740
+6191	performance	25385
+6191	performance	25386
+6191	performance	25387
+6191	title	Satomi Hakkenden
+6191	page	tt0086244
+6191	page	alias?type=imdbid&s=0086244
+6191	page	9202a8c04000641f8000000000abf0a2
+6191	type	film
+6191	producer	4154
+6191	producer	14066
+6191	director	8972
+6191	film_cut	5444
+6191	initial_release_date	1983-10-12
+6191	music_contributor	180
+6191	filmid	6191
+6191	cinematographer	1122
+6191	runtime	136
+6191	actor	34973
+6191	actor	44257
+6191	actor	32168
+6191	actor	36373
+6191	label	Satomi Hakkenden

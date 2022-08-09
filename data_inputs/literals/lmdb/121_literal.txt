@@ -1,46 +1,46 @@
-10100	Director Directorid	10100
-10100	Made	Bad Lieutenant
-10100	Made	King Of New York
-10100	Made	The Blackout
-10100	Made	'R Xmas
-10100	Made	The Funeral
-10100	Made	Mary
-10100	Made	Cat Chaser
-10100	Made	Cat Chaser
-10100	Made	Ms. 45
-10100	Made	Dangerous Game
-10100	Made	Go Go Tales
-10100	Made	The Driller Killer
-10100	Made	New Rose Hotel
-10100	Made	Fear City
-10100	Made	Chelsea On The Rocks
-10100	Made	Body Snatchers
-10100	Made	China Girl
-10100	Made	The Addiction
-10100	Made	R-Xmas
-10100	Made	The Blackout
-10100	Type	Person
-10100	Type	Director
-10100	Page	9202A8C04000641F8000000000535Fbd
-10100	Label	Abel Ferrara (Director)
-96870	Director	Abel Ferrara
-88229	Director	Abel Ferrara
-66097	Director	Abel Ferrara
-23866	Director	Abel Ferrara
-3535	Director	Abel Ferrara
-63785	Director	Abel Ferrara
-1160	Director	Abel Ferrara
-48179	Director	Abel Ferrara
-44846	Director	Abel Ferrara
-11719	Director	Abel Ferrara
-13196	Director	Abel Ferrara
-40914	Director	Abel Ferrara
-96598	Director	Abel Ferrara
-12281	Director	Abel Ferrara
-42868	Director	Abel Ferrara
-63031	Director	Abel Ferrara
-90531	Director	Abel Ferrara
-40146	Director	Abel Ferrara
-70633	Director	Abel Ferrara
-1159	Director	Abel Ferrara
-10100	Director Name	Abel Ferrara
+10100	director_directorid	10100
+10100	made	40914
+10100	made	40146
+10100	made	90531
+10100	made	96870
+10100	made	1159
+10100	made	11719
+10100	made	88229
+10100	made	63031
+10100	made	3535
+10100	made	12281
+10100	made	70633
+10100	made	42868
+10100	made	1160
+10100	made	23866
+10100	made	66097
+10100	made	48179
+10100	made	13196
+10100	made	44846
+10100	made	63785
+10100	made	96598
+10100	type	Person
+10100	type	director
+10100	page	9202a8c04000641f8000000000535fbd
+10100	label	Abel Ferrara (Director)
+96870	director	10100
+88229	director	10100
+66097	director	10100
+23866	director	10100
+3535	director	10100
+63785	director	10100
+1160	director	10100
+48179	director	10100
+44846	director	10100
+11719	director	10100
+13196	director	10100
+40914	director	10100
+96598	director	10100
+12281	director	10100
+42868	director	10100
+63031	director	10100
+90531	director	10100
+40146	director	10100
+70633	director	10100
+1159	director	10100
+10100	director_name	Abel Ferrara

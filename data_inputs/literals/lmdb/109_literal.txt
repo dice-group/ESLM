@@ -1,22 +1,22 @@
-7390	Film Of Distributor	The Incredibly True Adventure Of Two Girls In Love
-41006	Producer	Dolly Hall
-41006	Producer	Dolly Hall
-41006	Date	1995
-41006	Page	9202A8C04000641F80000000004Af166
-41006	Title	The Incredibly True Adventure Of Two Girls In Love
-41006	Film Subject	Lesbianism
-41006	Subject	Lesbianism
-41006	Performance	Performance #32228
-41006	Performance	Performance #48861
-41006	Performance	Performance #32227
-41006	Filmid	41006
-41006	Type	Film
-41006	Initial Release Date	1995
-41006	Label	The Incredibly True Adventure Of Two Girls In Love
-41006	Music Contributor	Gus Mattox
-41006	Director	Maria Maggenti
-13110	Made	The Incredibly True Adventure Of Two Girls In Love
-41006	Writer	Maria Maggenti
-41006	Actor	Laurel Holloman
-41006	Actor	Maggie Moore
-41006	Actor	Nicole Ari Parker
+7390	film_of_distributor	41006
+41006	producer	377
+41006	producer	13682
+41006	date	1995
+41006	page	9202a8c04000641f80000000004af166
+41006	title	The Incredibly True Adventure Of Two Girls In Love
+41006	film_subject	333
+41006	subject	333
+41006	performance	32228
+41006	performance	48861
+41006	performance	32227
+41006	filmid	41006
+41006	type	film
+41006	initial_release_date	1995
+41006	label	The Incredibly True Adventure Of Two Girls In Love
+41006	music_contributor	5748
+41006	director	13110
+13110	made	41006
+41006	writer	19046
+41006	actor	40960
+41006	actor	46958
+41006	actor	38446

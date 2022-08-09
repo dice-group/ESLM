@@ -1,26 +1,26 @@
-14299	Director	Jay Grdina
-14299	Title	Briana Loves Jenna
-14299	Hasphotocollection	Briana Loves Jenna
-14299	Filmid	14299
-14299	Initial Release Date	2001,2001-11-27
-14299	Type	Film
-14299	Label	Briana Loves Jenna
-14299	Actor	Jenna Jameson
-14299	Actor	Shay Sweet
-14299	Actor	Briana Banks
-14299	Actor	Erik Everhard
-14299	Performance	Performance #70953
-14299	Performance	Performance #72536
-14299	Performance	Performance #55464
-14299	Performance	Performance #72396
-14299	Date	2001,2001-11-27
-14299	Language	En
-43285	Link Source	Briana Loves Jenna
-24752	Link Source	Briana Loves Jenna
-6219	Link Source	Briana Loves Jenna
-145197	Link Source	Briana Loves Jenna
-74894	Link Source	Briana Loves Jenna
-2930	Made	Briana Loves Jenna
-14299	Producer	Jay Grdina
-14299	Producer	Jenna Jameson
-14299	Page	9202A8C04000641F80000000055827C2
+14299	director	2930
+14299	title	Briana Loves Jenna
+14299	hasPhotoCollection	Briana_Loves_Jenna
+14299	filmid	14299
+14299	initial_release_date	2001,2001-11-27
+14299	type	film
+14299	label	Briana Loves Jenna
+14299	actor	30040
+14299	actor	39031
+14299	actor	31497
+14299	actor	32619
+14299	performance	70953
+14299	performance	72536
+14299	performance	55464
+14299	performance	72396
+14299	date	2001,2001-11-27
+14299	language	en
+43285	link_source	14299
+24752	link_source	14299
+6219	link_source	14299
+145197	link_source	14299
+74894	link_source	14299
+2930	made	14299
+14299	producer	5952
+14299	producer	9896
+14299	page	9202a8c04000641f80000000055827c2

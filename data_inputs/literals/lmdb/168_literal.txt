@@ -1,63 +1,63 @@
-44555	Date	2003
-44555	Writer	J.P. Dutta
-44555	Country	IN
-44555	Actor	Akkineni Nagarjuna
-44555	Actor	Sanjay Kapoor
-44555	Actor	Kareena Kapoor
-44555	Actor	Suniel Shetty
-44555	Actor	Priya Gill
-44555	Actor	Ishaa Koppikar
-44555	Actor	Mohnish Behl
-44555	Actor	Abhishek Bachchan
-44555	Actor	Ashutosh Rana
-44555	Actor	Preeti Jhangiani
-44555	Actor	Raj Babbar
-44555	Actor	Divya Dutta
-44555	Actor	Ajay Devgan
-44555	Actor	Sanjay Dutt
-44555	Actor	Raveena Tandon
-44555	Actor	Namrata Shirodkar
-44555	Actor	Esha Deol
-44555	Actor	Akshaye Khanna
-44555	Actor	Mahima Chaudhry
-44555	Actor	Saif Ali Khan
-44555	Actor	Rani Mukerji
-44555	Actor	Manoj Bajpai
-44555	Subject	Indo-Pak Wars
-3011	Made	Loc Kargil
-1723	Made	Loc Kargil
-44555	Page	9202A8C04000641F80000000008Dd9E3
-44555	Filmid	44555
-44555	Producer	Bindiya Goswami
-44555	Producer	Bindiya Goswami
-44555	Label	Loc Kargil
-44555	Film Subject	Indo-Pak Wars
-44555	Initial Release Date	2003
-44555	Director	J.P. Dutta
-44555	Director	J. P. Dutta
-44555	Type	Film
-44555	Title	Loc Kargil
-44555	Performance	Performance #82709
-44555	Performance	Performance #85656
-44555	Performance	Performance #18195
-44555	Performance	Performance #87999
-44555	Performance	Performance #84668
-44555	Performance	Performance #88253
-44555	Performance	Performance #77447
-44555	Performance	Performance #18190
-44555	Performance	Performance #80267
-44555	Performance	Performance #88214
-44555	Performance	Performance #80354
-44555	Performance	Performance #65578
-44555	Performance	Performance #84248
-44555	Performance	Performance #192316
-44555	Performance	Performance #18188
-44555	Performance	Performance #18191
-44555	Performance	Performance #107344
-44555	Performance	Performance #18194
-44555	Performance	Performance #76264
-44555	Performance	Performance #18193
-44555	Performance	Performance #18189
-44555	Performance	Performance #18192
-44555	Music Contributor	Anu Malik
-44555	Based Near	1269750
+44555	date	2003
+44555	writer	3493
+44555	country	IN
+44555	actor	38848
+44555	actor	38110
+44555	actor	32234
+44555	actor	35203
+44555	actor	48792
+44555	actor	39854
+44555	actor	41757
+44555	actor	33140
+44555	actor	49768
+44555	actor	36969
+44555	actor	40768
+44555	actor	37687
+44555	actor	35202
+44555	actor	34357
+44555	actor	34656
+44555	actor	34655
+44555	actor	35028
+44555	actor	38898
+44555	actor	35616
+44555	actor	37055
+44555	actor	31866
+44555	actor	41401
+44555	subject	684
+3011	made	44555
+1723	made	44555
+44555	page	9202a8c04000641f80000000008dd9e3
+44555	filmid	44555
+44555	producer	5941
+44555	producer	3418
+44555	label	Loc Kargil
+44555	film_subject	684
+44555	initial_release_date	2003
+44555	director	1723
+44555	director	3011
+44555	type	film
+44555	title	Loc Kargil
+44555	performance	82709
+44555	performance	85656
+44555	performance	18195
+44555	performance	87999
+44555	performance	84668
+44555	performance	88253
+44555	performance	77447
+44555	performance	18190
+44555	performance	80267
+44555	performance	88214
+44555	performance	80354
+44555	performance	65578
+44555	performance	84248
+44555	performance	192316
+44555	performance	18188
+44555	performance	18191
+44555	performance	107344
+44555	performance	18194
+44555	performance	76264
+44555	performance	18193
+44555	performance	18189
+44555	performance	18192
+44555	music_contributor	5926
+44555	based_near	1269750

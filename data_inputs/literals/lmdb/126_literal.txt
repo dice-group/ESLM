@@ -1,34 +1,34 @@
-31707	Actor Actorid	31707
-31707	Type	Actor
-31707	Type	Person
-31707	Actor Name	Margaret Colin
-31707	Actor Netflix Id	
-31707	Label	Margaret Colin (Actor)
-62913	Actor	Margaret Colin
-1924	Actor	Margaret Colin
-1848	Actor	Margaret Colin
-46293	Actor	Margaret Colin
-49012	Actor	Margaret Colin
-1763	Actor	Margaret Colin
-1253	Actor	Margaret Colin
-57526	Actor	Margaret Colin
-63987	Actor	Margaret Colin
-95531	Actor	Margaret Colin
-73	Actor	Margaret Colin
-6852	Actor	Margaret Colin
-3298	Actor	Margaret Colin
-31707	Performance	Performance #88430
-31707	Performance	Performance #96027
-31707	Performance	Performance #87924
-31707	Performance	Performance #80435
-31707	Performance	Performance #42133
-31707	Performance	Performance #127332
-31707	Performance	Performance #4756
-31707	Performance	Performance #37390
-31707	Performance	Performance #83508
-31707	Performance	Performance #128910
-31707	Performance	Performance #184537
-31707	Performance	Performance #15213
-31707	Performance	Performance #119763
-31707	Actor Nytimes Id	
-31707	Page	9202A8C04000641F80000000001D8847
+31707	actor_actorid	31707
+31707	type	actor
+31707	type	Person
+31707	actor_name	Margaret Colin
+31707	actor_netflix_id	
+31707	label	Margaret Colin (Actor)
+62913	actor	31707
+1924	actor	31707
+1848	actor	31707
+46293	actor	31707
+49012	actor	31707
+1763	actor	31707
+1253	actor	31707
+57526	actor	31707
+63987	actor	31707
+95531	actor	31707
+73	actor	31707
+6852	actor	31707
+3298	actor	31707
+31707	performance	88430
+31707	performance	96027
+31707	performance	87924
+31707	performance	80435
+31707	performance	42133
+31707	performance	127332
+31707	performance	4756
+31707	performance	37390
+31707	performance	83508
+31707	performance	128910
+31707	performance	184537
+31707	performance	15213
+31707	performance	119763
+31707	actor_nytimes_id	
+31707	page	9202a8c04000641f80000000001d8847

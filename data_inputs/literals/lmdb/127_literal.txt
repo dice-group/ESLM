@@ -1,52 +1,52 @@
-32500	Label	Byron Long (Actor)
-75102	Actor	Byron Long
-75105	Actor	Byron Long
-75108	Actor	Byron Long
-75087	Actor	Byron Long
-75096	Actor	Byron Long
-75092	Actor	Byron Long
-75093	Actor	Byron Long
-75090	Actor	Byron Long
-75094	Actor	Byron Long
-75088	Actor	Byron Long
-75091	Actor	Byron Long
-75099	Actor	Byron Long
-75103	Actor	Byron Long
-75106	Actor	Byron Long
-75089	Actor	Byron Long
-75097	Actor	Byron Long
-75104	Actor	Byron Long
-75098	Actor	Byron Long
-75107	Actor	Byron Long
-75100	Actor	Byron Long
-75095	Actor	Byron Long
-75101	Actor	Byron Long
-32500	Actor Actorid	32500
-32500	Performance	Performance #152809
-32500	Performance	Performance #152802
-32500	Performance	Performance #152805
-32500	Performance	Performance #152811
-32500	Performance	Performance #152810
-32500	Performance	Performance #152818
-32500	Performance	Performance #152819
-32500	Performance	Performance #152822
-32500	Performance	Performance #152812
-32500	Performance	Performance #152813
-32500	Performance	Performance #152808
-32500	Performance	Performance #152817
-32500	Performance	Performance #152816
-32500	Performance	Performance #152820
-32500	Performance	Performance #152803
-32500	Performance	Performance #152815
-32500	Performance	Performance #152801
-32500	Performance	Performance #152814
-32500	Performance	Performance #152806
-32500	Performance	Performance #152807
-32500	Performance	Performance #152804
-32500	Performance	Performance #152821
-32500	Page	9202A8C04000641F800000000026D739
-32500	Actor Nytimes Id	
-32500	Actor Name	Byron Long
-32500	Type	Person
-32500	Type	Actor
-32500	Actor Netflix Id	
+32500	label	Byron Long (Actor)
+75102	actor	32500
+75105	actor	32500
+75108	actor	32500
+75087	actor	32500
+75096	actor	32500
+75092	actor	32500
+75093	actor	32500
+75090	actor	32500
+75094	actor	32500
+75088	actor	32500
+75091	actor	32500
+75099	actor	32500
+75103	actor	32500
+75106	actor	32500
+75089	actor	32500
+75097	actor	32500
+75104	actor	32500
+75098	actor	32500
+75107	actor	32500
+75100	actor	32500
+75095	actor	32500
+75101	actor	32500
+32500	actor_actorid	32500
+32500	performance	152809
+32500	performance	152802
+32500	performance	152805
+32500	performance	152811
+32500	performance	152810
+32500	performance	152818
+32500	performance	152819
+32500	performance	152822
+32500	performance	152812
+32500	performance	152813
+32500	performance	152808
+32500	performance	152817
+32500	performance	152816
+32500	performance	152820
+32500	performance	152803
+32500	performance	152815
+32500	performance	152801
+32500	performance	152814
+32500	performance	152806
+32500	performance	152807
+32500	performance	152804
+32500	performance	152821
+32500	page	9202a8c04000641f800000000026d739
+32500	actor_nytimes_id	
+32500	actor_name	Byron Long
+32500	type	Person
+32500	type	actor
+32500	actor_netflix_id	

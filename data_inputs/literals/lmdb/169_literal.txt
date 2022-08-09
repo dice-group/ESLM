@@ -1,25 +1,25 @@
-49	Genre	Indie
-49	Editor	Louis R. Loeffler
-49	Filmid	49
-270	Made	Chang
-43	Made	Chang
-49	Title	Chang
-49	Page	Alias?Type=Imdbid&S=0017743
-49	Page	9202A8C04000641F80000000000560B5
-49	Page	Tt0017743
-49	Initial Release Date	1927,1927-04-29
-70238	Link Source	Chang
-133988	Link Source	Chang
-49	Date	1927,1927-04-29
-49	Writer	Achmed Abdullah
-49	Cinematographer	Ernest B. Schoedsack
-49	Runtime	64
-49	Director	Merian C. Cooper
-49	Director	Ernest B. Schoedsack
-49	Type	Film
-49	Language	En
-49	Film Cut	Film Cut #14503
-4642	Film Of Distributor	Chang
-49	Producer	Merian C. Cooper
-49	Producer	Ernest B. Schoedsack
-49	Label	Chang
+49	genre	23
+49	editor	30
+49	filmid	49
+270	made	49
+43	made	49
+49	title	Chang
+49	page	alias?type=imdbid&s=0017743
+49	page	9202a8c04000641f80000000000560b5
+49	page	tt0017743
+49	initial_release_date	1927,1927-04-29
+70238	link_source	49
+133988	link_source	49
+49	date	1927,1927-04-29
+49	writer	18034
+49	cinematographer	40
+49	runtime	64
+49	director	43
+49	director	270
+49	type	film
+49	language	en
+49	film_cut	14503
+4642	film_of_distributor	49
+49	producer	37
+49	producer	198
+49	label	Chang

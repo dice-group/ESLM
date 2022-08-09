@@ -1,36 +1,36 @@
-8424	Label	James Cameron (Director)
-8424	Director Name	James Cameron
-8424	Page	9202A8C04000641F800000000001Fdcc
-72	Director	James Cameron
-38211	Director	James Cameron
-40972	Director	James Cameron
-38151	Director	James Cameron
-17780	Director	James Cameron
-42629	Director	James Cameron
-46687	Director	James Cameron
-3296	Director	James Cameron
-556	Director	James Cameron
-4786	Director	James Cameron
-38324	Director	James Cameron
-33	Director	James Cameron
-6220	Director	James Cameron
-5622	Director	James Cameron
-4673	Director	James Cameron
-8424	Director Directorid	8424
-8424	Type	Director
-8424	Type	Person
-8424	Made	Terminator 2: Judgment Day
-8424	Made	The Abyss
-8424	Made	Aliens Of The Deep
-8424	Made	Ghosts Of The Abyss
-8424	Made	Aliens
-8424	Made	The Terminator
-8424	Made	Avatar
-8424	Made	Titanic Special Edition Dvd
-8424	Made	True Lies
-8424	Made	The Dive
-8424	Made	Expedition: Bismarck
-8424	Made	T2 3-D: Battle Across Time
-8424	Made	Piranha Ii: The Spawning
-8424	Made	Battle Angel
-8424	Made	Titanic
+8424	label	James Cameron (Director)
+8424	director_name	James Cameron
+8424	page	9202a8c04000641f800000000001fdcc
+72	director	8424
+38211	director	8424
+40972	director	8424
+38151	director	8424
+17780	director	8424
+42629	director	8424
+46687	director	8424
+3296	director	8424
+556	director	8424
+4786	director	8424
+38324	director	8424
+33	director	8424
+6220	director	8424
+5622	director	8424
+4673	director	8424
+8424	director_directorid	8424
+8424	type	director
+8424	type	Person
+8424	made	33
+8424	made	38211
+8424	made	40972
+8424	made	42629
+8424	made	556
+8424	made	38151
+8424	made	6220
+8424	made	17780
+8424	made	38324
+8424	made	46687
+8424	made	4673
+8424	made	3296
+8424	made	5622
+8424	made	4786
+8424	made	72
