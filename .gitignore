@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 #others
+config.py
 models/
 log_images/
 model-testing-dbpedia-lmdb.txt
