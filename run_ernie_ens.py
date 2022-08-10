@@ -64,9 +64,11 @@ def main(mode, best_epoch):
     is_weighted_adjacency_matrix = config["weighted_adjacency_matrix"]
     for ds_name in config["ds_name"]:
         if ds_name == "dbpedia":
-            MAX_LENGTH = 39
+            MAX_LENGTH = 46
+        elif ds_name == "faces":
+            MAX_LENGTH = 46
         else:
-            MAX_LENGTH = 32
+            MAX_LENGTH = 34
         if mode == "test":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -228,7 +230,10 @@ def evaluation(dataset, k):
         IN_SUMM = os.path.join(os.getcwd(), 'outputs/lmdb')
         start = [100, 165]
         end   = [140, 175]
-            
+    elif dataset.ds_name == "faces":
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/faces')
+        start = [0, 25]
+        end   = [25, 50]
     all_ndcg_scores = []
     all_fscore = []
     all_map_scores = []
