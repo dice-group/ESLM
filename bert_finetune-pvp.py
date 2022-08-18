@@ -206,7 +206,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         valid_acc = valid_acc/len(valid_data)
         print("")
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
-        if valid_acc > best_acc:
+        if valid_acc >= best_acc:
             print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
             best_acc = valid_acc
             torch.save({
@@ -363,6 +363,10 @@ def evaluation(dataset, k):
         IN_SUMM = os.path.join(os.getcwd(), 'outputs/lmdb')
         start = [100, 165]
         end   = [140, 175]
+    elif dataset.ds_name == "faces":
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/faces')
+        start = [0, 25]
+        end   = [25, 50]
             
     all_ndcg_scores = []
     all_fscore = []
