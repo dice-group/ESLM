@@ -140,7 +140,6 @@ kg_embed/
 test_bert.py
 test_build_graphs.py
 HARE/
-outputs/
 GATES_log.txt
 Bert_log.txt
 lama/

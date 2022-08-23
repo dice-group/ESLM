@@ -11,7 +11,7 @@ config = {
         "file_n": 6,
         "topk": [5, 10],
         "ds_name" : ['lmdb'],
-        "weighted_score"  : "hare",
+        "weighted_score"  : "tf-idf",
         "loss_function" : torch.nn.BCELoss(),
         "weight_decay": 1e-5,
         "learning_rate":0.01,
