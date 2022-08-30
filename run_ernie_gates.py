@@ -30,7 +30,7 @@ from classes.graphs_representation import GraphRepresentation
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-TOKENIZER = AutoTokenizer.from_pretrained("nghuyong/ernie-2.0-en")
+TOKENIZER = AutoTokenizer.from_pretrained("nghuyong/ernie-2.0-base-en")
 DROPOUT = config["dropout"]
 WEIGHT_DECAY = config["weight_decay"]
 LR = config["learning_rate"]
@@ -112,7 +112,7 @@ class GAT(nn.Module):
         return self.__class__.__name__
 
 class ErnieClassifier(nn.Module):
-    def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
+    def __init__(self, pretrained_model='nghuyong/ernie-2.0-base-en', nb_class=1):
         super(ErnieClassifier, self).__init__()
         self.nb_class = nb_class
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
@@ -122,7 +122,7 @@ class ErnieClassifier(nn.Module):
         self.softmax = nn.Softmax(dim=0)
 
     def forward(self, input_ids, attention_mask, token_type_ids):
-        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
         cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
         return cls_logit 
@@ -158,17 +158,6 @@ class ErnieGAT(nn.Module):
         return logits
     def __str__(self):
         return self.__class__.__name__
-class BertEnsembleModel(nn.Module):
-    def __init__(self, modelA, modelB):
-        super(BertEnsembleModel, self).__init__()
-        self.modelA = modelA
-        self.modelB = modelB
-        
-    def forward(self, x1, x2):
-        x1 = self.modelA(x1)
-        x2 = self.modelB(x2)
-        x = torch.cat((x1, x2), dim=1)
-        return x
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
@@ -184,9 +173,11 @@ def main(mode, best_epoch):
     for ds_name in config["ds_name"]:
         graph_r = GraphRepresentation(ds_name)
         if ds_name == "dbpedia":
-            MAX_LENGTH = 39
+            MAX_LENGTH = 46
+        elif ds_name == "faces":
+            MAX_LENGTH = 46
         else:
-            MAX_LENGTH = 32
+            MAX_LENGTH = 34
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -311,7 +302,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         valid_acc = valid_acc/len(valid_data)
         print("")
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}")
-        if valid_acc > best_acc:
+        if valid_acc >= best_acc:
             print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
             best_acc = valid_acc
             torch.save({
@@ -467,6 +458,10 @@ def evaluation(dataset, k):
         IN_SUMM = os.path.join(os.getcwd(), 'outputs/lmdb')
         start = [100, 165]
         end   = [140, 175]
+    elif dataset.ds_name == "faces":
+        IN_SUMM = os.path.join(os.getcwd(), 'outputs/faces')
+        start = [0, 25]
+        end   = [25, 50]
             
     all_ndcg_scores = []
     all_fscore = []
