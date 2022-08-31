@@ -85,11 +85,11 @@ class Utils:
         return word
     def get_label_of_entity_lmdb(self, uri_type, uri, endpoint):
         if uri_type == "property":
-            print("property", uri)
+            #print("property", uri)
             keyword = f"<{uri}>"
         else:
             if "linkedmdb" in uri:
-                print("entity", uri)
+                #print("entity", uri)
                 prefix = uri.split("/")[-2]
                 ent = uri.split("/")[-1]
                 if ent.isdigit():
@@ -99,7 +99,8 @@ class Utils:
             else:
                 prefix_ent = f"<{uri}>"
             keyword = prefix_ent
-        print(keyword)
+        print(f"URI: {uri}")
+        print(f"Keyword: {keyword}")
         """Get entity label from knowledge base"""
         sparql = SPARQLWrapper(endpoint)
         sparql.setQuery("""

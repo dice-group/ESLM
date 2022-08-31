@@ -83,10 +83,10 @@ class ESBenchmark:
             if UTILS.is_uri(obj) and self.ds_name == "dbpedia":
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             elif UTILS.is_uri(obj) and self.ds_name == "lmdb":
-                #obj_literal = UTILS.get_label_of_entity_lmdb("entity", obj, endpoint)
-                if "dbpedia" in obj:
-                    endpoint = "http://dbpedia.org/sparql"
-                obj_literal = UTILS.get_label_of_entity(obj, endpoint)
+                obj_literal = UTILS.get_label_of_entity_lmdb("entity", obj, endpoint)
+                #if "dbpedia" in obj:
+                #    endpoint = "http://dbpedia.org/sparql"
+                #obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             elif UTILS.is_uri(obj) and self.ds_name=="faces":
                 obj_literal = UTILS.get_label_of_entity(obj, endpoint)
             else:
@@ -104,6 +104,7 @@ class ESBenchmark:
                 pred_literal = UTILS.get_label_of_entity_lmdb("property", pred, endpoint)
                 sub_literal = UTILS.get_uri_label(sub)
             triple = (sub_literal, pred_literal, obj_literal)
+            print(f"eid: {num} #### {triple}")
             triples_tuple.append(triple)
         return triples_tuple
     def get_literals(self, num):

@@ -1,34 +1,34 @@
-22494	director	8669
-45707	director	8669
-4901	director	8669
-46161	director	8669
-2661	director	8669
-64450	director	8669
-46058	director	8669
-15228	director	8669
-23877	director	8669
-85702	director	8669
-39853	director	8669
-43099	director	8669
-49262	director	8669
-43047	director	8669
-64122	director	8669
+22494	director	Ringo Lam
+45707	director	Ringo Lam
+4901	director	Ringo Lam
+46161	director	Ringo Lam
+2661	director	Ringo Lam
+64450	director	Ringo Lam
+46058	director	Ringo Lam
+15228	director	Ringo Lam
+23877	director	Ringo Lam
+85702	director	Ringo Lam
+39853	director	Ringo Lam
+43099	director	Ringo Lam
+49262	director	Ringo Lam
+43047	director	Ringo Lam
+64122	director	Ringo Lam
 8669	label	Ringo Lam (Director)
-8669	made	64122
-8669	made	22494
-8669	made	45707
-8669	made	2661
-8669	made	43099
-8669	made	85702
-8669	made	23877
-8669	made	49262
-8669	made	64450
-8669	made	46058
-8669	made	46161
-8669	made	4901
-8669	made	39853
-8669	made	43047
-8669	made	15228
+8669	made	Undeclared War
+8669	made	Aces Go Places 4
+8669	made	Full Contact
+8669	made	City On Fire
+8669	made	Prison On Fire Ii
+8669	made	Esprit D'Amour
+8669	made	Triangle
+8669	made	Mad Mission
+8669	made	Full Alert
+8669	made	Maximum Risk
+8669	made	In Hell
+8669	made	Replicant
+8669	made	Twin Dragons
+8669	made	Prison On Fire
+8669	made	Wild Search
 8669	director_directorid	8669
 8669	page	9202a8c04000641f80000000000ac6c9
 8669	type	Person

@@ -1,31 +1,31 @@
 47469	actor_name	Alice Braga
 47469	actor_nytimes_id	
-47469	performance	59117
-47469	performance	123172
-47469	performance	91784
-47469	performance	108924
-47469	performance	70346
-47469	performance	18592
-47469	performance	187510
-47469	performance	186417
-47469	performance	137673
-47469	performance	159886
-47469	performance	79634
-47469	performance	85196
+47469	performance	Performance #59117
+47469	performance	Performance #123172
+47469	performance	Performance #91784
+47469	performance	Performance #108924
+47469	performance	Performance #70346
+47469	performance	Performance #18592
+47469	performance	Performance #187510
+47469	performance	Performance #186417
+47469	performance	Performance #137673
+47469	performance	Performance #159886
+47469	performance	Performance #79634
+47469	performance	Performance #85196
 47469	type	Person
 47469	type	actor
-59947	actor	47469
-18729	actor	47469
-23446	actor	47469
-944	actor	47469
-96426	actor	47469
-67438	actor	47469
-10791	actor	47469
-83977	actor	47469
-7756	actor	47469
-8961	actor	47469
-18644	actor	47469
-19258	actor	47469
+59947	actor	Alice Braga
+18729	actor	Alice Braga
+23446	actor	Alice Braga
+944	actor	Alice Braga
+96426	actor	Alice Braga
+67438	actor	Alice Braga
+10791	actor	Alice Braga
+83977	actor	Alice Braga
+7756	actor	Alice Braga
+8961	actor	Alice Braga
+18644	actor	Alice Braga
+19258	actor	Alice Braga
 47469	page	9202a8c04000641f8000000000dc5776
 47469	actor_netflix_id	
 47469	label	Alice Braga (Actor)

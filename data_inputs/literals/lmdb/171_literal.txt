@@ -1,36 +1,36 @@
 14418	label	Mack V. Wright (Director)
 14418	director_directorid	14418
 14418	director_name	Mack V. Wright
-14418	made	45182
-14418	made	24459
-14418	made	19433
-14418	made	21357
-14418	made	24460
-14418	made	24940
-14418	made	25028
-14418	made	25030
-14418	made	19751
-14418	made	11164
-14418	made	19747
-14418	made	19259
-14418	made	19744
-14418	made	24448
-14418	made	11165
+14418	made	The Lucky Texan
+14418	made	Thieves' Clothes
+14418	made	Winds Of The Wasteland
+14418	made	The Great Adventures Of Wild Bill Hickok
+14418	made	The Broncho Kid
+14418	made	The Big Show
+14418	made	Hit The Saddle
+14418	made	Riders Of The Whistling Skull
+14418	made	The Man From Monterey
+14418	made	The Vigilantes Are Coming
+14418	made	Somewhere In Sonora
+14418	made	The Sea Hound
+14418	made	Haunted Gold
+14418	made	Masked
+14418	made	Robinson Crusoe Of Clipper Island
 14418	page	9202a8c04000641f8000000005b5f33c
-19433	director	14418
-25030	director	14418
-45182	director	14418
-24940	director	14418
-19747	director	14418
-24460	director	14418
-19751	director	14418
-11165	director	14418
-21357	director	14418
-19259	director	14418
-19744	director	14418
-24448	director	14418
-11164	director	14418
-24459	director	14418
-25028	director	14418
+19433	director	Mack V. Wright
+25030	director	Mack V. Wright
+45182	director	Mack V. Wright
+24940	director	Mack V. Wright
+19747	director	Mack V. Wright
+24460	director	Mack V. Wright
+19751	director	Mack V. Wright
+11165	director	Mack V. Wright
+21357	director	Mack V. Wright
+19259	director	Mack V. Wright
+19744	director	Mack V. Wright
+24448	director	Mack V. Wright
+11164	director	Mack V. Wright
+24459	director	Mack V. Wright
+25028	director	Mack V. Wright
 14418	type	director
 14418	type	Person

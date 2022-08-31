@@ -1,34 +1,34 @@
 38225	actor_name	Dante Basco
 38225	actor_nytimes_id	
-38225	performance	122675
-38225	performance	152327
-38225	performance	121760
-38225	performance	44873
-38225	performance	187452
-38225	performance	123155
-38225	performance	184389
-38225	performance	30620
-38225	performance	83942
-38225	performance	82695
-38225	performance	77341
-38225	performance	10502
-38225	performance	28513
-38225	performance	84005
-38225	performance	120534
-905	actor	38225
-58958	actor	38225
-5215	actor	38225
-41946	actor	38225
-45096	actor	38225
-47819	actor	38225
-59934	actor	38225
-46420	actor	38225
-58102	actor	38225
-94383	actor	38225
-11541	actor	38225
-1393	actor	38225
-96372	actor	38225
-59607	actor	38225
+38225	performance	Performance #122675
+38225	performance	Performance #152327
+38225	performance	Performance #121760
+38225	performance	Performance #44873
+38225	performance	Performance #187452
+38225	performance	Performance #123155
+38225	performance	Performance #184389
+38225	performance	Performance #30620
+38225	performance	Performance #83942
+38225	performance	Performance #82695
+38225	performance	Performance #77341
+38225	performance	Performance #10502
+38225	performance	Performance #28513
+38225	performance	Performance #84005
+38225	performance	Performance #120534
+905	actor	Dante Basco
+58958	actor	Dante Basco
+5215	actor	Dante Basco
+41946	actor	Dante Basco
+45096	actor	Dante Basco
+47819	actor	Dante Basco
+59934	actor	Dante Basco
+46420	actor	Dante Basco
+58102	actor	Dante Basco
+94383	actor	Dante Basco
+11541	actor	Dante Basco
+1393	actor	Dante Basco
+96372	actor	Dante Basco
+59607	actor	Dante Basco
 38225	label	Dante Basco (Actor)
 38225	actor_actorid	38225
 38225	actor_netflix_id	
