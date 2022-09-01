@@ -1,52 +1,52 @@
-416	director_name	Fred C. Newmeyer
-416	director_directorid	416
-66506	director	Fred C. Newmeyer
-44849	director	Fred C. Newmeyer
-25006	director	Fred C. Newmeyer
-66469	director	Fred C. Newmeyer
-16516	director	Fred C. Newmeyer
-55669	director	Fred C. Newmeyer
-24605	director	Fred C. Newmeyer
-45424	director	Fred C. Newmeyer
-209	director	Fred C. Newmeyer
-8672	director	Fred C. Newmeyer
-5711	director	Fred C. Newmeyer
-48957	director	Fred C. Newmeyer
-93242	director	Fred C. Newmeyer
-57112	director	Fred C. Newmeyer
-40871	director	Fred C. Newmeyer
-52376	director	Fred C. Newmeyer
-66749	director	Fred C. Newmeyer
-21577	director	Fred C. Newmeyer
-21167	director	Fred C. Newmeyer
-57862	director	Fred C. Newmeyer
-57373	director	Fred C. Newmeyer
-94441	director	Fred C. Newmeyer
-7007	director	Fred C. Newmeyer
-416	label	Fred C. Newmeyer (Director)
-416	type	Person
-416	type	director
-416	page	9202a8c04000641f8000000000b97495
-416	made	Never Weaken
-416	made	The Freshman
-416	made	Girl Shy
-416	made	Queen High
-416	made	Number, Please?
-416	made	They Never Come Back
-416	made	Mail And Female
-416	made	Arbor Day
-416	made	Safety Last!
-416	made	They Never Come Back
-416	made	Why Worry?
-416	made	A Sailor-Made Man
-416	made	The Perfect Clown
-416	made	Among Those Present
-416	made	Now Or Never
-416	made	Doctor Jack
-416	made	Fast And Loose
-416	made	Hot Water
-416	made	The Pinch Singer
-416	made	The Rainbow Man
-416	made	General Spanky
-416	made	Our Gang
-416	made	Grandma'S Boy
+Fred C. Newmeyer	director_name	Fred C. Newmeyer
+Fred C. Newmeyer	director_directorid	416
+The Pinch Singer	director	Fred C. Newmeyer
+Girl Shy	director	Fred C. Newmeyer
+A Sailor-Made Man	director	Fred C. Newmeyer
+Mail And Female	director	Fred C. Newmeyer
+Doctor Jack	director	Fred C. Newmeyer
+Fast And Loose	director	Fred C. Newmeyer
+Our Gang	director	Fred C. Newmeyer
+Queen High	director	Fred C. Newmeyer
+Safety Last!	director	Fred C. Newmeyer
+Hot Water	director	Fred C. Newmeyer
+The Freshman	director	Fred C. Newmeyer
+Never Weaken	director	Fred C. Newmeyer
+They Never Come Back	director	Fred C. Newmeyer
+Among Those Present	director	Fred C. Newmeyer
+General Spanky	director	Fred C. Newmeyer
+Number, Please?	director	Fred C. Newmeyer
+Arbor Day	director	Fred C. Newmeyer
+Grandma'S Boy	director	Fred C. Newmeyer
+The Perfect Clown	director	Fred C. Newmeyer
+They Never Come Back	director	Fred C. Newmeyer
+Now Or Never	director	Fred C. Newmeyer
+The Rainbow Man	director	Fred C. Newmeyer
+Why Worry?	director	Fred C. Newmeyer
+Fred C. Newmeyer	label	Fred C. Newmeyer (Director)
+Fred C. Newmeyer	type	Person
+Fred C. Newmeyer	type	director
+Fred C. Newmeyer	page	9202a8c04000641f8000000000b97495
+Fred C. Newmeyer	made	Never Weaken
+Fred C. Newmeyer	made	The Freshman
+Fred C. Newmeyer	made	Girl Shy
+Fred C. Newmeyer	made	Queen High
+Fred C. Newmeyer	made	Number, Please?
+Fred C. Newmeyer	made	They Never Come Back
+Fred C. Newmeyer	made	Mail And Female
+Fred C. Newmeyer	made	Arbor Day
+Fred C. Newmeyer	made	Safety Last!
+Fred C. Newmeyer	made	They Never Come Back
+Fred C. Newmeyer	made	Why Worry?
+Fred C. Newmeyer	made	A Sailor-Made Man
+Fred C. Newmeyer	made	The Perfect Clown
+Fred C. Newmeyer	made	Among Those Present
+Fred C. Newmeyer	made	Now Or Never
+Fred C. Newmeyer	made	Doctor Jack
+Fred C. Newmeyer	made	Fast And Loose
+Fred C. Newmeyer	made	Hot Water
+Fred C. Newmeyer	made	The Pinch Singer
+Fred C. Newmeyer	made	The Rainbow Man
+Fred C. Newmeyer	made	General Spanky
+Fred C. Newmeyer	made	Our Gang
+Fred C. Newmeyer	made	Grandma'S Boy

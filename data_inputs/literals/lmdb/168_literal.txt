@@ -1,63 +1,63 @@
-44555	date	2003
-44555	writer	J.P. Dutta
-44555	country	IN
-44555	actor	Akkineni Nagarjuna
-44555	actor	Sanjay Kapoor
-44555	actor	Kareena Kapoor
-44555	actor	Suniel Shetty
-44555	actor	Priya Gill
-44555	actor	Ishaa Koppikar
-44555	actor	Mohnish Behl
-44555	actor	Abhishek Bachchan
-44555	actor	Ashutosh Rana
-44555	actor	Preeti Jhangiani
-44555	actor	Raj Babbar
-44555	actor	Divya Dutta
-44555	actor	Ajay Devgan
-44555	actor	Sanjay Dutt
-44555	actor	Raveena Tandon
-44555	actor	Namrata Shirodkar
-44555	actor	Esha Deol
-44555	actor	Akshaye Khanna
-44555	actor	Mahima Chaudhry
-44555	actor	Saif Ali Khan
-44555	actor	Rani Mukerji
-44555	actor	Manoj Bajpai
-44555	subject	Indo-Pak Wars
-3011	made	Loc Kargil
-1723	made	Loc Kargil
-44555	page	9202a8c04000641f80000000008dd9e3
-44555	filmid	44555
-44555	producer	Bindiya Goswami
-44555	producer	Bindiya Goswami
-44555	label	Loc Kargil
-44555	film_subject	Indo-Pak Wars
-44555	initial_release_date	2003
-44555	director	J.P. Dutta
-44555	director	J. P. Dutta
-44555	type	film
-44555	title	Loc Kargil
-44555	performance	Performance #82709
-44555	performance	Performance #85656
-44555	performance	Performance #18195
-44555	performance	Performance #87999
-44555	performance	Performance #84668
-44555	performance	Performance #88253
-44555	performance	Performance #77447
-44555	performance	Performance #18190
-44555	performance	Performance #80267
-44555	performance	Performance #88214
-44555	performance	Performance #80354
-44555	performance	Performance #65578
-44555	performance	Performance #84248
-44555	performance	Performance #192316
-44555	performance	Performance #18188
-44555	performance	Performance #18191
-44555	performance	Performance #107344
-44555	performance	Performance #18194
-44555	performance	Performance #76264
-44555	performance	Performance #18193
-44555	performance	Performance #18189
-44555	performance	Performance #18192
-44555	music_contributor	Anu Malik
-44555	based_near	1269750
+Loc Kargil	date	2003
+Loc Kargil	writer	J.P. Dutta
+Loc Kargil	country	IN
+Loc Kargil	actor	Akkineni Nagarjuna
+Loc Kargil	actor	Sanjay Kapoor
+Loc Kargil	actor	Kareena Kapoor
+Loc Kargil	actor	Suniel Shetty
+Loc Kargil	actor	Priya Gill
+Loc Kargil	actor	Ishaa Koppikar
+Loc Kargil	actor	Mohnish Behl
+Loc Kargil	actor	Abhishek Bachchan
+Loc Kargil	actor	Ashutosh Rana
+Loc Kargil	actor	Preeti Jhangiani
+Loc Kargil	actor	Raj Babbar
+Loc Kargil	actor	Divya Dutta
+Loc Kargil	actor	Ajay Devgan
+Loc Kargil	actor	Sanjay Dutt
+Loc Kargil	actor	Raveena Tandon
+Loc Kargil	actor	Namrata Shirodkar
+Loc Kargil	actor	Esha Deol
+Loc Kargil	actor	Akshaye Khanna
+Loc Kargil	actor	Mahima Chaudhry
+Loc Kargil	actor	Saif Ali Khan
+Loc Kargil	actor	Rani Mukerji
+Loc Kargil	actor	Manoj Bajpai
+Loc Kargil	subject	Indo-Pak Wars
+J. P. Dutta	made	Loc Kargil
+J.P. Dutta	made	Loc Kargil
+Loc Kargil	page	9202a8c04000641f80000000008dd9e3
+Loc Kargil	filmid	44555
+Loc Kargil	producer	Bindiya Goswami
+Loc Kargil	producer	Bindiya Goswami
+Loc Kargil	label	Loc Kargil
+Loc Kargil	film_subject	Indo-Pak Wars
+Loc Kargil	initial_release_date	2003
+Loc Kargil	director	J.P. Dutta
+Loc Kargil	director	J. P. Dutta
+Loc Kargil	type	film
+Loc Kargil	title	Loc Kargil
+Loc Kargil	performance	Performance #82709
+Loc Kargil	performance	Performance #85656
+Loc Kargil	performance	Performance #18195
+Loc Kargil	performance	Performance #87999
+Loc Kargil	performance	Performance #84668
+Loc Kargil	performance	Performance #88253
+Loc Kargil	performance	Performance #77447
+Loc Kargil	performance	Performance #18190
+Loc Kargil	performance	Performance #80267
+Loc Kargil	performance	Performance #88214
+Loc Kargil	performance	Performance #80354
+Loc Kargil	performance	Performance #65578
+Loc Kargil	performance	Performance #84248
+Loc Kargil	performance	Performance #192316
+Loc Kargil	performance	Performance #18188
+Loc Kargil	performance	Performance #18191
+Loc Kargil	performance	Performance #107344
+Loc Kargil	performance	Performance #18194
+Loc Kargil	performance	Performance #76264
+Loc Kargil	performance	Performance #18193
+Loc Kargil	performance	Performance #18189
+Loc Kargil	performance	Performance #18192
+Loc Kargil	music_contributor	Anu Malik
+Loc Kargil	based_near	1269750

@@ -1,50 +1,50 @@
-30569	actor_netflix_id	
-30569	page	9202a8c04000641f800000000012b866
-2047	actor	Elsa Lanchester
-247	actor	Elsa Lanchester
-38266	actor	Elsa Lanchester
-2740	actor	Elsa Lanchester
-42278	actor	Elsa Lanchester
-16872	actor	Elsa Lanchester
-9931	actor	Elsa Lanchester
-87696	actor	Elsa Lanchester
-43033	actor	Elsa Lanchester
-42844	actor	Elsa Lanchester
-9082	actor	Elsa Lanchester
-38338	actor	Elsa Lanchester
-42707	actor	Elsa Lanchester
-38250	actor	Elsa Lanchester
-40001	actor	Elsa Lanchester
-18912	actor	Elsa Lanchester
-41701	actor	Elsa Lanchester
-38394	actor	Elsa Lanchester
-8292	actor	Elsa Lanchester
-6550	actor	Elsa Lanchester
-38512	actor	Elsa Lanchester
-30569	label	Elsa Lanchester (Actor)
-30569	type	actor
-30569	type	Person
-30569	actor_name	Elsa Lanchester
-30569	performance	Performance #20716
-30569	performance	Performance #74576
-30569	performance	Performance #169470
-30569	performance	Performance #5261
-30569	performance	Performance #39259
-30569	performance	Performance #53263
-30569	performance	Performance #19149
-30569	performance	Performance #98114
-30569	performance	Performance #28916
-30569	performance	Performance #17410
-30569	performance	Performance #174234
-30569	performance	Performance #34432
-30569	performance	Performance #39427
-30569	performance	Performance #61810
-30569	performance	Performance #31471
-30569	performance	Performance #94475
-30569	performance	Performance #20360
-30569	performance	Performance #34274
-30569	performance	Performance #177204
-30569	performance	Performance #22297
-30569	performance	Performance #63428
-30569	actor_actorid	30569
-30569	actor_nytimes_id	
+Elsa Lanchester	actor_netflix_id	
+Elsa Lanchester	page	9202a8c04000641f800000000012b866
+That Darn Cat!	actor	Elsa Lanchester
+Mary Poppins	actor	Elsa Lanchester
+Naughty Marietta	actor	Elsa Lanchester
+Willard	actor	Elsa Lanchester
+The Girls Of Pleasure Island	actor	Elsa Lanchester
+Terror In The Aisles	actor	Elsa Lanchester
+The Inspector General	actor	Elsa Lanchester
+Passport To Destiny	actor	Elsa Lanchester
+Mystery Street	actor	Elsa Lanchester
+Bell, Book And Candle	actor	Elsa Lanchester
+Rembrandt	actor	Elsa Lanchester
+Bride Of Frankenstein	actor	Elsa Lanchester
+The Glass Slipper	actor	Elsa Lanchester
+The Private Life Of Henry Viii	actor	Elsa Lanchester
+Murder By Death	actor	Elsa Lanchester
+Me, Natalie	actor	Elsa Lanchester
+Frenchie	actor	Elsa Lanchester
+Lassie Come Home	actor	Elsa Lanchester
+The Razor'S Edge	actor	Elsa Lanchester
+Pajama Party	actor	Elsa Lanchester
+Witness For The Prosecution	actor	Elsa Lanchester
+Elsa Lanchester	label	Elsa Lanchester (Actor)
+Elsa Lanchester	type	actor
+Elsa Lanchester	type	Person
+Elsa Lanchester	actor_name	Elsa Lanchester
+Elsa Lanchester	performance	Performance #20716
+Elsa Lanchester	performance	Performance #74576
+Elsa Lanchester	performance	Performance #169470
+Elsa Lanchester	performance	Performance #5261
+Elsa Lanchester	performance	Performance #39259
+Elsa Lanchester	performance	Performance #53263
+Elsa Lanchester	performance	Performance #19149
+Elsa Lanchester	performance	Performance #98114
+Elsa Lanchester	performance	Performance #28916
+Elsa Lanchester	performance	Performance #17410
+Elsa Lanchester	performance	Performance #174234
+Elsa Lanchester	performance	Performance #34432
+Elsa Lanchester	performance	Performance #39427
+Elsa Lanchester	performance	Performance #61810
+Elsa Lanchester	performance	Performance #31471
+Elsa Lanchester	performance	Performance #94475
+Elsa Lanchester	performance	Performance #20360
+Elsa Lanchester	performance	Performance #34274
+Elsa Lanchester	performance	Performance #177204
+Elsa Lanchester	performance	Performance #22297
+Elsa Lanchester	performance	Performance #63428
+Elsa Lanchester	actor_actorid	30569
+Elsa Lanchester	actor_nytimes_id	

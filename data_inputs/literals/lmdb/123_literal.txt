@@ -1,77 +1,77 @@
-29369	page	9202a8c04000641f8000000000006567
-29369	label	Arnold Schwarzenegger (Actor)
-29369	actor_nytimes_id	
-29369	actor_actorid	29369
-29369	actor_name	Arnold Schwarzenegger
-29369	actor_netflix_id	
-29369	performance	Performance #48657
-29369	performance	Performance #130707
-29369	performance	Performance #27714
-29369	performance	Performance #37111
-29369	performance	Performance #16696
-29369	performance	Performance #15940
-29369	performance	Performance #172514
-29369	performance	Performance #10231
-29369	performance	Performance #45946
-29369	performance	Performance #7173
-29369	performance	Performance #3688
-29369	performance	Performance #122075
-29369	performance	Performance #7258
-29369	performance	Performance #108170
-29369	performance	Performance #170732
-29369	performance	Performance #71211
-29369	performance	Performance #155111
-29369	performance	Performance #24196
-29369	performance	Performance #23316
-29369	performance	Performance #28803
-29369	performance	Performance #108573
-29369	performance	Performance #37403
-29369	performance	Performance #17411
-29369	performance	Performance #7289
-29369	performance	Performance #66980
-29369	performance	Performance #42948
-29369	performance	Performance #35380
-29369	performance	Performance #37548
-29369	performance	Performance #28799
-29369	performance	Performance #24169
-29369	performance	Performance #24035
-29369	performance	Performance #153297
-29369	performance	Performance #150932
-29369	performance	Performance #10139
-29369	performance	Performance #28975
-29369	type	Person
-29369	type	actor
-39464	actor	Arnold Schwarzenegger
-979	actor	Arnold Schwarzenegger
-2078	actor	Arnold Schwarzenegger
-59172	actor	Arnold Schwarzenegger
-584	actor	Arnold Schwarzenegger
-39119	actor	Arnold Schwarzenegger
-43683	actor	Arnold Schwarzenegger
-3296	actor	Arnold Schwarzenegger
-2105	actor	Arnold Schwarzenegger
-39882	actor	Arnold Schwarzenegger
-1346	actor	Arnold Schwarzenegger
-4	actor	Arnold Schwarzenegger
-33	actor	Arnold Schwarzenegger
-40490	actor	Arnold Schwarzenegger
-9876	actor	Arnold Schwarzenegger
-4477	actor	Arnold Schwarzenegger
-40930	actor	Arnold Schwarzenegger
-39250	actor	Arnold Schwarzenegger
-44002	actor	Arnold Schwarzenegger
-54780	actor	Arnold Schwarzenegger
-5167	actor	Arnold Schwarzenegger
-8441	actor	Arnold Schwarzenegger
-40118	actor	Arnold Schwarzenegger
-585	actor	Arnold Schwarzenegger
-5235	actor	Arnold Schwarzenegger
-38324	actor	Arnold Schwarzenegger
-38490	actor	Arnold Schwarzenegger
-578	actor	Arnold Schwarzenegger
-2200	actor	Arnold Schwarzenegger
-65937	actor	Arnold Schwarzenegger
-38151	actor	Arnold Schwarzenegger
-38231	actor	Arnold Schwarzenegger
-40536	actor	Arnold Schwarzenegger
-705	actor	Arnold Schwarzenegger
+Arnold Schwarzenegger	page	9202a8c04000641f8000000000006567
+Arnold Schwarzenegger	label	Arnold Schwarzenegger (Actor)
+Arnold Schwarzenegger	actor_nytimes_id	
+Arnold Schwarzenegger	actor_actorid	29369
+Arnold Schwarzenegger	actor_name	Arnold Schwarzenegger
+Arnold Schwarzenegger	actor_netflix_id	
+Arnold Schwarzenegger	performance	Performance #48657
+Arnold Schwarzenegger	performance	Performance #130707
+Arnold Schwarzenegger	performance	Performance #27714
+Arnold Schwarzenegger	performance	Performance #37111
+Arnold Schwarzenegger	performance	Performance #16696
+Arnold Schwarzenegger	performance	Performance #15940
+Arnold Schwarzenegger	performance	Performance #172514
+Arnold Schwarzenegger	performance	Performance #10231
+Arnold Schwarzenegger	performance	Performance #45946
+Arnold Schwarzenegger	performance	Performance #7173
+Arnold Schwarzenegger	performance	Performance #3688
+Arnold Schwarzenegger	performance	Performance #122075
+Arnold Schwarzenegger	performance	Performance #7258
+Arnold Schwarzenegger	performance	Performance #108170
+Arnold Schwarzenegger	performance	Performance #170732
+Arnold Schwarzenegger	performance	Performance #71211
+Arnold Schwarzenegger	performance	Performance #155111
+Arnold Schwarzenegger	performance	Performance #24196
+Arnold Schwarzenegger	performance	Performance #23316
+Arnold Schwarzenegger	performance	Performance #28803
+Arnold Schwarzenegger	performance	Performance #108573
+Arnold Schwarzenegger	performance	Performance #37403
+Arnold Schwarzenegger	performance	Performance #17411
+Arnold Schwarzenegger	performance	Performance #7289
+Arnold Schwarzenegger	performance	Performance #66980
+Arnold Schwarzenegger	performance	Performance #42948
+Arnold Schwarzenegger	performance	Performance #35380
+Arnold Schwarzenegger	performance	Performance #37548
+Arnold Schwarzenegger	performance	Performance #28799
+Arnold Schwarzenegger	performance	Performance #24169
+Arnold Schwarzenegger	performance	Performance #24035
+Arnold Schwarzenegger	performance	Performance #153297
+Arnold Schwarzenegger	performance	Performance #150932
+Arnold Schwarzenegger	performance	Performance #10139
+Arnold Schwarzenegger	performance	Performance #28975
+Arnold Schwarzenegger	type	Person
+Arnold Schwarzenegger	type	actor
+Hercules In New York	actor	Arnold Schwarzenegger
+Eraser	actor	Arnold Schwarzenegger
+Junior	actor	Arnold Schwarzenegger
+A Century Of Science Fiction	actor	Arnold Schwarzenegger
+Predator	actor	Arnold Schwarzenegger
+The Rundown	actor	Arnold Schwarzenegger
+The Villain	actor	Arnold Schwarzenegger
+T2 3-D: Battle Across Time	actor	Arnold Schwarzenegger
+Twins	actor	Arnold Schwarzenegger
+Last Action Hero	actor	Arnold Schwarzenegger
+Dr. Dolittle 2	actor	Arnold Schwarzenegger
+Batman & Robin	actor	Arnold Schwarzenegger
+Terminator 2: Judgment Day	actor	Arnold Schwarzenegger
+Kindergarten Cop	actor	Arnold Schwarzenegger
+The Running Man	actor	Arnold Schwarzenegger
+Red Sonja	actor	Arnold Schwarzenegger
+Jingle All The Way	actor	Arnold Schwarzenegger
+Red Heat	actor	Arnold Schwarzenegger
+End Of Days	actor	Arnold Schwarzenegger
+Terminator Salvation	actor	Arnold Schwarzenegger
+Conan The Barbarian	actor	Arnold Schwarzenegger
+Scavenger Hunt	actor	Arnold Schwarzenegger
+The 6Th Day	actor	Arnold Schwarzenegger
+Commando	actor	Arnold Schwarzenegger
+Stay Hungry	actor	Arnold Schwarzenegger
+True Lies	actor	Arnold Schwarzenegger
+Pumping Iron	actor	Arnold Schwarzenegger
+Terminator 3: Rise Of The Machines	actor	Arnold Schwarzenegger
+Raw Deal	actor	Arnold Schwarzenegger
+The Jayne Mansfield Story	actor	Arnold Schwarzenegger
+The Terminator	actor	Arnold Schwarzenegger
+Total Recall	actor	Arnold Schwarzenegger
+Conan The Destroyer	actor	Arnold Schwarzenegger
+Collateral Damage	actor	Arnold Schwarzenegger

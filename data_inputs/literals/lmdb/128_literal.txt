@@ -1,35 +1,35 @@
-32648	actor_actorid	32648
-12047	actor	Tomokazu Seki
-24490	actor	Tomokazu Seki
-63080	actor	Tomokazu Seki
-60878	actor	Tomokazu Seki
-56333	actor	Tomokazu Seki
-64477	actor	Tomokazu Seki
-54902	actor	Tomokazu Seki
-1531	actor	Tomokazu Seki
-62972	actor	Tomokazu Seki
-59061	actor	Tomokazu Seki
-62997	actor	Tomokazu Seki
-2473	actor	Tomokazu Seki
-61816	actor	Tomokazu Seki
-49130	actor	Tomokazu Seki
-32648	performance	Performance #121912
-32648	performance	Performance #132536
-32648	performance	Performance #127572
-32648	performance	Performance #129624
-32648	performance	Performance #127454
-32648	performance	Performance #127422
-32648	performance	Performance #21380
-32648	performance	Performance #114399
-32648	performance	Performance #125790
-32648	performance	Performance #10267
-32648	performance	Performance #124479
-32648	performance	Performance #105895
-32648	performance	Performance #68310
-32648	type	actor
-32648	type	Person
-32648	actor_netflix_id	
-32648	label	Tomokazu Seki (Actor)
-32648	page	9202a8c04000641f800000000028c1a8
-32648	actor_name	Tomokazu Seki
-32648	actor_nytimes_id	
+Tomokazu Seki	actor_actorid	32648
+Cardcaptor: The Movie 2	actor	Tomokazu Seki
+Nobita And The Green Giant Legend 2008	actor	Tomokazu Seki
+Android Kikaider	actor	Tomokazu Seki
+Full Metal Panic Fumoffu	actor	Tomokazu Seki
+Doraemon: The New Record Of Nobita: Spaceblazer	actor	Tomokazu Seki
+X: The Movie	actor	Tomokazu Seki
+Nobita And The Animal Planet 2009	actor	Tomokazu Seki
+Escaflowne	actor	Tomokazu Seki
+Full Metal Panic!	actor	Tomokazu Seki
+Full Metal Panic: The Second Raid	actor	Tomokazu Seki
+Captain Herlock	actor	Tomokazu Seki
+Pokã©Mon: Legend Comes To Life	actor	Tomokazu Seki
+Cyberteam In Akihabara	actor	Tomokazu Seki
+Doraemon The Movie 2006	actor	Tomokazu Seki
+Tomokazu Seki	performance	Performance #121912
+Tomokazu Seki	performance	Performance #132536
+Tomokazu Seki	performance	Performance #127572
+Tomokazu Seki	performance	Performance #129624
+Tomokazu Seki	performance	Performance #127454
+Tomokazu Seki	performance	Performance #127422
+Tomokazu Seki	performance	Performance #21380
+Tomokazu Seki	performance	Performance #114399
+Tomokazu Seki	performance	Performance #125790
+Tomokazu Seki	performance	Performance #10267
+Tomokazu Seki	performance	Performance #124479
+Tomokazu Seki	performance	Performance #105895
+Tomokazu Seki	performance	Performance #68310
+Tomokazu Seki	type	actor
+Tomokazu Seki	type	Person
+Tomokazu Seki	actor_netflix_id	
+Tomokazu Seki	label	Tomokazu Seki (Actor)
+Tomokazu Seki	page	9202a8c04000641f800000000028c1a8
+Tomokazu Seki	actor_name	Tomokazu Seki
+Tomokazu Seki	actor_nytimes_id	

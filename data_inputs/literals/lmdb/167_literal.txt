@@ -1,39 +1,39 @@
-16986	filmid	16986
-16986	title	Anything Goes
-16986	hasPhotoCollection	Anything_Goes_(film)
+Anything Goes	filmid	16986
+Anything Goes	title	Anything Goes
+Anything Goes	hasPhotoCollection	Anything_Goes_(film)
 147317	link_source	Anything Goes
 7483	link_source	Anything Goes
 26016	link_source	Anything Goes
 75652	link_source	Anything Goes
 44549	link_source	Anything Goes
-5972	film_of_distributor	Anything Goes
-16986	film_art_director	Hans Dreier
-16986	writer	Howard Lindsay
-16986	writer	Guy Bolton
-16986	writer	Russel Crouse
-16986	director	Lewis Milestone
-16986	page	tt0048954
-16986	page	alias?type=imdbid&s=0048954
-16986	page	9202a8c04000641f80000000056c9d19
-16986	label	Anything Goes
-16986	producer	Benjamin Glazer
-16986	date	1936-01-24
-16986	type	film
-16986	runtime	92
-16986	performance	Performance #91023
-16986	performance	Performance #63987
-16986	performance	Performance #91024
-16986	performance	Performance #61682
-16986	performance	Performance #91025
-8590	made	Anything Goes
-16986	editor	Eda Warren
-16986	language	en
-16986	initial_release_date	1936-01-24
-16986	actor	Bing Crosby
-16986	actor	Arthur Treacher
-16986	actor	Charles Ruggles
-16986	actor	Ethel Merman
-16986	actor	Ida Lupino
-16986	genre	Musical
-16986	music_contributor	Cole Porter
-16986	film_cut	Film Cut #9794
+Film_Film_Distributor_Relationship #5972	film_of_distributor	Anything Goes
+Anything Goes	film_art_director	Hans Dreier
+Anything Goes	writer	Howard Lindsay
+Anything Goes	writer	Guy Bolton
+Anything Goes	writer	Russel Crouse
+Anything Goes	director	Lewis Milestone
+Anything Goes	page	tt0048954
+Anything Goes	page	alias?type=imdbid&s=0048954
+Anything Goes	page	9202a8c04000641f80000000056c9d19
+Anything Goes	label	Anything Goes
+Anything Goes	producer	Benjamin Glazer
+Anything Goes	date	1936-01-24
+Anything Goes	type	film
+Anything Goes	runtime	92
+Anything Goes	performance	Performance #91023
+Anything Goes	performance	Performance #63987
+Anything Goes	performance	Performance #91024
+Anything Goes	performance	Performance #61682
+Anything Goes	performance	Performance #91025
+Lewis Milestone	made	Anything Goes
+Anything Goes	editor	Eda Warren
+Anything Goes	language	en
+Anything Goes	initial_release_date	1936-01-24
+Anything Goes	actor	Bing Crosby
+Anything Goes	actor	Arthur Treacher
+Anything Goes	actor	Charles Ruggles
+Anything Goes	actor	Ethel Merman
+Anything Goes	actor	Ida Lupino
+Anything Goes	genre	Musical
+Anything Goes	music_contributor	Cole Porter
+Anything Goes	film_cut	Film Cut #9794

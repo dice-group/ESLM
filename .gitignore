@@ -130,6 +130,7 @@ dmypy.json
 
 #others
 config.py
+classes/
 models/
 log_images/
 model-testing-dbpedia-lmdb.txt

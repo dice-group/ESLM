@@ -1,51 +1,51 @@
-38875	label	James Hong (Actor)
-38875	actor_netflix_id	
-38875	performance	Performance #67745
-38875	performance	Performance #4330
-38875	performance	Performance #47271
-38875	performance	Performance #72098
-38875	performance	Performance #113076
-38875	performance	Performance #133703
-38875	performance	Performance #53338
-38875	performance	Performance #108710
-38875	performance	Performance #42430
-38875	performance	Performance #114086
-38875	performance	Performance #84785
-38875	performance	Performance #169477
-38875	performance	Performance #76195
-38875	performance	Performance #174190
-38875	performance	Performance #21286
-38875	performance	Performance #103177
-38875	performance	Performance #178390
-38875	performance	Performance #182041
-38875	performance	Performance #114242
-38875	performance	Performance #46588
-38875	performance	Performance #186592
-38875	actor_nytimes_id	
-284	actor	James Hong
-38069	actor	James Hong
-87571	actor	James Hong
-2933	actor	James Hong
-87891	actor	James Hong
-18940	actor	James Hong
-53144	actor	James Hong
-7150	actor	James Hong
-48683	actor	James Hong
-91405	actor	James Hong
-42553	actor	James Hong
-3162	actor	James Hong
-54426	actor	James Hong
-22495	actor	James Hong
-11392	actor	James Hong
-56456	actor	James Hong
-39946	actor	James Hong
-38232	actor	James Hong
-13832	actor	James Hong
-4180	actor	James Hong
-54637	actor	James Hong
-48681	actor	James Hong
-38875	page	9202a8c04000641f80000000006b3a0f
-38875	type	Person
-38875	type	actor
-38875	actor_name	James Hong
-38875	actor_actorid	38875
+James Hong	label	James Hong (Actor)
+James Hong	actor_netflix_id	
+James Hong	performance	Performance #67745
+James Hong	performance	Performance #4330
+James Hong	performance	Performance #47271
+James Hong	performance	Performance #72098
+James Hong	performance	Performance #113076
+James Hong	performance	Performance #133703
+James Hong	performance	Performance #53338
+James Hong	performance	Performance #108710
+James Hong	performance	Performance #42430
+James Hong	performance	Performance #114086
+James Hong	performance	Performance #84785
+James Hong	performance	Performance #169477
+James Hong	performance	Performance #76195
+James Hong	performance	Performance #174190
+James Hong	performance	Performance #21286
+James Hong	performance	Performance #103177
+James Hong	performance	Performance #178390
+James Hong	performance	Performance #182041
+James Hong	performance	Performance #114242
+James Hong	performance	Performance #46588
+James Hong	performance	Performance #186592
+James Hong	actor_nytimes_id	
+The Sand Pebbles	actor	James Hong
+Blade Runner	actor	James Hong
+How To Make Love To A Woman	actor	James Hong
+The Art Of War	actor	James Hong
+Kung Fu Panda 2: The Kaboom Of Doom	actor	James Hong
+Adventures Of Johnny Tao: Rock Around The Dragon	actor	James Hong
+Broken Vessels	actor	James Hong
+Ninja Iii: The Domination	actor	James Hong
+Bloodsport 3	actor	James Hong
+Dynamite Brothers	actor	James Hong
+The Golden Child	actor	James Hong
+Tango & Cash	actor	James Hong
+Caged Fury	actor	James Hong
+Shadowzone	actor	James Hong
+Balls Of Fury	actor	James Hong
+Vice Versa	actor	James Hong
+Big Trouble In Little China	actor	James Hong
+Mulan	actor	James Hong
+Tank Girl	actor	James Hong
+Missing In Action	actor	James Hong
+Alamo Bay	actor	James Hong
+Bloodsport 2	actor	James Hong
+James Hong	page	9202a8c04000641f80000000006b3a0f
+James Hong	type	Person
+James Hong	type	actor
+James Hong	actor_name	James Hong
+James Hong	actor_actorid	38875

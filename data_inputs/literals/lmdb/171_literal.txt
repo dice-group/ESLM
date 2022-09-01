@@ -1,36 +1,36 @@
-14418	label	Mack V. Wright (Director)
-14418	director_directorid	14418
-14418	director_name	Mack V. Wright
-14418	made	The Lucky Texan
-14418	made	Thieves' Clothes
-14418	made	Winds Of The Wasteland
-14418	made	The Great Adventures Of Wild Bill Hickok
-14418	made	The Broncho Kid
-14418	made	The Big Show
-14418	made	Hit The Saddle
-14418	made	Riders Of The Whistling Skull
-14418	made	The Man From Monterey
-14418	made	The Vigilantes Are Coming
-14418	made	Somewhere In Sonora
-14418	made	The Sea Hound
-14418	made	Haunted Gold
-14418	made	Masked
-14418	made	Robinson Crusoe Of Clipper Island
-14418	page	9202a8c04000641f8000000005b5f33c
-19433	director	Mack V. Wright
-25030	director	Mack V. Wright
-45182	director	Mack V. Wright
-24940	director	Mack V. Wright
-19747	director	Mack V. Wright
-24460	director	Mack V. Wright
-19751	director	Mack V. Wright
-11165	director	Mack V. Wright
-21357	director	Mack V. Wright
-19259	director	Mack V. Wright
-19744	director	Mack V. Wright
-24448	director	Mack V. Wright
-11164	director	Mack V. Wright
-24459	director	Mack V. Wright
-25028	director	Mack V. Wright
-14418	type	director
-14418	type	Person
+Mack V. Wright	label	Mack V. Wright (Director)
+Mack V. Wright	director_directorid	14418
+Mack V. Wright	director_name	Mack V. Wright
+Mack V. Wright	made	The Lucky Texan
+Mack V. Wright	made	Thieves' Clothes
+Mack V. Wright	made	Winds Of The Wasteland
+Mack V. Wright	made	The Great Adventures Of Wild Bill Hickok
+Mack V. Wright	made	The Broncho Kid
+Mack V. Wright	made	The Big Show
+Mack V. Wright	made	Hit The Saddle
+Mack V. Wright	made	Riders Of The Whistling Skull
+Mack V. Wright	made	The Man From Monterey
+Mack V. Wright	made	The Vigilantes Are Coming
+Mack V. Wright	made	Somewhere In Sonora
+Mack V. Wright	made	The Sea Hound
+Mack V. Wright	made	Haunted Gold
+Mack V. Wright	made	Masked
+Mack V. Wright	made	Robinson Crusoe Of Clipper Island
+Mack V. Wright	page	9202a8c04000641f8000000005b5f33c
+Winds Of The Wasteland	director	Mack V. Wright
+Riders Of The Whistling Skull	director	Mack V. Wright
+The Lucky Texan	director	Mack V. Wright
+The Big Show	director	Mack V. Wright
+Somewhere In Sonora	director	Mack V. Wright
+The Broncho Kid	director	Mack V. Wright
+The Man From Monterey	director	Mack V. Wright
+Robinson Crusoe Of Clipper Island	director	Mack V. Wright
+The Great Adventures Of Wild Bill Hickok	director	Mack V. Wright
+The Sea Hound	director	Mack V. Wright
+Haunted Gold	director	Mack V. Wright
+Masked	director	Mack V. Wright
+The Vigilantes Are Coming	director	Mack V. Wright
+Thieves' Clothes	director	Mack V. Wright
+Hit The Saddle	director	Mack V. Wright
+Mack V. Wright	type	director
+Mack V. Wright	type	Person

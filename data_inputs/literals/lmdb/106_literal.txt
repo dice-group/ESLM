@@ -1,22 +1,22 @@
-2381	runtime	108
-2381	writer	Woody Allen
-2381	date	1965
-2381	title	What'S New Pussycat?
-2381	performance	Performance #66844
-2381	performance	Performance #49723
-2381	performance	Performance #51265
-2381	performance	Performance #56069
-2381	performance	Performance #50018
-2381	performance	Performance #99761
-2381	performance	Performance #58567
-2381	hasPhotoCollection	What's_New_Pussycat?
-2381	language	fr
-2381	language	en
-2381	filmid	2381
-2381	film_cut	Film Cut #11663
-2381	page	alias?type=imdbid&s=0059903
-2381	page	9202a8c04000641f80000000004fd9b4
-2381	page	tt0059903
+What'S New Pussycat?	runtime	108
+What'S New Pussycat?	writer	Woody Allen
+What'S New Pussycat?	date	1965
+What'S New Pussycat?	title	What'S New Pussycat?
+What'S New Pussycat?	performance	Performance #66844
+What'S New Pussycat?	performance	Performance #49723
+What'S New Pussycat?	performance	Performance #51265
+What'S New Pussycat?	performance	Performance #56069
+What'S New Pussycat?	performance	Performance #50018
+What'S New Pussycat?	performance	Performance #99761
+What'S New Pussycat?	performance	Performance #58567
+What'S New Pussycat?	hasPhotoCollection	What's_New_Pussycat?
+What'S New Pussycat?	language	fr
+What'S New Pussycat?	language	en
+What'S New Pussycat?	filmid	2381
+What'S New Pussycat?	film_cut	Film Cut #11663
+What'S New Pussycat?	page	alias?type=imdbid&s=0059903
+What'S New Pussycat?	page	9202a8c04000641f80000000004fd9b4
+What'S New Pussycat?	page	tt0059903
 19753	link_source	What'S New Pussycat?
 136102	link_source	What'S New Pussycat?
 1220	link_source	What'S New Pussycat?
@@ -24,25 +24,25 @@
 71209	link_source	What'S New Pussycat?
 38286	link_source	What'S New Pussycat?
 63261	link_source	What'S New Pussycat?
-2381	director	Richard Talmadge
-2381	director	Clive Donner
-2381	actor	Paula Prentiss
-2381	actor	Peter O'Toole
-2381	actor	Woody Allen
-2381	actor	Ursula Andress
-2381	actor	Capucine
-2381	actor	Romy Schneider
-2381	actor	Peter Sellers
-2381	subject	Psychiatry
-2381	country	GB
-2381	based_near	2635167
-2381	film_subject	Psychiatry
-2381	label	What'S New Pussycat?
-15178	made	What'S New Pussycat?
-13237	made	What'S New Pussycat?
-2381	initial_release_date	1965
-2381	producer	Charles K. Feldman
-12908	film_of_distributor	What'S New Pussycat?
-2381	type	film
-2381	music_contributor	Hal David
-2381	music_contributor	Burt Bacharach
+What'S New Pussycat?	director	Richard Talmadge
+What'S New Pussycat?	director	Clive Donner
+What'S New Pussycat?	actor	Paula Prentiss
+What'S New Pussycat?	actor	Peter O'Toole
+What'S New Pussycat?	actor	Woody Allen
+What'S New Pussycat?	actor	Ursula Andress
+What'S New Pussycat?	actor	Capucine
+What'S New Pussycat?	actor	Romy Schneider
+What'S New Pussycat?	actor	Peter Sellers
+What'S New Pussycat?	subject	Psychiatry
+What'S New Pussycat?	country	GB
+What'S New Pussycat?	based_near	2635167
+What'S New Pussycat?	film_subject	Psychiatry
+What'S New Pussycat?	label	What'S New Pussycat?
+Clive Donner	made	What'S New Pussycat?
+Richard Talmadge	made	What'S New Pussycat?
+What'S New Pussycat?	initial_release_date	1965
+What'S New Pussycat?	producer	Charles K. Feldman
+Film_Film_Distributor_Relationship #12908	film_of_distributor	What'S New Pussycat?
+What'S New Pussycat?	type	film
+What'S New Pussycat?	music_contributor	Hal David
+What'S New Pussycat?	music_contributor	Burt Bacharach

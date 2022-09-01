@@ -1,46 +1,46 @@
-1338	story_contributor	Philip K. Dick
-1338	film_cut	Film Cut #5782
-1338	genre	Adventure
+Soldier	story_contributor	Philip K. Dick
+Soldier	film_cut	Film Cut #5782
+Soldier	genre	Adventure
 70819	link_source	Soldier
 135199	link_source	Soldier
 37782	link_source	Soldier
 19249	link_source	Soldier
 716	link_source	Soldier
-1338	performance	Performance #27085
-1338	performance	Performance #27088
-1338	performance	Performance #119395
-1338	performance	Performance #27087
-1338	performance	Performance #27089
-1338	performance	Performance #186775
-1338	performance	Performance #27086
-1338	music_contributor	Joel Mcneely
-1338	actor	Michael Chiklis
-1338	actor	Jason Scott Lee
-1338	actor	Gary Busey
-1338	actor	Sean Pertwee
-1338	actor	Kurt Russell
-1338	actor	Connie Nielsen
-1338	actor	Jason Isaacs
-1338	label	Soldier
-1338	film_story_contributor	Philip K. Dick
-7073	film_of_distributor	Soldier
-1338	director	Paul W. S. Anderson
-1338	type	film
-1338	language	en
-1338	runtime	99
-1338	initial_release_date	1998-10-23
-1338	page	9202a8c04000641f8000000000333908
-1338	page	alias?type=imdbid&s=0120157
-1338	page	tt0120157
-1338	hasPhotoCollection	Soldier_(film)
-1338	writer	David Peoples
-77	made	Soldier
-1338	producer	Jerry Weintraub
-1338	producer	R.J. Louis
-1338	producer	Fred Fontana
-1338	producer	Jeremy Bolt
-1338	producer	Susan Ekins
-1338	producer	James G. Robinson
-1338	date	1998-10-23
-1338	title	Soldier
-1338	filmid	1338
+Soldier	performance	Performance #27085
+Soldier	performance	Performance #27088
+Soldier	performance	Performance #119395
+Soldier	performance	Performance #27087
+Soldier	performance	Performance #27089
+Soldier	performance	Performance #186775
+Soldier	performance	Performance #27086
+Soldier	music_contributor	Joel Mcneely
+Soldier	actor	Michael Chiklis
+Soldier	actor	Jason Scott Lee
+Soldier	actor	Gary Busey
+Soldier	actor	Sean Pertwee
+Soldier	actor	Kurt Russell
+Soldier	actor	Connie Nielsen
+Soldier	actor	Jason Isaacs
+Soldier	label	Soldier
+Soldier	film_story_contributor	Philip K. Dick
+Film_Film_Distributor_Relationship #7073	film_of_distributor	Soldier
+Soldier	director	Paul W. S. Anderson
+Soldier	type	film
+Soldier	language	en
+Soldier	runtime	99
+Soldier	initial_release_date	1998-10-23
+Soldier	page	9202a8c04000641f8000000000333908
+Soldier	page	alias?type=imdbid&s=0120157
+Soldier	page	tt0120157
+Soldier	hasPhotoCollection	Soldier_(film)
+Soldier	writer	David Peoples
+Paul W. S. Anderson	made	Soldier
+Soldier	producer	Jerry Weintraub
+Soldier	producer	R.J. Louis
+Soldier	producer	Fred Fontana
+Soldier	producer	Jeremy Bolt
+Soldier	producer	Susan Ekins
+Soldier	producer	James G. Robinson
+Soldier	date	1998-10-23
+Soldier	title	Soldier
+Soldier	filmid	1338

@@ -1,32 +1,32 @@
-52869	type	actor
-52869	type	Person
-52869	actor_actorid	52869
-52869	actor_name	Sara Berner
-52869	performance	Performance #145337
-52869	performance	Performance #197575
-52869	performance	Performance #149931
-52869	performance	Performance #168659
-52869	performance	Performance #141962
-52869	performance	Performance #147548
-52869	performance	Performance #145366
-52869	performance	Performance #145202
-52869	performance	Performance #145694
-52869	performance	Performance #145237
-52869	performance	Performance #145767
-52869	performance	Performance #149944
-52869	label	Sara Berner (Actor)
-52869	page	9202a8c04000641f8000000006b4f1f3
-52869	actor_nytimes_id	
-44517	actor	Sara Berner
-38388	actor	Sara Berner
-43693	actor	Sara Berner
-50896	actor	Sara Berner
-83088	actor	Sara Berner
-48308	actor	Sara Berner
-12950	actor	Sara Berner
-1288	actor	Sara Berner
-14907	actor	Sara Berner
-12394	actor	Sara Berner
-40943	actor	Sara Berner
-15323	actor	Sara Berner
-52869	actor_netflix_id	
+Sara Berner	type	actor
+Sara Berner	type	Person
+Sara Berner	actor_actorid	52869
+Sara Berner	actor_name	Sara Berner
+Sara Berner	performance	Performance #145337
+Sara Berner	performance	Performance #197575
+Sara Berner	performance	Performance #149931
+Sara Berner	performance	Performance #168659
+Sara Berner	performance	Performance #141962
+Sara Berner	performance	Performance #147548
+Sara Berner	performance	Performance #145366
+Sara Berner	performance	Performance #145202
+Sara Berner	performance	Performance #145694
+Sara Berner	performance	Performance #145237
+Sara Berner	performance	Performance #145767
+Sara Berner	performance	Performance #149944
+Sara Berner	label	Sara Berner (Actor)
+Sara Berner	page	9202a8c04000641f8000000006b4f1f3
+Sara Berner	actor_nytimes_id	
+Baby Bottleneck	actor	Sara Berner
+Rear Window	actor	Sara Berner
+Book Revue	actor	Sara Berner
+The Bashful Buzzard	actor	Sara Berner
+Gallopin' Gals	actor	Sara Berner
+Hollywood Steps Out	actor	Sara Berner
+The Zoot Cat	actor	Sara Berner
+Knock Knock	actor	Sara Berner
+Pantry Panic	actor	Sara Berner
+Baby Puss	actor	Sara Berner
+Bugs Bunny Gets The Boid	actor	Sara Berner
+The Mouse Comes To Dinner	actor	Sara Berner
+Sara Berner	actor_netflix_id	

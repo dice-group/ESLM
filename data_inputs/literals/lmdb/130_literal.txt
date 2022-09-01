@@ -1,34 +1,34 @@
-34577	type	actor
-34577	type	Person
-34577	actor_actorid	34577
-34577	actor_nytimes_id	
-34577	page	9202a8c04000641f80000000003be85d
-34577	actor_netflix_id	
-34577	performance	Performance #43959
-34577	performance	Performance #22244
-34577	performance	Performance #40313
-34577	performance	Performance #64965
-34577	performance	Performance #40312
-34577	performance	Performance #40275
-34577	performance	Performance #124550
-34577	performance	Performance #178186
-34577	performance	Performance #40276
-34577	performance	Performance #119836
-34577	performance	Performance #120141
-34577	performance	Performance #48963
-34577	performance	Performance #40281
-39205	actor	James Naughton
-10004	actor	James Naughton
-5509	actor	James Naughton
-42370	actor	James Naughton
-1044	actor	James Naughton
-6563	actor	James Naughton
-15764	actor	James Naughton
-7238	actor	James Naughton
-57806	actor	James Naughton
-6025	actor	James Naughton
-57576	actor	James Naughton
-87493	actor	James Naughton
-60932	actor	James Naughton
-34577	actor_name	James Naughton
-34577	label	James Naughton (Actor)
+James Naughton	type	actor
+James Naughton	type	Person
+James Naughton	actor_actorid	34577
+James Naughton	actor_nytimes_id	
+James Naughton	page	9202a8c04000641f80000000003be85d
+James Naughton	actor_netflix_id	
+James Naughton	performance	Performance #43959
+James Naughton	performance	Performance #22244
+James Naughton	performance	Performance #40313
+James Naughton	performance	Performance #64965
+James Naughton	performance	Performance #40312
+James Naughton	performance	Performance #40275
+James Naughton	performance	Performance #124550
+James Naughton	performance	Performance #178186
+James Naughton	performance	Performance #40276
+James Naughton	performance	Performance #119836
+James Naughton	performance	Performance #120141
+James Naughton	performance	Performance #48963
+James Naughton	performance	Performance #40281
+First Kid	actor	James Naughton
+Labor Pains	actor	James Naughton
+Oxygen	actor	James Naughton
+The First Wives Club	actor	James Naughton
+Cat'S Eye	actor	James Naughton
+The Devil Wears Prada	actor	James Naughton
+The Good Mother	actor	James Naughton
+The Birds Ii: Land'S End	actor	James Naughton
+The Littlest Light On The Christmas Tree	actor	James Naughton
+A Stranger Is Watching	actor	James Naughton
+Necessity	actor	James Naughton
+The Glass Menagerie	actor	James Naughton
+Antigone	actor	James Naughton
+James Naughton	actor_name	James Naughton
+James Naughton	label	James Naughton (Actor)

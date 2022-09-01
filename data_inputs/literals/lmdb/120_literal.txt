@@ -1,35 +1,35 @@
-8446	actor	Bill Paxton
-8446	actor	Dave Coulier
-8446	actor	Charlize Theron
-11436	made	Mighty Joe Young
-8446	language	en
+Mighty Joe Young	actor	Bill Paxton
+Mighty Joe Young	actor	Dave Coulier
+Mighty Joe Young	actor	Charlize Theron
+Ron Underwood	made	Mighty Joe Young
+Mighty Joe Young	language	en
 73136	link_source	Mighty Joe Young
 141053	link_source	Mighty Joe Young
-8446	runtime	114
-8446	editor	Paul Hirsch
-8446	producer	Ted Hartley
-8446	producer	Ted Hartley
-8446	producer	Tom Jacobson
-8446	director	Ron Underwood
-8446	genre	Family
-8446	writer	Ruth Rose
-8446	writer	Lawrence Konner
-8446	writer	Mark Rosenthal
-8446	writer	Merian C. Cooper
-8446	page	alias?type=imdbid&s=0120751
-8446	page	9202a8c04000641f8000000000db9872
-8446	page	tt0120751
-8446	filmid	8446
-8446	music_contributor	Richard Gibbs
-8446	music_contributor	James Horner
-8446	title	Mighty Joe Young
-8446	cinematographer	Donald Peterman
-8446	initial_release_date	1998-12-25
-8446	type	film
-8446	film_cut	Film Cut #4184
-8446	date	1998-12-25
-8446	performance	Performance #19600
-8446	performance	Performance #19601
-8446	performance	Performance #173853
-8446	label	Mighty Joe Young
-5652	film_of_distributor	Mighty Joe Young
+Mighty Joe Young	runtime	114
+Mighty Joe Young	editor	Paul Hirsch
+Mighty Joe Young	producer	Ted Hartley
+Mighty Joe Young	producer	Ted Hartley
+Mighty Joe Young	producer	Tom Jacobson
+Mighty Joe Young	director	Ron Underwood
+Mighty Joe Young	genre	Family
+Mighty Joe Young	writer	Ruth Rose
+Mighty Joe Young	writer	Lawrence Konner
+Mighty Joe Young	writer	Mark Rosenthal
+Mighty Joe Young	writer	Merian C. Cooper
+Mighty Joe Young	page	alias?type=imdbid&s=0120751
+Mighty Joe Young	page	9202a8c04000641f8000000000db9872
+Mighty Joe Young	page	tt0120751
+Mighty Joe Young	filmid	8446
+Mighty Joe Young	music_contributor	Richard Gibbs
+Mighty Joe Young	music_contributor	James Horner
+Mighty Joe Young	title	Mighty Joe Young
+Mighty Joe Young	cinematographer	Donald Peterman
+Mighty Joe Young	initial_release_date	1998-12-25
+Mighty Joe Young	type	film
+Mighty Joe Young	film_cut	Film Cut #4184
+Mighty Joe Young	date	1998-12-25
+Mighty Joe Young	performance	Performance #19600
+Mighty Joe Young	performance	Performance #19601
+Mighty Joe Young	performance	Performance #173853
+Mighty Joe Young	label	Mighty Joe Young
+Film_Film_Distributor_Relationship #5652	film_of_distributor	Mighty Joe Young

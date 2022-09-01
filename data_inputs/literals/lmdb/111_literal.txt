@@ -1,27 +1,27 @@
-41573	film_format	Cinemascope
-41573	writer	Richard Murphy
-41573	writer	Philip Yordan
-9077	made	Broken Lance
-41573	film_art_director	Lyle R. Wheeler
-41573	title	Broken Lance
-41573	initial_release_date	1954
-41573	performance	Performance #5456
-41573	performance	Performance #5458
-41573	performance	Performance #5454
-41573	performance	Performance #5457
-41573	performance	Performance #5455
-41573	type	film
-41573	editor	Dorothy Spencer
-41573	director	Edward Dmytryk
-41573	page	9202a8c04000641f8000000000567f08
-1166	film_of_distributor	Broken Lance
-41573	actor	Richard Widmark
-41573	actor	Robert Wagner
-41573	actor	Jean Peters
-41573	actor	Katy Jurado
-41573	actor	Spencer Tracy
-41573	date	1954
-41573	filmid	41573
-41573	music_contributor	Leigh Harline
-41573	label	Broken Lance
-41573	film_set_designer	Walter M. Scott
+Broken Lance	film_format	Cinemascope
+Broken Lance	writer	Richard Murphy
+Broken Lance	writer	Philip Yordan
+Edward Dmytryk	made	Broken Lance
+Broken Lance	film_art_director	Lyle R. Wheeler
+Broken Lance	title	Broken Lance
+Broken Lance	initial_release_date	1954
+Broken Lance	performance	Performance #5456
+Broken Lance	performance	Performance #5458
+Broken Lance	performance	Performance #5454
+Broken Lance	performance	Performance #5457
+Broken Lance	performance	Performance #5455
+Broken Lance	type	film
+Broken Lance	editor	Dorothy Spencer
+Broken Lance	director	Edward Dmytryk
+Broken Lance	page	9202a8c04000641f8000000000567f08
+Film_Film_Distributor_Relationship #1166	film_of_distributor	Broken Lance
+Broken Lance	actor	Richard Widmark
+Broken Lance	actor	Robert Wagner
+Broken Lance	actor	Jean Peters
+Broken Lance	actor	Katy Jurado
+Broken Lance	actor	Spencer Tracy
+Broken Lance	date	1954
+Broken Lance	filmid	41573
+Broken Lance	music_contributor	Leigh Harline
+Broken Lance	label	Broken Lance
+Broken Lance	film_set_designer	Walter M. Scott

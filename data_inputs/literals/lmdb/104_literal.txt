@@ -1,38 +1,38 @@
-14438	runtime	88
-14438	film_cut	Film Cut #19886
-14438	producer	Ron W. Miller
-14438	date	1972
-14438	editor	Cotton Warburton
-14438	language	en
-10044	made	Now You See Him, Now You Don'T
-14438	sequel	The Strongest Man In The World
-14438	performance	Performance #100251
-14438	performance	Performance #140418
-14438	performance	Performance #70478
-14438	performance	Performance #194101
-14438	performance	Performance #100253
-14438	performance	Performance #100255
-14438	performance	Performance #100254
-14438	performance	Performance #100252
-14438	title	Now You See Him, Now You Don'T
-14438	filmid	14438
-14438	actor	Ed Begley, Jr.
-14438	actor	Jim Backus
-14438	actor	William Windom
-14438	actor	Kurt Russell
-14438	actor	Richard Bakalyan
-14438	actor	Cesar Romero
-14438	actor	Edward Andrews
-14438	actor	Joe Flynn
-14630	prequel	Now You See Him, Now You Don'T
-14438	initial_release_date	1972
-14438	hasPhotoCollection	Now_You_See_Him,_Now_You_Don't
-14438	page	9202a8c04000641f8000000005596ce8
-14438	director	Robert Butler
-47754	sequel	Now You See Him, Now You Don'T
-14438	type	film
-14438	label	Now You See Him, Now You Don'T
-14438	prequel	The Computer Wore Tennis Shoes
+Now You See Him, Now You Don'T	runtime	88
+Now You See Him, Now You Don'T	film_cut	Film Cut #19886
+Now You See Him, Now You Don'T	producer	Ron W. Miller
+Now You See Him, Now You Don'T	date	1972
+Now You See Him, Now You Don'T	editor	Cotton Warburton
+Now You See Him, Now You Don'T	language	en
+Robert Butler	made	Now You See Him, Now You Don'T
+Now You See Him, Now You Don'T	sequel	The Strongest Man In The World
+Now You See Him, Now You Don'T	performance	Performance #100251
+Now You See Him, Now You Don'T	performance	Performance #140418
+Now You See Him, Now You Don'T	performance	Performance #70478
+Now You See Him, Now You Don'T	performance	Performance #194101
+Now You See Him, Now You Don'T	performance	Performance #100253
+Now You See Him, Now You Don'T	performance	Performance #100255
+Now You See Him, Now You Don'T	performance	Performance #100254
+Now You See Him, Now You Don'T	performance	Performance #100252
+Now You See Him, Now You Don'T	title	Now You See Him, Now You Don'T
+Now You See Him, Now You Don'T	filmid	14438
+Now You See Him, Now You Don'T	actor	Ed Begley, Jr.
+Now You See Him, Now You Don'T	actor	Jim Backus
+Now You See Him, Now You Don'T	actor	William Windom
+Now You See Him, Now You Don'T	actor	Kurt Russell
+Now You See Him, Now You Don'T	actor	Richard Bakalyan
+Now You See Him, Now You Don'T	actor	Cesar Romero
+Now You See Him, Now You Don'T	actor	Edward Andrews
+Now You See Him, Now You Don'T	actor	Joe Flynn
+The Strongest Man In The World	prequel	Now You See Him, Now You Don'T
+Now You See Him, Now You Don'T	initial_release_date	1972
+Now You See Him, Now You Don'T	hasPhotoCollection	Now_You_See_Him,_Now_You_Don't
+Now You See Him, Now You Don'T	page	9202a8c04000641f8000000005596ce8
+Now You See Him, Now You Don'T	director	Robert Butler
+The Computer Wore Tennis Shoes	sequel	Now You See Him, Now You Don'T
+Now You See Him, Now You Don'T	type	film
+Now You See Him, Now You Don'T	label	Now You See Him, Now You Don'T
+Now You See Him, Now You Don'T	prequel	The Computer Wore Tennis Shoes
 6288	link_source	Now You See Him, Now You Don'T
 145301	link_source	Now You See Him, Now You Don'T
 74945	link_source	Now You See Him, Now You Don'T

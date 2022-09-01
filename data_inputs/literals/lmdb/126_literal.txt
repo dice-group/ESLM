@@ -1,34 +1,34 @@
-31707	actor_actorid	31707
-31707	type	actor
-31707	type	Person
-31707	actor_name	Margaret Colin
-31707	actor_netflix_id	
-31707	label	Margaret Colin (Actor)
-62913	actor	Margaret Colin
-1924	actor	Margaret Colin
-1848	actor	Margaret Colin
-46293	actor	Margaret Colin
-49012	actor	Margaret Colin
-1763	actor	Margaret Colin
-1253	actor	Margaret Colin
-57526	actor	Margaret Colin
-63987	actor	Margaret Colin
-95531	actor	Margaret Colin
-73	actor	Margaret Colin
-6852	actor	Margaret Colin
-3298	actor	Margaret Colin
-31707	performance	Performance #88430
-31707	performance	Performance #96027
-31707	performance	Performance #87924
-31707	performance	Performance #80435
-31707	performance	Performance #42133
-31707	performance	Performance #127332
-31707	performance	Performance #4756
-31707	performance	Performance #37390
-31707	performance	Performance #83508
-31707	performance	Performance #128910
-31707	performance	Performance #184537
-31707	performance	Performance #15213
-31707	performance	Performance #119763
-31707	actor_nytimes_id	
-31707	page	9202a8c04000641f80000000001d8847
+Margaret Colin	actor_actorid	31707
+Margaret Colin	type	actor
+Margaret Colin	type	Person
+Margaret Colin	actor_name	Margaret Colin
+Margaret Colin	actor_netflix_id	
+Margaret Colin	label	Margaret Colin (Actor)
+The Wedding Dress	actor	Margaret Colin
+Unfaithful	actor	Margaret Colin
+Something Wild	actor	Margaret Colin
+The Adventures Of Sebastian Cole	actor	Margaret Colin
+Blue Car	actor	Margaret Colin
+First Daughter	actor	Margaret Colin
+The Devil'S Own	actor	Margaret Colin
+Milk And Money	actor	Margaret Colin
+My Husband'S Double Life	actor	Margaret Colin
+The Missing Person	actor	Margaret Colin
+Independence Day	actor	Margaret Colin
+True Believer	actor	Margaret Colin
+The Butcher'S Wife	actor	Margaret Colin
+Margaret Colin	performance	Performance #88430
+Margaret Colin	performance	Performance #96027
+Margaret Colin	performance	Performance #87924
+Margaret Colin	performance	Performance #80435
+Margaret Colin	performance	Performance #42133
+Margaret Colin	performance	Performance #127332
+Margaret Colin	performance	Performance #4756
+Margaret Colin	performance	Performance #37390
+Margaret Colin	performance	Performance #83508
+Margaret Colin	performance	Performance #128910
+Margaret Colin	performance	Performance #184537
+Margaret Colin	performance	Performance #15213
+Margaret Colin	performance	Performance #119763
+Margaret Colin	actor_nytimes_id	
+Margaret Colin	page	9202a8c04000641f80000000001d8847

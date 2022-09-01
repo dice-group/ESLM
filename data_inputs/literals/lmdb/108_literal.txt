@@ -1,39 +1,39 @@
-4053	language	en
-4053	language	fr
-4053	hasPhotoCollection	A_Man,_a_Real_One
-4053	based_near	3017382
-4053	label	A Man, A Real One
-4053	film_cut	Film Cut #165
-4053	type	film
-4053	date	2003-05-28
-4053	title	A Man, A Real One
-4053	producer	Philippe Martin
-4053	genre	Drama
-4053	filmid	4053
-632	made	A Man, A Real One
-19714	made	A Man, A Real One
-4053	country	FR
-4053	writer	Sophie Filliã¨Res
-4053	writer	Arnaud Larrieu
-4053	writer	Jean-Marie Larrieu
-4053	page	9202a8c04000641f80000000007afaba
-4053	page	tt0329706
-4053	page	alias?type=imdbid&s=0329706
+A Man, A Real One	language	en
+A Man, A Real One	language	fr
+A Man, A Real One	hasPhotoCollection	A_Man,_a_Real_One
+A Man, A Real One	based_near	3017382
+A Man, A Real One	label	A Man, A Real One
+A Man, A Real One	film_cut	Film Cut #165
+A Man, A Real One	type	film
+A Man, A Real One	date	2003-05-28
+A Man, A Real One	title	A Man, A Real One
+A Man, A Real One	producer	Philippe Martin
+A Man, A Real One	genre	Drama
+A Man, A Real One	filmid	4053
+Jean-Marie Larrieu	made	A Man, A Real One
+Arnaud Larrieu	made	A Man, A Real One
+A Man, A Real One	country	FR
+A Man, A Real One	writer	Sophie Filliã¨Res
+A Man, A Real One	writer	Arnaud Larrieu
+A Man, A Real One	writer	Jean-Marie Larrieu
+A Man, A Real One	page	9202a8c04000641f80000000007afaba
+A Man, A Real One	page	tt0329706
+A Man, A Real One	page	alias?type=imdbid&s=0329706
 20517	link_source	A Man, A Real One
 39050	link_source	A Man, A Real One
 1984	link_source	A Man, A Real One
 137540	link_source	A Man, A Real One
 137539	link_source	A Man, A Real One
 66572	link_source	A Man, A Real One
-4053	runtime	120
-4053	actor	Eva Ionesco
-4053	actor	Pierre Pellet
-4053	actor	Mathieu Amalric
-4053	actor	Hã©Lã¨Ne Filliã¨Res
-4053	initial_release_date	2003-05-28
-4053	performance	Performance #777
-4053	performance	Performance #778
-4053	performance	Performance #779
-4053	performance	Performance #84776
-4053	director	Arnaud Larrieu
-4053	director	Jean-Marie Larrieu
+A Man, A Real One	runtime	120
+A Man, A Real One	actor	Eva Ionesco
+A Man, A Real One	actor	Pierre Pellet
+A Man, A Real One	actor	Mathieu Amalric
+A Man, A Real One	actor	Hã©Lã¨Ne Filliã¨Res
+A Man, A Real One	initial_release_date	2003-05-28
+A Man, A Real One	performance	Performance #777
+A Man, A Real One	performance	Performance #778
+A Man, A Real One	performance	Performance #779
+A Man, A Real One	performance	Performance #84776
+A Man, A Real One	director	Arnaud Larrieu
+A Man, A Real One	director	Jean-Marie Larrieu
