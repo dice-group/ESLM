@@ -18,6 +18,7 @@ from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 from rich.console import Console
 from distutils.util import strtobool
+from knowledge_bert import  BertModel, PreTrainedBertModel
 
 from evaluator.map import MAP
 from evaluator.fmeasure import FMeasure
@@ -33,7 +34,7 @@ pretrained_model='nghuyong/ernie-2.0-base-en'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
 # define a rich console logger
 console=Console(record=True)
-    
+
 class ErnieClassifier(nn.Module):
     def __init__(self, pretrained_model='nghuyong/ernie-2.0-base-en', nb_class=1):
         super(ErnieClassifier, self).__init__()
@@ -48,7 +49,8 @@ class ErnieClassifier(nn.Module):
         outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
         cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
-        return cls_logit    
+        return cls_logit   
+
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
