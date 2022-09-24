@@ -29,13 +29,13 @@ from classes.dataset import ESBenchmark
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-pretrained_model='nghuyong/ernie-2.0-base-en'
+pretrained_model='nghuyong/ernie-2.0-en'
 TOKENIZER = AutoTokenizer.from_pretrained(pretrained_model)
 # define a rich console logger
 console=Console(record=True)
 
 class ErnieClassifier(nn.Module):
-    def __init__(self, pretrained_model='nghuyong/ernie-2.0-base-en', nb_class=1):
+    def __init__(self, pretrained_model='nghuyong/ernie-2.0-en', nb_class=1):
         super(ErnieClassifier, self).__init__()
         self.nb_class = nb_class
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
