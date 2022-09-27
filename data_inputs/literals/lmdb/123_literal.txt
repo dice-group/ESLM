@@ -1,77 +1,77 @@
-Arnold Schwarzenegger	page	9202a8c04000641f8000000000006567
-Arnold Schwarzenegger	label	Arnold Schwarzenegger (Actor)
-Arnold Schwarzenegger	actor_nytimes_id	
-Arnold Schwarzenegger	actor_actorid	29369
-Arnold Schwarzenegger	actor_name	Arnold Schwarzenegger
-Arnold Schwarzenegger	actor_netflix_id	
-Arnold Schwarzenegger	performance	Performance #48657
-Arnold Schwarzenegger	performance	Performance #130707
-Arnold Schwarzenegger	performance	Performance #27714
-Arnold Schwarzenegger	performance	Performance #37111
-Arnold Schwarzenegger	performance	Performance #16696
-Arnold Schwarzenegger	performance	Performance #15940
-Arnold Schwarzenegger	performance	Performance #172514
-Arnold Schwarzenegger	performance	Performance #10231
-Arnold Schwarzenegger	performance	Performance #45946
-Arnold Schwarzenegger	performance	Performance #7173
-Arnold Schwarzenegger	performance	Performance #3688
-Arnold Schwarzenegger	performance	Performance #122075
-Arnold Schwarzenegger	performance	Performance #7258
-Arnold Schwarzenegger	performance	Performance #108170
-Arnold Schwarzenegger	performance	Performance #170732
-Arnold Schwarzenegger	performance	Performance #71211
-Arnold Schwarzenegger	performance	Performance #155111
-Arnold Schwarzenegger	performance	Performance #24196
-Arnold Schwarzenegger	performance	Performance #23316
-Arnold Schwarzenegger	performance	Performance #28803
-Arnold Schwarzenegger	performance	Performance #108573
-Arnold Schwarzenegger	performance	Performance #37403
-Arnold Schwarzenegger	performance	Performance #17411
-Arnold Schwarzenegger	performance	Performance #7289
-Arnold Schwarzenegger	performance	Performance #66980
-Arnold Schwarzenegger	performance	Performance #42948
-Arnold Schwarzenegger	performance	Performance #35380
-Arnold Schwarzenegger	performance	Performance #37548
-Arnold Schwarzenegger	performance	Performance #28799
-Arnold Schwarzenegger	performance	Performance #24169
-Arnold Schwarzenegger	performance	Performance #24035
-Arnold Schwarzenegger	performance	Performance #153297
-Arnold Schwarzenegger	performance	Performance #150932
-Arnold Schwarzenegger	performance	Performance #10139
-Arnold Schwarzenegger	performance	Performance #28975
-Arnold Schwarzenegger	type	Person
-Arnold Schwarzenegger	type	actor
-Hercules In New York	actor	Arnold Schwarzenegger
-Eraser	actor	Arnold Schwarzenegger
-Junior	actor	Arnold Schwarzenegger
-A Century Of Science Fiction	actor	Arnold Schwarzenegger
-Predator	actor	Arnold Schwarzenegger
-The Rundown	actor	Arnold Schwarzenegger
-The Villain	actor	Arnold Schwarzenegger
-T2 3-D: Battle Across Time	actor	Arnold Schwarzenegger
-Twins	actor	Arnold Schwarzenegger
-Last Action Hero	actor	Arnold Schwarzenegger
-Dr. Dolittle 2	actor	Arnold Schwarzenegger
-Batman & Robin	actor	Arnold Schwarzenegger
-Terminator 2: Judgment Day	actor	Arnold Schwarzenegger
-Kindergarten Cop	actor	Arnold Schwarzenegger
-The Running Man	actor	Arnold Schwarzenegger
-Red Sonja	actor	Arnold Schwarzenegger
-Jingle All The Way	actor	Arnold Schwarzenegger
-Red Heat	actor	Arnold Schwarzenegger
-End Of Days	actor	Arnold Schwarzenegger
-Terminator Salvation	actor	Arnold Schwarzenegger
-Conan The Barbarian	actor	Arnold Schwarzenegger
-Scavenger Hunt	actor	Arnold Schwarzenegger
-The 6Th Day	actor	Arnold Schwarzenegger
-Commando	actor	Arnold Schwarzenegger
-Stay Hungry	actor	Arnold Schwarzenegger
-True Lies	actor	Arnold Schwarzenegger
-Pumping Iron	actor	Arnold Schwarzenegger
-Terminator 3: Rise Of The Machines	actor	Arnold Schwarzenegger
-Raw Deal	actor	Arnold Schwarzenegger
-The Jayne Mansfield Story	actor	Arnold Schwarzenegger
-The Terminator	actor	Arnold Schwarzenegger
-Total Recall	actor	Arnold Schwarzenegger
-Conan The Destroyer	actor	Arnold Schwarzenegger
-Collateral Damage	actor	Arnold Schwarzenegger
+29369	page	9202a8c04000641f8000000000006567
+29369	label	Arnold Schwarzenegger (Actor)
+29369	actor_nytimes_id	
+29369	actor_actorid	29369
+29369	actor_name	Arnold Schwarzenegger
+29369	actor_netflix_id	
+29369	performance	48657
+29369	performance	130707
+29369	performance	27714
+29369	performance	37111
+29369	performance	16696
+29369	performance	15940
+29369	performance	172514
+29369	performance	10231
+29369	performance	45946
+29369	performance	7173
+29369	performance	3688
+29369	performance	122075
+29369	performance	7258
+29369	performance	108170
+29369	performance	170732
+29369	performance	71211
+29369	performance	155111
+29369	performance	24196
+29369	performance	23316
+29369	performance	28803
+29369	performance	108573
+29369	performance	37403
+29369	performance	17411
+29369	performance	7289
+29369	performance	66980
+29369	performance	42948
+29369	performance	35380
+29369	performance	37548
+29369	performance	28799
+29369	performance	24169
+29369	performance	24035
+29369	performance	153297
+29369	performance	150932
+29369	performance	10139
+29369	performance	28975
+29369	type	Person
+29369	type	actor
+39464	actor	29369
+979	actor	29369
+2078	actor	29369
+59172	actor	29369
+584	actor	29369
+39119	actor	29369
+43683	actor	29369
+3296	actor	29369
+2105	actor	29369
+39882	actor	29369
+1346	actor	29369
+4	actor	29369
+33	actor	29369
+40490	actor	29369
+9876	actor	29369
+4477	actor	29369
+40930	actor	29369
+39250	actor	29369
+44002	actor	29369
+54780	actor	29369
+5167	actor	29369
+8441	actor	29369
+40118	actor	29369
+585	actor	29369
+5235	actor	29369
+38324	actor	29369
+38490	actor	29369
+578	actor	29369
+2200	actor	29369
+65937	actor	29369
+38151	actor	29369
+38231	actor	29369
+40536	actor	29369
+705	actor	29369

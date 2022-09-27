@@ -1,36 +1,36 @@
-James Cameron	label	James Cameron (Director)
-James Cameron	director_name	James Cameron
-James Cameron	page	9202a8c04000641f800000000001fdcc
-Titanic	director	James Cameron
-The Abyss	director	James Cameron
-Aliens Of The Deep	director	James Cameron
-The Terminator	director	James Cameron
-Titanic Special Edition Dvd	director	James Cameron
-Ghosts Of The Abyss	director	James Cameron
-The Dive	director	James Cameron
-T2 3-D: Battle Across Time	director	James Cameron
-Aliens	director	James Cameron
-Battle Angel	director	James Cameron
-True Lies	director	James Cameron
-Terminator 2: Judgment Day	director	James Cameron
-Avatar	director	James Cameron
-Piranha Ii: The Spawning	director	James Cameron
-Expedition: Bismarck	director	James Cameron
-James Cameron	director_directorid	8424
-James Cameron	type	director
-James Cameron	type	Person
-James Cameron	made	Terminator 2: Judgment Day
-James Cameron	made	The Abyss
-James Cameron	made	Aliens Of The Deep
-James Cameron	made	Ghosts Of The Abyss
-James Cameron	made	Aliens
-James Cameron	made	The Terminator
-James Cameron	made	Avatar
-James Cameron	made	Titanic Special Edition Dvd
-James Cameron	made	True Lies
-James Cameron	made	The Dive
-James Cameron	made	Expedition: Bismarck
-James Cameron	made	T2 3-D: Battle Across Time
-James Cameron	made	Piranha Ii: The Spawning
-James Cameron	made	Battle Angel
-James Cameron	made	Titanic
+8424	label	James Cameron (Director)
+8424	director_name	James Cameron
+8424	page	9202a8c04000641f800000000001fdcc
+72	director	8424
+38211	director	8424
+40972	director	8424
+38151	director	8424
+17780	director	8424
+42629	director	8424
+46687	director	8424
+3296	director	8424
+556	director	8424
+4786	director	8424
+38324	director	8424
+33	director	8424
+6220	director	8424
+5622	director	8424
+4673	director	8424
+8424	director_directorid	8424
+8424	type	director
+8424	type	Person
+8424	made	33
+8424	made	38211
+8424	made	40972
+8424	made	42629
+8424	made	556
+8424	made	38151
+8424	made	6220
+8424	made	17780
+8424	made	38324
+8424	made	46687
+8424	made	4673
+8424	made	3296
+8424	made	5622
+8424	made	4786
+8424	made	72

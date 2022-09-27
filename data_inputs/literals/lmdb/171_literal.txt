@@ -1,36 +1,36 @@
-Mack V. Wright	label	Mack V. Wright (Director)
-Mack V. Wright	director_directorid	14418
-Mack V. Wright	director_name	Mack V. Wright
-Mack V. Wright	made	The Lucky Texan
-Mack V. Wright	made	Thieves' Clothes
-Mack V. Wright	made	Winds Of The Wasteland
-Mack V. Wright	made	The Great Adventures Of Wild Bill Hickok
-Mack V. Wright	made	The Broncho Kid
-Mack V. Wright	made	The Big Show
-Mack V. Wright	made	Hit The Saddle
-Mack V. Wright	made	Riders Of The Whistling Skull
-Mack V. Wright	made	The Man From Monterey
-Mack V. Wright	made	The Vigilantes Are Coming
-Mack V. Wright	made	Somewhere In Sonora
-Mack V. Wright	made	The Sea Hound
-Mack V. Wright	made	Haunted Gold
-Mack V. Wright	made	Masked
-Mack V. Wright	made	Robinson Crusoe Of Clipper Island
-Mack V. Wright	page	9202a8c04000641f8000000005b5f33c
-Winds Of The Wasteland	director	Mack V. Wright
-Riders Of The Whistling Skull	director	Mack V. Wright
-The Lucky Texan	director	Mack V. Wright
-The Big Show	director	Mack V. Wright
-Somewhere In Sonora	director	Mack V. Wright
-The Broncho Kid	director	Mack V. Wright
-The Man From Monterey	director	Mack V. Wright
-Robinson Crusoe Of Clipper Island	director	Mack V. Wright
-The Great Adventures Of Wild Bill Hickok	director	Mack V. Wright
-The Sea Hound	director	Mack V. Wright
-Haunted Gold	director	Mack V. Wright
-Masked	director	Mack V. Wright
-The Vigilantes Are Coming	director	Mack V. Wright
-Thieves' Clothes	director	Mack V. Wright
-Hit The Saddle	director	Mack V. Wright
-Mack V. Wright	type	director
-Mack V. Wright	type	Person
+14418	label	Mack V. Wright (Director)
+14418	director_directorid	14418
+14418	director_name	Mack V. Wright
+14418	made	45182
+14418	made	24459
+14418	made	19433
+14418	made	21357
+14418	made	24460
+14418	made	24940
+14418	made	25028
+14418	made	25030
+14418	made	19751
+14418	made	11164
+14418	made	19747
+14418	made	19259
+14418	made	19744
+14418	made	24448
+14418	made	11165
+14418	page	9202a8c04000641f8000000005b5f33c
+19433	director	14418
+25030	director	14418
+45182	director	14418
+24940	director	14418
+19747	director	14418
+24460	director	14418
+19751	director	14418
+11165	director	14418
+21357	director	14418
+19259	director	14418
+19744	director	14418
+24448	director	14418
+11164	director	14418
+24459	director	14418
+25028	director	14418
+14418	type	director
+14418	type	Person

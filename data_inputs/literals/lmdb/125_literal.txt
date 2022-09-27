@@ -1,50 +1,50 @@
-Tom Courtenay	actor_actorid	30598
-Last Orders	actor	Tom Courtenay
-The Golden Compass	actor	Tom Courtenay
-The Loneliness Of The Long Distance Runner	actor	Tom Courtenay
-Operation Crossbow	actor	Tom Courtenay
-Whatever Happened To Harold Smith?	actor	Tom Courtenay
-King & Country	actor	Tom Courtenay
-To Catch A Spy	actor	Tom Courtenay
-The Day The Fish Came Out	actor	Tom Courtenay
-King Rat	actor	Tom Courtenay
-The Dresser	actor	Tom Courtenay
-One Day In The Life Of Ivan Denisovich	actor	Tom Courtenay
-A Dandy In Aspic	actor	Tom Courtenay
-The Last Butterfly	actor	Tom Courtenay
-The Boy From Mercury	actor	Tom Courtenay
-The Loneliness Of The Long Distance Runner	actor	Tom Courtenay
-Leonard Part 6	actor	Tom Courtenay
-Let Him Have It	actor	Tom Courtenay
-Ready When You Are, Mr Mcgill	actor	Tom Courtenay
-Billy Liar	actor	Tom Courtenay
-The Night Of The Generals	actor	Tom Courtenay
-Tom Courtenay	actor_nytimes_id	
-Tom Courtenay	type	Person
-Tom Courtenay	type	actor
-Tom Courtenay	actor_netflix_id	
-Tom Courtenay	page	9202a8c04000641f800000000012d8fa
-Tom Courtenay	actor_name	Tom Courtenay
-Tom Courtenay	performance	Performance #113132
-Tom Courtenay	performance	Performance #92512
-Tom Courtenay	performance	Performance #54247
-Tom Courtenay	performance	Performance #70134
-Tom Courtenay	performance	Performance #91930
-Tom Courtenay	performance	Performance #38982
-Tom Courtenay	performance	Performance #74228
-Tom Courtenay	performance	Performance #114228
-Tom Courtenay	performance	Performance #4392
-Tom Courtenay	performance	Performance #94391
-Tom Courtenay	performance	Performance #173836
-Tom Courtenay	performance	Performance #125941
-Tom Courtenay	performance	Performance #17700
-Tom Courtenay	performance	Performance #136030
-Tom Courtenay	performance	Performance #197795
-Tom Courtenay	performance	Performance #64560
-Tom Courtenay	performance	Performance #17432
-Tom Courtenay	performance	Performance #55450
-Tom Courtenay	performance	Performance #70920
-Tom Courtenay	performance	Performance #183968
-Tom Courtenay	performance	Performance #71338
-Tom Courtenay	performance	Performance #30832
-Tom Courtenay	label	Tom Courtenay (Actor)
+30598	actor_actorid	30598
+16960	actor	30598
+2274	actor	30598
+41317	actor	30598
+10336	actor	30598
+2338	actor	30598
+53197	actor	30598
+93349	actor	30598
+13855	actor	30598
+2042	actor	30598
+38576	actor	30598
+14368	actor	30598
+19656	actor	30598
+61927	actor	30598
+47332	actor	30598
+54618	actor	30598
+40935	actor	30598
+42713	actor	30598
+18780	actor	30598
+10692	actor	30598
+42230	actor	30598
+30598	actor_nytimes_id	
+30598	type	Person
+30598	type	actor
+30598	actor_netflix_id	
+30598	page	9202a8c04000641f800000000012d8fa
+30598	actor_name	Tom Courtenay
+30598	performance	113132
+30598	performance	92512
+30598	performance	54247
+30598	performance	70134
+30598	performance	91930
+30598	performance	38982
+30598	performance	74228
+30598	performance	114228
+30598	performance	4392
+30598	performance	94391
+30598	performance	173836
+30598	performance	125941
+30598	performance	17700
+30598	performance	136030
+30598	performance	197795
+30598	performance	64560
+30598	performance	17432
+30598	performance	55450
+30598	performance	70920
+30598	performance	183968
+30598	performance	71338
+30598	performance	30832
+30598	label	Tom Courtenay (Actor)

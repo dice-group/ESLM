@@ -1,32 +1,32 @@
-Satomi Hakkenden	language	ja
-61136	link_source	Satomi Hakkenden
-139288	link_source	Satomi Hakkenden
-Satomi Hakkenden	country	JP
-Satomi Hakkenden	writer	Kinji Fukasaku
-Satomi Hakkenden	writer	Toshio Kamata
-Satomi Hakkenden	date	1983-10-12
-Satomi Hakkenden	based_near	1861060
-Kinji Fukasaku	made	Satomi Hakkenden
-Satomi Hakkenden	performance	Performance #87740
-Satomi Hakkenden	performance	Performance #25385
-Satomi Hakkenden	performance	Performance #25386
-Satomi Hakkenden	performance	Performance #25387
-Satomi Hakkenden	title	Satomi Hakkenden
-Satomi Hakkenden	page	tt0086244
-Satomi Hakkenden	page	alias?type=imdbid&s=0086244
-Satomi Hakkenden	page	9202a8c04000641f8000000000abf0a2
-Satomi Hakkenden	type	film
-Satomi Hakkenden	producer	Haruki Kadokawa
-Satomi Hakkenden	producer	Haruki Kadokawa
-Satomi Hakkenden	director	Kinji Fukasaku
-Satomi Hakkenden	film_cut	Film Cut #5444
-Satomi Hakkenden	initial_release_date	1983-10-12
-Satomi Hakkenden	music_contributor	Nobody
-Satomi Hakkenden	filmid	6191
-Satomi Hakkenden	cinematographer	Seizå Sengen
-Satomi Hakkenden	runtime	136
-Satomi Hakkenden	actor	Hiroyuki Sanada
-Satomi Hakkenden	actor	Mari Natsuki
-Satomi Hakkenden	actor	Sonny Chiba
-Satomi Hakkenden	actor	Hiroko Yakushimaru
-Satomi Hakkenden	label	Satomi Hakkenden
+6191	language	ja
+61136	link_source	6191
+139288	link_source	6191
+6191	country	JP
+6191	writer	14150
+6191	writer	4410
+6191	date	1983-10-12
+6191	based_near	1861060
+8972	made	6191
+6191	performance	87740
+6191	performance	25385
+6191	performance	25386
+6191	performance	25387
+6191	title	Satomi Hakkenden
+6191	page	tt0086244
+6191	page	alias?type=imdbid&s=0086244
+6191	page	9202a8c04000641f8000000000abf0a2
+6191	type	film
+6191	producer	4154
+6191	producer	14066
+6191	director	8972
+6191	film_cut	5444
+6191	initial_release_date	1983-10-12
+6191	music_contributor	180
+6191	filmid	6191
+6191	cinematographer	1122
+6191	runtime	136
+6191	actor	34973
+6191	actor	44257
+6191	actor	32168
+6191	actor	36373
+6191	label	Satomi Hakkenden

@@ -1,38 +1,38 @@
-Rebirth Of Fusion!! Gokå« And Vegeta!!	prequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	date	1994-07-09
-Super-Warrior Defeat!! I'M The One Who'Ll Win	initial_release_date	1994-07-09
-Super-Warrior Defeat!! I'M The One Who'Ll Win	label	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	writer	Takao Koyama
-Super-Warrior Defeat!! I'M The One Who'Ll Win	writer	Akira Toriyama
-Super-Warrior Defeat!! I'M The One Who'Ll Win	music_contributor	Shunsuke Kikuchi
-137895	link_source	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	film_cut	Film Cut #881
-Super-Warrior Defeat!! I'M The One Who'Ll Win	language	ja
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4416
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4411
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4414
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #82244
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4412
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4409
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4410
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4415
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4408
-Super-Warrior Defeat!! I'M The One Who'Ll Win	performance	Performance #4413
-Super-Warrior Defeat!! I'M The One Who'Ll Win	filmid	4501
-Super-Warrior Defeat!! I'M The One Who'Ll Win	prequel	The Dangerous Duo! Super-Warriors Can'T Rest
-Super-Warrior Defeat!! I'M The One Who'Ll Win	sequel	Rebirth Of Fusion!! Gokå« And Vegeta!!
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Tomiko Suzuki
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Takeshi Kusao
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Mayumi Tanaka
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Naoki Tatsuta
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Sean Schemmel
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Miki Ito
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Daisuke GåRi
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Bin Shimada
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Masako Nozawa
-Super-Warrior Defeat!! I'M The One Who'Ll Win	actor	Joji Yanami
-The Dangerous Duo! Super-Warriors Can'T Rest	sequel	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	runtime	50
-Super-Warrior Defeat!! I'M The One Who'Ll Win	title	Super-Warrior Defeat!! I'M The One Who'Ll Win
-Super-Warrior Defeat!! I'M The One Who'Ll Win	page	9202a8c04000641f8000000000867897
-Super-Warrior Defeat!! I'M The One Who'Ll Win	type	film
+1835	prequel	4501
+4501	date	1994-07-09
+4501	initial_release_date	1994-07-09
+4501	label	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	writer	1396
+4501	writer	13022
+4501	music_contributor	5614
+137895	link_source	4501
+4501	film_cut	881
+4501	language	ja
+4501	performance	4416
+4501	performance	4411
+4501	performance	4414
+4501	performance	82244
+4501	performance	4412
+4501	performance	4409
+4501	performance	4410
+4501	performance	4415
+4501	performance	4408
+4501	performance	4413
+4501	filmid	4501
+4501	prequel	3887
+4501	sequel	1835
+4501	actor	47808
+4501	actor	34160
+4501	actor	34497
+4501	actor	42282
+4501	actor	40928
+4501	actor	33932
+4501	actor	35586
+4501	actor	35096
+4501	actor	35093
+4501	actor	1545
+3887	sequel	4501
+4501	runtime	50
+4501	title	Super-Warrior Defeat!! I'M The One Who'Ll Win
+4501	page	9202a8c04000641f8000000000867897
+4501	type	film

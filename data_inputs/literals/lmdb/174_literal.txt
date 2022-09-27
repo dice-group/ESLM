@@ -1,32 +1,32 @@
-Alice Braga	actor_name	Alice Braga
-Alice Braga	actor_nytimes_id	
-Alice Braga	performance	Performance #59117
-Alice Braga	performance	Performance #123172
-Alice Braga	performance	Performance #91784
-Alice Braga	performance	Performance #108924
-Alice Braga	performance	Performance #70346
-Alice Braga	performance	Performance #18592
-Alice Braga	performance	Performance #187510
-Alice Braga	performance	Performance #186417
-Alice Braga	performance	Performance #137673
-Alice Braga	performance	Performance #159886
-Alice Braga	performance	Performance #79634
-Alice Braga	performance	Performance #85196
-Alice Braga	type	Person
-Alice Braga	type	actor
-Solo Dios Sabe	actor	Alice Braga
-Repossession Mambo	actor	Alice Braga
-Crossing Over	actor	Alice Braga
-City Of God	actor	Alice Braga
-Predators	actor	Alice Braga
-The Milky Way	actor	Alice Braga
-O Cheiro Do Ralo	actor	Alice Braga
-Predators	actor	Alice Braga
-Lower City	actor	Alice Braga
-I Am Legend	actor	Alice Braga
-Blindness	actor	Alice Braga
-Redbelt	actor	Alice Braga
-Alice Braga	page	9202a8c04000641f8000000000dc5776
-Alice Braga	actor_netflix_id	
-Alice Braga	label	Alice Braga (Actor)
-Alice Braga	actor_actorid	47469
+47469	actor_name	Alice Braga
+47469	actor_nytimes_id	
+47469	performance	59117
+47469	performance	123172
+47469	performance	91784
+47469	performance	108924
+47469	performance	70346
+47469	performance	18592
+47469	performance	187510
+47469	performance	186417
+47469	performance	137673
+47469	performance	159886
+47469	performance	79634
+47469	performance	85196
+47469	type	Person
+47469	type	actor
+59947	actor	47469
+18729	actor	47469
+23446	actor	47469
+944	actor	47469
+96426	actor	47469
+67438	actor	47469
+10791	actor	47469
+83977	actor	47469
+7756	actor	47469
+8961	actor	47469
+18644	actor	47469
+19258	actor	47469
+47469	page	9202a8c04000641f8000000000dc5776
+47469	actor_netflix_id	
+47469	label	Alice Braga (Actor)
+47469	actor_actorid	47469

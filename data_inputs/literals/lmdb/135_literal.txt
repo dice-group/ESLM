@@ -1,52 +1,52 @@
-Fred C. Newmeyer	director_name	Fred C. Newmeyer
-Fred C. Newmeyer	director_directorid	416
-The Pinch Singer	director	Fred C. Newmeyer
-Girl Shy	director	Fred C. Newmeyer
-A Sailor-Made Man	director	Fred C. Newmeyer
-Mail And Female	director	Fred C. Newmeyer
-Doctor Jack	director	Fred C. Newmeyer
-Fast And Loose	director	Fred C. Newmeyer
-Our Gang	director	Fred C. Newmeyer
-Queen High	director	Fred C. Newmeyer
-Safety Last!	director	Fred C. Newmeyer
-Hot Water	director	Fred C. Newmeyer
-The Freshman	director	Fred C. Newmeyer
-Never Weaken	director	Fred C. Newmeyer
-They Never Come Back	director	Fred C. Newmeyer
-Among Those Present	director	Fred C. Newmeyer
-General Spanky	director	Fred C. Newmeyer
-Number, Please?	director	Fred C. Newmeyer
-Arbor Day	director	Fred C. Newmeyer
-Grandma'S Boy	director	Fred C. Newmeyer
-The Perfect Clown	director	Fred C. Newmeyer
-They Never Come Back	director	Fred C. Newmeyer
-Now Or Never	director	Fred C. Newmeyer
-The Rainbow Man	director	Fred C. Newmeyer
-Why Worry?	director	Fred C. Newmeyer
-Fred C. Newmeyer	label	Fred C. Newmeyer (Director)
-Fred C. Newmeyer	type	Person
-Fred C. Newmeyer	type	director
-Fred C. Newmeyer	page	9202a8c04000641f8000000000b97495
-Fred C. Newmeyer	made	Never Weaken
-Fred C. Newmeyer	made	The Freshman
-Fred C. Newmeyer	made	Girl Shy
-Fred C. Newmeyer	made	Queen High
-Fred C. Newmeyer	made	Number, Please?
-Fred C. Newmeyer	made	They Never Come Back
-Fred C. Newmeyer	made	Mail And Female
-Fred C. Newmeyer	made	Arbor Day
-Fred C. Newmeyer	made	Safety Last!
-Fred C. Newmeyer	made	They Never Come Back
-Fred C. Newmeyer	made	Why Worry?
-Fred C. Newmeyer	made	A Sailor-Made Man
-Fred C. Newmeyer	made	The Perfect Clown
-Fred C. Newmeyer	made	Among Those Present
-Fred C. Newmeyer	made	Now Or Never
-Fred C. Newmeyer	made	Doctor Jack
-Fred C. Newmeyer	made	Fast And Loose
-Fred C. Newmeyer	made	Hot Water
-Fred C. Newmeyer	made	The Pinch Singer
-Fred C. Newmeyer	made	The Rainbow Man
-Fred C. Newmeyer	made	General Spanky
-Fred C. Newmeyer	made	Our Gang
-Fred C. Newmeyer	made	Grandma'S Boy
+416	director_name	Fred C. Newmeyer
+416	director_directorid	416
+66506	director	416
+44849	director	416
+25006	director	416
+66469	director	416
+16516	director	416
+55669	director	416
+24605	director	416
+45424	director	416
+209	director	416
+8672	director	416
+5711	director	416
+48957	director	416
+93242	director	416
+57112	director	416
+40871	director	416
+52376	director	416
+66749	director	416
+21577	director	416
+21167	director	416
+57862	director	416
+57373	director	416
+94441	director	416
+7007	director	416
+416	label	Fred C. Newmeyer (Director)
+416	type	Person
+416	type	director
+416	page	9202a8c04000641f8000000000b97495
+416	made	48957
+416	made	5711
+416	made	44849
+416	made	45424
+416	made	52376
+416	made	57862
+416	made	66469
+416	made	66749
+416	made	209
+416	made	93242
+416	made	7007
+416	made	25006
+416	made	21167
+416	made	57112
+416	made	57373
+416	made	16516
+416	made	55669
+416	made	8672
+416	made	66506
+416	made	94441
+416	made	40871
+416	made	24605
+416	made	21577

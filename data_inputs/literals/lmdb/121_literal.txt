@@ -1,46 +1,46 @@
-Abel Ferrara	director_directorid	10100
-Abel Ferrara	made	Bad Lieutenant
-Abel Ferrara	made	King Of New York
-Abel Ferrara	made	The Blackout
-Abel Ferrara	made	'R Xmas
-Abel Ferrara	made	The Funeral
-Abel Ferrara	made	Mary
-Abel Ferrara	made	Cat Chaser
-Abel Ferrara	made	Cat Chaser
-Abel Ferrara	made	Ms. 45
-Abel Ferrara	made	Dangerous Game
-Abel Ferrara	made	Go Go Tales
-Abel Ferrara	made	The Driller Killer
-Abel Ferrara	made	New Rose Hotel
-Abel Ferrara	made	Fear City
-Abel Ferrara	made	Chelsea On The Rocks
-Abel Ferrara	made	Body Snatchers
-Abel Ferrara	made	China Girl
-Abel Ferrara	made	The Addiction
-Abel Ferrara	made	R-Xmas
-Abel Ferrara	made	The Blackout
-Abel Ferrara	type	Person
-Abel Ferrara	type	director
-Abel Ferrara	page	9202a8c04000641f8000000000535fbd
-Abel Ferrara	label	Abel Ferrara (Director)
-'R Xmas	director	Abel Ferrara
-Cat Chaser	director	Abel Ferrara
-Chelsea On The Rocks	director	Abel Ferrara
-Fear City	director	Abel Ferrara
-Ms. 45	director	Abel Ferrara
-R-Xmas	director	Abel Ferrara
-New Rose Hotel	director	Abel Ferrara
-Body Snatchers	director	Abel Ferrara
-The Addiction	director	Abel Ferrara
-Mary	director	Abel Ferrara
-China Girl	director	Abel Ferrara
-Bad Lieutenant	director	Abel Ferrara
-The Blackout	director	Abel Ferrara
-Dangerous Game	director	Abel Ferrara
-The Driller Killer	director	Abel Ferrara
-Cat Chaser	director	Abel Ferrara
-The Blackout	director	Abel Ferrara
-King Of New York	director	Abel Ferrara
-Go Go Tales	director	Abel Ferrara
-The Funeral	director	Abel Ferrara
-Abel Ferrara	director_name	Abel Ferrara
+10100	director_directorid	10100
+10100	made	40914
+10100	made	40146
+10100	made	90531
+10100	made	96870
+10100	made	1159
+10100	made	11719
+10100	made	88229
+10100	made	63031
+10100	made	3535
+10100	made	12281
+10100	made	70633
+10100	made	42868
+10100	made	1160
+10100	made	23866
+10100	made	66097
+10100	made	48179
+10100	made	13196
+10100	made	44846
+10100	made	63785
+10100	made	96598
+10100	type	Person
+10100	type	director
+10100	page	9202a8c04000641f8000000000535fbd
+10100	label	Abel Ferrara (Director)
+96870	director	10100
+88229	director	10100
+66097	director	10100
+23866	director	10100
+3535	director	10100
+63785	director	10100
+1160	director	10100
+48179	director	10100
+44846	director	10100
+11719	director	10100
+13196	director	10100
+40914	director	10100
+96598	director	10100
+12281	director	10100
+42868	director	10100
+63031	director	10100
+90531	director	10100
+40146	director	10100
+70633	director	10100
+1159	director	10100
+10100	director_name	Abel Ferrara

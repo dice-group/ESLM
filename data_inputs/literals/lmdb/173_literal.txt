@@ -1,32 +1,32 @@
-Columbus Short	performance	Performance #91100
-Columbus Short	performance	Performance #45160
-Columbus Short	performance	Performance #184656
-Columbus Short	performance	Performance #83567
-Columbus Short	performance	Performance #184809
-Columbus Short	performance	Performance #134547
-Columbus Short	performance	Performance #75295
-Columbus Short	performance	Performance #198141
-Columbus Short	performance	Performance #67713
-Columbus Short	performance	Performance #115382
-Columbus Short	performance	Performance #146941
-Columbus Short	performance	Performance #114368
-Death At A Funeral	actor	Columbus Short
-Save The Last Dance 2	actor	Columbus Short
-This Christmas	actor	Columbus Short
-Partners	actor	Columbus Short
-The Losers	actor	Columbus Short
-Cadillac Records	actor	Columbus Short
-Whiteout	actor	Columbus Short
-Accepted	actor	Columbus Short
-Armored	actor	Columbus Short
-Stomp The Yard 2: Homecoming	actor	Columbus Short
-The Trunk	actor	Columbus Short
-Stomp The Yard	actor	Columbus Short
-Columbus Short	actor_netflix_id	
-Columbus Short	actor_name	Columbus Short
-Columbus Short	page	9202a8c04000641f8000000000d56ae3
-Columbus Short	actor_actorid	47032
-Columbus Short	type	actor
-Columbus Short	type	Person
-Columbus Short	label	Columbus Short (Actor)
-Columbus Short	actor_nytimes_id	
+47032	performance	91100
+47032	performance	45160
+47032	performance	184656
+47032	performance	83567
+47032	performance	184809
+47032	performance	134547
+47032	performance	75295
+47032	performance	198141
+47032	performance	67713
+47032	performance	115382
+47032	performance	146941
+47032	performance	114368
+95572	actor	47032
+13716	actor	47032
+20724	actor	47032
+70465	actor	47032
+95541	actor	47032
+53299	actor	47032
+17222	actor	47032
+47737	actor	47032
+53825	actor	47032
+98212	actor	47032
+54847	actor	47032
+11393	actor	47032
+47032	actor_netflix_id	
+47032	actor_name	Columbus Short
+47032	page	9202a8c04000641f8000000000d56ae3
+47032	actor_actorid	47032
+47032	type	actor
+47032	type	Person
+47032	label	Columbus Short (Actor)
+47032	actor_nytimes_id	

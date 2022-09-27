@@ -1,46 +1,46 @@
-Soldier	story_contributor	Philip K. Dick
-Soldier	film_cut	Film Cut #5782
-Soldier	genre	Adventure
-70819	link_source	Soldier
-135199	link_source	Soldier
-37782	link_source	Soldier
-19249	link_source	Soldier
-716	link_source	Soldier
-Soldier	performance	Performance #27085
-Soldier	performance	Performance #27088
-Soldier	performance	Performance #119395
-Soldier	performance	Performance #27087
-Soldier	performance	Performance #27089
-Soldier	performance	Performance #186775
-Soldier	performance	Performance #27086
-Soldier	music_contributor	Joel Mcneely
-Soldier	actor	Michael Chiklis
-Soldier	actor	Jason Scott Lee
-Soldier	actor	Gary Busey
-Soldier	actor	Sean Pertwee
-Soldier	actor	Kurt Russell
-Soldier	actor	Connie Nielsen
-Soldier	actor	Jason Isaacs
-Soldier	label	Soldier
-Soldier	film_story_contributor	Philip K. Dick
-Film_Film_Distributor_Relationship #7073	film_of_distributor	Soldier
-Soldier	director	Paul W. S. Anderson
-Soldier	type	film
-Soldier	language	en
-Soldier	runtime	99
-Soldier	initial_release_date	1998-10-23
-Soldier	page	9202a8c04000641f8000000000333908
-Soldier	page	alias?type=imdbid&s=0120157
-Soldier	page	tt0120157
-Soldier	hasPhotoCollection	Soldier_(film)
-Soldier	writer	David Peoples
-Paul W. S. Anderson	made	Soldier
-Soldier	producer	Jerry Weintraub
-Soldier	producer	R.J. Louis
-Soldier	producer	Fred Fontana
-Soldier	producer	Jeremy Bolt
-Soldier	producer	Susan Ekins
-Soldier	producer	James G. Robinson
-Soldier	date	1998-10-23
-Soldier	title	Soldier
-Soldier	filmid	1338
+1338	story_contributor	255
+1338	film_cut	5782
+1338	genre	31
+70819	link_source	1338
+135199	link_source	1338
+37782	link_source	1338
+19249	link_source	1338
+716	link_source	1338
+1338	performance	27085
+1338	performance	27088
+1338	performance	119395
+1338	performance	27087
+1338	performance	27089
+1338	performance	186775
+1338	performance	27086
+1338	music_contributor	5683
+1338	actor	34294
+1338	actor	33729
+1338	actor	29477
+1338	actor	31772
+1338	actor	31101
+1338	actor	36188
+1338	actor	32175
+1338	label	Soldier
+1338	film_story_contributor	255
+7073	film_of_distributor	1338
+1338	director	77
+1338	type	film
+1338	language	en
+1338	runtime	99
+1338	initial_release_date	1998-10-23
+1338	page	9202a8c04000641f8000000000333908
+1338	page	alias?type=imdbid&s=0120157
+1338	page	tt0120157
+1338	hasPhotoCollection	Soldier_(film)
+1338	writer	16216
+77	made	1338
+1338	producer	11454
+1338	producer	3482
+1338	producer	4492
+1338	producer	12796
+1338	producer	4491
+1338	producer	612
+1338	date	1998-10-23
+1338	title	Soldier
+1338	filmid	1338

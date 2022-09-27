@@ -1,34 +1,34 @@
-Bill: On His Own	prequel	Bill
-Anthony Page	made	Bill: On His Own
-Bill: On His Own	language	en
-Bill: On His Own	initial_release_date	1983
-Bill: On His Own	date	1983
-Bill: On His Own	film_cut	Film Cut #872
-Bill: On His Own	title	Bill: On His Own
-Bill: On His Own	director	Anthony Page
-Bill: On His Own	page	tt0085247
-Bill: On His Own	page	alias?type=imdbid&s=0085247
-Bill: On His Own	page	9202a8c04000641f8000000000c6ae93
-Bill: On His Own	runtime	100
-Bill: On His Own	writer	Barry Morrow
-Bill	prequel	Bill: On His Own
-Bill: On His Own	performance	Performance #4371
-Bill: On His Own	performance	Performance #4369
-Bill: On His Own	performance	Performance #4370
-Bill: On His Own	performance	Performance #4368
-Bill: On His Own	performance	Performance #159456
-Bill: On His Own	performance	Performance #4367
-Bill	sequel	Bill: On His Own
-140209	link_source	Bill: On His Own
-Bill: On His Own	type	film
-Bill: On His Own	genre	Biographical
-Bill: On His Own	genre	Drama
-Bill: On His Own	sequel	Bill
-Bill: On His Own	label	Bill: On His Own
-Bill: On His Own	actor	Tracey Walter
-Bill: On His Own	actor	Gary Busey
-Bill: On His Own	actor	Helen Hunt
-Bill: On His Own	actor	Teresa Wright
-Bill: On His Own	actor	Edie Mcclurg
-Bill: On His Own	actor	Mickey Rooney
-Bill: On His Own	filmid	7348
+7348	prequel	7347
+15854	made	7348
+7348	language	en
+7348	initial_release_date	1983
+7348	date	1983
+7348	film_cut	872
+7348	title	Bill: On His Own
+7348	director	15854
+7348	page	tt0085247
+7348	page	alias?type=imdbid&s=0085247
+7348	page	9202a8c04000641f8000000000c6ae93
+7348	runtime	100
+7348	writer	1389
+7347	prequel	7348
+7348	performance	4371
+7348	performance	4369
+7348	performance	4370
+7348	performance	4368
+7348	performance	159456
+7348	performance	4367
+7347	sequel	7348
+140209	link_source	7348
+7348	type	film
+7348	genre	30
+7348	genre	4
+7348	sequel	7347
+7348	label	Bill: On His Own
+7348	actor	46165
+7348	actor	29477
+7348	actor	29778
+7348	actor	30837
+7348	actor	38081
+7348	actor	30114
+7348	filmid	7348

@@ -1,52 +1,52 @@
-Francis Ng	actor_actorid	36141
-Francis Ng	actor_nytimes_id	
-Francis Ng	actor_name	Francis Ng
-Francis Ng	label	Francis Ng (Actor)
-Francis Ng	performance	Performance #50061
-Francis Ng	performance	Performance #88474
-Francis Ng	performance	Performance #60580
-Francis Ng	performance	Performance #128183
-Francis Ng	performance	Performance #107587
-Francis Ng	performance	Performance #57193
-Francis Ng	performance	Performance #57903
-Francis Ng	performance	Performance #88060
-Francis Ng	performance	Performance #122860
-Francis Ng	performance	Performance #77142
-Francis Ng	performance	Performance #131718
-Francis Ng	performance	Performance #160521
-Francis Ng	performance	Performance #65403
-Francis Ng	performance	Performance #140336
-Francis Ng	performance	Performance #83973
-Francis Ng	performance	Performance #36053
-Francis Ng	performance	Performance #58524
-Francis Ng	performance	Performance #66281
-Francis Ng	performance	Performance #129784
-Francis Ng	performance	Performance #61076
-Francis Ng	performance	Performance #115451
-Francis Ng	performance	Performance #92016
-Flirting Scholar	actor	Francis Ng
-The Closet	actor	Francis Ng
-God Of Gamblers 3: The Early Stage	actor	Francis Ng
-Karmic Mahjong	actor	Francis Ng
-Curse Of Lola	actor	Francis Ng
-Young And Dangerous: The Prequel	actor	Francis Ng
-The Golden Girls	actor	Francis Ng
-2000 Ad	actor	Francis Ng
-Full Alert	actor	Francis Ng
-Shamo	actor	Francis Ng
-Those Were The Days	actor	Francis Ng
-Infernal Affairs Ii	actor	Francis Ng
-The White Dragon	actor	Francis Ng
-Never Compromise	actor	Francis Ng
-Beauty And The Breast	actor	Francis Ng
-The Mission	actor	Francis Ng
-Exiled	actor	Francis Ng
-Once Upon A Time In Triad Society	actor	Francis Ng
-Love Trilogy	actor	Francis Ng
-Heroic Duo	actor	Francis Ng
-All'S Well, Ends Well 1997	actor	Francis Ng
-Himalaya Singh	actor	Francis Ng
-Francis Ng	page	9202a8c04000641f80000000004d578b
-Francis Ng	type	Person
-Francis Ng	type	actor
-Francis Ng	actor_netflix_id	
+36141	actor_actorid	36141
+36141	actor_nytimes_id	
+36141	actor_name	Francis Ng
+36141	label	Francis Ng (Actor)
+36141	performance	50061
+36141	performance	88474
+36141	performance	60580
+36141	performance	128183
+36141	performance	107587
+36141	performance	57193
+36141	performance	57903
+36141	performance	88060
+36141	performance	122860
+36141	performance	77142
+36141	performance	131718
+36141	performance	160521
+36141	performance	65403
+36141	performance	140336
+36141	performance	83973
+36141	performance	36053
+36141	performance	58524
+36141	performance	66281
+36141	performance	129784
+36141	performance	61076
+36141	performance	115451
+36141	performance	92016
+41076	actor	36141
+14139	actor	36141
+19139	actor	36141
+11547	actor	36141
+59733	actor	36141
+23695	actor	36141
+8731	actor	36141
+16513	actor	36141
+64450	actor	36141
+19963	actor	36141
+8548	actor	36141
+40637	actor	36141
+46460	actor	36141
+63495	actor	36141
+16976	actor	36141
+13144	actor	36141
+49795	actor	36141
+15021	actor	36141
+76933	actor	36141
+57086	actor	36141
+13700	actor	36141
+10853	actor	36141
+36141	page	9202a8c04000641f80000000004d578b
+36141	type	Person
+36141	type	actor
+36141	actor_netflix_id	

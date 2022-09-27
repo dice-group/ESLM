@@ -1,44 +1,44 @@
-Devyn Foster	actor_actorid	67878
-Devyn Foster	label	Devyn Foster (Actor)
-Devyn Foster	actor_name	Devyn Foster
-Devyn Foster	performance	Performance #190517
-Devyn Foster	performance	Performance #190522
-Devyn Foster	performance	Performance #190521
-Devyn Foster	performance	Performance #190519
-Devyn Foster	performance	Performance #190527
-Devyn Foster	performance	Performance #190508
-Devyn Foster	performance	Performance #190515
-Devyn Foster	performance	Performance #190516
-Devyn Foster	performance	Performance #190518
-Devyn Foster	performance	Performance #190513
-Devyn Foster	performance	Performance #190514
-Devyn Foster	performance	Performance #190520
-Devyn Foster	performance	Performance #190528
-Devyn Foster	performance	Performance #190524
-Devyn Foster	performance	Performance #190525
-Devyn Foster	performance	Performance #190526
-Devyn Foster	performance	Performance #190523
-Devyn Foster	performance	Performance #190534
-Knight Gallery	actor	Devyn Foster
-The Hole	actor	Devyn Foster
-The Urge	actor	Devyn Foster
-Limited Entry	actor	Devyn Foster
-Foul Play	actor	Devyn Foster
-Spank Me & R Gang	actor	Devyn Foster
-Young Americans	actor	Devyn Foster
-Boot Black 2 Spit Shine	actor	Devyn Foster
-Prisoner Of Love	actor	Devyn Foster
-The Personals	actor	Devyn Foster
-True Stories: Letters From The Hot House Files	actor	Devyn Foster
-Chance Encounters	actor	Devyn Foster
-Santa Monica Place	actor	Devyn Foster
-Straight Guys, Straight Trade	actor	Devyn Foster
-The Initiation	actor	Devyn Foster
-Wet Dreams	actor	Devyn Foster
-Fire In The Hole	actor	Devyn Foster
-Hand To Hand	actor	Devyn Foster
-Devyn Foster	page	9202a8c04000641f8000000012ca2cfe
-Devyn Foster	type	Person
-Devyn Foster	type	actor
-Devyn Foster	actor_nytimes_id	
-Devyn Foster	actor_netflix_id	
+67878	actor_actorid	67878
+67878	label	Devyn Foster (Actor)
+67878	actor_name	Devyn Foster
+67878	performance	190517
+67878	performance	190522
+67878	performance	190521
+67878	performance	190519
+67878	performance	190527
+67878	performance	190508
+67878	performance	190515
+67878	performance	190516
+67878	performance	190518
+67878	performance	190513
+67878	performance	190514
+67878	performance	190520
+67878	performance	190528
+67878	performance	190524
+67878	performance	190525
+67878	performance	190526
+67878	performance	190523
+67878	performance	190534
+86571	actor	67878
+86572	actor	67878
+86568	actor	67878
+86574	actor	67878
+81568	actor	67878
+92131	actor	67878
+91044	actor	67878
+86660	actor	67878
+86573	actor	67878
+89760	actor	67878
+86231	actor	67878
+86575	actor	67878
+86219	actor	67878
+89937	actor	67878
+81675	actor	67878
+86336	actor	67878
+83551	actor	67878
+86333	actor	67878
+67878	page	9202a8c04000641f8000000012ca2cfe
+67878	type	Person
+67878	type	actor
+67878	actor_nytimes_id	
+67878	actor_netflix_id	

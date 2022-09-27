@@ -1,35 +1,35 @@
-Biggie & Tupac	director	Nick Broomfield
-Film_Film_Distributor_Relationship #10936	film_of_distributor	Biggie & Tupac
-Biggie & Tupac	performance	Performance #4347
-Biggie & Tupac	performance	Performance #4346
-Biggie & Tupac	performance	Performance #4344
-Biggie & Tupac	performance	Performance #4343
-Biggie & Tupac	performance	Performance #118676
-Biggie & Tupac	performance	Performance #4345
-Biggie & Tupac	date	2002-01-11
-Biggie & Tupac	actor	David Hicken
-Biggie & Tupac	actor	Nick Broomfield
-Biggie & Tupac	actor	Billy Garland
-Biggie & Tupac	actor	Voletta Wallace
-Biggie & Tupac	actor	Russell Poole
-Biggie & Tupac	actor	Tupac Shakur
-Biggie & Tupac	music_contributor	Christian Henson
-Biggie & Tupac	producer	Nick Broomfield
-Biggie & Tupac	producer	Michele D'Acosta
-Biggie & Tupac	editor	Jaime Estrada Torres
-Biggie & Tupac	editor	Mark Atkins
-Biggie & Tupac	language	en
-Biggie & Tupac	production_company	Lions Gate Entertainment
-Biggie & Tupac	film_cut	Film Cut #867
-Biggie & Tupac	page	alias?type=imdbid&s=0303356
-Biggie & Tupac	page	tt0303356
-Biggie & Tupac	page	9202a8c04000641f80000000005646e7
-Biggie & Tupac	label	Biggie & Tupac
-136276	link_source	Biggie & Tupac
-Biggie & Tupac	initial_release_date	2002-01-11
-Biggie & Tupac	filmid	2572
-Biggie & Tupac	type	film
-Nick Broomfield	made	Biggie & Tupac
-Biggie & Tupac	runtime	108
-Biggie & Tupac	cinematographer	Joan Churchill
-Biggie & Tupac	title	Biggie & Tupac
+2572	director	9690
+10936	film_of_distributor	2572
+2572	performance	4347
+2572	performance	4346
+2572	performance	4344
+2572	performance	4343
+2572	performance	118676
+2572	performance	4345
+2572	date	2002-01-11
+2572	actor	47098
+2572	actor	34874
+2572	actor	39434
+2572	actor	44171
+2572	actor	44189
+2572	actor	29669
+2572	music_contributor	371
+2572	producer	10869
+2572	producer	1181
+2572	editor	318
+2572	editor	2398
+2572	language	en
+2572	production_company	86
+2572	film_cut	867
+2572	page	alias?type=imdbid&s=0303356
+2572	page	tt0303356
+2572	page	9202a8c04000641f80000000005646e7
+2572	label	Biggie & Tupac
+136276	link_source	2572
+2572	initial_release_date	2002-01-11
+2572	filmid	2572
+2572	type	film
+9690	made	2572
+2572	runtime	108
+2572	cinematographer	183
+2572	title	Biggie & Tupac

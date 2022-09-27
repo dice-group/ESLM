@@ -1,42 +1,42 @@
-Men In White	language	en
-74334	link_source	Men In White
-143782	link_source	Men In White
-Men In White	filmid	12398
-Men In White	film_art_director	Cedric Gibbons
-Men In White	producer	Monta Bell
-Men In White	actor	Jean Hersholt
-Men In White	actor	Clark Gable
-Men In White	actor	Henry B. Walthall
-Men In White	actor	Frank Puglia
-Men In White	actor	Russell Hopton
-Men In White	actor	Russell Hardie
-Men In White	actor	Elizabeth Allan
-Men In White	actor	Leo Chalzel
-Men In White	actor	Myrna Loy
-Men In White	actor	Isabel Jewell
-Men In White	actor	Otto Kruger
-Men In White	actor	Wallace Ford
-Men In White	actor	Samuel S. Hinds
-Men In White	label	Men In White
-Men In White	story_contributor	Sidney Kingsley
-Men In White	page	9202a8c04000641f80000000047968f5
-Men In White	performance	Performance #148973
-Men In White	performance	Performance #148979
-Men In White	performance	Performance #148980
-Men In White	performance	Performance #148971
-Men In White	performance	Performance #148975
-Men In White	performance	Performance #148976
-Men In White	performance	Performance #148978
-Men In White	performance	Performance #148968
-Men In White	performance	Performance #148977
-Men In White	performance	Performance #148970
-Men In White	performance	Performance #148974
-Men In White	performance	Performance #148972
-Men In White	performance	Performance #148969
-Men In White	type	film
-Men In White	title	Men In White
-Men In White	film_story_contributor	Sidney Kingsley
-Men In White	director	Ryszard BolesåAwski
-Men In White	writer	Waldemar Young
-Ryszard BolesåAwski	made	Men In White
-Men In White	genre	Drama
+12398	language	en
+74334	link_source	12398
+143782	link_source	12398
+12398	filmid	12398
+12398	film_art_director	5
+12398	producer	13587
+12398	actor	29977
+12398	actor	29731
+12398	actor	44076
+12398	actor	40968
+12398	actor	55700
+12398	actor	61226
+12398	actor	728
+12398	actor	61227
+12398	actor	30368
+12398	actor	33534
+12398	actor	46898
+12398	actor	38458
+12398	actor	61176
+12398	label	Men In White
+12398	story_contributor	601
+12398	page	9202a8c04000641f80000000047968f5
+12398	performance	148973
+12398	performance	148979
+12398	performance	148980
+12398	performance	148971
+12398	performance	148975
+12398	performance	148976
+12398	performance	148978
+12398	performance	148968
+12398	performance	148977
+12398	performance	148970
+12398	performance	148974
+12398	performance	148972
+12398	performance	148969
+12398	type	film
+12398	title	Men In White
+12398	film_story_contributor	601
+12398	director	82
+12398	writer	20104
+82	made	12398
+12398	genre	4

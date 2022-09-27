@@ -1,37 +1,37 @@
-Dante Basco	actor_name	Dante Basco
-Dante Basco	actor_nytimes_id	
-Dante Basco	performance	Performance #122675
-Dante Basco	performance	Performance #152327
-Dante Basco	performance	Performance #121760
-Dante Basco	performance	Performance #44873
-Dante Basco	performance	Performance #187452
-Dante Basco	performance	Performance #123155
-Dante Basco	performance	Performance #184389
-Dante Basco	performance	Performance #30620
-Dante Basco	performance	Performance #83942
-Dante Basco	performance	Performance #82695
-Dante Basco	performance	Performance #77341
-Dante Basco	performance	Performance #10502
-Dante Basco	performance	Performance #28513
-Dante Basco	performance	Performance #84005
-Dante Basco	performance	Performance #120534
-Hook	actor	Dante Basco
-Avatar: The Last Airbender: Book 2	actor	Dante Basco
-Love Don'T Cost A Thing	actor	Dante Basco
-Biker Boyz	actor	Dante Basco
-The Debut	actor	Dante Basco
-Extreme Days	actor	Dante Basco
-Avatar: The Last Airbender: Book 1	actor	Dante Basco
-Take The Lead	actor	Dante Basco
-Avatar: The Last Airbender: Book 3	actor	Dante Basco
-Blood And Bone	actor	Dante Basco
-Fakin' Da Funk	actor	Dante Basco
-But I'M A Cheerleader	actor	Dante Basco
-Rave	actor	Dante Basco
-Rave	actor	Dante Basco
-Dante Basco	label	Dante Basco (Actor)
-Dante Basco	actor_actorid	38225
-Dante Basco	actor_netflix_id	
-Dante Basco	type	Person
-Dante Basco	type	actor
-Dante Basco	page	9202a8c04000641f8000000000646474
+38225	actor_name	Dante Basco
+38225	actor_nytimes_id	
+38225	performance	122675
+38225	performance	152327
+38225	performance	121760
+38225	performance	44873
+38225	performance	187452
+38225	performance	123155
+38225	performance	184389
+38225	performance	30620
+38225	performance	83942
+38225	performance	82695
+38225	performance	77341
+38225	performance	10502
+38225	performance	28513
+38225	performance	84005
+38225	performance	120534
+905	actor	38225
+58958	actor	38225
+5215	actor	38225
+41946	actor	38225
+45096	actor	38225
+47819	actor	38225
+59934	actor	38225
+46420	actor	38225
+58102	actor	38225
+94383	actor	38225
+11541	actor	38225
+1393	actor	38225
+96372	actor	38225
+59607	actor	38225
+38225	label	Dante Basco (Actor)
+38225	actor_actorid	38225
+38225	actor_netflix_id	
+38225	type	Person
+38225	type	actor
+38225	page	9202a8c04000641f8000000000646474
