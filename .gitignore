@@ -145,3 +145,7 @@ GATES_log.txt
 Bert_log.txt
 lama/
 src/
+lmdb_models/
+dbpedia_models/
+faces_models/
+logs/

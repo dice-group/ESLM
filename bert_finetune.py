@@ -67,7 +67,7 @@ def main(mode, best_epoch):
         elif ds_name == "faces":
             MAX_LENGTH = 46
         else:
-            MAX_LENGTH = 34
+            MAX_LENGTH = 46
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
