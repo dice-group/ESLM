@@ -44,8 +44,8 @@ class BertClassifier(nn.Module):
         self.classifier = nn.Linear(self.feat_dim, nb_class)
         self.softmax = nn.Softmax(dim=0)
     def forward(self, input_ids, attention_mask, token_type_ids):
-        _, pooler_output = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
-        cls_logit = self.classifier(pooler_output)
+        outputs = self.bert_model(input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)#self.bert_model(input_ids, attention_mask)[0][:, 0]
+        cls_logit = self.classifier(outputs.pooler_output)
         cls_logit = self.softmax(cls_logit)
         return cls_logit 
     
@@ -84,7 +84,7 @@ def main(mode, best_epoch):
                         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
-                    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=3e-5, eps=1e-8)
+                    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=5e-5, eps=1e-8)
                     models_path = os.path.join("models", f"bert_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, MAX_LENGTH)
