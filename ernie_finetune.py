@@ -76,7 +76,8 @@ def main(mode, best_epoch):
                 for fold in range(5):
                     fold = fold
                     print("")
-                    print(f"Fold: {fold+1}, total entities: {len(train_data[fold][0])}", f"topk: top{topk}")
+                    len_ent = len(train_data[fold][0])
+                    print("Fold: {}".format(fold+1), f"total entities: {len_ent}", f"topk: top{topk}")
                     model = ErnieClassifier()
                     model.to(DEVICE)
                     param_optimizer = list(model.named_parameters())
