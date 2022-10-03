@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/homepage> <http://www.ferrari.com/> .
+<http://dbpedia.org/resource/Ferrari> <http://xmlns.com/foaf/0.1/homepage> <http://www.ferrari.com/> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/locationCountry> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/product> <http://dbpedia.org/resource/Supercar> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/parent> <http://dbpedia.org/resource/Fiat> .
