@@ -10,7 +10,7 @@ import torch
 config = {
         "file_n": 6,
         "topk": [5, 10],
-        "ds_name" : ['faces'],
+        "ds_name" : ['dbpedia'],
         "weighted_score"  : "tf-idf",
         "loss_function" : torch.nn.BCELoss(),
         "weight_decay": 1e-5,
