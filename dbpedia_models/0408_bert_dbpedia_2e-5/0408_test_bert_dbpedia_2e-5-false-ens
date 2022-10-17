@@ -1,0 +1,22 @@
+
+fold: 1, total entities: 25 topk: top5
+
+fold: 2, total entities: 25 topk: top5
+
+fold: 3, total entities: 25 topk: top5
+
+fold: 4, total entities: 25 topk: top5
+
+fold: 5, total entities: 25 topk: top5
+<classes.dataset.ESBenchmark object at 0x7fe11e34af60>@top5: F-Measure=0.42693333333333333, NDCG=0.8614518464327419, MAP=0.5245338211165426
+
+fold: 1, total entities: 25 topk: top10
+
+fold: 2, total entities: 25 topk: top10
+
+fold: 3, total entities: 25 topk: top10
+
+fold: 4, total entities: 25 topk: top10
+
+fold: 5, total entities: 25 topk: top10
+<classes.dataset.ESBenchmark object at 0x7fe112cbecf8>@top10: F-Measure=0.5993333333333333, NDCG=0.9236403462481374, MAP=0.6866780736344411
