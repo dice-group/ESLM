@@ -7,4 +7,4 @@ psutil==5.8.0
 SPARQLWrapper==1.8.5
 matplotlib==3.3.4
 rdflib==4.2.1
-transformers==4.16.2
+transformers==4.30.0
