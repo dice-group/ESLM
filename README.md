@@ -60,8 +60,11 @@ python run_eslm_bert.py --mode test
 python run_eslm_bert_ens.py --mode test
 ```
 
-Run to evaluate an example result.
+### Run to evaluate an example result.
 ```
 cd evaluator
 bash run.sh
 ```
+
+## Contact
+If you have any questions or feedbacks, feel free to contact us at asep.fajar.firmansyah@uni-paderborn.de
