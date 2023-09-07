@@ -21,7 +21,7 @@ On this experiment, we used two datasets:
 
 ## Installation
 ```
-https://github.com/u2018/ESLM.git
+https://github.com/dice-group/ESLM.git
 ```
 
 ### Training the ESLM model with ERNIE
