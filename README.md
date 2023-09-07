@@ -1,6 +1,10 @@
 # ESLM
 ##  Improving entity summarization by leveraging languagemodels
 
+<p align="center">
+<img src="eslm.png">
+</p>
+
 ## Dataset
 
 On this experiment, we used two datasets:
