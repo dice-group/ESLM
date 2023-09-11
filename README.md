@@ -24,16 +24,10 @@ On this experiment, we used two datasets:
 https://github.com/dice-group/ESLM.git
 ```
 
-### Training the ESLM model with ERNIE
+### To train/testing the ESLM model with ERNIE
 
 ```
-python run_eslm_ernie.py --mode train
-```
-
-### Testing the ESLM model with ERNIE
-
-```
-python run_eslm_ernie.py --mode test
+python run_eslm_ernie.py --mode {train, test}
 ```
 
 ### Run Ensemble Learning on the ESLM model with ERNIE
@@ -42,16 +36,10 @@ python run_eslm_ernie.py --mode test
 python run_eslm_ernie_ens.py --mode test
 ```
 
-### Training the ESLM model with BERT
+### To train/testing the ESLM model with BERT
 
 ```
-python run_eslm_bert.py --mode train
-```
-
-### Testing the ESLM model with BERT
-
-```
-python run_eslm_bert.py --mode test
+python run_eslm_bert.py --mode {train, test}
 ```
 
 ### Run Ensemble Learning on the ESLM model with BERT
