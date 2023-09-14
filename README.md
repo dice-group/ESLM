@@ -30,10 +30,16 @@ https://github.com/dice-group/ESLM.git
 python run_eslm_ernie.py --mode {train, test}
 ```
 
+### To train/testing the ESLM model with enrichment ERNI with KGE
+
+```
+python run_eslm_ernie_kge.py --mode {train, test}
+```
+
 ### Run Ensemble Learning on the ESLM model with ERNIE
 
 ```
-python run_eslm_ernie_ens.py --mode test
+python run_eslm_ernie_kge_ens.py --mode test
 ```
 
 ### To train/testing the ESLM model with BERT
@@ -42,10 +48,16 @@ python run_eslm_ernie_ens.py --mode test
 python run_eslm_bert.py --mode {train, test}
 ```
 
+### To train/testing the ESLM model with enrichment BERT with KGE
+
+```
+python run_eslm_bert_kge.py --mode {train, test}
+```
+
 ### Run Ensemble Learning on the ESLM model with BERT
 
 ```
-python run_eslm_bert_ens.py --mode test
+python run_eslm_bert_kge_ens.py --mode test
 ```
 
 ### Run to evaluate an example result.

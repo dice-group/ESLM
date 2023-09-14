@@ -23,7 +23,6 @@ from evaluator.ndcg import NDCG
 from config import config
 from classes.helpers import Utils
 from classes.dataset import ESBenchmark
-from Sophia.sophia import SophiaG
 
 UTILS = Utils()
 LOSS_FUNCTION = config["loss_function"]
@@ -121,14 +120,12 @@ def main(mode, best_epoch):
         pred_emb_dim = 400
 
         entity2vec, pred2vec, entity2ix, pred2ix = load_dglke(ds_name)
-        #print(entity2ix)
         entity_dict = entity2vec
         pred_dict = pred2vec
         pred2ix_size = len(pred2ix)
         entity2ix_size = len(entity2ix)
         hidden_size = ent_emb_dim + pred_emb_dim
-        #print(entity2ix)
-
+        
         if mode == "train":
             for topk in config["topk"]:
                 dataset = ESBenchmark(ds_name, file_n, topk, is_weighted_adjacency_matrix)
@@ -146,7 +143,6 @@ def main(mode, best_epoch):
                         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
                         ]
                     optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=config["learning_rate"], eps=1e-8)
-                    #optimizer = SophiaG(model.parameters(), lr=config["learning_rate"], betas=(0.965, 0.99), rho = 0.05, weight_decay=5e-1)
                     models_path = os.path.join("models", f"ernie_dglke_checkpoint-{ds_name}-{topk}-{fold}")
                     models_dir = os.path.join(os.getcwd(), models_path)
                     train(model, optimizer, train_data[fold][0], valid_data[fold][0], dataset, topk, fold, models_dir, MAX_LENGTH, entity_dict, pred_dict, entity2ix, pred2ix)
@@ -164,7 +160,6 @@ def main(mode, best_epoch):
                     else:
                         checkpoint = torch.load(os.path.join(models_path, f"checkpoint_latest_{fold}.pt"))
                     model.load_state_dict(checkpoint["model"])
-                    #model.classifier.load_state_dict(checkpoint["classifier"])
                     model.to(DEVICE)
                     generated_entity_summaries(model, test_data[fold][0], dataset, topk, MAX_LENGTH, entity_dict, pred_dict, entity2ix, pred2ix)
                 evaluation(dataset, topk)
@@ -176,9 +171,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
     stop_valid_epoch = None
     total_steps = len(train_data) * config["n_epochs"]
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-    #scheduler1 = StepLR(optimizer, step_size=5, gamma=0.1, verbose=True)
-    #scheduler2 = ReduceLROnPlateau(optimizer, 'min', patience=2)
-    early_stopping = EarlyStopping(tolerance=5, min_delta=0.0)
     for epoch in range(config["n_epochs"]):
         model.train()
         train_loss = 0
@@ -223,19 +215,14 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             s_tensor = torch.tensor(np.array(s_embs),dtype=torch.float).unsqueeze(1)
             o_tensor = torch.tensor(np.array(o_embs),dtype=torch.float).unsqueeze(1)
             p_tensor = torch.tensor(np.array(p_embs),dtype=torch.float).unsqueeze(1)
-            #kg_embeds = torch.cat((p_tensor, o_tensor), 2).to(DEVICE)
-            #g_embeds = torch.add(p_tensor, o_tensor).to(DEVICE)
             kg_embeds = torch.cat((s_tensor, p_tensor, o_tensor), 2).to(DEVICE)
-            #print(kg_embeds.shape)
-
+            
             features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
             all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long).to(DEVICE)
             all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long).to(DEVICE)
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long).to(DEVICE)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels).to(DEVICE)
             output_tensor = model(all_input_ids, all_input_mask, all_segment_ids, kg_embeds)
-            #print(output_tensor)
-            #print(output_tensor.shape)
             loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
             train_output_tensor = output_tensor.view(1, -1).cpu()
             (_, output_top) = torch.topk(train_output_tensor, topk)
@@ -244,9 +231,7 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
             acc = UTILS.accuracy(output_top.squeeze(0).numpy().tolist(), gold_list_top)
             loss.backward()
             optimizer.step()
-            #optimizer.step(bs=4096)
             scheduler.step()
-            #optimizer.zero_grad(set_to_none=True)
             optimizer.zero_grad()
             train_loss += loss.item()
             train_acc += acc
@@ -295,8 +280,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 s_tensor = torch.tensor(np.array(s_embs),dtype=torch.float).unsqueeze(1)
                 o_tensor = torch.tensor(np.array(o_embs),dtype=torch.float).unsqueeze(1)
                 p_tensor = torch.tensor(np.array(p_embs),dtype=torch.float).unsqueeze(1)
-                #kg_embeds = torch.cat((p_tensor, o_tensor), 2).to(DEVICE)
-                #kg_embeds = torch.add(p_tensor, o_tensor).to(DEVICE)
                 kg_embeds = torch.cat((s_tensor, p_tensor, o_tensor), 2).to(DEVICE)
 
                 features = UTILS.convert_to_features_with_subject(literal, TOKENIZER, max_length, triples, labels)
@@ -304,7 +287,6 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
                 all_input_mask = torch.tensor([f.input_mask for f in features], dtype=torch.long).to(DEVICE)
                 all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long).to(DEVICE)
                 target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels).to(DEVICE)
-                #output_tensor = model(all_input_ids, all_segment_ids, all_input_mask)
                 output_tensor = model(all_input_ids, all_input_mask, all_segment_ids, kg_embeds)
                 loss = LOSS_FUNCTION(output_tensor.view(-1), target_tensor.view(-1)).to(DEVICE)
                 valid_output_tensor = output_tensor.view(1, -1).cpu()
@@ -321,34 +303,8 @@ def train(model, optimizer, train_data, valid_data, dataset, topk, fold, models_
         valid_loss = valid_loss/len(valid_data)
         valid_acc = valid_acc/len(valid_data)
         curr_lr = optimizer.param_groups[0]['lr']
-        #scheduler1.step()
-        #scheduler2.step(valid_loss)
         print("")
         print(f"train-loss:{train_loss}, train-acc:{train_acc}, valid-loss:{valid_loss}, valid-acc:{valid_acc}, current lr: {curr_lr}")
-        #print(config["learning_rate"])
-        # early stopping
-        early_stopping(train_loss, valid_loss)
-        #if early_stopping.early_stop:
-        #    print("We are at epoch:", epoch)
-        #    break
-        '''    
-        if valid_acc >= best_acc:
-            print(f"saving best model,  val_accuracy improved from {best_acc} to {valid_acc}")
-            best_acc = valid_acc
-            torch.save({
-                "epoch": epoch,
-                "bert_model": model.bert.state_dict(),
-                "model": model.state_dict(),
-                "optimizer_state_dict": optimizer.state_dict(),
-                "train_loss": train_loss,
-                'valid_loss': valid_loss,
-                'fold': fold,
-                'acc': best_acc,
-                'training_time': training_time,
-                'validation_time': validation_time
-                }, os.path.join(models_dir, f"checkpoint_best_{fold}.pt"))
-            stop_valid_epoch = epoch
-        '''    
         torch.save({
                 "epoch": epoch,
                 "bert_model": model.bert.state_dict(),
@@ -413,15 +369,8 @@ def generated_entity_summaries(model, test_data, dataset, topk, max_length, enti
             all_segment_ids = torch.tensor([f.segment_ids for f in features], dtype=torch.long).to(DEVICE)
             target_tensor = UTILS.tensor_from_weight(len(triples), triples, labels).to(DEVICE)
             output_tensor = model(all_input_ids, all_input_mask, all_segment_ids, kg_embeds)
-            #applu similarity 
-            #output_tensor = model.bert_model(all_input_ids, all_input_mask)
-            #console.log(f"""Calculting the similarity between triples ...""")
-            #cls_distance = max_cosine_distance(output_tensor[0])
-            #console.log(cls_distance)
-            #output_tensor = cls_distance[0]
             output_tensor = output_tensor.view(1, -1).cpu()
             target_tensor = target_tensor.view(1, -1).cpu()
-            #(label_top_scores, label_top) = torch.topk(target_tensor, topk)
             _, output_top = torch.topk(output_tensor, topk)
             _, output_rank = torch.topk(output_tensor, len(test_data[eid]))
             directory = f"outputs/{dataset.get_ds_name}"
@@ -544,17 +493,9 @@ def evaluation(dataset, k):
         gold_list_top, triples_dict, triple_tuples = get_all_data(dataset.db_path, t, k, dataset.file_n)
         rank_triples, encoded_rank_triples = get_rank_triples(IN_SUMM, t, k, triples_dict)
         topk_triples, encoded_topk_triples = get_topk_triples(IN_SUMM, t, k, triples_dict)
-        #print("############### Top-K Triples ################", t)
-        #print("######################")
-        #print(triples_dict)
-        #print("total of gold summaries", len(gold_list_top))
-        #print("topk", encoded_topk_triples)
-        #ndcg_score = getNDCG(rel)
         ndcg_score = ndcg_class.get_score(gold_list_top, encoded_rank_triples)
         f_score = fmeasure.get_score(encoded_topk_triples, gold_list_top)
         map_score = m.get_map(encoded_rank_triples, gold_list_top)
-        #print(ndcg_score)
-        #print("*************************")
         total_ndcg += ndcg_score
         all_ndcg_scores.append(ndcg_score)
         
@@ -568,17 +509,9 @@ def evaluation(dataset, k):
         gold_list_top, triples_dict, triple_tuples = get_all_data(dataset.db_path, t, k, dataset.file_n)
         rank_triples, encoded_rank_triples = get_rank_triples(IN_SUMM, t, k, triples_dict)
         topk_triples, encoded_topk_triples = get_topk_triples(IN_SUMM, t, k, triples_dict)
-        #print("############### Top-K Triples ################", t)
-        #print("######################")
-        #print(triples_dict)
-        #print("total of gold summaries", len(gold_list_top))
-        #print("topk", encoded_topk_triples)
-        #ndcg_score = getNDCG(rel)
         ndcg_score = ndcg_class.get_score(gold_list_top, encoded_rank_triples)
         f_score = fmeasure.get_score(encoded_topk_triples, gold_list_top)
         map_score = m.get_map(encoded_rank_triples, gold_list_top)
-        #print(ndcg_score)
-        #print("*************************")
         total_ndcg += ndcg_score
         all_ndcg_scores.append(ndcg_score)
         
@@ -589,21 +522,6 @@ def evaluation(dataset, k):
         
     print("{}@top{}: F-Measure={}, NDCG={}, MAP={}".format(dataset, k, np.average(all_fscore), np.average(all_ndcg_scores), np.average(all_map_scores)))
 
-class EarlyStopping:
-    def __init__(self, tolerance=5, min_delta=0):
-
-        self.tolerance = tolerance
-        self.min_delta = min_delta
-        self.counter = 0
-        self.early_stop = False
-
-    def __call__(self, train_loss, validation_loss):
-        print(validation_loss - train_loss, self.min_delta)
-        if (validation_loss - train_loss) > self.min_delta:
-            self.counter +=1
-            if self.counter >= self.tolerance:  
-                self.early_stop = True
-                
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description='BERT-GATES')
     PARSER.add_argument("--mode", type=str, default="test", help="mode type: train/test/all")
