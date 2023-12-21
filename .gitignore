@@ -129,22 +129,3 @@ dmypy.json
 .pyre/
 
 #others
-classes/
-models/
-log_images/
-model-testing-dbpedia-lmdb.txt
-model-testing-dbpedia-lmdb-ensembled.txt
-model-testing-faces.txt
-text_embed/
-kg_embed/
-test_bert.py
-test_build_graphs.py
-HARE/
-GATES_log.txt
-Bert_log.txt
-lama/
-src/
-lmdb_models/
-dbpedia_models/
-faces_models/
-logs/
