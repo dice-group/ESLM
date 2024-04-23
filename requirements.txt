@@ -1,10 +1,10 @@
-scipy==1.5.4
+scipy
 numpy==1.22
 gensim==3.8.3
 nltk==3.6.6
-torch==1.7.0
+torch
 psutil==5.8.0
 SPARQLWrapper==1.8.5
 matplotlib==3.3.4
 rdflib==4.2.1
-transformers==4.16.2
+transformers
