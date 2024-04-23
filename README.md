@@ -69,3 +69,20 @@ Evaluating only
 ```
 python main.py --model t5 --no-train
 ```
+
+## How to Cite
+```bibtex
+@inproceedings{ESLM2024,
+  added-at = {2024-04-09T18:50:37.000+0200},
+  author = {Firmansyah, Asep Fajar and Mousallem, Diego and Ngonga Ngomo, Axel-Cyrille},
+  booktitle = {{ESWC}},
+  journal = {ESWC 2024},
+  title = {ESLM: Improving Entity Summarization by Leveraging Language Models},
+  url = {https://papers.dice-research.org/2024/ESWC_ESLM/public.pdf},
+  year = 2024
+}
+
+```
+
+## Contact
+If you have any questions or feedbacks, feel free to contact us at asep.fajar.firmansyah@upb.de
