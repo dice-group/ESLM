@@ -75,10 +75,9 @@ python main.py --model t5 --no-train
 @inproceedings{ESLM2024,
   added-at = {2024-04-09T18:50:37.000+0200},
   author = {Firmansyah, Asep Fajar and Mousallem, Diego and Ngonga Ngomo, Axel-Cyrille},
-  booktitle = {{ESWC}},
-  journal = {ESWC 2024},
+  booktitle = {The Semantic Web},
   title = {ESLM: Improving Entity Summarization by Leveraging Language Models},
-  url = {https://papers.dice-research.org/2024/ESWC_ESLM/public.pdf},
+  url = {https://doi.org/10.1007/978-3-031-60626-7_9},
   year = 2024
 }
 
