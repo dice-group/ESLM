@@ -73,7 +73,6 @@ python main.py --model t5 --no-train
 ## How to Cite
 ```bibtex
 @inproceedings{ESLM2024,
-  added-at = {2024-04-09T18:50:37.000+0200},
   author = {Firmansyah, Asep Fajar and Mousallem, Diego and Ngonga Ngomo, Axel-Cyrille},
   booktitle = {The Semantic Web},
   title = {ESLM: Improving Entity Summarization by Leveraging Language Models},
