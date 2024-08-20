@@ -1,7 +1,7 @@
 scipy
 numpy==1.22
 gensim==3.8.3
-nltk==3.6.6
+nltk==3.9
 torch
 psutil==5.8.0
 SPARQLWrapper==1.8.5
